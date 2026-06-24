@@ -1,0 +1,53 @@
+services:
+  wordpress:
+    image: wordpress:6-apache
+    container_name: wp_bc
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: ${DB_NAME:-bc_wp}
+      WORDPRESS_DB_USER: ${DB_USER:-wpuser}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD:-wppass}
+      WORDPRESS_DB_CHARSET: utf8mb4
+      WORDPRESS_DB_COLLATE: utf8mb4_unicode_ci
+      WORDPRESS_TABLE_PREFIX: ${TABLE_PREFIX:-wp_}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_HOME', '${WP_HOME:-http://localhost:8080}');
+        define('WP_SITEURL', '${WP_SITEURL:-http://localhost:8080}');
+    volumes:
+      - wp_data:/var/www/html
+      - ./config/wp-config.php:/var/www/html/wp-config.php
+      - ./config/.htaccess:/var/www/html/.htaccess
+      - ./config/php.ini:/usr/local/etc/php/conf.d/99-optimized.ini
+      - ./wp-content/plugins:/var/www/html/wp-content/plugins
+      - ./wp-content/themes:/var/www/html/wp-content/themes
+      - ./wp-content/uploads:/var/www/html/wp-content/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: mysql:8.4
+    container_name: wp_bc_db
+    restart: unless-stopped
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: ${DB_NAME:-bc_wp}
+      MYSQL_USER: ${DB_USER:-wpuser}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-wppass}
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./config/my.cnf:/etc/mysql/conf.d/optimized.cnf
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  wp_data:
+  db_data:

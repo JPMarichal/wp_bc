@@ -1,0 +1,16 @@
+# env
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+wp-content/debug.log
+*.log
+
+# WordPress core (no tracked)
+wp-core/
+
+# Docker
+docker-data/

@@ -1,0 +1,301 @@
+[
+	{
+		"name": "Palmyra (Nueva York)",
+		"lat": 43.0631,
+		"lng": -77.2342,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1820,
+		"description": "Lugar de la Primera Visión (1820) y donde José Smith recibió el disco de oro.",
+		"scriptures": [{ "ref": "JS—H 1:5–20" }]
+	},
+	{
+		"name": "Manchester (Nueva York)",
+		"lat": 42.9794,
+		"lng": -77.2290,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1820,
+		"description": "Colina Cumorah, donde se encontraban enterrados los anales.",
+		"scriptures": [{ "ref": "JS—H 1:51–54" }]
+	},
+	{
+		"name": "Kirtland (Ohio)",
+		"lat": 41.6195,
+		"lng": -81.3610,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1831,
+		"dateTo": 1838,
+		"description": "Sede temprana de la Iglesia. Se construyó el primer templo (1836).",
+		"scriptures": [{ "ref": "DyC 109–110" }]
+	},
+	{
+		"name": "Independence (Misuri)",
+		"lat": 39.0926,
+		"lng": -94.4150,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1831,
+		"description": "Lugar señalado para la Ciudad de Sión y el Templo.",
+		"scriptures": [{ "ref": "DyC 57:1–5" }]
+	},
+	{
+		"name": "Sión (Condado de Jackson)",
+		"lat": 39.0,
+		"lng": -94.4,
+		"type": "region",
+		"icon": "pin",
+		"dateFrom": 1831,
+		"description": "Tierra de Sión, el lugar de reunión.",
+		"scriptures": [{ "ref": "DyC 57" }]
+	},
+	{
+		"name": "Liberty (Misuri)",
+		"lat": 39.2461,
+		"lng": -94.4190,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1833,
+		"dateTo": 1839,
+		"description": "Cárcel de Liberty donde José Smith recibió la sección 121 de DyC.",
+		"scriptures": [{ "ref": "DyC 121–123" }]
+	},
+	{
+		"name": "Far West (Misuri)",
+		"lat": 39.7758,
+		"lng": -94.0300,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1836,
+		"dateTo": 1839,
+		"description": "Centro de la Iglesia en Misuri. Se señaló el lugar para un templo.",
+		"scriptures": [{ "ref": "DyC 115:7" }]
+	},
+	{
+		"name": "Adam-ondi-Ahmán (Misuri)",
+		"lat": 39.8850,
+		"lng": -93.9750,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1838,
+		"description": "Lugar donde Adán bendijo a su posteridad. Futura sede de Sión.",
+		"scriptures": [{ "ref": "DyC 116", "ref": "DyC 107:53–56" }]
+	},
+	{
+		"name": "Nauvoo (Illinois)",
+		"lat": 40.5499,
+		"lng": -91.3926,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1839,
+		"dateTo": 1846,
+		"description": "Ciudad de los Santos en el río Mississippi. Templo de Nauvoo.",
+		"scriptures": [{ "ref": "DyC 124" }]
+	},
+	{
+		"name": "Templo de Nauvoo",
+		"lat": 40.5505,
+		"lng": -91.3920,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1841,
+		"dateTo": 1846,
+		"description": "Templo construido por los Santos en Nauvoo, dedicado en 1846."
+	},
+	{
+		"name": "Commerce (Illinois)",
+		"lat": 40.5499,
+		"lng": -91.3926,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1839,
+		"description": "Nombre original de Nauvoo. Comprado por los Santos en 1839.",
+		"scriptures": [{ "ref": "DyC 124:60" }]
+	},
+	{
+		"name": "Cárcel de Carthage",
+		"lat": 40.4137,
+		"lng": -91.1343,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1844,
+		"dateTo": 1844,
+		"description": "Lugar del martirio de José y Hyrum Smith (27 de junio de 1844).",
+		"scriptures": [{ "ref": "DyC 135" }]
+	},
+	{
+		"name": "Salt Lake City (Utah)",
+		"lat": 40.7608,
+		"lng": -111.8910,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1847,
+		"description": "Lugar de llegada de los pioneros mormones (24 de julio de 1847). Sede actual de la Iglesia.",
+		"scriptures": [{ "ref": "DyC 136" }]
+	},
+	{
+		"name": "Templo de Salt Lake",
+		"lat": 40.7702,
+		"lng": -111.8917,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1853,
+		"dateTo": 1893,
+		"description": "Templo principal de la Iglesia, dedicado en 1893."
+	},
+	{
+		"name": "Colina Cumorah",
+		"lat": 43.0210,
+		"lng": -77.2280,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1823,
+		"description": "Colina donde José Smith recibió el disco de oro de manos de Moroni.",
+		"scriptures": [{ "ref": "JS—H 1:51–54" }]
+	},
+	{
+		"name": "Río Missouri",
+		"lat": 41.0,
+		"lng": -95.9,
+		"type": "river",
+		"icon": "default",
+		"description": "Río fronterizo entre el oeste de Misuri y el este de Nebraska. Cruce de pioneros.",
+		"scriptures": [{ "ref": "DyC 61" }]
+	},
+	{
+		"name": "Winter Quarters (Nebraska)",
+		"lat": 41.3317,
+		"lng": -95.9600,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1846,
+		"dateTo": 1848,
+		"description": "Campamento temporal de los Santos al oeste del río Missouri, en ruta a Utah.",
+		"scriptures": [{ "ref": "DyC 136" }]
+	},
+	{
+		"name": "Council Bluffs (Iowa)",
+		"lat": 41.2565,
+		"lng": -95.8600,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1846,
+		"description": "Punto de reunión de los pioneros mormones antes de cruzar el río Missouri."
+	},
+	{
+		"name": "Fayette (Nueva York)",
+		"lat": 42.5542,
+		"lng": -76.8211,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1830,
+		"description": "Lugar de la organización de la Iglesia (6 de abril de 1830).",
+		"scriptures": [{ "ref": "DyC 20", "ref": "DyC 21" }]
+	},
+	{
+		"name": "Harmony (Pensilvania)",
+		"lat": 41.7867,
+		"lng": -75.4496,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1827,
+		"dateTo": 1830,
+		"description": "Lugar donde José Smith tradujo la mayor parte del Libro de Mormón y recibió varias revelaciones de DyC.",
+		"scriptures": [{ "ref": "DyC 3–6" }]
+	},
+	{
+		"name": "Peter Whitmer Sr. (Fayette)",
+		"lat": 42.5542,
+		"lng": -76.8211,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1830,
+		"description": "Casa de Peter Whitmer Sr., donde se organizó la Iglesia el 6 de abril de 1830.",
+		"scriptures": [{ "ref": "DyC 20" }]
+	},
+	{
+		"name": "Sitio del Templo de Independence",
+		"lat": 39.0926,
+		"lng": -94.4150,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1831,
+		"description": "Terreno señalado por revelación para la construcción del Templo de Sión.",
+		"scriptures": [{ "ref": "DyC 57:1–3" }]
+	},
+	{
+		"name": "Ramah (Misuri)",
+		"lat": 39.8850,
+		"lng": -93.9750,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1838,
+		"description": "Nombre alternativo de Adam-ondi-Ahmán.",
+		"scriptures": [{ "ref": "DyC 116" }]
+	},
+	{
+		"name": "Monte Sinaí",
+		"lat": 28.5387,
+		"lng": 33.9745,
+		"type": "mountain",
+		"icon": "default",
+		"dateFrom": -1440,
+		"description": "Monte donde Moisés recibió la Ley de Dios.",
+		"scriptures": [{ "ref": "Éxodo 19–20" }]
+	},
+	{
+		"name": "Río Sidón",
+		"lat": 31.5,
+		"lng": 35.6,
+		"type": "river",
+		"icon": "default",
+		"description": "Río mencionado en el Libro de Mormón como límite de tierras.",
+		"scriptures": [{ "ref": "Alma 22:27" }]
+	},
+	{
+		"name": "Jerusalén",
+		"lat": 31.7683,
+		"lng": 35.2137,
+		"type": "city",
+		"icon": "pin",
+		"description": "Ciudad santa. Lugar del templo de Salomón, ministerio de Jesús y sitio de la crucifixión.",
+		"scriptures": [{ "ref": "Varios" }]
+	},
+	{
+		"name": "Belén",
+		"lat": 31.7054,
+		"lng": 35.2024,
+		"type": "city",
+		"icon": "pin",
+		"description": "Ciudad natal de David y lugar del nacimiento de Jesús.",
+		"scriptures": [{ "ref": "Miqueas 5:2", "ref": "Mateo 2:1" }]
+	},
+	{
+		"name": "Nazaret",
+		"lat": 32.6996,
+		"lng": 35.3035,
+		"type": "city",
+		"icon": "pin",
+		"description": "Ciudad donde Jesús creció y pasó su juventud.",
+		"scriptures": [{ "ref": "Mateo 2:23", "ref": "Lucas 2:39–40" }]
+	},
+	{
+		"name": "Capernaúm",
+		"lat": 32.8800,
+		"lng": 35.5733,
+		"type": "city",
+		"icon": "pin",
+		"description": "Centro del ministerio de Jesús en Galilea.",
+		"scriptures": [{ "ref": "Mateo 4:13" }]
+	},
+	{
+		"name": "Mar de Galilea",
+		"lat": 32.8,
+		"lng": 35.6,
+		"type": "sea",
+		"icon": "default",
+		"description": "Lago donde Jesús caminó sobre el agua y llamó a sus discípulos.",
+		"scriptures": [{ "ref": "Marcos 4:35–41" }]
+	}
+]

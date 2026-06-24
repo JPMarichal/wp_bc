@@ -1,0 +1,15 @@
+.grid-container {
+  max-width: 100%;
+  padding-left: $container-padding-mobile;
+  padding-right: $container-padding-mobile;
+
+  @include respond-tablet {
+    padding-left: $container-padding-tablet;
+    padding-right: $container-padding-tablet;
+  }
+
+  @include respond-desktop {
+    padding-left: $container-padding-desktop;
+    padding-right: $container-padding-desktop;
+  }
+}
