@@ -16,11 +16,11 @@ const TYPE_CONFIG = {
 function getMarkerSvg(type) {
 	const cfg = TYPE_CONFIG[type] || { path: '', color: '#e74c3c' };
 	const icon = cfg.path
-		? `<path fill="${cfg.color}" d="${cfg.path}"/>`
+		? `<path fill="#fff" d="${cfg.path}"/>`
 		: '';
 	return `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="36" viewBox="0 0 24 36">
-		<path fill="${cfg.color}" d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24C24 5.4 18.6 0 12 0z"/>
-		<circle fill="#fff" cx="12" cy="12" r="5"/>
+		<path fill="${cfg.color}" stroke="rgba(0,0,0,0.2)" stroke-width="0.5" d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24C24 5.4 18.6 0 12 0z"/>
+		<circle fill="rgba(255,255,255,0.85)" cx="12" cy="12" r="6"/>
 		${icon}
 	</svg>`;
 }
