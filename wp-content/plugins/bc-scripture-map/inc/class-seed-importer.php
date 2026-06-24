@@ -1,6 +1,7 @@
 <?php
 
 define( 'BC_IMPORT_BATCH_SIZE', 50 );
+define( 'BC_IMPORT_COORD_TOLERANCE', 0.01 );
 
 add_action( 'admin_notices', 'bc_scripture_map_import_notice' );
 add_action( 'admin_post_bc_import_batch', 'bc_scripture_map_handle_import_batch' );
@@ -14,10 +15,12 @@ function bc_scripture_map_import_notice() {
 
 	$ob_total  = bc_scripture_map_count_tsv();
 	$ch_total  = bc_scripture_map_count_json();
+	$gn_total  = bc_scripture_map_count_gnosis_tsv();
 	$ob_offset = (int) get_option( 'bc_scripture_map_ob_offset', 0 );
 	$ch_offset = (int) get_option( 'bc_scripture_map_ch_offset', 0 );
+	$gn_offset = (int) get_option( 'bc_scripture_map_gn_offset', 0 );
 
-	$remaining = ( $ob_total - $ob_offset ) + ( $ch_total - $ch_offset );
+	$remaining = ( $ob_total - $ob_offset ) + ( $ch_total - $ch_offset ) + ( $gn_total - $gn_offset );
 
 	if ( $remaining <= 0 ) {
 		echo '<div class="notice notice-success"><p>';
@@ -29,10 +32,11 @@ function bc_scripture_map_import_notice() {
 
 	$ob_done = min( $ob_offset, $ob_total );
 	$ch_done = min( $ch_offset, $ch_total );
+	$gn_done = min( $gn_offset, $gn_total );
 
 	echo '<div class="notice notice-warning is-dismissible"><p>';
 	echo '🗺️ <strong>bc-scripture-map:</strong> Importando ubicaciones… ';
-	echo "OpenBible: {$ob_done}/{$ob_total} | Iglesia: {$ch_done}/{$ch_total} | Restan: {$remaining}. ";
+	echo "OpenBible: {$ob_done}/{$ob_total} | CH: {$ch_done}/{$ch_total} | Gnosis: {$gn_done}/{$gn_total} | Restan: {$remaining}. ";
 	echo '<a class="button button-primary" href="' . esc_url( admin_url( 'admin-post.php?action=bc_import_batch' ) ) . '">Continuar importación</a>';
 	echo '</p></div>';
 }
@@ -46,6 +50,8 @@ function bc_scripture_map_handle_import_batch() {
 	$ob_offset = (int) get_option( 'bc_scripture_map_ob_offset', 0 );
 	$ch_total  = bc_scripture_map_count_json();
 	$ch_offset = (int) get_option( 'bc_scripture_map_ch_offset', 0 );
+	$gn_total  = bc_scripture_map_count_gnosis_tsv();
+	$gn_offset = (int) get_option( 'bc_scripture_map_gn_offset', 0 );
 
 	if ( $ob_offset < $ob_total ) {
 		$imported = bc_scripture_map_import_openbible_batch( $ob_offset, BC_IMPORT_BATCH_SIZE );
@@ -53,6 +59,9 @@ function bc_scripture_map_handle_import_batch() {
 	} elseif ( $ch_offset < $ch_total ) {
 		$imported = bc_scripture_map_import_church_history_batch( $ch_offset, BC_IMPORT_BATCH_SIZE );
 		update_option( 'bc_scripture_map_ch_offset', $ch_offset + $imported, false );
+	} elseif ( $gn_offset < $gn_total ) {
+		$imported = bc_scripture_map_import_gnosis_batch( $gn_offset, BC_IMPORT_BATCH_SIZE );
+		update_option( 'bc_scripture_map_gn_offset', $gn_offset + $imported, false );
 	}
 
 	wp_safe_redirect( wp_get_referer() ?: admin_url() );
@@ -66,6 +75,7 @@ function bc_scripture_map_handle_import_reset() {
 
 	delete_option( 'bc_scripture_map_ob_offset' );
 	delete_option( 'bc_scripture_map_ch_offset' );
+	delete_option( 'bc_scripture_map_gn_offset' );
 
 	$posts = get_posts( array(
 		'post_type'      => 'bc_location',
@@ -79,6 +89,8 @@ function bc_scripture_map_handle_import_reset() {
 	wp_safe_redirect( wp_get_referer() ?: admin_url() );
 	exit;
 }
+
+// ── Count helpers ────────────────────────────────────────
 
 function bc_scripture_map_count_tsv() {
 	$file = BC_SCRIPTURE_MAP_DIR . 'data/openbible-places.tsv';
@@ -98,6 +110,43 @@ function bc_scripture_map_count_json() {
 	$data = json_decode( $json, true );
 	return is_array( $data ) ? count( $data ) : 0;
 }
+
+function bc_scripture_map_count_gnosis_tsv() {
+	$file = BC_SCRIPTURE_MAP_DIR . 'data/gnosis-new.tsv';
+	if ( ! file_exists( $file ) ) {
+		return 0;
+	}
+	$lines = file( $file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
+	return $lines ? max( 0, count( $lines ) - 1 ) : 0;
+}
+
+// ── Dedup by coordinate ──────────────────────────────────
+
+function bc_scripture_map_find_existing_by_coord( $lat, $lng, $tolerance = BC_IMPORT_COORD_TOLERANCE ) {
+	$posts = get_posts( array(
+		'post_type'      => 'bc_location',
+		'posts_per_page' => -1,
+		'fields'         => 'ids',
+		'meta_query'     => array(
+			'relation' => 'AND',
+			array(
+				'key'     => '_bc_loc_lat',
+				'value'   => array( $lat - $tolerance, $lat + $tolerance ),
+				'compare' => 'BETWEEN',
+				'type'    => 'DECIMAL(10,6)',
+			),
+			array(
+				'key'     => '_bc_loc_lng',
+				'value'   => array( $lng - $tolerance, $lng + $tolerance ),
+				'compare' => 'BETWEEN',
+				'type'    => 'DECIMAL(10,6)',
+			),
+		),
+	) );
+	return ! empty( $posts );
+}
+
+// ── OpenBible import ─────────────────────────────────────
 
 function bc_scripture_map_import_openbible_batch( $offset, $limit ) {
 	$file = BC_SCRIPTURE_MAP_DIR . 'data/openbible-places.tsv';
@@ -182,6 +231,8 @@ function bc_scripture_map_import_openbible_batch( $offset, $limit ) {
 	return $count;
 }
 
+// ── Church History import ────────────────────────────────
+
 function bc_scripture_map_import_church_history_batch( $offset, $limit ) {
 	$file = BC_SCRIPTURE_MAP_DIR . 'data/church-history.json';
 	if ( ! file_exists( $file ) ) {
@@ -246,6 +297,89 @@ function bc_scripture_map_import_church_history_batch( $offset, $limit ) {
 
 	return $count;
 }
+
+// ── Gnosis import ────────────────────────────────────────
+
+function bc_scripture_map_import_gnosis_batch( $offset, $limit ) {
+	$file = BC_SCRIPTURE_MAP_DIR . 'data/gnosis-new.tsv';
+	if ( ! file_exists( $file ) ) {
+		return 0;
+	}
+
+	$lines = file( $file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
+	if ( ! $lines ) {
+		return 0;
+	}
+
+	array_shift( $lines );
+
+	$chunk = array_slice( $lines, $offset, $limit );
+	$count = 0;
+
+	foreach ( $chunk as $line ) {
+		$parts = explode( "\t", $line );
+		if ( count( $parts ) < 4 ) {
+			continue;
+		}
+
+		$name      = trim( $parts[0] );
+		$lat_str   = trim( $parts[1] );
+		$lon_str   = trim( $parts[2] );
+		$type      = trim( $parts[3] );
+		$verses    = isset( $parts[4] ) ? trim( $parts[4] ) : '';
+		$source    = isset( $parts[5] ) ? trim( $parts[5] ) : 'gnosis';
+		$conf      = isset( $parts[6] ) ? trim( $parts[6] ) : 'medium';
+		$src_detail = isset( $parts[7] ) ? trim( $parts[7] ) : '';
+
+		if ( ! $name ) {
+			continue;
+		}
+
+		$lat = (float) $lat_str;
+		$lng = (float) $lon_str;
+
+		// Deduplicate: skip if same coordinates already exist in CPT
+		if ( bc_scripture_map_find_existing_by_coord( $lat, $lng, BC_IMPORT_COORD_TOLERANCE ) ) {
+			$count++;
+			continue;
+		}
+
+		$slug = sanitize_title( 'gnosis-' . $name . '-' . $lat . '-' . $lng );
+
+		$post_id = wp_insert_post( array(
+			'post_title'  => $name,
+			'post_name'   => $slug,
+			'post_type'   => 'bc_location',
+			'post_status' => 'publish',
+		) );
+
+		if ( is_wp_error( $post_id ) ) {
+			continue;
+		}
+
+		update_post_meta( $post_id, '_bc_loc_lat', $lat );
+		update_post_meta( $post_id, '_bc_loc_lng', $lng );
+		update_post_meta( $post_id, '_bc_loc_type', $type );
+		update_post_meta( $post_id, '_bc_loc_icon', 'default' );
+		update_post_meta( $post_id, '_bc_loc_source', 'gnosis' );
+		update_post_meta( $post_id, '_bc_loc_confidence', $conf );
+
+		if ( $src_detail ) {
+			update_post_meta( $post_id, '_bc_loc_description', 'Fuente: ' . $src_detail );
+		}
+
+		if ( ! empty( $verses ) ) {
+			$refs = bc_scripture_map_parse_passages( $verses );
+			update_post_meta( $post_id, '_bc_loc_scriptures', wp_json_encode( $refs ) );
+		}
+
+		$count++;
+	}
+
+	return $count;
+}
+
+// ── Shared helpers ───────────────────────────────────────
 
 function bc_scripture_map_parse_passages( $passages ) {
 	$refs  = array();
