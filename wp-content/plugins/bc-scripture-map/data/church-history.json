@@ -299,71 +299,6 @@
 		"scriptures": [{ "ref": "Marcos 4:35–41" }]
 	},
 	{
-		"name": "Valle de Lemuel",
-		"lat": 27.0,
-		"lng": 37.5,
-		"type": "wilderness",
-		"icon": "default",
-		"dateFrom": -600,
-		"description": "Valle junto al Mar Rojo donde la familia de Lehi acampó y ofreció sacrificios."
-	},
-	{
-		"name": "Tierra de Nefi",
-		"lat": 14.0,
-		"lng": -89.0,
-		"type": "region",
-		"icon": "pin",
-		"dateFrom": -590,
-		"description": "Tierra donde los nefitas se establecieron tras separarse de los lamanitas.",
-		"scriptures": [{ "ref": "2 Nefi 5:5–8" }]
-	},
-	{
-		"name": "Tierra de Zarahemla",
-		"lat": 17.0,
-		"lng": -92.0,
-		"type": "region",
-		"icon": "pin",
-		"dateFrom": -200,
-		"description": "Capital y tierra principal de los nefitas después del descubrimiento de Zarahemla.",
-		"scriptures": [{ "ref": "Omni 1:12–19" }]
-	},
-	{
-		"name": "Tierra de Abundancia",
-		"lat": 18.5,
-		"lng": -88.5,
-		"type": "region",
-		"icon": "pin",
-		"description": "Tierra donde Cristo se apareció a los nefitas tras su resurrección.",
-		"scriptures": [{ "ref": "3 Nefi 11:1" }]
-	},
-	{
-		"name": "Tierra de Desolación",
-		"lat": 19.5,
-		"lng": -88.0,
-		"type": "region",
-		"icon": "pin",
-		"description": "Tierra al norte de la estrecha porción de tierra, donde se libraron grandes batallas.",
-		"scriptures": [{ "ref": "Alma 22:30–32" }]
-	},
-	{
-		"name": "Istmo de Tehuantepec",
-		"lat": 17.0,
-		"lng": -95.0,
-		"type": "landmark",
-		"icon": "default",
-		"description": "Estrecha porción de tierra que separa la tierra de Desolación de la tierra de Abundancia.",
-		"scriptures": [{ "ref": "Alma 22:32" }]
-	},
-	{
-		"name": "Monte Nimrod",
-		"lat": 15.5,
-		"lng": -90.5,
-		"type": "mountain",
-		"icon": "default",
-		"description": "Lugar donde el rey Mosiah huyó con los justos para fundar Zarahemla.",
-		"scriptures": [{ "ref": "Omni 1:13" }]
-	},
-	{
 		"name": "Templo de Palmyra (Nueva York)",
 		"lat": 43.0420,
 		"lng": -77.2350,
@@ -614,23 +549,5 @@
 		"icon": "temple",
 		"dateFrom": 1958,
 		"description": "Templo SUD en Nueva Zelanda, dedicado en 1958."
-	},
-	{
-		"name": "Colina de Camorah (Libro de Mormón)",
-		"lat": 43.0210,
-		"lng": -77.2280,
-		"type": "mountain",
-		"icon": "pin",
-		"description": "Colina donde los nefitas libraron su última batalla y Moroni enterró los anales.",
-		"scriptures": [{ "ref": "Mormón 6:6" }]
-	},
-	{
-		"name": "Río Eufrates",
-		"lat": 35.1,
-		"lng": 40.4,
-		"type": "river",
-		"icon": "default",
-		"description": "Río del Edén, mencionado en las Escrituras como límite del Jardín.",
-		"scriptures": [{ "ref": "Génesis 2:14" }]
 	}
 ]
