@@ -1,32 +1,121 @@
 <?php
 
-function bc_scripture_map_import_seed_data() {
-	$imported = get_option( 'bc_scripture_map_seed_imported', false );
-	if ( $imported ) {
+define( 'BC_IMPORT_BATCH_SIZE', 50 );
+
+add_action( 'admin_notices', 'bc_scripture_map_import_notice' );
+add_action( 'admin_post_bc_import_batch', 'bc_scripture_map_handle_import_batch' );
+add_action( 'admin_post_bc_import_reset', 'bc_scripture_map_handle_import_reset' );
+
+function bc_scripture_map_import_notice() {
+	$screen = get_current_screen();
+	if ( ! $screen || 'plugins' !== $screen->parent_base ) {
 		return;
 	}
 
-	bc_scripture_map_import_openbible();
-	bc_scripture_map_import_church_history();
+	$ob_total  = bc_scripture_map_count_tsv();
+	$ch_total  = bc_scripture_map_count_json();
+	$ob_offset = (int) get_option( 'bc_scripture_map_ob_offset', 0 );
+	$ch_offset = (int) get_option( 'bc_scripture_map_ch_offset', 0 );
 
-	update_option( 'bc_scripture_map_seed_imported', true );
+	$remaining = ( $ob_total - $ob_offset ) + ( $ch_total - $ch_offset );
+
+	if ( $remaining <= 0 ) {
+		echo '<div class="notice notice-success"><p>';
+		echo '✅ <strong>bc-scripture-map:</strong> Todas las ubicaciones importadas. ';
+		echo '<a href="' . esc_url( admin_url( 'admin-post.php?action=bc_import_reset' ) ) . '">Reimportar</a>';
+		echo '</p></div>';
+		return;
+	}
+
+	$ob_done = min( $ob_offset, $ob_total );
+	$ch_done = min( $ch_offset, $ch_total );
+
+	echo '<div class="notice notice-warning is-dismissible"><p>';
+	echo '🗺️ <strong>bc-scripture-map:</strong> Importando ubicaciones… ';
+	echo "OpenBible: {$ob_done}/{$ob_total} | Iglesia: {$ch_done}/{$ch_total} | Restan: {$remaining}. ";
+	echo '<a class="button button-primary" href="' . esc_url( admin_url( 'admin-post.php?action=bc_import_batch' ) ) . '">Continuar importación</a>';
+	echo '</p></div>';
 }
 
-function bc_scripture_map_import_openbible() {
+function bc_scripture_map_handle_import_batch() {
+	if ( ! current_user_can( 'manage_options' ) ) {
+		wp_die( 'Permiso denegado' );
+	}
+
+	$ob_total  = bc_scripture_map_count_tsv();
+	$ob_offset = (int) get_option( 'bc_scripture_map_ob_offset', 0 );
+	$ch_total  = bc_scripture_map_count_json();
+	$ch_offset = (int) get_option( 'bc_scripture_map_ch_offset', 0 );
+
+	if ( $ob_offset < $ob_total ) {
+		$imported = bc_scripture_map_import_openbible_batch( $ob_offset, BC_IMPORT_BATCH_SIZE );
+		update_option( 'bc_scripture_map_ob_offset', $ob_offset + $imported, false );
+	} elseif ( $ch_offset < $ch_total ) {
+		$imported = bc_scripture_map_import_church_history_batch( $ch_offset, BC_IMPORT_BATCH_SIZE );
+		update_option( 'bc_scripture_map_ch_offset', $ch_offset + $imported, false );
+	}
+
+	wp_safe_redirect( wp_get_referer() ?: admin_url() );
+	exit;
+}
+
+function bc_scripture_map_handle_import_reset() {
+	if ( ! current_user_can( 'manage_options' ) ) {
+		wp_die( 'Permiso denegado' );
+	}
+
+	delete_option( 'bc_scripture_map_ob_offset' );
+	delete_option( 'bc_scripture_map_ch_offset' );
+
+	$posts = get_posts( array(
+		'post_type'      => 'bc_location',
+		'posts_per_page' => -1,
+		'fields'         => 'ids',
+	) );
+	foreach ( $posts as $id ) {
+		wp_delete_post( $id, true );
+	}
+
+	wp_safe_redirect( wp_get_referer() ?: admin_url() );
+	exit;
+}
+
+function bc_scripture_map_count_tsv() {
 	$file = BC_SCRIPTURE_MAP_DIR . 'data/openbible-places.tsv';
 	if ( ! file_exists( $file ) ) {
-		return;
+		return 0;
+	}
+	$lines = file( $file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
+	return $lines ? max( 0, count( $lines ) - 1 ) : 0;
+}
+
+function bc_scripture_map_count_json() {
+	$file = BC_SCRIPTURE_MAP_DIR . 'data/church-history.json';
+	if ( ! file_exists( $file ) ) {
+		return 0;
+	}
+	$json = file_get_contents( $file );
+	$data = json_decode( $json, true );
+	return is_array( $data ) ? count( $data ) : 0;
+}
+
+function bc_scripture_map_import_openbible_batch( $offset, $limit ) {
+	$file = BC_SCRIPTURE_MAP_DIR . 'data/openbible-places.tsv';
+	if ( ! file_exists( $file ) ) {
+		return 0;
 	}
 
 	$lines = file( $file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
 	if ( ! $lines ) {
-		return;
+		return 0;
 	}
 
 	array_shift( $lines );
 
-	$count = 0;
-	foreach ( $lines as $line ) {
+	$chunk  = array_slice( $lines, $offset, $limit );
+	$count  = 0;
+
+	foreach ( $chunk as $line ) {
 		$parts = explode( "\t", $line );
 		if ( count( $parts ) < 4 ) {
 			continue;
@@ -43,11 +132,8 @@ function bc_scripture_map_import_openbible() {
 			continue;
 		}
 
-		$lat = bc_scripture_map_parse_coord( $lat_str );
-		$lng = bc_scripture_map_parse_coord( $lon_str );
-		if ( null === $lat || null === $lng ) {
-			continue;
-		}
+		$lat = (float) $lat_str;
+		$lng = (float) $lon_str;
 
 		$name = $kmz_name ?: $esv_name;
 		$slug = sanitize_title( 'openbible-' . $name . '-' . $esv_name );
@@ -60,10 +146,11 @@ function bc_scripture_map_import_openbible() {
 		) );
 
 		if ( ! empty( $existing ) ) {
+			$count++;
 			continue;
 		}
 
-		$refs = bc_scripture_map_parse_passages( $passages );
+		$refs          = bc_scripture_map_parse_passages( $passages );
 		$detected_type = bc_scripture_map_detect_type( $comment, $name );
 
 		$post_id = wp_insert_post( array(
@@ -91,21 +178,26 @@ function bc_scripture_map_import_openbible() {
 
 		$count++;
 	}
+
+	return $count;
 }
 
-function bc_scripture_map_import_church_history() {
+function bc_scripture_map_import_church_history_batch( $offset, $limit ) {
 	$file = BC_SCRIPTURE_MAP_DIR . 'data/church-history.json';
 	if ( ! file_exists( $file ) ) {
-		return;
+		return 0;
 	}
 
 	$json = file_get_contents( $file );
 	$sites = json_decode( $json, true );
 	if ( ! $sites ) {
-		return;
+		return 0;
 	}
 
-	foreach ( $sites as $site ) {
+	$chunk = array_slice( $sites, $offset, $limit );
+	$count = 0;
+
+	foreach ( $chunk as $site ) {
 		$slug = sanitize_title( 'church-history-' . $site['name'] );
 
 		$existing = get_posts( array(
@@ -116,6 +208,7 @@ function bc_scripture_map_import_church_history() {
 		) );
 
 		if ( ! empty( $existing ) ) {
+			$count++;
 			continue;
 		}
 
@@ -147,27 +240,17 @@ function bc_scripture_map_import_church_history() {
 		if ( isset( $site['dateTo'] ) ) {
 			update_post_meta( $post_id, '_bc_loc_date_to', (int) $site['dateTo'] );
 		}
-	}
-}
 
-add_action( 'admin_init', 'bc_scripture_map_import_seed_data' );
+		$count++;
+	}
 
-function bc_scripture_map_parse_coord( $str ) {
-	$str = trim( $str );
-	if ( '?' === $str || '' === $str ) {
-		return null;
-	}
-	$str = ltrim( $str, '~' );
-	if ( '' === $str ) {
-		return null;
-	}
-	return (float) $str;
+	return $count;
 }
 
 function bc_scripture_map_parse_passages( $passages ) {
-	$refs   = array();
-	$parts  = preg_split( '/[,;]\s*/', $passages );
-	$parts  = array_slice( $parts, 0, 10 );
+	$refs  = array();
+	$parts = preg_split( '/[,;]\s*/', $passages );
+	$parts = array_slice( $parts, 0, 10 );
 
 	foreach ( $parts as $part ) {
 		$refs[] = array( 'ref' => trim( $part ) );

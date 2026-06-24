@@ -297,5 +297,340 @@
 		"icon": "default",
 		"description": "Lago donde Jesús caminó sobre el agua y llamó a sus discípulos.",
 		"scriptures": [{ "ref": "Marcos 4:35–41" }]
+	},
+	{
+		"name": "Valle de Lemuel",
+		"lat": 27.0,
+		"lng": 37.5,
+		"type": "wilderness",
+		"icon": "default",
+		"dateFrom": -600,
+		"description": "Valle junto al Mar Rojo donde la familia de Lehi acampó y ofreció sacrificios."
+	},
+	{
+		"name": "Tierra de Nefi",
+		"lat": 14.0,
+		"lng": -89.0,
+		"type": "region",
+		"icon": "pin",
+		"dateFrom": -590,
+		"description": "Tierra donde los nefitas se establecieron tras separarse de los lamanitas.",
+		"scriptures": [{ "ref": "2 Nefi 5:5–8" }]
+	},
+	{
+		"name": "Tierra de Zarahemla",
+		"lat": 17.0,
+		"lng": -92.0,
+		"type": "region",
+		"icon": "pin",
+		"dateFrom": -200,
+		"description": "Capital y tierra principal de los nefitas después del descubrimiento de Zarahemla.",
+		"scriptures": [{ "ref": "Omni 1:12–19" }]
+	},
+	{
+		"name": "Tierra de Abundancia",
+		"lat": 18.5,
+		"lng": -88.5,
+		"type": "region",
+		"icon": "pin",
+		"description": "Tierra donde Cristo se apareció a los nefitas tras su resurrección.",
+		"scriptures": [{ "ref": "3 Nefi 11:1" }]
+	},
+	{
+		"name": "Tierra de Desolación",
+		"lat": 19.5,
+		"lng": -88.0,
+		"type": "region",
+		"icon": "pin",
+		"description": "Tierra al norte de la estrecha porción de tierra, donde se libraron grandes batallas.",
+		"scriptures": [{ "ref": "Alma 22:30–32" }]
+	},
+	{
+		"name": "Istmo de Tehuantepec",
+		"lat": 17.0,
+		"lng": -95.0,
+		"type": "landmark",
+		"icon": "default",
+		"description": "Estrecha porción de tierra que separa la tierra de Desolación de la tierra de Abundancia.",
+		"scriptures": [{ "ref": "Alma 22:32" }]
+	},
+	{
+		"name": "Monte Nimrod",
+		"lat": 15.5,
+		"lng": -90.5,
+		"type": "mountain",
+		"icon": "default",
+		"description": "Lugar donde el rey Mosiah huyó con los justos para fundar Zarahemla.",
+		"scriptures": [{ "ref": "Omni 1:13" }]
+	},
+	{
+		"name": "Templo de Palmyra (Nueva York)",
+		"lat": 43.0420,
+		"lng": -77.2350,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 2000,
+		"description": "Templo SUD construido cerca del lugar de la Primera Visión."
+	},
+	{
+		"name": "Templo de Washington D.C.",
+		"lat": 39.0148,
+		"lng": -77.0682,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1974,
+		"description": "Templo emblemático de la Iglesia, dedicado en 1974."
+	},
+	{
+		"name": "Templo de São Paulo (Brasil)",
+		"lat": -23.5505,
+		"lng": -46.6333,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1978,
+		"description": "Primer templo SUD en Sudamérica, dedicado en 1978."
+	},
+	{
+		"name": "Monte Pisga (Iowa)",
+		"lat": 40.9383,
+		"lng": -93.6863,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1846,
+		"dateTo": 1852,
+		"description": "Campamento de pioneros mormones en ruta a Utah. Lugar de muchas muertes."
+	},
+	{
+		"name": "Garden Grove (Iowa)",
+		"lat": 40.8247,
+		"lng": -93.6041,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1846,
+		"description": "Campamento de pioneros mormones, primer asentamiento organizado en Iowa."
+	},
+	{
+		"name": "Martin's Cove (Wyoming)",
+		"lat": 42.5075,
+		"lng": -107.5467,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1856,
+		"description": "Lugar donde la compañía de handcarts Martin quedó atrapada por la nieve.",
+		"scriptures": [{ "ref": "DyC 138" }]
+	},
+	{
+		"name": "Sweetwater Crossing (Wyoming)",
+		"lat": 42.5058,
+		"lng": -107.5334,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1856,
+		"description": "Cruce del río Sweetwater donde los jóvenes socorrieron a los pioneros."
+	},
+	{
+		"name": "Rock Creek Hollow (Wyoming)",
+		"lat": 41.7964,
+		"lng": -107.6302,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1856,
+		"description": "Lugar donde 13 pioneros de la compañía Martin fallecieron en una noche."
+	},
+	{
+		"name": "Fort Laramie (Wyoming)",
+		"lat": 42.2115,
+		"lng": -104.5376,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1847,
+		"description": "Fuerte histórico en la ruta de los pioneros mormones hacia Utah."
+	},
+	{
+		"name": "Independence Rock (Wyoming)",
+		"lat": 42.4925,
+		"lng": -107.1286,
+		"type": "landmark",
+		"icon": "default",
+		"description": "Hito en la ruta de los pioneros, llamado 'la Roca de la Independencia'."
+	},
+	{
+		"name": "Puerta del Diablo (Utah)",
+		"lat": 40.9833,
+		"lng": -111.8920,
+		"type": "landmark",
+		"icon": "default",
+		"dateFrom": 1847,
+		"description": "Entrada al cañón que lleva al Valle del Lago Salado, avistada por los pioneros."
+	},
+	{
+		"name": "Cañón de Emigration (Utah)",
+		"lat": 40.7622,
+		"lng": -111.8378,
+		"type": "landmark",
+		"icon": "default",
+		"dateFrom": 1847,
+		"description": "Cañón por donde los pioneros mormones entraron al Valle del Lago Salado."
+	},
+	{
+		"name": "This Is the Place Monument",
+		"lat": 40.7541,
+		"lng": -111.8409,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1847,
+		"description": "Monumento que conmemora la entrada de Brigham Young al Valle del Lago Salado."
+	},
+	{
+		"name": "Cove Fort (Utah)",
+		"lat": 38.6144,
+		"lng": -112.5594,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1867,
+		"description": "Fuerte histórico construido por la Iglesia como refugio y estación de paso."
+	},
+	{
+		"name": "Templo de St. George (Utah)",
+		"lat": 37.1039,
+		"lng": -113.5775,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1877,
+		"description": "Primer templo SUD completado en Utah, dedicado en 1877."
+	},
+	{
+		"name": "Templo de Manti (Utah)",
+		"lat": 39.2683,
+		"lng": -111.6347,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1888,
+		"description": "Templo SUD histórico, dedicado en 1888."
+	},
+	{
+		"name": "Templo de Logan (Utah)",
+		"lat": 41.7310,
+		"lng": -111.8356,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1884,
+		"description": "Templo SUD histórico en el norte de Utah, dedicado en 1884."
+	},
+	{
+		"name": "Templo de Kirtland",
+		"lat": 41.6223,
+		"lng": -81.3616,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1836,
+		"description": "Primer templo SUD, dedicado en 1836 con manifestaciones espirituales."
+	},
+	{
+		"name": "Sitio Histórico de Kirtland",
+		"lat": 41.6190,
+		"lng": -81.3610,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1831,
+		"description": "Centro de visitantes y edificios históricos restaurados de la época de Kirtland."
+	},
+	{
+		"name": "Gran Lago Salado (Utah)",
+		"lat": 41.0,
+		"lng": -112.5,
+		"type": "sea",
+		"icon": "default",
+		"description": "Gran lago de agua salada junto al cual se asienta Salt Lake City."
+	},
+	{
+		"name": "Templo de Los Ángeles (California)",
+		"lat": 34.0540,
+		"lng": -118.3950,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1956,
+		"description": "Templo SUD emblemático, dedicado en 1956."
+	},
+	{
+		"name": "Templo de México",
+		"lat": 19.4326,
+		"lng": -99.1332,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1983,
+		"description": "Templo SUD en la Ciudad de México, dedicado en 1983."
+	},
+	{
+		"name": "Templo de Santiago (Chile)",
+		"lat": -33.4489,
+		"lng": -70.6693,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1983,
+		"description": "Templo SUD en Chile, dedicado en 1983."
+	},
+	{
+		"name": "Templo de Apia (Samoa)",
+		"lat": -13.8333,
+		"lng": -171.7500,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1983,
+		"description": "Templo SUD en las islas del Pacífico."
+	},
+	{
+		"name": "Templo de Nuku'alofa (Tonga)",
+		"lat": -21.1333,
+		"lng": -175.2000,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1983,
+		"description": "Templo SUD en Tonga."
+	},
+	{
+		"name": "Templo de Berna (Suiza)",
+		"lat": 46.9480,
+		"lng": 7.4474,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1955,
+		"description": "Primer templo SUD en Europa, dedicado en 1955."
+	},
+	{
+		"name": "Templo de Londres (Inglaterra)",
+		"lat": 51.1686,
+		"lng": -0.5232,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1958,
+		"description": "Templo SUD en el Reino Unido, dedicado en 1958."
+	},
+	{
+		"name": "Templo de Hamilton (Nueva Zelanda)",
+		"lat": -37.7870,
+		"lng": 175.2800,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1958,
+		"description": "Templo SUD en Nueva Zelanda, dedicado en 1958."
+	},
+	{
+		"name": "Colina de Camorah (Libro de Mormón)",
+		"lat": 43.0210,
+		"lng": -77.2280,
+		"type": "mountain",
+		"icon": "pin",
+		"description": "Colina donde los nefitas libraron su última batalla y Moroni enterró los anales.",
+		"scriptures": [{ "ref": "Mormón 6:6" }]
+	},
+	{
+		"name": "Río Eufrates",
+		"lat": 35.1,
+		"lng": 40.4,
+		"type": "river",
+		"icon": "default",
+		"description": "Río del Edén, mencionado en las Escrituras como límite del Jardín.",
+		"scriptures": [{ "ref": "Génesis 2:14" }]
 	}
 ]
