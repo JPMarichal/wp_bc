@@ -1,0 +1,4272 @@
+[
+  {
+    "qid": "Q4647851",
+    "slug": "a.-hamer-reiser",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q14594652",
+    "slug": "a.-theodore-tuttle",
+    "birthPlaceQid": "Q130158",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Manti",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4668883",
+    "slug": "abraham-h.-cannon",
+    "birthPlace": "Salt Lake City, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Position Died"
+  },
+  {
+    "qid": "Q4669114",
+    "slug": "abraham-o.-woodruff",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q16562",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "El Paso"
+  },
+  {
+    "qid": "Q4679715",
+    "slug": "adam-s.-bennion",
+    "birthPlaceQid": "Q52475",
+    "birthPlace": "Taylorsville",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6571685",
+    "slug": "aileen-h.-clyde"
+  },
+  {
+    "qid": "Q4709888",
+    "slug": "albert-carrington",
+    "birthPlace": "Royalton, Vermont",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Salt Lake"
+  },
+  {
+    "qid": "Q4710060",
+    "slug": "albert-e.-bowen",
+    "birthPlaceQid": "Q1656599",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Idaho Territory",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4710946",
+    "slug": "albert-p.-rockwood",
+    "birthPlaceQid": "Q596394",
+    "deathPlaceQid": "Q7634836",
+    "birthPlace": "Holliston",
+    "deathPlace": "Sugar House"
+  },
+  {
+    "qid": "Q110126730",
+    "slug": "allan-f.-packer",
+    "birthPlaceQid": "Q482976",
+    "birthPlace": "Brigham City"
+  },
+  {
+    "qid": "Q4733601",
+    "slug": "alma-sonne",
+    "birthPlace": "Logan, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Logan, Utah"
+  },
+  {
+    "qid": "Q4734522",
+    "slug": "alonzo-a.-hinckley",
+    "birthPlace": "Cove Fort, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Position Died"
+  },
+  {
+    "qid": "Q127630108",
+    "slug": "alvin-f.-meredith-iii",
+    "birthPlace": "Chattanooga, Tennessee",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q13473952",
+    "slug": "alvin-r.-dyer",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Position Died"
+  },
+  {
+    "qid": "Q4740383",
+    "slug": "amasa-m.-lyman",
+    "birthPlaceQid": "Q669692",
+    "spouses": [
+      {
+        "spouseQid": "Q43374468",
+        "marriageDate": "+1846-01-13T00:00:00Z",
+        "spouseName": "Eliza Maria Partridge Lyman"
+      }
+    ],
+    "birthPlace": "Lyman",
+    "deathPlace": "Fillmore, Millard"
+  },
+  {
+    "qid": "Q4749087",
+    "slug": "amy-brown-lyman",
+    "birthPlaceQid": "Q482842",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q7328566",
+        "marriageDate": "+1896-09-07T00:00:00Z",
+        "spouseName": "Richard R. Lyman"
+      }
+    ],
+    "birthPlace": "Pleasant Grove",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q275803",
+    "slug": "amy-wright",
+    "birthPlaceQid": "Q1297",
+    "spouses": [
+      {
+        "spouseQid": "Q313522",
+        "marriageDate": "+1989-01-01T00:00:00Z",
+        "spouseName": "Rip Torn"
+      }
+    ],
+    "birthPlace": "Chicago"
+  },
+  {
+    "qid": "Q66124168",
+    "slug": "anne-c.-pingree",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q4769436",
+    "slug": "annie-taylor-hyde",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4771912",
+    "slug": "anthon-h.-lund",
+    "birthPlace": "Aalborg, Denmark",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "March"
+  },
+  {
+    "qid": "Q4773652",
+    "slug": "anthony-w.-ivins",
+    "birthPlaceQid": "Q1087213",
+    "birthPlace": "Toms River",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4775529",
+    "slug": "antoine-r.-ivins",
+    "birthPlaceQid": "Q52472",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "St. George",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4787994",
+    "slug": "ardeth-g.-kapp",
+    "birthPlace": "Cardston, Cardston County",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Salt Lake"
+  },
+  {
+    "qid": "Q16150153",
+    "slug": "arnulfo-valenzuela",
+    "birthPlace": "Chihuahua, Mexico",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q447850",
+    "slug": "b.-h.-roberts",
+    "birthPlaceQid": "Q215733",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Warrington",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4858728",
+    "slug": "barbara-b.-smith"
+  },
+  {
+    "qid": "Q807667",
+    "slug": "barbara-thompson"
+  },
+  {
+    "qid": "Q4859382",
+    "slug": "barbara-w.-winder",
+    "birthPlaceQid": "Q482518",
+    "spouses": [
+      {
+        "spouseQid": "Q7329733",
+        "spouseName": "Q7329733"
+      }
+    ],
+    "birthPlace": "Midvale",
+    "deathPlace": "South Jordan, Salt Lake"
+  },
+  {
+    "qid": "Q4869086",
+    "slug": "bathsheba-w.-smith",
+    "birthPlaceQid": "Q2709202",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q5536005",
+        "spouseName": "George A. Smith"
+      }
+    ],
+    "birthPlace": "Shinnston",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4883689",
+    "slug": "belle-s.-spafford",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4885253",
+    "slug": "ben-b.-banks"
+  },
+  {
+    "qid": "Q4888935",
+    "slug": "benjamin-l.-clapp",
+    "birthPlaceQid": "Q79860",
+    "deathPlaceQid": "Q108067",
+    "birthPlace": "Huntsville",
+    "deathPlace": "Sonoma County"
+  },
+  {
+    "qid": "Q4893516",
+    "slug": "bernard-p.-brockbank",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Holladay, Utah"
+  },
+  {
+    "qid": "Q4895517",
+    "slug": "bertha-s.-reeder",
+    "birthPlaceQid": "Q52471",
+    "deathPlaceQid": "Q320729",
+    "birthPlace": "Ogden",
+    "deathPlace": "Pocatello"
+  },
+  {
+    "qid": "Q66088251",
+    "slug": "bonnie-d.-parkin",
+    "birthPlace": "Murray, Utah, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q66459201",
+    "slug": "bonnie-h.-cordon",
+    "birthPlace": "Idaho Falls, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q16145612",
+    "slug": "bonnie-l.-oscarson",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q895936",
+    "slug": "boyd-k.-packer",
+    "birthPlaceQid": "Q482976",
+    "deathPlaceQid": "Q484556",
+    "birthPlace": "Brigham City",
+    "deathPlace": "Salt Lake County"
+  },
+  {
+    "qid": "Q203559",
+    "slug": "brigham-young",
+    "birthPlaceQid": "Q3450876",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q118145357",
+        "marriageDate": "+1824-10-08T00:00:00Z",
+        "endDate": "+1832-09-08T00:00:00Z",
+        "spouseName": "Miriam Angeline Works Young"
+      },
+      {
+        "spouseQid": "Q6778849",
+        "marriageDate": "+1834-03-31T00:00:00Z",
+        "spouseName": "Mary Ann Angell"
+      },
+      {
+        "spouseQid": "Q115696128",
+        "spouseName": "Lucy Ann Young"
+      },
+      {
+        "spouseQid": "Q115696032",
+        "spouseName": "Harriet Elizabeth Young"
+      },
+      {
+        "spouseQid": "Q91157930",
+        "marriageDate": "+1844-09-00T00:00:00Z",
+        "spouseName": "Emily Dow Partridge"
+      },
+      {
+        "spouseQid": "Q115695948",
+        "spouseName": "Clarissa Ann Young"
+      },
+      {
+        "spouseQid": "Q115707298",
+        "spouseName": "Louisa Beeman"
+      },
+      {
+        "spouseQid": "Q3051180",
+        "marriageDate": "+1844-10-03T00:00:00Z",
+        "spouseName": "Eliza Roxcy Snow"
+      },
+      {
+        "spouseQid": "Q115696000",
+        "spouseName": "Margaret Young"
+      },
+      {
+        "spouseQid": "Q24068890",
+        "spouseName": "Mary Elizabeth Rollins Lightner"
+      },
+      {
+        "spouseQid": "Q115696121",
+        "spouseName": "Margaret Maria Young"
+      },
+      {
+        "spouseQid": "Q8072227",
+        "marriageDate": "+1846-02-02T00:00:00Z",
+        "spouseName": "Zina D. H. Young"
+      },
+      {
+        "spouseQid": "Q115695908",
+        "spouseName": "Lucy Young"
+      },
+      {
+        "spouseQid": "Q109612233",
+        "spouseName": "Harriet Amelia Folsom"
+      },
+      {
+        "spouseQid": "Q3617629",
+        "marriageDate": "+1868-04-07T00:00:00Z",
+        "endDate": "+1875-01-01T00:00:00Z",
+        "spouseName": "Ann Eliza Young"
+      },
+      {
+        "spouseQid": "Q41505357",
+        "spouseName": "Hannah T. King"
+      },
+      {
+        "spouseQid": "Q137680202",
+        "marriageDate": "+1843-00-00T00:00:00Z",
+        "spouseName": "Augusta Adams Cobb"
+      },
+      {
+        "spouseQid": "Q137681034",
+        "marriageDate": "+1868-00-00T00:00:00Z",
+        "spouseName": "Mary Van Cott"
+      }
+    ],
+    "birthPlace": "Whitingham",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4967308",
+    "slug": "brigham-young-jr.",
+    "birthPlace": "Kirtland, Ohio",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4977024",
+    "slug": "bruce-a.-carlson",
+    "birthPlaceQid": "Q828736",
+    "birthPlace": "Hibbing"
+  },
+  {
+    "qid": "Q4977208",
+    "slug": "bruce-c.-hafen",
+    "birthPlaceQid": "Q52472",
+    "birthPlace": "St. George"
+  },
+  {
+    "qid": "Q16151918",
+    "slug": "bruce-d.-porter",
+    "birthPlaceQid": "Q34804",
+    "birthPlace": "Albuquerque",
+    "deathPlace": "Position Died"
+  },
+  {
+    "qid": "Q4978170",
+    "slug": "bruce-r.-mcconkie",
+    "birthPlaceQid": "Q485172",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Ann Arbor",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q15995695",
+    "slug": "burton-k.-farnsworth",
+    "birthPlace": "Beaver, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Seattle, Washington"
+  },
+  {
+    "qid": "Q5006853",
+    "slug": "c.-scott-grow",
+    "birthPlaceQid": "Q499927",
+    "birthPlace": "Moscow"
+  },
+  {
+    "qid": "Q106413397",
+    "slug": "camille-n.-johnson",
+    "birthPlace": "Pocatello, Bannock",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5040914",
+    "slug": "carl-w.-buehner",
+    "birthPlaceQid": "Q1022",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Stuttgart",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q2748526",
+    "slug": "cecil-o.-samuelson",
+    "birthPlace": "Salt Lake City, Salt Lake",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5074813",
+    "slug": "charles-a.-callis",
+    "birthPlaceQid": "Q1761",
+    "deathPlaceQid": "Q16568",
+    "birthPlace": "Dublin",
+    "deathPlace": "Jacksonville"
+  },
+  {
+    "qid": "Q5076017",
+    "slug": "charles-c.-rich",
+    "birthPlaceQid": "Q491936",
+    "birthPlace": "Campbell County"
+  },
+  {
+    "qid": "Q2958916",
+    "slug": "charles-didier",
+    "birthPlaceQid": "Q71",
+    "deathPlaceQid": "Q90",
+    "birthPlace": "Geneva",
+    "deathPlace": "Paris"
+  },
+  {
+    "qid": "Q5083179",
+    "slug": "charles-w.-dahlquist-ii",
+    "birthPlaceQid": "Q23443",
+    "birthPlace": "Provo"
+  },
+  {
+    "qid": "Q5083238",
+    "slug": "charles-w.-nibley",
+    "birthPlace": "Hunterfield, Midlothian, Scotland",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Position Died"
+  },
+  {
+    "qid": "Q5083241",
+    "slug": "charles-w.-penrose",
+    "birthPlaceQid": "Q84",
+    "birthPlace": "London",
+    "deathPlace": "Position Set Apart"
+  },
+  {
+    "qid": "Q16751348",
+    "slug": "chi-hong-sam-wong",
+    "birthPlace": "British Hong Kong",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5097140",
+    "slug": "chieko-n.-okazaki",
+    "birthPlaceQid": "Q782",
+    "birthPlace": "Hawaii",
+    "deathPlace": "Salt Lake City, Salt Lake"
+  },
+  {
+    "qid": "Q5109478",
+    "slug": "christian-d.-fjeldsted",
+    "birthPlaceQid": "Q3430281",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Sundbyvester",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5110272",
+    "slug": "christian-whitmer",
+    "deathPlaceQid": "Q484474",
+    "deathPlace": "Clay County",
+    "birthPlace": "Dauphin, Pennsylvania",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5125958",
+    "slug": "clara-c.-m.-cannon",
+    "birthPlaceQid": "Q1055854",
+    "deathPlaceQid": "Q483235",
+    "birthPlace": "Westfield",
+    "deathPlace": "Centerville"
+  },
+  {
+    "qid": "Q5126058",
+    "slug": "clara-w.-beebe",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5127073",
+    "slug": "clarissa-s.-williams",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5127241",
+    "slug": "clark-g.-gilbert",
+    "birthPlaceQid": "Q99",
+    "birthPlace": "California"
+  },
+  {
+    "qid": "Q6621573",
+    "slug": "claudio-r.-m.-costa"
+  },
+  {
+    "qid": "Q5132932",
+    "slug": "clifford-e.-young",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Position Died"
+  },
+  {
+    "qid": "Q17308927",
+    "slug": "clinton-l.-cutler",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5142744",
+    "slug": "coleen-k.-menlove"
+  },
+  {
+    "qid": "Q5146238",
+    "slug": "colleen-b.-lemmon",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q3011076",
+    "slug": "d.-todd-christofferson",
+    "birthPlaceQid": "Q482842",
+    "birthPlace": "Pleasant Grove"
+  },
+  {
+    "qid": "Q5210451",
+    "slug": "dale-g.-renlund",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q3012489",
+    "slug": "dallin-h.-oaks",
+    "birthPlaceQid": "Q23443",
+    "birthPlace": "Provo",
+    "deathPlace": "December"
+  },
+  {
+    "qid": "Q5217392",
+    "slug": "daniel-h.-wells",
+    "birthPlaceQid": "Q3322325",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q5373425",
+        "spouseName": "Emmeline B. Wells"
+      }
+    ],
+    "birthPlace": "Trenton",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5218661",
+    "slug": "daniel-s.-miles",
+    "deathPlaceQid": "Q265079",
+    "deathPlace": "Hancock County",
+    "birthPlace": "Sanbornton",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q3017335",
+    "slug": "david-a.-bednar",
+    "birthPlaceQid": "Q17042",
+    "birthPlace": "Oakland"
+  },
+  {
+    "qid": "Q403578",
+    "slug": "david-a.-smith"
+  },
+  {
+    "qid": "Q5230974",
+    "slug": "david-b.-haight",
+    "birthPlace": "Oakley, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5233498",
+    "slug": "david-f.-evans",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5236180",
+    "slug": "david-l.-beck"
+  },
+  {
+    "qid": "Q4878615",
+    "slug": "david-l.-buckner",
+    "birthPlace": "Ogden, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5236377",
+    "slug": "david-lawrence-mckay",
+    "birthPlace": "Ogden, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q16123775",
+    "slug": "david-m.-mcconkie"
+  },
+  {
+    "qid": "Q1175942",
+    "slug": "david-o.-mckay",
+    "birthPlaceQid": "Q483138",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q5372929",
+        "spouseName": "Emma Ray McKay"
+      }
+    ],
+    "birthPlace": "Huntsville",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q31087827",
+    "slug": "david-r.-stone"
+  },
+  {
+    "qid": "Q5239339",
+    "slug": "david-s.-baxter",
+    "deathPlaceQid": "Q1026699",
+    "deathPlace": "Devizes",
+    "birthPlace": "Stirling, Scotland",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q1176463",
+    "slug": "david-s.-king",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q753414",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Kensington"
+  },
+  {
+    "qid": "Q5240731",
+    "slug": "david-w.-patten",
+    "birthPlaceQid": "Q16551",
+    "spouses": [
+      {
+        "spouseQid": "Q7186649",
+        "spouseName": "Phoebe Ann Patten"
+      }
+    ],
+    "birthPlace": "Vermont"
+  },
+  {
+    "qid": "Q1177157",
+    "slug": "david-whitmer",
+    "birthPlaceQid": "Q25280",
+    "birthPlace": "Harrisburg",
+    "deathPlace": "Richmond"
+  },
+  {
+    "qid": "Q5253536",
+    "slug": "delbert-l.-stapley",
+    "birthPlaceQid": "Q49261",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Mesa",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5261762",
+    "slug": "derek-a.-cuthbert",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Sherwood, a suburb of Nottingham, England",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q1628192",
+    "slug": "devin-g.-durrant",
+    "birthPlaceQid": "Q23443",
+    "birthPlace": "Provo"
+  },
+  {
+    "qid": "Q75991",
+    "slug": "dieter-f.-uchtdorf",
+    "birthPlaceQid": "Q8385",
+    "birthPlace": "Ostrava"
+  },
+  {
+    "qid": "Q5293369",
+    "slug": "don-r.-clarke"
+  },
+  {
+    "qid": "Q5294663",
+    "slug": "donald-l.-hallstrom",
+    "birthPlace": "Honolulu, Oahu",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5294677",
+    "slug": "donald-l.-staheli",
+    "birthPlace": "St. George",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "St. George, Washington"
+  },
+  {
+    "qid": "Q3038038",
+    "slug": "douglas-h.-smith",
+    "birthPlaceQid": "Q99",
+    "birthPlace": "California"
+  },
+  {
+    "qid": "Q5301644",
+    "slug": "douglas-j.-martin",
+    "deathPlaceQid": "Q200028",
+    "deathPlace": "Hamilton",
+    "birthPlace": "Napier, New Zealand",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5316735",
+    "slug": "durrel-a.-woolsey",
+    "birthPlace": "Escalante, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Pleasant Grove, Utah"
+  },
+  {
+    "qid": "Q5317860",
+    "slug": "dwan-j.-young",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5340051",
+    "slug": "edna-harker-thomas",
+    "birthPlaceQid": "Q52475",
+    "deathPlaceQid": "Q61",
+    "spouses": [
+      {
+        "spouseQid": "Q5353701",
+        "spouseName": "Elbert D. Thomas"
+      }
+    ],
+    "birthPlace": "Taylorsville",
+    "deathPlace": "Washington, D.C."
+  },
+  {
+    "qid": "Q16194519",
+    "slug": "edward-dube",
+    "birthPlace": "Chirumanzu, Zimbabwe",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5343559",
+    "slug": "edward-hunter"
+  },
+  {
+    "qid": "Q5344778",
+    "slug": "edward-partridge",
+    "deathPlaceQid": "Q576110",
+    "deathPlace": "Nauvoo",
+    "birthPlace": "Pittsfield, Berkshire",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5345448",
+    "slug": "edward-stevenson",
+    "birthPlaceQid": "Q1410",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Gibraltar",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5353156",
+    "slug": "elaine-a.-cannon",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City, Salt Lake"
+  },
+  {
+    "qid": "Q5353236",
+    "slug": "elaine-l.-jack"
+  },
+  {
+    "qid": "Q5353278",
+    "slug": "elaine-s.-dalton",
+    "birthPlaceQid": "Q52471",
+    "birthPlace": "Ogden"
+  },
+  {
+    "qid": "Q5353719",
+    "slug": "elbert-r.-curtis",
+    "birthPlace": "Salt Lake City, Utah, Curtis was also a president of the Western States Mission of the LDS Church and a president of the Sugar House Stake of the church",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5354133",
+    "slug": "eldred-g.-smith",
+    "birthPlace": "Lehi, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q3051180",
+    "slug": "eliza-r.-snow",
+    "birthPlaceQid": "Q2431830",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q203559",
+        "marriageDate": "+1844-10-03T00:00:00Z",
+        "spouseName": "Brigham Young"
+      },
+      {
+        "spouseQid": "Q47102",
+        "spouseName": "Joseph Smith"
+      }
+    ],
+    "birthPlace": "Becket",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5362318",
+    "slug": "elizabeth-ann-whitney",
+    "birthPlaceQid": "Q755197",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q465580",
+        "spouseName": "Newel K. Whitney"
+      }
+    ],
+    "birthPlace": "Derby",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5366782",
+    "slug": "elmina-shepard-taylor",
+    "birthPlaceQid": "Q3708268",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Middlefield",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5350680",
+    "slug": "elray-l.-christiansen",
+    "birthPlace": "Mayfield, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q131383840",
+    "slug": "emily-belle-freeman"
+  },
+  {
+    "qid": "Q2348210",
+    "slug": "emma-smith",
+    "birthPlaceQid": "Q3311583",
+    "deathPlaceQid": "Q3296997",
+    "spouses": [
+      {
+        "spouseQid": "Q6536370",
+        "marriageDate": "+1847-01-01T00:00:00Z",
+        "endDate": "+1879-01-01T00:00:00Z",
+        "spouseName": "Lewis C. Bidamon"
+      },
+      {
+        "spouseQid": "Q47102",
+        "spouseName": "Joseph Smith"
+      }
+    ],
+    "birthPlace": "Harmony Township",
+    "deathPlace": "Nauvoo House"
+  },
+  {
+    "qid": "Q5373425",
+    "slug": "emmeline-b.-wells",
+    "birthPlaceQid": "Q2426756",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q5217392",
+        "spouseName": "Daniel H. Wells"
+      }
+    ],
+    "birthPlace": "Petersham",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q3731101",
+    "slug": "erastus-snow",
+    "birthPlaceQid": "Q1014607",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "St. Johnsbury",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5423417",
+    "slug": "ezra-t.-benson",
+    "birthPlaceQid": "Q2539175",
+    "deathPlaceQid": "Q52471",
+    "birthPlace": "Mendon",
+    "deathPlace": "Ogden"
+  },
+  {
+    "qid": "Q1386097",
+    "slug": "ezra-taft-benson",
+    "birthPlaceQid": "Q1221",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Idaho",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5423979",
+    "slug": "f.-melvin-hammond",
+    "birthPlace": "Blackfoot, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5460774",
+    "slug": "florence-s.-jacobsen",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City, Utah, U.S."
+  },
+  {
+    "qid": "Q4253174",
+    "slug": "francis-m.-lyman",
+    "birthPlaceQid": "Q2671874",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Good Hope",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5485138",
+    "slug": "frank-b.-woodbury",
+    "birthPlaceQid": "Q52472",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "St. George",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5491781",
+    "slug": "franklin-d.-richards"
+  },
+  {
+    "qid": "Q5491632",
+    "slug": "franklin-l.-west"
+  },
+  {
+    "qid": "Q5497821",
+    "slug": "frederick-g.-williams",
+    "deathPlaceQid": "Q575750",
+    "deathPlace": "Quincy"
+  },
+  {
+    "qid": "Q5512177",
+    "slug": "g.-carlos-smith",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5525010",
+    "slug": "gary-e.-stevenson",
+    "birthPlaceQid": "Q52471",
+    "birthPlace": "Ogden"
+  },
+  {
+    "qid": "Q5525300",
+    "slug": "gary-j.-coleman",
+    "birthPlace": "Wenatchee, Washington",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5536005",
+    "slug": "george-a.-smith",
+    "birthPlaceQid": "Q3477816",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q4869086",
+        "spouseName": "Bathsheba W. Smith"
+      },
+      {
+        "spouseQid": "Q109904495",
+        "spouseName": "Almera Woodward Johnson"
+      }
+    ],
+    "birthPlace": "Potsdam",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q1392629",
+    "slug": "george-albert-smith",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5538324",
+    "slug": "george-d.-pyper",
+    "birthPlace": "Salt Lake City, Utah Territory",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5539137",
+    "slug": "george-f.-richards",
+    "birthPlace": "Farmington, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5539765",
+    "slug": "george-goddard"
+  },
+  {
+    "qid": "Q5540912",
+    "slug": "george-i.-cannon",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q408650",
+    "slug": "george-miller"
+  },
+  {
+    "qid": "Q5543120",
+    "slug": "george-p.-lee",
+    "deathPlaceQid": "Q23443",
+    "deathPlace": "Provo",
+    "birthPlace": "Towaoc, Colorado",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q947083",
+    "slug": "george-q.-cannon",
+    "birthPlaceQid": "Q24826",
+    "deathPlaceQid": "Q487315",
+    "spouses": [
+      {
+        "spouseQid": "Q83917994",
+        "spouseName": "Martha Telle Cannon"
+      }
+    ],
+    "birthPlace": "Liverpool",
+    "deathPlace": "Monterey"
+  },
+  {
+    "qid": "Q5543597",
+    "slug": "george-q.-morris",
+    "birthPlace": "Salt Lake City, Utah Territory",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5543634",
+    "slug": "george-r.-hill",
+    "birthPlace": "Ogden, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5543636",
+    "slug": "george-r.-hill-iii",
+    "birthPlace": "Ogden, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q3101857",
+    "slug": "george-reynolds"
+  },
+  {
+    "qid": "Q5545112",
+    "slug": "george-teasdale",
+    "birthPlaceQid": "Q84",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "London",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5625972",
+    "slug": "gerald-causse",
+    "birthPlaceQid": "Q1479",
+    "birthPlace": "Bordeaux"
+  },
+  {
+    "qid": "Q5549437",
+    "slug": "gerald-n.-lund"
+  },
+  {
+    "qid": "Q5552596",
+    "slug": "gerrit-w.-gong",
+    "birthPlace": "Redwood City, California. He",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5568942",
+    "slug": "glen-l.-pace"
+  },
+  {
+    "qid": "Q16083981",
+    "slug": "glen-l.-rudd",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City, Utah, U.S."
+  },
+  {
+    "qid": "Q553147",
+    "slug": "gordon-b.-hinckley",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q108419257",
+        "spouseName": "Marjorie Pay Hinckley"
+      }
+    ],
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5628101",
+    "slug": "h.-burke-peterson",
+    "birthPlace": "Salt Lake City, Utah and was raised in Phoenix, Arizona",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5628165",
+    "slug": "h.-david-burton",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5628627",
+    "slug": "h.-verlan-andersen",
+    "deathPlaceQid": "Q52468",
+    "deathPlace": "Orem",
+    "birthPlace": "Galeana Chihuahua Mexico",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q1392118",
+    "slug": "harold-b.-lee",
+    "birthPlaceQid": "Q1511100",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Clifton",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5660746",
+    "slug": "harold-g.-hillam",
+    "birthPlace": "Sugar City, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5675007",
+    "slug": "hartman-rector-jr.",
+    "birthPlace": "Moberly, Missouri",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Orem, Utah"
+  },
+  {
+    "qid": "Q9002343",
+    "slug": "heber-c.-kimball",
+    "birthPlaceQid": "Q1973448",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q97094236",
+        "spouseName": "Ann Alice Gheen"
+      },
+      {
+        "spouseQid": "Q97094241",
+        "spouseName": "Vilate Murray"
+      },
+      {
+        "spouseQid": "Q7422060",
+        "marriageDate": "+1846-01-12T00:00:00Z",
+        "spouseName": "Sarah Ann Whitney"
+      }
+    ],
+    "birthPlace": "Sheldon",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q1392562",
+    "slug": "heber-j.-grant",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q16090259",
+    "slug": "helio-r.-camargo",
+    "birthPlaceQid": "Q8678",
+    "birthPlace": "Rio de Janeiro"
+  },
+  {
+    "qid": "Q5710769",
+    "slug": "helvecio-martins",
+    "birthPlaceQid": "Q8678",
+    "deathPlaceQid": "Q175",
+    "birthPlace": "Rio de Janeiro",
+    "deathPlace": "São Paulo"
+  },
+  {
+    "qid": "Q949425",
+    "slug": "henry-b.-eyring",
+    "birthPlaceQid": "Q138518",
+    "birthPlace": "Princeton"
+  },
+  {
+    "qid": "Q5720113",
+    "slug": "henry-d.-moyle",
+    "birthPlace": "Salt Lake City, Utah Territory",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5720122",
+    "slug": "henry-d.-taylor",
+    "birthPlace": "Provo, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Utah"
+  },
+  {
+    "qid": "Q5722634",
+    "slug": "henry-harriman"
+  },
+  {
+    "qid": "Q5769245",
+    "slug": "hiram-page",
+    "birthPlaceQid": "Q16551",
+    "deathPlaceQid": "Q959823",
+    "birthPlace": "Vermont",
+    "deathPlace": "Excelsior Springs"
+  },
+  {
+    "qid": "Q15485417",
+    "slug": "horace-s.-eldredge",
+    "birthPlaceQid": "Q3708456",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Brutus",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5902293",
+    "slug": "horacio-a.-tenorio",
+    "birthPlace": "Mexico City, Mexico",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Atizapán de Zaragoza, Edo. de México"
+  },
+  {
+    "qid": "Q5906687",
+    "slug": "hortense-h.-c.-smith",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Thatcher, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q945517",
+    "slug": "howard-w.-hunter",
+    "birthPlaceQid": "Q35775",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Boise",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5929925",
+    "slug": "hugh-b.-brown",
+    "birthPlaceQid": "Q15222039",
+    "birthPlace": "Granger-Hunter",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5932967",
+    "slug": "hugh-w.-pinnock",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q116684701",
+    "slug": "hugo-montoya",
+    "birthPlaceQid": "Q1555",
+    "birthPlace": "Guatemala City"
+  },
+  {
+    "qid": "Q5962252",
+    "slug": "hyrum-g.-smith",
+    "birthPlaceQid": "Q52467",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "South Jordan",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5962246",
+    "slug": "hyrum-m.-smith",
+    "birthPlace": "Salt Lake City, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q2976186",
+    "slug": "hyrum-smith",
+    "birthPlaceQid": "Q2348930",
+    "deathPlaceQid": "Q579711",
+    "spouses": [
+      {
+        "spouseQid": "Q6779526",
+        "spouseName": "Mary Fielding Smith"
+      }
+    ],
+    "birthPlace": "Tunbridge",
+    "deathPlace": "Carthage"
+  },
+  {
+    "qid": "Q15998669",
+    "slug": "ida-s.-dusenberry",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23443",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Provo"
+  },
+  {
+    "qid": "Q6076809",
+    "slug": "isaac-morley"
+  },
+  {
+    "qid": "Q6105824",
+    "slug": "j.-golden-kimball",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q1227",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Nevada"
+  },
+  {
+    "qid": "Q11310570",
+    "slug": "j.-reuben-clark",
+    "birthPlaceQid": "Q829",
+    "birthPlace": "Utah",
+    "deathPlace": "December"
+  },
+  {
+    "qid": "Q6106939",
+    "slug": "j.-richard-clarke",
+    "birthPlaceQid": "Q818311",
+    "birthPlace": "Rexburg"
+  },
+  {
+    "qid": "Q6107250",
+    "slug": "j.-thomas-fyans",
+    "birthPlace": "Moreland, Idaho, Fyans was the son of Joseph Fyans and Mae Farnsworth",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6112856",
+    "slug": "jack-h.-goaslind",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q56065562",
+    "slug": "jack-n.-gerard",
+    "birthPlace": "Idaho Falls, Bonneville",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6119547",
+    "slug": "jacob-de-jager",
+    "deathPlace": "March"
+  },
+  {
+    "qid": "Q6119456",
+    "slug": "jacob-whitmer",
+    "birthPlaceQid": "Q1400",
+    "birthPlace": "Pennsylvania"
+  },
+  {
+    "qid": "Q6128071",
+    "slug": "james-a.-cullimore",
+    "birthPlace": "Lindon, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6133086",
+    "slug": "james-e.-faust",
+    "birthPlaceQid": "Q482416",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Delta",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q2042924",
+    "slug": "james-e.-talmage",
+    "birthPlaceQid": "Q23220",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q24284480",
+        "spouseName": "Q24284480"
+      }
+    ],
+    "birthPlace": "Berkshire",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q3806561",
+    "slug": "james-foster"
+  },
+  {
+    "qid": "Q6136686",
+    "slug": "james-j.-hamula",
+    "birthPlaceQid": "Q16739",
+    "birthPlace": "Long Beach"
+  },
+  {
+    "qid": "Q6140558",
+    "slug": "james-o.-mason",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6141863",
+    "slug": "james-r.-rasband",
+    "birthPlaceQid": "Q5083",
+    "birthPlace": "Seattle"
+  },
+  {
+    "qid": "Q6150845",
+    "slug": "janath-r.-cannon",
+    "birthPlaceQid": "Q52471",
+    "birthPlace": "Ogden",
+    "deathPlace": "Bountiful, Utah"
+  },
+  {
+    "qid": "Q6152707",
+    "slug": "jane-s.-richards",
+    "birthPlaceQid": "Q3708853",
+    "deathPlaceQid": "Q52471",
+    "spouses": [
+      {
+        "spouseQid": "Q5491440",
+        "spouseName": "Franklin D. Richards"
+      }
+    ],
+    "birthPlace": "Pamelia",
+    "deathPlace": "Ogden"
+  },
+  {
+    "qid": "Q6153694",
+    "slug": "janette-hales-beckham",
+    "birthPlace": "Springville, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6166577",
+    "slug": "jay-e.-jensen",
+    "birthPlace": "Payson, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7243054",
+    "slug": "jean-a.-stevens"
+  },
+  {
+    "qid": "Q50819924",
+    "slug": "jean-b.-bingham",
+    "birthPlaceQid": "Q23443",
+    "birthPlace": "Provo"
+  },
+  {
+    "qid": "Q6172733",
+    "slug": "jedediah-m.-grant",
+    "birthPlaceQid": "Q3501594",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Union",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q3176723",
+    "slug": "jeffrey-r.-holland",
+    "birthPlaceQid": "Q52472",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q7145862",
+        "marriageDate": "+1963-00-00T00:00:00Z",
+        "endDate": "+2023-07-20T00:00:00Z",
+        "spouseName": "Q7145862"
+      }
+    ],
+    "birthPlace": "St. George",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q14711617",
+    "slug": "jennie-b.-knight",
+    "birthPlaceQid": "Q482552",
+    "deathPlaceQid": "Q23443",
+    "birthPlace": "Spanish Fork",
+    "deathPlace": "Provo"
+  },
+  {
+    "qid": "Q6186216",
+    "slug": "jesse-carter-little",
+    "birthPlaceQid": "Q3447467",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Belmont",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6186357",
+    "slug": "jesse-gause",
+    "birthPlace": "East Marlborough, Chester",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "unknown"
+  },
+  {
+    "qid": "Q6210486",
+    "slug": "joe-j.-christensen",
+    "birthPlaceQid": "Q48834834",
+    "birthPlace": "Banida",
+    "deathPlace": "Salt Lake City, Salt Lake"
+  },
+  {
+    "qid": "Q6217984",
+    "slug": "john-a.-widtsoe",
+    "birthPlaceQid": "Q484119",
+    "birthPlace": "Frøya Municipality",
+    "deathPlace": "February"
+  },
+  {
+    "qid": "Q16106239",
+    "slug": "john-b.-dickson",
+    "birthPlaceQid": "Q199797",
+    "birthPlace": "Tacoma"
+  },
+  {
+    "qid": "Q3809129",
+    "slug": "john-c.-bennett",
+    "birthPlaceQid": "Q2309359",
+    "deathPlaceQid": "Q1914726",
+    "birthPlace": "Fairhaven",
+    "deathPlace": "Polk City"
+  },
+  {
+    "qid": "Q6227184",
+    "slug": "john-corrill",
+    "deathPlaceQid": "Q108798",
+    "deathPlace": "Adams County",
+    "birthPlace": "Worcester Co, Massachusetts",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q1483575",
+    "slug": "john-e.-fowler",
+    "birthPlaceQid": "Q305349",
+    "deathPlaceQid": "Q305349",
+    "birthPlace": "Clinton",
+    "deathPlace": "Clinton"
+  },
+  {
+    "qid": "Q6230870",
+    "slug": "john-e.-page",
+    "birthPlace": "Trenton, New York, Page was the son of Ebenezer and Rachel Page",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6232186",
+    "slug": "john-f.-boynton",
+    "birthPlace": "Bradford, Massachusetts",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Syracuse, New York"
+  },
+  {
+    "qid": "Q6235029",
+    "slug": "john-gaylord",
+    "deathPlaceQid": "Q1016638",
+    "deathPlace": "Burlington"
+  },
+  {
+    "qid": "Q313787",
+    "slug": "john-gould",
+    "birthPlaceQid": "Q82490",
+    "deathPlaceQid": "Q84",
+    "spouses": [
+      {
+        "spouseQid": "Q253875",
+        "spouseName": "Elizabeth Gould"
+      }
+    ],
+    "birthPlace": "Lyme Regis",
+    "deathPlace": "London"
+  },
+  {
+    "qid": "Q6236848",
+    "slug": "john-h.-groberg",
+    "birthPlaceQid": "Q496360",
+    "birthPlace": "Idaho Falls"
+  },
+  {
+    "qid": "Q6237107",
+    "slug": "john-h.-taylor"
+  },
+  {
+    "qid": "Q6238946",
+    "slug": "john-henry-smith",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Carbunca, Iowa, Smith was the son of Sarah Ann Libby and LDS Church apostle and First Presidency member, George A",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6242347",
+    "slug": "john-k.-carmack",
+    "birthPlace": "Winslow, Arizona",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q433328",
+    "slug": "john-l.-lewis",
+    "birthPlaceQid": "Q1891499",
+    "deathPlaceQid": "Q88",
+    "birthPlace": "Cleveland Township",
+    "deathPlace": "Alexandria"
+  },
+  {
+    "qid": "Q2748881",
+    "slug": "john-longden",
+    "birthPlaceQid": "Q669037",
+    "deathPlaceQid": "Q23306",
+    "birthPlace": "West Indies",
+    "deathPlace": "Greater London"
+  },
+  {
+    "qid": "Q6245873",
+    "slug": "john-m.-madsen",
+    "birthPlace": "Washington, District",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q424267",
+    "slug": "john-morgan"
+  },
+  {
+    "qid": "Q6253623",
+    "slug": "john-quayle-cannon",
+    "birthPlaceQid": "Q62",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q5362325",
+        "marriageDate": "+1880-03-17T00:00:00Z",
+        "endDate": "+1931-01-14T00:00:00Z",
+        "spouseName": "Elizabeth Ann Wells Cannon"
+      }
+    ],
+    "birthPlace": "San Francisco",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6253903",
+    "slug": "john-r.-lasater",
+    "birthPlaceQid": "Q483000",
+    "birthPlace": "Farmington",
+    "deathPlace": "North Ogden, Weber"
+  },
+  {
+    "qid": "Q6254050",
+    "slug": "john-r.-winder",
+    "birthPlaceQid": "Q663588",
+    "birthPlace": "Biddenden",
+    "deathPlace": "Salt Lake City, Utah"
+  },
+  {
+    "qid": "Q140128380",
+    "slug": "john-s.-tanner",
+    "birthPlace": "Coburg John Sears Tanner",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q245903",
+    "slug": "john-smith",
+    "birthPlace": "Kilmarnock, Ayrshire Jackie Smith",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q4375581",
+    "slug": "john-taylor"
+  },
+  {
+    "qid": "Q6261752",
+    "slug": "john-van-cott",
+    "birthPlaceQid": "Q2483284",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Canaan",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6262570",
+    "slug": "john-w.-taylor"
+  },
+  {
+    "qid": "Q361527",
+    "slug": "john-wells"
+  },
+  {
+    "qid": "Q5196041",
+    "slug": "john-whitmer",
+    "birthPlaceQid": "Q821105",
+    "birthPlace": "York",
+    "deathPlace": "Far West, Caldwell"
+  },
+  {
+    "qid": "Q15505516",
+    "slug": "john-willard-young",
+    "birthPlaceQid": "Q576110",
+    "spouses": [
+      {
+        "spouseQid": "Q137681293",
+        "marriageDate": "+1877-00-00T00:00:00Z",
+        "spouseName": "Luella Lucy Cobb"
+      }
+    ],
+    "birthPlace": "Nauvoo",
+    "deathPlace": "September"
+  },
+  {
+    "qid": "Q6277596",
+    "slug": "jorge-a.-rojas",
+    "birthPlaceQid": "Q1962715",
+    "birthPlace": "Delicias"
+  },
+  {
+    "qid": "Q1706464",
+    "slug": "joseph-anderson"
+  },
+  {
+    "qid": "Q14711657",
+    "slug": "joseph-angell-young",
+    "birthPlaceQid": "Q932039",
+    "birthPlace": "Kirtland"
+  },
+  {
+    "qid": "Q4355413",
+    "slug": "joseph-b.-wirthlin",
+    "birthPlace": "Salt Lake City, Utah, Wirthlin was the son of Madeline Bitner and Joseph L",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Utah, U.S."
+  },
+  {
+    "qid": "Q16018535",
+    "slug": "joseph-c.-muren",
+    "birthPlaceQid": "Q495377",
+    "birthPlace": "Richmond"
+  },
+  {
+    "qid": "Q14210665",
+    "slug": "joseph-f.-merrill",
+    "birthPlaceQid": "Q129991",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Richmond",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q982197",
+    "slug": "joseph-f.-smith",
+    "birthPlaceQid": "Q1581",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Missouri",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q1392595",
+    "slug": "joseph-fielding-smith",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q130309869",
+        "spouseName": "Ethel Georgina Reynolds"
+      }
+    ],
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q11773180",
+    "slug": "joseph-hardy"
+  },
+  {
+    "qid": "Q15995673",
+    "slug": "joseph-j.-cannon",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Position Died"
+  },
+  {
+    "qid": "Q6284761",
+    "slug": "joseph-l.-wirthlin",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q52472",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "St. George"
+  },
+  {
+    "qid": "Q6285179",
+    "slug": "joseph-m.-tanner",
+    "spouses": [
+      {
+        "spouseQid": "Q23835505",
+        "spouseName": "Annie Clark Tanner"
+      }
+    ],
+    "birthPlace": "Payson, Utah Territory, in a Latter-day Saint family",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Lethbridge, Alberta"
+  },
+  {
+    "qid": "Q47102",
+    "slug": "joseph-smith",
+    "birthPlaceQid": "Q584609",
+    "deathPlaceQid": "Q579711",
+    "spouses": [
+      {
+        "spouseQid": "Q2348210",
+        "spouseName": "Emma Smith"
+      },
+      {
+        "spouseQid": "Q43374468",
+        "marriageDate": "+1843-03-08T00:00:00Z",
+        "spouseName": "Eliza Maria Partridge Lyman"
+      },
+      {
+        "spouseQid": "Q3051180",
+        "spouseName": "Eliza Roxcy Snow"
+      },
+      {
+        "spouseQid": "Q8072227",
+        "spouseName": "Zina D. H. Young"
+      },
+      {
+        "spouseQid": "Q91157930",
+        "marriageDate": "+1843-03-04T00:00:00Z",
+        "spouseName": "Emily Dow Partridge"
+      },
+      {
+        "spouseQid": "Q20057746",
+        "spouseName": "Lucinda Morgan Harrisová"
+      },
+      {
+        "spouseQid": "Q5702756",
+        "spouseName": "Helen Mar Kimball"
+      },
+      {
+        "spouseQid": "Q7422060",
+        "marriageDate": "+1842-07-27T00:00:00Z",
+        "spouseName": "Sarah Ann Whitney"
+      },
+      {
+        "spouseQid": "Q109904495",
+        "spouseName": "Almera Woodward Johnson"
+      },
+      {
+        "spouseQid": "Q115707298",
+        "marriageDate": "+1841-00-00T00:00:00Z",
+        "spouseName": "Louisa Beeman"
+      }
+    ],
+    "birthPlace": "Sharon",
+    "deathPlace": "Carthage"
+  },
+  {
+    "qid": "Q6181938",
+    "slug": "joseph-smith-sr.",
+    "birthPlaceQid": "Q2302136",
+    "deathPlaceQid": "Q576110",
+    "spouses": [
+      {
+        "spouseQid": "Q4979362",
+        "spouseName": "Lucy Mack Smith"
+      }
+    ],
+    "birthPlace": "Topsfield",
+    "deathPlace": "Nauvoo"
+  },
+  {
+    "qid": "Q15454842",
+    "slug": "joseph-t.-bentley",
+    "birthPlace": "Colonia Ju",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6287686",
+    "slug": "joseph-w.-mcmurrin",
+    "birthPlaceQid": "Q482937",
+    "deathPlaceQid": "Q65",
+    "birthPlace": "Tooele",
+    "deathPlace": "Los Angeles"
+  },
+  {
+    "qid": "Q3185769",
+    "slug": "joseph-w.-sitati",
+    "birthPlace": "Bungoma, Kenya",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q14711662",
+    "slug": "joseph-young",
+    "birthPlaceQid": "Q1009192",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Hopkinton",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6288435",
+    "slug": "josephine-r.-west",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q482657",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Logan"
+  },
+  {
+    "qid": "Q6290443",
+    "slug": "josiah-butterfield",
+    "deathPlaceQid": "Q3301893",
+    "deathPlace": "Aromas",
+    "birthPlace": "Dunstable, Massachusetts",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q51144777",
+    "slug": "joy-d.-jones"
+  },
+  {
+    "qid": "Q6308031",
+    "slug": "julie-b.-beck",
+    "birthPlace": "Granger, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6313713",
+    "slug": "junius-f.-wells",
+    "birthPlace": "Salt Lake City, Utah Territory, Wells was the son of LDS Church leader Daniel H",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q100303",
+    "slug": "karl-g.-maeser",
+    "birthPlaceQid": "Q2533654",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q140227812",
+        "marriageDate": "+1854-01-01T00:00:00Z",
+        "spouseName": "Q140227812"
+      }
+    ],
+    "birthPlace": "Vorbrücke",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6384007",
+    "slug": "keith-b.-mcmullin",
+    "birthPlaceQid": "Q52472",
+    "birthPlace": "St. George"
+  },
+  {
+    "qid": "Q398740",
+    "slug": "kenneth-johnson"
+  },
+  {
+    "qid": "Q6391711",
+    "slug": "kent-f.-richards",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6408347",
+    "slug": "kim-b.-clark",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6456445",
+    "slug": "l.-edward-brown",
+    "birthPlaceQid": "Q607332",
+    "birthPlace": "Preston"
+  },
+  {
+    "qid": "Q3027563",
+    "slug": "l.-tom-perry",
+    "birthPlaceQid": "Q482657",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Logan",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6456696",
+    "slug": "l.-whitney-clayton",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6483317",
+    "slug": "lance-b.-wickman",
+    "birthPlace": "Seattle, Washington",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6490243",
+    "slug": "larry-j.-echo-hawk",
+    "birthPlaceQid": "Q916603",
+    "birthPlace": "Cody"
+  },
+  {
+    "qid": "Q14711761",
+    "slug": "lavern-watts-parmley",
+    "birthPlaceQid": "Q482822",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q7791126",
+        "spouseName": "Q7791126"
+      }
+    ],
+    "birthPlace": "Murray",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6506358",
+    "slug": "legrand-r.-curtis",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q3848705",
+    "slug": "legrand-r.-curtis-jr."
+  },
+  {
+    "qid": "Q6506360",
+    "slug": "legrand-richards",
+    "birthPlaceQid": "Q483000",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Farmington",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6525810",
+    "slug": "leonard-w.-hardy",
+    "birthPlaceQid": "Q4954548",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Bradford",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6535398",
+    "slug": "levi-edgar-young",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q36244989",
+        "spouseName": "Valeria Brinton Young"
+      }
+    ],
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6535541",
+    "slug": "levi-w.-hancock",
+    "birthPlaceQid": "Q49158",
+    "birthPlace": "Springfield",
+    "deathPlace": "Washington, Utah"
+  },
+  {
+    "qid": "Q6548279",
+    "slug": "lillie-t.-freeze",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6551696",
+    "slug": "linda-k.-burton",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5532323",
+    "slug": "lino-alvarez"
+  },
+  {
+    "qid": "Q6680353",
+    "slug": "loren-c.-dunn",
+    "birthPlaceQid": "Q482937",
+    "birthPlace": "Tooele",
+    "deathPlace": "Boston, Suffolk"
+  },
+  {
+    "qid": "Q635520",
+    "slug": "lorenzo-snow",
+    "birthPlaceQid": "Q336337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Portage County",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q13476305",
+    "slug": "louie-b.-felt",
+    "birthPlaceQid": "Q7568037",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "South Norwalk",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q15997405",
+    "slug": "louise-y.-robison",
+    "birthPlaceQid": "Q482464",
+    "deathPlaceQid": "Q62",
+    "birthPlace": "Scipio",
+    "deathPlace": "San Francisco"
+  },
+  {
+    "qid": "Q6693237",
+    "slug": "lowell-m.-snow"
+  },
+  {
+    "qid": "Q6698331",
+    "slug": "lucy-grant-cannon",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q111903315",
+    "slug": "luke-s.-johnson"
+  },
+  {
+    "qid": "Q6708023",
+    "slug": "lyman-e.-johnson",
+    "birthPlace": "Pomfret, Windsor County, Vermont",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6708074",
+    "slug": "lyman-r.-sherman",
+    "birthPlaceQid": "Q1893148",
+    "birthPlace": "Monkton",
+    "deathPlace": "January"
+  },
+  {
+    "qid": "Q15516821",
+    "slug": "lyman-wight",
+    "birthPlaceQid": "Q3708230",
+    "birthPlace": "Fairfield",
+    "deathPlace": "Dexter, Medina"
+  },
+  {
+    "qid": "Q6709027",
+    "slug": "lynn-g.-robbins",
+    "birthPlaceQid": "Q482941",
+    "birthPlace": "Payson"
+  },
+  {
+    "qid": "Q18739853",
+    "slug": "lynn-s.-richards",
+    "birthPlace": "Salt Lake City",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q3027430",
+    "slug": "m.-russell-ballard",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6729035",
+    "slug": "mae-taylor-nystrom",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6759326",
+    "slug": "margaret-d.-nadauld"
+  },
+  {
+    "qid": "Q6760046",
+    "slug": "margaret-young-taylor",
+    "birthPlaceQid": "Q586762",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q540244",
+        "spouseName": "John Taylor"
+      }
+    ],
+    "birthPlace": "Westport",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6761663",
+    "slug": "maria-young-dougall",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6762204",
+    "slug": "marianne-c.-sharp",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Grantsville, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6765165",
+    "slug": "marion-d.-hanks",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6765203",
+    "slug": "marion-g.-romney",
+    "birthPlace": "Colonia Ju",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q134593788",
+    "slug": "mark-a.-bragg",
+    "birthPlace": "Santa Monica, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6767465",
+    "slug": "mark-e.-petersen",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6771849",
+    "slug": "marlin-k.-jensen",
+    "birthPlace": "Huntsville, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6772964",
+    "slug": "marriner-w.-merrill",
+    "birthPlaceQid": "Q2028824",
+    "deathPlaceQid": "Q129991",
+    "birthPlace": "Sackville",
+    "deathPlace": "Richmond"
+  },
+  {
+    "qid": "Q6774417",
+    "slug": "martha-h.-tingey",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6775627",
+    "slug": "martin-harris"
+  },
+  {
+    "qid": "Q5396961",
+    "slug": "marvin-j.-ashton",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6778442",
+    "slug": "marvin-o.-ashton",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6779462",
+    "slug": "mary-ellen-w.-smoot",
+    "birthPlace": "Ogden, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6780403",
+    "slug": "mary-n.-cook",
+    "spouses": [
+      {
+        "spouseQid": "Q7325359",
+        "spouseName": "Richard E. Cook"
+      }
+    ],
+    "birthPlace": "Midvale, Utah, Mary Nielsen earned undergraduate and graduate degrees from Brigham Young University in audiology, speech pathology",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6787515",
+    "slug": "matilda-m.-barratt",
+    "birthPlaceQid": "Q18655",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Stockport",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6790350",
+    "slug": "matthew-cowley",
+    "birthPlaceQid": "Q607332",
+    "birthPlace": "Preston",
+    "deathPlace": "Position Called"
+  },
+  {
+    "qid": "Q6791041",
+    "slug": "matthew-o.-richardson"
+  },
+  {
+    "qid": "Q6791187",
+    "slug": "matthew-s.-holland",
+    "birthPlaceQid": "Q23443",
+    "birthPlace": "Provo"
+  },
+  {
+    "qid": "Q6791538",
+    "slug": "matthias-f.-cowley",
+    "birthPlace": "Salt Lake City, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Salt Lake"
+  },
+  {
+    "qid": "Q6796417",
+    "slug": "may-anderson",
+    "birthPlaceQid": "Q24826",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Liverpool",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6796505",
+    "slug": "may-green-hinckley",
+    "birthPlaceQid": "Q2472394",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Brampton",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6813988",
+    "slug": "melvin-j.-ballard",
+    "birthPlaceQid": "Q482657",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Logan",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6819789",
+    "slug": "merlin-r.-lybbert",
+    "birthPlace": "Cardston, Alberta, Canada",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Utah"
+  },
+  {
+    "qid": "Q6820201",
+    "slug": "merrill-j.-bateman",
+    "birthPlace": "Lehi, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6834765",
+    "slug": "michael-t.-ringwood",
+    "birthPlace": "Provo, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6860997",
+    "slug": "milton-bennion",
+    "birthPlaceQid": "Q52475",
+    "birthPlace": "Taylorsville"
+  },
+  {
+    "qid": "Q6861125",
+    "slug": "milton-h.-hardy",
+    "birthPlaceQid": "Q4954548",
+    "deathPlaceQid": "Q23443",
+    "birthPlace": "Bradford",
+    "deathPlace": "Provo"
+  },
+  {
+    "qid": "Q6861399",
+    "slug": "milton-r.-hunter",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Holden, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q15512281",
+    "slug": "moses-thatcher",
+    "deathPlaceQid": "Q482657",
+    "deathPlace": "Logan",
+    "birthPlace": "Sangamon County, Illinois",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q14711845",
+    "slug": "n.-eldon-tanner",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q16016276",
+    "slug": "naomi-m.-shumway",
+    "birthPlaceQid": "Q23443",
+    "birthPlace": "Provo"
+  },
+  {
+    "qid": "Q6964709",
+    "slug": "naomi-w.-randall",
+    "birthPlace": "North Ogden, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6984037",
+    "slug": "neal-a.-maxwell",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q6988452",
+    "slug": "neil-d.-schaerrer",
+    "birthPlace": "Payson",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q3337823",
+    "slug": "neil-l.-andersen",
+    "birthPlaceQid": "Q482657",
+    "birthPlace": "Logan"
+  },
+  {
+    "qid": "Q16115810",
+    "slug": "neill-f.-marriott",
+    "birthPlaceQid": "Q87",
+    "birthPlace": "Alexandria"
+  },
+  {
+    "qid": "Q465580",
+    "slug": "newel-k.-whitney",
+    "birthPlaceQid": "Q1902003",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q5362318",
+        "spouseName": "Elizabeth Ann Whitney"
+      }
+    ],
+    "birthPlace": "Marlboro",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7025427",
+    "slug": "nicholas-g.-smith",
+    "birthPlace": "Salt Lake City, Utah Territory, Smith was the son of LDS Church apostle John Henry Smith and Josephine Groesbeck",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Position Died"
+  },
+  {
+    "qid": "Q7072137",
+    "slug": "o.-leslie-stone",
+    "birthPlace": "Chapin, Teton County, Idaho",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Salt Lake"
+  },
+  {
+    "qid": "Q7072181",
+    "slug": "o.-vincent-haleck",
+    "birthPlace": "Utulei, American Samoa",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7076800",
+    "slug": "octaviano-tenorio",
+    "birthPlace": "Tilapan, Veracruz, Mexico",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q982343",
+    "slug": "oliver-cowdery",
+    "birthPlaceQid": "Q3450994",
+    "deathPlaceQid": "Q955399",
+    "spouses": [
+      {
+        "spouseQid": "Q131933596",
+        "spouseName": "Elizabeth Ann Cowdery"
+      }
+    ],
+    "birthPlace": "Wells",
+    "deathPlace": "Richmond"
+  },
+  {
+    "qid": "Q7104089",
+    "slug": "orrin-porter-miller",
+    "birthPlaceQid": "Q1829357",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Millcreek",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7104160",
+    "slug": "orson-f.-whitney",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q3849171",
+    "slug": "orson-hyde",
+    "birthPlaceQid": "Q34217",
+    "deathPlaceQid": "Q829",
+    "birthPlace": "Oxford",
+    "deathPlace": "Utah"
+  },
+  {
+    "qid": "Q2482954",
+    "slug": "orson-pratt",
+    "birthPlaceQid": "Q1022761",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q3950338",
+        "spouseName": "Q3950338"
+      }
+    ],
+    "birthPlace": "Hartford",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7105843",
+    "slug": "oscar-a.-kirkham",
+    "birthPlaceQid": "Q1010595",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Lehi",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q2465604",
+    "slug": "parley-p.-pratt",
+    "birthPlaceQid": "Q3708339",
+    "deathPlaceQid": "Q79440",
+    "spouses": [
+      {
+        "spouseQid": "Q138569276",
+        "spouseName": "Eleanor Jane McComb"
+      },
+      {
+        "spouseQid": "Q19873392",
+        "spouseName": "Mary Ann Frost Stearns Pratt"
+      },
+      {
+        "spouseQid": "Q94685864",
+        "spouseName": "Ann Agatha Walker Pratt"
+      }
+    ],
+    "birthPlace": "Burlington",
+    "deathPlace": "Alma"
+  },
+  {
+    "qid": "Q7145862",
+    "slug": "patricia-t.-holland",
+    "spouses": [
+      {
+        "spouseQid": "Q3176723",
+        "marriageDate": "+1963-00-00T00:00:00Z",
+        "endDate": "+2023-00-00T00:00:00Z",
+        "spouseName": "Jeffrey R. Holland"
+      }
+    ],
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7146916",
+    "slug": "patrick-kearon",
+    "birthPlace": "Carlisle, Cumberland",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7151057",
+    "slug": "paul-h.-dunn",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Provo, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7151677",
+    "slug": "paul-k.-sybrowsky",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q861653",
+    "slug": "paul-v.-johnson",
+    "birthPlace": "Gainesville, Florida",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7166686",
+    "slug": "per-g.-malm"
+  },
+  {
+    "qid": "Q63073350",
+    "slug": "peter-m.-johnson",
+    "birthPlace": "Manhattan, New York City",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7177695",
+    "slug": "peter-whitmer-jr.",
+    "birthPlace": "Fayette, New York",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q3027815",
+    "slug": "quentin-l.-cook",
+    "birthPlaceQid": "Q482657",
+    "birthPlace": "Logan"
+  },
+  {
+    "qid": "Q16090368",
+    "slug": "quinn-g.-mckay",
+    "birthPlaceQid": "Q483138",
+    "birthPlace": "Huntsville"
+  },
+  {
+    "qid": "Q959249",
+    "slug": "reed-smoot",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q49236",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "St. Petersburg"
+  },
+  {
+    "qid": "Q7319429",
+    "slug": "rey-l.-pratt",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q51083038",
+    "slug": "reyna-i.-aburto",
+    "birthPlaceQid": "Q3274",
+    "birthPlace": "Managua"
+  },
+  {
+    "qid": "Q7319633",
+    "slug": "reynolds-cahoon",
+    "deathPlaceQid": "Q482822",
+    "deathPlace": "Murray"
+  },
+  {
+    "qid": "Q7330050",
+    "slug": "richard-b.-wirthlin",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7324544",
+    "slug": "richard-c.-edgley",
+    "birthPlaceQid": "Q607332",
+    "birthPlace": "Preston"
+  },
+  {
+    "qid": "Q7325359",
+    "slug": "richard-e.-cook",
+    "spouses": [
+      {
+        "spouseQid": "Q6780403",
+        "spouseName": "Mary N. Cook"
+      }
+    ],
+    "birthPlace": "Pleasant Grove, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q2913521",
+    "slug": "richard-g.-scott",
+    "birthPlaceQid": "Q320729",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Pocatello",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7327181",
+    "slug": "richard-l.-evans",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7328238",
+    "slug": "richard-p.-lindsay",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7328566",
+    "slug": "richard-r.-lyman",
+    "spouses": [
+      {
+        "spouseQid": "Q4749087",
+        "spouseName": "Amy B. Lyman"
+      }
+    ],
+    "birthPlace": "Fillmore, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Utah"
+  },
+  {
+    "qid": "Q7342604",
+    "slug": "robert-c.-gay",
+    "birthPlace": "Los Angeles, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7342643",
+    "slug": "robert-c.-oaks"
+  },
+  {
+    "qid": "Q3434887",
+    "slug": "robert-d.-hales",
+    "birthPlaceQid": "Q60",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "New York City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7343884",
+    "slug": "robert-e.-sackley",
+    "deathPlaceQid": "Q1024734",
+    "deathPlace": "Surfers Paradise",
+    "birthPlace": "Lismore",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7346219",
+    "slug": "robert-k.-dellenbach",
+    "birthPlace": "Salt Lake City and raised in Clinton, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7346506",
+    "slug": "robert-l.-backman",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Murray, Salt Lake"
+  },
+  {
+    "qid": "Q413007",
+    "slug": "robert-l.-simpson"
+  },
+  {
+    "qid": "Q29888375",
+    "slug": "robert-m.-daines",
+    "birthPlace": "Bloomington, Indiana",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7349525",
+    "slug": "robert-s.-wood",
+    "birthPlace": "Idaho Falls, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7350211",
+    "slug": "robert-t.-burton",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Amherstburg, Upper Canada, Burton was called by Presiding Bishop Edward Hunter",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7356871",
+    "slug": "rodney-c.-badger",
+    "birthPlace": "Salt Lake City a year after his Mormon pioneer parents arrived in the Salt Lake Valley",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7358748",
+    "slug": "roger-orton",
+    "deathPlaceQid": "Q485787",
+    "deathPlace": "Lee County",
+    "birthPlace": "Geneseo, New York",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7364620",
+    "slug": "ronald-a.-rasband",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7364819",
+    "slug": "ronald-e.-poelman",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Salt Lake"
+  },
+  {
+    "qid": "Q28845692",
+    "slug": "ronald-t.-halverson"
+  },
+  {
+    "qid": "Q16123110",
+    "slug": "rosemary-m.-wixom",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7375205",
+    "slug": "royden-g.-derrick",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Salt Lake"
+  },
+  {
+    "qid": "Q7376908",
+    "slug": "rudger-clawson",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q15996525",
+    "slug": "rulon-s.-wells",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q3027523",
+    "slug": "russell-m.-nelson",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q51858005",
+        "marriageDate": "+2006-04-06T00:00:00Z",
+        "endDate": "+2025-09-27T00:00:00Z",
+        "spouseName": "Wendy Watson Nelson"
+      },
+      {
+        "spouseQid": "Q117846258",
+        "marriageDate": "+1945-08-31T00:00:00Z",
+        "endDate": "+2005-02-12T00:00:00Z",
+        "spouseName": "Dantzel Nelson"
+      }
+    ],
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7381812",
+    "slug": "russell-t.-osguthorpe",
+    "birthPlace": "Salt Lake City, Utah and received multiple education degrees, including a Ph",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7383021",
+    "slug": "ruth-h.-funk",
+    "birthPlace": "Chicago, Illinois, Ruth Hardy was raised in Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7383117",
+    "slug": "ruth-may-fox",
+    "birthPlaceQid": "Q1234797",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Westbury",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7387447",
+    "slug": "s.-dilworth-young",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q5559930",
+    "slug": "s.-gifford-nielsen",
+    "birthPlaceQid": "Q23443",
+    "birthPlace": "Provo"
+  },
+  {
+    "qid": "Q7397918",
+    "slug": "sadie-grant-pack",
+    "birthPlaceQid": "Q482385",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "West Bountiful",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7405507",
+    "slug": "salmon-gee",
+    "birthPlaceQid": "Q754630",
+    "deathPlaceQid": "Q485787",
+    "birthPlace": "Lyme",
+    "deathPlace": "Lee County"
+  },
+  {
+    "qid": "Q7411587",
+    "slug": "samuel-h.-smith"
+  },
+  {
+    "qid": "Q7412295",
+    "slug": "samuel-o.-bennion",
+    "birthPlaceQid": "Q52475",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Taylorsville",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7422548",
+    "slug": "sarah-m.-cleveland",
+    "deathPlaceQid": "Q526487",
+    "deathPlace": "Plymouth",
+    "birthPlace": "Becket",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7440955",
+    "slug": "sean-douglas",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7459128",
+    "slug": "seymour-b.-young",
+    "birthPlaceQid": "Q932039",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Kirtland",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q14711874",
+    "slug": "shadrach-roundy",
+    "birthPlaceQid": "Q1621936",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Rockingham",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q51082768",
+    "slug": "sharon-eubank",
+    "birthPlace": "Redding, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7490060",
+    "slug": "sharon-g.-larsen",
+    "birthPlace": "Glenwood, Edmonton",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q13563124",
+    "slug": "sheri-l.-dew",
+    "birthPlaceQid": "Q510455",
+    "birthPlace": "Ulysses"
+  },
+  {
+    "qid": "Q727001",
+    "slug": "sidney-rigdon",
+    "birthPlaceQid": "Q156291",
+    "deathPlaceQid": "Q3708668",
+    "birthPlace": "Allegheny County",
+    "deathPlace": "Friendship"
+  },
+  {
+    "qid": "Q7576091",
+    "slug": "spencer-j.-condie",
+    "birthPlaceQid": "Q607332",
+    "birthPlace": "Preston"
+  },
+  {
+    "qid": "Q1392523",
+    "slug": "spencer-w.-kimball",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7605135",
+    "slug": "stayner-richards",
+    "birthPlace": "Salt Lake City, Utah Territory",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7609734",
+    "slug": "stephen-l.-richards",
+    "birthPlace": "Mendon, Utah Territory",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q22007275",
+    "slug": "stephen-w.-owen",
+    "birthPlace": "Salt Lake City, Utah and obtained a bachelor's degree from the University of Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7611480",
+    "slug": "sterling-w.-sill",
+    "birthPlace": "Layton",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7614661",
+    "slug": "steven-e.-snow",
+    "birthPlace": "St. George, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q106331295",
+    "slug": "steven-j.-lund",
+    "birthPlace": "Mesa, Maricopa",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q123308539",
+    "slug": "susan-h.-porter",
+    "birthPlace": "Ponca City, Kay",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7648491",
+    "slug": "susan-w.-tanner",
+    "spouses": [
+      {
+        "spouseQid": "Q6256399",
+        "spouseName": "John S. Tanner"
+      }
+    ],
+    "birthPlace": "Granger, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q15452704",
+    "slug": "sydney-s.-reynolds",
+    "birthPlaceQid": "Q65",
+    "birthPlace": "Los Angeles"
+  },
+  {
+    "qid": "Q7660820",
+    "slug": "sylvester-q.-cannon",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7660831",
+    "slug": "sylvester-smith"
+  },
+  {
+    "qid": "Q7674243",
+    "slug": "tad-r.-callister",
+    "birthPlace": "Glendale, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q50583762",
+    "slug": "taniela-b.-wakolo",
+    "birthPlace": "Lomaloma, Lau, Fiji",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q16090019",
+    "slug": "ted-e.-brewerton",
+    "birthPlaceQid": "Q1001461",
+    "birthPlace": "Raymond",
+    "deathPlace": "September"
+  },
+  {
+    "qid": "Q7781901",
+    "slug": "theodore-m.-burton",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7787262",
+    "slug": "thomas-b.-marsh",
+    "deathPlace": "Ogden"
+  },
+  {
+    "qid": "Q7789183",
+    "slug": "thomas-e.-mckay",
+    "birthPlace": "Huntsville, Utah Territory",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q333620",
+    "slug": "thomas-s.-monson",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7796681",
+    "slug": "thorpe-b.-isaacson",
+    "birthPlace": "Ephraim, Sanpete County, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City, Utah"
+  },
+  {
+    "qid": "Q7810285",
+    "slug": "titus-billings",
+    "deathPlaceQid": "Q23443",
+    "deathPlace": "Provo",
+    "birthPlace": "Greenfield, Massachusetts",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q138351122",
+    "slug": "tracy-y.-browning",
+    "birthPlace": "New Rochelle, New York",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7879051",
+    "slug": "ulisses-soares"
+  },
+  {
+    "qid": "Q7908678",
+    "slug": "vai-sikahema",
+    "birthPlaceQid": "Q38834",
+    "birthPlace": "Nukuʻalofa"
+  },
+  {
+    "qid": "Q7926075",
+    "slug": "victor-l.-brown",
+    "deathPlaceQid": "Q23337",
+    "deathPlace": "Salt Lake City",
+    "birthPlace": "Cardston, Alberta, Canada",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7932791",
+    "slug": "vinson-knight",
+    "birthPlaceQid": "Q2536955",
+    "birthPlace": "Huntington"
+  },
+  {
+    "qid": "Q15455331",
+    "slug": "virginia-h.-pearce",
+    "birthPlace": "Salt Lake City, Salt Lake",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q136807239",
+    "slug": "w.-christopher-waddell",
+    "birthPlace": "Los Angeles, Los Angeles",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q7945414",
+    "slug": "w.-craig-zwick",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q7945747",
+    "slug": "w.-jay-eldredge",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q13607086",
+    "slug": "w.-rolfe-kerr",
+    "birthPlaceQid": "Q829",
+    "birthPlace": "Utah"
+  },
+  {
+    "qid": "Q560707",
+    "slug": "wilford-woodruff",
+    "birthPlaceQid": "Q743287",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Farmington",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q8003479",
+    "slug": "willard-richards",
+    "birthPlaceQid": "Q1009192",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q106839261",
+        "spouseName": "Jennetta Richards"
+      }
+    ],
+    "birthPlace": "Hopkinton",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q376510",
+    "slug": "william-b.-preston",
+    "birthPlaceQid": "Q285816",
+    "deathPlaceQid": "Q285816",
+    "birthPlace": "Blacksburg",
+    "deathPlace": "Blacksburg"
+  },
+  {
+    "qid": "Q8007503",
+    "slug": "william-d.-oswald",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q8008274",
+    "slug": "william-e.-mclellin",
+    "birthPlaceQid": "Q494634",
+    "deathPlaceQid": "Q24603",
+    "birthPlace": "Smith County",
+    "deathPlace": "Independence"
+  },
+  {
+    "qid": "Q8010109",
+    "slug": "william-grant-bangerter",
+    "birthPlace": "Granger, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q345059",
+    "slug": "william-h.-bennett"
+  },
+  {
+    "qid": "Q8013195",
+    "slug": "william-j.-critchlow-jr.",
+    "birthPlace": "Brigham City, Utah Territory",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q1851007",
+    "slug": "william-k.-jackson",
+    "birthPlaceQid": "Q209142",
+    "deathPlaceQid": "Q209142",
+    "birthPlace": "South Lanarkshire",
+    "deathPlace": "South Lanarkshire"
+  },
+  {
+    "qid": "Q3177480",
+    "slug": "william-law",
+    "birthPlaceQid": "Q6412879",
+    "deathPlaceQid": "Q6412879",
+    "birthPlace": "King's Cliffe",
+    "deathPlace": "King's Cliffe"
+  },
+  {
+    "qid": "Q8017304",
+    "slug": "william-r.-walker"
+  },
+  {
+    "qid": "Q226863",
+    "slug": "william-smith"
+  },
+  {
+    "qid": "Q8019821",
+    "slug": "william-w.-parmley",
+    "birthPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q8019842",
+    "slug": "william-w.-taylor",
+    "birthPlaceQid": "Q23337",
+    "deathPlaceQid": "Q23337",
+    "birthPlace": "Salt Lake City",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q15458896",
+    "slug": "yoshihiko-kikuchi",
+    "birthPlace": "Hokkaid",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q8068247",
+    "slug": "zebedee-coltrin",
+    "birthPlaceQid": "Q7114113",
+    "deathPlaceQid": "Q482552",
+    "birthPlace": "Ovid",
+    "deathPlace": "Spanish Fork"
+  },
+  {
+    "qid": "Q8069361",
+    "slug": "zera-pulsipher",
+    "deathPlaceQid": "Q5695999",
+    "deathPlace": "Hebron",
+    "birthPlace": "Rockingham, Vermont",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q8072227",
+    "slug": "zina-d.-h.-young",
+    "birthPlaceQid": "Q1378026",
+    "deathPlaceQid": "Q23337",
+    "spouses": [
+      {
+        "spouseQid": "Q203559",
+        "marriageDate": "+1846-02-02T00:00:00Z",
+        "spouseName": "Brigham Young"
+      },
+      {
+        "spouseQid": "Q47102",
+        "spouseName": "Joseph Smith"
+      }
+    ],
+    "birthPlace": "Watertown",
+    "deathPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q4766523",
+    "slug": "ann-m.-dibb",
+    "birthPlaceQid": "Q4766523",
+    "birthPlace": "Salt Lake City"
+  },
+  {
+    "qid": "Q93269294",
+    "slug": "a.-roger-merrill",
+    "birthPlaceQid": "Q93269294"
+  },
+  {
+    "qid": "Q99844",
+    "slug": "erich-w.-kopischke",
+    "birthPlaceQid": "Q99844",
+    "birthPlace": "Elmshorn"
+  },
+  {
+    "qid": "Q4683949",
+    "slug": "adney-y.-komatsu",
+    "birthPlaceQid": "Q4683949"
+  },
+  {
+    "qid": "Q5039850",
+    "slug": "carl-b.-cook",
+    "birthPlaceQid": "Q5039850",
+    "birthPlace": "Ogden, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q5325769",
+    "slug": "earl-c.-tingey",
+    "birthPlaceQid": "Q5325769"
+  },
+  {
+    "qid": "Q5325988",
+    "slug": "earl-m.-monson",
+    "birthPlaceQid": "Q5325988"
+  },
+  {
+    "qid": "Q5423983",
+    "slug": "f.-michael-watson",
+    "birthPlaceQid": "Q5423983"
+  },
+  {
+    "qid": "Q373831",
+    "slug": "charles-a.-didier",
+    "birthPlaceQid": "Q373831",
+    "birthPlace": "Ixelles"
+  },
+  {
+    "qid": "Q112425645",
+    "slug": "dale-e.-miller",
+    "birthPlaceQid": "Q112425645"
+  },
+  {
+    "qid": "Q94625436",
+    "slug": "james-h.-hart",
+    "birthPlaceQid": "Q94625436"
+  },
+  {
+    "qid": "Q6381453",
+    "slug": "kazuhiko-yamashita",
+    "birthPlaceQid": "Q6381453",
+    "birthPlace": "Ehime Prefecture"
+  },
+  {
+    "qid": "Q11230673",
+    "slug": "l.-todd-budge",
+    "birthPlaceQid": "Q11230673",
+    "birthPlace": "Pittsburg, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q16745231",
+    "slug": "j.-devn-cornish",
+    "birthPlaceQid": "Q16745231",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q16745318",
+    "slug": "kevin-s.-hamilton",
+    "birthPlaceQid": "Q16745318",
+    "birthPlace": "Wenatchee, Washington. He",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6129143",
+    "slug": "james-b.-martino",
+    "birthPlaceQid": "Q6129143",
+    "birthPlace": "Denton, Texas",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6397699",
+    "slug": "kevin-w.-pearson",
+    "birthPlaceQid": "Q6397699",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6708900",
+    "slug": "lynn-a.-mickelsen",
+    "birthPlaceQid": "Q6708900"
+  },
+  {
+    "qid": "Q105953114",
+    "slug": "ian-s.-ardern",
+    "birthPlaceQid": "Q105953114",
+    "birthPlace": "Te Aroha, New Zealand",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q72258474",
+    "slug": "jose-l.-alonso",
+    "birthPlaceQid": "Q72258474",
+    "birthPlace": "Mexico City, Mexico",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q98759750",
+    "slug": "robert-e.-wells",
+    "birthPlaceQid": "Q98759750",
+    "birthPlace": "El Paso",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "qid": "Q94108972",
+    "slug": "rulon-g.-craven",
+    "birthPlaceQid": "Q94108972"
+  },
+  {
+    "qid": "Q11417989",
+    "slug": "takashi-wada",
+    "birthPlaceQid": "Q11417989",
+    "birthPlace": "Isehara"
+  },
+  {
+    "qid": "Q16194397",
+    "slug": "scott-d.-whiting",
+    "birthPlaceQid": "Q16194397",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q16745291",
+    "slug": "randy-d.-funk",
+    "birthPlaceQid": "Q16745291",
+    "birthPlace": "Logan, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "qid": "Q6835633",
+    "slug": "michaelene-p.-grassli",
+    "birthPlaceQid": "Q6835633"
+  },
+  {
+    "qid": "Q7319178",
+    "slug": "rex-d.-pinegar",
+    "birthPlaceQid": "Q7319178"
+  },
+  {
+    "qid": "Q7516995",
+    "slug": "silvia-h.-allred",
+    "birthPlaceQid": "Q7516995"
+  },
+  {
+    "qid": "Q7149165",
+    "slug": "paul-b.-pieper",
+    "birthPlaceQid": "Q7149165",
+    "birthPlace": "Pocatello"
+  },
+  {
+    "qid": "Q16018998",
+    "slug": "monte-j.-brough",
+    "birthPlaceQid": "Q16018998",
+    "birthPlace": "Randolph"
+  },
+  {
+    "qid": "Q112441914",
+    "slug": "wayne-s.-peterson",
+    "birthPlaceQid": "Q112441914",
+    "birthPlace": "San Francisco",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "qid": "Q131996789",
+    "slug": "sergio-r.-vargas",
+    "birthPlaceQid": "Q131996789",
+    "birthPlace": "Puerto Varas"
+  },
+  {
+    "slug": "christoffel-golden-jr.",
+    "birthPlace": "Johannesburg",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "claudio-d.-zivic",
+    "birthPlace": "Buenos Aires",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "darwin-b.-christenson",
+    "birthPlace": "Firth",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "dorothy-p.-holt",
+    "birthPlace": "Lethbridge",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "duane-b.-gerrard",
+    "birthPlace": "Murray",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "gayle-m.-clegg",
+    "birthPlace": "Glendale",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "gene-r.-cook",
+    "birthPlace": "Lehi",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "h.-aldridge-gillespie",
+    "birthPlace": "Riverside",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "h.-ross-workman",
+    "birthPlace": "Salt Lake City",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "helen-s.-williams",
+    "birthPlace": "Milford",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "jose-a.-teixeira",
+    "birthPlace": "Vila Real",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "julio-e.-davila",
+    "birthPlace": "Bucaramunga",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "kathleen-h.-hughes",
+    "birthPlace": "Tooele",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "keith-crockett",
+    "birthPlace": "Pima",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "lawrence-e.-corbridge",
+    "birthPlace": "Moscow",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "richard-d.-allred",
+    "birthPlace": "Shelley",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "richard-h.-winkel",
+    "birthPlace": "Oakland",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "robert-f.-orton",
+    "birthPlace": "Reno",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "sean-c.-babcock",
+    "birthPlace": "Salt Lake City",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "sean-r.-rahm",
+    "birthPlace": "Salt Lake City",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "sergio-e.-munoz",
+    "birthPlace": "Puerto Varas",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "stanley-g.-ellis",
+    "birthPlace": "Burley",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "val-r.-christensen",
+    "birthPlace": "Ogden",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "waldo-p.-call",
+    "birthPlace": "Colonia Juarez",
+    "birthPlaceSource": "church-news"
+  },
+  {
+    "slug": "matthew-j.-eyring",
+    "birthPlace": "Princeton, New Jersey",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "aaron-t.-hall",
+    "birthPlace": "Provo, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "adeyinka-a.-ojediran",
+    "birthPlace": "Ibadan, Nigeria",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "adilson-de-paula-parrella",
+    "birthPlace": "Guaruj",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "adrian-ochoa",
+    "birthPlace": "San Francisco, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "ahmad-s.-corbitt",
+    "birthPlace": "Philadelphia, Pennsylvania",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "alan-r.-walker",
+    "birthPlace": "Buenos Aires, Argentina",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "alan-t.-phillips",
+    "birthPlace": "Kent, England",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "alexander-dushku",
+    "birthPlace": "Fairfield, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "allen-d.-haynie",
+    "birthPlace": "Logan, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "aroldo-b.-cavalcante",
+    "birthPlace": "Fortaleza, Cear",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "b.-corey-cuvelier",
+    "birthPlace": "Los Angeles, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "benjamin-de-hoyos",
+    "birthPlace": "Monterrey, Nuevo Le",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "benjamin-m.-z.-tai",
+    "birthPlace": "Hong Kong",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "brent-h.-nielson",
+    "birthPlace": "Burley, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "brian-j.-holmes",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "brian-k.-taylor",
+    "birthPlace": "Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "brik-v.-eyre",
+    "birthPlace": "Logan, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "brook-p.-hales",
+    "birthPlace": "Ogden, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "carlos-a.-godoy",
+    "birthPlace": "Porto Alegre, Brazil",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "carlos-g-revillo-jr",
+    "birthPlace": "General Santos City, Philippines",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "chad-h-webb",
+    "birthPlace": "Rexburg, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "christophe-g.-giraud-carrier",
+    "birthPlace": "Lyon, France",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "christopher-h.-kim",
+    "birthPlace": "Daegu, South Korea",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "ciro-schmeil",
+    "birthPlace": "Ponta Grossa, Brazil",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "clement-m.-matswagothata",
+    "birthPlace": "Middlepits, Botswana",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "craig-c.-christensen",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "d.-martin-goury",
+    "birthPlace": "Gagnoa",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "david-p.-homer",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "denelson-silva",
+    "birthPlace": "Recife, Brazil",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "eduardo-f.-ortega",
+    "birthPlace": "Godoy Cruz, Argentina",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "eduardo-gavarret",
+    "birthPlace": "Minas, Lavalleja",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "edward-b.-rowe",
+    "birthPlace": "Provo, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "enrique-r.-falabella",
+    "birthPlace": "Guatemala City, Guatemala",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "evan-a.-schmutz",
+    "birthPlace": "St. George, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "gabriel-w.-reid",
+    "birthPlace": "Pago Pago, American Samoa",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "gary-b.-sabin",
+    "birthPlace": "Provo, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "gregorio-e.-casillas",
+    "birthPlace": "Tijuana, Baja California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "hugo-e.-martinez",
+    "birthPlace": "Mayag",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "hutch-u.-fale",
+    "birthPlace": "Provo, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "i.-raymond-egbo",
+    "birthPlace": "Port Harcourt, Rivers State",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "isaac-k.-morrison",
+    "birthPlace": "Takoradi, Ghana",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "j.-hugh-baird",
+    "birthPlace": "Salt Lake City, Salt Lake",
+    "birthPlaceSource": "wikipedia",
+    "deathPlace": "Provo, Utah"
+  },
+  {
+    "slug": "j.-kimo-esplin",
+    "birthPlace": "Kahuku, Hawaii",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "james-e.-evanson",
+    "birthPlace": "Taber, Alberta",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "james-o.-fantone",
+    "birthPlace": "Manila, Philippines",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "james-w.-mcconkie-iii",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "jeremiah-j.-morgan",
+    "birthPlace": "Kettering, Ohio",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "jeremy-r.-jaggi",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "joaquin-e.-costa",
+    "birthPlace": "Concordia, Entre Rios",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "john-a.-mccune",
+    "birthPlace": "Santa Cruz, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "john-d.-amos",
+    "birthPlace": "Lafayette, Louisiana",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "jonathan-s.-schmitt",
+    "birthPlace": "Mesa, Arizona",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "joni-l.-koch",
+    "birthPlace": "Joinville, Santa Catarina",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "jorg-klebingat",
+    "birthPlace": "Zweibr",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "jorge-f.-zeballos",
+    "birthPlace": "Ovalle, Chile",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "jorge-m.-alvarado",
+    "birthPlace": "Ponce, Puerto Rico",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "jorge-t.-becerra",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "juan-pablo-villar",
+    "birthPlace": "Valparaiso, Chile",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "k.-brett-nattress",
+    "birthPlace": "Pocatello, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "karl-d.-hirst",
+    "birthPlace": "Bury, Lancashire",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "kelly-r.-johnson",
+    "birthPlace": "Ogden, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "kevin-g.-brown",
+    "birthPlace": "Manchester, Jamaica",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "kevin-j.-hathaway",
+    "birthPlace": "Billings, Montana",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "kevin-r.-duncan",
+    "birthPlace": "Ogden, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "kyle-s.-mckay",
+    "birthPlace": "Chicago, Illinois",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "larry-s.-kacher",
+    "birthPlace": "Mankato, Minnesota",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "lisa-l.-harkness",
+    "birthPlace": "Los Angeles, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "marcos-a.-aidukaitis",
+    "birthPlace": "Porto Alegre, Brazil",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "marcus-b.-nash",
+    "birthPlace": "Seattle, Washington",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "mark-d.-eddy",
+    "birthPlace": "Long Beach, California. He",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "mark-l.-pace",
+    "birthPlace": "Buenos Aires, Argentina",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "massimo-de-feo",
+    "birthPlace": "Taranto, Italy",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "mathias-held",
+    "birthPlace": "Bogot",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "matthew-l.-carpenter",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "michael-a.-dunn",
+    "birthPlace": "Tucson, Arizona",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "michael-b.-strong",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "michael-cziesla",
+    "birthPlace": "Neum",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "michael-john-u.-teh",
+    "birthPlace": "Davao City, Davao",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "moises-villanueva",
+    "birthPlace": "Oaxaca, Mexico",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "ozani-farias",
+    "birthPlace": "Recife, Brazil",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "patricio-m.-giuffra",
+    "birthPlace": "Valpara",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "paul-h.-sinclair",
+    "birthPlace": "Green Bay, Wisconsin",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "pedro-x.-larreal",
+    "birthPlace": "Valencia, Venezuela",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "peter-f.-meurs",
+    "birthPlace": "Warrnambool, Victoria",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "rafael-e.-pino",
+    "birthPlace": "Valencia, Venezuela",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "randall-k.-bennett",
+    "birthPlace": "Magrath, Alberta",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "richard-j.-maynes",
+    "birthPlace": "Berkeley, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "ruben-v.-alliaud",
+    "birthPlace": "Buenos Aires, Argentina",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "ryan-k.-olsen",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "s.-mark-palmer",
+    "birthPlace": "Te Puke, New Zealand",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "sandino-roman",
+    "birthPlace": "Iguala, Guerrero",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "shayne-m.-bowen",
+    "birthPlace": "Rigby, Idaho",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "steven-c.-barlow",
+    "birthPlace": "Bountiful, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "steven-d.-shumway",
+    "birthPlace": "Springerville, Arizona",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "steven-r.-bangerter",
+    "birthPlace": "Salt Lake City, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "taylor-g.-godoy",
+    "birthPlace": "Lima, Peru",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "terence-m.-vinson",
+    "birthPlace": "Sydney, Australia",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "thabo-lebethoa",
+    "birthPlace": "Soweto South Africa",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "thierry-k.-mutombo",
+    "birthPlace": "Kinshasa, Democratic Republic",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "timothy-j.-dyches",
+    "birthPlace": "Murray, Utah",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "valeri-v.-cordon",
+    "birthPlace": "Guatemala City, Guatemala",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "vern-p.-stanfill",
+    "birthPlace": "Townsend, Montana",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "w.-mark-bassett",
+    "birthPlace": "Carmichael, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "walter-f.-gonzalez",
+    "birthPlace": "Montevideo, Uruguay",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "wan-liang-wu",
+    "birthPlace": "Taipei, Taiwan",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "weatherford-t.-clayton",
+    "birthPlace": "Los Angeles, California",
+    "birthPlaceSource": "wikipedia"
+  },
+  {
+    "slug": "yoon-hwan-choi",
+    "birthPlace": "Seoul, South Korea",
+    "birthPlaceSource": "wikipedia"
+  }
+]

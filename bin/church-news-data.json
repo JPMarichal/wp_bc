@@ -1,0 +1,660 @@
+{
+  "a.-roger-merrill": {
+    "slug": "a.-roger-merrill",
+    "name": "A. Roger Merrill"
+  },
+  "a.-walter-stevenson": {
+    "slug": "a.-walter-stevenson",
+    "name": "A. Walter Stevenson"
+  },
+  "adhemar-damiani": {
+    "slug": "adhemar-damiani",
+    "name": "Adhemar Damiani"
+  },
+  "adney-y.-komatsu": {
+    "slug": "adney-y.-komatsu",
+    "name": "Adney Y. Komatsu"
+  },
+  "albert-choules-jr.": {
+    "slug": "albert-choules-jr.",
+    "name": "Albert Choules Jr."
+  },
+  "alexander-d.-acheson": {
+    "slug": "alexander-d.-acheson",
+    "name": "Alexander D. Acheson"
+  },
+  "angel-abrea": {
+    "slug": "angel-abrea",
+    "name": "Angel Abrea"
+  },
+  "ann-m.-dibb": {
+    "slug": "ann-m.-dibb",
+    "name": "Ann M. Dibb"
+  },
+  "anne-g.-wirthlin": {
+    "slug": "anne-g.-wirthlin",
+    "name": "Anne G. Wirthlin"
+  },
+  "arlene-b.-darger": {
+    "slug": "arlene-b.-darger",
+    "name": "Arlene B. Darger"
+  },
+  "arta-m.-hale": {
+    "slug": "arta-m.-hale",
+    "name": "Arta M. Hale"
+  },
+  "augusto-a.-lim": {
+    "slug": "augusto-a.-lim",
+    "name": "Augusto A. Lim"
+  },
+  "betty-jo-n.-jepsen": {
+    "slug": "betty-jo-n.-jepsen",
+    "name": "Betty Jo N. Jepsen"
+  },
+  "bradley-d.-foster": {
+    "slug": "bradley-d.-foster",
+    "name": "Bradley D. Foster"
+  },
+  "c.-max-caldwell": {
+    "slug": "c.-max-caldwell",
+    "name": "C. Max Caldwell"
+  },
+  "carl-b.-pratt": {
+    "slug": "carl-b.-pratt",
+    "name": "Carl B. Pratt"
+  },
+  "carlos-h.-amado": {
+    "slug": "carlos-h.-amado",
+    "name": "Carlos H. Amado"
+  },
+  "carol-b.-thomas": {
+    "slug": "carol-b.-thomas",
+    "name": "Carol B. Thomas"
+  },
+  "carol-f.-mcconkie": {
+    "slug": "carol-f.-mcconkie",
+    "name": "Carol F. McConkie"
+  },
+  "carole-m.-stephens": {
+    "slug": "carole-m.-stephens",
+    "name": "Carole M. Stephens"
+  },
+  "charles-a.-didier": {
+    "slug": "charles-a.-didier",
+    "name": "Charles A. Didier"
+  },
+  "cheryl-a.-esplin": {
+    "slug": "cheryl-a.-esplin",
+    "name": "Cheryl A. Esplin"
+  },
+  "cheryl-c.-lant": {
+    "slug": "cheryl-c.-lant",
+    "name": "Cheryl C. Lant"
+  },
+  "christoffel-golden-jr.": {
+    "slug": "christoffel-golden-jr.",
+    "name": "Christoffel Golden Jr.",
+    "birthPlace": "Johannesburg"
+  },
+  "clarissa-a.-beesley": {
+    "slug": "clarissa-a.-beesley",
+    "name": "Clarissa A. Beesley"
+  },
+  "clate-w.-mask-jr.": {
+    "slug": "clate-w.-mask-jr.",
+    "name": "Clate W. Mask Jr."
+  },
+  "claudio-d.-zivic": {
+    "slug": "claudio-d.-zivic",
+    "name": "Claudio D. Zivic",
+    "birthPlace": "Buenos Aires"
+  },
+  "craig-a.-cardon": {
+    "slug": "craig-a.-cardon",
+    "name": "Craig A. Cardon"
+  },
+  "cree-l-kofford": {
+    "slug": "cree-l-kofford",
+    "name": "Cree-L Kofford"
+  },
+  "d.-lee-tobler": {
+    "slug": "d.-lee-tobler",
+    "name": "D. Lee Tobler"
+  },
+  "d.-rex-gerratt": {
+    "slug": "d.-rex-gerratt",
+    "name": "D. Rex Gerratt"
+  },
+  "dale-e.-miller": {
+    "slug": "dale-e.-miller",
+    "name": "Dale E. Miller"
+  },
+  "darwin-b.-christenson": {
+    "slug": "darwin-b.-christenson",
+    "name": "Darwin B. Christenson",
+    "birthPlace": "Firth"
+  },
+  "daryl-h.-garn": {
+    "slug": "daryl-h.-garn",
+    "name": "Daryl H. Garn"
+  },
+  "dean-m.-davies": {
+    "slug": "dean-m.-davies",
+    "name": "Dean M. Davies"
+  },
+  "dennis-b.-neuenschwander": {
+    "slug": "dennis-b.-neuenschwander",
+    "name": "Dennis B. Neuenschwander"
+  },
+  "dennis-e.-simmons": {
+    "slug": "dennis-e.-simmons",
+    "name": "Dennis E. Simmons"
+  },
+  "dessie-grant-boyle": {
+    "slug": "dessie-grant-boyle",
+    "name": "Dessie Grant Boyle"
+  },
+  "devere-harris": {
+    "slug": "devere-harris",
+    "name": "Devere Harris"
+  },
+  "dorothy-p.-holt": {
+    "slug": "dorothy-p.-holt",
+    "name": "Dorothy P. Holt",
+    "birthPlace": "Lethbridge"
+  },
+  "dorthea-c.-murdock": {
+    "slug": "dorthea-c.-murdock",
+    "name": "Dorthea C. Murdock"
+  },
+  "douglas-d.-holmes": {
+    "slug": "douglas-d.-holmes",
+    "name": "Douglas D. Holmes"
+  },
+  "douglas-l.-callister": {
+    "slug": "douglas-l.-callister",
+    "name": "Douglas L. Callister"
+  },
+  "duane-b.-gerrard": {
+    "slug": "duane-b.-gerrard",
+    "name": "Duane B. Gerrard",
+    "birthPlace": "Murray"
+  },
+  "earl-c.-tingey": {
+    "slug": "earl-c.-tingey",
+    "name": "Earl C. Tingey"
+  },
+  "earl-m.-monson": {
+    "slug": "earl-m.-monson",
+    "name": "Earl M. Monson"
+  },
+  "edith-hunter-lambert": {
+    "slug": "edith-hunter-lambert",
+    "name": "Edith Hunter Lambert"
+  },
+  "eduardo-ayala": {
+    "slug": "eduardo-ayala",
+    "name": "Eduardo Ayala"
+  },
+  "eileen-r.-dunyon": {
+    "slug": "eileen-r.-dunyon",
+    "name": "Eileen R. Dunyon"
+  },
+  "emily-h.-bennett": {
+    "slug": "emily-h.-bennett",
+    "name": "Emily H. Bennett"
+  },
+  "enrique-e.-del-toro": {
+    "slug": "enrique-e.-del-toro",
+    "name": "Enrique E. del Toro"
+  },
+  "eran-a.-call": {
+    "slug": "eran-a.-call",
+    "name": "Eran A. Call"
+  },
+  "f.-burton-howard": {
+    "slug": "f.-burton-howard",
+    "name": "F. Burton Howard"
+  },
+  "f.-david-stanley": {
+    "slug": "f.-david-stanley",
+    "name": "F. David Stanley"
+  },
+  "f.-michael-watson": {
+    "slug": "f.-michael-watson",
+    "name": "F. Michael Watson"
+  },
+  "florence-h.-richards": {
+    "slug": "florence-h.-richards",
+    "name": "Florence H. Richards"
+  },
+  "florence-r.-lane": {
+    "slug": "florence-r.-lane",
+    "name": "Florence R. Lane"
+  },
+  "francisco-j.-vinas": {
+    "slug": "francisco-j.-vinas",
+    "name": "Francisco J. Viñas"
+  },
+  "gayle-m.-clegg": {
+    "slug": "gayle-m.-clegg",
+    "name": "Gayle M. Clegg",
+    "birthPlace": "Glendale"
+  },
+  "gene-r.-cook": {
+    "slug": "gene-r.-cook",
+    "name": "Gene R. Cook",
+    "birthPlace": "Lehi"
+  },
+  "gerald-e.-melchin": {
+    "slug": "gerald-e.-melchin",
+    "name": "Gerald E. Melchin"
+  },
+  "graham-w.-doxey": {
+    "slug": "graham-w.-doxey",
+    "name": "Graham W. Doxey"
+  },
+  "h.-aldridge-gillespie": {
+    "slug": "h.-aldridge-gillespie",
+    "name": "H. Aldridge Gillespie",
+    "birthPlace": "Riverside"
+  },
+  "h.-bruce-stucki": {
+    "slug": "h.-bruce-stucki",
+    "name": "H. Bruce Stucki"
+  },
+  "h.-ross-workman": {
+    "slug": "h.-ross-workman",
+    "name": "H. Ross Workman",
+    "birthPlace": "Salt Lake City"
+  },
+  "han-in-sang": {
+    "slug": "han-in-sang",
+    "name": "Han In Sang"
+  },
+  "hector-barrero": {
+    "slug": "hector-barrero",
+    "name": "Hector Barrero"
+  },
+  "helen-s.-williams": {
+    "slug": "helen-s.-williams",
+    "name": "Helen S. Williams",
+    "birthPlace": "Milford"
+  },
+  "isabelle-salmon-ross": {
+    "slug": "isabelle-salmon-ross",
+    "name": "Isabelle Salmon Ross"
+  },
+  "j.-ballard-washburn": {
+    "slug": "j.-ballard-washburn",
+    "name": "J. Ballard Washburn"
+  },
+  "j.-hugh-baird": {
+    "slug": "j.-hugh-baird",
+    "name": "J. Hugh Baird"
+  },
+  "j.-kent-jolley": {
+    "slug": "j.-kent-jolley",
+    "name": "J. Kent Jolley"
+  },
+  "jacob-f.-gates": {
+    "slug": "jacob-f.-gates",
+    "name": "Jacob F. Gates"
+  },
+  "james-m.-dunn": {
+    "slug": "james-m.-dunn",
+    "name": "James M. Dunn"
+  },
+  "james-m.-paramore": {
+    "slug": "james-m.-paramore",
+    "name": "James M. Paramore"
+  },
+  "janet-murdock-thompson": {
+    "slug": "janet-murdock-thompson",
+    "name": "Janet Murdock Thompson"
+  },
+  "jayne-b.-malan": {
+    "slug": "jayne-b.-malan",
+    "name": "Jayne B. Malan"
+  },
+  "jerald-l.-taylor": {
+    "slug": "jerald-l.-taylor",
+    "name": "Jerald L. Taylor"
+  },
+  "john-c.-pingree-jr.": {
+    "slug": "john-c.-pingree-jr.",
+    "name": "John C. Pingree Jr."
+  },
+  "john-d.-giles": {
+    "slug": "john-d.-giles",
+    "name": "John D. Giles"
+  },
+  "jose-a.-teixeira": {
+    "slug": "jose-a.-teixeira",
+    "name": "José A. Teixeira",
+    "birthPlace": "Vila Real"
+  },
+  "joseph-a.-aldrich": {
+    "slug": "joseph-a.-aldrich",
+    "name": "Joseph A. Aldrich"
+  },
+  "joy-f.-evans": {
+    "slug": "joy-f.-evans",
+    "name": "Joy F. Evans"
+  },
+  "julio-e.-davila": {
+    "slug": "julio-e.-davila",
+    "name": "Julio E. Dávila",
+    "birthPlace": "Bucaramunga"
+  },
+  "kathleen-h.-hughes": {
+    "slug": "kathleen-h.-hughes",
+    "name": "Kathleen H. Hughes",
+    "birthPlace": "Tooele"
+  },
+  "keith-crockett": {
+    "slug": "keith-crockett",
+    "name": "Keith Crockett",
+    "birthPlace": "Pima"
+  },
+  "keith-r.-edwards": {
+    "slug": "keith-r.-edwards",
+    "name": "Keith R. Edwards"
+  },
+  "kelly-b.-anderson": {
+    "slug": "kelly-b.-anderson",
+    "name": "Kelly B. Anderson"
+  },
+  "kent-d.-watson": {
+    "slug": "kent-d.-watson",
+    "name": "Kent D. Watson"
+  },
+  "kwok-yuen-tai": {
+    "slug": "kwok-yuen-tai",
+    "name": "Kwok Yuen Tai"
+  },
+  "larry-r.-lawrence": {
+    "slug": "larry-r.-lawrence",
+    "name": "Larry R. Lawrence"
+  },
+  "larry-w.-gibbons": {
+    "slug": "larry-w.-gibbons",
+    "name": "Larry W. Gibbons"
+  },
+  "larue-c.-longden": {
+    "slug": "larue-c.-longden",
+    "name": "LaRue C. Longden"
+  },
+  "lawrence-e.-corbridge": {
+    "slug": "lawrence-e.-corbridge",
+    "name": "Lawrence E. Corbridge",
+    "birthPlace": "Moscow"
+  },
+  "leone-w.-doxey": {
+    "slug": "leone-w.-doxey",
+    "name": "Leone W. Doxey"
+  },
+  "linda-s.-reeves": {
+    "slug": "linda-s.-reeves",
+    "name": "Linda S. Reeves"
+  },
+  "lloyd-p.-george": {
+    "slug": "lloyd-p.-george",
+    "name": "Lloyd P. George"
+  },
+  "lorenzo-h.-hatch": {
+    "slug": "lorenzo-h.-hatch",
+    "name": "Lorenzo H. Hatch"
+  },
+  "lowell-d.-wood": {
+    "slug": "lowell-d.-wood",
+    "name": "Lowell D. Wood"
+  },
+  "lucile-c.-reading": {
+    "slug": "lucile-c.-reading",
+    "name": "Lucile C. Reading"
+  },
+  "lucy-t.-andersen": {
+    "slug": "lucy-t.-andersen",
+    "name": "Lucy T. Andersen"
+  },
+  "lynn-a.-mickelsen": {
+    "slug": "lynn-a.-mickelsen",
+    "name": "Lynn A. Mickelsen"
+  },
+  "lynn-a.-sorensen": {
+    "slug": "lynn-a.-sorensen",
+    "name": "Lynn A. Sorensen"
+  },
+  "malcolm-s.-jeppsen": {
+    "slug": "malcolm-s.-jeppsen",
+    "name": "Malcolm S. Jeppsen"
+  },
+  "margaret-r.-jackson": {
+    "slug": "margaret-r.-jackson",
+    "name": "Margaret R. Jackson"
+  },
+  "margaret-s.-lifferth": {
+    "slug": "margaret-s.-lifferth",
+    "name": "Margaret S. Lifferth"
+  },
+  "mary-r.-durham": {
+    "slug": "mary-r.-durham",
+    "name": "Mary R. Durham"
+  },
+  "maurine-j.-turley": {
+    "slug": "maurine-j.-turley",
+    "name": "Maurine J. Turley"
+  },
+  "mervyn-b.-arnold": {
+    "slug": "mervyn-b.-arnold",
+    "name": "Mervyn B. Arnold"
+  },
+  "michele-g.-pisanu": {
+    "slug": "michele-g.-pisanu",
+    "name": "Michele G. Pisanu"
+  },
+  "michelle-d.-craig": {
+    "slug": "michelle-d.-craig",
+    "name": "Michelle D. Craig"
+  },
+  "milton-da-rocha-camargo": {
+    "slug": "milton-da-rocha-camargo",
+    "name": "Milton da Rocha Camargo"
+  },
+  "monte-j.-brough": {
+    "slug": "monte-j.-brough",
+    "name": "Monte J. Brough"
+  },
+  "ned-b.-roueche": {
+    "slug": "ned-b.-roueche",
+    "name": "Ned B. Roueche"
+  },
+  "nina-m.-garfield": {
+    "slug": "nina-m.-garfield",
+    "name": "Nina M. Garfield"
+  },
+  "norma-b.-smith": {
+    "slug": "norma-b.-smith",
+    "name": "Norma B. Smith"
+  },
+  "patricia-p.-pinegar": {
+    "slug": "patricia-p.-pinegar",
+    "name": "Patricia P. Pinegar"
+  },
+  "r.-conrad-schultz": {
+    "slug": "r.-conrad-schultz",
+    "name": "R. Conrad Schultz"
+  },
+  "ralph-w.-hardy": {
+    "slug": "ralph-w.-hardy",
+    "name": "Ralph W. Hardy"
+  },
+  "ray-h.-wood": {
+    "slug": "ray-h.-wood",
+    "name": "Ray H. Wood"
+  },
+  "rex-d.-pinegar": {
+    "slug": "rex-d.-pinegar",
+    "name": "Rex D. Pinegar"
+  },
+  "richard-d.-allred": {
+    "slug": "richard-d.-allred",
+    "name": "Richard D. Allred",
+    "birthPlace": "Shelley"
+  },
+  "richard-e.-turley-sr.": {
+    "slug": "richard-e.-turley-sr.",
+    "name": "Richard E. Turley Sr."
+  },
+  "richard-g.-hinckley": {
+    "slug": "richard-g.-hinckley",
+    "name": "Richard G. Hinckley"
+  },
+  "richard-h.-winkel": {
+    "slug": "richard-h.-winkel",
+    "name": "Richard H. Winkel",
+    "birthPlace": "Oakland"
+  },
+  "richard-l.-warner": {
+    "slug": "richard-l.-warner",
+    "name": "Richard L. Warner"
+  },
+  "robert-e.-wells": {
+    "slug": "robert-e.-wells",
+    "name": "Robert E. Wells",
+    "birthPlace": "El Paso"
+  },
+  "robert-f.-orton": {
+    "slug": "robert-f.-orton",
+    "name": "Robert F. Orton",
+    "birthPlace": "Reno"
+  },
+  "robert-j.-whetten": {
+    "slug": "robert-j.-whetten",
+    "name": "Robert J. Whetten"
+  },
+  "robert-r.-steuer": {
+    "slug": "robert-r.-steuer",
+    "name": "Robert R. Steuer"
+  },
+  "rosemary-k.-chibota": {
+    "slug": "rosemary-k.-chibota",
+    "name": "Rosemary K. Chibota"
+  },
+  "rulon-g.-craven": {
+    "slug": "rulon-g.-craven",
+    "name": "Rulon G. Craven"
+  },
+  "ruth-b.-wright": {
+    "slug": "ruth-b.-wright",
+    "name": "Ruth B. Wright"
+  },
+  "sara-b.-paulsen": {
+    "slug": "sara-b.-paulsen",
+    "name": "Sara B. Paulsen"
+  },
+  "sean-c.-babcock": {
+    "slug": "sean-c.-babcock",
+    "name": "Sean C. Babcock",
+    "birthPlace": "Salt Lake City"
+  },
+  "sean-r.-rahm": {
+    "slug": "sean-r.-rahm",
+    "name": "Sean R. Rahm",
+    "birthPlace": "Salt Lake City"
+  },
+  "sergio-e.-munoz": {
+    "slug": "sergio-e.-munoz",
+    "name": "Sergio E. Muñoz",
+    "birthPlace": "Puerto Varas"
+  },
+  "shirley-d.-christensen": {
+    "slug": "shirley-d.-christensen",
+    "name": "Shirley D. Christensen"
+  },
+  "silvia-h.-allred": {
+    "slug": "silvia-h.-allred",
+    "name": "Silvia H. Allred"
+  },
+  "spencer-v.-jones": {
+    "slug": "spencer-v.-jones",
+    "name": "Spencer V. Jones"
+  },
+  "stanley-g.-ellis": {
+    "slug": "stanley-g.-ellis",
+    "name": "Stanley G. Ellis",
+    "birthPlace": "Burley"
+  },
+  "stephen-b.-oveson": {
+    "slug": "stephen-b.-oveson",
+    "name": "Stephen B. Oveson"
+  },
+  "susan-l.-warner": {
+    "slug": "susan-l.-warner",
+    "name": "Susan L. Warner"
+  },
+  "theresa-a.-collins": {
+    "slug": "theresa-a.-collins",
+    "name": "Theresa A. Collins"
+  },
+  "v.-dallas-merrell": {
+    "slug": "v.-dallas-merrell",
+    "name": "V. Dallas Merrell"
+  },
+  "val-r.-christensen": {
+    "slug": "val-r.-christensen",
+    "name": "Val R. Christensen",
+    "birthPlace": "Ogden"
+  },
+  "vaughn-j.-featherstone": {
+    "slug": "vaughn-j.-featherstone",
+    "name": "Vaughn J. Featherstone"
+  },
+  "verna-w.-goddard": {
+    "slug": "verna-w.-goddard",
+    "name": "Verna W. Goddard"
+  },
+  "vicki-f.-matsumori": {
+    "slug": "vicki-f.-matsumori",
+    "name": "Vicki F. Matsumori"
+  },
+  "virginia-b.-cannon": {
+    "slug": "virginia-b.-cannon",
+    "name": "Virginia B. Cannon"
+  },
+  "w.-don-ladd": {
+    "slug": "w.-don-ladd",
+    "name": "W. Don Ladd"
+  },
+  "w.-douglas-shumway": {
+    "slug": "w.-douglas-shumway",
+    "name": "W. Douglas Shumway"
+  },
+  "waldo-p.-call": {
+    "slug": "waldo-p.-call",
+    "name": "Waldo P. Call",
+    "birthPlace": "Colonia Juarez"
+  },
+  "wayne-m.-hancock": {
+    "slug": "wayne-m.-hancock",
+    "name": "Wayne M. Hancock"
+  },
+  "wayne-s.-peterson": {
+    "slug": "wayne-s.-peterson",
+    "name": "Wayne S. Peterson",
+    "birthPlace": "San Francisco"
+  },
+  "wilford-w.-andersen": {
+    "slug": "wilford-w.-andersen",
+    "name": "Wilford W. Andersen"
+  },
+  "wolfgang-h.-paul": {
+    "slug": "wolfgang-h.-paul",
+    "name": "Wolfgang H. Paul"
+  },
+  "won-yong-ko": {
+    "slug": "won-yong-ko",
+    "name": "Won Yong Ko"
+  }
+}

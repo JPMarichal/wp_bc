@@ -1,0 +1,170 @@
+post_title,ID
+"Julio E. Dávila",3593
+"Keith Crockett",3594
+"Keith R. Edwards",3595
+"Kent D. Watson",3596
+"Kwok Yuen Tai",3598
+"Larry W. Gibbons",3600
+"Lloyd P. George",3602
+"Lowell D. Wood",3603
+"Lynn A. Sorensen",3605
+"Malcolm S. Jeppsen",3606
+"Ned B. Roueche",3607
+"R. Conrad Schultz",3610
+"Ray H. Wood",3611
+"Richard D. Allred",3612
+"Richard E. Turley Sr.",3614
+"Richard H. Winkel",3615
+"Robert F. Orton",3618
+"Robert J. Whetten",3619
+"Robert R. Steuer",3620
+"Shirley D. Christensen",3623
+"Spencer V. Jones",3624
+"Stephen B. Oveson",3625
+"V. Dallas Merrell",3626
+"W. Don Ladd",3627
+"W. Douglas Shumway",3628
+"Waldo P. Call",3629
+"Wayne M. Hancock",3630
+"Wayne S. Peterson",3631
+"Wolfgang H. Paul",3633
+"Won Yong Ko",3634
+"Adhemar Damiani",3559
+"Albert Choules Jr.",3560
+"C. Max Caldwell",3562
+"Clate W. Mask Jr.",3563
+"D. Lee Tobler",3564
+"D. Rex Gerratt",3565
+"Dale E. Miller",3566
+"Darwin B. Christenson",3567
+"Daryl H. Garn",3568
+"Dennis E. Simmons",3570
+"Douglas L. Callister",3574
+"Duane B. Gerrard",3575
+"Earl M. Monson",3577
+"Eran A. Call",3578
+"F. David Stanley",3579
+"Gerald E. Melchin",3580
+"H. Aldridge Gillespie",3582
+"H. Bruce Stucki",3583
+"H. Ross Workman",3584
+"J. Kent Jolley",3586
+"James M. Dunn",3587
+"Jerald L. Taylor",3588
+"Augusto A. Lim",3505
+"Eduardo Ayala",3509
+"Gene R. Cook",3511
+"Han In Sang",3514
+"Jacob F. Gates",3521
+"James H. Hart",3523
+"Joseph A. Aldrich",3530
+"Larry R. Lawrence",3479
+"Lawrence E. Corbridge",3482
+"Lynn A. Mickelsen",3484
+"Mervyn B. Arnold",3487
+"Richard G. Hinckley",3490
+"Robert E. Wells",3491
+"Wilford W. Andersen",3499
+"Bradley D. Foster",3444
+"Carl B. Pratt",3448
+"Carlos H. Amado",3449
+"Claudio D. Zivic",3451
+"Craig A. Cardon",3452
+"Cree-L Kofford",3453
+"Dennis B. Neuenschwander",3456
+"Earl C. Tingey",3459
+"F. Michael Watson",3461
+"Francisco J. Viñas",3462
+"Richard L. Warner",3412
+"James M. Paramore",3413
+"Devere Harris",3415
+"Philip T. Sonntag",3417
+"Derek A. Cuthbert",3418
+"Rulon G. Craven",3421
+"Charles A. Didier",3424
+"J. Ballard Washburn",3425
+"F. Burton Howard",3427
+"Val R. Christensen",3430
+"A. Roger Merrill",3431
+"Isabelle Salmon Ross",3351
+"Edith Hunter Lambert",3353
+"Adele Cannon Howells",3355
+"Janet Murdock Thompson",3356
+"Dessie Grant Boyle",3358
+"Arta M. Hale",3359
+"Leone W. Doxey",3360
+"Florence H. Richards",3361
+"Eileen R. Dunyon",3362
+"Lucile C. Reading",3363
+"Florence R. Lane",3365
+"Sara B. Paulsen",3367
+"Dorthea C. Murdock",3369
+"Virginia B. Cannon",3371
+"Michaelene P. Grassli",3372
+"Betty Jo N. Jepsen",3373
+"Ruth B. Wright",3374
+"Patricia P. Pinegar",3375
+"Anne G. Wirthlin",3376
+"Susan L. Warner",3377
+"Gayle M. Clegg",3380
+"Cheryl C. Lant",3381
+"Margaret S. Lifferth",3382
+"Vicki F. Matsumori",3383
+"Cheryl A. Esplin",3386
+"Mary R. Durham",3387
+"B. Lloyd Poelman",3407
+"J. Hugh Baird",3410
+"Joy F. Evans",3281
+"Kathleen H. Hughes",3290
+"Silvia H. Allred",3293
+"Carole M. Stephens",3296
+"Linda S. Reeves",3297
+"Clarissa A. Beesley",3308
+"Helen S. Williams",3309
+"Verna W. Goddard",3310
+"Lucy T. Andersen",3311
+"Emily H. Bennett",3313
+"LaRue C. Longden",3314
+"Margaret R. Jackson",3316
+"Dorothy P. Holt",3317
+"Arlene B. Darger",3321
+"Norma B. Smith",3322
+"Maurine J. Turley",3325
+"Jayne B. Malan",3326
+"Carol B. Thomas",3330
+"Ann M. Dibb",3335
+"Carol F. McConkie",3337
+"Michelle D. Craig",3340
+"Adney Y. Komatsu",3221
+"Sean R. Rahm",3224
+"Stephen W. Owen",3226
+"John D. Giles",3244
+"Lorenzo H. Hatch",3246
+"A. Walter Stevenson",3247
+"Ralph W. Hardy",3248
+"Graham W. Doxey",3253
+"Rex D. Pinegar",3255
+"Douglas D. Holmes",3256
+"Monte J. Brough",3257
+"John Smith (hijo de Hyrum)",3197
+"Joseph Fielding Smith (Patriarca)",3201
+"John H. Vandenberg",3186
+"Vaughn J. Featherstone",3190
+"Angel Abrea",3164
+"Carlos G. Revillo Jr.",3131
+"Rosemary K. Chibota",293
+"Nina M. Garfield",294
+"Theresa A. Collins",295
+"Enrique E. del Toro",276
+"José A. Teixeira",213
+"Alexander D. Acheson",220
+"Christoffel Golden Jr.",230
+"Dean M. Davies",232
+"Hector Barrero",234
+"John C. Pingree Jr.",241
+"Kelly B. Anderson",245
+"Michele G. Pisanu",251
+"Milton da Rocha Camargo",252
+"Sean C. Babcock",265
+"Sergio E. Muñoz",266
+"Stanley G. Ellis",267
