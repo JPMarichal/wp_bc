@@ -11,19 +11,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 		if ( has_post_thumbnail() && is_singular() ) :
 			bc_render_share_bar( 'top' );
 			?><div class="page-hero">
-				<?php the_post_thumbnail( 'full', array( 'class' => 'page-hero-image' ) ); ?>
+				<?php the_post_thumbnail( 'bc-hero', array( 'class' => 'page-hero-image', 'fetchpriority' => 'high' ) ); ?>
 				<div class="page-hero-content">
-					<?php
-					do_action( 'generate_before_entry_title' );
-					if ( generate_show_title() ) {
-						echo '<div class="page-hero-title-bar">';
-						the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' );
+					<header class="page-hero-header">
+						<?php
+						do_action( 'generate_before_entry_title' );
+						if ( generate_show_title() ) {
+							echo '<div class="page-hero-title-bar">';
+							the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' );
+							echo '</div>';
+						}
+						echo '<div class="page-hero-meta-bar">';
+						do_action( 'generate_after_entry_title' );
 						echo '</div>';
-					}
-					echo '<div class="page-hero-meta-bar">';
-					do_action( 'generate_after_entry_title' );
-					echo '</div>';
-					?>
+						?>
+					</header>
 				</div>
 			</div>
 			<?php if ( has_excerpt() ) : ?>

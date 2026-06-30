@@ -7,13 +7,20 @@ function bc_compiled_css_handle() {
 function bc_enqueue_compiled_styles() {
   $compiled_uri  = get_stylesheet_directory_uri() . '/style-compiled.css';
   $compiled_path = get_stylesheet_directory() . '/style-compiled.css';
-  $version = file_exists($compiled_path) ? filemtime($compiled_path) : '1.0';
+  $version = file_exists($compiled_path) ? md5_file($compiled_path) : '1.0';
 
   wp_enqueue_style(
     bc_compiled_css_handle(),
     $compiled_uri,
     ['generate-style'],
     $version
+  );
+
+  wp_enqueue_style(
+    'bc-fonts',
+    get_stylesheet_directory_uri() . '/fonts/bc-fonts.css',
+    [],
+    '1.0'
   );
 }
 add_action('wp_enqueue_scripts', 'bc_enqueue_compiled_styles', 20);
@@ -29,14 +36,6 @@ add_filter('style_loader_tag', function ($html, $handle) {
   return $html;
 }, 10, 2);
 
-function bc_preconnect_fonts() {
-  ?>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <?php
-}
-add_action('wp_head', 'bc_preconnect_fonts', -1);
-
 function bc_enqueue_global_assets() {
   wp_enqueue_style(
     'fontawesome',
@@ -50,13 +49,6 @@ function bc_enqueue_global_assets() {
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css',
     [],
     '5.3.3'
-  );
-
-  wp_enqueue_style(
-    'bc-headings-font',
-    'https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap',
-    [],
-    null
   );
 
   wp_enqueue_script(
@@ -105,6 +97,43 @@ body {
   .grid-container {
     padding-left: 40px;
     padding-right: 40px;
+  }
+}
+.bc-breadcrumbs-wrap {
+  background: #f5f3ef;
+  border: 1px solid #e8e4db;
+  border-bottom: none;
+  padding-left: 20px;
+}
+.bc-breadcrumbs-wrap .bc-breadcrumbs {
+  padding: 6px 0;
+}
+.bc-breadcrumbs-wrap .bc-breadcrumbs i {
+  font-size: 0.75em;
+}
+.bc-breadcrumbs-wrap a {
+  color: #8a7a6b;
+  text-decoration: none;
+}
+.bc-breadcrumbs-wrap a:hover {
+  color: #4a3728;
+  text-decoration: underline;
+}
+.bc-breadcrumbs-sep {
+  margin: 0 4px;
+  color: #c4b8a8;
+}
+.bc-breadcrumbs-current {
+  color: #4a3728;
+}
+@media (min-width: 768px) {
+  .bc-breadcrumbs-wrap {
+    padding-left: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .bc-breadcrumbs-wrap {
+    padding-left: 40px;
   }
 }
 .page-share-bar {
@@ -202,6 +231,77 @@ body {
     padding: 6px 40px;
   }
 }
+<?php if ( is_singular( 'bc_quote_author' ) ) : ?>
+.bc-glossary-single {
+  padding: 2rem 0;
+}
+.bc-glossary-back-nav {
+  margin-bottom: 1rem;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .bc-glossary-back-nav {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .bc-glossary-back-nav {
+    padding: 0 40px;
+  }
+}
+.bc-persona-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 100%;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .bc-persona-container {
+    grid-template-columns: 1fr 320px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .bc-persona-container {
+    padding: 0 40px;
+  }
+}
+.bc-persona-photo .bc-persona-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.bc-persona-biography {
+  margin-top: 1.5rem;
+  background: #fff;
+  border: 1px solid #e0ddd5;
+  border-radius: 8px;
+  padding: 2rem;
+  color: #333;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+.bc-persona-summary {
+  border: 1px solid #d4cdc0;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  background: #faf9f7;
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.bc-persona-summary p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+}
+<?php endif; ?>
 </style>
   <?php
 }

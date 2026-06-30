@@ -6,12 +6,12 @@ function bc_render_share_bar( $modifier = '' ) {
   }
 
   $bc_url    = urlencode( get_permalink() );
-  $bc_title  = urlencode( html_entity_decode( get_the_title(), ENT_QUOTES, 'UTF-8' ) );
+  $bc_title  = urlencode( html_entity_decode( is_singular( 'bc_quote_author' ) ? bc_persona_biography_title() : get_the_title(), ENT_QUOTES, 'UTF-8' ) );
   $bc_image  = rawurlencode( get_the_post_thumbnail_url( get_the_ID(), 'full' ) );
   $class     = $modifier ? 'page-share-bar page-share-bar--' . $modifier : 'page-share-bar';
   ?>
   <div class="<?php echo $class; ?>">
-    <span class="page-share-label">Comparte este artículo:</span>
+    <span class="page-share-label"><?php echo is_singular( 'bc_quote_author' ) ? 'Comparte esta biografía' : 'Comparte este artículo'; ?>:</span>
     <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $bc_url; ?>" target="_blank" rel="noopener" class="page-share-link share-facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
     <a href="https://twitter.com/intent/tweet?url=<?php echo $bc_url; ?>&text=<?php echo $bc_title; ?>" target="_blank" rel="noopener" class="page-share-link share-twitter" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
     <a href="https://wa.me/?text=<?php echo $bc_url; ?>" target="_blank" rel="noopener" class="page-share-link share-whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
