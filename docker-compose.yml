@@ -1,6 +1,7 @@
 services:
   wordpress:
-    image: wordpress:6-apache
+    build: .
+    image: wp_bc:latest
     container_name: wp_bc
     restart: unless-stopped
     ports:
@@ -27,6 +28,29 @@ services:
     depends_on:
       db:
         condition: service_healthy
+
+  cli:
+    image: wordpress:cli
+    container_name: wp_bc_cli
+    user: 33:33
+    depends_on:
+      - db
+      - wordpress
+    volumes:
+      - wp_data:/var/www/html
+      - ./config/wp-config.php:/var/www/html/wp-config.php
+      - ./bin:/var/www/html/bin
+      - ./wp-content/plugins:/var/www/html/wp-content/plugins
+      - ./wp-content/themes:/var/www/html/wp-content/themes
+      - ./wp-content/uploads:/var/www/html/wp-content/uploads
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: ${DB_NAME:-bc_wp}
+      WORDPRESS_DB_USER: ${DB_USER:-wpuser}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD:-wppass}
+      WORDPRESS_TABLE_PREFIX: ${TABLE_PREFIX:-wp_}
+    entrypoint: ["sh", "-c", "while true; do sleep 3600; done"]
+    restart: unless-stopped
 
   db:
     image: mysql:8.4

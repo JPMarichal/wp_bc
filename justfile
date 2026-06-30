@@ -1,0 +1,51 @@
+cli := "docker exec wp_bc_cli wp"
+
+# Run full maintenance (transients, spam, auto-drafts, DB optimize)
+maintenance:
+    {{cli}} transient delete --expired
+    -{{cli}} comment delete $({{cli}} comment list --status=spam --format=ids) --force
+    -{{cli}} post delete $({{cli}} post list --post_status=auto-draft --format=ids) --force
+    {{cli}} db optimize
+
+# Run the shell maintenance script
+script:
+    docker exec wp_bc_cli sh /var/www/html/bin/wp-maintenance.sh
+
+# List all autoloaded options sorted by size (largest first)
+autoload-audit:
+    {{cli}} option list --autoload=yes --format=table
+    @echo "---"
+    @echo "Large autoload options (>100KB):"
+    {{cli}} db query "SELECT option_name, LENGTH(option_value) AS bytes FROM wp_options WHERE autoload='yes' ORDER BY bytes DESC LIMIT 20"
+
+# Delete a specific autoloaded option by name
+autoload-clean option_name:
+    {{cli}} option delete {{option_name}}
+
+# Activate a plugin
+activate plugin:
+    {{cli}} plugin activate {{plugin}}
+
+# Deactivate a plugin
+deactivate plugin:
+    {{cli}} plugin deactivate {{plugin}}
+
+# Regenerate all media thumbnails
+media-regenerate:
+    {{cli}} media regenerate
+
+# Clean only expired transients
+transient-clean:
+    {{cli}} transient delete --expired
+
+# Optimize database tables
+db-optimize:
+    {{cli}} db optimize
+
+# List active plugins
+plugins:
+    {{cli}} plugin list
+
+# Show available commands
+default:
+    @just --list
