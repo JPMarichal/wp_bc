@@ -1,0 +1,18 @@
+{
+  "qid": "Q8019842",
+  "label": "William W. Taylor",
+  "description": "Leader in the LDS Church (1853-1884)",
+  "birthDate": 1853,
+  "deathDate": 1884,
+  "birthName": null,
+  "image": "WmWhitTaylor.JPG",
+  "occupations": [
+    "Q82955"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

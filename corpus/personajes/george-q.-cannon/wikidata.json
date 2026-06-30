@@ -1,0 +1,18 @@
+{
+  "qid": "Q947083",
+  "label": "George Q. Cannon",
+  "description": "Member of the Quorum of the Twelve Apostles and Utah Territory congressional delegate (1827-1901)",
+  "birthDate": 1827,
+  "deathDate": 1901,
+  "birthName": null,
+  "image": "George Q. Cannon - Brady-Handy.jpg",
+  "occupations": [
+    "Q82955"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

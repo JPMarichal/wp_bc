@@ -1,0 +1,18 @@
+{
+  "qid": "Q7151677",
+  "label": "Paul K. Sybrowsky",
+  "description": "President of Southern Virginia University",
+  "birthDate": 1944,
+  "deathDate": 2014,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

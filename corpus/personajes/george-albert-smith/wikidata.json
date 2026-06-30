@@ -1,0 +1,21 @@
+{
+  "qid": "Q1392629",
+  "label": "George Albert Smith",
+  "description": "president of The Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1870,
+  "deathDate": 1951,
+  "birthName": null,
+  "image": "George Albert Smith 1939.JPG",
+  "occupations": [
+    "Q42857"
+  ],
+  "positions": [
+    "Q3911009",
+    "Q17000892"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

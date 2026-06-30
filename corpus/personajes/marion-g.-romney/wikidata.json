@@ -1,0 +1,23 @@
+{
+  "qid": "Q6765203",
+  "label": "Marion G. Romney",
+  "description": "Leader of the LDS Church",
+  "birthDate": 1897,
+  "deathDate": 1988,
+  "birthName": null,
+  "image": "Marion G. Romney2.jpg",
+  "occupations": [
+    "Q42603",
+    "Q40348",
+    "Q82955"
+  ],
+  "positions": [
+    "Q18810381",
+    "Q1779357"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

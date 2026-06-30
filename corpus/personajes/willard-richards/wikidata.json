@@ -1,0 +1,23 @@
+{
+  "qid": "Q8003479",
+  "label": "Willard Richards",
+  "description": "American Mormon leader (1804–1854)",
+  "birthDate": 1804,
+  "deathDate": 1854,
+  "birthName": null,
+  "image": "WillardRichards.jpg",
+  "occupations": [
+    "Q1930187",
+    "Q1416611"
+  ],
+  "positions": [
+    "Q3620760",
+    "Q3848705",
+    "Q589298"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

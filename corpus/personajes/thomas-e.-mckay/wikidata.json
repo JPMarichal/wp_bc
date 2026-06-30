@@ -1,0 +1,21 @@
+{
+  "qid": "Q7789183",
+  "label": "Thomas E. McKay",
+  "description": "American politician (1875-1958)",
+  "birthDate": 1875,
+  "deathDate": 1958,
+  "birthName": null,
+  "image": "Thomas E. McKay.jpg",
+  "occupations": [
+    "Q82955"
+  ],
+  "positions": [
+    "Q18810381",
+    "Q20065565"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

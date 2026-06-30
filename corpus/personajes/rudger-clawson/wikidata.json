@@ -1,0 +1,18 @@
+{
+  "qid": "Q7376908",
+  "label": "Rudger Clawson",
+  "description": "Member of the Quorum of the Twelve Apostles of The Church of Jesus Christ of Latter-day Saints.",
+  "birthDate": 1857,
+  "deathDate": 1943,
+  "birthName": null,
+  "image": "Image from page 322 of \"Latter-day Saint biographical encyclopedia - a compilation of biographical sketches of prominent men and women in the Church of Jesus Christ of Latter-day Saints\" (1901) (2).jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

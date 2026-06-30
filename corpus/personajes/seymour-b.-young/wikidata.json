@@ -1,0 +1,18 @@
+{
+  "qid": "Q7459128",
+  "label": null,
+  "description": "First Seven President in the First Council of Seventy of The Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1837,
+  "deathDate": 1924,
+  "birthName": null,
+  "image": "Seymour B. Young.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

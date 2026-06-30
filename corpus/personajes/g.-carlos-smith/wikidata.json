@@ -1,0 +1,18 @@
+{
+  "qid": "Q5512177",
+  "label": "G. Carlos Smith",
+  "description": "American Mormon leader",
+  "birthDate": 1910,
+  "deathDate": 1987,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

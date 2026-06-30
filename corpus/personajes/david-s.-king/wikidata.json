@@ -1,0 +1,23 @@
+{
+  "qid": "Q1176463",
+  "label": "David S. King",
+  "description": "American politician (1917–2009)",
+  "birthDate": 1917,
+  "deathDate": 2009,
+  "birthName": null,
+  "image": "David Sjodahl King circa 1950.jpg",
+  "occupations": [
+    "Q82955",
+    "Q193391",
+    "Q40348"
+  ],
+  "positions": [
+    "Q13218630",
+    "Q121998"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

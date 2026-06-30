@@ -1,0 +1,18 @@
+{
+  "qid": "Q14711617",
+  "label": "Jennie B. Knight",
+  "description": "American missionary",
+  "birthDate": 1875,
+  "deathDate": 1957,
+  "birthName": null,
+  "image": "Jennie B. Knight.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

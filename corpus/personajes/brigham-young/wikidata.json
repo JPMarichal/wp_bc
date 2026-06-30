@@ -1,0 +1,20 @@
+{
+  "qid": "Q203559",
+  "label": "Brigham Young",
+  "description": "American religious leader (1801–1877)",
+  "birthDate": 1801,
+  "deathDate": 1877,
+  "birthName": null,
+  "image": "Brigham Young by Charles William Carter.jpg",
+  "occupations": [
+    "Q1234713",
+    "Q154549",
+    "Q42857",
+    "Q82955",
+    "Q132050"
+  ],
+  "positions": [
+    "Q47486386"
+  ],
+  "religion": "Q42504"
+}

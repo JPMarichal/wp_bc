@@ -1,0 +1,26 @@
+{
+  "qid": "Q3012489",
+  "label": "Dallin H. Oaks",
+  "description": "President of The Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1932,
+  "deathDate": null,
+  "birthName": null,
+  "image": "Dallin Harris Oaks (cropped3x4).jpg",
+  "occupations": [
+    "Q40348",
+    "Q1622272",
+    "Q36180",
+    "Q16533",
+    "Q15995642",
+    "Q185351"
+  ],
+  "positions": [
+    "Q3911009",
+    "Q17000892"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

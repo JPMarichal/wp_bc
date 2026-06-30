@@ -1,0 +1,18 @@
+{
+  "qid": "Q50819924",
+  "label": "Jean B. Bingham",
+  "description": "American Mormon General President",
+  "birthDate": 1952,
+  "deathDate": null,
+  "birthName": null,
+  "image": "JeanBBingham.jpg",
+  "occupations": [
+    "Q37226"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

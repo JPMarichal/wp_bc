@@ -1,0 +1,21 @@
+{
+  "qid": "Q75991",
+  "label": "Dieter F. Uchtdorf",
+  "description": "Apostle of The Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1940,
+  "deathDate": null,
+  "birthName": null,
+  "image": "Dieter F. Uchtdorf3.jpg",
+  "occupations": [
+    "Q2095549",
+    "Q15995642"
+  ],
+  "positions": [
+    "Q3911009"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

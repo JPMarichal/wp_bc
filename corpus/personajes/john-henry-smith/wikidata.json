@@ -1,0 +1,15 @@
+{
+  "qid": "Q6238946",
+  "label": "John Henry Smith",
+  "description": "American priest (1848-1911)",
+  "birthDate": 1848,
+  "deathDate": 1911,
+  "birthName": null,
+  "image": "John Henry Smith.jpg",
+  "occupations": [
+    "Q42603",
+    "Q82955"
+  ],
+  "positions": null,
+  "religion": "Q42504"
+}

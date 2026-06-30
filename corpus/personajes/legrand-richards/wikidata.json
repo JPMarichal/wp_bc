@@ -1,0 +1,23 @@
+{
+  "qid": "Q6506360",
+  "label": "LeGrand Richards",
+  "description": "American Mormon leader (1886-1983)",
+  "birthDate": 1886,
+  "deathDate": 1983,
+  "birthName": null,
+  "image": "LeGrand Richards 1934.JPG",
+  "occupations": [
+    "Q42603",
+    "Q1234713",
+    "Q219477",
+    "Q29182",
+    "Q36180",
+    "Q43412"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "qid": "Q3027430",
+  "label": "Melvin Russell Ballard",
+  "description": "American businessman and religious leader (1928–2023)",
+  "birthDate": 1928,
+  "deathDate": 2023,
+  "birthName": {
+    "text": "Melvin Russell Ballard Jr.",
+    "language": "en"
+  },
+  "image": "M. Russell Ballard.jpg",
+  "occupations": [
+    "Q43845",
+    "Q15995642"
+  ],
+  "positions": [
+    "Q4676856"
+  ],
+  "religion": "Q42504"
+}

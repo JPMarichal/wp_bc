@@ -1,0 +1,19 @@
+{
+  "qid": "Q2482954",
+  "label": "Orson Pratt",
+  "description": "Apostle of the LDS Church (1811–1881)",
+  "birthDate": 1811,
+  "deathDate": 1881,
+  "birthName": null,
+  "image": "OrsonPratt.jpg",
+  "occupations": [
+    "Q170790",
+    "Q82955",
+    "Q36180",
+    "Q432386",
+    "Q219477",
+    "Q1607826"
+  ],
+  "positions": null,
+  "religion": "Q42504"
+}

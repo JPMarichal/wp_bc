@@ -1,0 +1,16 @@
+{
+  "qid": "Q3177480",
+  "label": "William Law",
+  "description": "English cleric, nonjuror and theological writer",
+  "birthDate": 1686,
+  "deathDate": 1761,
+  "birthName": null,
+  "image": "William Law.jpg",
+  "occupations": [
+    "Q1234713",
+    "Q42603",
+    "Q4964182"
+  ],
+  "positions": null,
+  "religion": "Q6423963"
+}

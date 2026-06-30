@@ -1,0 +1,20 @@
+{
+  "qid": "Q5549437",
+  "label": "Gerald N. Lund",
+  "description": "American Mormon leader",
+  "birthDate": 1939,
+  "deathDate": null,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q42603",
+    "Q6625963",
+    "Q28389"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

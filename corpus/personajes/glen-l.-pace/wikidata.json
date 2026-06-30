@@ -1,0 +1,18 @@
+{
+  "qid": "Q5568942",
+  "label": "Glenn L. Pace",
+  "description": "American Mormon leader (1940-2017)",
+  "birthDate": 1940,
+  "deathDate": 2017,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q42603"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

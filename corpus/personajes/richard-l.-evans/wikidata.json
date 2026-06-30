@@ -1,0 +1,20 @@
+{
+  "qid": "Q7327181",
+  "label": "Richard L. Evans",
+  "description": "American Latter Day Saint writers and apostle; radio producer and announcer (1906-1971)",
+  "birthDate": 1906,
+  "deathDate": 1971,
+  "birthName": null,
+  "image": "Richard L. Evans.JPG",
+  "occupations": [
+    "Q36180",
+    "Q3406651",
+    "Q2722764"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

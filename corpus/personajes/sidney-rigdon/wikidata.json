@@ -1,0 +1,18 @@
+{
+  "qid": "Q727001",
+  "label": "Sidney Rigdon",
+  "description": "American Mormon leader (1793–1876)",
+  "birthDate": 1793,
+  "deathDate": 1876,
+  "birthName": null,
+  "image": "SidneyRigdon.jpg",
+  "occupations": [
+    "Q1607826"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 93191,
+    "id": "Q93191"
+  }
+}

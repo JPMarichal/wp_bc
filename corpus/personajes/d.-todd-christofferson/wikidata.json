@@ -1,0 +1,19 @@
+{
+  "qid": "Q3011076",
+  "label": "D. Todd Christofferson",
+  "description": "Apostle of The Church of Jesus Christ of Latter Day Saints",
+  "birthDate": 1945,
+  "deathDate": null,
+  "birthName": null,
+  "image": "D. Todd Christofferson (26735635918).jpg",
+  "occupations": [
+    "Q42603",
+    "Q40348"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

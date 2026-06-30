@@ -1,0 +1,19 @@
+{
+  "qid": "Q5538324",
+  "label": "George D. Pyper",
+  "description": "American musician and writer",
+  "birthDate": 1860,
+  "deathDate": 1943,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q177220",
+    "Q13424456"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

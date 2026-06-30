@@ -1,0 +1,18 @@
+{
+  "qid": "Q7397918",
+  "label": null,
+  "description": "American Mormon leader",
+  "birthDate": 1877,
+  "deathDate": 1960,
+  "birthName": null,
+  "image": "Sadie Grant Pack.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

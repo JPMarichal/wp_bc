@@ -1,0 +1,20 @@
+{
+  "qid": "Q1392595",
+  "label": "Joseph Fielding Smith",
+  "description": "Tenth President of The Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1876,
+  "deathDate": 1972,
+  "birthName": null,
+  "image": "Joseph Fielding Smith.jpg",
+  "occupations": [
+    "Q8963721",
+    "Q13424456",
+    "Q42857"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

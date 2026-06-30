@@ -1,0 +1,18 @@
+{
+  "qid": "Q6535398",
+  "label": "Levi E. Young",
+  "description": "Mormon missionary",
+  "birthDate": 1874,
+  "deathDate": 1963,
+  "birthName": null,
+  "image": "Levi E. Young.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "qid": "Q6772964",
+  "label": "Marriner W. Merrill",
+  "description": "Apostle of The Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1832,
+  "deathDate": 1906,
+  "birthName": null,
+  "image": "Marriner Wood Merrill.jpg",
+  "occupations": [
+    "Q82955"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

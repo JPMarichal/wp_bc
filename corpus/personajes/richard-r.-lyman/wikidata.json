@@ -1,0 +1,18 @@
+{
+  "qid": "Q7328566",
+  "label": "Richard R. Lyman",
+  "description": "American Mormon apostle (1870–1963)",
+  "birthDate": 1870,
+  "deathDate": 1963,
+  "birthName": null,
+  "image": "Richard R. Lyman.JPG",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

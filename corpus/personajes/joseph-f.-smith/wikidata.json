@@ -1,0 +1,19 @@
+{
+  "qid": "Q982197",
+  "label": "Joseph F. Smith",
+  "description": "President of The Church of Jesus Christ of Latter-day Saints (1838-1918)",
+  "birthDate": 1838,
+  "deathDate": 1918,
+  "birthName": null,
+  "image": "JFS First Presidency 1905 large.jpg",
+  "occupations": [
+    "Q82955",
+    "Q42857"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

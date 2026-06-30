@@ -1,0 +1,19 @@
+{
+  "qid": "Q2913521",
+  "label": "Richard G. Scott",
+  "description": "American Mormon leader (1928-2015)",
+  "birthDate": 1928,
+  "deathDate": 2015,
+  "birthName": null,
+  "image": "Richard G. Scott.JPG",
+  "occupations": [
+    "Q21002336",
+    "Q81096"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

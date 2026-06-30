@@ -1,0 +1,21 @@
+{
+  "qid": "Q7328238",
+  "label": "Richard P. Lindsay",
+  "description": "American politician (1926–2010)",
+  "birthDate": 1926,
+  "deathDate": 2010,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q82955"
+  ],
+  "positions": [
+    "Q18810381",
+    "Q20065565"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

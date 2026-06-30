@@ -1,0 +1,20 @@
+{
+  "qid": "Q5625972",
+  "label": "Gérald Caussé",
+  "description": "French Apostle of The Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1963,
+  "deathDate": null,
+  "birthName": null,
+  "image": "Gérald Caussé.jpg",
+  "occupations": [
+    "Q42603",
+    "Q43845",
+    "Q4504549"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

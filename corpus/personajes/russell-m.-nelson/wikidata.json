@@ -1,0 +1,24 @@
+{
+  "qid": "Q3027523",
+  "label": "Russell M. Nelson",
+  "description": "cardiothoracic surgeon and 17th President of The Church of Jesus Christ of Latter-day Saints (1924–2025)",
+  "birthDate": 1924,
+  "deathDate": 2025,
+  "birthName": null,
+  "image": "Russell M Nelson (cropped2).jpg",
+  "occupations": [
+    "Q4002666",
+    "Q3264451",
+    "Q774306",
+    "Q19842026"
+  ],
+  "positions": [
+    "Q17000892",
+    "Q3911009"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

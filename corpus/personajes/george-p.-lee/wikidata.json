@@ -1,0 +1,18 @@
+{
+  "qid": "Q5543120",
+  "label": "George P. Lee",
+  "description": "American Mormon leader (1943-2010)",
+  "birthDate": 1943,
+  "deathDate": 2010,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q18814623"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

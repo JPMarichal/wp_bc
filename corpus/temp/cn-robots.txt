@@ -1,0 +1,39 @@
+User-agent: GPTBot
+Allow: /almanac/
+Disallow: /
+
+User-agent: Google-Extended
+Allow: /almanac/
+Disallow: /
+
+User-agent: anthropic-ai
+Allow: /almanac/
+Disallow: /
+
+User-agent: cohere-ai
+Allow: /almanac/
+Disallow: /
+
+User-Agent: omgili
+Allow: /almanac/
+Disallow: /
+
+User-Agent: omgilibot
+Allow: /almanac/
+Disallow: /
+
+User-agent: PiplBot
+Allow: /almanac/
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: *
+Disallow:
+
+Sitemap:  https://www.thechurchnews.com/arc/outboundfeeds/sitemap-index/
+Sitemap:  https://www.thechurchnews.com/arc/outboundfeeds/sitemap-news-index/
+Sitemap:  https://www.thechurchnews.com/arc/outboundfeeds/sitemap-section-index/
+Sitemap:  https://www.thechurchnews.com/arc/outboundfeeds/sitemap-index-year/
+Sitemap:  https://uploads.deseret.com/sitemapsV2/churchnews/sitemap-index.xml

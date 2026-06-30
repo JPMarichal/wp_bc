@@ -1,0 +1,18 @@
+{
+  "qid": "Q16083981",
+  "label": "Glen L. Rudd",
+  "description": "American missionary (1918-1987)",
+  "birthDate": 1918,
+  "deathDate": 1987,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

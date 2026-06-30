@@ -1,0 +1,18 @@
+{
+  "qid": "Q7605135",
+  "label": "Stayner Richards",
+  "description": "American Mormon leader (1885–1953)",
+  "birthDate": 1885,
+  "deathDate": 1953,
+  "birthName": null,
+  "image": "Stayner Richards2.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

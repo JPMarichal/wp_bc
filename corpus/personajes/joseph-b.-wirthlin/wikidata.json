@@ -1,0 +1,18 @@
+{
+  "qid": "Q4355413",
+  "label": null,
+  "description": "Apostle of the Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1917,
+  "deathDate": 2008,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q43845"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

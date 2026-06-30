@@ -1,0 +1,23 @@
+{
+  "qid": "Q5396961",
+  "label": "Marvin J. Ashton",
+  "description": "Apostle of the LDS Church (1915-1994)",
+  "birthDate": 1915,
+  "deathDate": 1994,
+  "birthName": null,
+  "image": "Marvin J. Ashton.jpg",
+  "occupations": [
+    "Q82955",
+    "Q3620760"
+  ],
+  "positions": [
+    "Q20065565",
+    "Q4809070",
+    "Q3620760"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

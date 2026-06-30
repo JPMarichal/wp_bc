@@ -1,0 +1,19 @@
+{
+  "qid": "Q6984037",
+  "label": "Neal A. Maxwell",
+  "description": "Latter-Day Saints leader",
+  "birthDate": 1926,
+  "deathDate": 2004,
+  "birthName": null,
+  "image": "Neal A. Maxwell.jpg",
+  "occupations": [
+    "Q42603",
+    "Q1234713"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

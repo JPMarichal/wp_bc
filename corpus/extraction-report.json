@@ -1,0 +1,12 @@
+{
+  "total": 762,
+  "withBirthYear": 410,
+  "withDeathYear": 299,
+  "withBirthName": 5,
+  "withImage": 287,
+  "withEnDescription": 593,
+  "withOccupations": 380,
+  "withReligion": 217,
+  "missingDir": 0,
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "qid": "Q7945747",
+  "label": null,
+  "description": "LDS Church official",
+  "birthDate": 1913,
+  "deathDate": 2002,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

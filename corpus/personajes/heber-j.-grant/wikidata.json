@@ -1,0 +1,23 @@
+{
+  "qid": "Q1392562",
+  "label": "Heber J. Grant",
+  "description": "President of The Church of Jesus Christ of Latter-day Saints (1856-1945)",
+  "birthDate": 1856,
+  "deathDate": 1945,
+  "birthName": {
+    "text": "Heber Jeddy Grant",
+    "language": "en"
+  },
+  "image": "Heberjgrantloc2.png",
+  "occupations": [
+    "Q82955",
+    "Q42857",
+    "Q596458"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

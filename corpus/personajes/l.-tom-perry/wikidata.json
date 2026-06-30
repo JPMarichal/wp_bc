@@ -1,0 +1,18 @@
+{
+  "qid": "Q3027563",
+  "label": "L. Tom Perry",
+  "description": "American Mormon leader (1922–2015)",
+  "birthDate": 1922,
+  "deathDate": 2015,
+  "birthName": null,
+  "image": "L. Tom Perry.JPG",
+  "occupations": [
+    "Q15995642"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

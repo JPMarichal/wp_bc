@@ -1,0 +1,19 @@
+{
+  "qid": "Q895936",
+  "label": "Boyd K. Packer",
+  "description": "Apostle of the Church of Jesus Christ of Latter-day Saints (1924-2015)",
+  "birthDate": 1924,
+  "deathDate": 2015,
+  "birthName": null,
+  "image": "Boyd K. Packer.jpg",
+  "occupations": [
+    "Q15995642",
+    "Q15980158"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

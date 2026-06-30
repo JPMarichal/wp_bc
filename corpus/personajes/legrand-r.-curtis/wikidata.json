@@ -1,0 +1,19 @@
+{
+  "qid": "Q6506358",
+  "label": "LeGrand R. Curtis",
+  "description": "Mormon leader",
+  "birthDate": 1924,
+  "deathDate": 2010,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q42603",
+    "Q27349"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

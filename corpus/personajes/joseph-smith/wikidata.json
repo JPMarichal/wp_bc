@@ -1,0 +1,21 @@
+{
+  "qid": "Q47102",
+  "label": "Joseph Smith",
+  "description": "founder of the Latter Day Saint movement and prophet (1805–1844)",
+  "birthDate": 1805,
+  "deathDate": 1844,
+  "birthName": null,
+  "image": "Joseph Smith, Jr. (1843 photograph).jpg",
+  "occupations": [
+    "Q42857",
+    "Q82955",
+    "Q1234713",
+    "Q2142783"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

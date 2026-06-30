@@ -1,0 +1,18 @@
+{
+  "qid": "Q5536005",
+  "label": "George A. Smith",
+  "description": "Apostle of the LDS Church",
+  "birthDate": 1817,
+  "deathDate": 1875,
+  "birthName": null,
+  "image": "Georgeasmith.jpg",
+  "occupations": [
+    "Q82955"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

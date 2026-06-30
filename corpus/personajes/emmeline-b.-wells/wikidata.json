@@ -1,0 +1,22 @@
+{
+  "qid": "Q5373425",
+  "label": "Emmeline B. Wells",
+  "description": "General President of the Relief Society",
+  "birthDate": 1828,
+  "deathDate": 1921,
+  "birthName": null,
+  "image": "Emmeline B. Wells.JPG",
+  "occupations": [
+    "Q1930187",
+    "Q18939491",
+    "Q13424456",
+    "Q36180",
+    "Q34074720"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

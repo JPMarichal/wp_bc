@@ -1,0 +1,23 @@
+{
+  "qid": "Q6133086",
+  "label": "James E. Faust",
+  "description": "Apostle of the LDS Church (1920–2007)",
+  "birthDate": 1920,
+  "deathDate": 2007,
+  "birthName": null,
+  "image": "James E. Faust2.jpg",
+  "occupations": [
+    "Q42603",
+    "Q40348",
+    "Q82955",
+    "Q13424456"
+  ],
+  "positions": [
+    "Q18810381"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

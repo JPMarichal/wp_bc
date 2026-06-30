@@ -1,0 +1,16 @@
+{
+  "qid": "Q1893466",
+  "label": "Martin Harris",
+  "description": "Book of Mormon witness",
+  "birthDate": "1783-05-18",
+  "deathDate": "1875-07-10",
+  "birthName": null,
+  "image": "Martinharrisat87.jpg",
+  "occupations": ["farmer"],
+  "positions": ["Three Witnesses"],
+  "religion": "The Church of Jesus Christ of Latter-day Saints",
+  "father": "Nathan Harris",
+  "mother": "Rhoda Lapham",
+  "spouse": ["Lucy Harris", "Caroline Young"],
+  "children": 11
+}

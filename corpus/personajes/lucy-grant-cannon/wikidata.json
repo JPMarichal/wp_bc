@@ -1,0 +1,18 @@
+{
+  "qid": "Q6698331",
+  "label": "Lucy Grant Cannon",
+  "description": "4th general president of the Young Women organization of The Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1880,
+  "deathDate": 1966,
+  "birthName": null,
+  "image": "Lucy G. Cannon.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

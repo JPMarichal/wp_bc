@@ -1,0 +1,18 @@
+{
+  "qid": "Q7412295",
+  "label": "Samuel O. Bennion",
+  "description": "American Mormon leader",
+  "birthDate": 1874,
+  "deathDate": 1945,
+  "birthName": null,
+  "image": "Samuel O. Bennion.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

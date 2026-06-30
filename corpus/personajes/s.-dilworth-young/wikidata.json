@@ -1,0 +1,18 @@
+{
+  "qid": "Q7387447",
+  "label": "S. Dilworth Young",
+  "description": "Member of the The Church of Jesus Christ of Latter-day Saints's First Quorum of Seventy",
+  "birthDate": 1897,
+  "deathDate": 1981,
+  "birthName": null,
+  "image": "S. Dilworth Young.jpg",
+  "occupations": [
+    "Q36180"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "qid": "Q635520",
+  "label": "Lorenzo Snow",
+  "description": "President of The Church of Jesus Christ of Latter-day Saints (1814-1901)",
+  "birthDate": 1814,
+  "deathDate": 1901,
+  "birthName": null,
+  "image": "Lorenzo Snow 2.jpg",
+  "occupations": [
+    "Q831474",
+    "Q82955",
+    "Q36180",
+    "Q219477",
+    "Q42857"
+  ],
+  "positions": null,
+  "religion": "Q42504"
+}

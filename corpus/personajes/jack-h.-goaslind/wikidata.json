@@ -1,0 +1,18 @@
+{
+  "qid": "Q6112856",
+  "label": "Jack H. Goaslind",
+  "description": "Mormon leader",
+  "birthDate": 1928,
+  "deathDate": 2011,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q42603"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

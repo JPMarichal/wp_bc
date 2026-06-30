@@ -1,0 +1,21 @@
+{
+  "qid": "Q6490243",
+  "label": "Larry Echo Hawk",
+  "description": "Attorney and legal scholar",
+  "birthDate": 1948,
+  "deathDate": null,
+  "birthName": null,
+  "image": "LarryEchoHawkDOI.JPG",
+  "occupations": [
+    "Q42603",
+    "Q40348",
+    "Q82955",
+    "Q19204627"
+  ],
+  "positions": [
+    "Q91638772",
+    "Q17546641",
+    "Q16147713"
+  ],
+  "religion": null
+}

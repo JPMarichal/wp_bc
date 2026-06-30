@@ -1,0 +1,25 @@
+{
+  "qid": "Q333620",
+  "label": "Thomas S. Monson",
+  "description": "president of the Church of Jesus Christ of Latter-Day Saints (1927-2018)",
+  "birthDate": 1927,
+  "deathDate": 2018,
+  "birthName": {
+    "text": "Thomas Spencer Monson",
+    "language": "en"
+  },
+  "image": "Thomas S Monson.jpg",
+  "occupations": [
+    "Q42603",
+    "Q42857",
+    "Q36180"
+  ],
+  "positions": [
+    "Q17000892"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

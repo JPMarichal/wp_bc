@@ -1,0 +1,18 @@
+{
+  "qid": "Q7166686",
+  "label": "Per G. Malm",
+  "description": "Swedish Mormon leader (1948–2016)",
+  "birthDate": 1948,
+  "deathDate": 2016,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

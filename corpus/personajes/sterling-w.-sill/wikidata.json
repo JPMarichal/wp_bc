@@ -1,0 +1,18 @@
+{
+  "qid": "Q7611480",
+  "label": "Sterling W. Sill",
+  "description": "American Leader in The Church of Jesus Christ of Latter-day Saints (1903-1994)",
+  "birthDate": 1903,
+  "deathDate": 1994,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

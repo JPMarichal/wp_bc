@@ -1,0 +1,18 @@
+{
+  "qid": "Q5545112",
+  "label": null,
+  "description": "British Mormon leader (1831–1907)",
+  "birthDate": 1831,
+  "deathDate": 1907,
+  "birthName": null,
+  "image": "George Teasdale.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

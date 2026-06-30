@@ -1,0 +1,18 @@
+{
+  "qid": "Q5076017",
+  "label": "Charles C. Rich",
+  "description": "American leader in LDS Church",
+  "birthDate": 1809,
+  "deathDate": 1883,
+  "birthName": null,
+  "image": "Charles C. Rich 1880.jpg",
+  "occupations": [
+    "Q82955"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

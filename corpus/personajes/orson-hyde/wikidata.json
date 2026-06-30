@@ -1,0 +1,18 @@
+{
+  "qid": "Q3849171",
+  "label": "Orson Hyde",
+  "description": "American Mormon leader (1805-1878)",
+  "birthDate": 1805,
+  "deathDate": 1878,
+  "birthName": null,
+  "image": "Orson Hyde.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

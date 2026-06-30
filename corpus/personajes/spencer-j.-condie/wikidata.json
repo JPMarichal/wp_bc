@@ -1,0 +1,18 @@
+{
+  "qid": "Q7576091",
+  "label": "Spencer J. Condie",
+  "description": "Mormon leader",
+  "birthDate": 1940,
+  "deathDate": null,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q864380"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

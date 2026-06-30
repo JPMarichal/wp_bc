@@ -1,0 +1,18 @@
+{
+  "qid": "Q465580",
+  "label": "Newel K. Whitney",
+  "description": "Presiding Bishop of the LDS church (1795–1850)",
+  "birthDate": 1795,
+  "deathDate": 1850,
+  "birthName": null,
+  "image": "Newel K. Whitney.jpg",
+  "occupations": [
+    "Q42603"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "qid": "Q6150845",
+  "label": null,
+  "description": "counselor in the general presidency of the Relief Society of the LDS Church",
+  "birthDate": 1918,
+  "deathDate": 2007,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q1607826"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

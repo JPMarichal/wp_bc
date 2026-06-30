@@ -1,0 +1,18 @@
+{
+  "qid": "Q16018535",
+  "label": null,
+  "description": "American missionary",
+  "birthDate": 1936,
+  "deathDate": 2009,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "qid": "Q5552596",
+  "label": "Gerrit W. Gong",
+  "description": "Apostle of The Church of Jesus Christ of Latter-day Saints, first of Asian descent",
+  "birthDate": 1953,
+  "deathDate": null,
+  "birthName": null,
+  "image": "Elder Gerrit W. Gong (27223015317).jpg",
+  "occupations": [
+    "Q42603",
+    "Q193391",
+    "Q1622272",
+    "Q1238570"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

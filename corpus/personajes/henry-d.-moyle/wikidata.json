@@ -1,0 +1,18 @@
+{
+  "qid": "Q5720113",
+  "label": "Henry D. Moyle",
+  "description": "Member of the Quorum of the Twelve Apostles (1889–1963)",
+  "birthDate": 1889,
+  "deathDate": 1963,
+  "birthName": null,
+  "image": "Henry D. Moyle2.jpg",
+  "occupations": [
+    "Q40348"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

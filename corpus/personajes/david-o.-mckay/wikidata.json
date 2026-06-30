@@ -1,0 +1,21 @@
+{
+  "qid": "Q1175942",
+  "label": "David O. McKay",
+  "description": "President of The Church of Jesus Christ of Latter-day Saints (1873-1970)",
+  "birthDate": 1873,
+  "deathDate": 1970,
+  "birthName": {
+    "text": "David Oman MacKay",
+    "language": "en"
+  },
+  "image": "David O. McKay 1939.JPG",
+  "occupations": [
+    "Q37226",
+    "Q42857"
+  ],
+  "positions": [
+    "Q17000892",
+    "Q3911009"
+  ],
+  "religion": "Q42504"
+}

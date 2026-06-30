@@ -1,0 +1,21 @@
+{
+  "qid": "Q5217392",
+  "label": "Daniel H. Wells",
+  "description": "Apostle of LDS Church and Mayor of Salt Lake City (1814-1891)",
+  "birthDate": 1814,
+  "deathDate": 1891,
+  "birthName": null,
+  "image": "Daniel H. Wells2.jpg",
+  "occupations": [
+    "Q82955",
+    "Q30185"
+  ],
+  "positions": [
+    "Q22001405"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

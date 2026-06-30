@@ -1,0 +1,23 @@
+{
+  "qid": "Q2465604",
+  "label": "Parley P. Pratt",
+  "description": "Apostle of the Church of Jesus Christ of Latter-day Saints",
+  "birthDate": 1807,
+  "deathDate": 1857,
+  "birthName": null,
+  "image": "Parley P Pratt.gif",
+  "occupations": [
+    "Q831474",
+    "Q82955",
+    "Q13424456",
+    "Q49757",
+    "Q18814623",
+    "Q432386"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

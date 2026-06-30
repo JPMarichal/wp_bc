@@ -1,0 +1,18 @@
+{
+  "qid": "Q5354133",
+  "label": "Eldred G. Smith",
+  "description": "American Leader in The Church of Jesus Christ of Latter-day Saints (1907-2013)",
+  "birthDate": 1907,
+  "deathDate": 2013,
+  "birthName": null,
+  "image": "Eldred G. Smith.jpg",
+  "occupations": [
+    "Q42603"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

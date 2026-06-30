@@ -1,0 +1,18 @@
+{
+  "qid": "Q5543597",
+  "label": "George Q. Morris",
+  "description": "American Mormon leader",
+  "birthDate": 1874,
+  "deathDate": 1962,
+  "birthName": null,
+  "image": "George Q. Morris2.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

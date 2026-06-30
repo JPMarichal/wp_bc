@@ -1,0 +1,18 @@
+{
+  "qid": "Q15512281",
+  "label": "Moses Thatcher",
+  "description": "Apostle of the Church of Jesus Christ of Latter-day Saints (1842-1909)",
+  "birthDate": 1842,
+  "deathDate": 1909,
+  "birthName": null,
+  "image": "Moses Thatcher.jpg",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

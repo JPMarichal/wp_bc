@@ -1,0 +1,18 @@
+{
+  "qid": "Q6076809",
+  "label": "Isaac Morley",
+  "description": "Early LDS Church leader",
+  "birthDate": 1786,
+  "deathDate": 1865,
+  "birthName": null,
+  "image": "Isaac Morley.jpg",
+  "occupations": [
+    "Q42603"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

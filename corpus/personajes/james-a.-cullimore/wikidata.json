@@ -1,0 +1,18 @@
+{
+  "qid": "Q6128071",
+  "label": "James A. Cullimore",
+  "description": "American Mormon leader (1906-1986)",
+  "birthDate": 1906,
+  "deathDate": 1986,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

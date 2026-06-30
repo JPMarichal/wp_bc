@@ -1,0 +1,22 @@
+{
+  "qid": "Q6172733",
+  "label": "Jedediah M. Grant",
+  "description": "American Mormon leader (1816–1856)",
+  "birthDate": 1816,
+  "deathDate": 1856,
+  "birthName": null,
+  "image": "Jedediahmgrant.gif",
+  "occupations": [
+    "Q42603",
+    "Q219477",
+    "Q82955"
+  ],
+  "positions": [
+    "Q22001405"
+  ],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

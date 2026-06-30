@@ -1,0 +1,18 @@
+{
+  "qid": "Q6166577",
+  "label": "Jay E. Jensen",
+  "description": "American Mormon leader",
+  "birthDate": 1942,
+  "deathDate": null,
+  "birthName": null,
+  "image": null,
+  "occupations": [
+    "Q42603"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

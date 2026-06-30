@@ -1,0 +1,18 @@
+{
+  "qid": "Q6760046",
+  "label": "Margaret Young Taylor",
+  "description": "American Mormon pioneer",
+  "birthDate": 1837,
+  "deathDate": 1919,
+  "birthName": null,
+  "image": "Margaret Young Taylor.jpg",
+  "occupations": [
+    "Q937283"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

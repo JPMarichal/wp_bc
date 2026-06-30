@@ -1,0 +1,19 @@
+{
+  "qid": "Q2348210",
+  "label": "Emma Smith",
+  "description": "American Mormon leader (1804-1879)",
+  "birthDate": 1804,
+  "deathDate": 1879,
+  "birthName": null,
+  "image": "EmmaSmith.jpg",
+  "occupations": [
+    "Q36834",
+    "Q15995642"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

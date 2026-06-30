@@ -1,0 +1,20 @@
+{
+  "qid": "Q560707",
+  "label": "Wilford Woodruff",
+  "description": "President of The Church of Jesus Christ of Latter-day Saints (1807-1898)",
+  "birthDate": 1807,
+  "deathDate": 1898,
+  "birthName": null,
+  "image": "Wilford Woodruff 1889.jpg",
+  "occupations": [
+    "Q18939491",
+    "Q82955",
+    "Q42857"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

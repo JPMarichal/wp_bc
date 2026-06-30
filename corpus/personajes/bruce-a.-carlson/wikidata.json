@@ -1,0 +1,19 @@
+{
+  "qid": "Q4977024",
+  "label": "Bruce A. Carlson",
+  "description": "United States Air Force general",
+  "birthDate": 1949,
+  "deathDate": null,
+  "birthName": null,
+  "image": "Bruce Carlson NRO.jpg",
+  "occupations": [
+    "Q189290",
+    "Q42603"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}

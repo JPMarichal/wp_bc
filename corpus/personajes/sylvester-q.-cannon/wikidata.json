@@ -1,0 +1,18 @@
+{
+  "qid": "Q7660820",
+  "label": "Sylvester Q. Cannon",
+  "description": "6th Presiding Bishop and member of Quorum of the Twelve Apostles (1877–1943)",
+  "birthDate": 1877,
+  "deathDate": 1943,
+  "birthName": null,
+  "image": "Sylvester Q. Cannon.JPG",
+  "occupations": [
+    "Q219477"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}
