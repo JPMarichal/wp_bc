@@ -1,0 +1,32 @@
+{
+  "ElRay L. Christiansen": [
+    {"calling": "otro", "org": "Obispo", "start": null, "end": null},
+    {"calling": "otro", "org": "Presidente de Estaca", "start": null, "end": null},
+    {"calling": "otro", "org": "Presidente de la Misión Texas-Louisiana", "start": 1937, "end": 1941},
+    {"calling": "otro", "org": "Presidente del Templo de Logan Utah", "start": 1943, "end": 1951},
+    {"calling": "asistente-cuorum-doce", "org": "Asistente al Cuórum de los Doce Apóstoles", "start": 1951, "end": 1975},
+    {"calling": "otro", "org": "Presidente del Templo de Salt Lake", "start": 1954, "end": 1961}
+  ],
+  "Henry D. Taylor": [
+    {"calling": "otro", "org": "Obispo del Barrio Pleasant View", "start": 1944, "end": 1946},
+    {"calling": "otro", "org": "Presidente de la Estaca Sharon / Sharon East", "start": 1946, "end": 1955},
+    {"calling": "otro", "org": "Presidente de la Misión California", "start": 1955, "end": 1958},
+    {"calling": "asistente-cuorum-doce", "org": "Asistente al Cuórum de los Doce Apóstoles", "start": 1958, "end": 1976},
+    {"calling": "setenta-autoridad-general", "org": "Primer Cuórum de los Setenta", "start": 1976, "end": 1978}
+  ],
+  "J. Thomas Fyans": [
+    {"calling": "otro", "org": "Obispo del Barrio Butler", "start": null, "end": null},
+    {"calling": "otro", "org": "Consejero de la Presidencia de Estaca East Jordan", "start": null, "end": null},
+    {"calling": "otro", "org": "Presidente de la Misión Uruguay", "start": 1960, "end": 1964},
+    {"calling": "asistente-cuorum-doce", "org": "Asistente al Cuórum de los Doce Apóstoles", "start": 1974, "end": 1976},
+    {"calling": "setenta-autoridad-general", "org": "Primer Cuórum de los Setenta / Presidencia de los Setenta", "start": 1976, "end": 1989},
+    {"calling": "otro", "org": "Presidente del Templo de St. George Utah", "start": 1992, "end": null}
+  ],
+  "James A. Cullimore": [
+    {"calling": "otro", "org": "Presidente de Rama / Presidente de Distrito (Oklahoma)", "start": null, "end": null},
+    {"calling": "otro", "org": "Presidente de la Estaca Oklahoma", "start": 1960, "end": 1960},
+    {"calling": "otro", "org": "Presidente de la Misión Central Británica", "start": 1960, "end": 1966},
+    {"calling": "asistente-cuorum-doce", "org": "Asistente al Cuórum de los Doce Apóstoles", "start": 1966, "end": 1976},
+    {"calling": "setenta-autoridad-general", "org": "Primer Cuórum de los Setenta", "start": 1976, "end": 1978}
+  ]
+}
