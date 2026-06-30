@@ -14,3 +14,6 @@ wp-core/
 
 # Docker
 docker-data/
+
+# Node dependencies
+node_modules/
