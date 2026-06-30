@@ -17,3 +17,12 @@ docker-data/
 
 # Node dependencies
 node_modules/
+
+# OS artifacts
+nul
+
+# Temp files
+tmp/
+
+# WordPress uploads
+wp-content/uploads/
