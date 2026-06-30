@@ -1,0 +1,18 @@
+{
+  "qid": "Q4967308",
+  "label": "Brigham Young, Jr.",
+  "description": "President of the Quorum of the Twelve Apostles of The Church of Jesus Christ of Latter-day Saints from 1899 until 1903 (1836-1903)",
+  "birthDate": 1836,
+  "deathDate": 1903,
+  "birthName": null,
+  "image": "Brigham Young, Jr.jpg",
+  "occupations": [
+    "Q82955"
+  ],
+  "positions": [],
+  "religion": {
+    "entity-type": "item",
+    "numeric-id": 42504,
+    "id": "Q42504"
+  }
+}
