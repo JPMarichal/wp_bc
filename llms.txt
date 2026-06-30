@@ -1,0 +1,14 @@
+# Bednarck — Colección de Citas de los Líderes de la Iglesia de Jesucristo de los Santos de los Últimos Días
+>
+> This file helps AI/LLM crawlers understand the site structure and find the most important pages.
+
+## Sobre el sitio
+Bednarck es una colección de citas de líderes de La Iglesia de Jesucristo de los Santos de los Últimos Días, organizada por autor y tema.
+
+## Páginas principales
+- Inicio: /
+- Glosario de Personas: /glosario/
+- Blog: /blog/
+
+## Structured data
+All blog posts include Article schema. All glossary person pages include ProfilePage schema. BreadcrumbList and Sitelinks Search Box schemas are available site-wide.
