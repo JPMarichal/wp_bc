@@ -82,7 +82,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
             "The result of getSnapshot should be cached to avoid an infinite loop"
           ), didWarnUncachedGetSnapshot = true);
         }
-        cachedValue = useState31({
+        cachedValue = useState32({
           inst: { value, getSnapshot }
         });
         var inst = cachedValue[0].inst, forceUpdate = cachedValue[1];
@@ -94,7 +94,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
           },
           [subscribe, value, getSnapshot]
         );
-        useEffect33(
+        useEffect34(
           function() {
             checkIfSnapshotChanged(inst) && forceUpdate({ inst });
             return subscribe(function() {
@@ -120,7 +120,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
         return getSnapshot();
       }
       "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-      var React95 = require_react(), objectIs = "function" === typeof Object.is ? Object.is : is, useState31 = React95.useState, useEffect33 = React95.useEffect, useLayoutEffect4 = React95.useLayoutEffect, useDebugValue2 = React95.useDebugValue, didWarnOld18Alpha = false, didWarnUncachedGetSnapshot = false, shim = "undefined" === typeof window || "undefined" === typeof window.document || "undefined" === typeof window.document.createElement ? useSyncExternalStore$1 : useSyncExternalStore$2;
+      var React95 = require_react(), objectIs = "function" === typeof Object.is ? Object.is : is, useState32 = React95.useState, useEffect34 = React95.useEffect, useLayoutEffect4 = React95.useLayoutEffect, useDebugValue2 = React95.useDebugValue, didWarnOld18Alpha = false, didWarnUncachedGetSnapshot = false, shim = "undefined" === typeof window || "undefined" === typeof window.document || "undefined" === typeof window.document.createElement ? useSyncExternalStore$1 : useSyncExternalStore$2;
       exports.useSyncExternalStore = void 0 !== React95.useSyncExternalStore ? React95.useSyncExternalStore : shim;
       "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
     })();
@@ -148,7 +148,7 @@ var require_with_selector_development = __commonJS({
         return x2 === y2 && (0 !== x2 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
       }
       "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-      var React95 = require_react(), shim = require_shim(), objectIs = "function" === typeof Object.is ? Object.is : is, useSyncExternalStore2 = shim.useSyncExternalStore, useRef44 = React95.useRef, useEffect33 = React95.useEffect, useMemo43 = React95.useMemo, useDebugValue2 = React95.useDebugValue;
+      var React95 = require_react(), shim = require_shim(), objectIs = "function" === typeof Object.is ? Object.is : is, useSyncExternalStore2 = shim.useSyncExternalStore, useRef44 = React95.useRef, useEffect34 = React95.useEffect, useMemo43 = React95.useMemo, useDebugValue2 = React95.useDebugValue;
       exports.useSyncExternalStoreWithSelector = function(subscribe, getSnapshot, getServerSnapshot, selector, isEqual) {
         var instRef = useRef44(null);
         if (null === instRef.current) {
@@ -191,7 +191,7 @@ var require_with_selector_development = __commonJS({
           [getSnapshot, getServerSnapshot, selector, isEqual]
         );
         var value = useSyncExternalStore2(subscribe, instRef[0], instRef[1]);
-        useEffect33(
+        useEffect34(
           function() {
             inst.hasValue = true;
             inst.value = value;
@@ -23540,7 +23540,7 @@ function useDeveloperFeatureSettings(featureId) {
   }, []);
   const { editEntityRecord } = (0, import_data.useDispatch)(import_core_data.store);
   const { __experimentalSaveSpecifiedEntityEdits: saveSpecifiedEdits } = (0, import_data.useDispatch)(import_core_data.store);
-  const { createErrorNotice } = (0, import_data.useDispatch)(import_notices.store);
+  const { createErrorNotice, createSuccessNotice } = (0, import_data.useDispatch)(import_notices.store);
   const rawValue = editedRecord?.[fieldKey];
   const settings = rawValue && typeof rawValue === "object" && !Array.isArray(rawValue) ? (() => {
     const raw = rawValue;
@@ -23562,6 +23562,10 @@ function useDeveloperFeatureSettings(featureId) {
           [fieldKey],
           { throwOnError: true }
         );
+        createSuccessNotice(
+          (0, import_i18n24.__)("Developer settings saved successfully.", "ai"),
+          { type: "snackbar" }
+        );
       } catch {
         createErrorNotice(
           (0, import_i18n24.__)("Failed to save developer settings.", "ai"),
@@ -23569,7 +23573,13 @@ function useDeveloperFeatureSettings(featureId) {
         );
       }
     },
-    [fieldKey, editEntityRecord, saveSpecifiedEdits, createErrorNotice]
+    [
+      fieldKey,
+      editEntityRecord,
+      saveSpecifiedEdits,
+      createErrorNotice,
+      createSuccessNotice
+    ]
   );
   const update3 = (0, import_element96.useCallback)(
     (next) => save(next),
@@ -23638,8 +23648,21 @@ function DeveloperSettings({
   const { providers, isLoading, fetchError } = useProviders(capability);
   const formWrapperRef = (0, import_element98.useRef)(null);
   const { settings, update: update3, clear, isSaving } = useDeveloperFeatureSettings(featureId);
+  const [draftSettings, setDraftSettings] = (0, import_element98.useState)(null);
+  const [isSavingThis, setIsSavingThis] = (0, import_element98.useState)(false);
+  (0, import_element98.useEffect)(() => {
+    if (!isSaving) {
+      setIsSavingThis(false);
+    }
+  }, [isSaving]);
+  (0, import_element98.useEffect)(() => {
+    setDraftSettings(null);
+  }, [settings.provider, settings.model]);
+  const currentSettings = draftSettings ?? settings;
   const getModelElements = (0, import_element98.useCallback)(() => {
-    const provider = providers.find((p2) => p2.id === settings.provider);
+    const provider = providers.find(
+      (p2) => p2.id === currentSettings.provider
+    );
     if (!provider) {
       return Promise.resolve([]);
     }
@@ -23650,7 +23673,7 @@ function DeveloperSettings({
         label: m2.name
       }))
     ]);
-  }, [settings.provider, providers]);
+  }, [currentSettings.provider, providers]);
   const fields = (0, import_element98.useMemo)(
     () => [
       {
@@ -23684,66 +23707,109 @@ function DeveloperSettings({
   const handleChange = (0, import_element98.useCallback)(
     (changes) => {
       if ("provider" in changes) {
-        void update3({ provider: changes.provider ?? "", model: "" });
+        setDraftSettings({
+          provider: changes.provider ?? "",
+          model: ""
+        });
       } else {
-        void update3({ ...settings, ...changes });
+        setDraftSettings({ ...currentSettings, ...changes });
       }
     },
-    [update3, settings]
+    [currentSettings]
   );
+  const handleSave = (0, import_element98.useCallback)(() => {
+    if (draftSettings) {
+      setIsSavingThis(true);
+      void update3(draftSettings);
+    }
+  }, [draftSettings, update3]);
   const hasSavedSelection = settings.provider !== "" || settings.model !== "";
-  const hasStaleProvider = !!settings.provider && !providers.find((p2) => p2.id === settings.provider);
+  const hasUnsavedChanges = draftSettings !== null && (draftSettings.provider !== settings.provider || draftSettings.model !== settings.model);
+  const hasStaleProvider = !!currentSettings.provider && !providers.find((p2) => p2.id === currentSettings.provider);
   if (capability === "none") {
-    return /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("div", { className: "ai-developer-mode-fields ai-feature-settings-form", children: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("p", { children: (0, import_i18n26.__)(
-      "This feature does not require an AI provider or model.",
-      "ai"
-    ) }) });
+    return /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
+      Stack3,
+      {
+        className: "ai-developer-mode-fields ai-feature-settings-form",
+        direction: "column",
+        gap: "md",
+        children: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("p", { children: (0, import_i18n26.__)(
+          "This feature does not require an AI provider or model.",
+          "ai"
+        ) })
+      }
+    );
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime117.jsxs)("div", { className: "ai-developer-mode-fields ai-feature-settings-form", children: [
-    isLoading && /* @__PURE__ */ (0, import_jsx_runtime117.jsxs)("div", { className: "ai-developer-mode-fields__loading-provider", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("span", { className: "ai-developer-mode-fields__loading-provider-label", children: (0, import_i18n26.__)("Provider", "ai") }),
-      /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(import_components26.Spinner, {})
-    ] }),
-    !isLoading && fetchError && /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("p", { className: "ai-developer-mode-field__error", children: fetchError }),
-    !isLoading && !fetchError && /* @__PURE__ */ (0, import_jsx_runtime117.jsxs)(import_jsx_runtime117.Fragment, { children: [
-      hasStaleProvider && /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
-        notice_exports.Root,
-        {
-          className: "ai-developer-mode-fields__notice",
-          intent: "warning",
-          children: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(notice_exports.Description, { children: (0, import_i18n26.__)(
+  return /* @__PURE__ */ (0, import_jsx_runtime117.jsxs)(
+    Stack3,
+    {
+      className: "ai-developer-mode-fields ai-feature-settings-form",
+      direction: "column",
+      gap: "md",
+      children: [
+        isLoading && /* @__PURE__ */ (0, import_jsx_runtime117.jsxs)(Stack3, { direction: "column", gap: "xs", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("span", { className: "ai-developer-mode-fields__loading-provider-label", children: (0, import_i18n26.__)("Provider", "ai") }),
+          /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(import_components26.Spinner, {})
+        ] }),
+        !isLoading && fetchError && /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("p", { className: "ai-developer-mode-field__error", children: fetchError }),
+        !isLoading && !fetchError && /* @__PURE__ */ (0, import_jsx_runtime117.jsxs)(Stack3, { direction: "column", gap: "md", children: [
+          hasStaleProvider && /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(notice_exports.Root, { intent: "warning", children: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(notice_exports.Description, { children: (0, import_i18n26.__)(
             "The previously selected provider is no longer available. This feature will not function as expected until a valid provider is selected or the selection is reset to default.",
             "ai"
-          ) })
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("div", { ref: formWrapperRef, children: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
-        DataForm,
-        {
-          data: settings,
-          fields,
-          form,
-          onChange: handleChange
-        }
-      ) }),
-      hasSavedSelection && /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
-        import_components26.Button,
-        {
-          variant: "link",
-          className: "ai-developer-mode-fields__reset-button",
-          onClick: () => {
-            formWrapperRef.current?.querySelector(
-              "select"
-            )?.focus();
-            void clear();
-          },
-          disabled: isSaving,
-          accessibleWhenDisabled: true,
-          children: (0, import_i18n26.__)("Reset to default", "ai")
-        }
-      )
-    ] })
-  ] });
+          ) }) }),
+          /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("div", { ref: formWrapperRef, children: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
+            DataForm,
+            {
+              data: currentSettings,
+              fields,
+              form,
+              onChange: handleChange
+            }
+          ) }),
+          /* @__PURE__ */ (0, import_jsx_runtime117.jsxs)(
+            Stack3,
+            {
+              align: "center",
+              className: "ai-developer-mode-fields__actions",
+              direction: "row",
+              gap: "lg",
+              children: [
+                (hasUnsavedChanges || isSavingThis) && /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
+                  import_components26.Button,
+                  {
+                    variant: "primary",
+                    onClick: handleSave,
+                    disabled: isSavingThis || !hasUnsavedChanges,
+                    isBusy: isSavingThis,
+                    accessibleWhenDisabled: true,
+                    __next40pxDefaultSize: true,
+                    children: (0, import_i18n26.__)("Save", "ai")
+                  }
+                ),
+                hasSavedSelection && /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
+                  import_components26.Button,
+                  {
+                    variant: "link",
+                    className: "ai-developer-mode-fields__reset-button",
+                    onClick: () => {
+                      formWrapperRef.current?.querySelector(
+                        "select"
+                      )?.focus();
+                      setDraftSettings(null);
+                      void clear();
+                    },
+                    disabled: isSavingThis,
+                    accessibleWhenDisabled: true,
+                    children: (0, import_i18n26.__)("Reset to default", "ai")
+                  }
+                )
+              ]
+            }
+          )
+        ] })
+      ]
+    }
+  );
 }
 
 // routes/ai-home/components/FeatureToggle.tsx
@@ -23816,10 +23882,10 @@ function FeatureToggle({
 }
 
 // routes/ai-home/style.scss
-if (typeof document !== "undefined" && true && !document.head.querySelector("style[data-wp-hash='876f12e8c1']")) {
+if (typeof document !== "undefined" && true && !document.head.querySelector("style[data-wp-hash='874df96e8a']")) {
   const style = document.createElement("style");
-  style.setAttribute("data-wp-hash", "876f12e8c1");
-  style.appendChild(document.createTextNode(".ai-settings-page{box-sizing:border-box;margin:0 auto;max-width:680px;padding:24px;width:100%}@media (max-width:480px){.ai-settings-page{padding:8px}}.ai-settings-page__infotip-trigger{align-items:center;background:none;border:none;border-radius:var(--wpds-border-radius-sm,2px);color:inherit;cursor:var(--wpds-cursor-control,pointer);display:inline-flex;padding:0}.ai-settings-page__infotip-trigger:focus-visible{outline:2px solid var(--wp-admin-theme-color);outline-offset:2px}.ai-settings-page__infotip-description{display:block;line-height:1.5;margin:0;max-width:100%;width:min(360px,100vw - 40px)}.ai-feature-settings-form{margin-top:var(--wpds-dimension-padding-xs,4px);max-width:480px;padding-inline-start:40px}.ai-section-actions{border-top:1px solid var(--wpds-color-stroke-surface-neutral-weak,#e4e4e4);margin-top:var(--wpds-dimension-padding-md,12px);padding-top:var(--wpds-dimension-padding-sm,8px)}.ai-showcase-card--disabled{opacity:.6}.ai-settings-page__loading{min-height:50vh}.ai-developer-mode-fields{margin-top:var(--wpds-dimension-gap-lg,16px)}.ai-developer-mode-fields .ai-developer-mode-fields__loading-provider{display:flex;flex-direction:column;gap:8px}.ai-developer-mode-fields .ai-developer-mode-fields__loading-provider-label{font-size:11px;font-weight:499;line-height:1.4}.ai-developer-mode-fields .ai-developer-mode-fields__notice{margin-bottom:var(--wpds-dimension-gap-lg,12px)}.ai-developer-mode-fields .ai-developer-mode-fields__reset-button{margin-top:var(--wpds-dimension-gap-lg,12px)}"));
+  style.setAttribute("data-wp-hash", "874df96e8a");
+  style.appendChild(document.createTextNode(".ai-settings-page{box-sizing:border-box;margin:0 auto;max-width:680px;padding:24px;width:100%}@media (max-width:480px){.ai-settings-page{padding:8px}}body:has(.ai-settings-page) .components-popover{z-index:2}.ai-settings-page__infotip-trigger{align-items:center;background:none;border:none;border-radius:var(--wpds-border-radius-sm,2px);color:inherit;cursor:var(--wpds-cursor-control,pointer);display:inline-flex;padding:0}.ai-settings-page__infotip-trigger:focus-visible{outline:2px solid var(--wp-admin-theme-color);outline-offset:2px}.ai-settings-page__infotip-description{display:block;line-height:1.5;margin:0;max-width:100%;width:min(360px,100vw - 40px)}.ai-feature-settings-form{margin-top:var(--wpds-dimension-padding-sm,8px);max-width:480px;padding-inline-start:40px}.ai-section-actions{border-top:1px solid var(--wpds-color-stroke-surface-neutral-weak,#e4e4e4);margin-top:var(--wpds-dimension-padding-md,12px);padding-top:var(--wpds-dimension-padding-sm,8px)}.ai-showcase-card--disabled{opacity:.6}.ai-settings-page__loading{min-height:50vh}.ai-developer-mode-fields{margin-top:var(--wpds-dimension-gap-lg,16px)}.ai-developer-mode-fields .ai-developer-mode-fields__loading-provider-label{font-size:11px;font-weight:499;line-height:1.4}.ai-developer-mode-fields .ai-developer-mode-fields__actions{padding-bottom:var(--wpds-dimension-gap-sm,8px)}body.settings_page_ai-wp-admin .components-snackbar-list{box-sizing:border-box;padding-inline-start:184px}body.settings_page_ai-wp-admin .components-snackbar-list .components-snackbar{margin-inline:0 auto}body.settings_page_ai-wp-admin.folded .components-snackbar-list{padding-inline-start:60px}@media screen and (max-width:960px){body.settings_page_ai-wp-admin .components-snackbar-list{padding-inline-start:60px}}@media screen and (max-width:782px){body.settings_page_ai-wp-admin .components-snackbar-list{padding-inline-start:24px}}"));
   document.head.appendChild(style);
 }
 
@@ -24284,7 +24350,7 @@ function VisualCardToggle({
               help: field.description
             }
           ),
-          checked && isDeveloperMode && feature && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
+          globalEnabled && checked && isDeveloperMode && feature && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
             DeveloperSettings,
             {
               featureId: feature.id,

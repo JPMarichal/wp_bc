@@ -1,18 +1,10 @@
 {
   "qid": "Q1392118",
   "label": "Harold B. Lee",
-  "description": "President of The Church of Jesus Christ of Latter-day Saints",
+  "description": "Eleventh President of The Church of Jesus Christ of Latter-day Saints",
   "birthDate": 1899,
   "deathDate": 1973,
-  "birthName": null,
-  "image": "Harold B. Lee2.jpg",
-  "occupations": [
-    "Q42857"
-  ],
-  "positions": [],
-  "religion": {
-    "entity-type": "item",
-    "numeric-id": 42504,
-    "id": "Q42504"
-  }
+  "image": "Harold B. Lee.jpeg",
+  "occupations": ["Q13424456"],
+  "religion": {"entity-type": "item", "numeric-id": 42504, "id": "Q42504"}
 }

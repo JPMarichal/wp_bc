@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit258a43e6cba052aed552f6e27e0e0776
+class ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d
 {
     public static $files = array (
         '901a0fcb8c5137115199739c3d628fd4' => __DIR__ . '/../..' . '/includes/helpers.php',
@@ -38,8 +38,11 @@ class ComposerStaticInit258a43e6cba052aed552f6e27e0e0776
         'WordPress\\AI\\Abilities\\Image\\Import_Base64_Image' => __DIR__ . '/../..' . '/includes/Abilities/Image/Import_Base64_Image.php',
         'WordPress\\AI\\Abilities\\Meta_Description\\Meta_Description' => __DIR__ . '/../..' . '/includes/Abilities/Meta_Description/Meta_Description.php',
         'WordPress\\AI\\Abilities\\Meta_Description\\SEO_Integration' => __DIR__ . '/../..' . '/includes/Abilities/Meta_Description/SEO_Integration.php',
+        'WordPress\\AI\\Abilities\\Settings\\Settings' => __DIR__ . '/../..' . '/includes/Abilities/Settings/Settings.php',
+        'WordPress\\AI\\Abilities\\Show_In_Abilities' => __DIR__ . '/../..' . '/includes/Abilities/Show_In_Abilities.php',
         'WordPress\\AI\\Abilities\\Summarization\\Summarization' => __DIR__ . '/../..' . '/includes/Abilities/Summarization/Summarization.php',
         'WordPress\\AI\\Abilities\\Title_Generation\\Title_Generation' => __DIR__ . '/../..' . '/includes/Abilities/Title_Generation/Title_Generation.php',
+        'WordPress\\AI\\Abilities\\Type_Ahead\\Type_Ahead' => __DIR__ . '/../..' . '/includes/Abilities/Type_Ahead/Type_Ahead.php',
         'WordPress\\AI\\Abilities\\Utilities\\Posts' => __DIR__ . '/../..' . '/includes/Abilities/Utilities/Posts.php',
         'WordPress\\AI\\Abstracts\\Abstract_Ability' => __DIR__ . '/../..' . '/includes/Abstracts/Abstract_Ability.php',
         'WordPress\\AI\\Abstracts\\Abstract_Feature' => __DIR__ . '/../..' . '/includes/Abstracts/Abstract_Feature.php',
@@ -47,6 +50,7 @@ class ComposerStaticInit258a43e6cba052aed552f6e27e0e0776
         'WordPress\\AI\\Admin\\Dashboard\\AI_Capabilities_Widget' => __DIR__ . '/../..' . '/includes/Admin/Dashboard/AI_Capabilities_Widget.php',
         'WordPress\\AI\\Admin\\Dashboard\\AI_Status_Widget' => __DIR__ . '/../..' . '/includes/Admin/Dashboard/AI_Status_Widget.php',
         'WordPress\\AI\\Admin\\Dashboard\\Dashboard_Widgets' => __DIR__ . '/../..' . '/includes/Admin/Dashboard/Dashboard_Widgets.php',
+        'WordPress\\AI\\Admin\\Deactivation' => __DIR__ . '/../..' . '/includes/Admin/Deactivation.php',
         'WordPress\\AI\\Admin\\Upgrades' => __DIR__ . '/../..' . '/includes/Admin/Upgrades.php',
         'WordPress\\AI\\Admin\\Upgrades\\Abstract_Upgrade' => __DIR__ . '/../..' . '/includes/Admin/Upgrades/Abstract_Upgrade.php',
         'WordPress\\AI\\Admin\\Upgrades\\V0_5_0' => __DIR__ . '/../..' . '/includes/Admin/Upgrades/V0_5_0.php',
@@ -79,9 +83,12 @@ class ComposerStaticInit258a43e6cba052aed552f6e27e0e0776
         'WordPress\\AI\\Experiments\\Excerpt_Generation\\Excerpt_Generation' => __DIR__ . '/../..' . '/includes/Experiments/Excerpt_Generation/Excerpt_Generation.php',
         'WordPress\\AI\\Experiments\\Experiment_Category' => __DIR__ . '/../..' . '/includes/Experiments/Experiment_Category.php',
         'WordPress\\AI\\Experiments\\Experiments' => __DIR__ . '/../..' . '/includes/Experiments/Experiments.php',
+        'WordPress\\AI\\Experiments\\Key_Encryption\\Key_Encryption' => __DIR__ . '/../..' . '/includes/Experiments/Key_Encryption/Key_Encryption.php',
+        'WordPress\\AI\\Experiments\\Key_Encryption\\Secrets_Bridge' => __DIR__ . '/../..' . '/includes/Experiments/Key_Encryption/Secrets_Bridge.php',
         'WordPress\\AI\\Experiments\\Meta_Description\\Meta_Description' => __DIR__ . '/../..' . '/includes/Experiments/Meta_Description/Meta_Description.php',
         'WordPress\\AI\\Experiments\\Summarization\\Summarization' => __DIR__ . '/../..' . '/includes/Experiments/Summarization/Summarization.php',
         'WordPress\\AI\\Experiments\\Title_Generation\\Title_Generation' => __DIR__ . '/../..' . '/includes/Experiments/Title_Generation/Title_Generation.php',
+        'WordPress\\AI\\Experiments\\Type_Ahead\\Type_Ahead' => __DIR__ . '/../..' . '/includes/Experiments/Type_Ahead/Type_Ahead.php',
         'WordPress\\AI\\Features\\Feature_Category' => __DIR__ . '/../..' . '/includes/Features/Feature_Category.php',
         'WordPress\\AI\\Features\\Image_Generation\\Image_Generation' => __DIR__ . '/../..' . '/includes/Features/Image_Generation/Image_Generation.php',
         'WordPress\\AI\\Features\\Loader' => __DIR__ . '/../..' . '/includes/Features/Loader.php',
@@ -101,14 +108,21 @@ class ComposerStaticInit258a43e6cba052aed552f6e27e0e0776
         'WordPress\\AI\\Services\\Guidelines' => __DIR__ . '/../..' . '/includes/Services/Guidelines.php',
         'WordPress\\AI\\Settings\\Settings_Page' => __DIR__ . '/../..' . '/includes/Settings/Settings_Page.php',
         'WordPress\\AI\\Settings\\Settings_Registration' => __DIR__ . '/../..' . '/includes/Settings/Settings_Registration.php',
+        'WordPress\\AI\\Vendor\\Secrets\\Secrets' => __DIR__ . '/../..' . '/includes/Vendor/Secrets/Secrets.php',
+        'WordPress\\AI\\Vendor\\Secrets\\Secrets_Audit' => __DIR__ . '/../..' . '/includes/Vendor/Secrets/Secrets_Audit.php',
+        'WordPress\\AI\\Vendor\\Secrets\\Secrets_Context' => __DIR__ . '/../..' . '/includes/Vendor/Secrets/Secrets_Context.php',
+        'WordPress\\AI\\Vendor\\Secrets\\Secrets_Exception' => __DIR__ . '/../..' . '/includes/Vendor/Secrets/Secrets_Exception.php',
+        'WordPress\\AI\\Vendor\\Secrets\\Secrets_Manager' => __DIR__ . '/../..' . '/includes/Vendor/Secrets/Secrets_Manager.php',
+        'WordPress\\AI\\Vendor\\Secrets\\Secrets_Provider' => __DIR__ . '/../..' . '/includes/Vendor/Secrets/Secrets_Provider.php',
+        'WordPress\\AI\\Vendor\\Secrets\\Secrets_Provider_Encrypted_Options' => __DIR__ . '/../..' . '/includes/Vendor/Secrets/Secrets_Provider_Encrypted_Options.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit258a43e6cba052aed552f6e27e0e0776::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit258a43e6cba052aed552f6e27e0e0776::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit258a43e6cba052aed552f6e27e0e0776::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d::$classMap;
 
         }, null, ClassLoader::class);
     }

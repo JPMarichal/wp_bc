@@ -1,15 +1,10 @@
 {
   "qid": "Q553147",
   "label": "Gordon B. Hinckley",
-  "description": "President of The Church of Jesus Christ of Latter-day Saints (1910–2008)",
+  "description": "Fifteenth President of The Church of Jesus Christ of Latter-day Saints",
   "birthDate": 1910,
   "deathDate": 2008,
-  "birthName": null,
-  "image": "Gordon B. Hinckley, 2007.png",
-  "occupations": [
-    "Q13424456",
-    "Q42857"
-  ],
-  "positions": null,
-  "religion": "Q42504"
+  "image": "Gordon B. Hinckley.jpg",
+  "occupations": ["Q13424456"],
+  "religion": {"entity-type": "item", "numeric-id": 42504, "id": "Q42504"}
 }

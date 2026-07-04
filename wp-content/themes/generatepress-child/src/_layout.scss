@@ -13,3 +13,21 @@
     padding-right: $container-padding-desktop;
   }
 }
+
+.bc-footer-content {
+  text-align: center;
+  padding: 20px 0;
+
+  .copyright {
+    font-size: 0.9em;
+    color: #555;
+  }
+}
+
+.bc-footer-disclaimer {
+  font-size: 0.78em;
+  color: #888;
+  line-height: 1.5;
+  margin: 8px auto 0;
+  max-width: 720px;
+}

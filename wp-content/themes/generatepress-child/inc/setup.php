@@ -7,11 +7,15 @@ add_action( 'after_setup_theme', function () {
 add_action( 'init', function () {
   remove_action( 'generate_credits', 'generate_add_footer_info' );
   add_action( 'generate_credits', function () {
-    printf(
-      '<span class="copyright">&copy; %s %s</span>',
-      date( 'Y' ),
-      get_bloginfo( 'name' )
-    );
+    ?>
+    <div class="bc-footer-content">
+      <span class="copyright">&copy; <?php echo date( 'Y' ); ?> Juan Pablo Marichal Catalán</span>
+      <p class="bc-footer-disclaimer">
+        Este sitio no es un sitio oficial de La Iglesia de Jesucristo de los Santos de los Últimos Días.
+        Se ha hecho todo esfuerzo para conformar su contenido a la doctrina y prácticas de la Iglesia.
+      </p>
+    </div>
+    <?php
   }, 10 );
 });
 

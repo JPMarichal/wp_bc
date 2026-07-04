@@ -26,21 +26,21 @@
 
 | # | ID | Persona | Corpus | Estado |
 |---|----|---------|--------|--------|
-| 1 | 112 | José Smith | ✅ | Pendiente |
-| 2 | 117 | Joseph F. Smith | ❌ | Pendiente |
-| 3 | 118 | Heber J. Grant | ❌ | Pendiente |
-| 4 | 120 | David O. McKay | ❌ | Pendiente |
-| 5 | 121 | Joseph Fielding Smith | ✅ | Pendiente |
+| 1 | 112 | José Smith | ✅ | Publicado |
+| 2 | 117 | Joseph F. Smith | ✅ | Publicado |
+| 3 | 118 | Heber J. Grant | ✅ | Publicado |
+| 4 | 120 | David O. McKay | ✅ | Publicado |
+| 5 | 121 | Joseph Fielding Smith | ✅ | Publicado |
 
 ## Lote 3: Harold B. Lee, Spencer W. Kimball, Ezra Taft Benson, Howard W. Hunter, Gordon B. Hinckley
 
 | # | ID | Persona | Corpus | Estado |
 |---|----|---------|--------|--------|
-| 1 | 122 | Harold B. Lee | ❌ | Pendiente |
-| 2 | 123 | Spencer W. Kimball | ❌ | Pendiente |
+| 1 | 122 | Harold B. Lee | ✅ | Pendiente |
+| 2 | 123 | Spencer W. Kimball | ✅ | Pendiente |
 | 3 | 124 | Ezra Taft Benson | ✅ | Pendiente |
-| 4 | 125 | Howard W. Hunter | ❌ | Pendiente |
-| 5 | 93  | Gordon B. Hinckley | ❌ | Pendiente |
+| 4 | 125 | Howard W. Hunter | ✅ | Pendiente |
+| 5 | 93  | Gordon B. Hinckley | ✅ | Pendiente |
 
 ## Lote 4: Thomas S. Monson, Russell M. Nelson, Hyrum Smith, Oliver Cowdery, David Whitmer
 

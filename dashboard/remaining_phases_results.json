@@ -1,0 +1,75 @@
+{
+  "alexander-d-acheson": {
+    "found": false,
+    "error": "no_source"
+  },
+  "b-lloyd-poelman": {
+    "found": false,
+    "error": "no_source"
+  },
+  "christian-whitmer": {
+    "found": false,
+    "error": "no_source"
+  },
+  "clarissa-a-beesley": {
+    "found": false,
+    "error": "no_source"
+  },
+  "colleen-b-lemmon": {
+    "found": false,
+    "error": "no_source"
+  },
+  "dessie-grant-boyle": {
+    "found": false,
+    "error": "no_source"
+  },
+  "donna-d-sorensen": {
+    "found": false,
+    "error": "no_source"
+  },
+  "dorothy-p-holt": {
+    "found": false,
+    "error": "no_source"
+  },
+  "dorthea-c-murdock": {
+    "found": false,
+    "error": "no_source"
+  },
+  "edith-hunter-lambert": {
+    "found": false,
+    "error": "no_source"
+  },
+  "eileen-r-dunyon": {
+    "found": false,
+    "error": "no_source"
+  },
+  "elbert-r-curtis": {
+    "found": false,
+    "error": "no_source"
+  },
+  "florence-r-lane": {
+    "found": false,
+    "error": "no_source"
+  },
+  "g-carlos-smith": {
+    "found": false,
+    "error": "no_source"
+  },
+  "george-miller": {
+    "found": false,
+    "error": "no_source"
+  },
+  "george-r-hill": {
+    "found": false,
+    "error": "no_source"
+  },
+  "helen-s-williams": {
+    "found": false,
+    "error": "no_source"
+  },
+  "hiram-page": {
+    "found": true,
+    "phase": 7,
+    "bytes": 10743
+  }
+}

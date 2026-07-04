@@ -13,3 +13,6 @@ require_once __DIR__ . '/inc/share-bar.php';
 require_once __DIR__ . '/inc/toc.php';
 require_once __DIR__ . '/inc/glossary.php';
 require_once __DIR__ . '/inc/persona.php';
+require_once __DIR__ . '/inc/media.php';
+require_once __DIR__ . '/inc/front-page.php';
+require_once __DIR__ . '/inc/editor-tools.php';

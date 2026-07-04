@@ -2,7 +2,7 @@
 define('DB_NAME',     getenv('WORDPRESS_DB_NAME') ?: 'bc_wp');
 define('DB_USER',     getenv('WORDPRESS_DB_USER') ?: 'wpuser');
 define('DB_PASSWORD', getenv('WORDPRESS_DB_PASSWORD') ?: 'wppass');
-define('DB_HOST',     getenv('WORDPRESS_DB_HOST') ?: 'db');
+define('DB_HOST',     getenv('WORDPRESS_DB_HOST') ?: 'wp_bc_db');
 define('DB_CHARSET',  getenv('WORDPRESS_DB_CHARSET') ?: 'utf8mb4');
 define('DB_COLLATE',  getenv('WORDPRESS_DB_COLLATE') ?: 'utf8mb4_unicode_ci');
 
@@ -29,6 +29,9 @@ define('FS_METHOD',         'direct');
 define('WP_AUTO_UPDATE_CORE', false);
 define('DISALLOW_FILE_EDIT', false);
 define('WP_CACHE', true);
+
+define('BUNNY_CDN_API_KEY','27bbb661-1e02-4483-b942-d3b40d30410bb19f139c-c78f-4016-9788-fcd8352e7672');
+define('BUNNY_ZONE_PASSWORD','0fbb00db-5a99-4c86-a41665993e2e-7c8f-438d');
 
 if (!defined('ABSPATH')) define('ABSPATH', __DIR__ . '/');
 require_once ABSPATH . 'wp-settings.php';

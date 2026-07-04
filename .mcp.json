@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "alejandria": {
+      "url": "http://localhost:4300/mcp/"
+    }
+  }
+}
