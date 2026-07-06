@@ -17,6 +17,28 @@ en la página de detalle individual debajo del card de presentación.
 
 ## Pipeline completo
 
+### Fase 0: Detección de post existente (OBLIGATORIO — evitar duplicados)
+
+**Siempre buscar primero. Esta fase es obligatoria antes de cualquier otra acción.**
+
+```bash
+docker exec wp_bc wp post list \
+  --post_type=bc_quote_author \
+  --s="Nombre Completo" \
+  --fields=ID,post_title,post_name,post_status --allow-root
+```
+
+Reglas:
+- Usar `--s="Nombre Exacto"` (no `grep`, no `--field=` con formato incorrecto)
+- Si el post existe → usar ese ID. NO crear uno nuevo.
+- Si NO existe → crear con `wp post create --post_type=bc_quote_author ...`
+- Anotar el ID encontrado/creado y usarlo en TODAS las fases siguientes
+- Verificar `post_content`: si está vacío es un stub y se puede sobrescribir
+
+Razón: El slug de WordPress asigna `-2`, `-3`, etc. cuando se crea un duplicado.
+Esto ya ocurrió con Gordon B. Hinckley (se usó 2614 en vez de 1203).
+Un slug con `-2` es evidencia inequívoca de que se omitió la detección.
+
 ### Fase 1: Extraer y verificar fuentes del corpus
 
 1. Identificar el slug de la persona (ej: `amasa-m.-lyman`, `martin-harris`)
@@ -27,16 +49,97 @@ en la página de detalle individual debajo del card de presentación.
    - `wikipedia.html` — prioridad 4 (artículo completo de Wikipedia)
    - `wikidata.json` — datos estructurados básicos
 3. Si existen otros archivos (`church-news/`, etc.) revisarlos también
-4. **Verificar que las fuentes no sean defectuosas**:
+4. **Consultar Alejandría** para enriquecer y verificar. Estrategia multi-fase (no una sola consulta):
+
+    **Fase A — Broad discovery (sin source_filter):**
+    ```
+    alejandria_kg_find(query: "<Nombre Real>")
+      → resuelve la entidad en el KG
+    alejandria_search_text(query: "<Nombre Real>", limit: 10)
+      → descubre qué documentos del corpus lo mencionan
+    alejandria_search_semantic(query: "<Nombre Real> biography contribution")
+      → encuentra fuentes semánticamente relacionadas (puede encontrar cosas que el FTS no ve)
+    ```
+
+    **Fase B — Narrow con source_filter (ejemplos, no lista cerrada):**
+    Explorar subcorpus con `source_filter`. Los siguientes son ejemplos —
+    no limitarse a ellos. Cualquier subcorpus que pueda tener información
+    sobre la persona es válido: conference talks, manuals, magazines,
+    church-history-topics, saints, scriptures, books, etc.
+    ```
+    alejandria_search_text(query: "<Nombre Real>",
+      source_filter: "es/manuals/church-history-topics")
+    alejandria_search_text(query: "<Nombre Real>",
+      source_filter: "es/magazines")
+    alejandria_search_text(query: "<Nombre Real>",
+      source_filter: "es/manuals/saints")
+    alejandria_search_text(query: "<Nombre Real>",
+      source_filter: "es/general-conference")
+    alejandria_search_text(query: "<Nombre Real>",
+      source_filter: "en/general-conference")
+    ```
+
+    **Fase C — Síntesis y verificación:**
+    ```
+    alejandria_chat_ask(question: "¿Qué enseñó <Nombre> sobre...?")
+      → contexto teológico. Si falla (error conocido del pipeline RAG), usar:
+    alejandria_search_hybrid(query: "<Nombre> <tema clave>")
+      → fallback para chat_ask
+    ```
+
+    **Fase D — Genealogía para infobox:**
+    ```
+    alejandria_kg_profile(entity_name: "<Nombre>")
+      → resumen biográfico (puede ser metadata-level si KG está en enriquecimiento)
+    alejandria_kg_relations(name: "<Nombre>",
+      rel_types: ["FATHER_OF","MOTHER_OF","SPOUSE_OF"])
+      → padres y cónyuges
+    alejandria_kg_genealogy_tree(name: "<Nombre>", direction: "up", depth: 1)
+      → ancestros directos
+    alejandria_kg_genealogy_tree(name: "<Nombre>", direction: "down", depth: 1)
+      → hijos
+    ```
+
+    Ver skill `alejandria-search` para detalles de cada tool.
+5. **Verificar que las fuentes no sean defectuosas**:
    - **Wikipedia**: Si `wikipedia.html` es una página de desambiguación (solo lista de enlaces, sin infobox ni biografía), descargar el artículo correcto desde `https://en.wikipedia.org/wiki/<Nombre>_(Latter_Day_Saints)` y actualizar `corpus/personajes/<slug>/wikipedia.html`
    - **Wikidata**: Si `wikidata.json` describe una desambiguación (`"description": "Wikimedia disambiguation page"`), obtener el QID correcto desde el artículo de Wikipedia corregido (enlace "Wikidata item" en sidebar) y descargar `https://www.wikidata.org/wiki/Special:EntityData/<QID>.json`. Actualizar `corpus/personajes/<slug>/wikidata.json` y `corpus/personajes/<slug>/wikipedia-meta.json`
-5. **Buscar fuentes faltantes en línea** cuando no existan en el corpus:
+6. **Buscar fuentes faltantes en línea** cuando no existan en el corpus:
    - Joseph Smith Papers: `https://www.josephsmithpapers.org/person/<slug>` (prioridad máxima)
    - Encyclopedia of Mormonism (BYU): buscar en `corpus/eom/` para la persona, o descargar desde `https://eom.byu.edu`
    - Church News: buscar menciones en `corpus/church-news/`
    - LDS.org / ChurchofJesusChrist.org: buscar biografías oficiales
-6. Extraer todo el texto narrativo de cada fuente (no resumir)
-7. **Regla**: No conformarse con fuentes defectuosas. Si un archivo del corpus está incompleto, es una página de desambiguación, o contiene datos incorrectos, descargar la fuente correcta y actualizar el corpus. Esto aplica a TODAS las fuentes, no solo Wikipedia.
+7. Extraer todo el texto narrativo de cada fuente (no resumir)
+8. **Regla**: No conformarse con fuentes defectuosas. Si un archivo del corpus está incompleto, es una página de desambiguación, o contiene datos incorrectos, descargar la fuente correcta y actualizar el corpus. Esto aplica a TODAS las fuentes, no solo Wikipedia.
+
+#### Integración con Alejandría — estrategia multi-consulta por fase
+
+**Principios fundamentales**:
+- Usar **múltiples tipos de búsqueda** en paralelo (text + semantic + hybrid). Cada tipo encuentra documentos distintos. No limitarse a uno solo.
+- **Broad primero, narrow después**: buscar sin `source_filter` para descubrir, luego repetir con filtros en subcorpus prometedores.
+- **Privilegiar sin restringir**: `source_filter` ayuda a enfocar, pero siempre hacer también búsquedas sin filter para no perder fuentes de otros subcorpus.
+- **`chat_ask` con fallback**: si el pipeline RAG falla, recurrir a `search_hybrid`.
+
+| Momento | Consultas MCP (lanzar varias en paralelo) | Propósito |
+|---------|-------------------------------------------|-----------|
+| Durante Fase 1 | `alejandria_kg_find(query: "Nombre Real")` | Resolver la entidad en el KG |
+| Durante Fase 1 | `alejandria_kg_profile` + `kg_relations` + `kg_genealogy_tree` (up+depth=1, down+depth=1) | Perfil, familia, genealogía |
+| Durante Fase 1 | `alejandria_search_text(query: "Nombre Real", limit: 10)` | Descubrir documentos en todo el corpus |
+| Durante Fase 1 | `alejandria_search_semantic(query: "Nombre Real biography contribution")` | Fuentes semánticamente relacionadas |
+| Durante Fase 1 | `alejandria_search_text(query: "Nombre Real", source_filter: "es/manuals/church-history-topics")` | Biografía estandarizada GA |
+| Durante Fase 1 | `alejandria_search_text(query: "Nombre Real", source_filter: "es/magazines")` | Artículos de Liahona/Ensign |
+| Durante Fase 1 | `alejandria_search_text(query: "Nombre Real", source_filter: "es/manuals/saints")` | Narrativa de Santos |
+| Antes de Fase 2 | `alejandria_chat_ask(question: "¿Qué hizo/enseñó X?")` | Síntesis teológica (si falla: `search_hybrid`) |
+| Durante Fase 2 | `alejandria_search_text(query: "frase célebre de la persona")` | Verificar citas textuales |
+| Durante Fase 5 | repetir `kg_relations` + `kg_genealogy_tree` | Cruzar metadatos del infobox contra KG |
+
+**Reglas de integración**:
+- Alejandría es **complemento**, no reemplazo de las fuentes del corpus local
+- Los datos del KG (padres, cónyuges) deben cotejarse con `wikidata.json` y `ldsorg.html` — si hay discrepancia, la fuente local tiene prioridad
+- `chat_ask` puede fallar con `"cannot unpack non-iterable NoneType object"` (error interno del pipeline RAG); en ese caso recurrir a `search_hybrid` como alternativa
+- `kg_profile` puede devolver solo `status: "metadata"` si el KG está en fase de enriquecimiento — es un dato válido, no un error. Usar fuentes locales para los datos faltantes
+- Cuando `kg_relations` o `kg_genealogy_tree` devuelven vacío, es un dato válido (el KG no tiene esa información). No significa que el MCP falló. Usar fuentes locales (wikidata.json, Wikipedia, Jenson) para esos datos
+- En la sección «Fuentes consultadas», NO escribir «Corpus de Alejandría» genérico. Cada cita o referencia obtenida vía Alejandría debe listar la fuente específica: título del libro, revista o conferencia (ej: «Liahona, abril de 2010» o «Doctrina y Convenios: Declaración Oficial 2»)
 
 ### Fase 2: Redactar la biografía
 
@@ -54,10 +157,7 @@ Reglas clave:
 Usar los scripts de `scripts/` — encapsulan los workarounds de Docker/Git Bash/WP-CLI:
 
 ```bash
-# 1. Verificar si el post existe
-docker exec wp_bc wp post list --post_type=bc_quote_author --field=ID,title | grep -i "Nombre" --allow-root
-
-# 2. Guardar la biografía en HTML a un archivo en wp-content/uploads/ (volumen montado)
+# 1. Guardar la biografía en HTML a un archivo en wp-content/uploads/ (volumen montado)
 #    (El archivo desde el host es accesible como /var/www/html/wp-content/uploads/ en el contenedor)
 
 # 3. Publicar biografía, excerpt y abrir comentarios
@@ -89,7 +189,7 @@ scripts/verify-bio.sh <ID>
 ```
 
 El script reporta cada check y falla con exit code 1 si algo está mal. Verifica:
-- `post_content` > 500 caracteres (no corrupto)
+- `post_content` > 500 caracteres (~80+ palabras, no corrupto)
 - `_author_father`, `_author_mother`, `_author_birth_date`, `_author_death_date` poblados
 - `_thumbnail_id` existe (foto asignada)
 - `comment_status` es `open`
@@ -152,6 +252,12 @@ Las listas solo se permiten en "Fuentes consultadas".
 con tono inspirado y casi de relato. No es un resumen de datos —es una declaración
 de identidad y significado. Debe poder leerse en voz alta.
 
+**Evitar petrogrulladas**. «Hubo un hombre que...», «Nació en un humilde hogar...»,
+«Su nombre quedó grabado...» son frases hechas que se repiten entre biografías.
+Preferir aperturas directas con el nombre de la persona y un gancho sustantivo
+(ej: «Siendo pequeño y de salud frágil, Spencer W. Kimball llegó a presidir...»).
+Leer la apertura en voz alta para detectar lugares comunes.
+
 ### Primeros años y conversión
 
 Nacimiento, padres, entorno familiar, infancia, educación, conversión (si no nació
@@ -198,6 +304,11 @@ Paz al final, fidelidad hasta el fin. Tono: solemne pero esperanzador.
 **Única sección que permite lista de balas.** Atribución breve de las fuentes
 utilizadas para la síntesis. Sin enlaces largos ni citas académicas.
 
+**No poner «Corpus de Alejandría» genérico**. Si se usó Alejandría para encontrar
+una cita, listar la fuente específica que Alejandría devolvió: título de la revista,
+del libro, de la conferencia, o la referencia canónica (ej: «Liahona, mayo de 2002»
+en lugar de «Corpus de Alejandría: revistas de la Iglesia»).
+
 ## Principios de redacción
 
 | Principio | Aplicación |
@@ -208,10 +319,11 @@ utilizadas para la síntesis. Sin enlaces largos ni citas académicas.
 | **Desafíos incluidos** | Mostrar pruebas y persecuciones con objetividad, sin dramatizar |
 | **Errores doctrinales tratados con honestidad** | Si la persona enseñó doctrina falsa o fue disciplinada, narra el hecho con objetividad, reconociendo el error y el proceso correctivo. No endulzar ni ocultar |
 | **Equilibrado y respetuoso** | Nunca peyorativo hacia otras creencias. Favorecer a la Iglesia sin ser tendencioso |
+| **Evitar controversias innecesarias** | No incluir referencias, nombres o teorías que puedan levantar controversia sin aportar valor edificante a la narrativa. Una cosa es narrar hechos históricos validados y otra es introducir controversias especulativas que distraen del propósito de la biografía. Ejemplo: evitar mencionar a Ethan Smith o View of the Hebrews en biografías de los primeros Santos, pues implica teorías no oficiales sobre el origen del Libro de Mormón. Preguntarse siempre: ¿esto edifica al lector o lo distrae con polémicas? |
 | **Sin copy-paste** | Ningún párrafo debe ser idéntico al de una fuente. Redacción original, voz propia |
 | **Citas trazables** | Toda cita textual debe: (1) tener citación explícita verificable (ej: «texto» (History of the Church, 3:232).), (2) corresponder a la fuente original, (3) ser leal al original (traducir con precisión: "mean" ≠ "vile"), (4) ir en español. Si no se puede verificar, mejor parafrasear |
 | **Citas despectivas: omitir si no edifican** | Si una cita es despectiva, denigrante o negativa sin aportar contexto edificante a la narrativa, omitirla. Exigencia adicional: la cita debe tener citación verificable. Las citas parentales de José Smith («too mean to mention») NO deben incluirse si son despectivas y no aportan contexto. La cita original dice "too mean" NO "too vile" — verificar siempre la fuente original antes de traducir |
-| **Prioridad de fuentes** | Joseph Smith Papers → ldsorg → biographical-encyclopedia (Jenson) → BYU RSC → CHD → church-news → Dialogue/BYU Studies → Utah History Encyclopedia → Wikipedia/Wikidata (último recurso) |
+| **Prioridad de fuentes** | Joseph Smith Papers → ldsorg → biographical-encyclopedia (Jenson) → BYU RSC → CHD → church-news → **Alejandría (KG + corpus)** → Dialogue/BYU Studies → Utah History Encyclopedia → Wikipedia/Wikidata (último recurso) |
 | **Wikipedia no es fuente primaria** | Wikipedia y Wikidata solo deben usarse como complemento, no como fuente principal. Siempre consultar fuentes estables: Joseph Smith Papers, CHD, Jenson, RSC/BYU. Si esas no existen en el corpus, buscarlas en línea |
 | **No conformarse con fuentes defectuosas** | Si `wikipedia.html` es una página de desambiguación, descargar el artículo correcto (`https://en.wikipedia.org/wiki/<Nombre>_(Latter_Day_Saints)` o similar). Si `wikidata.json` es de desambiguación, obtener el QID correcto. Si `chd.html` es un SPA sin texto, buscar fuente alternativa. **Nunca** usar una fuente incorrecta como si fuera válida |
 | **Búsqueda exhaustiva** | Si una fuente prioritaria (Joseph Smith Papers, Jenson, EOM, CHD) no existe en el corpus, descargarla en línea. No limitarse a lo que ya está descargado. Usar websearch/webfetch para encontrar la fuente correcta |
@@ -224,6 +336,7 @@ utilizadas para la síntesis. Sin enlaces largos ni citas académicas.
 
 ## Datos prácticos
 
+- **Estadísticas de longitud**: reportar en **palabras**, no en caracteres. Usar `wc -w` en lugar de `wc -c`.
 - **Helper functions** en `inc/persona.php`:
   - `bc_persona_biography_title( $post_id )` → retorna "La biografía de X"
   - `bc_render_persona_infobox()` → sidebar con datos estructurados
@@ -235,6 +348,7 @@ utilizadas para la síntesis. Sin enlaces largos ni citas académicas.
 - **CSS persona**: `src/_persona.scss` → compilar con `npm run build`
 - **Comentarios**: `comment_status` debe ser `open` en el post. Verificar con `wp post get <ID> --field=comment_status`. Abrir con `wp post update <ID> --comment_status=open`
 - **WP-CLI**: Disponible en DOS contenedores: `docker exec wp_bc wp ... --allow-root` (contenedor web principal) y `docker exec wp_bc_cli wp ...` (contenedor CLI dedicado). Ambos funcionan. Preferir `wp_bc` cuando sea más simple.
+- **MSYS_NO_PATHCONV en Windows**: Git Bash convierte automáticamente rutas Unix (empezadas con `/`) a rutas Windows. Para comandos `docker exec` con rutas absolutas, anteponer `MSYS_NO_PATHCONV=1`. Ej: `MSYS_NO_PATHCONV=1 docker exec wp_bc wp post meta list <ID> --allow-root`.
 - **Auto-links (negative lookahead)**: La función `bc_auto_link_glossary` en `inc/auto-links.php` puede matchear nombres parciales incorrectamente (ej: "José Smith" dentro de "José Smith padre"). La solución es agregar negative lookahead en el regex: `\b(preg_quote($name))\b(?!\s+(?:padre|hijo|sr\.?|jr\.?))` si el problema se repite con otros nombres.
 - **Scripts de automatización** en `scripts/`:
   - `publish-bio.sh <ID> <archivo.html> [excerpt]` — publica contenido, excerpt, abre comentarios, verifica
