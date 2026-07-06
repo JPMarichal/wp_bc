@@ -1,0 +1,4867 @@
+{
+  "Q4647851": {
+    "label": "A. Hamer Reiser",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q14594652": {
+    "label": "A. Theodore Tuttle",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4668883": {
+    "label": "Abraham H. Cannon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q947083",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q4669114": {
+    "label": "Abraham O. Woodruff",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q560707",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q4679715": {
+    "label": "Adam S. Bennion",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6571685": {
+    "label": "list of General Presidencies of the Relief Society"
+  },
+  "Q4709888": {
+    "label": "Albert Carrington",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4710060": {
+    "label": "Albert E. Bowen",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4710946": {
+    "label": "Albert P. Rockwood",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q110126730": {
+    "label": "Allan F. Packer",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q895936",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q4733601": {
+    "label": "Alma Sonne"
+  },
+  "Q4734522": {
+    "label": "Alonzo A. Hinckley",
+    "father": {
+      "qid": "Q2890381",
+      "label": "Ira Hinckley"
+    }
+  },
+  "Q127630108": {
+    "label": "Alvin F. Meredith III"
+  },
+  "Q13473952": {
+    "label": "Alvin R. Dyer",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4740383": {
+    "label": "Amasa Lyman",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q96739164",
+      "label": "Roswell Lyman"
+    },
+    "mother": {
+      "qid": "Q96739174",
+      "label": "Martha M. Lyman"
+    },
+    "children": [
+      {
+        "qid": "Q4253174",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q96739211",
+        "label": "Martha Lydia Roper (Lyman)"
+      }
+    ]
+  },
+  "Q4749087": {
+    "label": "Amy B. Lyman",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q275803": {
+    "label": "Amy Wright",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q66124168": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4769436": {
+    "label": "Annie Taylor Hyde",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q540244",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q4771912": {
+    "label": "Anthon H. Lund",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q4772198",
+        "label": "Anthony C. Lund"
+      }
+    ]
+  },
+  "Q4773652": {
+    "label": "Anthony W. Ivins",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q4775529",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q4775529": {
+    "label": "Antoine R. Ivins",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q4773652",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q125604231",
+      "label": "Elizabeth Ashby Ivins"
+    }
+  },
+  "Q4787994": {
+    "label": "Ardeth G. Kapp",
+    "nationality": [
+      {
+        "qid": "Q16",
+        "label": "Canada"
+      }
+    ]
+  },
+  "Q16150153": {
+    "label": "Seventy"
+  },
+  "Q447850": {
+    "label": "Brigham Henry Roberts",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4858728": {
+    "label": "Barbara B. Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q807667": {
+    "label": "Barbara Thompson"
+  },
+  "Q4859382": {
+    "label": "Barbara W. Winder",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q7648491",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q4869086": {
+    "label": "Bathsheba W. Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q124303095",
+        "label": "Bathsheba Kate Smith Merrill"
+      }
+    ]
+  },
+  "Q4883689": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4885253": {
+    "label": "Ben B. Banks"
+  },
+  "Q4888935": {
+    "label": "Benjamin L. Clapp",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4893516": {
+    "label": "Bernard P. Brockbank"
+  },
+  "Q4895517": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q66088251": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q66459201": {
+    "label": "Bonnie H. Cordon"
+  },
+  "Q16145612": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q895936": {
+    "label": "Boyd K. Packer",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q110126730",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q203559": {
+    "label": "Brigham Young",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q96215966",
+      "label": "John Young"
+    },
+    "mother": {
+      "qid": "Q89890742",
+      "label": "Abigail Nabby Howe"
+    },
+    "children": [
+      {
+        "qid": "Q7647458",
+        "label": "Susa Young Gates"
+      },
+      {
+        "qid": "Q84571866",
+        "label": "Zina P. Young Card"
+      },
+      {
+        "qid": "Q6761663",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q4834119",
+        "label": "B. Morris Young"
+      },
+      {
+        "qid": "Q4967308",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q5292385",
+        "label": "Joseph Don Carlos Young"
+      },
+      {
+        "qid": "Q15505516",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q14711657",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q86013860",
+        "label": "Oscar Brigham Young"
+      },
+      {
+        "qid": "Q86013958",
+        "label": "Mahonri Moriancumer Young"
+      },
+      {
+        "qid": "Q86015667",
+        "label": "Ernest Irving Young, Sr."
+      },
+      {
+        "qid": "Q86015210",
+        "label": "Emily Augusta Young"
+      },
+      {
+        "qid": "Q8003507",
+        "label": "Willard Young"
+      },
+      {
+        "qid": "Q106513169",
+        "label": "Alice Young Clawson"
+      },
+      {
+        "qid": "Q73290461",
+        "label": "Clarissa Young Spencer"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q7186375",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q14711662",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q28284906",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q4967308": {
+    "label": "Brigham Young, Jr.",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q203559",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q6778849",
+      "label": "Mary Ann Angell"
+    },
+    "children": [
+      {
+        "qid": "Q92621942",
+        "label": "Walter Stevens Young"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q7647458",
+        "label": "Susa Young Gates"
+      },
+      {
+        "qid": "Q84571866",
+        "label": "Zina P. Young Card"
+      },
+      {
+        "qid": "Q4834119",
+        "label": "B. Morris Young"
+      },
+      {
+        "qid": "Q5292385",
+        "label": "Joseph Don Carlos Young"
+      },
+      {
+        "qid": "Q15505516",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q14711657",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q6761663",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q86013860",
+        "label": "Oscar Brigham Young"
+      },
+      {
+        "qid": "Q86013958",
+        "label": "Mahonri Moriancumer Young"
+      },
+      {
+        "qid": "Q86015667",
+        "label": "Ernest Irving Young, Sr."
+      },
+      {
+        "qid": "Q86015210",
+        "label": "Emily Augusta Young"
+      },
+      {
+        "qid": "Q8003507",
+        "label": "Willard Young"
+      }
+    ]
+  },
+  "Q4977024": {
+    "label": "Bruce A. Carlson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4977208": {
+    "label": "Bruce C. Hafen"
+  },
+  "Q16151918": {
+    "label": "Bruce D. Porter",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4978170": {
+    "label": "Bruce R. McConkie",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q7106296",
+      "label": "Oscar W. McConkie"
+    },
+    "mother": {
+      "qid": "Q113929654",
+      "label": "Margaret Vivian McConkie"
+    }
+  },
+  "Q15995695": {
+    "label": "Burton K. Farnsworth",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5006853": {
+    "label": "C. Scott Grow",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q106413397": {
+    "label": "Camille N. Johnson"
+  },
+  "Q5040914": {
+    "label": "Carl W. Buehner",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q2748526": {
+    "label": "Cecil O. Samuelson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5074813": {
+    "label": "Charles A. Callis",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5076017": {
+    "label": "Charles C. Rich",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q107621937",
+        "label": "Charles Coulson Rich, II"
+      }
+    ]
+  },
+  "Q2958916": {
+    "label": "Charles Didier",
+    "nationality": [
+      {
+        "qid": "Q39",
+        "label": "Switzerland"
+      },
+      {
+        "qid": "Q142",
+        "label": "France"
+      }
+    ]
+  },
+  "Q5083179": {
+    "label": "Charles W. Dahlquist II",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5083238": {
+    "label": "Charles W. Nibley",
+    "children": [
+      {
+        "qid": "Q108155375",
+        "label": "Alexander Nibley"
+      }
+    ]
+  },
+  "Q5083241": {
+    "label": "Charles W. Penrose",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q16751348": {
+    "label": "Chi Hong (Sam) Wong"
+  },
+  "Q5097140": {
+    "label": "Chieko N. Okazaki",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5109478": {
+    "label": "Christian D. Fjelsted",
+    "nationality": [
+      {
+        "qid": "Q756617",
+        "label": "Kingdom of Denmark"
+      }
+    ]
+  },
+  "Q5110272": {
+    "label": "Christian Whitmer",
+    "father": {
+      "qid": "Q7177696",
+      "label": "Peter Whitmer, Sr."
+    },
+    "mother": {
+      "qid": "Q6780958",
+      "label": "Mary Whitmer"
+    }
+  },
+  "Q5125958": {
+    "label": "Clara C. M. Cannon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5126058": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5127073": {
+    "label": "Clarissa S. Williams",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q5536005",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q5127241": {
+    "label": "Clark Gilbert"
+  },
+  "Q6621573": {
+    "label": "list of general authorities of The Church of Jesus Christ of Latter-day Saints"
+  },
+  "Q5132932": {
+    "label": "Clifford E. Young",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q7459128",
+      "label": "UNKNOWN"
+    },
+    "siblings": [
+      {
+        "qid": "Q6535398",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q86016829",
+        "label": "Seymour Bicknell Young, Jr."
+      }
+    ]
+  },
+  "Q17308927": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5142744": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5146238": {
+    "label": "Colleen Bushman Lemmon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q3011076": {
+    "label": "D. Todd Christofferson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5210451": {
+    "label": "Dale G. Renlund",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q3012489": {
+    "label": "Dallin H. Oaks",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q6179417",
+        "label": "Jenny Oaks Baker"
+      }
+    ]
+  },
+  "Q5217392": {
+    "label": "Daniel H. Wells",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q109771548",
+      "label": "Daniel Wells"
+    },
+    "children": [
+      {
+        "qid": "Q4965759",
+        "label": "Briant H. Wells"
+      },
+      {
+        "qid": "Q640122",
+        "label": "Heber Manning Wells"
+      },
+      {
+        "qid": "Q6313713",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q5362325",
+        "label": "Elizabeth Ann Wells Cannon"
+      },
+      {
+        "qid": "Q15996525",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q5218661": {
+    "label": "Daniel S. Miles"
+  },
+  "Q3017335": {
+    "label": "David A. Bednar",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q403578": {
+    "label": "David Smith"
+  },
+  "Q5230974": {
+    "label": "David B. Haight",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q103813050",
+      "label": "Hector Caleb Haight"
+    },
+    "children": [
+      {
+        "qid": "Q103812047",
+        "label": "Karen Haight"
+      }
+    ]
+  },
+  "Q5233498": {
+    "label": "David F. Evans",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5236180": {
+    "label": "David L. Beck",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4878615": {
+    "label": "Beck University"
+  },
+  "Q5236377": {
+    "label": "David Lawrence McKay",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q1175942",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q16123775": {
+    "label": "David M. McConkie",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q1175942": {
+    "label": "David O. McKay",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q47541485",
+      "label": "UNKNOWN"
+    },
+    "children": [
+      {
+        "qid": "Q5236377",
+        "label": "UNKNOWN"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q7789183",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q31087827": {
+    "label": "David R. Stone",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5239339": {
+    "label": "David S. Baxter"
+  },
+  "Q1176463": {
+    "label": "David S. King",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5240731": {
+    "label": "David W. Patten",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q1177157": {
+    "label": "David Whitmer",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q7177696",
+      "label": "Peter Whitmer, Sr."
+    },
+    "mother": {
+      "qid": "Q6780958",
+      "label": "Mary Whitmer"
+    }
+  },
+  "Q5253536": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5261762": {
+    "label": "Derek A. Cuthbert"
+  },
+  "Q1628192": {
+    "label": "Devin Durrant",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q75991": {
+    "label": "Dieter F. Uchtdorf",
+    "nationality": [
+      {
+        "qid": "Q183",
+        "label": "Germany"
+      }
+    ]
+  },
+  "Q5293369": {
+    "label": "Don R. Clarke",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5294663": {
+    "label": "Donald L. Hallstrom"
+  },
+  "Q5294677": {
+    "label": "Donald L. Staheli"
+  },
+  "Q3038038": {
+    "label": "Douglas Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5301644": {
+    "label": "Douglas J. Martin",
+    "nationality": [
+      {
+        "qid": "Q664",
+        "label": "New Zealand"
+      }
+    ]
+  },
+  "Q5316735": {
+    "label": "Durrel A. Woolsey",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5317860": {
+    "label": "Dwan J. Young",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5340051": {
+    "label": "Edna Harker Thomas",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q16194519": {
+    "label": "Edward Dube"
+  },
+  "Q5343559": {
+    "label": "Edward Hunter"
+  },
+  "Q5344778": {
+    "label": "Edward Partridge",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q96572805",
+      "label": "William Partridge"
+    },
+    "mother": {
+      "qid": "Q96572813",
+      "label": "Jemima Bidwell"
+    },
+    "children": [
+      {
+        "qid": "Q91157930",
+        "label": "Emily Dow Partridge"
+      },
+      {
+        "qid": "Q99639019",
+        "label": "Caroline Ely Lyman"
+      },
+      {
+        "qid": "Q43374468",
+        "label": "Eliza Maria Partridge Lyman"
+      },
+      {
+        "qid": "Q5344779",
+        "label": "Edward Partridge, Jr."
+      }
+    ]
+  },
+  "Q5345448": {
+    "label": "Edward Stevenson"
+  },
+  "Q5353156": {
+    "label": "Elaine Anderson Cannon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5353236": {
+    "label": "Elaine L. Jack"
+  },
+  "Q5353278": {
+    "label": "Elaine S. Dalton",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5353719": {
+    "label": "Elbert R. Curtis",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5354133": {
+    "label": "Eldred G. Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q5962252",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q107311169",
+      "label": "Martha Electa Smith"
+    }
+  },
+  "Q3051180": {
+    "label": "Eliza Roxcy Snow",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q124156647",
+      "label": "Oliver Snow III"
+    },
+    "mother": {
+      "qid": "Q107310950",
+      "label": "Rosetta Lenora Snow (Pettibone)"
+    }
+  },
+  "Q5362318": {
+    "label": "Elizabeth Ann Whitney",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q7422060",
+        "label": "Sarah Ann Whitney"
+      }
+    ]
+  },
+  "Q5366782": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q6729035",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q5350680": {
+    "label": "ElRay L. Christiansen",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q131383840": {
+    "label": "Emily Belle Freeman"
+  },
+  "Q2348210": {
+    "label": "Emma Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "mother": {
+      "qid": "Q99639168",
+      "label": "Elizabeth Hale"
+    },
+    "children": [
+      {
+        "qid": "Q6306601",
+        "label": "Julia Murdock Smith"
+      },
+      {
+        "qid": "Q3048224",
+        "label": "Joseph Smith III"
+      },
+      {
+        "qid": "Q4719048",
+        "label": "Alexander Hale Smith"
+      },
+      {
+        "qid": "Q5235307",
+        "label": "David Hyrum Smith"
+      }
+    ]
+  },
+  "Q5373425": {
+    "label": "Emmeline B. Wells",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q5362325",
+        "label": "Elizabeth Ann Wells Cannon"
+      }
+    ]
+  },
+  "Q3731101": {
+    "label": "Erastus Snow",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q109688702",
+      "label": "Levi Snow"
+    },
+    "mother": {
+      "qid": "Q109688787",
+      "label": "Lucina Snow"
+    },
+    "children": [
+      {
+        "qid": "Q125604231",
+        "label": "Elizabeth Ashby Ivins"
+      }
+    ]
+  },
+  "Q5423417": {
+    "label": "Ezra T. Benson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q122830183",
+      "label": "John Benson, Jr"
+    },
+    "mother": {
+      "qid": "Q84550116",
+      "label": "Chloe Taft"
+    },
+    "children": [
+      {
+        "qid": "Q84550189",
+        "label": "George Taft Benson Sr."
+      }
+    ]
+  },
+  "Q1386097": {
+    "label": "Ezra Taft Benson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q84550201",
+      "label": "George Taft Benson Jr."
+    },
+    "children": [
+      {
+        "qid": "Q7306630",
+        "label": "Reed Benson"
+      },
+      {
+        "qid": "Q84550320",
+        "label": "Bonnie Amussen Benson"
+      },
+      {
+        "qid": "Q84550341",
+        "label": "Mark A. Benson"
+      }
+    ]
+  },
+  "Q5423979": {
+    "label": "F. Melvin Hammond",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5460774": {
+    "label": "Florence S. Jacobsen",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q4253174": {
+    "label": "Francis M. Lyman",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q4740383",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q103836978",
+      "label": "Maria Louisa Lyman"
+    },
+    "children": [
+      {
+        "qid": "Q7328566",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q5485138": {
+    "label": "Frank B. Woodbury",
+    "father": {
+      "qid": "Q94512640",
+      "label": "Orin Nelson Woodbury"
+    }
+  },
+  "Q5491781": {
+    "label": "Franklin Richards"
+  },
+  "Q5491632": {
+    "label": "Franklin L. West",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5497821": {
+    "label": "Frederick G. Williams",
+    "father": {
+      "qid": "Q102157723",
+      "label": "William Wheeler Williams"
+    },
+    "mother": {
+      "qid": "Q102157848",
+      "label": "Ruth Williams"
+    },
+    "children": [
+      {
+        "qid": "Q102157587",
+        "label": "Ezra Granger Williams"
+      }
+    ]
+  },
+  "Q5512177": {
+    "label": "G. Carlos Smith",
+    "nationality": [
+      {
+        "qid": "Q833",
+        "label": "Malaysia"
+      }
+    ]
+  },
+  "Q5525010": {
+    "label": "Gary E. Stevenson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5525300": {
+    "label": "Gary J. Coleman"
+  },
+  "Q5536005": {
+    "label": "George A. Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q6258375",
+      "label": "John Smith"
+    },
+    "mother": {
+      "qid": "Q103837183",
+      "label": "Clarissa Loomis Smith"
+    },
+    "children": [
+      {
+        "qid": "Q5127073",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q6238946",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q124303095",
+        "label": "Bathsheba Kate Smith Merrill"
+      }
+    ]
+  },
+  "Q1392629": {
+    "label": "George Albert Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q6238946",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q107148653",
+      "label": "Sarah Smith"
+    },
+    "children": [
+      {
+        "qid": "Q5536131",
+        "label": "George Albert Smith, Jr."
+      }
+    ]
+  },
+  "Q5538324": {
+    "label": "George D. Pyper",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5539137": {
+    "label": "George F. Richards",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q5491440",
+      "label": "Franklin D. Richards"
+    }
+  },
+  "Q5539765": {
+    "label": "George Goddard"
+  },
+  "Q5540912": {
+    "label": "George I. Cannon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "mother": {
+      "qid": "Q6698331",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q408650": {
+    "label": "George Miller"
+  },
+  "Q5543120": {
+    "label": "George P. Lee",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q947083": {
+    "label": "George Q. Cannon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q5487434",
+        "label": "Frank J. Cannon"
+      },
+      {
+        "qid": "Q6253623",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q7660820",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q83911694",
+        "label": "Amelia Telle Cannon"
+      },
+      {
+        "qid": "Q83920537",
+        "label": "Hester Telle Richards"
+      },
+      {
+        "qid": "Q4668883",
+        "label": "UNKNOWN"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q4764156",
+        "label": "Angus M. Cannon"
+      }
+    ]
+  },
+  "Q5543597": {
+    "label": "George Q. Morris"
+  },
+  "Q5543634": {
+    "label": "George R. Hill",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5543636": {
+    "label": "George R. Hill III",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q3101857": {
+    "label": "George Reynolds"
+  },
+  "Q5545112": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5625972": {
+    "label": "Gérald Caussé",
+    "nationality": [
+      {
+        "qid": "Q142",
+        "label": "France"
+      }
+    ]
+  },
+  "Q5549437": {
+    "label": "Gerald N. Lund",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5552596": {
+    "label": "Gerrit W. Gong",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5568942": {
+    "label": "Glenn L. Pace"
+  },
+  "Q16083981": {
+    "label": "Glen L. Rudd",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q553147": {
+    "label": "Gordon B. Hinckley",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q4980614",
+      "label": "Bryant S. Hinckley"
+    },
+    "mother": {
+      "qid": "Q96337863",
+      "label": "Ada Bitner"
+    },
+    "children": [
+      {
+        "qid": "Q15455331",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q5628101": {
+    "label": "H. Burke Peterson"
+  },
+  "Q5628165": {
+    "label": "H. David Burton",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5628627": {
+    "label": "H. Verlan Andersen"
+  },
+  "Q1392118": {
+    "label": "Harold B. Lee",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q107311400",
+      "label": "Samuel Marion Lee, II"
+    },
+    "mother": {
+      "qid": "Q107311414",
+      "label": "Louisa Emeline Lee"
+    }
+  },
+  "Q5660746": {
+    "label": "Harold G. Hillam"
+  },
+  "Q5675007": {
+    "label": "Hartman Rector, Jr."
+  },
+  "Q9002343": {
+    "label": "Heber C. Kimball",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q97094230",
+      "label": "Solomon Farnham Kimball"
+    },
+    "mother": {
+      "qid": "Q97094231",
+      "label": "Anna Spalding"
+    },
+    "children": [
+      {
+        "qid": "Q5702756",
+        "label": "Helen Mar Kimball"
+      },
+      {
+        "qid": "Q4757612",
+        "label": "Andrew Kimball"
+      },
+      {
+        "qid": "Q5238440",
+        "label": "David Patten Kimball"
+      },
+      {
+        "qid": "Q97094240",
+        "label": "Heber Parley Kimball"
+      },
+      {
+        "qid": "Q51082459",
+        "label": "Elias S. Kimball"
+      },
+      {
+        "qid": "Q8012068",
+        "label": "William Henry Kimball"
+      },
+      {
+        "qid": "Q6105824",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q1392562": {
+    "label": "Heber J. Grant",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q6172733",
+      "label": "UNKNOWN"
+    },
+    "children": [
+      {
+        "qid": "Q6698331",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q16090259": {
+    "label": "Helio R. Camargo",
+    "nationality": [
+      {
+        "qid": "Q155",
+        "label": "Brazil"
+      }
+    ]
+  },
+  "Q5710769": {
+    "label": "Helvécio Martins",
+    "nationality": [
+      {
+        "qid": "Q155",
+        "label": "Brazil"
+      }
+    ]
+  },
+  "Q949425": {
+    "label": "Henry B. Eyring",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q574810",
+      "label": "Henry Eyring"
+    }
+  },
+  "Q5720113": {
+    "label": "Henry D. Moyle",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5720122": {
+    "label": "Henry D. Taylor"
+  },
+  "Q5722634": {
+    "label": "Henry Harriman"
+  },
+  "Q5769245": {
+    "label": "Hiram Page",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q15485417": {
+    "label": "Horace S. Eldredge",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5902293": {
+    "label": "Horacio A. Tenorio",
+    "nationality": [
+      {
+        "qid": "Q96",
+        "label": "Mexico"
+      }
+    ]
+  },
+  "Q5906687": {
+    "label": "Hortense Child Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q945517": {
+    "label": "Howard W. Hunter",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5929925": {
+    "label": "Hugh B. Brown",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "mother": {
+      "qid": "Q103837518",
+      "label": "Lydia Jane Brown"
+    }
+  },
+  "Q5932967": {
+    "label": "Hugh W. Pinnock"
+  },
+  "Q116684701": {
+    "label": "Hugo Montoya",
+    "nationality": [
+      {
+        "qid": "Q774",
+        "label": "Guatemala"
+      }
+    ]
+  },
+  "Q5962252": {
+    "label": "Hyrum G. Smith",
+    "father": {
+      "qid": "Q107311320",
+      "label": "Hyrum Fisher Smith"
+    },
+    "children": [
+      {
+        "qid": "Q5354133",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q5962246": {
+    "label": "Hyrum M. Smith"
+  },
+  "Q2976186": {
+    "label": "Hyrum Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q6181938",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q4979362",
+      "label": "Lucy Mack Smith"
+    },
+    "children": [
+      {
+        "qid": "Q982197",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q6258357",
+        "label": "John Smith"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q16030354",
+        "label": "Katharine Smith Salisbury"
+      },
+      {
+        "qid": "Q47102",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q4424882",
+        "label": "Samuel H. Smith"
+      },
+      {
+        "qid": "Q4738229",
+        "label": "Alvin Smith"
+      },
+      {
+        "qid": "Q5292384",
+        "label": "Don Carlos Smith"
+      },
+      {
+        "qid": "Q8018530",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q15998669": {
+    "label": "Ida Smoot Dusenberry",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q4669116",
+      "label": "Abraham Owen Smoot"
+    },
+    "siblings": [
+      {
+        "qid": "Q4967306",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q959249",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q6076809": {
+    "label": "Isaac Morley",
+    "father": {
+      "qid": "Q131360033",
+      "label": "Thomas E. Morley"
+    },
+    "mother": {
+      "qid": "Q131360163",
+      "label": "Editha Morley"
+    }
+  },
+  "Q6105824": {
+    "label": "J. Golden Kimball",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q9002343",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q11310570": {
+    "label": "J. Reuben Clark",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "mother": {
+      "qid": "Q108155601",
+      "label": "Mary Louisa Woolley"
+    }
+  },
+  "Q6106939": {
+    "label": "J. Richard Clarke",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6107250": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6112856": {
+    "label": "Jack H. Goaslind"
+  },
+  "Q56065562": {
+    "label": "Jack N. Gerard"
+  },
+  "Q6119547": {
+    "label": "Jacob de Jager",
+    "nationality": [
+      {
+        "qid": "Q29999",
+        "label": "Kingdom of the Netherlands"
+      }
+    ]
+  },
+  "Q6119456": {
+    "label": "Jacob Whitmer",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q7177696",
+      "label": "Peter Whitmer, Sr."
+    },
+    "mother": {
+      "qid": "Q6780958",
+      "label": "Mary Whitmer"
+    }
+  },
+  "Q6128071": {
+    "label": "James A. Cullimore"
+  },
+  "Q6133086": {
+    "label": "James E. Faust",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "mother": {
+      "qid": "Q96739209",
+      "label": "Amy Faust"
+    }
+  },
+  "Q2042924": {
+    "label": "James E. Talmage",
+    "nationality": [
+      {
+        "qid": "Q145",
+        "label": "United Kingdom"
+      },
+      {
+        "qid": "Q174193",
+        "label": "United Kingdom of Great Britain and Ireland"
+      }
+    ]
+  },
+  "Q3806561": {
+    "label": "James Foster"
+  },
+  "Q6136686": {
+    "label": "James J. Hamula",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6140558": {
+    "label": "James O. Mason",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6141863": {
+    "label": "James Rasband",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6150845": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6152707": {
+    "label": "Jane S. Richards",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q5491806",
+        "label": "Franklin S. Richards"
+      }
+    ]
+  },
+  "Q6153694": {
+    "label": "Janette Hales Beckham",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6166577": {
+    "label": "Jay E. Jensen",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7243054": {
+    "label": "Primary"
+  },
+  "Q50819924": {
+    "label": "Jean B. Bingham",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6172733": {
+    "label": "Jedediah M. Grant",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q107311063",
+      "label": "Joshua Grant, III"
+    },
+    "mother": {
+      "qid": "Q107311107",
+      "label": "Athalia Nan Grant (Howard)"
+    },
+    "children": [
+      {
+        "qid": "Q1392562",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q3176723": {
+    "label": "Jeffrey R. Holland",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q6791187",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q16729874",
+        "label": "David F. Holland"
+      }
+    ]
+  },
+  "Q14711617": {
+    "label": "Jennie B. Knight",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6186216": {
+    "label": "Jesse Carter Little"
+  },
+  "Q6186357": {
+    "label": "Jesse Gause"
+  },
+  "Q6210486": {
+    "label": "Joe J. Christensen"
+  },
+  "Q6217984": {
+    "label": "John A. Widtsoe",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q16106239": {
+    "label": "John B. Dickson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q3809129": {
+    "label": "John C. Bennett",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6227184": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q1483575": {
+    "label": "John Edgar Fowler",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6230870": {
+    "label": "John Edward Page",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6232186": {
+    "label": "John F. Boynton"
+  },
+  "Q6235029": {
+    "label": "John Gaylord"
+  },
+  "Q313787": {
+    "label": "John Gould",
+    "nationality": [
+      {
+        "qid": "Q174193",
+        "label": "United Kingdom of Great Britain and Ireland"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q5078346",
+        "label": "Charles Gould"
+      }
+    ]
+  },
+  "Q6236848": {
+    "label": "John H. Groberg",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6237107": {
+    "label": "John H. Taylor"
+  },
+  "Q6238946": {
+    "label": "John Henry Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q5536005",
+      "label": "UNKNOWN"
+    },
+    "children": [
+      {
+        "qid": "Q1392629",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q6242347": {
+    "label": "John K. Carmack"
+  },
+  "Q433328": {
+    "label": "John Llewellyn Lewis",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q2748881": {
+    "label": "John Longden",
+    "nationality": [
+      {
+        "qid": "Q145",
+        "label": "United Kingdom"
+      }
+    ]
+  },
+  "Q6245873": {
+    "label": "John M. Madsen",
+    "father": {
+      "qid": "Q6687588",
+      "label": "Louis L. Madsen"
+    }
+  },
+  "Q424267": {
+    "label": "John Morgan"
+  },
+  "Q6253623": {
+    "label": "John Q. Cannon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q947083",
+      "label": "UNKNOWN"
+    },
+    "children": [
+      {
+        "qid": "Q5055034",
+        "label": "Cavendish W. Cannon"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q7660820",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q5487434",
+        "label": "Frank J. Cannon"
+      }
+    ]
+  },
+  "Q6253903": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6254050": {
+    "label": "John R. Winder",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q140128380": {
+    "label": "John S. Tanner"
+  },
+  "Q245903": {
+    "label": "John Smith"
+  },
+  "Q540244": {
+    "label": "John Taylor",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      },
+      {
+        "qid": "Q174193",
+        "label": "United Kingdom of Great Britain and Ireland"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q6262572",
+        "label": "John W. Taylor"
+      },
+      {
+        "qid": "Q8019842",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q4769436",
+        "label": "UNKNOWN"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q4693121",
+        "label": "Agnes Taylor"
+      }
+    ]
+  },
+  "Q6261752": {
+    "label": "John Van Cott",
+    "mother": {
+      "qid": "Q138645896",
+      "label": "Lovinia Jemima Van Cott"
+    },
+    "children": [
+      {
+        "qid": "Q137681034",
+        "label": "Mary Van Cott"
+      }
+    ]
+  },
+  "Q6262570": {
+    "label": "John Wilkinson Taylor (educator)"
+  },
+  "Q361527": {
+    "label": "John Wells"
+  },
+  "Q5196041": {
+    "label": "John Whitmer",
+    "father": {
+      "qid": "Q7177696",
+      "label": "Peter Whitmer, Sr."
+    },
+    "mother": {
+      "qid": "Q6780958",
+      "label": "Mary Whitmer"
+    }
+  },
+  "Q15505516": {
+    "label": "John Willard Young",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q203559",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q6778849",
+      "label": "Mary Ann Angell"
+    },
+    "children": [
+      {
+        "qid": "Q8012488",
+        "label": "William Hooper Young"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q7647458",
+        "label": "Susa Young Gates"
+      },
+      {
+        "qid": "Q84571866",
+        "label": "Zina P. Young Card"
+      },
+      {
+        "qid": "Q6761663",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q4834119",
+        "label": "B. Morris Young"
+      },
+      {
+        "qid": "Q4967308",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q5292385",
+        "label": "Joseph Don Carlos Young"
+      },
+      {
+        "qid": "Q14711657",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q86013860",
+        "label": "Oscar Brigham Young"
+      },
+      {
+        "qid": "Q86013958",
+        "label": "Mahonri Moriancumer Young"
+      },
+      {
+        "qid": "Q86015667",
+        "label": "Ernest Irving Young, Sr."
+      },
+      {
+        "qid": "Q86015210",
+        "label": "Emily Augusta Young"
+      },
+      {
+        "qid": "Q8003507",
+        "label": "Willard Young"
+      }
+    ]
+  },
+  "Q6277596": {
+    "label": "Jorge A. Rojas",
+    "nationality": [
+      {
+        "qid": "Q96",
+        "label": "Mexico"
+      }
+    ]
+  },
+  "Q1706464": {
+    "label": "Joseph Anderson"
+  },
+  "Q14711657": {
+    "label": "Joseph Angell Young",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q203559",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q6778849",
+      "label": "Mary Ann Angell"
+    },
+    "children": [
+      {
+        "qid": "Q7329943",
+        "label": "UNKNOWN"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q7647458",
+        "label": "Susa Young Gates"
+      },
+      {
+        "qid": "Q84571866",
+        "label": "Zina P. Young Card"
+      },
+      {
+        "qid": "Q4834119",
+        "label": "B. Morris Young"
+      },
+      {
+        "qid": "Q4967308",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q5292385",
+        "label": "Joseph Don Carlos Young"
+      },
+      {
+        "qid": "Q15505516",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q6761663",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q86013860",
+        "label": "Oscar Brigham Young"
+      },
+      {
+        "qid": "Q86013958",
+        "label": "Mahonri Moriancumer Young"
+      },
+      {
+        "qid": "Q86015667",
+        "label": "Ernest Irving Young, Sr."
+      },
+      {
+        "qid": "Q86015210",
+        "label": "Emily Augusta Young"
+      },
+      {
+        "qid": "Q8003507",
+        "label": "Willard Young"
+      }
+    ]
+  },
+  "Q4355413": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q16018535": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q14210665": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q982197": {
+    "label": "Joseph F. Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q2976186",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q6779526",
+      "label": "Mary Fielding Smith"
+    },
+    "children": [
+      {
+        "qid": "Q1392595",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q138569317",
+        "label": "Donnette Smith"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q6258357",
+        "label": "John Smith"
+      }
+    ]
+  },
+  "Q1392595": {
+    "label": "Joseph Fielding Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q982197",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q6309045",
+      "label": "Julina Lambson Smith"
+    }
+  },
+  "Q11773180": {
+    "label": "Joseph Hardy"
+  },
+  "Q15995673": {
+    "label": "Joseph J. Cannon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6284761": {
+    "label": "Joseph L. Wirthlin"
+  },
+  "Q6285179": {
+    "label": "Joseph M. Tanner",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q103836725",
+      "label": "Myron Tanner"
+    },
+    "children": [
+      {
+        "qid": "Q7074818",
+        "label": "Obert C. Tanner"
+      }
+    ]
+  },
+  "Q47102": {
+    "label": "Joseph Smith",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q6181938",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q4979362",
+      "label": "Lucy Mack Smith"
+    },
+    "children": [
+      {
+        "qid": "Q6306601",
+        "label": "Julia Murdock Smith"
+      },
+      {
+        "qid": "Q3048224",
+        "label": "Joseph Smith III"
+      },
+      {
+        "qid": "Q4719048",
+        "label": "Alexander Hale Smith"
+      },
+      {
+        "qid": "Q5235307",
+        "label": "David Hyrum Smith"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q2976186",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q4424882",
+        "label": "Samuel H. Smith"
+      },
+      {
+        "qid": "Q4738229",
+        "label": "Alvin Smith"
+      },
+      {
+        "qid": "Q5292384",
+        "label": "Don Carlos Smith"
+      },
+      {
+        "qid": "Q8018530",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q16030354",
+        "label": "Katharine Smith Salisbury"
+      }
+    ]
+  },
+  "Q6181938": {
+    "label": "Joseph Smith, Sr.",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q4738229",
+        "label": "Alvin Smith"
+      },
+      {
+        "qid": "Q2976186",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q47102",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q8018530",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q4424882",
+        "label": "Samuel H. Smith"
+      },
+      {
+        "qid": "Q16030354",
+        "label": "Katharine Smith Salisbury"
+      },
+      {
+        "qid": "Q5292384",
+        "label": "Don Carlos Smith"
+      },
+      {
+        "qid": "Q107315481",
+        "label": "Lucy Smith Millikin"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q6258375",
+        "label": "John Smith"
+      }
+    ]
+  },
+  "Q15454842": {
+    "label": "Joseph T. Bentley",
+    "nationality": [
+      {
+        "qid": "Q96",
+        "label": "Mexico"
+      }
+    ]
+  },
+  "Q6287686": {
+    "label": "Joseph W. McMurrin"
+  },
+  "Q3185769": {
+    "label": "Joseph W. Sitati"
+  },
+  "Q14711662": {
+    "label": "Joseph Young",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q96215966",
+      "label": "John Young"
+    },
+    "mother": {
+      "qid": "Q89890742",
+      "label": "Abigail Nabby Howe"
+    },
+    "children": [
+      {
+        "qid": "Q63004621",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q7459128",
+        "label": "UNKNOWN"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q203559",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q28284906",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q7186375",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q6288435": {
+    "label": "Josephine Richards West",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6290443": {
+    "label": "Josiah Butterfield"
+  },
+  "Q51144777": {
+    "label": "Joy D. Jones"
+  },
+  "Q6308031": {
+    "label": "Julie B. Beck",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6313713": {
+    "label": "Junius F. Wells",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q5217392",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q100303": {
+    "label": "Karl G. Maeser",
+    "nationality": [
+      {
+        "qid": "Q43287",
+        "label": "German Empire"
+      }
+    ]
+  },
+  "Q6384007": {
+    "label": "Keith B. McMullin"
+  },
+  "Q398740": {
+    "label": "Ken Johnson"
+  },
+  "Q6391711": {
+    "label": "Kent F. Richards",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6408347": {
+    "label": "Kim B. Clark",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6456445": {
+    "label": "L. Edward Brown",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q3027563": {
+    "label": "L. Tom Perry",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q124247351",
+      "label": "Leslie Thomas Perry"
+    }
+  },
+  "Q6456696": {
+    "label": "L. Whitney Clayton",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6483317": {
+    "label": "Lance B. Wickman",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6490243": {
+    "label": "Larry Echo Hawk",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q6231112",
+        "label": "John Echohawk"
+      }
+    ]
+  },
+  "Q14711761": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q8019821",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q6506358": {
+    "label": "LeGrand R. Curtis",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q3848705": {
+    "label": "Church Historian and Recorder"
+  },
+  "Q6506360": {
+    "label": "LeGrand Richards"
+  },
+  "Q6525810": {
+    "label": "Leonard W. Hardy",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6535398": {
+    "label": "Levi E. Young",
+    "father": {
+      "qid": "Q7459128",
+      "label": "UNKNOWN"
+    },
+    "siblings": [
+      {
+        "qid": "Q5132932",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q86016829",
+        "label": "Seymour Bicknell Young, Jr."
+      }
+    ]
+  },
+  "Q6535541": {
+    "label": "Levi W. Hancock",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q122202960",
+      "label": "Thomas Hancock, Jr."
+    },
+    "children": [
+      {
+        "qid": "Q6916273",
+        "label": "Mosiah Hancock"
+      }
+    ]
+  },
+  "Q6548279": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6551696": {
+    "label": "Linda K. Burton",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q5532323": {
+    "label": "general authority"
+  },
+  "Q6680353": {
+    "label": "Loren C. Dunn",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q635520": {
+    "label": "Lorenzo Snow",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q124156647",
+      "label": "Oliver Snow III"
+    },
+    "mother": {
+      "qid": "Q107310950",
+      "label": "Rosetta Lenora Snow (Pettibone)"
+    },
+    "children": [
+      {
+        "qid": "Q86018373",
+        "label": "Celestia Armada Snow"
+      }
+    ]
+  },
+  "Q13476305": {
+    "label": "Louie B. Felt",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q15997405": {
+    "label": "Louise Y. Robison",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6693237": {
+    "label": "Lowell M. Snow"
+  },
+  "Q6698331": {
+    "label": "Lucy Grant Cannon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q1392562",
+      "label": "UNKNOWN"
+    },
+    "children": [
+      {
+        "qid": "Q5540912",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q111903315": {
+    "label": "Luke S. Johnson"
+  },
+  "Q6708023": {
+    "label": "Lyman E. Johnson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q16850744",
+      "label": "John Johnson"
+    }
+  },
+  "Q6708074": {
+    "label": "Lyman R. Sherman",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q15516821": {
+    "label": "Lyman Wight",
+    "mother": {
+      "qid": "Q124006018",
+      "label": "Sarah Wight"
+    }
+  },
+  "Q6709027": {
+    "label": "Lynn G. Robbins",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q18739853": {
+    "label": "Lynn S. Richards",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q3027430": {
+    "label": "Melvin Russell Ballard",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6729035": {
+    "label": "Mae Taylor Nystrom",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "mother": {
+      "qid": "Q5366782",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q6759326": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6760046": {
+    "label": "Margaret Young Taylor",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6761663": {
+    "label": "Maria Young Dougall",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q203559",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q115695948",
+      "label": "Clarissa Ann Young"
+    },
+    "children": [
+      {
+        "qid": "Q5932964",
+        "label": "Hugh W. Dougall"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q7647458",
+        "label": "Susa Young Gates"
+      },
+      {
+        "qid": "Q84571866",
+        "label": "Zina P. Young Card"
+      },
+      {
+        "qid": "Q4834119",
+        "label": "B. Morris Young"
+      },
+      {
+        "qid": "Q4967308",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q5292385",
+        "label": "Joseph Don Carlos Young"
+      },
+      {
+        "qid": "Q15505516",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q14711657",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q86013860",
+        "label": "Oscar Brigham Young"
+      },
+      {
+        "qid": "Q86013958",
+        "label": "Mahonri Moriancumer Young"
+      },
+      {
+        "qid": "Q86015667",
+        "label": "Ernest Irving Young, Sr."
+      },
+      {
+        "qid": "Q86015210",
+        "label": "Emily Augusta Young"
+      },
+      {
+        "qid": "Q8003507",
+        "label": "Willard Young"
+      }
+    ]
+  },
+  "Q6762204": {
+    "label": "Marianne C. Sharp",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6765165": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6765203": {
+    "label": "Marion G. Romney",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q2732746",
+      "label": "George S. Romney"
+    }
+  },
+  "Q134593788": {
+    "label": "Mark A. Bragg"
+  },
+  "Q6767465": {
+    "label": "Mark E. Petersen",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6771849": {
+    "label": "Marlin K. Jensen",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6772964": {
+    "label": "Marriner W. Merrill",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6774417": {
+    "label": "Martha H. Tingey",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q1893466": {
+    "label": "Martin Harris",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q131360723",
+      "label": "Nathan Harris"
+    },
+    "mother": {
+      "qid": "Q131360695",
+      "label": "Rhoda Harris"
+    }
+  },
+  "Q5396961": {
+    "label": "Marvin J. Ashton",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q6778442",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q6778442": {
+    "label": "Marvin O. Ashton",
+    "children": [
+      {
+        "qid": "Q5396961",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q6779462": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6780403": {
+    "label": "Mary N. Cook",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6787515": {
+    "label": "Matilda M. Barratt"
+  },
+  "Q6790350": {
+    "label": "Matthew Cowley",
+    "father": {
+      "qid": "Q6791538",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q122642141",
+      "label": "Abigail Cowley"
+    }
+  },
+  "Q6791041": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6791187": {
+    "label": "Matthew S. Holland",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6791538": {
+    "label": "Matthias F. Cowley",
+    "children": [
+      {
+        "qid": "Q6790350",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q7412329",
+        "label": "Samuel Parkinson Cowley"
+      }
+    ]
+  },
+  "Q6796417": {
+    "label": "May Anderson"
+  },
+  "Q6796505": {
+    "label": "May Green Hinckley"
+  },
+  "Q6813988": {
+    "label": "Melvin J. Ballard",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6819789": {
+    "label": "Merlin R. Lybbert"
+  },
+  "Q6820201": {
+    "label": "Merrill J. Bateman"
+  },
+  "Q6834765": {
+    "label": "Michael T. Ringwood"
+  },
+  "Q6860997": {
+    "label": "Milton Bennion",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6861125": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6861399": {
+    "label": "Milton R. Hunter",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q15512281": {
+    "label": "Moses Thatcher",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q112306645",
+        "label": "George W. Thatcher Sr."
+      }
+    ]
+  },
+  "Q14711845": {
+    "label": "Nathan Eldon Tanner",
+    "nationality": [
+      {
+        "qid": "Q16",
+        "label": "Canada"
+      }
+    ],
+    "father": {
+      "qid": "Q103837574",
+      "label": "Nathan William Tanner"
+    },
+    "mother": {
+      "qid": "Q103837606",
+      "label": "Sarah Edna Tanner"
+    }
+  },
+  "Q16016276": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6964709": {
+    "label": "Naomi W. Randall",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6984037": {
+    "label": "Neal A. Maxwell",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q6988452": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q3337823": {
+    "label": "Neil L. Andersen",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q16115810": {
+    "label": "Neill F. Marriott",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q465580": {
+    "label": "Newel K. Whitney",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q99908867",
+      "label": "Samuel Whitney, III"
+    },
+    "children": [
+      {
+        "qid": "Q99910403",
+        "label": "Horace Kimball Whitney"
+      },
+      {
+        "qid": "Q7422060",
+        "label": "Sarah Ann Whitney"
+      }
+    ]
+  },
+  "Q7025427": {
+    "label": "Nicholas G. Smith"
+  },
+  "Q7072137": {
+    "label": "O. Leslie Stone"
+  },
+  "Q7072181": {
+    "label": "O. Vincent Haleck"
+  },
+  "Q7076800": {
+    "label": "Octaviano Tenorio",
+    "nationality": [
+      {
+        "qid": "Q96",
+        "label": "Mexico"
+      }
+    ]
+  },
+  "Q982343": {
+    "label": "Oliver Cowdery",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q107145844",
+      "label": "William Cowdery"
+    },
+    "mother": {
+      "qid": "Q96382473",
+      "label": "Rebecca Cowdery"
+    }
+  },
+  "Q7104089": {
+    "label": "Orrin P. Miller"
+  },
+  "Q7104160": {
+    "label": "Orson F. Whitney",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q99910403",
+      "label": "Horace Kimball Whitney"
+    },
+    "mother": {
+      "qid": "Q5702756",
+      "label": "Helen Mar Kimball"
+    }
+  },
+  "Q3849171": {
+    "label": "Orson Hyde",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q2482954": {
+    "label": "Orson Pratt",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q96201929",
+      "label": "Jared Pratt"
+    },
+    "mother": {
+      "qid": "Q84308925",
+      "label": "Charity Dickinson"
+    }
+  },
+  "Q7105843": {
+    "label": "Oscar A. Kirkham"
+  },
+  "Q2465604": {
+    "label": "Parley P. Pratt",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q96201929",
+      "label": "Jared Pratt"
+    },
+    "mother": {
+      "qid": "Q84308925",
+      "label": "Charity Dickinson"
+    },
+    "children": [
+      {
+        "qid": "Q5701480",
+        "label": "Helaman Pratt"
+      },
+      {
+        "qid": "Q103812143",
+        "label": "Isabella Eleanor Marden Robinson"
+      },
+      {
+        "qid": "Q103813354",
+        "label": "Olivia Thankful Driggs"
+      },
+      {
+        "qid": "Q139595614",
+        "label": "Alma Pratt"
+      }
+    ]
+  },
+  "Q7145862": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7146916": {
+    "label": "Patrick Kearon",
+    "nationality": [
+      {
+        "qid": "Q145",
+        "label": "United Kingdom"
+      }
+    ]
+  },
+  "Q7151057": {
+    "label": "Paul H. Dunn"
+  },
+  "Q7151677": {
+    "label": "Paul K. Sybrowsky",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q861653": {
+    "label": "Church Educational System"
+  },
+  "Q7166686": {
+    "label": "Per G. Malm",
+    "nationality": [
+      {
+        "qid": "Q34",
+        "label": "Sweden"
+      }
+    ]
+  },
+  "Q63073350": {
+    "label": "Peter M. Johnson"
+  },
+  "Q7177695": {
+    "label": "Peter Whitmer, Jr.",
+    "father": {
+      "qid": "Q7177696",
+      "label": "Peter Whitmer, Sr."
+    },
+    "mother": {
+      "qid": "Q6780958",
+      "label": "Mary Whitmer"
+    }
+  },
+  "Q3027815": {
+    "label": "Quentin L. Cook",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "mother": {
+      "qid": "Q107183269",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q16090368": {
+    "label": "Quinn G. McKay",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q959249": {
+    "label": "Reed Owen Smoot",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q4669116",
+      "label": "Abraham Owen Smoot"
+    },
+    "children": [
+      {
+        "qid": "Q75758453",
+        "label": "unknown Smoot"
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q4967306",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q15998669",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q7319429": {
+    "label": "Rey Pratt",
+    "father": {
+      "qid": "Q5701480",
+      "label": "Helaman Pratt"
+    },
+    "mother": {
+      "qid": "Q98697103",
+      "label": "Emaline Victoria Billingsley"
+    },
+    "children": [
+      {
+        "qid": "Q84308947",
+        "label": "Emaline Pratt"
+      }
+    ]
+  },
+  "Q51083038": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      },
+      {
+        "qid": "Q811",
+        "label": "Nicaragua"
+      }
+    ]
+  },
+  "Q7319633": {
+    "label": "Reynolds Cahoon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7330050": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7324544": {
+    "label": "Richard C. Edgley",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7325359": {
+    "label": "Richard E. Cook",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q2913521": {
+    "label": "Richard G. Scott",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7327181": {
+    "label": "Richard L. Evans",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7328238": {
+    "label": "Richard P. Lindsay",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7328566": {
+    "label": "Richard R. Lyman",
+    "father": {
+      "qid": "Q4253174",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q103837175",
+      "label": "Clara Caroline Lyman"
+    }
+  },
+  "Q7342604": {
+    "label": "Robert C. Gay"
+  },
+  "Q7342643": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q3434887": {
+    "label": "Robert D. Hales",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7343884": {
+    "label": "Robert E. Sackley",
+    "nationality": [
+      {
+        "qid": "Q1033",
+        "label": "Nigeria"
+      }
+    ]
+  },
+  "Q7346219": {
+    "label": "Robert K. Dellenbach",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7346506": {
+    "label": "Robert L. Backman",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q413007": {
+    "label": "Robert Simpson"
+  },
+  "Q29888375": {
+    "label": "Robert M. Daines"
+  },
+  "Q7349525": {
+    "label": "Robert S. Wood",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7350211": {
+    "label": "Robert T. Burton",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7356871": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7358748": {
+    "label": "Roger Orton"
+  },
+  "Q7364620": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7364819": {
+    "label": "Ronald E. Poelman"
+  },
+  "Q28845692": {
+    "label": "Ronald T. Halverson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q16123110": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7375205": {
+    "label": "Royden G. Derrick"
+  },
+  "Q7376908": {
+    "label": "Rudger Clawson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q5769020",
+      "label": "Hiram B. Clawson"
+    }
+  },
+  "Q15996525": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q5217392",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q3027523": {
+    "label": "Russell M. Nelson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7381812": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7383021": {
+    "label": "Ruth H. Funk",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7383117": {
+    "label": "Ruth May Fox",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7387447": {
+    "label": "S. Dilworth Young",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q86016829",
+      "label": "Seymour Bicknell Young, Jr."
+    },
+    "mother": {
+      "qid": "Q86015252",
+      "label": "Carlie Louine Young Clawson"
+    },
+    "siblings": [
+      {
+        "qid": "Q86015281",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q5559930": {
+    "label": "Gifford Nielsen",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7397918": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7405507": {
+    "label": "Salmon Gee",
+    "father": {
+      "qid": "Q107311173",
+      "label": "Zopher Gee"
+    },
+    "mother": {
+      "qid": "Q107311199",
+      "label": "Esther Gee"
+    },
+    "children": [
+      {
+        "qid": "Q107311172",
+        "label": "George Washington Gee"
+      }
+    ]
+  },
+  "Q7411587": {
+    "label": "Samuel H. Smith"
+  },
+  "Q7412295": {
+    "label": "Samuel O. Bennion",
+    "mother": {
+      "qid": "Q123710879",
+      "label": "Emma Jane Terry"
+    }
+  },
+  "Q7422548": {
+    "label": "Sarah M. Cleveland"
+  },
+  "Q7440955": {
+    "label": "Sean Douglas"
+  },
+  "Q7459128": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q14711662",
+      "label": "UNKNOWN"
+    },
+    "children": [
+      {
+        "qid": "Q5132932",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q6535398",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q86016829",
+        "label": "Seymour Bicknell Young, Jr."
+      }
+    ],
+    "siblings": [
+      {
+        "qid": "Q63004621",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q14711874": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q51082768": {
+    "label": "Sharon Eubank"
+  },
+  "Q7490060": {
+    "label": "Sharon G. Larsen"
+  },
+  "Q13563124": {
+    "label": "Sheri L. Dew",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q727001": {
+    "label": "Sidney Rigdon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q126722565",
+        "label": "Nancy Rigdon"
+      }
+    ]
+  },
+  "Q7576091": {
+    "label": "Spencer J. Condie"
+  },
+  "Q1392523": {
+    "label": "Spencer W. Kimball",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q4757612",
+      "label": "Andrew Kimball"
+    },
+    "mother": {
+      "qid": "Q84452576",
+      "label": "Olive Woolley"
+    },
+    "siblings": [
+      {
+        "qid": "Q84452032",
+        "label": "Ruth Kimball"
+      }
+    ]
+  },
+  "Q7605135": {
+    "label": "Stayner Richards"
+  },
+  "Q7609734": {
+    "label": "Stephen L Richards",
+    "father": {
+      "qid": "Q132744678",
+      "label": "Dr Stephen Longstroth Richards"
+    },
+    "children": [
+      {
+        "qid": "Q132744640",
+        "label": "Irene Louise Covey"
+      }
+    ]
+  },
+  "Q22007275": {
+    "label": "Stephen W. Owen"
+  },
+  "Q7611480": {
+    "label": "Sterling W. Sill"
+  },
+  "Q7614661": {
+    "label": "Steven E. Snow",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q106331295": {
+    "label": "Steven J. Lund"
+  },
+  "Q123308539": {
+    "label": "Susan H. Porter"
+  },
+  "Q7648491": {
+    "label": "Susan W. Tanner",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q7329733",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q4859382",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q15452704": {
+    "label": "Noel B. Reynolds",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7660820": {
+    "label": "Sylvester Q. Cannon",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q947083",
+      "label": "UNKNOWN"
+    },
+    "siblings": [
+      {
+        "qid": "Q6253623",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q5487434",
+        "label": "Frank J. Cannon"
+      }
+    ]
+  },
+  "Q7660831": {
+    "label": "Sylvester Smith"
+  },
+  "Q7674243": {
+    "label": "Tad R. Callister",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q50583762": {
+    "label": "Taniela B. Wakolo"
+  },
+  "Q16090019": {
+    "label": "Ted E. Brewerton",
+    "nationality": [
+      {
+        "qid": "Q16",
+        "label": "Canada"
+      }
+    ]
+  },
+  "Q7781901": {
+    "label": "Theodore M. Burton",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7787262": {
+    "label": "Thomas B. Marsh",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7789183": {
+    "label": "Thomas E. McKay",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q47541485",
+      "label": "UNKNOWN"
+    },
+    "siblings": [
+      {
+        "qid": "Q1175942",
+        "label": "UNKNOWN"
+      }
+    ]
+  },
+  "Q333620": {
+    "label": "Thomas S. Monson",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "children": [
+      {
+        "qid": "Q4766523",
+        "label": "Ann M. Dibb"
+      }
+    ]
+  },
+  "Q7796681": {
+    "label": "Thorpe B. Isaacson"
+  },
+  "Q7810285": {
+    "label": "Titus Billings",
+    "father": {
+      "qid": "Q107339467",
+      "label": "Ebenezer Billings"
+    },
+    "mother": {
+      "qid": "Q107339471",
+      "label": "Esther Joyce"
+    }
+  },
+  "Q138351122": {
+    "label": "Tracy Y. Browning"
+  },
+  "Q7879051": {
+    "label": "Ulisses Soares",
+    "nationality": [
+      {
+        "qid": "Q155",
+        "label": "Brazil"
+      }
+    ]
+  },
+  "Q7908678": {
+    "label": "Vai Sikahema",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      },
+      {
+        "qid": "Q678",
+        "label": "Tonga"
+      }
+    ]
+  },
+  "Q7926075": {
+    "label": "Victor L. Brown"
+  },
+  "Q7932791": {
+    "label": "Vinson Knight",
+    "father": {
+      "qid": "Q124157036",
+      "label": "Dr. Rodolphus Knight"
+    },
+    "mother": {
+      "qid": "Q99884614",
+      "label": "Rispah(Rizpah) Knight"
+    }
+  },
+  "Q15455331": {
+    "label": "Virginia H. Pearce",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q553147",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q108419257",
+      "label": "Marjorie Pay Hinckley"
+    }
+  },
+  "Q136807239": {
+    "label": "W. Christopher Waddell"
+  },
+  "Q7945414": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q7945747": {
+    "label": "",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q13607086": {
+    "label": "W. Rolfe Kerr",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q560707": {
+    "label": "Wilford Woodruff",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q107148960",
+      "label": "Aphek Woodruff"
+    },
+    "mother": {
+      "qid": "Q107148976",
+      "label": "Beulah Woodruff (Thompson)"
+    },
+    "children": [
+      {
+        "qid": "Q4669114",
+        "label": "UNKNOWN"
+      },
+      {
+        "qid": "Q107148953",
+        "label": "Wilford Woodruff, Jr"
+      }
+    ]
+  },
+  "Q8003479": {
+    "label": "Willard Richards",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q132744685",
+      "label": "Joseph Richards, Sr."
+    },
+    "mother": {
+      "qid": "Q107311353",
+      "label": "Rhoda Howe Richards"
+    },
+    "children": [
+      {
+        "qid": "Q132744678",
+        "label": "Dr Stephen Longstroth Richards"
+      }
+    ]
+  },
+  "Q376510": {
+    "label": "William Ballard Preston",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q668723",
+      "label": "James Patton Preston"
+    }
+  },
+  "Q8007503": {
+    "label": "William D. Oswald",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q8008274": {
+    "label": "William E. McLellin"
+  },
+  "Q8010109": {
+    "label": "William Grant Bangerter"
+  },
+  "Q345059": {
+    "label": "William Bennett"
+  },
+  "Q8013195": {
+    "label": "William J. Critchlow, Jr."
+  },
+  "Q1851007": {
+    "label": "William Jackson",
+    "nationality": [
+      {
+        "qid": "Q145",
+        "label": "United Kingdom"
+      }
+    ]
+  },
+  "Q3177480": {
+    "label": "William Law",
+    "nationality": [
+      {
+        "qid": "Q161885",
+        "label": "Kingdom of Great Britain"
+      }
+    ]
+  },
+  "Q8017304": {
+    "label": "William Russell Walker"
+  },
+  "Q226863": {
+    "label": "William Smith"
+  },
+  "Q8019821": {
+    "label": "William W. Parmley",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q7791126",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q14711761",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q8019842": {
+    "label": "William W. Taylor",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q540244",
+      "label": "UNKNOWN"
+    }
+  },
+  "Q15458896": {
+    "label": "Yoshihiko Kikuchi"
+  },
+  "Q8068247": {
+    "label": "Zebedee Coltrin"
+  },
+  "Q8069361": {
+    "label": "Zera Pulsipher"
+  },
+  "Q8072227": {
+    "label": "Zina D. H. Young",
+    "nationality": [
+      {
+        "qid": "Q30",
+        "label": "United States"
+      }
+    ],
+    "father": {
+      "qid": "Q8012699",
+      "label": "UNKNOWN"
+    },
+    "mother": {
+      "qid": "Q96985362",
+      "label": "Zina Baker"
+    },
+    "children": [
+      {
+        "qid": "Q84571866",
+        "label": "Zina P. Young Card"
+      }
+    ]
+  }
+}
