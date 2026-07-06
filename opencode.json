@@ -16,6 +16,11 @@
         "BUNNY_STORAGE_REGION": "la",
         "BUNNY_STORAGE_ZONE": "ve-media-storage"
       }
+    },
+    "alejandria": {
+      "type": "remote",
+      "url": "http://localhost:4300/mcp/",
+      "enabled": true
     }
   }
 }

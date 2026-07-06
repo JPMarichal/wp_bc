@@ -14,6 +14,8 @@ wp-core/
 
 # Docker
 docker-data/
+# MySQL data persistente (bind mount)
+db-data/
 
 # Node dependencies
 node_modules/
