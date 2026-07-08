@@ -17,7 +17,7 @@ get_header(); ?>
         <div class="inside-article">
           <?php if ( has_post_thumbnail() ) : ?>
             <div class="bc-landing-hero">
-              <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'full', false, array( 'class' => 'bc-landing-hero-img', 'fetchpriority' => 'high' ) ); ?>
+              <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'full', false, array( 'class' => 'bc-landing-hero-img', 'fetchpriority' => 'high' , 'decoding' => 'async') ); ?>
               <div class="bc-landing-hero-overlay">
                 <div class="grid-container">
                   <h1 class="bc-landing-hero-title"><?php the_title(); ?></h1>

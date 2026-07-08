@@ -35,7 +35,7 @@ function bc_related_posts() {
       <a href="<?php the_permalink(); ?>" class="bc-related-post-link">
         <?php if ( has_post_thumbnail() ) : ?>
           <div class="bc-related-post-thumb">
-            <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc-hero', false, array( 'class' => 'bc-related-post-img', 'alt' => get_the_title(), 'loading' => 'lazy' ) ); ?>
+            <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc-hero', false, array( 'class' => 'bc-related-post-img', 'alt' => get_the_title(), 'loading' => 'lazy' , 'decoding' => 'async') ); ?>
           </div>
         <?php endif; ?>
         <h4 class="bc-related-post-title"><?php the_title(); ?></h4>

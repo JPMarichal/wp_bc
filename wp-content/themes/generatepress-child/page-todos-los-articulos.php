@@ -28,7 +28,7 @@ get_header(); ?>
           <article <?php post_class('bc-all-posts-item'); ?>>
             <?php if (has_post_thumbnail()) : ?>
               <a href="<?php the_permalink(); ?>" class="bc-all-posts-item-thumb-link">
-                <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc-list-thumb', false, array( 'class' => 'bc-all-posts-item-thumb', 'loading' => 'lazy' ) ); ?>
+                <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc-list-thumb', false, array( 'class' => 'bc-all-posts-item-thumb', 'loading' => 'lazy' , 'decoding' => 'async') ); ?>
               </a>
             <?php endif; ?>
             <div class="bc-all-posts-item-body">

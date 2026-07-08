@@ -62,7 +62,7 @@ function bc_render_persona_infobox() {
 				<?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc_quote_photo', false, array(
 					'class' => 'bc-infobox-img',
 					'alt'   => get_the_title(),
-				) ); ?>
+				 'decoding' => 'async') ); ?>
 			</div>
 		<?php endif; ?>
 
