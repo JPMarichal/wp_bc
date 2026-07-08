@@ -7,7 +7,7 @@ add_filter( 'body_class', function ( $classes ) {
     $sidebar = get_post_meta( get_the_ID(), '_bc_sidebar_position', true );
   }
 
-  if ( is_page_template( 'page-full-width.php' ) ) {
+  if ( is_page_template( 'page-full-width.php' ) || is_page_template( 'page-todos-los-articulos.php' ) || is_page_template( 'page-landing.php' ) ) {
     $classes[] = 'bc-layout--full';
   } elseif ( is_page_template( 'page-narrow.php' ) ) {
     $classes[] = 'bc-layout--narrow';
@@ -23,6 +23,10 @@ add_filter( 'body_class', function ( $classes ) {
 } );
 
 add_filter( 'generate_sidebar_layout', function ( $layout ) {
+  if ( is_page_template( 'page-todos-los-articulos.php' ) || is_page_template( 'page-landing.php' ) ) {
+    return 'no-sidebar';
+  }
+
   if ( is_singular() ) {
     $pos = get_post_meta( get_the_ID(), '_bc_sidebar_position', true );
     if ( 'none' === $pos ) {
