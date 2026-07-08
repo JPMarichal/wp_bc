@@ -40,8 +40,10 @@ class LDS_Passage_Block_Renderer {
             );
         }
 
+        $prefix = $volume === 'tjs' ? 'TJS ' : '';
         $citation = sprintf(
-            '(%s %d:%s)',
+            '(%s%s %d:%s)',
+            $prefix,
             $passage['book_name'],
             $chapter,
             $startVerse === $endVerse ? $startVerse : $startVerse . "\xe2\x80\x94" . $endVerse

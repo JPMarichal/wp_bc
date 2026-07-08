@@ -116,5 +116,42 @@
       { "slug": "jose-smith-historia", "name": "José Smith—Historia", "chapters": 1 },
       { "slug": "articulos-de-fe", "name": "Artículos de Fe", "chapters": 1 }
     ]
+  },
+  {
+    "slug": "tjs",
+    "name": "Traducción de José Smith",
+    "books": [
+      { "slug": "genesis", "name": "Génesis", "chapters": 50 },
+      { "slug": "exodo", "name": "Éxodo", "chapters": 40 },
+      { "slug": "deuteronomio", "name": "Deuteronomio", "chapters": 34 },
+      { "slug": "1-samuel", "name": "1 Samuel", "chapters": 31 },
+      { "slug": "2-samuel", "name": "2 Samuel", "chapters": 24 },
+      { "slug": "1-cronicas", "name": "1 Crónicas", "chapters": 29 },
+      { "slug": "2-cronicas", "name": "2 Crónicas", "chapters": 36 },
+      { "slug": "salmos", "name": "Salmos", "chapters": 150 },
+      { "slug": "isaias", "name": "Isaías", "chapters": 66 },
+      { "slug": "jeremias", "name": "Jeremías", "chapters": 52 },
+      { "slug": "amos", "name": "Amós", "chapters": 9 },
+      { "slug": "mateo", "name": "Mateo", "chapters": 28 },
+      { "slug": "marcos", "name": "Marcos", "chapters": 16 },
+      { "slug": "lucas", "name": "Lucas", "chapters": 24 },
+      { "slug": "juan", "name": "Juan", "chapters": 21 },
+      { "slug": "hechos", "name": "Hechos", "chapters": 28 },
+      { "slug": "romanos", "name": "Romanos", "chapters": 16 },
+      { "slug": "1-corintios", "name": "1 Corintios", "chapters": 16 },
+      { "slug": "2-corintios", "name": "2 Corintios", "chapters": 13 },
+      { "slug": "galatas", "name": "Gálatas", "chapters": 6 },
+      { "slug": "efesios", "name": "Efesios", "chapters": 6 },
+      { "slug": "colosenses", "name": "Colosenses", "chapters": 4 },
+      { "slug": "1-tesalonicenses", "name": "1 Tesalonicenses", "chapters": 5 },
+      { "slug": "2-tesalonicenses", "name": "2 Tesalonicenses", "chapters": 3 },
+      { "slug": "1-timoteo", "name": "1 Timoteo", "chapters": 6 },
+      { "slug": "hebreos", "name": "Hebreos", "chapters": 13 },
+      { "slug": "santiago", "name": "Santiago", "chapters": 5 },
+      { "slug": "1-pedro", "name": "1 Pedro", "chapters": 5 },
+      { "slug": "2-pedro", "name": "2 Pedro", "chapters": 3 },
+      { "slug": "1-juan", "name": "1 Juan", "chapters": 5 },
+      { "slug": "apocalipsis", "name": "Apocalipsis", "chapters": 22 }
+    ]
   }
 ]

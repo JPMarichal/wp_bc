@@ -25,6 +25,19 @@ nul
 
 # Temp files
 tmp/
+=0.4
+current_*.txt
+current_*.html
+raw_content.txt
+fixed_content*
+tmp_*.txt
+post*.json
+
+# OS artifacts
+nul
+
+# Database backups (SQL dumps may contain secrets)
+backups/
 
 # WordPress uploads
 wp-content/uploads/

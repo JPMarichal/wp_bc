@@ -49,3 +49,20 @@
 | Entry content componente | `src/_entry-content.scss` |
 | Salida compilada | `style-compiled.css` |
 | Single post template | `content-single.php` |
+
+### 7. Principio de Responsabilidad Monotemática en Artículos
+- Cada artículo cubre un solo tema
+- Si un aspecto secundario requiere más de 2–3 párrafos o tiene sus propias fuentes, merece artículo propio
+- Reducir el tratamiento original a 1–2 párrafos con enlace al nuevo artículo
+- Documentado en detalle en `.claude/skills/crear-articulo/SKILL.md` (Regla 0)
+
+## ⚠️ Regla de Oro: NO TOCAR LA BASE DE DATOS
+
+**NUNCA** ejecutar comandos que modifiquen, detengan, reinicien o migren la base de datos sin:
+1. Hacer un dump de verificación (`mysqldump --all-databases`) primero
+2. Confirmar que el dump tiene el tamaño y contenido esperados
+3. Tener autorización explícita del usuario paso a paso
+
+**NUNCA** eliminar `db-data/` ni su contenido. **NUNCA** forzar recreación de contenedores (`compose up -d` cuando ya están corriendo). Si MySQL no arranca, reportar el error y esperar instrucciones — no intentar reparaciones múltiples.
+
+**Si los contenedores ya están corriendo y funcionando, no tocarlos.**

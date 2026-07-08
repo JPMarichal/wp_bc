@@ -7,7 +7,8 @@
     "build:sass": "sass --no-source-map src/style.scss:style-compiled.css src/editor-style.scss:editor-style.css",
     "build:postcss": "postcss style-compiled.css -o style-compiled.css && postcss editor-style.css -o editor-style.css",
     "build": "npm run build:sass && npm run build:postcss",
-    "dev": "npm run dev:sass"
+    "dev": "npm run dev:sass",
+    "perf": "node bin/perf.js"
   },
   "browserslist": [
     "> 1%",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.17",
     "cssnano": "^6.1.2",
+    "lighthouse": "^10.4.0",
     "postcss-cli": "^10.1.0",
     "sass": "^1.71.0"
   }

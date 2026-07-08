@@ -46,6 +46,14 @@ db-optimize:
 plugins:
     {{cli}} plugin list
 
+# Run Lighthouse performance audit (all default pages)
+perf:
+    cd wp-content/themes/generatepress-child && npm run perf
+
+# Run Lighthouse on a specific URL path (e.g. just perf-url /about)
+perf-url path:
+    cd wp-content/themes/generatepress-child && npm run perf -- {{path}}
+
 # Show available commands
 default:
     @just --list

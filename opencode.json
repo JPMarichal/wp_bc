@@ -21,6 +21,18 @@
       "type": "remote",
       "url": "http://localhost:4300/mcp/",
       "enabled": true
+    },
+    "wordpress": {
+      "type": "local",
+      "command": [
+        "docker", "run", "--rm", "-i",
+        "--network=wp_bc_default",
+        "-e", "WORDPRESS_SITE_URL=http://wordpress",
+        "-e", "WORDPRESS_USERNAME=JPMarichal",
+        "-e", "WORDPRESS_APP_PASSWORD=gK9SyXM0qMhoMvDIAraTVX72",
+        "docdyhr/mcp-wordpress:latest"
+      ],
+      "enabled": true
     }
   }
 }

@@ -144,8 +144,11 @@ class LDS_Passage_REST_Controller {
             );
         }
 
+        $volume = $request->get_param( 'volume' );
+        $prefix = $volume === 'tjs' ? 'TJS ' : '';
         $citation = sprintf(
-            '(%s %d:%s)',
+            '(%s%s %d:%s)',
+            $prefix,
             $passage['book_name'],
             $chapter,
             $start_verse === $end_verse ? $start_verse : $start_verse . "\xe2\x80\x94" . $end_verse
