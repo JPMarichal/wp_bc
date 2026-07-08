@@ -5,13 +5,8 @@
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="bc-logo"><?php bloginfo( 'name' ); ?></a>
       </div>
       <div class="bc-header-tools">
-        <div class="bc-header-search">
-          <button class="bc-search-toggle" aria-label="Buscar">
-            <i class="fas fa-search"></i>
-          </button>
-          <div class="bc-search-form-wrapper">
-            <?php get_search_form(); ?>
-          </div>
+        <div class="bc-search-inline">
+          <?php get_search_form(); ?>
         </div>
         <div class="bc-header-user">
           <?php if ( is_user_logged_in() ) : ?>
