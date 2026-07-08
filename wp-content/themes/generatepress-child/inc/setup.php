@@ -2,21 +2,12 @@
 
 add_action( 'after_setup_theme', function () {
   add_image_size( 'bc-hero', 1600, 0, false );
-});
-
-add_action( 'init', function () {
-  remove_action( 'generate_credits', 'generate_add_footer_info' );
-  add_action( 'generate_credits', function () {
-    ?>
-    <div class="bc-footer-content">
-      <span class="copyright">&copy; <?php echo date( 'Y' ); ?> Juan Pablo Marichal Catalán</span>
-      <p class="bc-footer-disclaimer">
-        Este sitio no es un sitio oficial de La Iglesia de Jesucristo de los Santos de los Últimos Días.
-        Se ha hecho todo esfuerzo para conformar su contenido a la doctrina y prácticas de la Iglesia.
-      </p>
-    </div>
-    <?php
-  }, 10 );
+  add_image_size( 'bc-featured', 1200, 630, true );
+  add_image_size( 'bc-card', 600, 400, true );
+  add_image_size( 'bc-card-vertical', 400, 500, true );
+  add_image_size( 'bc-list-thumb', 120, 120, true );
+  add_image_size( 'bc-sidebar-thumb', 80, 80, true );
+  add_image_size( 'bc-tiny', 40, 40, true );
 });
 
 add_action('wp', function () {
@@ -25,7 +16,7 @@ add_action('wp', function () {
 }, 11);
 
 add_filter('generate_header_entry_meta_items', function ($items) {
-  return ['date', 'author', 'categories', 'tags', 'comments-link'];
+  return ['date', 'author', 'categories', 'comments-link'];
 });
 
 add_filter('generate_footer_entry_meta_items', function ($items) {

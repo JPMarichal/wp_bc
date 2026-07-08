@@ -68,15 +68,31 @@
     font-size: 0.85rem;
     font-weight: 600;
     text-decoration: none;
-    border: 1px solid #ccc;
+    background: #2e7d32;
+    border: 1px solid #2e7d32;
     border-radius: 4px;
-    color: #444;
-    transition: background 0.15s, color 0.15s;
+    color: #fff;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
 
     &:hover {
-      background: #1e3a5f;
+      background: #388e3c;
       color: #fff;
-      border-color: #1e3a5f;
+      border-color: #388e3c;
+    }
+
+    &.active,
+    &.active:hover {
+      background: #e65100;
+      border-color: #e65100;
+      color: #fff;
+    }
+
+    &.active:hover {
+      background: #f57c00;
+      border-color: #f57c00;
     }
   }
 
@@ -87,22 +103,26 @@
       font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
       font-size: 1.5rem;
       font-weight: 700;
-      color: #1e3a5f;
-      border-bottom: 1px solid #ddd;
+      color: #2e7d32;
+      border-bottom: 2px solid #2e7d32;
       padding-bottom: 0.25rem;
       margin-bottom: 0.75rem;
     }
 
-    .bc-glossary-entry-link {
-      display: block;
-      padding: 0.2rem 0;
-      color: #333;
+    .bc-glossary-entry-link,
+    .bc-glossary-entry-link:link,
+    .bc-glossary-entry-link:visited {
+      display: inline-block;
+      padding: 0.25rem 0;
+      color: #3a3a3a;
       text-decoration: none;
       font-size: 0.95rem;
       line-height: 1.6;
+      transition: color 0.15s;
 
-      &:hover {
-        color: #1e3a5f;
+      &:hover,
+      &:focus {
+        color: #e65100;
         text-decoration: underline;
       }
     }

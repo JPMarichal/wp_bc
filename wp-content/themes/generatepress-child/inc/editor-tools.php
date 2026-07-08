@@ -1,5 +1,9 @@
 <?php
 
+add_action('after_setup_theme', function () {
+  add_editor_style('editor-style.css');
+});
+
 add_action('enqueue_block_editor_assets', function () {
   $screen = get_current_screen();
   if (!$screen || 'post' !== $screen->base) {

@@ -1,0 +1,137 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  font-family: $font-family-base;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: $tierra-300;
+  background: #fff;
+}
+
+.editor-post-title__input {
+  font-family: $font-family-headings;
+  font-weight: 900;
+  color: $jardin-500;
+  font-size: 2.25rem;
+  line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-headings;
+  color: $jardin-500;
+  line-height: 1.3;
+}
+
+h1 { font-size: 2.25rem; font-weight: 900; }
+h2 { font-size: 1.75rem; font-weight: 700; }
+h3 { font-size: 1.5rem; font-weight: 700; }
+h4 { font-size: 1.25rem; font-weight: 700; }
+h5 { font-size: 1.125rem; font-weight: 600; }
+h6 { font-size: 1rem; font-weight: 600; }
+
+a {
+  color: $jardin-500;
+  text-decoration: underline;
+
+  &:hover {
+    color: $jardin-400;
+  }
+}
+
+.wp-block-quote {
+  font-family: $font-family-headings;
+  font-style: italic;
+  line-height: 1.6;
+  border-left: 4px solid $jardin-500;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  background: $arena-100;
+  color: $tierra-300;
+
+  cite {
+    display: block;
+    margin-top: 0.75em;
+    font-size: 0.875rem;
+    color: $tierra-100;
+    font-style: normal;
+  }
+}
+
+.wp-block-pullquote {
+  border-top: 3px solid $jardin-500;
+  border-bottom: 3px solid $jardin-500;
+  padding: 1.5em 2em;
+  text-align: center;
+  margin: 2em 0;
+
+  blockquote p {
+    font-family: $font-family-headings;
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: $jardin-500;
+  }
+
+  cite {
+    font-size: 0.875rem;
+    color: $tierra-100;
+  }
+}
+
+.wp-block-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+
+  thead {
+    background: $jardin-500;
+    color: #fff;
+  }
+
+  th, td {
+    border: 1px solid $arena-300;
+    padding: 0.625em 1em;
+    text-align: left;
+  }
+
+  tbody tr:nth-child(even) {
+    background: $arena-100;
+  }
+}
+
+.wp-block-code {
+  background: $tierra-500;
+  color: $jardin-200;
+  padding: 1em 1.25em;
+  border-radius: 6px;
+  font-family: $font-family-mono;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.wp-block-preformatted {
+  font-family: $font-family-mono;
+  font-size: 0.9em;
+  background: $arena-200;
+  padding: 1em;
+  border: 1px solid $arena-300;
+  border-radius: 4px;
+}
+
+.wp-block-separator {
+  border: none;
+  border-top: 2px solid $arena-300;
+  margin: 2em 0;
+}
+
+.wp-block-button .wp-block-button__link {
+  border-radius: 6px;
+  font-weight: 600;
+  font-family: $font-family-base;
+}
+
+.wp-block-buttons .wp-block-button.is-style-outline .wp-block-button__link {
+  border-color: $jardin-500;
+  color: $jardin-500;
+}

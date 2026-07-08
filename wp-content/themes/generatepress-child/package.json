@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev:sass": "sass --watch src/style.scss:style-compiled.css",
-    "build:sass": "sass --no-source-map src/style.scss:style-compiled.css",
-    "build:postcss": "postcss style-compiled.css -o style-compiled.css",
+    "dev:sass": "sass --watch src/style.scss:style-compiled.css src/editor-style.scss:editor-style.css",
+    "build:sass": "sass --no-source-map src/style.scss:style-compiled.css src/editor-style.scss:editor-style.css",
+    "build:postcss": "postcss style-compiled.css -o style-compiled.css && postcss editor-style.css -o editor-style.css",
     "build": "npm run build:sass && npm run build:postcss",
     "dev": "npm run dev:sass"
   },

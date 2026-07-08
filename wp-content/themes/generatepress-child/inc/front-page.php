@@ -98,7 +98,7 @@ function bc_front_page_featured_post() {
     <a href="<?php the_permalink(); ?>" class="bc-fp-featured-link">
       <?php if ($has_thumb) : ?>
         <div class="bc-fp-featured-image-wrap">
-          <img class="bc-fp-featured-image" src="<?php the_post_thumbnail_url('bc-hero'); ?>" alt="<?php the_title_attribute(); ?>" title="<?php the_title_attribute(); ?>" loading="eager">
+		  <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc-hero', false, array( 'class' => 'bc-fp-featured-image', 'alt' => the_title_attribute( array( 'echo' => false ) ), 'title' => the_title_attribute( array( 'echo' => false ) ), 'loading' => 'eager' ) ); ?>
           <div class="bc-fp-featured-overlay"></div>
         </div>
       <?php endif; ?>
@@ -163,7 +163,7 @@ function bc_front_page_big_grid_1_card($size) {
     <a href="<?php the_permalink(); ?>">
       <?php if ($has_thumb) : ?>
         <div class="bc-fp-bg1-img-wrap">
-          <img src="<?php the_post_thumbnail_url($size === 'large' ? 'bc-hero' : 'medium'); ?>" alt="<?php the_title_attribute(); ?>" title="<?php the_title_attribute(); ?>" loading="lazy">
+          <?php echo wp_get_attachment_image( get_post_thumbnail_id(), $size === 'large' ? 'bc-hero' : 'medium', false, array( 'alt' => the_title_attribute( array( 'echo' => false ) ), 'title' => the_title_attribute( array( 'echo' => false ) ), 'loading' => 'lazy' ) ); ?>
           <div class="bc-fp-bg1-overlay"></div>
         </div>
       <?php endif; ?>
@@ -206,7 +206,7 @@ function bc_front_page_big_grid_2() {
           <a href="<?php the_permalink(); ?>">
             <?php if (has_post_thumbnail()) : ?>
               <div class="bc-fp-bg2-img-wrap">
-                <img src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php the_title_attribute(); ?>" title="<?php the_title_attribute(); ?>" loading="lazy">
+                <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'medium', false, array( 'alt' => the_title_attribute( array( 'echo' => false ) ), 'title' => the_title_attribute( array( 'echo' => false ) ), 'loading' => 'lazy' ) ); ?>
                 <div class="bc-fp-bg2-overlay"></div>
               </div>
             <?php endif; ?>
@@ -279,7 +279,7 @@ function bc_front_page_tabs() {
             <div class="bc-fp-tab-featured">
               <a href="<?php the_permalink(); ?>">
                 <?php if ($has_thumb) : ?>
-                  <img src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php the_title_attribute(); ?>" title="<?php the_title_attribute(); ?>" loading="lazy">
+                  <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'medium', false, array( 'alt' => the_title_attribute( array( 'echo' => false ) ), 'title' => the_title_attribute( array( 'echo' => false ) ), 'loading' => 'lazy' ) ); ?>
                 <?php endif; ?>
                 <h3 class="bc-fp-tab-feat-title"><?php the_title(); ?></h3>
               </a>
@@ -342,7 +342,7 @@ function bc_front_page_latest_grid() {
           <a href="<?php the_permalink(); ?>" class="bc-fp-card-link">
             <?php if (has_post_thumbnail()) : ?>
               <div class="bc-fp-card-image-wrap">
-                <img class="bc-fp-card-image" src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php the_title_attribute(); ?>" title="<?php the_title_attribute(); ?>" loading="lazy">
+                <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'medium', false, array( 'class' => 'bc-fp-card-image', 'alt' => the_title_attribute( array( 'echo' => false ) ), 'title' => the_title_attribute( array( 'echo' => false ) ), 'loading' => 'lazy' ) ); ?>
               </div>
             <?php endif; ?>
             <div class="bc-fp-card-body">
@@ -403,7 +403,7 @@ function bc_front_page_categories_posts() {
           if (!$has_featured && has_post_thumbnail()) : $has_featured = true; ?>
             <article class="bc-fp-cat-featured">
               <a href="<?php the_permalink(); ?>">
-                <?php the_post_thumbnail('medium', ['class' => 'bc-fp-cat-featured-image', 'loading' => 'lazy', 'title' => get_the_title()]); ?>
+                <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'medium', false, array( 'class' => 'bc-fp-cat-featured-image', 'loading' => 'lazy', 'title' => get_the_title() ) ); ?>
                 <h3 class="bc-fp-cat-featured-title"><?php the_title(); ?></h3>
               </a>
             </article>

@@ -1,29 +1,146 @@
-// Colores
-$color-primary: #1e73be;
-$color-primary-hover: #0e5a9e;
-$color-text: #3a3a3a;
-$color-heading: #1e1e1e;
-$color-bg: #ffffff;
-$color-bg-alt: #fafafa;
-$color-border: #e8e8e8;
+// ============================================
+// DESIGN TOKENS — Paleta Arena, Tierra, Jardín
+// ============================================
+
+// Familia Arena (sand — fondos y base neutra)
+$arena-50:   #fdfcfa;
+$arena-100:  #faf8f5;
+$arena-200:  #f5f2ec;
+$arena-300:  #ede7db;
+$arena-400:  #d6cec1;
+
+// Familia Tierra (earth — texto, estructura, contraste)
+$tierra-100: #9a8a7b;
+$tierra-200: #5c4736;
+$tierra-300: #4a3728;
+$tierra-400: #2c1f14;
+$tierra-500: #1a110a;
+
+// Familia Jardín (garden — acentos, headings, CTAs)
+$jardin-100: #e8f0e6;
+$jardin-200: #b8d4b3;
+$jardin-300: #7eb376;
+$jardin-400: #3d7a37;
+$jardin-500: #2d5a27;
+$jardin-600: #1e3d1a;
+
+// Colores de Contraste (acentos funcionales)
+$rojo-jardin: #c0392b;
+$azul-cielo:  #1e73be;
+$naranja:     #e65100;
+
+// Gamas completas de contraste
+$rojo-100: #fce4e4;
+$rojo-200: #f5b7b1;
+$rojo-400: #c0392b;
+$rojo-500: #a93226;
+
+$azul-100: #e8f0fe;
+$azul-200: #bbd4f5;
+$azul-400: #1e73be;
+$azul-500: #1558a0;
+
+$naranja-100: #fef0e0;
+$naranja-200: #fddcb5;
+$naranja-400: #e65100;
+$naranja-500: #bf4400;
+
+// Mapeo a variables existentes (backward compat)
+$color-primary:       $jardin-500;
+$color-primary-hover: $jardin-400;
+$color-text:          $tierra-300;
+$color-heading:       $jardin-500;
+$color-bg:            $arena-100;
+$color-bg-alt:        $arena-200;
+$color-border:        $arena-300;
+
+// Bootstrap theme colors
+$primary:       $jardin-500;
+$secondary:     $tierra-300;
+$success:       $jardin-400;
+$info:          $azul-cielo;
+$warning:       $naranja;
+$danger:        $rojo-jardin;
+$light:         $arena-100;
+$dark:          $tierra-500;
+
+$body-bg:         $arena-100;
+$body-color:      $tierra-300;
+$headings-color:  $jardin-500;
+$border-color:    $arena-300;
+
+$link-color:       $jardin-500;
+$link-hover-color: $jardin-400;
+
+// Escala tipográfica responsive
+$h1-mobile:  1.625rem;
+$h1-desktop: 2.25rem;
+$h2-mobile:  1.375rem;
+$h2-desktop: 1.75rem;
+$h3-mobile:  1.25rem;
+$h3-desktop: 1.5rem;
+$h4-mobile:  1.125rem;
+$h4-desktop: 1.25rem;
+$h5-mobile:  1rem;
+$h5-desktop: 1.125rem;
+$h6-mobile:  0.875rem;
+$h6-desktop: 1rem;
+
+// Line heights
+$line-height-body:        1.7;
+$line-height-heading-lg:  1.2;
+$line-height-heading-md:  1.3;
+$line-height-heading-sm:  1.4;
+$line-height-small:       1.5;
+$line-height-blockquote:  1.6;
+$line-height-button:      1.2;
+$line-height-nav:         1.4;
+
+// Espaciado
+$space-xs:  4px;
+$space-sm:  8px;
+$space-md:  16px;
+$space-lg:  24px;
+$space-xl:  32px;
+$space-2xl: 48px;
+
+// Radios
+$radius-sm: 4px;
+$radius-md: 6px;
+$radius-lg: 8px;
+
+// Sombras
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+$shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+// Breakpoints
+$breakpoint-sm:  576px;
+$breakpoint-md:  768px;
+$breakpoint-lg:  992px;
+$breakpoint-xl:  1200px;
+$breakpoint-xxl: 1400px;
+
+// Keep old aliases for backward compat
+$breakpoint-tablet:  $breakpoint-md;
+$breakpoint-desktop: $breakpoint-xl;
 
 // Layout
-$container-padding-mobile: 20px;
-$container-padding-tablet: 30px;
+$container-padding-mobile:  20px;
+$container-padding-tablet:  30px;
 $container-padding-desktop: 40px;
-$breakpoint-tablet: 768px;
-$breakpoint-desktop: 1200px;
-
-// Heading greens (escala generada desde base forest)
-$heading-green-base: #2d5a27;
-$heading-green-h2:    $heading-green-base;
-$heading-green-h3:    lighten($heading-green-base, 12%);
-$heading-green-h4:    lighten($heading-green-base, 25%);
-$heading-green-h5:    lighten($heading-green-base, 38%);
-$heading-green-h6:    lighten($heading-green-base, 50%);
 
 // Tipografía
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$font-family-base:    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 $font-family-headings: 'Merriweather', Georgia, 'Times New Roman', serif;
-$font-size-base: 16px;
-$line-height-base: 1.7;
+$font-family-mono:    'Cascadia Code', 'SF Mono', 'Fira Code', 'Consolas', 'Liberation Mono', monospace;
+$font-size-base:      16px;
+$line-height-base:    1.7;
+
+// Heading greens (keep for backward compat)
+$heading-green-base: $jardin-500;
+$heading-green-h2:   $heading-green-base;
+$heading-green-h3:   lighten($heading-green-base, 12%);
+$heading-green-h4:   lighten($heading-green-base, 25%);
+$heading-green-h5:   lighten($heading-green-base, 38%);
+$heading-green-h6:   lighten($heading-green-base, 50%);

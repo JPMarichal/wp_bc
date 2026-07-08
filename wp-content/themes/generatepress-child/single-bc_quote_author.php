@@ -16,7 +16,7 @@
 					<div class="bc-persona-layout">
 						<?php if ( has_post_thumbnail() ) : ?>
 							<div class="bc-persona-photo">
-								<?php the_post_thumbnail( 'bc_quote_photo', array(
+								<?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc_quote_photo', false, array(
 									'class' => 'bc-persona-img',
 									'alt'   => get_the_title(),
 								) ); ?>

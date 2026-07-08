@@ -33,6 +33,13 @@ function bc_preconnect_origins() {
 }
 add_action( 'wp_head', 'bc_preconnect_origins', -1 );
 
+add_action( 'wp_head', function () {
+  echo '<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">' . "\n";
+  echo '<link rel="dns-prefetch" href="//cdn.jsdelivr.net">' . "\n";
+  echo '<link rel="dns-prefetch" href="//fonts.googleapis.com">' . "\n";
+  echo '<link rel="dns-prefetch" href="//fonts.gstatic.com">' . "\n";
+}, -2 );
+
 function bc_lazy_load_iframes( $content ) {
   return str_replace( '<iframe ', '<iframe loading="lazy" ', $content );
 }

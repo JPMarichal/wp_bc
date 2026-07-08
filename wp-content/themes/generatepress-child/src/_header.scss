@@ -1,0 +1,231 @@
+// Brand bar
+.bc-header {
+  background: $arena-100;
+  border-bottom: 1px solid $arena-300;
+}
+
+.bc-header-brand {
+  padding: 12px 0;
+}
+
+.bc-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-md;
+}
+
+.bc-logo {
+  font-family: $font-family-headings;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: $jardin-500;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover { color: $jardin-400; }
+}
+
+.bc-header-tools {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+}
+
+// Search
+.bc-header-search {
+  position: relative;
+}
+
+.bc-search-toggle {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: $tierra-300;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: $radius-sm;
+  transition: color 0.15s;
+
+  &:hover { color: $jardin-500; }
+}
+
+.bc-search-form-wrapper {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 280px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid $arena-300;
+  border-radius: $radius-md;
+  box-shadow: $shadow-md;
+  z-index: 100;
+
+  &.is-open { display: block; }
+}
+
+// User dropdown
+.bc-user-dropdown {
+  position: relative;
+}
+
+.bc-user-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: $radius-sm;
+  transition: background 0.15s;
+
+  &:hover { background: $arena-200; }
+}
+
+.bc-user-avatar {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.bc-user-submenu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid $arena-300;
+  border-radius: $radius-md;
+  box-shadow: $shadow-md;
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  min-width: 160px;
+  z-index: 100;
+
+  li { margin: 0; }
+
+  a {
+    display: block;
+    padding: 8px 16px;
+    font-size: 0.88rem;
+    color: $tierra-300;
+    text-decoration: none;
+    transition: background 0.15s;
+
+    &:hover {
+      background: $arena-200;
+      color: $jardin-500;
+    }
+  }
+}
+
+// Nav bar
+.bc-header-nav {
+  background: $jardin-500;
+  border-top: 1px solid $jardin-600;
+
+  .grid-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.bc-nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+
+  li { margin: 0; position: relative; }
+
+  a {
+    display: block;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+  }
+
+  // Submenús
+  .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: $tierra-500;
+    border-radius: 0 0 $radius-sm $radius-sm;
+    box-shadow: $shadow-md;
+    list-style: none;
+    margin: 0;
+    padding: 4px 0;
+    min-width: 200px;
+    z-index: 200;
+
+    a {
+      padding: 10px 18px;
+      white-space: nowrap;
+    }
+  }
+
+  li:hover > .sub-menu,
+  li.focus > .sub-menu { display: block; }
+
+  .current-menu-item > a,
+  .current_page_item > a {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+  }
+}
+
+// Mobile
+@media (max-width: 767.98px) {
+  .bc-nav-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 12px 0;
+
+    span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 1px;
+      transition: transform 0.2s;
+    }
+  }
+
+  .bc-nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+
+    &.is-open { display: flex; }
+
+    .sub-menu {
+      position: static;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0.15);
+      border-radius: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .bc-nav-toggle { display: none; }
+}

@@ -1,17 +1,11 @@
-@mixin respond-tablet {
-  @media (min-width: $breakpoint-tablet) {
-    @content;
-  }
-}
+@mixin respond-sm   { @media (min-width: $breakpoint-sm)  { @content; } }
+@mixin respond-md   { @media (min-width: $breakpoint-md)  { @content; } }
+@mixin respond-lg   { @media (min-width: $breakpoint-lg)  { @content; } }
+@mixin respond-xl   { @media (min-width: $breakpoint-xl)  { @content; } }
+@mixin respond-xxl  { @media (min-width: $breakpoint-xxl) { @content; } }
 
-@mixin respond-desktop {
-  @media (min-width: $breakpoint-desktop) {
-    @content;
-  }
-}
+@mixin respond-max($px) { @media (max-width: $px) { @content; } }
 
-@mixin respond-max($px) {
-  @media (max-width: $px) {
-    @content;
-  }
-}
+// Keep old aliases for backward compat
+@mixin respond-tablet { @include respond-md { @content; } }
+@mixin respond-desktop { @include respond-xl { @content; } }

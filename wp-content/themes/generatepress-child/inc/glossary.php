@@ -16,32 +16,60 @@ add_action( 'after_setup_theme', function () {
 	$menu_name = 'Menú Principal';
 	$menu      = wp_get_nav_menu_object( $menu_name );
 
-	if ( $menu ) {
+	if ( ! $menu ) {
+		$menu_id = wp_create_nav_menu( $menu_name );
+
+		wp_update_nav_menu_item( $menu_id, 0, array(
+			'menu-item-title'  => 'Inicio',
+			'menu-item-url'    => home_url( '/' ),
+			'menu-item-status' => 'publish',
+		) );
+
+		$glosarios_id = wp_update_nav_menu_item( $menu_id, 0, array(
+			'menu-item-title'  => 'Glosarios',
+			'menu-item-url'    => '#',
+			'menu-item-status' => 'publish',
+		) );
+
+		wp_update_nav_menu_item( $menu_id, 0, array(
+			'menu-item-title'    => 'Personas',
+			'menu-item-url'      => get_post_type_archive_link( 'bc_quote_author' ),
+			'menu-item-status'   => 'publish',
+			'menu-item-parent-id' => $glosarios_id,
+		) );
+
+		wp_update_nav_menu_item( $menu_id, 0, array(
+			'menu-item-title'    => 'Temas',
+			'menu-item-url'      => home_url( '/glosario/temas/' ),
+			'menu-item-status'   => 'publish',
+			'menu-item-parent-id' => $glosarios_id,
+		) );
+
+		$locations = get_theme_mod( 'nav_menu_locations', array() );
+		$locations['primary'] = $menu_id;
+		set_theme_mod( 'nav_menu_locations', $locations );
 		return;
 	}
 
-	$menu_id = wp_create_nav_menu( $menu_name );
+	$menu_items = wp_get_nav_menu_items( $menu->term_id );
+	$glosarios_parent_id = 0;
+	$temas_exists = false;
 
-	wp_update_nav_menu_item( $menu_id, 0, array(
-		'menu-item-title'  => 'Inicio',
-		'menu-item-url'    => home_url( '/' ),
-		'menu-item-status' => 'publish',
-	) );
+	foreach ( $menu_items as $item ) {
+		if ( $item->title === 'Glosarios' && (int) $item->menu_item_parent === 0 ) {
+			$glosarios_parent_id = $item->ID;
+		}
+		if ( $item->title === 'Temas' && (int) $item->menu_item_parent === $glosarios_parent_id ) {
+			$temas_exists = true;
+		}
+	}
 
-	$glosarios_id = wp_update_nav_menu_item( $menu_id, 0, array(
-		'menu-item-title'  => 'Glosarios',
-		'menu-item-url'    => '#',
-		'menu-item-status' => 'publish',
-	) );
-
-	wp_update_nav_menu_item( $menu_id, 0, array(
-		'menu-item-title'    => 'Personas',
-		'menu-item-url'      => get_post_type_archive_link( 'bc_quote_author' ),
-		'menu-item-status'   => 'publish',
-		'menu-item-parent-id' => $glosarios_id,
-	) );
-
-	$locations = get_theme_mod( 'nav_menu_locations', array() );
-	$locations['primary'] = $menu_id;
-	set_theme_mod( 'nav_menu_locations', $locations );
+	if ( $glosarios_parent_id > 0 && ! $temas_exists ) {
+		wp_update_nav_menu_item( $menu->term_id, 0, array(
+			'menu-item-title'    => 'Temas',
+			'menu-item-url'      => home_url( '/glosario/temas/' ),
+			'menu-item-status'   => 'publish',
+			'menu-item-parent-id' => $glosarios_parent_id,
+		) );
+	}
 } );

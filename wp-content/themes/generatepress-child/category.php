@@ -15,7 +15,7 @@
               <a href="<?php the_permalink(); ?>" class="bc-cat-card-link">
                 <?php if (has_post_thumbnail()) : ?>
                   <div class="bc-cat-card-img-wrap">
-                    <img class="bc-cat-card-img" src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php the_title_attribute(); ?>" title="<?php the_title_attribute(); ?>" loading="lazy">
+                    <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'medium', false, array( 'class' => 'bc-cat-card-img', 'alt' => the_title_attribute( array( 'echo' => false ) ), 'title' => the_title_attribute( array( 'echo' => false ) ), 'loading' => 'lazy' ) ); ?>
                   </div>
                 <?php endif; ?>
                 <div class="bc-cat-card-body">

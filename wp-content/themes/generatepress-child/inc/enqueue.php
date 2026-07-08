@@ -72,6 +72,13 @@ add_filter('style_loader_tag', function ($html, $handle) {
   return $html;
 }, 11, 2);
 
+add_filter('script_loader_tag', function ($tag, $handle) {
+  if ('bootstrap-bundle' === $handle) {
+    $tag = str_replace(' src=', ' defer src=', $tag);
+  }
+  return $tag;
+}, 10, 2);
+
 function bc_inline_critical_css_bg() {
   if ( ! is_front_page() ) {
     return '';
@@ -92,7 +99,7 @@ function bc_inline_critical_css_bg() {
 function bc_inline_critical_css() {
   $css = '';
 
-  if ( is_singular() || is_category() || is_tag() ) {
+  if ( is_singular() || is_category() || is_tag() || is_tax() || is_post_type_archive() || is_search() || is_404() || is_home() ) {
     $css .= '
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif}
 .grid-container{max-width:100%;padding-left:20px;padding-right:20px}
@@ -130,3 +137,14 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
   <?php
 }
 add_action('wp_head', 'bc_inline_critical_css', 0);
+
+function bc_enqueue_header_js() {
+  wp_enqueue_script(
+    'bc-header',
+    get_stylesheet_directory_uri() . '/assets/header.js',
+    [],
+    '1.0',
+    true
+  );
+}
+add_action('wp_enqueue_scripts', 'bc_enqueue_header_js');

@@ -14,20 +14,90 @@
   }
 }
 
-.bc-footer-content {
-  text-align: center;
-  padding: 20px 0;
+// Layout presets — controlan el ancho del content-area
+.bc-layout--narrow {
+  .site-content > .content-area {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-  .copyright {
-    font-size: 0.9em;
-    color: #555;
+  .site-content > .sidebar { display: none; }
+}
+
+.bc-layout--wide {
+  .site-content > .content-area {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .site-content > .sidebar { display: none; }
+}
+
+.bc-layout--full {
+  .site-content {
+    display: block;
+
+    > .content-area {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    > .sidebar { display: none; }
   }
 }
 
-.bc-footer-disclaimer {
-  font-size: 0.78em;
-  color: #888;
-  line-height: 1.5;
-  margin: 8px auto 0;
-  max-width: 720px;
+// Flex layout con sidebar
+.bc-layout--sidebar-right,
+.bc-layout--sidebar-left {
+  .site-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-lg;
+
+    > .content-area {
+      flex: 1 1 0;
+      min-width: 0;
+      width: 70%;
+    }
+
+    > .sidebar {
+      width: calc(30% - #{$space-lg});
+      flex-shrink: 0;
+    }
+  }
+}
+
+.bc-layout--sidebar-left {
+  .site-content { flex-direction: row-reverse; }
+}
+
+// Sin sidebar
+.bc-layout--no-sidebar {
+  .site-content {
+    display: block;
+
+    > .content-area {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    > .sidebar { display: none; }
+  }
+}
+
+// Responsive: sidebar colapsa debajo del contenido en mobile
+@media (max-width: 767.98px) {
+  .bc-layout--sidebar-right,
+  .bc-layout--sidebar-left {
+    .site-content {
+      flex-direction: column;
+
+      > .content-area,
+      > .sidebar {
+        width: 100%;
+      }
+    }
+  }
 }

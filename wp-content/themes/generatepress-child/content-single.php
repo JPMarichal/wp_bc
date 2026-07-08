@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		if ( has_post_thumbnail() && is_singular() ) :
 			bc_render_share_bar( 'top' );
 			?><div class="page-hero">
-				<?php the_post_thumbnail( 'bc-hero', array( 'class' => 'page-hero-image', 'fetchpriority' => 'high' ) ); ?>
+				<?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc-hero', false, array( 'class' => 'page-hero-image', 'fetchpriority' => 'high' ) ); ?>
 				<div class="page-hero-content">
 					<header class="page-hero-header">
 						<?php
