@@ -77,3 +77,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 		?>
 	</div>
 </article>
+
+<?php if ( comments_open() || get_comments_number() ) : ?>
+	<div class="bc-single-comments">
+		<?php comments_template(); ?>
+	</div>
+<?php endif; ?>
