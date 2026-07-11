@@ -233,11 +233,17 @@ El contenido se estructura en **párrafos narrativos** con títulos HTML
 (`<h2>`) para las secciones. No usar listas ni tablas en el cuerpo
 (excepto en "Referencias escriturales" si es necesario).
 
-### Encabezado descriptivo (sin subtítulo)
+### Encabezado descriptivo (sin subtítulo) — obligatorio
 
 1–3 párrafos que describen la ubicación: qué es, dónde está (contexto
 geográfico general), por qué es significativa. No repetir coordenadas
 ni el tipo (eso va en el sidebar).
+
+**Esta sección es obligatoria.** El template inserta automáticamente un
+mapa interactivo (MapLibre GL con relieve 3D satelital) entre el final
+del encabezado descriptivo y el primer `<h2>`, siempre que la ubicación
+tenga coordenadas (`_bc_loc_lat`, `_bc_loc_lng`). Sin párrafos
+introductorios antes del primer `<h2>`, el mapa quedaría sin contexto.
 
 Incluir **significado etimológico del nombre** de forma breve en la
 primera mención, con la fórmula «cuyo nombre significa» o «su nombre
@@ -318,6 +324,47 @@ fuentes propias, merece entrada independiente. Si es solo un nombre
 alternativo sin historia separada, queda como alias simple en
 `_bc_loc_alt_names`.
 
+**Importación masiva desde gnosis-places.json**: el dataset `gnosis-places.json`
+contiene 1023 entradas con aliases en inglés (variant names de KJV/ESV). Se
+importaron automáticamente a 445 posts de `bc_location`, emparejando por
+`_bc_loc_name_en`, `post_name`, y el ID del gnosis. Los alias demostrativos
+(gentilicios como "Ammonite", "Gileadite") se excluyeron. El import mergea con
+alias existentes sin duplicar:
+
+```bash
+docker exec wp_bc_cli wp eval --allow-root '
+  $gnosis = json_decode(file_get_contents("/var/www/html/wp-content/plugins/bc-scripture-map/data/gnosis-places.json"), true);
+  // ... Matching logic in /tmp/import-gnosis-aliases.php
+'
+```
+
+El meta `_bc_loc_alt_names` debe almacenarse como **string JSON** (no como
+serialized PHP array). `register_post_meta()` con `type => string` + `show_in_rest`
+requiere JSON. Si se usa `wp post meta set`, pasar el JSON como argumento:
+`wp post meta set <ID> _bc_loc_alt_names '["Alias1","Alias2"]'`.
+
+El template en `single-bc_location.php:254-255` maneja ambos formatos:
+```php
+$alt_names_raw = get_post_meta( $pid, '_bc_loc_alt_names', true );
+$alt_names = is_array( $alt_names_raw ) ? $alt_names_raw
+  : ( $alt_names_raw ? json_decode( $alt_names_raw, true ) : array() );
+```
+
+**Alias manuales configurados** (ubicaciones cuyos `_bc_loc_name_en` están en
+español y no matchearon con gnosis):
+
+| Ubicación | ID | Alias configurados |
+|-----------|----|--------------------|
+| Jerusalén | 537 | "Ciudad de David", "Jebús", "Salem", "Sión", "Zion" |
+| Hebrón | 237 | "Quiriat-arba", "Hebron" |
+| Betel | 81 | "Luz", "Casa de Dios", "Beth-el", "Bethel" |
+| Belén de Judea | 73 | "Efrata", "Belén Efrata", "Bethlehem" |
+| Jericó | 274 | "Ciudad de las Palmas", "Jericho" |
+| Nazaret | 360 | "Nazareno", "Nazareth" |
+| Siquem | 434 | "Sichem", "Siquén", "Siquemites" |
+| Capernaúm | 118 | "Cafarnaúm", "Capernaum" |
+| Cesarea de Filipos | 114 | "Panías", "Paneas", "Cesarea de Filipo" |
+
 ### Otras acepciones (homónimos)
 
 Si el nombre de la ubicación designa lugares diferentes en las Escrituras
@@ -384,8 +431,12 @@ recurrir a fuentes externas.
 - **`_bc_loc_alias_of`**: integer con el ID de la ubicación principal. La entry muestra bloque "Nombre alternativo de [link]" entre nav y hero. NO se usa si la entry es independiente (ej: Sión)
 - **Homónimos automáticos**: el single template detecta entradas con igual `post_title` y renderiza bloque "Otras acepciones" con enlaces
 - **Alias con entry propia**: crear entry con `_bc_loc_alias_of`, y agregar el nombre al `_bc_loc_alt_names` de la principal
+  - Ejemplos existentes: Jebús (ID 2698, alias_of=537), Salem (ID 2699, alias_of=537), ambas con contenido narrativo completo y coordenadas
+  - Sión (ID 2700) es **independiente** (sin `_bc_loc_alias_of`) por su complejidad doctrinal SUD, sin coordenadas
 - **Alias simples**: solo en `_bc_loc_alt_names`, sin entry aparte
+- **Import masivo**: 445 posts recibieron alias del dataset gnosis-places.json (variantes inglesas)
 - **Mapa EN→ES**: definido en `single-bc_location.php:236-257` como `$en_to_es`
+- **Mapa interactivo (MapLibre GL)**: se inserta automáticamente entre el encabezado descriptivo y el primer `<h2>` si la ubicación tiene `_bc_loc_lat` y `_bc_loc_lng`. Renderizado por `bc_scripture_map_render_single($post_id)` en `bc-scripture-map.php`. Plugin enqueue los assets (Maplibre GL CSS + frontend.js) en `is_singular('bc_location')`. Altura: 400px, tiles satelitales, relieve 3D
 - **Tipos**: city → Ciudad, region → Región, wilderness → Desierto, sea → Mar/Lago, river → Río, mountain → Montaña, settlement → Asentamiento, landmark → Lugar emblemático
 - **Contenido se despliega** dentro de un `<div class="bc-location-content">` con fondo blanco y borde
 - **Sidebar**: sticky en desktop, contiene tipo, confianza (coloreada: green/orange/red), fuente, fechas, coordenadas con link a Google Maps, y referencia de ejemplo
