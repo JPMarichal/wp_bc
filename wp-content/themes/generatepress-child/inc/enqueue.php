@@ -51,6 +51,13 @@ function bc_enqueue_global_assets() {
     '5.3.3'
   );
 
+}
+add_action('wp_enqueue_scripts', 'bc_enqueue_global_assets');
+
+function bc_enqueue_bootstrap_js() {
+  if ( ! is_singular() ) {
+    return;
+  }
   wp_enqueue_script(
     'bootstrap-bundle',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js',
@@ -59,10 +66,10 @@ function bc_enqueue_global_assets() {
     true
   );
 }
-add_action('wp_enqueue_scripts', 'bc_enqueue_global_assets');
+add_action('wp_enqueue_scripts', 'bc_enqueue_bootstrap_js');
 
 add_filter('style_loader_tag', function ($html, $handle) {
-  if (in_array($handle, ['fontawesome', 'bootstrap'], true)) {
+  if (in_array($handle, ['fontawesome', 'bootstrap', 'generate-style', 'generate-child', 'bc-fonts', 'bcco-widget', 'generate-comments'], true)) {
     $html = str_replace(
       "media='all'",
       "media='print' onload=\"this.media='all'\"",
@@ -73,7 +80,7 @@ add_filter('style_loader_tag', function ($html, $handle) {
 }, 11, 2);
 
 add_filter('script_loader_tag', function ($tag, $handle) {
-  if ('bootstrap-bundle' === $handle) {
+  if (in_array($handle, ['bootstrap-bundle', 'bc-header', 'generate-menu'], true)) {
     $tag = str_replace(' src=', ' defer src=', $tag);
   }
   return $tag;

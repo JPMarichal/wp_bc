@@ -1,4 +1,17 @@
-<?php get_header(); ?>
+<?php
+
+// Inline styles
+add_action('wp_head', function () { ?>
+  <style>
+  .bc-glossary-count-label {
+    font-size: .85rem;
+    color: #888;
+    margin: 0 0 .75rem;
+  }
+  </style>
+<?php }, 20);
+
+get_header(); ?>
 
 <main id="main" class="bc-glossary-archive">
 	<div class="grid-container">
@@ -34,7 +47,11 @@
 				'orderby'    => 'name',
 				'order'      => 'ASC',
 			) );
+
+			$total = array_sum( array_map( 'count', $entries ) );
 			?>
+
+			<p class="bc-glossary-count-label"><?php echo (int) $total; ?> personas</p>
 
 			<div class="bc-glossary-filters">
 				<input type="text" id="bc-filter-search" class="bc-filter-input" placeholder="🔍 Buscar persona…" autocomplete="off">

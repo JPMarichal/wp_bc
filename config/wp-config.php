@@ -22,14 +22,13 @@ define('WP_SITEURL', getenv('WP_SITEURL') ?: 'http://localhost:8080');
 
 define('WP_DEBUG',         true);
 define('WP_DEBUG_LOG',     true);
-define('WP_DEBUG_DISPLAY', false);
+define('WP_DEBUG_DISPLAY', true);
 define('WP_POST_REVISIONS', 3);
 define('FORCE_SSL_ADMIN',   false);
 define('FS_METHOD',         'direct');
 define('WP_AUTO_UPDATE_CORE', false);
 define('DISALLOW_FILE_EDIT', false);
 define('WP_CACHE', true);
-
 define('BUNNY_CDN_API_KEY','27bbb661-1e02-4483-b942-d3b40d30410bb19f139c-c78f-4016-9788-fcd8352e7672');
 define('BUNNY_ZONE_PASSWORD','0fbb00db-5a99-4c86-a41665993e2e-7c8f-438d');
 

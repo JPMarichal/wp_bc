@@ -248,6 +248,11 @@ add_action('wp_head', function () { ?>
     color: #888;
     font-size: .82em;
   }
+  .bc-glossary-count-label {
+    font-size: .85rem;
+    color: #888;
+    margin: 0 0 .75rem;
+  }
 
   @media (max-width: 575.98px) {
     .bc-glossary-nav { gap: 3px; }
@@ -290,7 +295,10 @@ get_header(); ?>
 
       $keys = array_keys($entries);
       $first_letter = !empty($keys) ? $keys[0] : 'A';
+      $total = count($all_tags);
       ?>
+
+      <p class="bc-glossary-count-label"><?php echo (int) $total; ?> temas</p>
 
       <div class="bc-glossary-filters">
         <input type="text" id="bc-filter-search" class="bc-filter-input" placeholder="🔍 Buscar tema…" autocomplete="off">

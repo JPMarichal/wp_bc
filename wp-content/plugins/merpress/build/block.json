@@ -75,14 +75,7 @@
     "wp-edit-blocks",
     "file:./index.css"
   ],
-  "script": [
-    "mermaid",
-    "file:./mermaid.js"
-  ],
   "style": [
     "file:./style-index.css"
-  ],
-  "viewScript": [
-    "file:./mermaid-init.js"
   ]
 }

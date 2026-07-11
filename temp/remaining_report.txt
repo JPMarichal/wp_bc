@@ -1,0 +1,609 @@
+Found and updated: 279
+Not found (no ES match): 204
+Not found (no EN passage): 398
+
+=== NAMES WITH ENGLISH PASSAGE BUT NO SPANISH MATCH (manual review needed) ===
+  Abdon                               ref=Judges 12:11-15                          cands=['Abdon']
+  Abel-shittim                        ref=Numbers 33:44-52                         cands=['Abel-shittim', 'Abel-sittim']
+  Abilene                             ref=Luke 3:1-6                               cands=['Abilené', 'Abilene']
+  Accad                               ref=Genesis 10:10-20                         cands=['Accad']
+  Achshaph                            ref=Joshua 11:1-5                            cands=['Achshaph', 'Achshap', 'Achsaph', 'Achshaf']
+  Achzib                              ref=Joshua 19:28-34                          cands=['Achzib']
+  Adam                                ref=D&C 107:44-49                            cands=['Adam']
+  Adullam                             ref=Nehemiah 11:26-36                        cands=['Adullam']
+  Adummim                             ref=Joshua 18:16-20                          cands=['Adummim']
+  Aijalon                             ref=1 Samuel 14:27-31                        cands=['Aijalon']
+  Ain                                 ref=1 Chronicles 4:24-34                     cands=['Ain']
+  Akrabbim                            ref=Numbers 34:1-16                          cands=['Akrabbim']
+  Almon                               ref=Numbers 33:44-52                         cands=['Almon']
+  Almon-diblathaim                    ref=Numbers 33:44-52                         cands=['Almon-diblathaim', 'Almon-diblataim']
+  Alush                               ref=Numbers 33:8-17                          cands=['Alush', 'Alus']
+  Amalek                              ref=Exodus 17:6-11                           cands=['Amalek']
+  Aphek                               ref=1 Samuel 29:1-4                          cands=['Aphek', 'Afek']
+  Aphekah                             ref=Joshua 15:43-59                          cands=['Aphekah', 'Afekah', 'Apheka', 'Apheká']
+  Areopagus                           ref=Acts 17:14-19                            cands=['Areopagus']
+  Arnon                               ref=Judges 11:18-22                          cands=['Arnon']
+  Arpad                               ref=2 Nephi 20:7-13                          cands=['Arpad']
+  Ashtaroth                           ref=1 Samuel 7:1-5                           cands=['Ashtaroth', 'Ashtarot', 'Astaroth']
+  Asshur                              ref=Numbers 24:20-25                         cands=['Asshur', 'Assur']
+  Athach                              ref=1 Samuel 30:27-31                        cands=['Athach', 'Atach', 'Athac']
+  Azekah                              ref=Joshua 10:6-11                           cands=['Azekah', 'Azeka', 'Azeká']
+  Azmon                               ref=Numbers 34:1-16                          cands=['Azmon']
+  Baal-meon                           ref=Ezekiel 25:7-12                          cands=['Baal-meon']
+  Beer-lahai-roi                      ref=Genesis 16:12-16                         cands=['Beer-lahai-roi', 'Beer-lahai-roí']
+  Berothah                            ref=Ezekiel 47:14-19                         cands=['Berothah', 'Berotha', 'Berothá', 'Berotah']
+  Beth-arabah                         ref=Joshua 18:21-28                          cands=['Beth-arabah', 'Bet-arabah', 'Beth-araba', 'Beth-arabá']
+  Beth-barah                          ref=Judges 7:24-25                           cands=['Beth-barah', 'Beth-bará', 'Beth-bara', 'Bet-barah']
+  Beth-dagon                          ref=Joshua 19:18-27                          cands=['Beth-dagon', 'Bet-dagon']
+  Beth-dagon                          ref=Joshua 19:18-27                          cands=['Beth-dagon', 'Bet-dagon']
+  Beth-dagon 2                        ref=Joshua 19:18-27                          cands=['Beth-dagon', 'Bet-dagon']
+  Beth-emek                           ref=Joshua 19:18-27                          cands=['Beth-emek', 'Bet-emek']
+  Beth-ezel                           ref=Micah 1:7-11                             cands=['Beth-ezel', 'Bet-ezel']
+  Beth-hoglah                         ref=Joshua 18:16-20                          cands=['Beth-hoglah', 'Beth-hoglá', 'Bet-hoglah', 'Beth-hogla']
+  Beth-jeshimoth                      ref=Ezekiel 25:7-12                          cands=['Beth-jeshimoth', 'Beth-jesimoth', 'Beth-jeshimot', 'Bet-jeshimot']
+  Beth-nimrah                         ref=Joshua 13:22-27                          cands=['Beth-nimrah', 'Bet-nimrah', 'Beth-nimrá', 'Beth-nimra']
+  Beth-pazzez                         ref=Joshua 19:18-27                          cands=['Beth-pazzez', 'Bet-pazzez']
+  Beth-shemesh                        ref=1 Samuel 6:10-14                         cands=['Beth-shemesh', 'Bet-shemesh', 'Beth-shemes', 'Beth-semes']
+  Beth-shittah                        ref=Judges 7:19-23                           cands=['Beth-shittah', 'Beth-sittah', 'Beth-shitta', 'Bet-shittah', 'Beth-shittá']
+  Beth-tappuah                        ref=Joshua 15:43-59                          cands=['Beth-tappuah', 'Bet-tappuah', 'Beth-tappua', 'Beth-tappuá']
+  Beth-zur                            ref=Nehemiah 3:14-17                         cands=['Beth-zur', 'Bet-zur']
+  Bezek                               ref=Judges 1:1-6                             cands=['Bezek']
+  Bozez                               ref=1 Samuel 14:1-4                          cands=['Bozez']
+  Bozkath                             ref=Joshua 15:22-42                          cands=['Bozkath', 'Bozkat']
+  Bozrah                              ref=1 Chronicles 1:43-50                     cands=['Bozrah', 'Bozrá', 'Bozra']
+  Canneh                              ref=Ezekiel 27:21-27                         cands=['Canneh', 'Canné', 'Canne']
+  Carchemish                          ref=Jeremiah 46:1-7                          cands=['Carchemish', 'Carchemis']
+  Carthage                            ref=D&C 124:85-88                            cands=['Carthagé', 'Carthage', 'Cartage']
+  Chephirah                           ref=Nehemiah 7:16-32                         cands=['Chephirah', 'Chephirá', 'Chephira', 'Chefirah']
+  Cherith                             ref=1 Kings 17:1-7                           cands=['Cherith', 'Cherit']
+  Chesalon                            ref=Joshua 15:10-14                          cands=['Chesalon']
+  Chesulloth                          ref=Joshua 19:18-27                          cands=['Chesulloth', 'Chesullot']
+  Chezib                              ref=Genesis 38:1-8                           cands=['Chezib']
+  Chinnereth                          ref=Joshua 19:35-47                          cands=['Chinnereth', 'Chinneret']
+  Cuth                                ref=2 Kings 17:27-32                         cands=['Cuth', 'Cut']
+  Dannah                              ref=Joshua 15:43-59                          cands=['Dannah', 'Danná', 'Danna']
+  Dibon                               ref=Numbers 33:44-52                         cands=['Dibon']
+  Dinhabah                            ref=1 Chronicles 1:43-50                     cands=['Dinhabah', 'Dinhaba', 'Dinhabá']
+  Dophkah                             ref=Numbers 33:8-17                          cands=['Dophkah', 'Dophká', 'Dophka', 'Dofkah']
+  Eden 1                              ref=Ezekiel 31:16-18                         cands=['Eden']
+  Eder                                ref=1 Chronicles 23:18-25                    cands=['Eder']
+  Eder 1                              ref=1 Chronicles 23:18-25                    cands=['Eder']
+  Eglon                               ref=Judges 3:13-19                           cands=['Eglon']
+  Elon                                ref=Judges 12:11-15                          cands=['Elon']
+  Eltekeh                             ref=Joshua 19:35-47                          cands=['Eltekeh', 'Elteké', 'Elteke']
+  Eltekon                             ref=Joshua 15:43-59                          cands=['Eltekon']
+  En-dor                              ref=1 Samuel 28:6-9                          cands=['En-dor']
+  En-gannim                           ref=Joshua 19:18-27                          cands=['En-gannim']
+  En-haddah                           ref=Joshua 19:18-27                          cands=['En-haddah', 'En-hadda', 'En-haddá']
+  En-rogel                            ref=Joshua 18:16-20                          cands=['En-rogel']
+  En-tappuah                          ref=Joshua 17:5-10                           cands=['En-tappuah', 'En-tappua', 'En-tappuá']
+  Ephron                              ref=Genesis 23:13-17                         cands=['Ephron', 'Efron']
+  Gallim                              ref=2 Nephi 20:25-30                         cands=['Gallim']
+  Gath-rimmon                         ref=Joshua 21:20-27                          cands=['Gath-rimmon', 'Gat-rimmon']
+  Gebim                               ref=2 Nephi 20:31-34                         cands=['Gebim']
+  Gibbethon                           ref=1 Kings 15:26-34                         cands=['Gibbethon', 'Gibbeton']
+  Gittaim                             ref=Nehemiah 11:26-36                        cands=['Gittaim']
+  Hachilah                            ref=1 Samuel 26:1-6                          cands=['Hachilah', 'Hachila', 'Hachilá']
+  Hadashah                            ref=Joshua 15:22-42                          cands=['Hadashah', 'Hadashá', 'Hadasah', 'Hadasha']
+  Ham 1                               ref=Abraham 1:21-26                          cands=['Ham']
+  Hammath                             ref=Joshua 19:35-47                          cands=['Hammath', 'Hammat']
+  Hammon 1                            ref=1 Chronicles 6:70-77                     cands=['Hammon']
+  Hammoth-dor                         ref=Joshua 21:28-36                          cands=['Hammoth-dor', 'Hammot-dor']
+  Hannathon                           ref=Joshua 19:10-17                          cands=['Hannathon', 'Hannaton']
+  Haradah                             ref=Numbers 33:18-34                         cands=['Haradah', 'Harada', 'Haradá']
+  Helbon                              ref=Ezekiel 27:14-20                         cands=['Helbon']
+  Helkath                             ref=Joshua 19:18-27                          cands=['Helkath', 'Helkat']
+  Helkath-hazzurim                    ref=2 Samuel 2:13-18                         cands=['Helkath-hazzurim', 'Helkat-hazzurim']
+  Heshbon                             ref=Numbers 21:25-30                         cands=['Heshbon', 'Hesbon']
+  Hethlon                             ref=Ezekiel 47:14-19                         cands=['Hethlon', 'Hetlon']
+  Holon                               ref=Joshua 21:11-19                          cands=['Holon']
+  Hukkok                              ref=Joshua 19:28-34                          cands=['Hukkok']
+  Hukok                               ref=1 Chronicles 6:70-77                     cands=['Hukok']
+  Hushah                              ref=1 Chronicles 4:1-9                       cands=['Hushah', 'Husah', 'Husha', 'Hushá']
+  Ijon                                ref=2 Kings 15:18-32                         cands=['Ijon']
+  Ir-nahash                           ref=1 Chronicles 4:10-17                     cands=['Ir-nahash', 'Ir-nahas']
+  Ithnan                              ref=Joshua 15:22-42                          cands=['Ithnan', 'Itnan']
+  Jabbok                              ref=Numbers 21:19-24                         cands=['Jabbok']
+  Jahaz                               ref=Numbers 21:19-24                         cands=['Jahaz']
+  Jehud                               ref=Joshua 19:35-47                          cands=['Jehud']
+  Jekabzeel                           ref=Nehemiah 11:19-25                        cands=['Jekabzeel']
+  Jeshanah                            ref=2 Chronicles 13:16-22                    cands=['Jeshanah', 'Jesanah', 'Jeshana', 'Jeshaná']
+  Jokdeam                             ref=Joshua 15:43-59                          cands=['Jokdeam']
+  Jokmeam 2                           ref=1 Chronicles 6:63-69                     cands=['Jokmeam']
+  Jokneam                             ref=Joshua 19:10-17                          cands=['Jokneam']
+  Jotbathah                           ref=Numbers 33:18-34                         cands=['Jotbathah', 'Jotbatah', 'Jotbatha', 'Jotbathá']
+  Juttah                              ref=Joshua 21:11-19                          cands=['Juttah', 'Juttá', 'Jutta']
+  Kanah                               ref=Joshua 16:7-10                           cands=['Kanah', 'Kaná', 'Kana']
+  Karkor                              ref=Judges 8:6-11                            cands=['Karkor']
+  Karnaim                             ref=Genesis 14:1-7                           cands=['Karnaim']
+  Kartah                              ref=Joshua 21:28-36                          cands=['Kartah', 'Kartá', 'Karta']
+  Kattath                             ref=Joshua 19:10-17                          cands=['Kattath', 'Kattat']
+  Kedemoth                            ref=1 Chronicles 6:78-81                     cands=['Kedemoth', 'Kedemot']
+  Kedesh                              ref=Judges 4:7-11                            cands=['Kedesh', 'Kedes']
+  Kedesh-naphtali                     ref=Judges 4:1-6                             cands=['Kedesh-naphtali', 'Kedesh-naphtalí', 'Kedesh-naftali', 'Kedes-naphtali']
+  Kehelathah                          ref=Numbers 33:18-34                         cands=['Kehelathah', 'Kehelatah', 'Kehelathá', 'Kehelatha']
+  Kerioth                             ref=Joshua 15:22-42                          cands=['Kerioth', 'Keriot']
+  Kibroth-hattaavah                   ref=Numbers 11:33-35                         cands=['Kibroth-hattaavah', 'Kibrot-hattaavah', 'Kibroth-hattaava', 'Kibroth-hattaavá']
+  Kibzaim                             ref=Joshua 21:20-27                          cands=['Kibzaim']
+  Kinah                               ref=Joshua 15:22-42                          cands=['Kinah', 'Kiná', 'Kina']
+  Kiriathaim                          ref=Ezekiel 25:7-12                          cands=['Kiriathaim', 'Kiriataim']
+  Kishion                             ref=Joshua 19:18-27                          cands=['Kishion', 'Kision']
+  Kishon                              ref=Judges 5:15-21                           cands=['Kishon', 'Kison']
+  Kitron                              ref=Judges 1:30-35                           cands=['Kitron']
+  Koa                                 ref=Ezekiel 23:21-25                         cands=['Koá', 'Koa']
+  Lebanon                             ref=2 Chronicles 25:15-18                    cands=['Lebanon']
+  Machbenah                           ref=1 Chronicles 2:43-53                     cands=['Machbenah', 'Machbena', 'Machbená']
+  Machpelah                           ref=Genesis 50:12-17                         cands=['Machpelah', 'Machpelá', 'Machpela']
+  Madmannah                           ref=1 Chronicles 2:43-53                     cands=['Madmannah', 'Madmanna', 'Madmanná']
+  Madon                               ref=Joshua 11:1-5                            cands=['Madon']
+  Makaz                               ref=1 Kings 4:1-10                           cands=['Makaz']
+  Makkedah                            ref=Joshua 10:28-32                          cands=['Makkedah', 'Makkeda', 'Makkedá']
+  Maon                                ref=1 Samuel 23:24-28                        cands=['Maon']
+  Mareshah                            ref=2 Chronicles 14:8-12                     cands=['Mareshah', 'Maresah', 'Maresha', 'Mareshá']
+  Masrekah                            ref=1 Chronicles 1:43-50                     cands=['Masrekah', 'Masreká', 'Masreka']
+  Massah                              ref=Exodus 17:6-11                           cands=['Massah', 'Massá', 'Massa']
+  Mattanah                            ref=Numbers 21:12-18                         cands=['Mattanah', 'Mattana', 'Mattaná']
+  Me-jarkon                           ref=Joshua 19:35-47                          cands=['Me-jarkon']
+  Mearah                              ref=Joshua 13:1-6                            cands=['Mearah', 'Meara', 'Meará']
+  Mephaath                            ref=1 Chronicles 6:78-81                     cands=['Mephaath', 'Mefaath', 'Mephaat']
+  Meshech                             ref=Ezekiel 38:1-7                           cands=['Meshech', 'Mesech', 'Meshec']
+  Mezahab                             ref=1 Chronicles 1:43-50                     cands=['Mezahab']
+  Michmash                            ref=1 Samuel 13:1-5                          cands=['Michmash', 'Michmas']
+  Middin                              ref=Joshua 15:60-63                          cands=['Middin']
+  Migron                              ref=2 Nephi 20:25-30                         cands=['Migron']
+  Minni                               ref=Jeremiah 51:24-28                        cands=['Minní', 'Minni']
+  Minnith                             ref=Ezekiel 27:14-20                         cands=['Minnith', 'Minnit']
+  Mishal                              ref=Joshua 21:28-36                          cands=['Mishal', 'Misal']
+  Misrephoth-maim                     ref=Joshua 11:6-10                           cands=['Misrephoth-maim', 'Misrephot-maim', 'Misrefoth-maim']
+  Moresheth-gath                      ref=Micah 1:12-16                            cands=['Moresheth-gath', 'Moreseth-gath', 'Moresheth-gat', 'Moreshet-gat']
+  Nahalol                             ref=Judges 1:30-35                           cands=['Nahalol']
+  Neballat                            ref=Nehemiah 11:26-36                        cands=['Neballat']
+  Nephtoah                            ref=Joshua 18:12-15                          cands=['Nephtoah', 'Nephtoa', 'Nephtoá', 'Neftoah']
+  Netophah                            ref=Nehemiah 7:16-32                         cands=['Netophah', 'Netopha', 'Netofah', 'Netophá']
+  Nimrah                              ref=Ether 9:5-9                              cands=['Nimrah', 'Nimrá', 'Nimra']
+  Nob                                 ref=2 Nephi 20:31-34                         cands=['Nob']
+  Ophrah                              ref=1 Samuel 13:17-22                        cands=['Ophrah', 'Ofrah', 'Ophrá', 'Ophra']
+  Parah                               ref=Joshua 18:21-28                          cands=['Parah', 'Para', 'Pará']
+  Pekod                               ref=Ezekiel 23:21-25                         cands=['Pekod']
+  Pi-beseth                           ref=Ezekiel 30:13-18                         cands=['Pi-beseth', 'Pi-beset']
+  Pirathon                            ref=Judges 12:11-15                          cands=['Pirathon', 'Piraton']
+  Pison                               ref=Genesis 2:7-13                           cands=['Pison']
+  Pithom                              ref=Exodus 1:11-16                           cands=['Pithom', 'Pitom']
+  Pontus                              ref=D&C 138:1-6                              cands=['Pontus']
+  Punon                               ref=Numbers 33:35-43                         cands=['Punon']
+  Rabbith                             ref=Joshua 19:18-27                          cands=['Rabbith', 'Rabbit']
+  Rakkath                             ref=Joshua 19:35-47                          cands=['Rakkath', 'Rakkat']
+  Rakkon                              ref=Joshua 19:35-47                          cands=['Rakkon']
+  Ramath-mizpeh                       ref=Joshua 13:22-27                          cands=['Ramath-mizpeh', 'Ramath-mizpé', 'Ramath-mizpe', 'Ramat-mizpeh']
+  Rameses                             ref=Numbers 33:1-7                           cands=['Rameses']
+  Rezeph                              ref=2 Kings 19:11-16                         cands=['Rezeph', 'Rezef', 'Rezep']
+  Rimmon                              ref=Judges 20:43-48                          cands=['Rimmon']
+  Rithmah                             ref=Numbers 33:18-34                         cands=['Rithmah', 'Rithma', 'Ritmah', 'Rithmá']
+  Salmon                              ref=Matthew 1:1-11                           cands=['Salmon']
+  Salmone                             ref=Acts 27:1-7                              cands=['Salmone', 'Salmoné']
+  Saron                               ref=Acts 9:33-39                             cands=['Saron']
+  Shepham                             ref=Numbers 34:7-13                          cands=['Shepham', 'Shefam', 'Sepham']
+  Shihor-libnath                      ref=Joshua 19:18-27                          cands=['Shihor-libnath', 'Sihor-libnath', 'Shihor-libnat']
+  Shimron                             ref=1 Chronicles 7:1-6                       cands=['Shimron', 'Simron']
+  Shion                               ref=Joshua 19:18-27                          cands=['Shion', 'Sion']
+  Spain                               ref=Romans 15:22-28                          cands=['Spain']
+  Sychar                              ref=John 4:1-9                               cands=['Sychar']
+  Syene                               ref=Ezekiel 29:6-10                          cands=['Syené', 'Syene']
+  Taanath-shiloh                      ref=Joshua 16:1-6                            cands=['Taanath-shiloh', 'Taanat-shiloh', 'Taanath-shilo', 'Taanath-shiló', 'Taanath-siloh']
+  Tabbath                             ref=Judges 7:19-23                           cands=['Tabbath', 'Tabbat']
+  Tahpanhes                           ref=Jeremiah 43:6-10                         cands=['Tahpanhes']
+  Tappuah                             ref=Joshua 17:5-10                           cands=['Tappuah', 'Tappuá', 'Tappua']
+  Thebez                              ref=Judges 9:50-55                           cands=['Thebez']
+  Tiphsah                             ref=2 Kings 15:13-17                         cands=['Tiphsah', 'Tiphsá', 'Tifsah', 'Tiphsa']
+  Ummah                               ref=Joshua 19:28-34                          cands=['Ummah', 'Umma', 'Ummá']
+  Zaanannim                           ref=Joshua 19:28-34                          cands=['Zaanannim']
+  Zaphon                              ref=Joshua 13:22-27                          cands=['Zaphon', 'Zafon']
+  Zarephath                           ref=1 Kings 17:2-12                          cands=['Zarephath', 'Zarefath', 'Zarephat']
+  Zelzah                              ref=1 Samuel 10:1-4                          cands=['Zelzah', 'Zelzá', 'Zelza']
+  Zephath                             ref=Judges 1:13-17                           cands=['Zephath', 'Zefath', 'Zephat']
+  Ziddim                              ref=Joshua 19:35-47                          cands=['Ziddim']
+  Ziklag                              ref=1 Samuel 30:1-6                          cands=['Ziklag']
+  Zior                                ref=Joshua 15:43-59                          cands=['Zior']
+  Ziphron                             ref=Numbers 34:7-13                          cands=['Ziphron', 'Zifron']
+  Ziz                                 ref=2 Chronicles 20:13-17                    cands=['Ziz']
+  Zoan                                ref=Ezekiel 30:13-18                         cands=['Zoan']
+
+=== NAMES WITH NO ENGLISH PASSAGE (extrabiblical/manual review needed) ===
+  Abana
+  Abel-beth-maacah
+  Abel-keramim
+  Abila
+  Abila Lysaniou
+  Achaia
+  Achzib (2)
+  Acre
+  Adami-nekeb
+  Adasa
+  Adria
+  Adulis
+  Aenon
+  Aguas de Merom
+  Ahava
+  Ain (2)
+  Allammelech
+  Allon-bacuth
+  Ama
+  Amana
+  Amaw
+  Anim
+  Antioch (Pisidia)
+  Antioch (Syria)
+  Antipatris
+  Aphek (2)
+  Aphek (3)
+  Apollonia
+  Aram-maacah
+  Arbela
+  Aroer
+  Aroer (3)
+  Arroyo de Egipto
+  Arroyo de Egipto
+  Arsinoe
+  Arubboth
+  Ashteroth-karnaim
+  Asia
+  Ataroth-addar
+  Atenas
+  Atharim
+  Atroth-shophan
+  Avva
+  Baal-gad
+  Baal-shalishah
+  Baal-tamar
+  Baale-judah
+  Baharum
+  Batanea
+  Beeroth Bene-jaakan
+  Beerseba
+  Beeshterah
+  Bene-berak
+  Bered
+  Betania (Judea)
+  Betania (Transjordania)
+  Betel
+  Beten
+  Beth-aven
+  Beth-biri
+  Beth-car
+  Beth-eked
+  Beth-gilgal
+  Beth-haccherem
+  Beth-haram
+  Beth-le-aphrah
+  Beth-pelet
+  Beth-shan
+  Beth-shemesh (2)
+  Beth-togarmah
+  Bether 1
+  Betsaida
+  Bezek (2)
+  Bezer
+  Bithynia
+  Bor-ashan
+  Cades (2)
+  Cades-barnea
+  Caesarea Filipos
+  Calle Derecha
+  Camino del Mar Rojo
+  Cappadocia
+  Carmelo
+  Cauda
+  Cencrea
+  Chalcis
+  Charmande
+  Chebar
+  Chephar-ammoni
+  Chipre
+  Chitlish
+  Cnido
+  Colina Cumorah
+  Colossae
+  Commerce (Illinois)
+  Corinto
+  Cos
+  Council Bluffs (Iowa)
+  Cove Fort (Utah)
+  Creta
+  Cun
+  Cushan
+  Dabbesheth
+  Dalmanutha
+  Damasco
+  Debir 1
+  Destruction
+  Dothan
+  Dura
+  Ebenezer
+  Ebenezer 2
+  Ebez
+  Ecbatana
+  Eglath-shelishiyah
+  Elkosh
+  Elonbeth-hanan
+  En-gannim (2)
+  Enaim
+  Eneglaim
+  Engedi
+  Ephes-dammim
+  Erec
+  Eridu
+  Eshan
+  Esmirna
+  Etam (3)
+  Ethiopia
+  Etruria
+  Ezion-geber
+  Far West (Misuri)
+  Fayette (Nueva York)
+  Filadelfia
+  Filipos
+  Foro de Apio
+  Fort Laramie (Wyoming)
+  Gabaa
+  Gadara
+  Galatia
+  Gamad
+  Garden Grove (Iowa)
+  Gath-hepher
+  Gath-padalla
+  Gaza
+  Geba
+  Genesaret
+  Gerar
+  Gerasa
+  Gergesa
+  Gezer
+  Gihon (2)
+  Gilboa
+  Gilead
+  Gilgal (cerca de Betel)
+  Gimzo
+  Golan
+  Gomer
+  Gomorra
+  Gomorra
+  Goshen
+  Goshen (2)
+  Gozan
+  Gran Lago Salado (Utah)
+  Gran Mar
+  Hadad-rimmon
+  Hadid
+  Haeleph
+  Hanes
+  Hara
+  Harhar
+  Harmony (Pensilvania)
+  Harosheth-hagoyim
+  Hatti
+  Hauran
+  Havvoth-jair
+  Hazar-enan
+  Hazar-shual
+  Hazar-susah
+  Hazazon-tamar
+  Hena
+  Hepher
+  Heracleopolis Parva
+  Hereth
+  Hierapolis
+  Hor-haggidgad
+  Horesh
+  Iconio
+  Independence (Misuri)
+  Independence Rock (Wyoming)
+  India
+  Iphtah
+  Ir-moab
+  Ithlah
+  Iye-abarim
+  Jabesh-gilead
+  Jabneel (2)
+  Jaboc
+  Janim
+  Janoah (2)
+  Janua
+  Japhia
+  Jattir
+  Javan
+  Jazer
+  Jeshua
+  Jezreel (2)
+  Jope
+  Jordan
+  Kain
+  Karka
+  Kedar
+  Kirtland (Ohio)
+  Kue
+  Laban
+  Laishah
+  Lakkum
+  Laodicea
+  Laquis
+  Lasea
+  Lasha
+  Lasharon
+  Liberty (Misuri)
+  Listra
+  Lo-debar
+  Lower Beth-horon
+  Lycaonia
+  Macedonia
+  Madmen
+  Magadan
+  Magdalsenna
+  Mahaneh-dan
+  Malta
+  Manchester (Nueva York)
+  Mar Rojo
+  Mar Salado
+  Mar Salado
+  Mar de Egipto
+  Mar de Galilea
+  Mar de los Filisteos
+  Mareal
+  Martin's Cove (Wyoming)
+  Medeba
+  Meguido
+  Menfis
+  Mesha
+  Meshech-Tubal
+  Michmethath
+  Migdal-gad
+  Mileto
+  Mithkah
+  Mizpah (3)
+  Monte Carmelo
+  Monte Carmelo
+  Monte Ebal
+  Monte Galaad
+  Monte Gerizim
+  Monte Gilboa
+  Monte Halak
+  Monte Hor
+  Monte Hor
+  Monte Moriah
+  Monte Nebo
+  Monte Pisga (Iowa)
+  Monte Seir (2)
+  Monte Tabor
+  Monte de los Olivos
+  Moreh (2)
+  Mount Seir 2
+  Naaran
+  Nauvoo (Illinois)
+  Nazaret
+  Nebo
+  Nebo (2)
+  Netaim
+  Nibshan
+  Nicopolis
+  Nile
+  Nuhashe
+  On
+  Ophrah (2)
+  Palmyra (Nueva York)
+  Pamphylia
+  Patara
+  Pathros
+  Peter Whitmer Sr. (Fayette)
+  Pharpar
+  Phrygia
+  Pisga
+  Puerta del Diablo (Utah)
+  Puertos Hermosos
+  Punt
+  Ramah (Misuri)
+  Ramoth-gilead
+  Rimmon-perez
+  Roca
+  Rocas
+  Rock Creek Hollow (Wyoming)
+  Roma
+  Sahar
+  Sal
+  Salecah
+  Salt Lake City (Utah)
+  Samothrace
+  Sardis
+  Sarid
+  Seba
+  Sebam
+  Secu
+  Seirah
+  Sela
+  Sephar
+  Shahazumah
+  Shalishah
+  Shamir
+  Shamir (2)
+  Shaphir
+  Sharuhen
+  Shephelah
+  Shikkeron
+  Sin
+  Siquem
+  Sitim
+  Sitio del Templo de Independence
+  Sodoma
+  Sodoma
+  Sucot (Egipto)
+  Sucot (Transjordania)
+  Suph
+  Suphah
+  Susa
+  Sweetwater Crossing (Wyoming)
+  Syria
+  Syrtis
+  Tamar (2)
+  Tarsis
+  Tebas
+  Tekoa
+  Templo de Apia (Samoa)
+  Templo de Berna (Suiza)
+  Templo de Hamilton (Nueva Zelanda)
+  Templo de Kirtland
+  Templo de Logan (Utah)
+  Templo de Londres (Inglaterra)
+  Templo de Manti (Utah)
+  Templo de Nauvoo
+  Templo de Nuku'alofa (Tonga)
+  Templo de Palmyra (Nueva York)
+  Templo de Salt Lake
+  Templo de Santiago (Chile)
+  Templo de St. George (Utah)
+  Templo de Washington D.C.
+  Thapsacus
+  Thebes
+  Thelme
+  This Is the Place Monument
+  Thyatira
+  Tiatira
+  Timnah (2)
+  Timnath-heres
+  Tiphsah (2)
+  Tiro
+  Tirsa
+  Tjaru
+  Tres Tabernas
+  Ura
+  Uzzen-sheerah
+  Valle de Achor
+  Valle de Acor
+  Valle de Beracah
+  Valle de Elah
+  Valle de Elah
+  Valle de Gerar
+  Valle de Hinnom
+  Valle de Iphtahel
+  Valle de Jefte-el
+  Valle de Jezreel
+  Valle de Mizpeh
+  Valle de Rephaim
+  Valle de Salt
+  Valle de Sefata
+  Valle de Siddim
+  Valle de Sitim
+  Valle de Sorec
+  Valle de Sorec
+  Valle de Zeboim
+  Valle de Zeboim
+  Valle de Zephathah
+  Valle de la Sal
+  Winter Quarters (Nebraska)
+  Yiron
+  Zanoah (2)
+  Zarethan
+  Zeboim (de la llanura)
+  Zedad
+  Zela
+  Zered
+  Zeredah
+  Zereth-shahar
+  Zoar (Bela)

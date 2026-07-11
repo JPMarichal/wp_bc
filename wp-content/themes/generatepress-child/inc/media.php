@@ -9,6 +9,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+add_filter( 'jpeg_quality', fn() => 82 );
+add_filter( 'wp_editor_set_quality', fn() => 82 );
+
 /**
  * Auto-populate alt text and description from post_title on new image uploads.
  */

@@ -1,7 +1,15 @@
 <?php
 
 add_action( 'pre_get_posts', function ( $query ) {
-	if ( ! is_admin() && $query->is_main_query() && is_post_type_archive( 'bc_quote_author' ) ) {
+	if ( is_admin() || ! $query->is_main_query() ) {
+		return;
+	}
+	if ( is_post_type_archive( 'bc_quote_author' ) ) {
+		$query->set( 'orderby', 'title' );
+		$query->set( 'order', 'ASC' );
+		$query->set( 'posts_per_page', -1 );
+	}
+	if ( is_post_type_archive( 'bc_location' ) ) {
 		$query->set( 'orderby', 'title' );
 		$query->set( 'order', 'ASC' );
 		$query->set( 'posts_per_page', -1 );
@@ -45,6 +53,13 @@ add_action( 'after_setup_theme', function () {
 			'menu-item-parent-id' => $glosarios_id,
 		) );
 
+		wp_update_nav_menu_item( $menu_id, 0, array(
+			'menu-item-title'    => 'Ubicaciones',
+			'menu-item-url'      => home_url( '/ubicaciones/' ),
+			'menu-item-status'   => 'publish',
+			'menu-item-parent-id' => $glosarios_id,
+		) );
+
 		$locations = get_theme_mod( 'nav_menu_locations', array() );
 		$locations['primary'] = $menu_id;
 		set_theme_mod( 'nav_menu_locations', $locations );
@@ -54,6 +69,7 @@ add_action( 'after_setup_theme', function () {
 	$menu_items = wp_get_nav_menu_items( $menu->term_id );
 	$glosarios_parent_id = 0;
 	$temas_exists = false;
+	$ubicaciones_exists = false;
 
 	foreach ( $menu_items as $item ) {
 		if ( $item->title === 'Glosarios' && (int) $item->menu_item_parent === 0 ) {
@@ -62,12 +78,24 @@ add_action( 'after_setup_theme', function () {
 		if ( $item->title === 'Temas' && (int) $item->menu_item_parent === $glosarios_parent_id ) {
 			$temas_exists = true;
 		}
+		if ( $item->title === 'Ubicaciones' && (int) $item->menu_item_parent === $glosarios_parent_id ) {
+			$ubicaciones_exists = true;
+		}
 	}
 
 	if ( $glosarios_parent_id > 0 && ! $temas_exists ) {
 		wp_update_nav_menu_item( $menu->term_id, 0, array(
 			'menu-item-title'    => 'Temas',
 			'menu-item-url'      => home_url( '/glosario/temas/' ),
+			'menu-item-status'   => 'publish',
+			'menu-item-parent-id' => $glosarios_parent_id,
+		) );
+	}
+
+	if ( $glosarios_parent_id > 0 && ! $ubicaciones_exists ) {
+		wp_update_nav_menu_item( $menu->term_id, 0, array(
+			'menu-item-title'    => 'Ubicaciones',
+			'menu-item-url'      => home_url( '/ubicaciones/' ),
 			'menu-item-status'   => 'publish',
 			'menu-item-parent-id' => $glosarios_parent_id,
 		) );

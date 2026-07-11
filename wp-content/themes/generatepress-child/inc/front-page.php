@@ -98,7 +98,7 @@ function bc_front_page_featured_post() {
     <a href="<?php the_permalink(); ?>" class="bc-fp-featured-link">
       <?php if ($has_thumb) : ?>
         <div class="bc-fp-featured-image-wrap">
-		  <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc-hero', false, array( 'class' => 'bc-fp-featured-image', 'alt' => the_title_attribute( array( 'echo' => false ) ), 'title' => the_title_attribute( array( 'echo' => false ) ), 'loading' => 'eager' , 'decoding' => 'async') ); ?>
+		  <?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'bc-hero', false, array( 'class' => 'bc-fp-featured-image', 'alt' => the_title_attribute( array( 'echo' => false ) ), 'title' => the_title_attribute( array( 'echo' => false ) ), 'loading' => 'eager' , 'decoding' => 'async', 'sizes' => '(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px' ) ); ?>
           <div class="bc-fp-featured-overlay"></div>
         </div>
       <?php endif; ?>

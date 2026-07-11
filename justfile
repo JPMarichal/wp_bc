@@ -54,6 +54,14 @@ perf:
 perf-url path:
     cd wp-content/themes/generatepress-child && npm run perf -- {{path}}
 
+# Compress all JPEG images in uploads to quality 82 (run inside Docker)
+compress-images quality="82":
+    docker exec wp_bc php /var/www/html/wp-content/themes/generatepress-child/bin/compress-images.php /var/www/html/wp-content/uploads {{quality}}
+
+# Regenerate all media thumbnails
+regenerate-thumbnails:
+    docker exec wp_bc_cli wp media regenerate --yes
+
 # Show available commands
 default:
     @just --list

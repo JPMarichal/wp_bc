@@ -1,0 +1,420 @@
+---
+name: glosario-ubicaciones-contenido
+description: |
+  Generar contenido narrativo (post_content) del CPT bc_location para el
+  Glosario de Ubicaciones bíblicas. Usar cuando se necesite redactar la
+  descripción de una ubicación desde fuentes del corpus de Alejandría,
+  Guía para el Estudio de las Escrituras, BibleHub, o Wikipedia como
+  último recurso. Proporciona el pipeline completo de extracción →
+  redacción → publicación, plantilla de secciones y principios de
+  redacción congruentes con doctrina SUD.
+---
+
+# Skill: glosario-ubicaciones-contenido
+
+Genera el contenido narrativo (`post_content`) de una ubicación del CPT
+`bc_location`. El contenido se despliega en la columna principal de
+`single-bc_location.php`, mientras el sidebar muestra los metadatos
+(tipo, coordenadas, confianza, referencia de ejemplo).
+
+## Pipeline completo
+
+### Fase 0: Obtener datos de la ubicación
+
+Identificar el ID y metadatos de la ubicación:
+
+```bash
+# Buscar ubicación por nombre
+docker exec wp_bc_cli wp post list \
+  --post_type=bc_location \
+  --s="Nombre de la ubicación" \
+  --fields=ID,post_title,post_name,post_status --allow-root
+
+# Obtener metadatos completos
+docker exec wp_bc_cli wp post meta list <ID> --allow-root
+
+# Ver contenido actual (si existe)
+docker exec wp_bc_cli wp post get <ID> --field=post_content --allow-root
+```
+
+Metadatos disponibles en `bc_location`:
+
+| Meta key | Descripción | Tipo |
+|----------|-------------|------|
+| `_bc_loc_name_en` | Nombre en inglés (KJV) | string |
+| `_bc_loc_disambiguation` | Contexto desambiguante para homónimos (ej: Siria, Pisidia, América) | string |
+| `_bc_loc_type` | Tipo: city, region, wilderness, sea, river, mountain, settlement, landmark | string |
+| `_bc_loc_scriptures` | Array JSON de referencias escriturales inglesas | string (JSON) |
+| `_bc_loc_description` | Descripción breve (usualmente basura tipo "Fuente: openbible") | string |
+| `_bc_loc_lat` | Latitud | number |
+| `_bc_loc_lng` | Longitud | number |
+| `_bc_loc_source` | Fuente de datos: openbible, gnosis, church-history | string |
+| `_bc_loc_confidence` | Confianza: high, medium, low | string |
+| `_bc_loc_date_from` | Año inicial (aprox.) | integer |
+| `_bc_loc_date_to` | Año final (aprox.) | integer |
+| `_bc_loc_alt_names` | Nombres alternativos (JSON array: `["Jebús","Salem"]`) | string (JSON) |
+| `_bc_loc_alias_of` | ID de la ubicación principal si esta entry es un nombre alternativo de otra (ej: Jebús → Jerusalén) | integer |
+
+Anotar el ID, el nombre en inglés (`_bc_loc_name_en`), el tipo, y las
+referencias escriturales (`_bc_loc_scriptures`). Estas serán la base
+de la investigación.
+
+### Fase 1: Investigar con Alejandría
+
+La prioridad es **Alejandría como fuente principal**. Lanzar múltiples
+consultas en paralelo para obtener la máxima cobertura:
+
+```bash
+# 1. Buscar la ubicación en el Knowledge Graph
+alejandria_kg_find(query: "<nombre inglés o español>")
+  → resuelve la entidad en el KG
+
+# 2. Buscar en todo el corpus (sin source_filter)
+alejandria_search_text(query: "<nombre>", limit: 10)
+alejandria_search_semantic(query: "<nombre> location biblical")
+  → descubre qué documentos del corpus mencionan la ubicación
+
+# 3. Buscar en escrituras (más probable)
+alejandria_search_text(query: "<nombre>",
+  source_filter: "es/scriptures")
+alejandria_search_text(query: "<nombre>",
+  source_filter: "en/scriptures")
+
+# 4. Buscar en guías de estudio y manuales
+alejandria_search_text(query: "<nombre>",
+  source_filter: "es/manuals")
+alejandria_search_text(query: "<nombre>",
+  source_filter: "en/manuals")
+
+# 5. Preguntar directamente via RAG
+alejandria_chat_ask(question: "¿Qué importancia tiene <nombre> en la Biblia?")
+  → si falla (error conocido del pipeline RAG), usar search_hybrid como fallback
+```
+
+**Reglas de integración con Alejandría:**
+- Alejandría es la fuente **primaria** — agotar todas las búsquedas antes de ir a fallback
+- Hacer búsquedas tanto en español como en inglés
+- Los resultados de `chat_ask` pueden incluir contexto teológico valioso
+- Si `kg_find` no encuentra la entidad, no significa que el corpus no tenga información — la ubicación puede estar mencionada en textos sin ser entidad del KG
+- Si una búsqueda con `source_filter` no da resultados, probar sin filter
+
+### Fase 2: Fallback — Guía para el Estudio de las Escrituras
+
+Si Alejandría no tiene suficiente información, consultar la **Guía para
+el Estudio de las Escrituras** (LDS):
+
+```
+https://www.churchofjesuschrist.org/study/scriptures/gs/<slug>?lang=spa
+```
+
+Ejemplo: https://www.churchofjesuschrist.org/study/scriptures/gs/adam?lang=spa
+
+Usar `webfetch` para obtener el contenido en texto/markdown.
+
+### Fase 3: Fallback — BibleHub
+
+Si la Guía SUD no tiene entrada, consultar **BibleHub**:
+
+```
+https://biblehub.com/topical/<slug>.htm
+```
+
+Ejemplo: https://biblehub.com/topical/a/abel-shittim.htm
+
+Usar `webfetch` para obtener el contenido. BibleHub está en inglés;
+traducir y adaptar al español.
+
+### Fase 4: Fallback — Wikipedia
+
+Último recurso. Consultar Wikipedia en español:
+
+```
+https://es.wikipedia.org/wiki/<nombre>
+```
+
+Usar `webfetch` para obtener el contenido. Verificar que la
+información sea factual y no contradiga la doctrina SUD.
+
+### Fase 5: Redactar el contenido
+
+Escribir `post_content` en **HTML** siguiendo la **Plantilla de
+secciones** y los **Principios de redacción** abajo.
+
+Reglas clave:
+- **Contenido nuevo**, no copia textual de ninguna fuente
+- **Doctrina SUD**: la información debe ser congruente con la teología
+  de La Iglesia de Jesucristo de los Santos de los Últimos Días
+- **Sintetizar**, no concatenar fuentes
+- El contenido se despliega en la columna principal de la single
+  (dentro de un card con fondo blanco). El sidebar aparte muestra
+  tipo, coordenadas, confianza y referencia de ejemplo — **no repetir**
+  esos datos en el contenido narrativo
+- Las referencias escriturales deben mostrarse en español. Usar el mapa
+  `en_to_es` definido en `single-bc_location.php:236-257`
+- Longitud recomendada: **150–400 palabras** (suficiente para ser
+  informativo sin abrumar en un glosario)
+
+### Fase 6: Publicar en el CPT
+
+```bash
+# Guardar contenido HTML a un archivo temporal
+# (usar ruta accesible desde el contenedor)
+cat > /tmp/contenido-<ID>.html << 'EOF'
+<h2>Sección 1</h2>
+<p>Contenido...</p>
+EOF
+
+# Publicar el contenido (post_content)
+docker exec -i wp_bc_cli wp post update <ID> \
+  --post_content="$(cat /tmp/contenido-<ID>.html)" \
+  --allow-root
+
+# Alternativa: pasar el contenido directamente
+docker exec wp_bc_cli wp post update <ID> \
+  --post_content='<h2>Ubicación</h2><p>Contenido...</p>' \
+  --allow-root
+```
+
+**Nota importante sobre shell escaping en Windows/Git Bash:**
+Si el contenido tiene caracteres especiales, usar un archivo temporal
+y redirigir con `<` en vez de pasar el HTML inline:
+
+```bash
+# Escribir contenido a archivo (desde PowerShell o CMD)
+# Luego leerlo desde el contenedor:
+type C:\ruta\al\archivo.html | docker exec -i wp_bc_cli wp post update <ID> --post_content="$(cat /dev/stdin)" --allow-root
+
+# O más simple, escribir directo desde PowerShell:
+docker exec wp_bc_cli wp post update <ID> --post_content="<h2>Sección</h2><p>Contenido</p>" --allow-root
+```
+
+### Fase 7: Verificar
+
+```bash
+# Verificar que el contenido se haya guardado
+docker exec wp_bc_cli wp post get <ID> \
+  --field=post_content --allow-root
+
+# Verificar la página en el frontend
+# https://<site>/ubicacion/<slug>/
+```
+
+### Procesamiento por lotes (wrapper)
+
+Para procesar varias ubicaciones, usar un bucle shell. Ejemplo:
+
+```bash
+# Lista de IDs a procesar
+IDS=(123 456 789)
+
+for ID in "${IDS[@]}"; do
+  echo "=== Procesando ID $ID ==="
+
+  # Obtener datos
+  TITLE=$(docker exec wp_bc_cli wp post get $ID --field=post_title --allow-root)
+  NAME_EN=$(docker exec wp_bc_cli wp post meta get $ID _bc_loc_name_en --allow-root)
+
+  echo "Ubicación: $TITLE ($NAME_EN)"
+
+  # [Aquí el agente investiga y redacta para cada ubicación]
+
+  # Publicar
+  docker exec wp_bc_cli wp post update $ID \
+    --post_content="<contenido>" --allow-root
+done
+```
+
+Cada iteración del bucle requiere que el agente investigue y redacte
+individualmente. El bucle es solo el wrapper mecánico.
+
+## Plantilla de secciones
+
+El contenido se estructura en **párrafos narrativos** con títulos HTML
+(`<h2>`) para las secciones. No usar listas ni tablas en el cuerpo
+(excepto en "Referencias escriturales" si es necesario).
+
+### Encabezado descriptivo (sin subtítulo)
+
+1–3 párrafos que describen la ubicación: qué es, dónde está (contexto
+geográfico general), por qué es significativa. No repetir coordenadas
+ni el tipo (eso va en el sidebar).
+
+Incluir **significado etimológico del nombre** de forma breve en la
+primera mención, con la fórmula «cuyo nombre significa» o «su nombre
+proviene de»:
+
+- Jerusalén → «cuyo nombre significa "fundación de paz"»
+- Belén → «cuyo nombre significa "casa de pan"»
+- Betania → «su nombre significa "casa de higos" o "casa de aflicción"»
+
+Si la ubicación tuvo nombres anteriores (ej: Jerusalén fue Salem y
+Jebús antes de llamarse Jerusalén), mencionarlos brevemente.
+
+Ejemplo: "Jerusalén —cuyo nombre significa 'fundación de paz'— es la
+ciudad más significativa de la historia bíblica, ubicada en los montes
+de Judea. Fue conocida originalmente como Salem (Génesis 14:18) y
+posteriormente como Jebús (Jueces 19:10–11), por los jebuseos que la
+habitaban."
+
+### Contexto histórico y bíblico
+
+Qué eventos ocurrieron aquí en las Escrituras. Personajes asociados.
+Relevancia en la narrativa bíblica. Mencionar pasajes clave.
+
+Ejemplo: "En el Nuevo Testamento, Betania es conocida como el hogar
+de María, Marta y Lázaro. Fue aquí donde Jesús resucitó a Lázaro
+(Juan 11:1–44), y donde fue ungido por María seis días antes de la
+Pascua (Juan 12:1–8)."
+
+### Significado para los Santos de los Últimos Días
+
+Relevancia doctrinal o histórica desde la perspectiva SUD. Cómo se
+interpreta esta ubicación en el marco del Evangelio restaurado.
+Conexiones con otras escrituras (DyC, Libro de Mormón, Perla de
+Gran Precio) si aplican.
+
+Ejemplo: "Para los Santos de los Últimos Días, Betania tiene especial
+significado porque fue testigo de una de las más grandes muestras del
+poder divino de Jesucristo: la resurrección de Lázaro. Este milagro
+prefiguró la propia resurrección del Salvador y es una poderosa
+declaración de Su divinidad."
+
+### Nombres alternativos (alias)
+
+Muchas ubicaciones bíblicas tienen nombres alternativos (Jerusalén también
+es Salem, Jebús, Sión). El sistema distingue dos tipos:
+
+**Alias simples** (texto plano): nombres que no tienen historia independiente
+y no merecen entrada propia. Ej: "Ciudad de David" para Jerusalén.
+Se configuran como string JSON en `_bc_loc_alt_names`:
+```bash
+docker exec wp_bc_cli wp post meta set <ID> _bc_loc_alt_names '["Nombre1","Nombre2"]'
+```
+
+**Alias con entrada propia**: nombres que merecen su propio artículo porque
+tienen suficiente contenido histórico. La entry secundaria se crea con
+`_bc_loc_alias_of` apuntando a la principal:
+```bash
+docker exec wp_bc_cli wp post create --post_type=bc_location --post_title="Jebús" --post_status=publish
+docker exec wp_bc_cli wp post meta set <new_ID> _bc_loc_alias_of <main_ID>
+```
+Además, el nombre debe agregarse al `_bc_loc_alt_names` de la ubicación
+principal para que aparezca en los badges.
+
+**Auto-linking**: cuando una ubicación tiene `_bc_loc_alt_names`, el template
+busca automáticamente si cada alias coincide exactamente con el título de
+otra entry de `bc_location`. Si hay exactamente 1 coincidencia, se renderiza
+como link; si hay 0 o >1 (homónimos), se renderiza como texto plano.
+
+**Visualización**:
+- Badges semi-transparentes en el hero (justo después del título)
+- Fila "También conocido como:" en el infobox lateral (icono `fa-tag`)
+- Las entries con `_bc_loc_alias_of` muestran un bloque "Nombre alternativo
+  de [link]" entre la navegación y el hero (caja blanca con borde izquierdo
+  azul, mismo estilo que "Otras acepciones")
+
+**Decisión**: si un nombre alternativo puede sustentar 2+ párrafos con
+fuentes propias, merece entrada independiente. Si es solo un nombre
+alternativo sin historia separada, queda como alias simple en
+`_bc_loc_alt_names`.
+
+### Otras acepciones (homónimos)
+
+Si el nombre de la ubicación designa lugares diferentes en las Escrituras
+(ej: Jerusalén de Judea vs. Jerusalén de América; Antioquía de Siria vs.
+Antioquía de Pisidia), **no incluir** esa información en el contenido
+principal. El template `single-bc_location.php` detecta automáticamente
+los homónimos (mismo `post_title`, distinto ID) y genera un bloque
+"Otras acepciones" con enlaces a las otras entradas.
+
+Tu responsabilidad es:
+1. Redactar el contenido de cada entrada como si fuera independiente
+2. Poblar `_bc_loc_disambiguation` con el contexto que la distingue
+   (ej: "Siria", "Pisidia", "América")
+
+El bloque automático de homónimos se renderiza justo después del título
+(estilo diccionario/enciclopedia), antes del contenido narrativo.
+
+### Referencias de las Escrituras (opcional)
+
+Lista de pasajes clave con formato: libro capítulo:versículo en
+español (traducidos del inglés). Usar el mapa de traducción de
+`single-bc_location.php`.
+
+## Principios de redacción
+
+| Principio | Aplicación |
+|-----------|------------|
+| **Narrativo** | Prosa fluida en párrafos HTML (`<p>`), sin viñetas ni tablas en el cuerpo |
+| **Tono congruente con SUD** | Lenguaje respetuoso, favorable a la Iglesia. No incluir teorías especulativas o críticas textuales que contradigan la fe |
+| **Sin copy-paste** | Ningún párrafo debe ser idéntico al de una fuente. Redacción original, voz propia |
+| **Traducir referencias** | Toda referencia escritural debe ir en español usando el mapa de traducción inglés→español |
+| **No repetir sidebar** | No incluir coordenadas, tipo, confianza, fuente ni referencia de ejemplo en el contenido narrativo (ya están en el infobox lateral) |
+| **150–400 palabras** | Suficiente para ser útil sin ser exhaustivo — es un glosario, no una monografía |
+| **Longitud flexible** | Ubicaciones mayores (Jerusalén, Belén) pueden tener 400–600 palabras; las menores (una aldea mencionada una vez) pueden tener 100–150 |
+| **Información factual** | Basarse en fuentes verificables. Si hay dudas sobre un dato, omitirlo |
+| **Jerarquía de fuentes** | Alejandría (KG + corpus) → Guía para el Estudio de las Escrituras (SUD) → BibleHub → Wikipedia (último recurso) |
+| **HTML semántico** | Usar `<h2>` para títulos de sección, `<p>` para párrafos. No usar `<h1>` (el título de la página ya es `<h1>`) |
+| **Citas trazables** | Si se incluye una cita textual, debe ir con referencia verificable y en español |
+| **No doctrinal** | No inventar doctrina. Limitarse a lo que las Escrituras y fuentes autorizadas dicen |
+| **No mencionar el sidebar** | El contenido debe ser auto-contenido — no decir "como se ve en la tabla lateral" ni referencias al layout de la página |
+
+## Fallback chain (resumen)
+
+```
+Alejandría (KG + search_text + search_semantic + chat_ask)
+  → Guía para el Estudio de las Escrituras (churchofjesuschrist.org)
+    → BibleHub (topical)
+      → Wikipedia (español)
+        → Si nada funciona: "<Nombre> es [tipo] mencionada en [escrituras]. No se dispone de más información."
+```
+
+Alejandría es siempre la PRIMERA fuente. Agotar todas las búsquedas
+de Alejandría (text, semantic, hybrid, kg_find, chat_ask) antes de
+recurrir a fuentes externas.
+
+## Datos prácticos
+
+- **Contenedor WP-CLI**: `wp_bc_cli`. Comando: `docker exec wp_bc_cli wp ... --allow-root`
+- **CPT**: `bc_location`, registrado en `bc-scripture-map/inc/class-location-cpt.php`
+- **Single template**: `single-bc_location.php` — grid responsivo de 2 columnas (1fr + 300px)
+- **Archive template**: `archive-bc_location.php` — glosario con filtros por letra, texto y tipo
+- **`_bc_loc_disambiguation`**: meta string para desambiguar homónimos (ej: "Siria", "América"). Se muestra como badge en single y archive
+- **`_bc_loc_alt_names`**: JSON array de strings con nombres alternativos. Se renderizan como badges en hero y fila en infobox. Auto-linking: si un alias coincide exactamente con el título de otra entry (1 sola coincidencia), se renderiza como link
+- **`_bc_loc_alias_of`**: integer con el ID de la ubicación principal. La entry muestra bloque "Nombre alternativo de [link]" entre nav y hero. NO se usa si la entry es independiente (ej: Sión)
+- **Homónimos automáticos**: el single template detecta entradas con igual `post_title` y renderiza bloque "Otras acepciones" con enlaces
+- **Alias con entry propia**: crear entry con `_bc_loc_alias_of`, y agregar el nombre al `_bc_loc_alt_names` de la principal
+- **Alias simples**: solo en `_bc_loc_alt_names`, sin entry aparte
+- **Mapa EN→ES**: definido en `single-bc_location.php:236-257` como `$en_to_es`
+- **Tipos**: city → Ciudad, region → Región, wilderness → Desierto, sea → Mar/Lago, river → Río, mountain → Montaña, settlement → Asentamiento, landmark → Lugar emblemático
+- **Contenido se despliega** dentro de un `<div class="bc-location-content">` con fondo blanco y borde
+- **Sidebar**: sticky en desktop, contiene tipo, confianza (coloreada: green/orange/red), fuente, fechas, coordenadas con link a Google Maps, y referencia de ejemplo
+- **El contenido se almacena** en `post_content` como HTML apto para Gutenberg
+- **Sobrescribir sin preguntar**: si la ubicación ya tiene `post_content`, reemplazarlo
+- **No hay paginación en el archive**: todas las ubicaciones se cargan en una sola página
+- **remove_accents()**: las ubicaciones con É se agrupan con E en el glosario
+- **Alejandría**: MCP tools disponibles en este entorno (ver skill `alejandria-search` para detalles)
+- **MSYS_NO_PATHCONV en Windows**: si Git Bash altera rutas, anteponer `MSYS_NO_PATHCONV=1`
+
+## Casos especiales
+
+### Ubicaciones con el mismo nombre que personas
+Algunas ubicaciones comparten nombre con personajes bíblicos (ej: "Adam" es
+tanto persona como lugar — "Adán" la persona, "Adam" la ciudad mencionada en
+DyC 107:53-54). Verificar el tipo y las escrituras para distinguir. Si es
+una ubicación, redactar como lugar; si es ambiguo, priorizar lo que indica
+`_bc_loc_type` y las referencias.
+
+### Ubicaciones sin información
+Si ninguna fuente tiene información sobre una ubicación (caso raro, pero
+posible con ubicaciones "gnosis" de una sola mención), escribir un párrafo
+corto:
+
+> <Nombre> es un(a) [tipo] mencionado(a) en las Escrituras. Aparece en
+> [referencia traducida]. No se dispone de información detallada sobre
+> esta ubicación.
+
+### Ubicaciones con nombre en inglés sin traducción conocida
+Si el nombre inglés (`_bc_loc_name_en`) no tiene una forma española
+establecida, usar el nombre del título (que ya está en español por el
+skill `traducir-ubicaciones`).

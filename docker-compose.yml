@@ -25,6 +25,7 @@ services:
       - ./wp-content/plugins:/var/www/html/wp-content/plugins
       - ./wp-content/themes:/var/www/html/wp-content/themes
       - ./wp-content/uploads:/var/www/html/wp-content/uploads
+      - ./wp-content/mu-plugins:/var/www/html/wp-content/mu-plugins
     depends_on:
       db:
         condition: service_healthy
@@ -45,6 +46,7 @@ services:
       - ./wp-content/plugins:/var/www/html/wp-content/plugins
       - ./wp-content/themes:/var/www/html/wp-content/themes
       - ./wp-content/uploads:/var/www/html/wp-content/uploads
+      - ./wp-content/mu-plugins:/var/www/html/wp-content/mu-plugins
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_NAME: ${DB_NAME:-bc_wp}
