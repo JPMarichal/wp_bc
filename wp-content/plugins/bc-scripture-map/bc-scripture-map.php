@@ -127,10 +127,23 @@ function bc_scripture_map_render_single( $post_id ) {
 		'type'  => get_post_meta( $post_id, '_bc_loc_type', true ),
 	);
 
+	$type_zoom = array(
+		'city'       => 10,
+		'region'     => 7,
+		'wilderness' => 8,
+		'sea'        => 7,
+		'river'      => 10,
+		'mountain'   => 9,
+		'settlement' => 11,
+		'landmark'   => 11,
+	);
+	$location_type = get_post_meta( $post_id, '_bc_loc_type', true );
+	$zoom = isset( $type_zoom[ $location_type ] ) ? $type_zoom[ $location_type ] : 10;
+
 	$data = array(
 		'centerLng'    => (float) $lng,
 		'centerLat'    => (float) $lat,
-		'zoom'         => 12,
+		'zoom'         => $zoom,
 		'pitch'        => 50,
 		'bearing'      => 0,
 		'exaggeration' => 1.5,

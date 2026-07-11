@@ -231,6 +231,55 @@ add_action('wp_head', function () { ?>
   .bc-other-meanings-list a:hover { text-decoration: underline; }
   .bc-other-meanings-disambig { color: #888; font-size: .82rem; font-style: italic; }
   .bc-location-map-inline { margin: 1.75rem 0; }
+  .bc-refs-section { margin-top: 1.25rem; }
+  .bc-refs-heading {
+    font-family: Merriweather, Georgia, "Times New Roman", serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e3a5f;
+    margin: 0 0 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid #1e3a5f;
+  }
+  .bc-refs-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .bc-refs-header {
+    display: table-row;
+    font-size: .78rem;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
+  .bc-refs-row {
+    display: table-row;
+  }
+  .bc-refs-row:nth-child(even) {
+    background: #f8f7f4;
+  }
+  .bc-refs-cell {
+    display: table-cell;
+    padding: .5rem .75rem;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+  }
+  .bc-refs-header .bc-refs-cell {
+    padding: .4rem .75rem;
+    border-bottom: 1px solid #ddd;
+  }
+  .bc-refs-cell.ref {
+    white-space: nowrap;
+    font-weight: 600;
+    color: #1e3a5f;
+    width: 40%;
+  }
+  .bc-refs-cell.book {
+    color: #555;
+    width: 60%;
+  }
   </style>
 <?php }, 25);
 
@@ -431,6 +480,30 @@ get_header(); ?>
                 <div class="bc-location-map-inline"><?php echo bc_scripture_map_render_single( $pid ); ?></div>
               <?php endif; ?>
               <?php echo $rest; ?>
+            </div>
+          <?php endif; ?>
+
+          <?php if ( ! empty( $refs ) ) : ?>
+            <div class="bc-location-content bc-refs-section">
+              <h2 class="bc-refs-heading">Referencias de las Escrituras</h2>
+              <div class="bc-refs-table">
+                <div class="bc-refs-header">
+                  <span class="bc-refs-cell ref">Referencia</span>
+                  <span class="bc-refs-cell book">Libro</span>
+                </div>
+                <?php foreach ( $refs as $r ) :
+                  $ref_str = is_string( $r ) ? $r : ( $r['ref'] ?? '' );
+                  if ( ! $ref_str ) continue;
+                  $ref_es = $translate_ref( $ref_str );
+                  preg_match( '/^([\pL\s]+)\s+/u', $ref_es, $m );
+                  $book_name = $m[1] ?? $ref_es;
+                ?>
+                  <div class="bc-refs-row">
+                    <span class="bc-refs-cell ref"><?php echo esc_html( $ref_es ); ?></span>
+                    <span class="bc-refs-cell book"><?php echo esc_html( $book_name ); ?></span>
+                  </div>
+                <?php endforeach; ?>
+              </div>
             </div>
           <?php endif; ?>
 
