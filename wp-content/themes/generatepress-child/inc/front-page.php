@@ -32,7 +32,7 @@ function bc_front_page_cat_label($cat) {
   return '<span class="bc-fp-cat-label" style="background:' . esc_attr($color) . '">' . esc_html($cat->name) . '</span>';
 }
 
-function bc_front_page_exclude_ids() {
+function &bc_front_page_exclude_ids() {
   static $ids = [];
   return $ids;
 }
