@@ -280,7 +280,7 @@ get_header(); ?>
       'medium' => 'Media',
       'low'    => 'Baja',
     );
-    $refs = $scriptures ? json_decode( $scriptures, true ) : array();
+    $refs = $scriptures ? ( is_array( $scriptures ) ? $scriptures : json_decode( $scriptures, true ) ) : array();
 
     $en_to_es = array(
       'Acts' => 'Hechos', 'Genesis' => 'Génesis', 'Exodus' => 'Éxodo',
