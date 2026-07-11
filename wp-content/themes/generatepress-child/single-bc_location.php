@@ -230,6 +230,7 @@ add_action('wp_head', function () { ?>
   .bc-other-meanings-list a { color: #1e3a5f; font-weight: 500; text-decoration: none; font-size: .88rem; }
   .bc-other-meanings-list a:hover { text-decoration: underline; }
   .bc-other-meanings-disambig { color: #888; font-size: .82rem; font-style: italic; }
+  .bc-location-map { margin-bottom: 1.25rem; }
   </style>
 <?php }, 25);
 
@@ -376,6 +377,12 @@ get_header(); ?>
       </div>
     </div>
   </div>
+
+  <?php if ( $lat && $lng ) : ?>
+  <div class="bc-section-constrained">
+    <?php echo bc_scripture_map_render_single( $pid ); ?>
+  </div>
+  <?php endif; ?>
 
   <?php if ( $homonimos ) : ?>
   <div class="bc-section-constrained">

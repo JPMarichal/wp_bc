@@ -90,7 +90,10 @@ function bc_scripture_map_render( $attributes ) {
 }
 
 function bc_scripture_map_enqueue_frontend() {
-	if ( ! is_admin() && has_block( 'bc/scripture-map' ) ) {
+	if ( is_admin() ) {
+		return;
+	}
+	if ( has_block( 'bc/scripture-map' ) || is_singular( 'bc_location' ) ) {
 		$asset = include BC_SCRIPTURE_MAP_DIR . 'build/frontend.asset.php';
 		wp_enqueue_style(
 			'maplibre-gl',
@@ -108,6 +111,43 @@ function bc_scripture_map_enqueue_frontend() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'bc_scripture_map_enqueue_frontend' );
+
+function bc_scripture_map_render_single( $post_id ) {
+	$lat = get_post_meta( $post_id, '_bc_loc_lat', true );
+	$lng = get_post_meta( $post_id, '_bc_loc_lng', true );
+	if ( ! $lat || ! $lng ) {
+		return '';
+	}
+
+	$location = array(
+		'id'    => $post_id,
+		'title' => get_the_title( $post_id ),
+		'lat'   => (float) $lat,
+		'lng'   => (float) $lng,
+		'type'  => get_post_meta( $post_id, '_bc_loc_type', true ),
+	);
+
+	$data = array(
+		'centerLng'    => (float) $lng,
+		'centerLat'    => (float) $lat,
+		'zoom'         => 12,
+		'pitch'        => 50,
+		'bearing'      => 0,
+		'exaggeration' => 1.5,
+		'height'       => 400,
+		'locations'    => array( $location ),
+		'routes'       => array(),
+		'regions'      => array(),
+		'showLabels'   => true,
+		'tileProvider' => 'satellite',
+		'mapTitle'     => '',
+	);
+
+	return sprintf(
+		'<div class="bc-location-map"><div class="bc-scripture-map-inner" data-map="%s" style="height:400px;border-radius:8px;overflow:hidden"></div></div>',
+		esc_attr( wp_json_encode( $data ) )
+	);
+}
 
 function bc_scripture_map_activation() {
 	bc_scripture_map_register_location_cpt();
