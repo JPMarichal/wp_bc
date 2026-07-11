@@ -230,7 +230,7 @@ add_action('wp_head', function () { ?>
   .bc-other-meanings-list a { color: #1e3a5f; font-weight: 500; text-decoration: none; font-size: .88rem; }
   .bc-other-meanings-list a:hover { text-decoration: underline; }
   .bc-other-meanings-disambig { color: #888; font-size: .82rem; font-style: italic; }
-  .bc-location-map { margin-bottom: 1.25rem; }
+  .bc-location-map-inline { margin: 1.75rem 0; }
   </style>
 <?php }, 25);
 
@@ -378,12 +378,6 @@ get_header(); ?>
     </div>
   </div>
 
-  <?php if ( $lat && $lng ) : ?>
-  <div class="bc-section-constrained">
-    <?php echo bc_scripture_map_render_single( $pid ); ?>
-  </div>
-  <?php endif; ?>
-
   <?php if ( $homonimos ) : ?>
   <div class="bc-section-constrained">
     <div class="bc-location-other-meanings">
@@ -418,9 +412,25 @@ get_header(); ?>
             </div>
           <?php endif; ?>
 
-          <?php if ( get_the_content() ) : ?>
+          <?php
+          $raw_content = get_the_content();
+          if ( $raw_content ) :
+            $content = apply_filters( 'the_content', $raw_content );
+            $first_h2 = strpos( $content, '<h2' );
+            if ( false !== $first_h2 ) {
+              $intro   = substr( $content, 0, $first_h2 );
+              $rest    = substr( $content, $first_h2 );
+            } else {
+              $intro   = $content;
+              $rest    = '';
+            }
+          ?>
             <div class="bc-location-content" itemprop="description">
-              <?php the_content(); ?>
+              <?php echo $intro; ?>
+              <?php if ( $lat && $lng ) : ?>
+                <div class="bc-location-map-inline"><?php echo bc_scripture_map_render_single( $pid ); ?></div>
+              <?php endif; ?>
+              <?php echo $rest; ?>
             </div>
           <?php endif; ?>
 
