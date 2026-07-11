@@ -28,5 +28,6 @@ require_once __DIR__ . '/inc/footer.php';
 require_once __DIR__ . '/inc/block-styles.php';
 require_once __DIR__ . '/inc/admin-columns.php';
 require_once __DIR__ . '/inc/archive-layout.php';
+require_once __DIR__ . '/inc/location-redirect.php';
 require_once __DIR__ . '/inc/header.php';
 require_once __DIR__ . '/inc/block-patterns.php';
