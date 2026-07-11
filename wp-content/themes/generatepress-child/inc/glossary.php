@@ -13,6 +13,12 @@ add_action( 'pre_get_posts', function ( $query ) {
 		$query->set( 'orderby', 'title' );
 		$query->set( 'order', 'ASC' );
 		$query->set( 'posts_per_page', -1 );
+		$meta_query = (array) $query->get( 'meta_query' );
+		$meta_query[] = array(
+			'key'     => '_bc_loc_alias_of',
+			'compare' => 'NOT EXISTS',
+		);
+		$query->set( 'meta_query', $meta_query );
 	}
 } );
 
