@@ -7,7 +7,7 @@ description: |
   Guía para el Estudio de las Escrituras, BibleHub, o Wikipedia como
   último recurso. Proporciona el pipeline completo de extracción →
   redacción → publicación, plantilla de secciones y principios de
-  redacción congruentes con doctrina SUD.
+  redacción congruentes con la doctrina de la Restauración.
 ---
 
 # Skill: glosario-ubicaciones-contenido
@@ -113,7 +113,7 @@ Usar `webfetch` para obtener el contenido en texto/markdown.
 
 ### Fase 3: Fallback — BibleHub
 
-Si la Guía SUD no tiene entrada, consultar **BibleHub**:
+Si la Guía para el Estudio de las Escrituras no tiene entrada, consultar **BibleHub**:
 
 ```
 https://biblehub.com/topical/<slug>.htm
@@ -133,7 +133,7 @@ https://es.wikipedia.org/wiki/<nombre>
 ```
 
 Usar `webfetch` para obtener el contenido. Verificar que la
-información sea factual y no contradiga la doctrina SUD.
+información sea factual y no contradiga la doctrina de la Restauración.
 
 ### Fase 5: Redactar el contenido
 
@@ -142,7 +142,7 @@ secciones** y los **Principios de redacción** abajo.
 
 Reglas clave:
 - **Contenido nuevo**, no copia textual de ninguna fuente
-- **Doctrina SUD**: la información debe ser congruente con la teología
+- **Doctrina de la Restauración**: la información debe ser congruente con la teología
   de La Iglesia de Jesucristo de los Santos de los Últimos Días
 - **Sintetizar**, no concatenar fuentes
 - El contenido se despliega en la columna principal de la single
@@ -150,7 +150,7 @@ Reglas clave:
   tipo, coordenadas, confianza y referencia de ejemplo — **no repetir**
   esos datos en el contenido narrativo
 - Las referencias escriturales deben mostrarse en español. Usar el mapa
-  `en_to_es` definido en `single-bc_location.php:236-257`
+  `en_to_es` definido en `single-bc_location.php:369-391`
 - Longitud recomendada: **150–400 palabras** (suficiente para ser
   informativo sin abrumar en un glosario)
 
@@ -231,19 +231,24 @@ individualmente. El bucle es solo el wrapper mecánico.
 
 El contenido se estructura en **párrafos narrativos** con títulos HTML
 (`<h2>`) para las secciones. No usar listas ni tablas en el cuerpo
-(excepto en "Referencias escriturales" si es necesario).
+(excepto en la sección "Referencias de las Escrituras", que usa tabla
+Forma T).
 
-### Encabezado descriptivo (sin subtítulo) — obligatorio
+### Encabezado descriptivo (sin título) — obligatorio
 
 1–3 párrafos que describen la ubicación: qué es, dónde está (contexto
 geográfico general), por qué es significativa. No repetir coordenadas
 ni el tipo (eso va en el sidebar).
 
-**Esta sección es obligatoria.** El template inserta automáticamente un
-mapa interactivo (MapLibre GL con relieve 3D satelital) entre el final
-del encabezado descriptivo y el primer `<h2>`, siempre que la ubicación
-tenga coordenadas (`_bc_loc_lat`, `_bc_loc_lng`). Sin párrafos
-introductorios antes del primer `<h2>`, el mapa quedaría sin contexto.
+**⚠️ Sin `<h2>`:** el template (`single-bc_location.php:454-458`) toma
+todo lo que está antes del primer `<h2>` como la introducción, e inserta
+el mapa interactivo entre esa introducción y la primera sección con
+título. Si el contenido arranca con `<h2>`, la introducción queda vacía
+y el mapa aparece antes que cualquier texto.
+
+**Esta sección es obligatoria.** El mapa se inserta automáticamente
+entre el final del encabezado descriptivo y el primer `<h2>`, siempre
+que la ubicación tenga coordenadas (`_bc_loc_lat`, `_bc_loc_lng`).
 
 Incluir **significado etimológico del nombre** de forma breve en la
 primera mención, con la fórmula «cuyo nombre significa» o «su nombre
@@ -272,9 +277,9 @@ de María, Marta y Lázaro. Fue aquí donde Jesús resucitó a Lázaro
 (Juan 11:1–44), y donde fue ungido por María seis días antes de la
 Pascua (Juan 12:1–8)."
 
-### Significado para los Santos de los Últimos Días
+### Significado en la teología de la Restauración
 
-Relevancia doctrinal o histórica desde la perspectiva SUD. Cómo se
+Relevancia doctrinal o histórica desde la perspectiva de la Restauración. Cómo se
 interpreta esta ubicación en el marco del Evangelio restaurado.
 Conexiones con otras escrituras (DyC, Libro de Mormón, Perla de
 Gran Precio) si aplican.
@@ -343,7 +348,7 @@ serialized PHP array). `register_post_meta()` con `type => string` + `show_in_re
 requiere JSON. Si se usa `wp post meta set`, pasar el JSON como argumento:
 `wp post meta set <ID> _bc_loc_alt_names '["Alias1","Alias2"]'`.
 
-El template en `single-bc_location.php:254-255` maneja ambos formatos:
+El template en `single-bc_location.php:338-340` maneja ambos formatos:
 ```php
 $alt_names_raw = get_post_meta( $pid, '_bc_loc_alt_names', true );
 $alt_names = is_array( $alt_names_raw ) ? $alt_names_raw
@@ -382,28 +387,100 @@ Tu responsabilidad es:
 El bloque automático de homónimos se renderiza justo después del título
 (estilo diccionario/enciclopedia), antes del contenido narrativo.
 
-### Referencias de las Escrituras (opcional)
+### Referencias de las Escrituras — Forma T (obligatorio)
 
-Lista de pasajes clave con formato: libro capítulo:versículo en
-español (traducidos del inglés). Usar el mapa de traducción de
-`single-bc_location.php`.
+Presentar las referencias más significativas como una **Forma T**:
+formato didáctico de tres elementos (título, objetivo, tabla) donde
+cada fila captura una idea respaldada por su(s) referencia(s).
+La Forma T reemplaza la lista genérica de referencias; leer solo la
+columna de conceptos debe constituir una lección coherente.
+
+**Estructura HTML:**
+
+```html
+<h2>Referencias de las Escrituras</h2>
+
+<table class="bc-forma-t">
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Referencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Idea completa en 15 palabras o menos</td>
+      <td>Libro capítulo:versículo</td>
+    </tr>
+    <tr>
+      <td>Siguiente concepto didáctico sin punto final</td>
+      <td>Siguiente referencia</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+**Reglas:**
+- **Título**: siempre `<h2>Referencias de las Escrituras</h2>`
+- **Tabla**: `<table class="bc-forma-t">` con `<thead>` (Concepto |
+  Referencia) y `<tbody>` con filas
+- **Concepto**: ≤15 palabras, idea completa y didáctica. Sin punto
+  final. Debe responder "¿qué enseña esta referencia sobre la ubicación?"
+- **Referencia**: libro capítulo:versículo en español, traducido con el
+  mapa `en_to_es` de `single-bc_location.php:369-391`
+- **Orden**: secuencia lógica — cronológica, temática o narrativa —
+  para que la columna de conceptos fluya como lección
+- **Cantidad**: 4–8 filas para ubicaciones mayores, 2–4 para menores.
+  No incluir TODAS las referencias de `_bc_loc_scriptures`; solo las
+  más significativas
+
+**Generación de conceptos con Alejandría:**
+
+Usar Alejandría para derivar el concepto de cada referencia clave:
+
+```bash
+# Preguntar qué evento o significado relaciona la escritura con la ubicación:
+alejandria_chat_ask(question: "¿Qué evento ocurrió en <ubicación> según <ref>?")
+
+# Buscar el pasaje directamente:
+alejandria_search_text(query: "<ubicación> <libro> <capítulo>",
+  source_filter: "es/scriptures")
+```
+
+El concepto es una **síntesis didáctica** del significado de ese pasaje
+para la ubicación, no un título ni una cita textual.
+
+**Ejemplos de concepto correcto:**
+
+| Concepto (≤15 palabras, idea completa) | Referencia |
+|:---------------------------------------|:-----------|
+| David conquistó la ciudad y la hizo su capital | 2 Samuel 5:6–9 |
+| Jesús fue crucificado y resucitó aquí | Lucas 23:33–24:6 |
+| Ciudad del gran Rey y centro de adoración verdadera | Salmo 48:1–2 |
+
+**Nota sobre el template PHP:**
+`single-bc_location.php` ya no renderiza referencias automáticas desde
+`_bc_loc_scriptures`. La Forma T en `post_content` es la única fuente
+de referencias escriturales. Si no hay Forma T, no se muestra nada.
 
 ## Principios de redacción
 
 | Principio | Aplicación |
 |-----------|------------|
-| **Narrativo** | Prosa fluida en párrafos HTML (`<p>`), sin viñetas ni tablas en el cuerpo |
-| **Tono congruente con SUD** | Lenguaje respetuoso, favorable a la Iglesia. No incluir teorías especulativas o críticas textuales que contradigan la fe |
+| **Narrativo** | Prosa fluida en párrafos HTML (`<p>`), sin viñetas. Tabla solo en "Referencias de las Escrituras" (Forma T) |
+| **Tono congruente con la doctrina de la Restauración** | Lenguaje respetuoso, favorable a la Iglesia. No incluir teorías especulativas o críticas textuales que contradigan la fe |
 | **Sin copy-paste** | Ningún párrafo debe ser idéntico al de una fuente. Redacción original, voz propia |
 | **Traducir referencias** | Toda referencia escritural debe ir en español usando el mapa de traducción inglés→español |
 | **No repetir sidebar** | No incluir coordenadas, tipo, confianza, fuente ni referencia de ejemplo en el contenido narrativo (ya están en el infobox lateral) |
 | **150–400 palabras** | Suficiente para ser útil sin ser exhaustivo — es un glosario, no una monografía |
 | **Longitud flexible** | Ubicaciones mayores (Jerusalén, Belén) pueden tener 400–600 palabras; las menores (una aldea mencionada una vez) pueden tener 100–150 |
 | **Información factual** | Basarse en fuentes verificables. Si hay dudas sobre un dato, omitirlo |
-| **Jerarquía de fuentes** | Alejandría (KG + corpus) → Guía para el Estudio de las Escrituras (SUD) → BibleHub → Wikipedia (último recurso) |
+| **Jerarquía de fuentes** | Alejandría (KG + corpus) → Guía para el Estudio de las Escrituras → BibleHub → Wikipedia (último recurso) |
 | **HTML semántico** | Usar `<h2>` para títulos de sección, `<p>` para párrafos. No usar `<h1>` (el título de la página ya es `<h1>`) |
 | **Citas trazables** | Si se incluye una cita textual, debe ir con referencia verificable y en español |
 | **No doctrinal** | No inventar doctrina. Limitarse a lo que las Escrituras y fuentes autorizadas dicen |
+| **SUD/mormón no son gentilicios** | No usar "SUD", "mormón" ni "mormona" como adjetivo modificador de un sustantivo (ej: «Escrituras SUD», «doctrina mormona»). Usar frases descriptivas: "Escrituras de la Restauración", "doctrina de la Iglesia", "teología de la Restauración". La excepción es el nombre formal «Santos de los Últimos Días» como sustantivo |
+| **Enfoque en la ubicación** | Si `_bc_loc_type` es un tipo de lugar (city, region, river...), el contenido debe tratar solo la ubicación. No incluir datos del personaje homónimo. Si un personaje se relaciona con el lugar (ej: David con Jerusalén), mencionarlo solo en función de esa relación |
 | **No mencionar el sidebar** | El contenido debe ser auto-contenido — no decir "como se ve en la tabla lateral" ni referencias al layout de la página |
 
 ## Fallback chain (resumen)
@@ -432,10 +509,10 @@ recurrir a fuentes externas.
 - **Homónimos automáticos**: el single template detecta entradas con igual `post_title` y renderiza bloque "Otras acepciones" con enlaces
 - **Alias con entry propia**: crear entry con `_bc_loc_alias_of`, y agregar el nombre al `_bc_loc_alt_names` de la principal
   - Ejemplos existentes: Jebús (ID 2698, alias_of=537), Salem (ID 2699, alias_of=537), ambas con contenido narrativo completo y coordenadas
-  - Sión (ID 2700) es **independiente** (sin `_bc_loc_alias_of`) por su complejidad doctrinal SUD, sin coordenadas
+  - Sión (ID 2700) es **independiente** (sin `_bc_loc_alias_of`) por su complejidad doctrinal en la teología de la Restauración, sin coordenadas
 - **Alias simples**: solo en `_bc_loc_alt_names`, sin entry aparte
 - **Import masivo**: 445 posts recibieron alias del dataset gnosis-places.json (variantes inglesas)
-- **Mapa EN→ES**: definido en `single-bc_location.php:236-257` como `$en_to_es`
+- **Mapa EN→ES**: definido en `single-bc_location.php:369-391` como `$en_to_es`
 - **Mapa interactivo (MapLibre GL)**: se inserta automáticamente entre el encabezado descriptivo y el primer `<h2>` si la ubicación tiene `_bc_loc_lat` y `_bc_loc_lng`. Renderizado por `bc_scripture_map_render_single($post_id)` en `bc-scripture-map.php`. Plugin enqueue los assets (Maplibre GL CSS + frontend.js) en `is_singular('bc_location')`. Altura: 400px, tiles satelitales, relieve 3D
 - **Tipos**: city → Ciudad, region → Región, wilderness → Desierto, sea → Mar/Lago, river → Río, mountain → Montaña, settlement → Asentamiento, landmark → Lugar emblemático
 - **Contenido se despliega** dentro de un `<div class="bc-location-content">` con fondo blanco y borde
@@ -452,9 +529,14 @@ recurrir a fuentes externas.
 ### Ubicaciones con el mismo nombre que personas
 Algunas ubicaciones comparten nombre con personajes bíblicos (ej: "Adam" es
 tanto persona como lugar — "Adán" la persona, "Adam" la ciudad mencionada en
-DyC 107:53-54). Verificar el tipo y las escrituras para distinguir. Si es
-una ubicación, redactar como lugar; si es ambiguo, priorizar lo que indica
-`_bc_loc_type` y las referencias.
+DyC 107:53-54). Verificar el tipo y las escrituras para distinguir.
+
+**Regla:** si `_bc_loc_type` es `city`, `region`, `river`, etc., el contenido
+debe centrarse **exclusivamente en la ubicación**. No incluir biografía del
+personaje homónimo aunque comparta nombre. Si el personaje es relevante para
+la historia del lugar (ej: David y Jerusalén), mencionarlo solo en función de
+su relación con la ubicación. Las referencias escriturales de la Forma T deben
+corresponder solo a pasajes que mencionen el lugar, no al personaje.
 
 ### Ubicaciones sin información
 Si ninguna fuente tiene información sobre una ubicación (caso raro, pero

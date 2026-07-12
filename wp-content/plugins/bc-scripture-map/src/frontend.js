@@ -156,9 +156,10 @@ function getStyle(provider) {
 
 function fitMapToLocations(map, locations) {
 	if (locations.length === 0) return;
+	if (locations.length === 1) return; // single location: use center+zoom from PHP data
 	const bounds = new maplibregl.LngLatBounds();
 	locations.forEach((loc) => bounds.extend([loc.lng, loc.lat]));
-	map.fitBounds(bounds, { padding: 60, maxZoom: 14 });
+	map.fitBounds(bounds, { padding: 60, maxZoom: 12 });
 }
 
 function addMarkers(map, locations, maplibregl, showLabels) {

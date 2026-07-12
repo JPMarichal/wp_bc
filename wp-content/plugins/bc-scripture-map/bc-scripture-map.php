@@ -128,14 +128,14 @@ function bc_scripture_map_render_single( $post_id ) {
 	);
 
 	$type_zoom = array(
-		'city'       => 10,
+		'city'       => 8,
 		'region'     => 7,
 		'wilderness' => 8,
 		'sea'        => 7,
-		'river'      => 10,
-		'mountain'   => 9,
-		'settlement' => 11,
-		'landmark'   => 11,
+		'river'      => 9,
+		'mountain'   => 8,
+		'settlement' => 9,
+		'landmark'   => 9,
 	);
 	$location_type = get_post_meta( $post_id, '_bc_loc_type', true );
 	$zoom = isset( $type_zoom[ $location_type ] ) ? $type_zoom[ $location_type ] : 10;
