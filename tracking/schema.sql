@@ -1,34 +1,38 @@
+PRAGMA journal_mode=WAL;
+PRAGMA foreign_keys=ON;
+
+CREATE TABLE IF NOT EXISTS batches (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  status TEXT NOT NULL DEFAULT 'pending' CHECK(status IN ('pending','in_progress','completed','failed')),
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  completed_at TEXT,
+  commit_hash TEXT
+);
+
 CREATE TABLE IF NOT EXISTS locations (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    post_id INTEGER UNIQUE NOT NULL,
-    title TEXT NOT NULL,
-    name_en TEXT,
-    name_es_meta TEXT,
-    name_es_dest TEXT,
-    slug TEXT,
-    source TEXT,
-    loc_type TEXT,
-    has_scriptures INTEGER DEFAULT 0,
-    scriptures_json TEXT,
-    has_content INTEGER DEFAULT 0,
-    es_status TEXT DEFAULT 'pending',
-    alejandria_match TEXT,
-    alejandria_ref TEXT,
-    alt_names TEXT,
-    alias_of INTEGER,
-    notes TEXT,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  wp_id INTEGER PRIMARY KEY,
+  title TEXT NOT NULL,
+  name_en TEXT,
+  level TEXT CHECK(level IN ('A','B','C')),
+  batch_id INTEGER,
+  status TEXT NOT NULL DEFAULT 'pending' CHECK(status IN ('pending','processing','completed','error')),
+  word_count INTEGER,
+  error TEXT,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  updated_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY (batch_id) REFERENCES batches(id)
 );
 
-CREATE TABLE IF NOT EXISTS translation_log (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    post_id INTEGER NOT NULL,
-    action TEXT NOT NULL,
-    old_value TEXT,
-    new_value TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+CREATE TABLE IF NOT EXISTS activity_log (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  session_id TEXT NOT NULL,
+  batch_id INTEGER,
+  action TEXT NOT NULL,
+  detail TEXT,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY (batch_id) REFERENCES batches(id)
 );
 
-CREATE INDEX IF NOT EXISTS idx_es_status ON locations(es_status);
-CREATE INDEX IF NOT EXISTS idx_source ON locations(source);
-CREATE INDEX IF NOT EXISTS idx_post_id ON locations(post_id);
+CREATE INDEX IF NOT EXISTS idx_locations_status ON locations(status);
+CREATE INDEX IF NOT EXISTS idx_locations_batch ON locations(batch_id);
+CREATE INDEX IF NOT EXISTS idx_batches_status ON batches(status);

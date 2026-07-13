@@ -1,6 +1,6 @@
-# Ejemplo: Ai (Hay)
+# Ejemplo: Ai (Hay) — nivel C
 
-Demostración para una ubicación menos conocida con información limitada.
+Demostración del formato nuevo para una ubicación nivel C (150–300 palabras).
 (ID ficticio 12346 — usar el ID real al ejecutar.)
 
 ## Fase 0: Obtener datos
@@ -8,93 +8,76 @@ Demostración para una ubicación menos conocida con información limitada.
 ```bash
 docker exec wp_bc_cli wp post list \
   --post_type=bc_location \
-  --s="Hay" \
+  --s="Ai" \
   --fields=ID,post_title,post_name,post_status --allow-root
-
-docker exec wp_bc_cli wp post meta list 12346 --allow-root
 ```
 
-Metadatos obtenidos:
-
-| Meta key | Valor |
-|----------|-------|
-| `_bc_loc_name_en` | Ai |
-| `_bc_loc_type` | city |
-| `_bc_loc_scriptures` | `[{"ref":"Josh 7:2"},{"ref":"Josh 8:1"},{"ref":"Josh 10:1"},{"ref":"Neh 11:31"},{"ref":"Jer 49:3"}]` |
-| `_bc_loc_lat` | 31.9167 |
-| `_bc_loc_lng` | 35.2833 |
-| `_bc_loc_source` | openbible |
-| `_bc_loc_confidence` | medium |
-| `_bc_loc_date_from` | -1400 |
-| `_bc_loc_date_to` | -500 |
+Metadatos:
+- `_bc_loc_name_en`: Ai
+- `_bc_loc_type`: city
+- `_bc_loc_scriptures`: [{"ref":"Josh 7:2"},{"ref":"Josh 8:1"},{"ref":"Josh 10:1"},{"ref":"Neh 11:31"},{"ref":"Jer 49:3"}]
+- `_bc_loc_lat`: 31.9167, `_bc_loc_lng`: 35.2833
+- `_bc_loc_confidence`: medium
 
 ## Fase 1: Investigar
 
-Alejandría:
 ```bash
 alejandria_kg_find(query: "Ai")
 alejandria_search_text(query: "Ai", source_filter: "es/scriptures")
-alejandria_search_semantic(query: "Ai biblical city conquest")
+alejandria_chat_ask(question: "¿Qué importancia tiene Ai en la Biblia?")
+
+# Fallback
+webfetch(url: "https://biblehub.com/topical/a/ai.htm")
 ```
 
-Fallo de Alejandría → Guía para el Estudio de las Escrituras:
-```bash
-webfetch(url: "https://www.churchofjesuschrist.org/study/scriptures/gs/hay?lang=spa")
-```
+## Fase 2: Contenido redactado
 
-## Fase 5: Contenido redactado
+Nivel C: ~250 palabras, intro + 2 módulos + conclusión + fuentes + Forma T 3 filas.
 
 ```html
-<h2>Una ciudad de la conquista</h2>
+<p>Hay, conocida en español como Ai —que significa "la ruina"—, fue una ciudad cananea ubicada al este de Betel, en la región montañosa de Benjamín (Josué 7:2). Ocupa un lugar significativo en la narrativa de la conquista de Canaán bajo el liderazgo de Josué.</p>
 
-<p>Hay (Ai en hebreo, que significa "la ruina") era una ciudad cananea ubicada al este de Betel, en la región montañosa de Benjamín. Aparece prominentemente en el relato de la conquista de Canaán bajo el liderazgo de Josué.</p>
+<h2>Historia en las Escrituras</h2>
 
-<h2>Relato bíblico</h2>
+<p>Ai aparece principalmente en el libro de Josué. La primera vez que Israel intentó tomarla, fueron derrotados estrepitosamente debido al pecado de Acán, quien había tomado del anatema de Jericó (Josué 7:2–5). Después de que Acán fue juzgado y ejecutado, Josué dirigió un segundo ataque empleando una estrategia de emboscada que resultó en una victoria completa. La ciudad fue destruida y quedó en ruinas para siempre (Josué 8:1–29).</p>
 
-<p>La primera vez que Israel intentó tomar Hay, fueron derrotados debido al pecado de Acán, quien había tomado del anatema de Jericó (Josué 7:2–5). Después de que Acán fue juzgado, Josué dirigió un segundo ataque con una estrategia de emboscada, logrando la victoria (Josué 8:1–29). Hay fue destruida y quedó en ruinas. Más tarde, en el período postexílico, la ciudad fue reconstruida y mencionada entre las ciudades habitadas por los benjamitas (Nehemías 11:31).</p>
+<p>Siglos después, en el período postexílico, Ai fue reconstruida y aparece mencionada entre las ciudades habitadas por los benjamitas que regresaron del cautiverio (Nehemías 11:31). El profeta Jeremías también la menciona en un oráculo contra los filisteos (Jeremías 49:3).</p>
 
-<h2>Significado en la teología de la Restauración</h2>
+<p>En la actualidad, la mayoría de los arqueólogos identifican Ai con el sitio de et-Tell, aunque persiste un debate sobre si la destrucción de la ciudad del Bronce Antiguo coincide cronológicamente con la conquista israelita.</p>
 
-<p>La historia de Hay enseña la importancia de la obediencia y la santidad en la obra del Señor. La derrota inicial de Israel muestra que la desobediencia individual puede afectar a toda la comunidad del convenio, mientras que la victoria final demuestra que el arrepentimiento y la obediencia restauran el favor divino. Es un poderoso recordatorio de que el Señor pelea por Su pueblo cuando este es fiel.</p>
+<h2>Lecciones y simbolismo</h2>
+
+<p>La historia de Ai enseña que la desobediencia individual puede afectar a toda la comunidad del convenio. La derrota inicial de Israel no fue por inferioridad militar sino por la presencia del pecado en el campamento. Una vez que el obstáculo fue removido, el Señor peleó por Su pueblo y les dio la victoria. Es un poderoso recordatorio de que la santidad personal tiene consecuencias colectivas.</p>
+
+<h2>Conclusión</h2>
+
+<p>Ai, cuyo nombre proféticamente significa "la ruina", experimentó la ruina literal dos veces: una por el juicio divino y otra por el abandono humano. Su historia nos recuerda que la obediencia colectiva es necesaria para que el poder de Dios se manifieste plenamente entre Su pueblo.</p>
+
+<h2>Fuentes consultadas</h2>
+
+<ul>
+  <li><a href="https://www.churchofjesuschrist.org/study/scriptures/gs/hay?lang=spa">Guía para el Estudio de las Escrituras — Hay</a></li>
+  <li><a href="https://biblehub.com/topical/a/ai.htm">BibleHub — Ai</a></li>
+</ul>
 
 <h2>Referencias de las Escrituras</h2>
 
 <table class="bc-forma-t">
   <thead>
-    <tr>
-      <th>Concepto</th>
-      <th>Referencia</th>
-    </tr>
+    <tr><th>Concepto</th><th>Referencia</th></tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Israel fue derrotado por el pecado de Acán</td>
-      <td>Josué 7:2–5</td>
-    </tr>
-    <tr>
-      <td>Josué tomó la ciudad con una emboscada estratégica</td>
-      <td>Josué 8:1–29</td>
-    </tr>
-    <tr>
-      <td>Hay fue reconstruida en el período postexílico</td>
-      <td>Nehemías 11:31</td>
-    </tr>
+    <tr><td>Israel fue derrotado por el pecado de Acán</td><td>Josué 7:2–5</td></tr>
+    <tr><td>Josué tomó Ai con una estrategia de emboscada</td><td>Josué 8:1–29</td></tr>
+    <tr><td>Ai fue reconstruida en el período postexílico</td><td>Nehemías 11:31</td></tr>
   </tbody>
 </table>
 ```
 
-## Fase 6: Publicar
-
-Incluir el contenido completo de Fase 5 (incluyendo la Forma T de
-referencias). Usar un archivo temporal para evitar problemas de escaping:
-
-```bash
-type C:\ruta\al\contenido-completo.html | docker exec -i wp_bc_cli wp post update 12346 --post_content="$(cat /dev/stdin)" --allow-root
-```
-```
-
-## Fase 7: Verificar
-
-```bash
-docker exec wp_bc_cli wp post get 12346 --field=post_content --allow-root | head -c 200
-```
+Notas sobre este ejemplo:
+- ~250 palabras (nivel C)
+- 3 módulos: Historia + Lecciones + Conclusión + Fuentes + Forma T
+- Intro 1 párrafo: responde "¿Qué es Ai?"
+- Arqueología mencionada brevemente sin polemizar
+- Forma T: 3 filas
+- Sin sección de Restauración forzada (no hay contenido SUD significativo)
