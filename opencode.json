@@ -32,7 +32,8 @@
         "-e", "WORDPRESS_APP_PASSWORD=gK9SyXM0qMhoMvDIAraTVX72",
         "docdyhr/mcp-wordpress:latest"
       ],
-      "enabled": true
+      "enabled": true,
+      "timeout": 60000
     }
   }
 }
