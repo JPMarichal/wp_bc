@@ -42,12 +42,13 @@ def complete_batch(batch_id, commit_hash):
     conn.close()
 
 
-def fail_batch(batch_id, error):
+def fail_batch(batch_id, error=""):
     conn = get_conn()
     conn.execute(
         "UPDATE batches SET status='failed', completed_at=datetime('now') WHERE id=?",
         (batch_id,),
     )
+    conn.commit()
     conn.close()
 
 
