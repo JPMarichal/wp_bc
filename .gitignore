@@ -25,6 +25,8 @@ nul
 
 # Temp files
 tmp/
+tmp-content/
+temp/
 =0.4
 current_*.txt
 current_*.html
@@ -32,6 +34,15 @@ raw_content.txt
 fixed_content*
 tmp_*.txt
 post*.json
+_wd_*.json
+_debug_*.json
+_cn_*.json
+_eom_*.json
+_ia_*.json
+test_search.json
+corptemp.json
+search-wikidata-uncovered.log
+
 
 # OS artifacts
 nul
