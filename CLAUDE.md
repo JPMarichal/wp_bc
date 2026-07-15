@@ -1,5 +1,18 @@
 # WordPress Build Philosophy — wp_bc
 
+## ⚠️ REGLA CRÍTICA: Usar SIEMPRE podman, NUNCA docker
+
+**NUNCA usar comandos `docker` bajo ninguna circunstancia.** Cualquier comando que pueda correrse como `podman` debe correrse como `podman`, no como `docker`. Los contenedores de este proyecto corren en **podman (Podman Desktop)**. Ejecutar comandos `docker` mezcla los contenedores con los de Docker Desktop y los corrompe, haciéndolos desaparecer de la interfaz de Podman Desktop.
+
+En lugar de:
+```bash
+docker exec wp_bc_cli wp post get 2651
+```
+Usar:
+```bash
+podman exec wp_bc_cli wp post get 2651
+```
+
 ## Principios Fundamentales
 
 ### 1. Componentes Sass con Responsabilidad Única

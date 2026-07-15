@@ -138,6 +138,47 @@ add_action('wp_head', function () { ?>
   .bc-infobox-confidence-high { color: #2e7d32; font-weight: 600; }
   .bc-infobox-confidence-medium { color: #e65100; font-weight: 600; }
   .bc-infobox-confidence-low { color: #c62828; font-weight: 600; }
+  .bc-infobox-relevancia-high { color: #1e3a5f; font-weight: 600; }
+  .bc-infobox-relevancia-medium { color: #6d4c41; font-weight: 600; }
+  .bc-infobox-relevancia-low { color: #888; font-weight: 600; }
+  .bc-location-key-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: .6rem .8rem;
+    background: rgba(30, 58, 95, .04);
+    border-left: 3px solid #1e3a5f;
+    border-radius: 0 4px 4px 0;
+    font-size: .85rem;
+    color: #444;
+  }
+  .bc-key-fact {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+  }
+  .bc-key-fact i {
+    color: #1e3a5f;
+    font-size: .8rem;
+  }
+  .bc-faq details {
+    background: #f9f8f6;
+    border: 1px solid #e0ddd5;
+    border-radius: 6px;
+    padding: .6rem .8rem;
+    margin-bottom: .5rem;
+  }
+  .bc-faq summary {
+    font-weight: 600;
+    color: #1e3a5f;
+    cursor: pointer;
+  }
+  .bc-faq p {
+    margin: .5rem 0 0;
+    color: #444;
+  }
   .bc-infobox-coords { font-size: .8rem; color: #888; word-break: break-all; }
   .bc-infobox-coords a { color: #1e3a5f; text-decoration: none; }
   .bc-infobox-coords a:hover { text-decoration: underline; }
@@ -316,6 +357,33 @@ get_header(); ?>
       'low'    => 'Baja',
     );
     $refs = $scriptures ? ( is_array( $scriptures ) ? $scriptures : json_decode( $scriptures, true ) ) : array();
+    $ref_count = is_array( $refs ) ? count( $refs ) : 0;
+
+    $high_relevance_ids = include get_theme_file_path( '/inc/high-relevance-locations.php' );
+    $relevancia = 1; // Baja por defecto
+    if ( in_array( $pid, $high_relevance_ids, true ) ) {
+      $relevancia = 3; // Alta
+    } else {
+      $t = $type;
+      $rc = $ref_count;
+      if ( $rc >= 6 ) {
+        $relevancia = 3;
+      } elseif ( $rc >= 3 && in_array( $t, array( 'region', 'sea', 'river', 'mountain', 'wilderness' ), true ) ) {
+        $relevancia = 3;
+      } elseif ( $rc >= 2 && in_array( $t, array( 'city', 'settlement', 'landmark' ), true ) ) {
+        $relevancia = 2;
+      } elseif ( $rc >= 1 && in_array( $t, array( 'region', 'sea', 'river', 'mountain', 'wilderness', 'valley' ), true ) ) {
+        $relevancia = 2;
+      } elseif ( $rc >= 1 && $t === 'landmark' ) {
+        $relevancia = 2;
+      }
+    }
+
+    $relevancia_labels = array(
+      1 => 'Baja',
+      2 => 'Media',
+      3 => 'Alta',
+    );
 
     $en_to_es = array(
       'Acts' => 'Hechos', 'Genesis' => 'Génesis', 'Exodus' => 'Éxodo',
@@ -413,6 +481,27 @@ get_header(); ?>
     </div>
   </div>
 
+  <div class="bc-location-key-facts">
+    <span class="bc-key-fact">
+      <i class="fas fa-map-marker-alt"></i>
+      <?php echo esc_html( $type_labels[ $type ] ?? 'Ubicación' ); ?>
+    </span>
+    <?php if ( $name_en ) : ?>
+      <span class="bc-key-fact">
+        <i class="fas fa-globe"></i>
+        <?php echo esc_html( $name_en ); ?>
+      </span>
+    <?php endif; ?>
+    <span class="bc-key-fact">
+      <i class="fas fa-star"></i>
+      Relevancia: <?php echo esc_html( $relevancia_labels[ $relevancia ] ); ?>
+    </span>
+    <span class="bc-key-fact">
+      <i class="fas fa-book-open"></i>
+      <?php echo esc_html( $ref_count ); ?> referencia<?php echo $ref_count === 1 ? '' : 's'; ?> escritural<?php echo $ref_count === 1 ? '' : 'es'; ?>
+    </span>
+  </div>
+
   <?php if ( $homonimos ) : ?>
   <div class="bc-section-constrained">
     <div class="bc-location-other-meanings">
@@ -466,6 +555,29 @@ get_header(); ?>
                 <div class="bc-location-map-inline"><?php echo bc_scripture_map_render_single( $pid ); ?></div>
               <?php endif; ?>
               <?php echo $rest; ?>
+              <?php if ( $relevancia >= 2 ) :
+                $faq_raw = get_post_meta( $pid, '_bc_loc_faq', true );
+                $faqs = is_array( $faq_raw ) ? $faq_raw : ( $faq_raw ? json_decode( $faq_raw, true ) : array() );
+                if ( ! empty( $faqs ) ) :
+                  $faq_jsonld = array( '@context' => 'https://schema.org', '@type' => 'FAQPage', 'mainEntity' => array() );
+                ?>
+                <div class="bc-faq" itemscope itemtype="https://schema.org/FAQPage">
+                  <h2>Preguntas frecuentes</h2>
+                  <?php foreach ( $faqs as $faq ) :
+                    $faq_jsonld['mainEntity'][] = array( '@type' => 'Question', 'name' => $faq['q'], 'acceptedAnswer' => array( '@type' => 'Answer', 'text' => $faq['a'] ) );
+                  ?>
+                    <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                      <summary itemprop="name"><?php echo esc_html( $faq['q'] ); ?></summary>
+                      <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+                        <p itemprop="text"><?php echo esc_html( $faq['a'] ); ?></p>
+                      </div>
+                    </details>
+                  <?php endforeach; ?>
+                </div>
+                <script type="application/ld+json">
+                <?php echo json_encode( $faq_jsonld, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ); ?>
+                </script>
+              <?php endif; ?>
             </div>
           <?php endif; ?>
 
@@ -477,6 +589,7 @@ get_header(); ?>
             <meta itemprop="longitude" content="<?php echo esc_attr( $lng ); ?>">
           <?php endif; ?>
         </article>
+        <?php endif; ?> <!-- cierre de $raw_content -->
 
       </div>
 
@@ -499,6 +612,12 @@ get_header(); ?>
                     echo $html;
                   endforeach; ?>
                 </span>
+              </li>
+            <?php endif; ?>
+            <?php if ( $relevancia && isset( $relevancia_labels[ $relevancia ] ) ) : ?>
+              <li>
+                <i class="fas fa-star"></i>
+                <span>Relevancia: <span class="bc-infobox-relevancia-<?php echo esc_attr( $relevancia === 3 ? 'high' : ( $relevancia === 2 ? 'medium' : 'low' ) ); ?>"><?php echo esc_html( $relevancia_labels[ $relevancia ] ); ?></span></span>
               </li>
             <?php endif; ?>
             <?php if ( $confidence && isset( $confidence_labels[ $confidence ] ) ) : ?>

@@ -1,3 +1,5 @@
+set windows-shell := ["powershell.exe", "-NoLogo", "-NoProfile", "-Command"]
+
 cli := "docker exec wp_bc_cli wp"
 
 # Run full maintenance (transients, spam, auto-drafts, DB optimize)
@@ -65,3 +67,8 @@ regenerate-thumbnails:
 # Show available commands
 default:
     @just --list
+
+# Fix container engine isolation between Rancher Desktop (C:\git) and Podman (C:\own)
+# Run from C:\own\wp_bc if RD shows own containers or PD shows nothing.
+fix-engine-isolation:
+    powershell -ExecutionPolicy Bypass -NoLogo -NoProfile -File "C:\own\wp_bc\scripts\ensure-engine-isolation.ps1"

@@ -56,12 +56,15 @@ def add_locations(batch_id, locations):
     conn = get_conn()
     for loc in locations:
         conn.execute(
-            "INSERT OR REPLACE INTO locations (wp_id, title, name_en, level, batch_id, status) VALUES (?, ?, ?, ?, ?, 'pending')",
+            "INSERT OR REPLACE INTO locations (wp_id, title, name_en, level, relevancia, rewritten, regeneration_reason, batch_id, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'pending')",
             (
                 loc["wp_id"],
                 loc["title"],
                 loc.get("name_en"),
                 loc.get("level", "C"),
+                loc.get("relevancia"),
+                loc.get("rewritten", "no"),
+                loc.get("regeneration_reason"),
                 batch_id,
             ),
         )
@@ -83,7 +86,7 @@ def mark_processing(locations_ids):
 def mark_completed(wp_id, word_count=0):
     conn = get_conn()
     conn.execute(
-        "UPDATE locations SET status='completed', word_count=?, updated_at=datetime('now') WHERE wp_id=?",
+        "UPDATE locations SET status='completed', rewritten='yes', word_count=?, updated_at=datetime('now') WHERE wp_id=?",
         (word_count, wp_id),
     )
     conn.commit()
@@ -95,6 +98,16 @@ def mark_error(wp_id, error_msg):
     conn.execute(
         "UPDATE locations SET status='error', error=?, updated_at=datetime('now') WHERE wp_id=?",
         (error_msg, wp_id),
+    )
+    conn.commit()
+    conn.close()
+
+
+def set_relevancia(wp_id, relevancia):
+    conn = get_conn()
+    conn.execute(
+        "UPDATE locations SET relevancia=?, updated_at=datetime('now') WHERE wp_id=?",
+        (relevancia, wp_id),
     )
     conn.commit()
     conn.close()
@@ -151,6 +164,31 @@ def get_stats():
     row["batches"] = dict(cur2.fetchone())["batches"]
     conn.close()
     return row
+
+
+def mark_for_regeneration(wp_id, reason="new_relevance"):
+    conn = get_conn()
+    conn.execute(
+        "UPDATE locations SET status='pending', rewritten='yes', regeneration_reason=?, updated_at=datetime('now') WHERE wp_id=?",
+        (reason, wp_id),
+    )
+    conn.commit()
+    conn.close()
+
+
+def get_regeneration_queue(batch_size=10, relevance_filter=None):
+    conn = get_conn()
+    query = "SELECT * FROM locations WHERE status='pending'"
+    params = []
+    if relevance_filter:
+        query += " AND relevancia=?"
+        params.append(relevance_filter)
+    query += " ORDER BY relevancia DESC, wp_id ASC LIMIT ?"
+    params.append(batch_size)
+    cur = conn.execute(query, params)
+    rows = cur.fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
 
 
 if __name__ == "__main__":

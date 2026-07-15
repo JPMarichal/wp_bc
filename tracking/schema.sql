@@ -14,10 +14,13 @@ CREATE TABLE IF NOT EXISTS locations (
   title TEXT NOT NULL,
   name_en TEXT,
   level TEXT CHECK(level IN ('A','B','C')),
+  relevancia INTEGER CHECK(relevancia IN (1,2,3)),
   batch_id INTEGER,
   status TEXT NOT NULL DEFAULT 'pending' CHECK(status IN ('pending','processing','completed','error')),
   word_count INTEGER,
   error TEXT,
+  rewritten TEXT DEFAULT 'no' CHECK(rewritten IN ('yes','no')),
+  regeneration_reason TEXT,
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   updated_at TEXT NOT NULL DEFAULT (datetime('now')),
   FOREIGN KEY (batch_id) REFERENCES batches(id)

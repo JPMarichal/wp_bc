@@ -42,6 +42,21 @@ El sitio es **mucho más que una colección de citas**. Incluye, como mínimo:
 - Los comandos de mantenimiento asumen los nombres de contenedor `wp_bc`, `wp_bc_cli`,
   `wp_bc_db` y la red `wp_bc_default`.
 
+### Regla absoluta de este proyecto
+
+> **Dentro de `C:\own\wp_bc` (y sus subdirectorios) NUNCA ejecutar `docker ...` ni `docker compose ...`.**
+>
+> - Usá `podman ...` y `podman compose ...` exclusivamente.
+> - No ejecutes comandos `docker` desde terminales que estén ubicadas en `C:\own\wp_bc` o sus
+>   subdirectorios, porque en este host `docker` apunta a Rancher Desktop/Moby y tocaría
+>   contenedores de `C:\git`.
+> - Si un script, `justfile` o herramienta invoca `docker`, verificá que en la práctica esté
+>   operando contra Podman. Si dudás, corré `docker ps` desde `C:\own\wp_bc`: si aparecen
+>   contenedores de `C:\git` (`web-shim`, `sso-api`, `mysql`, etc.), estás en el motor
+>   equivocado.
+> - Esta regla aplica a todo: desarrollo, mantenimiento, backups, MCPs, scripts, CI local y
+>   cualquier operación dentro del proyecto.
+
 ### Servicios (`docker-compose.yml`)
 
 | Servicio | Contenedor | Rol |

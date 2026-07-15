@@ -3,12 +3,23 @@ name: glosario-ubicaciones-contenido
 description: |
   Generar contenido narrativo (post_content) del CPT bc_location para el
   Glosario de Ubicaciones bíblicas. Usar cuando se necesite redactar la
-  descripción de una ubicación desde fuentes del corpus de Alejandría,
-  BYU/FAIR, BibleHub, Wikipedia o diccionarios bíblicos. Proporciona el
-  pipeline completo de extracción → redacción → publicación, plantilla
-  modular según el nivel de la ubicación y principios de redacción
-  congruentes con la doctrina de la Restauración.
+  descripción de una ubicación desde fuentes de Alejandría, BYU RSC,
+  Maxwell Institute, FAIR, Book of Mormon Central, sitio oficial SUD,
+  BibleHub, diccionarios bíblicos y Wikipedia. Proporciona el pipeline
+  completo de investigación exhaustiva → redacción → publicación,
+  plantilla modular y principios de redacción congruentes con la
+  doctrina de la Restauración.
 ---
+
+> ## ⚠️ REGLA INNEGABLE: USA SIEMPRE `podman`, NUNCA `docker`
+>
+> Los contenedores de este proyecto (`wp_bc_db`, `wp_bc`, `wp_bc_cli`)
+> se gestionan con **podman**. Usar `docker exec` contamina el entorno y
+> puede mezclar/romper los contenedores. **SIEMPRE, SIEMPRE, SIEMPRE**
+> usa `podman` en lugar de `docker` para cualquier interacción:
+> `podman exec wp_bc_cli wp ... --allow-root`, `podman exec wp_bc_db ...`,
+> `podman ps`, `podman start`, etc. No existe excepción. Si ves `docker`
+> en un comando, corrígelo a `podman` antes de ejecutarlo.
 
 # Skill: glosario-ubicaciones-contenido
 
@@ -26,14 +37,14 @@ Genera el contenido narrativo (`post_content`) de una ubicación del CPT
 Identificar el ID y metadatos de la ubicación:
 
 ```bash
-docker exec wp_bc_cli wp post list \
+podman exec wp_bc_cli wp post list \
   --post_type=bc_location \
   --s="Nombre" \
   --fields=ID,post_title,post_name,post_status --allow-root
 
-docker exec wp_bc_cli wp post meta list <ID> --allow-root
+podman exec wp_bc_cli wp post meta list <ID> --allow-root
 
-docker exec wp_bc_cli wp post get <ID> --field=post_content --allow-root
+podman exec wp_bc_cli wp post get <ID> --field=post_content --allow-root
 ```
 
 Metadatos disponibles:
@@ -72,7 +83,7 @@ correctos: `city`, `region`, `wilderness`, `sea`, `river`, `mountain`,
 Corregir si está mal:
 
 ```bash
-docker exec wp_bc_cli wp post meta update <ID> _bc_loc_type <tipo_correcto> --allow-root
+podman exec wp_bc_cli wp post meta update <ID> _bc_loc_type <tipo_correcto> --allow-root
 ```
 
 Casos conocidos de tipo incorrecto:
@@ -85,13 +96,13 @@ Verificar si la ubicación tiene `_bc_loc_alias_of` seteado. Si es alias
 de otra, **no procesarla**: su contenido se genera desde la principal.
 
 ```bash
-docker exec wp_bc_cli wp post meta get <ID> _bc_loc_alias_of --allow-root
+podman exec wp_bc_cli wp post meta get <ID> _bc_loc_alias_of --allow-root
 ```
 
 Para detectar duplicados no marcados, buscar por `_bc_loc_name_en`:
 
 ```bash
-docker exec -e MYSQL_PWD=wppass wp_bc_db mysql -uwpuser bc_wp -e "
+podman exec -e MYSQL_PWD=wppass wp_bc_db mysql -uwpuser bc_wp -e "
 SELECT p.ID, p.post_title, pm.meta_value as name_en
 FROM wp_posts p
 JOIN wp_postmeta pm ON p.ID = pm.post_id AND pm.meta_key = '_bc_loc_name_en'
@@ -103,7 +114,7 @@ Si hay dos posts con el mismo `_bc_loc_name_en`:
 - El de menor ID es el **principal**
 - El de mayor ID se marca como **alias**:
   ```bash
-  docker exec wp_bc_cli wp post meta update <ID_MAYOR> _bc_loc_alias_of <ID_MENOR> --allow-root
+  podman exec wp_bc_cli wp post meta update <ID_MAYOR> _bc_loc_alias_of <ID_MENOR> --allow-root
   ```
 
 **No procesar ubicaciones que sean alias de otra.** Saltarlas en el
@@ -111,67 +122,111 @@ batch loop.
 
 ---
 
-### Fase 0c: Determinar nivel
+### Fase 0c: Obtener nivel desde relevancia pre-llenada
 
-Clasificar la ubicación como A, B o C según estas reglas:
+La columna `relevancia` en `tracking/locations.db` ya está pre-computada
+para todas las ubicaciones. No determinar el nivel durante la generación:
+leerlo de la DB según este mapeo:
 
-| Factor | A (1000+ palabras) | B (400–800 palabras) | C (150–300 palabras) |
-|--------|:------------------:|:--------------------:|:--------------------:|
-| Menciones escriturales | 10+ | 3–9 | 1–2 |
-| Referencias en `_bc_loc_scriptures` | 8+ | 3–7 | 1–2 |
-| Relevancia histórica | Capitales, imperios, regiones mayores | Ciudades medianas, valles, montañas notables | Aldeas, parajes menores |
-| Ejemplos | Jerusalén, Babilonia, Egipto, Roma, Nínive, Ur, Edén, Sión, Sinaí, Asiria | Hebrón, Betania, Capernaum, Damasco, Tiro, Belén, Siquem, Jordán | Abel-mehola, Aczib, Adulam, Buz, Cabul |
-| Módulos típicos | Todos aplicables (8). Historia subdividida con `<h3>` | 4–6 módulos | Intro + Historia + Lecciones + Fuentes + Forma T |
+| `relevancia` | Nivel | Mín. palabras | Módulos típicos | Forma T |
+|--------------|-------|:-------------:|-----------------|:-------:|
+| **3 — Alta** | **A** | 1000+ | Todos aplicables. Historia subdividida con `<h3>` | 8–15 filas |
+| **2 — Media** | **B** | 400–800 | 4–6 módulos | 4–8 filas |
+| **1 — Baja** | **C** | 150–300 | Intro + Historia + Lecciones + Fuentes + Forma T | 2–4 filas |
 
-**Regla práctica**: si tiene dudas, elegir B. Siempre se puede ajustar
-según el material encontrado durante la investigación.
+```bash
+python -c "
+import sqlite3
+conn = sqlite3.connect('tracking/locations.db')
+cur = conn.cursor()
+cur.execute('SELECT relevancia FROM locations WHERE wp_id=?', (<ID>,))
+row = cur.fetchone()
+relevancia = row[0] if row else 1
+print(f'Relevancia: {relevancia} ({chr(65+3-relevancia)})')
+conn.close()
+```
 
 ---
 
-### Fase 1: Investigar
+### Fase 0d: Plantilla de investigación por tipo
 
-**Alejandría es la fuente primaria.** Agotar todas las búsquedas antes
-de ir a fuentes externas.
+Usar la plantilla correspondiente al `_bc_loc_type` de la ubicación:
+
+| Tipo | Enfoque de investigación |
+|------|--------------------------|
+| `city`, `settlement` | Fundación, menciones bíblicas, arqueología, situación actual |
+| `region`, `wilderness` | Límites geográficos, eventos clave, importancia estratégica |
+| `sea`, `river` | Geografía, eventos escriturales, simbolismo |
+| `mountain` | Eventos clave, simbolismo, menciones |
+| `landmark` | Descripción, eventos, significado doctrinal (DyC/JST si aplica) |
+
+---
+
+### Fase 0e: Checklist de fuentes
+
+Documentar en `Fuentes consultadas`:
+
+1. Alejandría (KG + search_text + chat_ask)
+2. Una fuente web oficial SUD o churchofjesuschrist.org
+3. Una enciclopedia bíblica (BibleHub o Wikipedia)
+4. Si relevancia Alta/Media: al menos una fuente adicional (BYU, Maxwell, FAIR, etc.)
+
+Scoring de calidad de fuentes (no es fallback, es scoring):
+1. Escrituras + conocimiento revelado (DyC, JST, PGP, Libro de Mormón)
+2. Alejandría (corpus propio)
+3. Fuentes oficiales SUD (churchofjesuschrist.org, lds.org)
+4. Diccionarios bíblicos académicos (Holman, Smith, Easton)
+5. Wikipedia (español/inglés)
+6. Otras fuentes académicas (BYU RSC, Maxwell, FAIR)
+
+---
+
+### Fase 1: Investigación exhaustiva
+
+Consultar **todas** las fuentes aplicables. No es una cadena de
+fallbacks sino un sistema de recolección exhaustiva: cada fuente
+aporta datos que las otras no tienen. El orden de consulta lo
+determina el criterio, no una jerarquía fija.
 
 ```bash
-# 1. Knowledge Graph
+# ── Alejandría ──────────────────────────────────────
 alejandria_kg_find(query: "<nombre>")
-
-# 2. Corpus textual
 alejandria_search_text(query: "<nombre>", limit: 10)
 alejandria_search_text(query: "<nombre>", source_filter: "es/scriptures")
 alejandria_search_text(query: "<nombre>", source_filter: "en/scriptures")
 alejandria_search_text(query: "<nombre>", source_filter: "es/manuals")
 alejandria_search_text(query: "<nombre>", source_filter: "en/manuals")
-
-# 3. RAG
 alejandria_chat_ask(question: "¿Qué importancia tiene <nombre> en la Biblia?")
 alejandria_chat_ask(question: "¿Qué enseñan las Escrituras de la Restauración sobre <nombre>?")
-
-# 4. Semántica
 alejandria_search_semantic(query: "<nombre> biblical significance")
-```
 
-**Examinar si el sitio es mencionado por Autoridades Generales o
-eruditos SUD (BYU, Maxwell Institute, FAIR).** Esto permite integrar
-el conocimiento revelado donde sea más oportuno.
-
-Si Alejandría no es suficiente:
-
-```bash
-# Web SUD
+# ── Sitios especializados SUD ────────────────────────
+# BYU Religious Studies Center, Maxwell Institute,
+# FAIR, Book of Mormon Central, Insights
 webfetch(url: "https://rsc.byu.edu/search?q=<nombre>")
 webfetch(url: "https://mi.byu.edu/search?q=<nombre>")
 webfetch(url: "https://www.fairlatterdaysaints.org/search?q=<nombre>")
 webfetch(url: "https://archive.bookofmormoncentral.org/search?q=<nombre>")
 
-# Web general
+# ── Sitio oficial ────────────────────────────────────
+# Guía para el Estudio de las Escrituras
 webfetch(url: "https://www.churchofjesuschrist.org/study/scriptures/gs/<slug>?lang=spa")
+
+# ── BibleHub y léxicos ───────────────────────────────
 webfetch(url: "https://biblehub.com/topical/<slug>.htm")
+
+# ── Enciclopedias y diccionarios bíblicos ─────────────
+# Holman, Smith, Easton, International Standard
+
+# ── Wikipedia ────────────────────────────────────────
 webfetch(url: "https://es.wikipedia.org/wiki/<nombre>")
 ```
 
 **Reglas:**
+- Extraer de cada fuente lo que aporta, sintetizar, no concatenar
+- El conocimiento revelado (Perla de Gran Precio, Libro de Mormón,
+  DyC, JST) se integra donde sea más oportuno dentro del contenido,
+  no en una sección separada
 - No entretenerse en datos polémicos. Si hay dudas sobre ubicación
   o historia, presentar solo los datos últimos y certeros
 - Si existe respuesta satisfactoria a una pregunta potencial, darla
@@ -197,17 +252,60 @@ Reglas clave:
 - **No repetir sidebar**: no incluir coordenadas, tipo, confianza,
   fuente ni referencia de ejemplo (ya están en el infobox)
 - **Referencias en español**: usar el mapa `$en_to_es` de
-  `single-bc_location.php:320-342` (ver tabla completa abajo)
+  `single-bc_location.php:350-372` (ver tabla completa abajo)
 - **SEO en todo momento**: palabras clave de cola larga,
   interlinking con negritas en menciones de otros lugares, sintaxis
   semántica (`<strong>` para énfasis, `<em>` para extranjerismos)
+
+#### Datos clave
+
+El template inyecta automáticamente un bloque "Datos clave" antes del
+contenido. No incluir este bloque en el `post_content`.
+
+#### Estructura de introducción
+
+Un solo `<p>` sin `<h2>`. Debe contener:
+- Definición de qué es la ubicación
+- Dónde se encuentra
+- Su relevancia principal (1–2 frases)
+- Palabra clave principal para SEO
+
+#### Módulos obligatorios vs. opcionales
+
+| Nivel | Obligatorios | Opcionales |
+|-------|--------------|------------|
+| A | Etimología, Geografía, Historia en Escrituras, Lecciones, Situación actual | Origen temprano, Historia postbíblica, Arqueología |
+| B | Etimología, Historia en Escrituras, Lecciones, Situación actual | Geografía, Arqueología |
+| C | Historia en Escrituras, Lecciones, Situación actual | Etimología, Geografía |
+
+#### FAQ (solo nivel A y B)
+
+No incluir FAQ en el `post_content`. El template genera el FAQ schema
+automáticamente a partir de preguntas **SEO reales**, no genéricas.
+
+**Criterios:**
+- Usar las **6W** sobre el contenido específico de la ubicación
+- Preguntas de **cola larga** que un usuario real escribiría en Google
+- Máximo 3 preguntas por artículo
+- Responder directamente desde el contenido ya redactado
+- Evitar preguntas genéricas como "¿dónde está?" o "¿qué es?"
+- Priorizar preguntas con alto potencial de tráfico orgánico
+
+Ejemplos de buenas preguntas SEO:
+- "¿Por qué Capernaúm es conocida como la ciudad de Jesús?"
+- "¿Qué pasó en el monte Carmelo con Elías y los profetas de Baal?"
+- "¿Cuál es el significado del Cedrón en la Biblia?"
+- "¿Dónde se encuentra el río Quebar mencionado en Ezequiel?"
+
+El FAQ schema se genera en `single-bc_location.php` a partir de estas
+preguntas y sus respuestas.
 
 ---
 
 ### Fase 3: Publicar
 
 ```bash
-docker exec wp_bc_cli wp post update <ID> \
+podman exec wp_bc_cli wp post update <ID> \
   --post_content='<HTML>' --allow-root
 ```
 
@@ -217,7 +315,7 @@ O para contenido largo, usar archivo temporal:
 cat > /tmp/contenido-<ID>.html << 'EOF'
 <HTML>
 EOF
-docker exec -i wp_bc_cli wp post update <ID> \
+podman exec -i wp_bc_cli wp post update <ID> \
   --post_content="$(cat /tmp/contenido-<ID>.html)" --allow-root
 ```
 
@@ -226,7 +324,7 @@ docker exec -i wp_bc_cli wp post update <ID> \
 ### Fase 4: Verificar
 
 ```bash
-docker exec wp_bc_cli wp post get <ID> --field=post_content --allow-root | head -c 200
+podman exec wp_bc_cli wp post get <ID> --field=post_content --allow-root | head -c 200
 ```
 
 ---
@@ -308,7 +406,9 @@ perdurable de la ubicación o conecta con el plan de salvación.
 
 ### Nivel 5 — Referencias de las Escrituras (obligatorio)
 
-Forma T. Hasta **15 filas** para ubicaciones nivel A.
+Forma T. Es un formato de estudio escritural de tres elementos:
+**título + objetivo + tabla de dos columnas**. En esta plantilla
+se omiten título y objetivo del estudio; solo se usa la tabla.
 
 ```html
 <h2>Referencias de las Escrituras</h2>
@@ -330,22 +430,26 @@ Forma T. Hasta **15 filas** para ubicaciones nivel A.
 ```
 
 **Reglas:**
-- **Título**: siempre `<h2>Referencias de las Escrituras</h2>`
-- **Concepto**: ≤15 palabras, idea completa. Sin punto final
+- **Título de sección**: siempre `<h2>Referencias de las Escrituras</h2>`
+- **Concepto**: ≤15 palabras, idea completa, sin punto final. Cada fila
+  captura una idea respaldada por su(s) referencia(s) escritural(es)
+- **Orden didáctico**: cronológico o temático. La columna de conceptos,
+  leída de principio a fin, debe constituir una lección coherente
 - **Referencia**: libro capítulo:versículo en español (traducido)
-- **Orden**: cronológico o temático. La columna de conceptos debe
-  fluir como una lección coherente
 - **Cantidad**: nivel A 8–15, nivel B 4–8, nivel C 2–4 filas
 
 ---
 
 ## Niveles de profundidad
 
-| Nivel | Perfil | Mín. palabras | Módulos típicos | Forma T |
-|-------|--------|:-------------:|-----------------|:-------:|
-| **A** | Jerusalén, Babilonia, Egipto, Roma, Asiria, Nínive, Ur, Edén, Sión, Sinaí | 1000+ | Todos aplicables. Historia subdividida con `<h3>` | 8–15 filas |
-| **B** | Hebrón, Betania, Capernaum, Damasco, Tiro, Belén, Siquem, la mayoría de ciudades | 400–800 | 4–6 módulos | 4–8 filas |
-| **C** | Aldeas de 1–2 menciones (Abel-mehola, Aczib, Adulam) | 150–300 | Intro + Historia + Lecciones + Fuentes + Referencias | 2–4 filas |
+Los niveles A/B/C se derivan de la columna `relevancia` pre-llenada en
+`tracking/locations.db`:
+
+| `relevancia` | Nivel | Perfil | Mín. palabras | Módulos típicos | Forma T |
+|--------------|-------|--------|:-------------:|-----------------|:-------:|
+| **3 — Alta** | **A** | Jerusalén, Babilonia, Egipto, Roma, Asiria, Nínive, Ur, Edén, Sión, Sinaí | 1000+ | Todos aplicables. Historia subdividida con `<h3>` | 8–15 filas |
+| **2 — Media** | **B** | Hebrón, Betania, Capernaum, Damasco, Tiro, Belén, Siquem, la mayoría de ciudades | 400–800 | 4–6 módulos | 4–8 filas |
+| **1 — Baja** | **C** | Aldeas de 1–2 menciones (Abel-mehola, Aczib, Adulam) | 150–300 | Intro + Historia + Lecciones + Fuentes + Referencias | 2–4 filas |
 
 ---
 
@@ -370,7 +474,7 @@ Forma T. Hasta **15 filas** para ubicaciones nivel A.
 ## Mapa de referencias EN→ES
 
 Toda referencia escritural en inglés debe traducirse a español usando
-este mapa (definido en `single-bc_location.php:320-342`):
+este mapa (definido en `single-bc_location.php:350-372`):
 
 | Inglés | Español | Inglés | Español |
 |--------|---------|--------|---------|
@@ -411,33 +515,21 @@ José Smith—Mateo, José Smith—Historia, Artículos de Fe).
 
 ---
 
-## Fallback chain
-
-```
-Alejandría (KG → search_text → search_semantic → chat_ask)
-  → Web SUD (BYU → Maxwell Institute → FAIR → Book of Mormon Central)
-    → Guía para el Estudio de las Escrituras (churchofjesuschrist.org)
-      → BibleHub (topical)
-        → Wikipedia (español)
-          → Diccionarios bíblicos (Holman, Smith, Easton)
-```
-
----
-
 ## Datos prácticos
 
-- **Contenedor WP-CLI**: `wp_bc_cli`. Comando: `docker exec wp_bc_cli wp ... --allow-root`
+- **Contenedor WP-CLI**: `wp_bc_cli`. Comando: `podman exec wp_bc_cli wp ... --allow-root`
 - **CPT**: `bc_location`, registrado en `bc-scripture-map/inc/class-location-cpt.php`
 - **Single template**: `wp-content/themes/generatepress-child/single-bc_location.php` — grid 2 columnas (1fr + 300px)
 - **Mapa interactivo**: se inserta automáticamente entre la intro y el primer `<h2>`
 - **Zoom del mapa**: 40km (configurado por tipo en `bc-scripture-map.php:130-139`)
-- **Mapa EN→ES**: definido en `single-bc_location.php:320-342` como `$en_to_es`
+ - **Mapa EN→ES**: definido en `single-bc_location.php:350-372` como `$en_to_es`
 - **Tipos**: city→Ciudad, region→Región, wilderness→Desierto, sea→Mar/Lago,
   river→Río, mountain→Montaña, settlement→Asentamiento, landmark→Lugar emblemático
 - **Contenido**: HTML apto para Gutenberg en `post_content`
 - **Sobrescribir**: si ya tiene `post_content`, reemplazarlo
-- **Tracking**: `tracking/locations.db` (SQLite) para progreso entre sesiones
-- **Backup**: `backups/db-latest.sql` se actualiza automáticamente cada 10 min
+ - **Tracking**: `tracking/locations.db` (SQLite) para progreso entre sesiones
+ - **Relevancia**: columna `relevancia` pre-llenada en `locations.db` (1=Baja/C, 2=Media/B, 3=Alta/A). No recalcular durante generación. El infobox de la página muestra la relevancia justo antes de la confianza. El template inyecta automáticamente un bloque "Datos clave" y FAQ schema para Alta/Media.
+ - **Backup**: `backups/db-latest.sql` se actualiza automáticamente cada 10 min
 - **Alejandría**: MCP tools disponibles vía `alejandria_*` (ver skill `alejandria-search`)
 - **MSYS_NO_PATHCONV**: anteponer en Git Bash si altera rutas
 
@@ -451,77 +543,69 @@ formato modular. No conservar nada del formato anterior.
 
 ```bash
 # Verificar si tiene contenido existente
-docker exec wp_bc_cli wp post get <ID> --field=post_content --allow-root | wc -w
+podman exec wp_bc_cli wp post get <ID> --field=post_content --allow-root | wc -w
 ```
 
 ---
 
 ## Flujo de batch processing
 
-Para procesar las ~1,752 ubicaciones, usar este pipeline por lotes de
-20:
+Para procesar las ~1,349 ubicaciones, usar este pipeline por lotes de
+10, en orden de relevancia (Alta → Media → Baja):
 
 ### Preparación
 
 ```bash
-# 1. Consultar primeras N ubicaciones no-alias, ordenadas por ID
-docker exec -e MYSQL_PWD=wppass wp_bc_db mysql -uwpuser bc_wp -e "
-  SELECT p.ID, p.post_title, p.post_name,
-         COALESCE(pm_name.meta_value, '') as name_en,
-         COALESCE(pm_type.meta_value, '') as loc_type,
-         COALESCE(pm_refs.meta_value, '[]') as scriptures
-  FROM wp_posts p
-  LEFT JOIN wp_postmeta pm_name ON p.ID=pm_name.post_id AND pm_name.meta_key='_bc_loc_name_en'
-  LEFT JOIN wp_postmeta pm_type ON p.ID=pm_type.post_id AND pm_type.meta_key='_bc_loc_type'
-  LEFT JOIN wp_postmeta pm_refs ON p.ID=pm_refs.post_id AND pm_refs.meta_key='_bc_loc_scriptures'
-  LEFT JOIN wp_postmeta pm_alias ON p.ID=pm_alias.post_id AND pm_alias.meta_key='_bc_loc_alias_of'
-  WHERE p.post_type='bc_location' AND p.post_status='publish'
-    AND pm_alias.meta_id IS NULL
-  ORDER BY p.ID
-  LIMIT 20 OFFSET <offset>;"
+# 1. Obtener IDs pendientes ordenados por relevancia DESC, wp_id ASC
+python -c "
+import tracking.tracker as t
+queue = t.get_regeneration_queue(batch_size=10)
+ids = [r['wp_id'] for r in queue]
+print('IDs:', ids)
+"
 ```
 
 ### Por cada lote
 
 1. Registrar lote en SQLite:
    ```bash
-   python tracking/tracker.py
-   ```
-   (usar `import tracker` desde Python para llamar `create_batch()`,
-   `add_locations()`, etc.)
-
-2. Lanzar agentes de generación (5 agentes × 4 ubicaciones cada uno)
-
-3. Cada agente ejecuta Fase 0→4 para sus 4 ubicaciones:
-   - Fase 0: Obtener datos + validar tipo + alias
-   - Fase 0b: Validar tipo, corregir si es necesario
-   - Fase 0c: Determinar nivel A/B/C
-   - Fase 1: Investigar (Alejandría → web)
-   - Fase 2: Redactar en HTML
-   - Fase 3: Publicar con `wp post update`
-   - Fase 4: Verificar
-
-4. Marcar en tracking:
-   ```python
-   tracker.mark_completed(wp_id, word_count)
+   python -c "
+   import tracking.tracker as t
+   b = t.create_batch()
+   print(f'Batch {b} created')
+   ids = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+   t.add_locations(b, ids)
+   t.mark_processing(ids)
+   "
    ```
 
-5. Verificar contenido de todas las ubicaciones del lote
+ 2. Lanzar agentes de generación (2 agentes × 5 ubicaciones cada uno)
 
-6. Hacer dump de BD:
-   ```bash
-   docker exec wp_bc_cli wp db export /var/www/html/backups/db-latest.sql --allow-root
-   ```
+ 3. Cada agente ejecuta Fase 0→5 para sus 5 ubicaciones:
+    - Fase 0: Obtener datos + validar tipo + alias
+    - Fase 0b: Validar tipo, corregir si es necesario
+    - Fase 0c: Leer relevancia pre-llenada y derivar nivel A/B/C
+    - Fase 0d: Aplicar plantilla de investigación por tipo
+    - Fase 0e: Ejecutar checklist de fuentes
+    - Fase 1: Investigar (Alejandría → web)
+    - Fase 2: Redactar en HTML (datos clave auto, intro, módulos, FAQ si aplica, fuentes, Forma T)
+    - Fase 3: Publicar con `wp post update`
+    - Fase 4: Verificar
+    - Fase 5: Marcar completed en tracking
 
-7. Cerrar lote en tracking:
-   ```python
-   tracker.complete_batch(batch_id, commit_hash)
-   ```
+ 4. Cerrar batch en tracking:
+    ```bash
+    python -c "
+    import tracking.tracker as t
+    t.complete_batch(<BATCH_ID>, '<COMMIT_HASH>')
+    "
+    ```
 
-8. Commit y push:
-   ```bash
-   git add -A && git commit -m "feat(glosario): lote N — 20 entradas" && git push
-   ```
+ 5. Dump DB y commit:
+    ```bash
+    podman exec wp_bc_cli wp db export /var/www/html/backups/db-latest.sql --allow-root
+    git add -A && git commit -m "feat(glosario): lote N — 10 ubicaciones"
+    ```
 
 ### Tracking
 
@@ -529,6 +613,22 @@ docker exec -e MYSQL_PWD=wppass wp_bc_db mysql -uwpuser bc_wp -e "
 python tracking/tracker.py stats        # Ver progreso global
 python tracking/tracker.py last-batch   # Ver último lote
 ```
+
+### Colas de regeneración
+
+```bash
+# Obtener siguiente batch automáticamente (10 Alta, luego 10 Media, etc.)
+python -c "
+import tracking.tracker as t
+queue = t.get_regeneration_queue(batch_size=10, relevance_filter=3)  # Alta primero
+print(f'Siguientes {len(queue)} Alta')
+queue = t.get_regeneration_queue(batch_size=10, relevance_filter=2)  # Luego Media
+print(f'Siguientes {len(queue)} Media')
+queue = t.get_regeneration_queue(batch_size=10, relevance_filter=1)  # Final Baja
+print(f'Siguientes {len(queue)} Baja')
+"
+```
+
 
 ### Qué NO hacer
 
@@ -563,7 +663,7 @@ corregirlo antes de redactar. Tipos válidos: `city`, `region`,
 `wilderness`, `sea`, `river`, `mountain`, `settlement`, `landmark`.
 
 ```bash
-docker exec wp_bc_cli wp post meta update <ID> _bc_loc_type city --allow-root
+podman exec wp_bc_cli wp post meta update <ID> _bc_loc_type city --allow-root
 ```
 
 ### Interlinking
