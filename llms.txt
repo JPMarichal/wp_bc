@@ -1,14 +1,17 @@
-# Bednarck — Colección de Citas de los Líderes de la Iglesia de Jesucristo de los Santos de los Últimos Días
+# Verdades Eternas — Enciclopedia Bíblica de la Restauración
 >
 > This file helps AI/LLM crawlers understand the site structure and find the most important pages.
 
 ## Sobre el sitio
-Bednarck es una colección de citas de líderes de La Iglesia de Jesucristo de los Santos de los Últimos Días, organizada por autor y tema.
+Verdades Eternas es una plataforma editorial y enciclopédica sobre La Iglesia de Jesucristo de los Santos de los Últimos Días, con biografías de personajes bíblicos y SUD, glosario de ubicaciones bíblicas con mapas interactivos 3D, artículos doctrinales y recursos de apoyo para el programa Ven, Sígueme.
 
 ## Páginas principales
 - Inicio: /
 - Glosario de Personas: /glosario/
+- Personajes Bíblicos: /personajes/
+- Ubicaciones Bíblicas: /ubicaciones/
+- Apoyo Ven, Sígueme: /apoyo/
 - Blog: /blog/
 
 ## Structured data
-All blog posts include Article schema. All glossary person pages include ProfilePage schema. BreadcrumbList and Sitelinks Search Box schemas are available site-wide.
+All content pages include appropriate schema markup (Article, ProfilePage, Place, Course). BreadcrumbList and Sitelinks Search Box schemas are available site-wide.

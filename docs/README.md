@@ -12,11 +12,8 @@
 enciclopédica en WordPress** sobre La Iglesia de Jesucristo de los Santos de los Últimos
 Días. **No es un sitio oficial de la Iglesia** (lleva disclaimer en el footer).
 
-> ⚠️ **Nombre del sitio pendiente de confirmar.** El nombre público real vive en
-> `blogname` (base de datos). El archivo `llms.txt` de la raíz contiene el nombre
-> **"Bednarck"**, que está **desactualizado/incorrecto** y debe corregirse. No usar ese
-> nombre. Confirmar el nombre real con el responsable del proyecto y actualizar `llms.txt`
-> y este README.
+> El nombre público del sitio es **Verdades Eternas**. Está configurado en `blogname`
+> (base de datos) y en `llms.txt`. Cualquier referencia a "Bednarck" está obsoleta.
 
 El sitio es **mucho más que una colección de citas**. Incluye, como mínimo:
 
@@ -294,8 +291,7 @@ Los tres MCPs deben estar accesibles para la operación normal. Antes de una ses
 
 ## 11. Pendientes / TODOs de definición
 
-- [ ] Confirmar el **nombre público real del sitio** y corregir `llms.txt` (hoy dice
-      "Bednarck", incorrecto).
+- [x] ~~Confirmar el **nombre público real del sitio**~~ — Nombre confirmado: **Verdades Eternas**.
 - [ ] Asegurar que el servicio **Alejandría** inicie sus túneles (hoy responde
       "Tunnels are not started").
 - [x] MCP **wordpress**: **OPERATIVO**. Corregido con (1) `"timeout": 60000` en
