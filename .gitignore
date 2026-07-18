@@ -27,13 +27,14 @@ nul
 tmp/
 tmp-content/
 temp/
+tmp_*.txt
+tmp_*.html
+tmp_*.py
 =0.4
 current_*.txt
 current_*.html
 raw_content.txt
 fixed_content*
-tmp_*.txt
-tmp_*.html
 post*.json
 _wd_*.json
 _debug_*.json
@@ -47,6 +48,15 @@ search-wikidata-uncovered.log
 
 # OS artifacts
 nul
+
+# Tracking temp scripts
+tracking/tmp_*.py
+
+# Claude context cache (auto-generated)
+contexts/
+
+# Accidental root db copy
+/locations.db
 
 # Database backups (SQL dumps may contain secrets)
 backups/

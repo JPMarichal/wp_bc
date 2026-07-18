@@ -171,6 +171,11 @@ Documentar en `Fuentes consultadas`:
 3. Una enciclopedia bíblica (BibleHub o Wikipedia)
 4. Si relevancia Alta/Media: al menos una fuente adicional (BYU, Maxwell, FAIR, etc.)
 
+**Regla de búsqueda en Alejandría:**
+- Queries **ESTRECHAS**: un solo concepto o nombre exacto por búsqueda.
+- Resultados **EXHAUSTIVOS**: usar `limit` alto o sin límite. No truncar la investigación.
+- No combinar múltiples conceptos en una sola query (ej: no buscar "Magdala Mary Magdalene Sea of Galilee").
+
 Scoring de calidad de fuentes (no es fallback, es scoring):
 1. Escrituras + conocimiento revelado (DyC, JST, PGP, Libro de Mormón)
 2. Alejandría (corpus propio)
@@ -190,15 +195,17 @@ determina el criterio, no una jerarquía fija.
 
 ```bash
 # ── Alejandría ──────────────────────────────────────
-alejandria_kg_find(query: "<nombre>")
-alejandria_search_text(query: "<nombre>", limit: 10)
-alejandria_search_text(query: "<nombre>", source_filter: "es/scriptures")
-alejandria_search_text(query: "<nombre>", source_filter: "en/scriptures")
-alejandria_search_text(query: "<nombre>", source_filter: "es/manuals")
-alejandria_search_text(query: "<nombre>", source_filter: "en/manuals")
-alejandria_chat_ask(question: "¿Qué importancia tiene <nombre> en la Biblia?")
-alejandria_chat_ask(question: "¿Qué enseñan las Escrituras de la Restauración sobre <nombre>?")
-alejandria_search_semantic(query: "<nombre> biblical significance")
+# Regla: queries ESTRECHAS, resultados EXHAUSTIVOS.
+# No combinar múltiples conceptos en una sola búsqueda.
+alejandria_kg_find(query: "<nombre exacto>")
+alejandria_search_text(query: "<nombre exacto>")
+alejandria_search_text(query: "<nombre exacto>", source_filter: "es/scriptures")
+alejandria_search_text(query: "<nombre exacto>", source_filter: "en/scriptures")
+alejandria_search_text(query: "<nombre exacto>", source_filter: "es/manuals")
+alejandria_search_text(query: "<nombre exacto>", source_filter: "en/manuals")
+alejandria_chat_ask(question: "¿Qué importancia tiene <nombre exacto> en la Biblia?")
+alejandria_chat_ask(question: "¿Qué enseñan las Escrituras de la Restauración sobre <nombre exacto>?")
+alejandria_search_semantic(query: "<nombre exacto> biblical significance")
 
 # ── Sitios especializados SUD ────────────────────────
 # BYU Religious Studies Center, Maxwell Institute,
