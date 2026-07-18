@@ -58,3 +58,21 @@ function bc_rel_prev_next() {
   }
 }
 add_action( 'wp_head', 'bc_rel_prev_next' );
+
+remove_action( 'wp_head', 'wp_site_icon', 99 );
+add_action( 'wp_head', 'bc_site_icon', 5 );
+function bc_site_icon() {
+  $url = get_stylesheet_directory_uri() . '/assets/favicon';
+  $site_name = esc_attr( get_bloginfo( 'name' ) );
+  ?>
+<link rel="icon" href="<?php echo $url; ?>/favicon.ico" sizes="any">
+<link rel="icon" href="<?php echo $url; ?>/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="<?php echo $url; ?>/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="<?php echo $url; ?>/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="<?php echo $url; ?>/apple-touch-icon.png">
+<link rel="manifest" href="<?php echo $url; ?>/site.webmanifest">
+<meta name="msapplication-TileImage" content="<?php echo $url; ?>/android-chrome-192x192.png">
+<meta name="msapplication-TileColor" content="#1a1a2e">
+<meta name="theme-color" content="#1a1a2e">
+  <?php
+}
