@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		?>
 
 		<header <?php generate_do_attr( 'entry-header' ); ?>>
-			<h1 class="entry-title"><?php _e( 'Nothing Found', 'generatepress' ); ?></h1>
+			<h1 class="entry-title"><?php _e( 'Nothing Found', 've-theme' ); ?></h1>
 		</header>
 
 		<?php
@@ -46,7 +46,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<?php
 						printf(
 							/* translators: 1: Admin URL */
-							__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'generatepress' ),
+							__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 've-theme' ),
 							esc_url( admin_url( 'post-new.php' ) )
 						);
 						?>
@@ -54,12 +54,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 				<?php elseif ( is_search() ) : ?>
 
-					<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'generatepress' ); ?></p>
+					<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 've-theme' ); ?></p>
 					<?php get_search_form(); ?>
 
 				<?php else : ?>
 
-					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'generatepress' ); ?></p>
+					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 've-theme' ); ?></p>
 					<?php get_search_form(); ?>
 
 				<?php endif; ?>

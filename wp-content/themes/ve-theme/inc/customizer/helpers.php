@@ -346,7 +346,7 @@ function generate_do_control_inline_scripts() {
 	);
 
 	if ( function_exists( 'wp_set_script_translations' ) ) {
-		wp_set_script_translations( 'generate-customizer-controls', 'generatepress' );
+		wp_set_script_translations( 'generate-customizer-controls', 've-theme' );
 	}
 
 	$color_palette = get_theme_support( 'editor-color-palette' );

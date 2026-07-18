@@ -13,7 +13,7 @@ GeneratePress_Customize_Field::add_title(
 	'generate_search_modal_colors_title',
 	array(
 		'section' => 'generate_colors_section',
-		'title' => __( 'Search Modal', 'generatepress' ),
+		'title' => __( 'Search Modal', 've-theme' ),
 		'choices' => array(
 			'toggleId' => 'search-modal-colors',
 		),
@@ -36,7 +36,7 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Field Background', 'generatepress' ),
+		'label' => __( 'Field Background', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'search-modal-colors',
@@ -59,7 +59,7 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Field Text', 'generatepress' ),
+		'label' => __( 'Field Text', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'search-modal-colors',
@@ -82,7 +82,7 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Overlay Background', 'generatepress' ),
+		'label' => __( 'Overlay Background', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'search-modal-colors',

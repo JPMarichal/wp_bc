@@ -18,7 +18,7 @@ function generate_do_search_modal() {
 		return;
 	}
 	?>
-	<div class="gp-modal gp-search-modal" id="gp-search" role="dialog" aria-modal="true" aria-label="<?php esc_attr_e( 'Search', 'generatepress' ); ?>">
+	<div class="gp-modal gp-search-modal" id="gp-search" role="dialog" aria-modal="true" aria-label="<?php esc_attr_e( 'Search', 've-theme' ); ?>">
 		<div class="gp-modal__overlay" tabindex="-1" data-gpmodal-close>
 			<div class="gp-modal__container">
 				<?php do_action( 'generate_inside_search_modal' ); ?>
@@ -37,7 +37,7 @@ function generate_do_search_modal_trigger() {
 	}
 	?>
 	<span class="menu-bar-item">
-		<a href="#" role="button" aria-label="<?php _e( 'Open search', 'generatepress' ); ?>" aria-haspopup="dialog" aria-controls="gp-search" data-gpmodal-trigger="gp-search"><?php echo generate_get_svg_icon( 'search', true ); // phpcs:ignore -- Escaped in function. ?></a>
+		<a href="#" role="button" aria-label="<?php _e( 'Open search', 've-theme' ); ?>" aria-haspopup="dialog" aria-controls="gp-search" data-gpmodal-trigger="gp-search"><?php echo generate_get_svg_icon( 'search', true ); // phpcs:ignore -- Escaped in function. ?></a>
 	</span>
 	<?php
 }
@@ -99,10 +99,10 @@ add_action( 'generate_inside_search_modal', 'generate_do_search_fields' );
 function generate_do_search_fields() {
 	?>
 	<form role="search" method="get" class="search-modal-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-		<label for="search-modal-input" class="screen-reader-text"><?php echo apply_filters( 'generate_search_label', _x( 'Search for:', 'label', 'generatepress' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></label>
+		<label for="search-modal-input" class="screen-reader-text"><?php echo apply_filters( 'generate_search_label', _x( 'Search for:', 'label', 've-theme' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></label>
 		<div class="search-modal-fields">
-			<input id="search-modal-input" type="search" class="search-field" placeholder="<?php echo esc_attr( apply_filters( 'generate_search_placeholder', _x( 'Search &hellip;', 'placeholder', 'generatepress' ) ) ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
-			<button aria-label="<?php echo esc_attr( apply_filters( 'generate_search_button', _x( 'Search', 'submit button', 'generatepress' ) ) ); ?>"><?php echo generate_get_svg_icon( 'search' ); // phpcs:ignore -- Escaped in function. ?></button>
+			<input id="search-modal-input" type="search" class="search-field" placeholder="<?php echo esc_attr( apply_filters( 'generate_search_placeholder', _x( 'Search &hellip;', 'placeholder', 've-theme' ) ) ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+			<button aria-label="<?php echo esc_attr( apply_filters( 'generate_search_button', _x( 'Search', 'submit button', 've-theme' ) ) ); ?>"><?php echo generate_get_svg_icon( 'search' ); // phpcs:ignore -- Escaped in function. ?></button>
 		</div>
 		<?php do_action( 'generate_inside_search_modal_form' ); ?>
 	</form>

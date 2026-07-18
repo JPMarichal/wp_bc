@@ -56,8 +56,8 @@ class GeneratePress_Dashboard {
 	 */
 	public function add_menu_item() {
 		add_theme_page(
-			esc_html__( 'GeneratePress', 'generatepress' ),
-			esc_html__( 'GeneratePress', 'generatepress' ),
+			esc_html__( 'GeneratePress', 've-theme' ),
+			esc_html__( 'GeneratePress', 've-theme' ),
 			apply_filters( 'generate_dashboard_page_capability', 'edit_theme_options' ),
 			'generate-options',
 			array( $this, 'page' )
@@ -120,7 +120,7 @@ class GeneratePress_Dashboard {
 			'generate_dashboard_tabs',
 			array(
 				'dashboard' => array(
-					'name' => __( 'Dashboard', 'generatepress' ),
+					'name' => __( 'Dashboard', 've-theme' ),
 					'url' => admin_url( 'themes.php?page=generate-options' ),
 					'class' => 'appearance_page_generate-options' === $screen->id ? 'active' : '',
 				),
@@ -129,7 +129,7 @@ class GeneratePress_Dashboard {
 
 		if ( ! defined( 'GP_PREMIUM_VERSION' ) ) {
 			$tabs['premium'] = array(
-				'name' => __( 'Premium', 'generatepress' ),
+				'name' => __( 'Premium', 've-theme' ),
 				'url' => 'https://generatepress.com/premium',
 				'class' => '',
 				'external' => true,
@@ -137,14 +137,14 @@ class GeneratePress_Dashboard {
 		}
 
 		$tabs['support'] = array(
-			'name' => __( 'Support', 'generatepress' ),
+			'name' => __( 'Support', 've-theme' ),
 			'url' => 'https://generatepress.com/support',
 			'class' => '',
 			'external' => true,
 		);
 
 		$tabs['documentation'] = array(
-			'name' => __( 'Documentation', 'generatepress' ),
+			'name' => __( 'Documentation', 've-theme' ),
 			'url' => 'https://docs.generatepress.com',
 			'class' => '',
 			'external' => true,
@@ -210,7 +210,7 @@ class GeneratePress_Dashboard {
 					true
 				);
 
-				wp_set_script_translations( 'generate-dashboard', 'generatepress' );
+				wp_set_script_translations( 'generate-dashboard', 've-theme' );
 
 				wp_localize_script(
 					'generate-dashboard',

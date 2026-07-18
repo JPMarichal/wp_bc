@@ -74,7 +74,7 @@ function generate_do_default_sidebar_widgets( $area ) {
 	</aside>
 
 	<aside id="archives" class="widget">
-		<h2 class="widget-title"><?php esc_html_e( 'Archives', 'generatepress' ); ?></h2>
+		<h2 class="widget-title"><?php esc_html_e( 'Archives', 've-theme' ); ?></h2>
 		<ul>
 			<?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
 		</ul>

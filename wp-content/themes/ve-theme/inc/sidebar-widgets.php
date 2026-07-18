@@ -3,9 +3,9 @@
 add_action('widgets_init', function () {
   unregister_sidebar('sidebar-1');
   register_sidebar([
-    'name'          => __('Right Sidebar', 'generatepress'),
+    'name'          => __('Right Sidebar', 've-theme'),
     'id'            => 'sidebar-1',
-    'description'   => __('Appears on posts and pages except the front page.', 'generatepress'),
+    'description'   => __('Appears on posts and pages except the front page.', 've-theme'),
     'before_widget' => '<section id="%1$s" class="bc-widget %2$s">',
     'after_widget'  => '</section>',
     'before_title'  => '<h3 class="bc-widget-title">',

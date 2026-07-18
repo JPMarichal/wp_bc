@@ -47,7 +47,7 @@ if ( ! function_exists( 'generate_navigation_position' ) ) {
 
 					generate_do_svg_icon( 'menu-bars', true );
 
-					$mobile_menu_label = apply_filters( 'generate_mobile_menu_label', __( 'Menu', 'generatepress' ) );
+					$mobile_menu_label = apply_filters( 'generate_mobile_menu_label', __( 'Menu', 've-theme' ) );
 
 					if ( $mobile_menu_label ) {
 						printf(
@@ -57,7 +57,7 @@ if ( ! function_exists( 'generate_navigation_position' ) ) {
 					} else {
 						printf(
 							'<span class="screen-reader-text">%s</span>',
-							esc_html__( 'Menu', 'generatepress' )
+							esc_html__( 'Menu', 've-theme' )
 						);
 					}
 					?>
@@ -136,7 +136,7 @@ function generate_do_header_mobile_menu_toggle() {
 
 			generate_do_svg_icon( 'menu-bars', true );
 
-			$mobile_menu_label = __( 'Menu', 'generatepress' );
+			$mobile_menu_label = __( 'Menu', 've-theme' );
 
 			if ( 'nav-float-right' === generate_get_navigation_location() || 'nav-float-left' === generate_get_navigation_location() ) {
 				$mobile_menu_label = '';
@@ -152,7 +152,7 @@ function generate_do_header_mobile_menu_toggle() {
 			} else {
 				printf(
 					'<span class="screen-reader-text">%s</span>',
-					esc_html__( 'Menu', 'generatepress' )
+					esc_html__( 'Menu', 've-theme' )
 				);
 			}
 			?>
@@ -191,7 +191,7 @@ if ( ! function_exists( 'generate_menu_fallback' ) ) {
 						'generate_navigation_search_menu_item_output',
 						sprintf(
 							'<li class="search-item menu-item-align-right"><a aria-label="%1$s" href="#">%2$s</a></li>',
-							esc_attr__( 'Open Search Bar', 'generatepress' ),
+							esc_attr__( 'Open Search Bar', 've-theme' ),
 							generate_get_svg_icon( 'search', true ) // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped in function.
 						)
 					);
@@ -374,7 +374,7 @@ if ( ! function_exists( 'generate_dropdown_icon_to_menu_link' ) ) {
 			$tabindex = ' tabindex="0"';
 			$aria_label = sprintf(
 				' aria-label="%s"',
-				esc_attr__( 'Open Sub-Menu', 'generatepress' )
+				esc_attr__( 'Open Sub-Menu', 've-theme' )
 			);
 		}
 
@@ -456,7 +456,7 @@ function generate_set_menu_item_link_attributes( $atts, $item, $args, $depth ) {
 		$atts['role'] = 'button';
 		$atts['aria-expanded'] = 'false';
 		$atts['aria-haspopup'] = 'true';
-		$atts['aria-label'] = esc_attr__( 'Open Sub-Menu', 'generatepress' );
+		$atts['aria-label'] = esc_attr__( 'Open Sub-Menu', 've-theme' );
 	}
 
 	return $atts;
@@ -487,7 +487,7 @@ if ( ! function_exists( 'generate_navigation_search' ) ) {
 				</form>',
 				esc_url( home_url( '/' ) ),
 				esc_attr( get_search_query() ),
-				esc_attr_x( 'Search', 'label', 'generatepress' )
+				esc_attr_x( 'Search', 'label', 've-theme' )
 			)
 		);
 	}
@@ -550,7 +550,7 @@ function generate_do_navigation_search_button() {
 		'generate_navigation_search_menu_item_output',
 		sprintf(
 			'<span class="menu-bar-item search-item"><a aria-label="%1$s" href="#">%2$s</a></span>',
-			esc_attr__( 'Open Search Bar', 'generatepress' ),
+			esc_attr__( 'Open Search Bar', 've-theme' ),
 			generate_get_svg_icon( 'search', true ) // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped in function.
 		)
 	);
@@ -591,7 +591,7 @@ if ( ! function_exists( 'generate_menu_search_icon' ) ) {
 				'generate_navigation_search_menu_item_output',
 				sprintf(
 					'<li class="search-item menu-item-align-right"><a aria-label="%1$s" href="#">%2$s</a></li>',
-					esc_attr__( 'Open Search Bar', 'generatepress' ),
+					esc_attr__( 'Open Search Bar', 've-theme' ),
 					generate_get_svg_icon( 'search', true ) // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped in function.
 				)
 			);
@@ -632,7 +632,7 @@ if ( ! function_exists( 'generate_mobile_menu_search_icon' ) ) {
 		<div class="mobile-bar-items">
 			<?php do_action( 'generate_inside_mobile_menu_bar' ); ?>
 			<span class="search-item">
-				<a aria-label="<?php esc_attr_e( 'Open Search Bar', 'generatepress' ); ?>" href="#">
+				<a aria-label="<?php esc_attr_e( 'Open Search Bar', 've-theme' ); ?>" href="#">
 					<?php generate_do_svg_icon( 'search', true ); ?>
 				</a>
 			</span>
@@ -662,7 +662,7 @@ function generate_clone_sidebar_navigation() {
 		if ( nav ) {
 			clone = nav.cloneNode( true );
 			clone.className += ' sidebar-nav-mobile';
-			clone.setAttribute( 'aria-label', '<?php esc_attr_e( 'Mobile Menu', 'generatepress' ); ?>' );
+			clone.setAttribute( 'aria-label', '<?php esc_attr_e( 'Mobile Menu', 've-theme' ); ?>' );
 			target = document.getElementById( 'masthead' );
 			if ( target ) {
 				target.insertAdjacentHTML( 'afterend', clone.outerHTML );

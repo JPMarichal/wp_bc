@@ -12,7 +12,7 @@ define( 'GENERATE_VERSION', '3.6.1' );
 if ( ! function_exists( 'generate_setup' ) ) {
 	add_action( 'after_setup_theme', 'generate_setup' );
 	function generate_setup() {
-		load_theme_textdomain( 'generatepress' );
+		load_theme_textdomain( 've-theme' );
 
 		add_theme_support( 'automatic-feed-links' );
 		add_theme_support( 'post-thumbnails' );
@@ -42,7 +42,7 @@ if ( ! function_exists( 'generate_setup' ) ) {
 
 		register_nav_menus(
 			array(
-				'primary' => __( 'Primary Menu', 'generatepress' ),
+				'primary' => __( 'Primary Menu', 've-theme' ),
 			)
 		);
 

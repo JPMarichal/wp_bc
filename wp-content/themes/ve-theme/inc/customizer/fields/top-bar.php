@@ -13,7 +13,7 @@ GeneratePress_Customize_Field::add_title(
 	'generate_top_bar_colors_title',
 	array(
 		'section' => 'generate_colors_section',
-		'title' => __( 'Top Bar', 'generatepress' ),
+		'title' => __( 'Top Bar', 've-theme' ),
 		'choices' => array(
 			'toggleId' => 'top-bar-colors',
 		),
@@ -29,7 +29,7 @@ GeneratePress_Customize_Field::add_field(
 		'sanitize_callback' => 'generate_sanitize_rgba_color',
 	),
 	array(
-		'label' => __( 'Background', 'generatepress' ),
+		'label' => __( 'Background', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'settings' => 'generate_settings[top_bar_background_color]',
 		'active_callback' => 'generate_is_top_bar_active',
@@ -55,7 +55,7 @@ GeneratePress_Customize_Field::add_field(
 		'sanitize_callback' => 'generate_sanitize_rgba_color',
 	),
 	array(
-		'label' => __( 'Text', 'generatepress' ),
+		'label' => __( 'Text', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'active_callback' => 'generate_is_top_bar_active',
 		'choices' => array(
@@ -94,12 +94,12 @@ GeneratePress_Customize_Field::add_field(
 		'sanitize_callback' => 'generate_sanitize_rgba_color',
 	),
 	array(
-		'label' => __( 'Link', 'generatepress' ),
+		'label' => __( 'Link', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'active_callback' => 'generate_is_top_bar_active',
 		'choices' => array(
 			'wrapper' => 'top_bar_link_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 			'toggleId' => 'top-bar-colors',
 		),
 		'output' => array(
@@ -120,12 +120,12 @@ GeneratePress_Customize_Field::add_field(
 		'sanitize_callback' => 'generate_sanitize_rgba_color',
 	),
 	array(
-		'label' => __( 'Link Hover', 'generatepress' ),
+		'label' => __( 'Link Hover', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'active_callback' => 'generate_is_top_bar_active',
 		'choices' => array(
 			'wrapper' => 'top_bar_link_color_hover',
-			'tooltip' => __( 'Choose Hover Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Hover Color', 've-theme' ),
 			'toggleId' => 'top-bar-colors',
 			'hideLabel' => true,
 		),

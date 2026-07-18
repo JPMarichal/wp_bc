@@ -13,7 +13,7 @@ GeneratePress_Customize_Field::add_title(
 	'generate_footer_widgets_colors_title',
 	array(
 		'section' => 'generate_colors_section',
-		'title' => __( 'Footer Widgets', 'generatepress' ),
+		'title' => __( 'Footer Widgets', 've-theme' ),
 		'choices' => array(
 			'toggleId' => 'footer-widget-colors',
 		),
@@ -29,13 +29,13 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Background', 'generatepress' ),
+		'label' => __( 'Background', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'alpha' => true,
 			'toggleId' => 'footer-widget-colors',
 			'wrapper' => 'footer_widget_background_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 		),
 		'output' => array(
 			array(
@@ -55,12 +55,12 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Text', 'generatepress' ),
+		'label' => __( 'Text', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'footer-widget-colors',
 			'wrapper' => 'footer_widget_text_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 		),
 		'output' => array(
 			array(
@@ -95,12 +95,12 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Link', 'generatepress' ),
+		'label' => __( 'Link', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'footer-widget-colors',
 			'wrapper' => 'footer_widget_link_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 		),
 		'output' => array(
 			array(
@@ -120,12 +120,12 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Link Hover', 'generatepress' ),
+		'label' => __( 'Link Hover', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'footer-widget-colors',
 			'wrapper' => 'footer_widget_link_hover_color',
-			'tooltip' => __( 'Choose Hover Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Hover Color', 've-theme' ),
 			'hideLabel' => true,
 		),
 		'output' => array(
@@ -146,7 +146,7 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Widget Title', 'generatepress' ),
+		'label' => __( 'Widget Title', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'footer-widget-colors',

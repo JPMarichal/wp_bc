@@ -13,7 +13,7 @@ GeneratePress_Customize_Field::add_title(
 	'generate_forms_colors_title',
 	array(
 		'section' => 'generate_colors_section',
-		'title' => __( 'Forms', 'generatepress' ),
+		'title' => __( 'Forms', 've-theme' ),
 		'choices' => array(
 			'toggleId' => 'form-colors',
 		),
@@ -47,13 +47,13 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Background', 'generatepress' ),
+		'label' => __( 'Background', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'alpha' => true,
 			'toggleId' => 'form-colors',
 			'wrapper' => 'form_background_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 		),
 		'output' => array(
 			array(
@@ -73,13 +73,13 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Background Focus', 'generatepress' ),
+		'label' => __( 'Background Focus', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'alpha' => true,
 			'toggleId' => 'form-colors',
 			'wrapper' => 'form_background_color_focus',
-			'tooltip' => __( 'Choose Focus Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Focus Color', 've-theme' ),
 			'hideLabel' => true,
 		),
 		'output' => array(
@@ -115,12 +115,12 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Text', 'generatepress' ),
+		'label' => __( 'Text', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'form-colors',
 			'wrapper' => 'form_text_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 		),
 		'output' => array(
 			array(
@@ -140,12 +140,12 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Text Focus', 'generatepress' ),
+		'label' => __( 'Text Focus', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'form-colors',
 			'wrapper' => 'form_text_color_focus',
-			'tooltip' => __( 'Choose Focus Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Focus Color', 've-theme' ),
 			'hideLabel' => true,
 		),
 		'output' => array(
@@ -181,13 +181,13 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Border', 'generatepress' ),
+		'label' => __( 'Border', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'alpha' => true,
 			'toggleId' => 'form-colors',
 			'wrapper' => 'form_border_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 		),
 		'output' => array(
 			array(
@@ -207,13 +207,13 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Border Focus', 'generatepress' ),
+		'label' => __( 'Border Focus', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'alpha' => true,
 			'toggleId' => 'form-colors',
 			'wrapper' => 'form_border_color_focus',
-			'tooltip' => __( 'Choose Focus Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Focus Color', 've-theme' ),
 			'hideLabel' => true,
 		),
 		'output' => array(

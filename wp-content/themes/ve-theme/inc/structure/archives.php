@@ -133,7 +133,7 @@ function generate_do_search_results_title( $template ) {
 				generate_get_attr( 'page-header' ),
 				sprintf(
 					/* translators: 1: Search query name */
-					__( 'Search Results for: %s', 'generatepress' ),
+					__( 'Search Results for: %s', 've-theme' ),
 					'<span>' . get_search_query() . '</span>'
 				)
 			)

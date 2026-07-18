@@ -17,7 +17,7 @@ if ( ! function_exists( 'generate_create_menu' ) ) {
 	 * @since 0.1
 	 */
 	function generate_create_menu() {
-		$generate_page = add_theme_page( esc_html__( 'GeneratePress', 'generatepress' ), esc_html__( 'GeneratePress', 'generatepress' ), apply_filters( 'generate_dashboard_page_capability', 'edit_theme_options' ), 'generate-options', 'generate_settings_page' );
+		$generate_page = add_theme_page( esc_html__( 'GeneratePress', 've-theme' ), esc_html__( 'GeneratePress', 've-theme' ), apply_filters( 'generate_dashboard_page_capability', 'edit_theme_options' ), 'generate-options', 'generate_settings_page' );
 		add_action( "admin_print_styles-$generate_page", 'generate_options_styles' );
 	}
 }
@@ -50,10 +50,10 @@ if ( ! function_exists( 'generate_settings_page' ) ) {
 						</div>
 						<div class="gp-masthead-links">
 							<?php if ( ! defined( 'GP_PREMIUM_VERSION' ) ) : ?>
-								<a style="font-weight: bold;" href="<?php echo generate_get_premium_url( 'https://generatepress.com/premium/' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped in function. ?>" target="_blank"><?php esc_html_e( 'Premium', 'generatepress' ); ?></a>
+								<a style="font-weight: bold;" href="<?php echo generate_get_premium_url( 'https://generatepress.com/premium/' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped in function. ?>" target="_blank"><?php esc_html_e( 'Premium', 've-theme' ); ?></a>
 							<?php endif; ?>
-							<a href="<?php echo esc_url( 'https://generatepress.com/support' ); ?>" target="_blank"><?php esc_html_e( 'Support', 'generatepress' ); ?></a>
-							<a href="<?php echo esc_url( 'https://docs.generatepress.com' ); ?>" target="_blank"><?php esc_html_e( 'Documentation', 'generatepress' ); ?></a>
+							<a href="<?php echo esc_url( 'https://generatepress.com/support' ); ?>" target="_blank"><?php esc_html_e( 'Support', 've-theme' ); ?></a>
+							<a href="<?php echo esc_url( 'https://docs.generatepress.com' ); ?>" target="_blank"><?php esc_html_e( 'Documentation', 've-theme' ); ?></a>
 						</div>
 					</div>
 				</div>
@@ -90,7 +90,7 @@ if ( ! function_exists( 'generate_settings_page' ) ) {
 										printf(
 											'<a id="generate_customize_button" class="button button-primary" href="%1$s">%2$s</a>',
 											esc_url( admin_url( 'customize.php' ) ),
-											esc_html__( 'Customize', 'generatepress' )
+											esc_html__( 'Customize', 've-theme' )
 										);
 										?>
 									</div>
@@ -154,7 +154,7 @@ if ( ! function_exists( 'generate_settings_page' ) ) {
 								if ( ! defined( 'GP_PREMIUM_VERSION' ) ) :
 									?>
 									<div class="postbox generate-metabox">
-										<h3 class="hndle"><?php esc_html_e( 'Premium Modules', 'generatepress' ); ?></h3>
+										<h3 class="hndle"><?php esc_html_e( 'Premium Modules', 've-theme' ); ?></h3>
 										<div class="inside" style="margin:0;padding:0;">
 											<div class="premium-addons">
 												<?php
@@ -165,7 +165,7 @@ if ( ! function_exists( 'generate_settings_page' ) ) {
 															<a href="<?php echo esc_url( $info['url'] ); ?>" target="_blank"><?php echo esc_html( $module ); ?></a>
 														</div>
 														<div class="addon-action addon-addon-action" style="text-align:right;">
-															<a href="<?php echo esc_url( $info['url'] ); ?>" target="_blank"><?php esc_html_e( 'Learn more', 'generatepress' ); ?></a>
+															<a href="<?php echo esc_url( $info['url'] ); ?>" target="_blank"><?php esc_html_e( 'Learn more', 've-theme' ); ?></a>
 														</div>
 													</div>
 													<div class="gp-clear"></div>
@@ -198,27 +198,27 @@ if ( ! function_exists( 'generate_settings_page' ) ) {
 
 								$quick_settings = array(
 									'logo' => array(
-										'title' => __( 'Upload Logo', 'generatepress' ),
+										'title' => __( 'Upload Logo', 've-theme' ),
 										'icon' => 'dashicons-format-image',
 										'url' => admin_url( 'customize.php?autofocus[control]=custom_logo' ),
 									),
 									'typography' => array(
-										'title' => __( 'Customize Fonts', 'generatepress' ),
+										'title' => __( 'Customize Fonts', 've-theme' ),
 										'icon' => 'dashicons-editor-textcolor',
 										'url' => admin_url( $typography_section ),
 									),
 									'colors' => array(
-										'title' => __( 'Customize Colors', 'generatepress' ),
+										'title' => __( 'Customize Colors', 've-theme' ),
 										'icon' => 'dashicons-admin-customizer',
 										'url' => admin_url( $colors_section ),
 									),
 									'layout' => array(
-										'title' => __( 'Layout Options', 'generatepress' ),
+										'title' => __( 'Layout Options', 've-theme' ),
 										'icon' => 'dashicons-layout',
 										'url' => admin_url( 'customize.php?autofocus[panel]=generate_layout_panel' ),
 									),
 									'all' => array(
-										'title' => __( 'All Options', 'generatepress' ),
+										'title' => __( 'All Options', 've-theme' ),
 										'icon' => 'dashicons-admin-generic',
 										'url' => admin_url( 'customize.php' ),
 									),
@@ -228,7 +228,7 @@ if ( ! function_exists( 'generate_settings_page' ) ) {
 
 							<div class="generate-right-sidebar grid-30" style="padding-right: 0;">
 								<div class="postbox generate-metabox start-customizing">
-									<h3 class="hndle"><?php esc_html_e( 'Start Customizing', 'generatepress' ); ?></h3>
+									<h3 class="hndle"><?php esc_html_e( 'Start Customizing', 've-theme' ); ?></h3>
 									<div class="inside">
 										<ul>
 											<?php
@@ -243,8 +243,8 @@ if ( ! function_exists( 'generate_settings_page' ) ) {
 											?>
 										</ul>
 
-										<p><?php esc_html_e( 'Want to learn more about the theme? Check out our extensive documentation.', 'generatepress' ); ?></p>
-										<a href="https://docs.generatepress.com"><?php esc_html_e( 'Visit documentation &rarr;', 'generatepress' ); ?></a>
+										<p><?php esc_html_e( 'Want to learn more about the theme? Check out our extensive documentation.', 've-theme' ); ?></p>
+										<a href="https://docs.generatepress.com"><?php esc_html_e( 'Visit documentation &rarr;', 've-theme' ); ?></a>
 									</div>
 								</div>
 
@@ -258,18 +258,18 @@ if ( ! function_exists( 'generate_settings_page' ) ) {
 								?>
 
 								<div class="postbox generate-metabox" id="gen-delete">
-									<h3 class="hndle"><?php esc_html_e( 'Reset Settings', 'generatepress' ); ?></h3>
+									<h3 class="hndle"><?php esc_html_e( 'Reset Settings', 've-theme' ); ?></h3>
 									<div class="inside">
-										<p><?php esc_html_e( 'Deleting your settings can not be undone.', 'generatepress' ); ?></p>
+										<p><?php esc_html_e( 'Deleting your settings can not be undone.', 've-theme' ); ?></p>
 										<form method="post">
 											<p><input type="hidden" name="generate_reset_customizer" value="generate_reset_customizer_settings" /></p>
 											<p>
 												<?php
-												$warning = 'return confirm("' . esc_html__( 'Warning: This will delete your settings.', 'generatepress' ) . '")';
+												$warning = 'return confirm("' . esc_html__( 'Warning: This will delete your settings.', 've-theme' ) . '")';
 												wp_nonce_field( 'generate_reset_customizer_nonce', 'generate_reset_customizer_nonce' );
 
 												submit_button(
-													esc_attr__( 'Reset', 'generatepress' ),
+													esc_attr__( 'Reset', 've-theme' ),
 													'button-primary',
 													'submit',
 													false,
@@ -299,7 +299,7 @@ if ( ! function_exists( 'generate_settings_page' ) ) {
 							<?php
 							printf(
 								/* translators: %s: Heart icon */
-								_x( 'Made with %s by Tom Usborne', 'made with love', 'generatepress' ),
+								_x( 'Made with %s by Tom Usborne', 'made with love', 've-theme' ),
 								'<span style="color:#D04848" class="dashicons dashicons-heart"></span>'
 							);
 							?>
@@ -360,17 +360,17 @@ if ( ! function_exists( 'generate_admin_errors' ) ) {
 		}
 
 		if ( isset( $_GET['settings-updated'] ) && 'true' === $_GET['settings-updated'] ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Only checking. False positive.
-			add_settings_error( 'generate-notices', 'true', esc_html__( 'Settings saved.', 'generatepress' ), 'updated' );
+			add_settings_error( 'generate-notices', 'true', esc_html__( 'Settings saved.', 've-theme' ), 'updated' );
 		}
 
 		// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Only checking. False positive.
 		if ( isset( $_GET['status'] ) && 'imported' === $_GET['status'] ) {
-			add_settings_error( 'generate-notices', 'imported', esc_html__( 'Import successful.', 'generatepress' ), 'updated' );
+			add_settings_error( 'generate-notices', 'imported', esc_html__( 'Import successful.', 've-theme' ), 'updated' );
 		}
 
 		// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Only checking. False positive.
 		if ( isset( $_GET['status'] ) && 'reset' === $_GET['status'] ) {
-			add_settings_error( 'generate-notices', 'reset', esc_html__( 'Settings removed.', 'generatepress' ), 'updated' );
+			add_settings_error( 'generate-notices', 'reset', esc_html__( 'Settings removed.', 've-theme' ), 'updated' );
 		}
 
 		settings_errors( 'generate-notices' );

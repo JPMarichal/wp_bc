@@ -70,14 +70,14 @@ if ( class_exists( 'WP_Customize_Control' ) && ! class_exists( 'Generate_Typogra
 		public function to_json() {
 			parent::to_json();
 
-			$this->json['default_fonts_title'] = __( 'System fonts', 'generatepress' );
-			$this->json['google_fonts_title'] = __( 'Google fonts', 'generatepress' );
+			$this->json['default_fonts_title'] = __( 'System fonts', 've-theme' );
+			$this->json['google_fonts_title'] = __( 'Google fonts', 've-theme' );
 			$this->json['default_fonts'] = generate_typography_default_fonts();
-			$this->json['family_title'] = esc_html__( 'Font family', 'generatepress' );
-			$this->json['weight_title'] = esc_html__( 'Font weight', 'generatepress' );
-			$this->json['transform_title'] = esc_html__( 'Text transform', 'generatepress' );
+			$this->json['family_title'] = esc_html__( 'Font family', 've-theme' );
+			$this->json['weight_title'] = esc_html__( 'Font weight', 've-theme' );
+			$this->json['transform_title'] = esc_html__( 'Text transform', 've-theme' );
 			$this->json['category_title'] = '';
-			$this->json['variant_title'] = esc_html__( 'Variants', 'generatepress' );
+			$this->json['variant_title'] = esc_html__( 'Variants', 've-theme' );
 
 			foreach ( $this->settings as $setting_key => $setting_id ) {
 				$this->json[ $setting_key ] = array(

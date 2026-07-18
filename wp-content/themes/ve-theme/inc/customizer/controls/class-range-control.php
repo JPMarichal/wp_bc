@@ -66,10 +66,10 @@ if ( class_exists( 'WP_Customize_Control' ) && ! class_exists( 'Generate_Range_S
 				);
 			}
 
-			$this->json['desktop_label'] = __( 'Desktop', 'generatepress' );
-			$this->json['tablet_label'] = __( 'Tablet', 'generatepress' );
-			$this->json['mobile_label'] = __( 'Mobile', 'generatepress' );
-			$this->json['reset_label'] = __( 'Reset', 'generatepress' );
+			$this->json['desktop_label'] = __( 'Desktop', 've-theme' );
+			$this->json['tablet_label'] = __( 'Tablet', 've-theme' );
+			$this->json['mobile_label'] = __( 'Mobile', 've-theme' );
+			$this->json['reset_label'] = __( 'Reset', 've-theme' );
 
 			$this->json['description'] = $this->description;
 			$this->json['sub_description'] = $this->sub_description;

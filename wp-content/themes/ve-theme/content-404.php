@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<header <?php generate_do_attr( 'entry-header' ); ?>>
 		<?php // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- HTML is allowed in filter here. ?>
-		<h1 class="entry-title" itemprop="headline"><?php echo apply_filters( 'generate_404_title', __( 'Oops! That page can&rsquo;t be found.', 'generatepress' ) ); ?></h1>
+		<h1 class="entry-title" itemprop="headline"><?php echo apply_filters( 'generate_404_title', __( 'Oops! That page can&rsquo;t be found.', 've-theme' ) ); ?></h1>
 	</header>
 
 	<?php
@@ -48,7 +48,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php
 		printf(
 			'<p>%s</p>',
-			apply_filters( 'generate_404_text', __( 'It looks like nothing was found at this location. Maybe try searching?', 'generatepress' ) ) // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- HTML is allowed in filter here.
+			apply_filters( 'generate_404_text', __( 'It looks like nothing was found at this location. Maybe try searching?', 've-theme' ) ) // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- HTML is allowed in filter here.
 		);
 
 		get_search_form();

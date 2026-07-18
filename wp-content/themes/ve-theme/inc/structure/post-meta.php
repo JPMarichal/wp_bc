@@ -73,7 +73,7 @@ if ( ! function_exists( 'generate_content_nav' ) ) {
 					?>
 					<div class="nav-previous">
 						<?php generate_do_svg_icon( 'arrow' ); ?>
-						<span class="prev" title="<?php esc_attr_e( 'Previous', 'generatepress' ); ?>"><?php next_posts_link( __( 'Older posts', 'generatepress' ) ); ?></span>
+						<span class="prev" title="<?php esc_attr_e( 'Previous', 've-theme' ); ?>"><?php next_posts_link( __( 'Older posts', 've-theme' ) ); ?></span>
 					</div>
 					<?php
 				endif;
@@ -82,7 +82,7 @@ if ( ! function_exists( 'generate_content_nav' ) ) {
 					?>
 					<div class="nav-next">
 						<?php generate_do_svg_icon( 'arrow' ); ?>
-						<span class="next" title="<?php esc_attr_e( 'Next', 'generatepress' ); ?>"><?php previous_posts_link( __( 'Newer posts', 'generatepress' ) ); ?></span>
+						<span class="next" title="<?php esc_attr_e( 'Next', 've-theme' ); ?>"><?php previous_posts_link( __( 'Newer posts', 've-theme' ) ); ?></span>
 					</div>
 					<?php
 				endif;
@@ -95,7 +95,7 @@ if ( ! function_exists( 'generate_content_nav' ) ) {
 								'generate_previous_link_text',
 								sprintf(
 									/* translators: left arrow */
-									__( '%s Previous', 'generatepress' ),
+									__( '%s Previous', 've-theme' ),
 									'<span aria-hidden="true">&larr;</span>'
 								)
 							),
@@ -103,13 +103,13 @@ if ( ! function_exists( 'generate_content_nav' ) ) {
 								'generate_next_link_text',
 								sprintf(
 									/* translators: right arrow */
-									__( 'Next %s', 'generatepress' ),
+									__( 'Next %s', 've-theme' ),
 									'<span aria-hidden="true">&rarr;</span>'
 								)
 							),
 							'before_page_number' => sprintf(
 								'<span class="screen-reader-text">%s</span>',
-								_x( 'Page', 'prepends the pagination page number for screen readers', 'generatepress' )
+								_x( 'Page', 'prepends the pagination page number for screen readers', 've-theme' )
 							),
 						)
 					);
@@ -219,7 +219,7 @@ function generate_do_post_meta_item( $item ) {
 				apply_filters( 'generate_inside_post_meta_item_output', '', 'author' ),
 				esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 				/* translators: 1: Author name */
-				esc_attr( sprintf( __( 'View all posts by %s', 'generatepress' ), get_the_author() ) ),
+				esc_attr( sprintf( __( 'View all posts by %s', 've-theme' ), get_the_author() ) ),
 				esc_html( get_the_author() ),
 				generate_get_microdata( 'post-author' ),
 				'microdata' === $schema_type ? ' itemprop="url"' : '',
@@ -230,7 +230,7 @@ function generate_do_post_meta_item( $item ) {
 	}
 
 	if ( 'categories' === $item ) {
-		$term_separator = apply_filters( 'generate_term_separator', _x( ', ', 'Used between list items, there is a space after the comma.', 'generatepress' ), 'categories' );
+		$term_separator = apply_filters( 'generate_term_separator', _x( ', ', 'Used between list items, there is a space after the comma.', 've-theme' ), 'categories' );
 		$categories_list = get_the_category_list( $term_separator );
 
 		if ( $categories_list ) {
@@ -238,7 +238,7 @@ function generate_do_post_meta_item( $item ) {
 				'generate_category_list_output',
 				sprintf(
 					'<span class="cat-links">%3$s<span class="screen-reader-text">%1$s </span>%2$s</span> ',
-					esc_html_x( 'Categories', 'Used before category names.', 'generatepress' ),
+					esc_html_x( 'Categories', 'Used before category names.', 've-theme' ),
 					$categories_list,
 					apply_filters( 'generate_inside_post_meta_item_output', '', 'categories' )
 				)
@@ -247,7 +247,7 @@ function generate_do_post_meta_item( $item ) {
 	}
 
 	if ( 'tags' === $item ) {
-		$term_separator = apply_filters( 'generate_term_separator', _x( ', ', 'Used between list items, there is a space after the comma.', 'generatepress' ), 'tags' );
+		$term_separator = apply_filters( 'generate_term_separator', _x( ', ', 'Used between list items, there is a space after the comma.', 've-theme' ), 'tags' );
 		$tags_list = get_the_tag_list( '', $term_separator );
 
 		if ( $tags_list ) {
@@ -255,7 +255,7 @@ function generate_do_post_meta_item( $item ) {
 				'generate_tag_list_output',
 				sprintf(
 					'<span class="tags-links">%3$s<span class="screen-reader-text">%1$s </span>%2$s</span> ',
-					esc_html_x( 'Tags', 'Used before tag names.', 'generatepress' ),
+					esc_html_x( 'Tags', 'Used before tag names.', 've-theme' ),
 					$tags_list,
 					apply_filters( 'generate_inside_post_meta_item_output', '', 'tags' )
 				)
@@ -271,7 +271,7 @@ function generate_do_post_meta_item( $item ) {
 					'',
 					'comments-link'
 				);
-				comments_popup_link( __( 'Leave a comment', 'generatepress' ), __( '1 Comment', 'generatepress' ), __( '% Comments', 'generatepress' ) );
+				comments_popup_link( __( 'Leave a comment', 've-theme' ), __( '1 Comment', 've-theme' ), __( '% Comments', 've-theme' ) );
 			echo '</span> ';
 		}
 	}
@@ -298,7 +298,7 @@ add_filter( 'generate_inside_post_meta_item_output', 'generate_do_post_meta_pref
  */
 function generate_do_post_meta_prefix( $output, $item ) {
 	if ( 'author' === $item ) {
-		$output = __( 'by', 'generatepress' ) . ' ';
+		$output = __( 'by', 've-theme' ) . ' ';
 	}
 
 	if ( 'categories' === $item ) {
@@ -578,7 +578,7 @@ function generate_do_post_navigation( $template ) {
 function generate_get_read_more_text() {
 	return apply_filters(
 		'generate_excerpt_more_text',
-		__( 'Read more', 'generatepress' )
+		__( 'Read more', 've-theme' )
 	);
 }
 
@@ -592,7 +592,7 @@ function generate_get_read_more_aria_label() {
 		'generate_excerpt_more_aria_label',
 		sprintf(
 			/* translators: Aria-label describing the read more button */
-			_x( 'Read more about %s', 'read more about post title', 'generatepress' ),
+			_x( 'Read more about %s', 'read more about post title', 've-theme' ),
 			the_title_attribute( 'echo=0' )
 		)
 	);

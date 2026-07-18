@@ -25,7 +25,7 @@ if ( ! function_exists( 'generate_comment' ) ) {
 
 		<li id="comment-<?php comment_ID(); ?>" <?php comment_class(); ?>>
 			<div class="comment-body">
-				<?php esc_html_e( 'Pingback:', 'generatepress' ); ?> <?php comment_author_link(); ?> <?php edit_comment_link( __( 'Edit', 'generatepress' ), '<span class="edit-link">', '</span>' ); ?>
+				<?php esc_html_e( 'Pingback:', 've-theme' ); ?> <?php comment_author_link(); ?> <?php edit_comment_link( __( 'Edit', 've-theme' ), '<span class="edit-link">', '</span>' ); ?>
 			</div>
 
 		<?php else : ?>
@@ -68,7 +68,7 @@ if ( ! function_exists( 'generate_comment' ) ) {
 										<?php
 											printf(
 												/* translators: 1: date, 2: time */
-												_x( '%1$s at %2$s', '1: date, 2: time', 'generatepress' ), // phpcs:ignore
+												_x( '%1$s at %2$s', '1: date, 2: time', 've-theme' ), // phpcs:ignore
 												get_comment_date(), // phpcs:ignore
 												get_comment_time() // phpcs:ignore
 											);
@@ -79,7 +79,7 @@ if ( ! function_exists( 'generate_comment' ) ) {
 									echo '</a>';
 								}
 
-								edit_comment_link( __( 'Edit', 'generatepress' ), '<span class="edit-link">| ', '</span>' );
+								edit_comment_link( __( 'Edit', 've-theme' ), '<span class="edit-link">| ', '</span>' );
 								?>
 							</div>
 							<?php
@@ -88,7 +88,7 @@ if ( ! function_exists( 'generate_comment' ) ) {
 					</div>
 
 					<?php if ( '0' == $comment->comment_approved ) : // phpcs:ignore ?>
-						<p class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'generatepress' ); ?></p>
+						<p class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 've-theme' ); ?></p>
 					<?php endif; ?>
 				</footer>
 
@@ -153,15 +153,15 @@ add_filter( 'comment_form_defaults', 'generate_set_comment_form_defaults' );
 function generate_set_comment_form_defaults( $defaults ) {
 	$defaults['comment_field'] = sprintf(
 		'<p class="comment-form-comment"><label for="comment" class="screen-reader-text">%1$s</label><textarea id="comment" name="comment" cols="45" rows="8" required></textarea></p>',
-		esc_html__( 'Comment', 'generatepress' )
+		esc_html__( 'Comment', 've-theme' )
 	);
 
 	$defaults['comment_notes_before'] = '';
 	$defaults['comment_notes_after']  = '';
 	$defaults['id_form']              = 'commentform';
 	$defaults['id_submit']            = 'submit';
-	$defaults['title_reply']          = apply_filters( 'generate_leave_comment', __( 'Leave a Comment', 'generatepress' ) );
-	$defaults['label_submit']         = apply_filters( 'generate_post_comment', __( 'Post Comment', 'generatepress' ) );
+	$defaults['title_reply']          = apply_filters( 'generate_leave_comment', __( 'Leave a Comment', 've-theme' ) );
+	$defaults['label_submit']         = apply_filters( 'generate_post_comment', __( 'Post Comment', 've-theme' ) );
 
 	return $defaults;
 }
@@ -180,7 +180,7 @@ function generate_filter_comment_fields( $fields ) {
 
 	$fields['author'] = sprintf(
 		'<label for="author" class="screen-reader-text">%1$s</label><input placeholder="%1$s%3$s" id="author" name="author" type="text" value="%2$s" size="30"%4$s />',
-		esc_html__( 'Name', 'generatepress' ),
+		esc_html__( 'Name', 've-theme' ),
 		esc_attr( $commenter['comment_author'] ),
 		$required ? ' *' : '',
 		$required ? ' required' : ''
@@ -188,7 +188,7 @@ function generate_filter_comment_fields( $fields ) {
 
 	$fields['email'] = sprintf(
 		'<label for="email" class="screen-reader-text">%1$s</label><input placeholder="%1$s%3$s" id="email" name="email" type="email" value="%2$s" size="30"%4$s />',
-		esc_html__( 'Email', 'generatepress' ),
+		esc_html__( 'Email', 've-theme' ),
 		esc_attr( $commenter['comment_author_email'] ),
 		$required ? ' *' : '',
 		$required ? ' required' : ''
@@ -196,7 +196,7 @@ function generate_filter_comment_fields( $fields ) {
 
 	$fields['url'] = sprintf(
 		'<label for="url" class="screen-reader-text">%1$s</label><input placeholder="%1$s" id="url" name="url" type="url" value="%2$s" size="30" />',
-		esc_html__( 'Website', 'generatepress' ),
+		esc_html__( 'Website', 've-theme' ),
 		esc_attr( $commenter['comment_author_url'] )
 	);
 

@@ -83,7 +83,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 					$wp_customize,
 					'generatepress_upsell_section',
 					array(
-						'pro_text' => __( 'Premium Modules Available', 'generatepress' ),
+						'pro_text' => __( 'Premium Modules Available', 've-theme' ),
 						'pro_url' => generate_get_premium_url( 'https://generatepress.com/premium' ),
 						'capability' => 'edit_theme_options',
 						'priority' => 0,
@@ -106,7 +106,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[hide_title]',
 			array(
 				'type' => 'checkbox',
-				'label' => __( 'Hide site title', 'generatepress' ),
+				'label' => __( 'Hide site title', 've-theme' ),
 				'section' => 'title_tagline',
 				'priority' => 2,
 			)
@@ -125,7 +125,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[hide_tagline]',
 			array(
 				'type' => 'checkbox',
-				'label' => __( 'Hide site tagline', 'generatepress' ),
+				'label' => __( 'Hide site tagline', 've-theme' ),
 				'section' => 'title_tagline',
 				'priority' => 4,
 			)
@@ -146,7 +146,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 					$wp_customize,
 					'generate_settings[logo]',
 					array(
-						'label' => __( 'Logo', 'generatepress' ),
+						'label' => __( 'Logo', 've-theme' ),
 						'section' => 'title_tagline',
 						'settings' => 'generate_settings[logo]',
 					)
@@ -168,7 +168,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 				$wp_customize,
 				'generate_settings[retina_logo]',
 				array(
-					'label' => __( 'Retina Logo', 'generatepress' ),
+					'label' => __( 'Retina Logo', 've-theme' ),
 					'section' => 'title_tagline',
 					'settings' => 'generate_settings[retina_logo]',
 					'active_callback' => 'generate_has_custom_logo_callback',
@@ -191,7 +191,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 				$wp_customize,
 				'generate_settings[logo_width]',
 				array(
-					'label' => __( 'Logo Width', 'generatepress' ),
+					'label' => __( 'Logo Width', 've-theme' ),
 					'section' => 'title_tagline',
 					'settings' => array(
 						'desktop' => 'generate_settings[logo_width]',
@@ -223,7 +223,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[inline_logo_site_branding]',
 			array(
 				'type' => 'checkbox',
-				'label' => esc_html__( 'Place logo next to title', 'generatepress' ),
+				'label' => esc_html__( 'Place logo next to title', 've-theme' ),
 				'section' => 'title_tagline',
 				'active_callback' => 'generate_show_inline_logo_callback',
 			)
@@ -232,7 +232,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_colors_section',
 			array(
-				'title' => esc_attr__( 'Colors', 'generatepress' ),
+				'title' => esc_attr__( 'Colors', 've-theme' ),
 				'priority' => 30,
 			)
 		);
@@ -241,7 +241,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_color_manager_title',
 			array(
 				'section' => 'generate_colors_section',
-				'title' => __( 'Global Colors', 'generatepress' ),
+				'title' => __( 'Global Colors', 've-theme' ),
 			)
 		);
 
@@ -278,7 +278,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			),
 			array(
 				'type' => 'generate-color-manager-control',
-				'label' => __( 'Choose Color', 'generatepress' ),
+				'label' => __( 'Choose Color', 've-theme' ),
 				'section' => 'generate_colors_section',
 				'choices' => array(
 					'alpha' => true,
@@ -311,7 +311,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_typography_section',
 			array(
-				'title' => esc_attr__( 'Typography', 'generatepress' ),
+				'title' => esc_attr__( 'Typography', 've-theme' ),
 				'priority' => 35,
 				'active_callback' => function() {
 					if ( ! generate_is_using_dynamic_typography() ) {
@@ -327,7 +327,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_font_manager_title',
 			array(
 				'section' => 'generate_typography_section',
-				'title' => __( 'Font Manager', 'generatepress' ),
+				'title' => __( 'Font Manager', 've-theme' ),
 			)
 		);
 
@@ -372,7 +372,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			),
 			array(
 				'type' => 'generate-font-manager-control',
-				'label' => __( 'Choose Font', 'generatepress' ),
+				'label' => __( 'Choose Font', 've-theme' ),
 				'section' => 'generate_typography_section',
 			)
 		);
@@ -387,19 +387,19 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			),
 			array(
 				'type' => 'select',
-				'label' => __( 'Google font-display', 'generatepress' ),
+				'label' => __( 'Google font-display', 've-theme' ),
 				'description' => sprintf(
 					'<a href="%s" target="_blank" rel="noreferrer noopener">%s</a>',
 					'https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display',
-					esc_html__( 'Learn about font-display', 'generatepress' )
+					esc_html__( 'Learn about font-display', 've-theme' )
 				),
 				'section' => 'generate_typography_section',
 				'choices' => array(
-					'auto' => esc_html__( 'Auto', 'generatepress' ),
-					'block' => esc_html__( 'Block', 'generatepress' ),
-					'swap' => esc_html__( 'Swap', 'generatepress' ),
-					'fallback' => esc_html__( 'Fallback', 'generatepress' ),
-					'optional' => esc_html__( 'Optional', 'generatepress' ),
+					'auto' => esc_html__( 'Auto', 've-theme' ),
+					'block' => esc_html__( 'Block', 've-theme' ),
+					'swap' => esc_html__( 'Swap', 've-theme' ),
+					'fallback' => esc_html__( 'Fallback', 've-theme' ),
+					'optional' => esc_html__( 'Optional', 've-theme' ),
 				),
 				'active_callback' => function() {
 					$font_manager = generate_get_option( 'font_manager' );
@@ -421,7 +421,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_typography_manager_title',
 			array(
 				'section' => 'generate_typography_section',
-				'title' => __( 'Typography Manager', 'generatepress' ),
+				'title' => __( 'Typography Manager', 've-theme' ),
 			)
 		);
 
@@ -486,7 +486,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			),
 			array(
 				'type' => 'generate-typography-control',
-				'label' => __( 'Configure', 'generatepress' ),
+				'label' => __( 'Configure', 've-theme' ),
 				'section' => 'generate_typography_section',
 			)
 		);
@@ -496,7 +496,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 				'generate_layout_panel',
 				array(
 					'priority' => 25,
-					'title' => __( 'Layout', 'generatepress' ),
+					'title' => __( 'Layout', 've-theme' ),
 				)
 			);
 		}
@@ -504,7 +504,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_layout_container',
 			array(
-				'title' => __( 'Container', 'generatepress' ),
+				'title' => __( 'Container', 've-theme' ),
 				'priority' => 10,
 				'panel' => 'generate_layout_panel',
 			)
@@ -526,7 +526,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 				'generate_settings[container_width]',
 				array(
 					'type' => 'generatepress-range-slider',
-					'label' => __( 'Container Width', 'generatepress' ),
+					'label' => __( 'Container Width', 've-theme' ),
 					'section' => 'generate_layout_container',
 					'settings' => array(
 						'desktop' => 'generate_settings[container_width]',
@@ -548,7 +548,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_top_bar',
 			array(
-				'title' => __( 'Top Bar', 'generatepress' ),
+				'title' => __( 'Top Bar', 've-theme' ),
 				'priority' => 15,
 				'panel' => 'generate_layout_panel',
 			)
@@ -568,11 +568,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[top_bar_width]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Top Bar Width', 'generatepress' ),
+				'label' => __( 'Top Bar Width', 've-theme' ),
 				'section' => 'generate_top_bar',
 				'choices' => array(
-					'full' => __( 'Full', 'generatepress' ),
-					'contained' => __( 'Contained', 'generatepress' ),
+					'full' => __( 'Full', 've-theme' ),
+					'contained' => __( 'Contained', 've-theme' ),
 				),
 				'settings' => 'generate_settings[top_bar_width]',
 				'priority' => 5,
@@ -594,11 +594,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[top_bar_inner_width]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Top Bar Inner Width', 'generatepress' ),
+				'label' => __( 'Top Bar Inner Width', 've-theme' ),
 				'section' => 'generate_top_bar',
 				'choices' => array(
-					'full' => __( 'Full', 'generatepress' ),
-					'contained' => __( 'Contained', 'generatepress' ),
+					'full' => __( 'Full', 've-theme' ),
+					'contained' => __( 'Contained', 've-theme' ),
 				),
 				'settings' => 'generate_settings[top_bar_inner_width]',
 				'priority' => 10,
@@ -620,12 +620,12 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[top_bar_alignment]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Top Bar Alignment', 'generatepress' ),
+				'label' => __( 'Top Bar Alignment', 've-theme' ),
 				'section' => 'generate_top_bar',
 				'choices' => array(
-					'left' => __( 'Left', 'generatepress' ),
-					'center' => __( 'Center', 'generatepress' ),
-					'right' => __( 'Right', 'generatepress' ),
+					'left' => __( 'Left', 've-theme' ),
+					'center' => __( 'Center', 've-theme' ),
+					'right' => __( 'Right', 've-theme' ),
 				),
 				'settings' => 'generate_settings[top_bar_alignment]',
 				'priority' => 15,
@@ -636,7 +636,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_layout_header',
 			array(
-				'title' => __( 'Header', 'generatepress' ),
+				'title' => __( 'Header', 've-theme' ),
 				'priority' => 20,
 				'panel' => 'generate_layout_panel',
 			)
@@ -656,17 +656,17 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_header_helper',
 			array(
 				'type' => 'select',
-				'label' => __( 'Header Presets', 'generatepress' ),
+				'label' => __( 'Header Presets', 've-theme' ),
 				'section' => 'generate_layout_header',
 				'choices' => array(
-					'current' => __( 'Current', 'generatepress' ),
-					'default' => __( 'Default', 'generatepress' ),
-					'classic' => __( 'Classic', 'generatepress' ),
-					'nav-before' => __( 'Navigation Before', 'generatepress' ),
-					'nav-after' => __( 'Navigation After', 'generatepress' ),
-					'nav-before-centered' => __( 'Navigation Before - Centered', 'generatepress' ),
-					'nav-after-centered' => __( 'Navigation After - Centered', 'generatepress' ),
-					'nav-left' => __( 'Navigation Left', 'generatepress' ),
+					'current' => __( 'Current', 've-theme' ),
+					'default' => __( 'Default', 've-theme' ),
+					'classic' => __( 'Classic', 've-theme' ),
+					'nav-before' => __( 'Navigation Before', 've-theme' ),
+					'nav-after' => __( 'Navigation After', 've-theme' ),
+					'nav-before-centered' => __( 'Navigation Before - Centered', 've-theme' ),
+					'nav-after-centered' => __( 'Navigation After - Centered', 've-theme' ),
+					'nav-left' => __( 'Navigation Left', 've-theme' ),
 				),
 				'settings' => 'generate_header_helper',
 				'priority' => 4,
@@ -729,11 +729,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[header_layout_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Header Width', 'generatepress' ),
+				'label' => __( 'Header Width', 've-theme' ),
 				'section' => 'generate_layout_header',
 				'choices' => array(
-					'fluid-header' => __( 'Full', 'generatepress' ),
-					'contained-header' => __( 'Contained', 'generatepress' ),
+					'fluid-header' => __( 'Full', 've-theme' ),
+					'contained-header' => __( 'Contained', 've-theme' ),
 				),
 				'settings' => 'generate_settings[header_layout_setting]',
 				'priority' => 5,
@@ -754,11 +754,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[header_inner_width]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Inner Header Width', 'generatepress' ),
+				'label' => __( 'Inner Header Width', 've-theme' ),
 				'section' => 'generate_layout_header',
 				'choices' => array(
-					'contained' => __( 'Contained', 'generatepress' ),
-					'full-width' => __( 'Full', 'generatepress' ),
+					'contained' => __( 'Contained', 've-theme' ),
+					'full-width' => __( 'Full', 've-theme' ),
 				),
 				'settings' => 'generate_settings[header_inner_width]',
 				'priority' => 6,
@@ -779,12 +779,12 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[header_alignment_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Header Alignment', 'generatepress' ),
+				'label' => __( 'Header Alignment', 've-theme' ),
 				'section' => 'generate_layout_header',
 				'choices' => array(
-					'left' => __( 'Left', 'generatepress' ),
-					'center' => __( 'Center', 'generatepress' ),
-					'right' => __( 'Right', 'generatepress' ),
+					'left' => __( 'Left', 've-theme' ),
+					'center' => __( 'Center', 've-theme' ),
+					'right' => __( 'Right', 've-theme' ),
 				),
 				'settings' => 'generate_settings[header_alignment_setting]',
 				'priority' => 10,
@@ -794,7 +794,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_layout_navigation',
 			array(
-				'title' => __( 'Primary Navigation', 'generatepress' ),
+				'title' => __( 'Primary Navigation', 've-theme' ),
 				'priority' => 30,
 				'panel' => 'generate_layout_panel',
 			)
@@ -814,11 +814,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[nav_layout_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Navigation Width', 'generatepress' ),
+				'label' => __( 'Navigation Width', 've-theme' ),
 				'section' => 'generate_layout_navigation',
 				'choices' => array(
-					'fluid-nav' => __( 'Full', 'generatepress' ),
-					'contained-nav' => __( 'Contained', 'generatepress' ),
+					'fluid-nav' => __( 'Full', 've-theme' ),
+					'contained-nav' => __( 'Contained', 've-theme' ),
 				),
 				'settings' => 'generate_settings[nav_layout_setting]',
 				'priority' => 15,
@@ -839,11 +839,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[nav_inner_width]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Inner Navigation Width', 'generatepress' ),
+				'label' => __( 'Inner Navigation Width', 've-theme' ),
 				'section' => 'generate_layout_navigation',
 				'choices' => array(
-					'contained' => __( 'Contained', 'generatepress' ),
-					'full-width' => __( 'Full', 'generatepress' ),
+					'contained' => __( 'Contained', 've-theme' ),
+					'full-width' => __( 'Full', 've-theme' ),
 				),
 				'settings' => 'generate_settings[nav_inner_width]',
 				'priority' => 16,
@@ -864,12 +864,12 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[nav_alignment_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Navigation Alignment', 'generatepress' ),
+				'label' => __( 'Navigation Alignment', 've-theme' ),
 				'section' => 'generate_layout_navigation',
 				'choices' => array(
-					'left' => __( 'Left', 'generatepress' ),
-					'center' => __( 'Center', 'generatepress' ),
-					'right' => __( 'Right', 'generatepress' ),
+					'left' => __( 'Left', 've-theme' ),
+					'center' => __( 'Center', 've-theme' ),
+					'right' => __( 'Right', 've-theme' ),
 				),
 				'settings' => 'generate_settings[nav_alignment_setting]',
 				'priority' => 20,
@@ -890,16 +890,16 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[nav_position_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Navigation Location', 'generatepress' ),
+				'label' => __( 'Navigation Location', 've-theme' ),
 				'section' => 'generate_layout_navigation',
 				'choices' => array(
-					'nav-below-header' => __( 'Below Header', 'generatepress' ),
-					'nav-above-header' => __( 'Above Header', 'generatepress' ),
-					'nav-float-right' => __( 'Float Right', 'generatepress' ),
-					'nav-float-left' => __( 'Float Left', 'generatepress' ),
-					'nav-left-sidebar' => __( 'Left Sidebar', 'generatepress' ),
-					'nav-right-sidebar' => __( 'Right Sidebar', 'generatepress' ),
-					'' => __( 'No Navigation', 'generatepress' ),
+					'nav-below-header' => __( 'Below Header', 've-theme' ),
+					'nav-above-header' => __( 'Above Header', 've-theme' ),
+					'nav-float-right' => __( 'Float Right', 've-theme' ),
+					'nav-float-left' => __( 'Float Left', 've-theme' ),
+					'nav-left-sidebar' => __( 'Left Sidebar', 've-theme' ),
+					'nav-right-sidebar' => __( 'Right Sidebar', 've-theme' ),
+					'' => __( 'No Navigation', 've-theme' ),
 				),
 				'settings' => 'generate_settings[nav_position_setting]',
 				'priority' => 22,
@@ -920,8 +920,8 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 				$wp_customize,
 				'generate_settings[nav_drop_point]',
 				array(
-					'label' => __( 'Navigation Drop Point', 'generatepress' ),
-					'sub_description' => __( 'The width when the navigation ceases to float and drops below your logo.', 'generatepress' ),
+					'label' => __( 'Navigation Drop Point', 've-theme' ),
+					'sub_description' => __( 'The width when the navigation ceases to float and drops below your logo.', 've-theme' ),
 					'section' => 'generate_layout_navigation',
 					'settings' => array(
 						'desktop' => 'generate_settings[nav_drop_point]',
@@ -953,12 +953,12 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[nav_dropdown_type]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Navigation Dropdown', 'generatepress' ),
+				'label' => __( 'Navigation Dropdown', 've-theme' ),
 				'section' => 'generate_layout_navigation',
 				'choices' => array(
-					'hover' => __( 'Hover', 'generatepress' ),
-					'click' => __( 'Click - Menu Item', 'generatepress' ),
-					'click-arrow' => __( 'Click - Arrow', 'generatepress' ),
+					'hover' => __( 'Hover', 've-theme' ),
+					'click' => __( 'Click - Menu Item', 've-theme' ),
+					'click-arrow' => __( 'Click - Arrow', 've-theme' ),
 				),
 				'settings' => 'generate_settings[nav_dropdown_type]',
 				'priority' => 22,
@@ -978,11 +978,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[nav_dropdown_direction]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Dropdown Direction', 'generatepress' ),
+				'label' => __( 'Dropdown Direction', 've-theme' ),
 				'section' => 'generate_layout_navigation',
 				'choices' => array(
-					'right' => __( 'Right', 'generatepress' ),
-					'left' => __( 'Left', 'generatepress' ),
+					'right' => __( 'Right', 've-theme' ),
+					'left' => __( 'Left', 've-theme' ),
 				),
 				'settings' => 'generate_settings[nav_dropdown_direction]',
 				'priority' => 22,
@@ -1002,11 +1002,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[nav_search]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Navigation Search', 'generatepress' ),
+				'label' => __( 'Navigation Search', 've-theme' ),
 				'section' => 'generate_layout_navigation',
 				'choices' => array(
-					'enable' => __( 'Enable', 'generatepress' ),
-					'disable' => __( 'Disable', 'generatepress' ),
+					'enable' => __( 'Enable', 've-theme' ),
+					'disable' => __( 'Disable', 've-theme' ),
 				),
 				'settings' => 'generate_settings[nav_search]',
 				'priority' => 23,
@@ -1029,7 +1029,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[nav_search_modal]',
 			array(
 				'type' => 'checkbox',
-				'label' => esc_html__( 'Enable navigation search modal', 'generatepress' ),
+				'label' => esc_html__( 'Enable navigation search modal', 've-theme' ),
 				'section' => 'generate_layout_navigation',
 				'priority' => 23,
 				'active_callback' => function() {
@@ -1051,11 +1051,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[content_layout_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Content Layout', 'generatepress' ),
+				'label' => __( 'Content Layout', 've-theme' ),
 				'section' => 'generate_layout_container',
 				'choices' => array(
-					'separate-containers' => __( 'Separate Containers', 'generatepress' ),
-					'one-container' => __( 'One Container', 'generatepress' ),
+					'separate-containers' => __( 'Separate Containers', 've-theme' ),
+					'one-container' => __( 'One Container', 've-theme' ),
 				),
 				'settings' => 'generate_settings[content_layout_setting]',
 				'priority' => 25,
@@ -1075,11 +1075,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[container_alignment]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Container Alignment', 'generatepress' ),
+				'label' => __( 'Container Alignment', 've-theme' ),
 				'section' => 'generate_layout_container',
 				'choices' => array(
-					'boxes' => __( 'Boxes', 'generatepress' ),
-					'text' => __( 'Text', 'generatepress' ),
+					'boxes' => __( 'Boxes', 've-theme' ),
+					'text' => __( 'Text', 've-theme' ),
 				),
 				'settings' => 'generate_settings[container_alignment]',
 				'priority' => 30,
@@ -1089,7 +1089,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_layout_sidebars',
 			array(
-				'title' => __( 'Sidebars', 'generatepress' ),
+				'title' => __( 'Sidebars', 've-theme' ),
 				'priority' => 40,
 				'panel' => 'generate_layout_panel',
 			)
@@ -1108,15 +1108,15 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[layout_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Sidebar Layout', 'generatepress' ),
+				'label' => __( 'Sidebar Layout', 've-theme' ),
 				'section' => 'generate_layout_sidebars',
 				'choices' => array(
-					'left-sidebar' => __( 'Sidebar / Content', 'generatepress' ),
-					'right-sidebar' => __( 'Content / Sidebar', 'generatepress' ),
-					'no-sidebar' => __( 'Content (no sidebars)', 'generatepress' ),
-					'both-sidebars' => __( 'Sidebar / Content / Sidebar', 'generatepress' ),
-					'both-left' => __( 'Sidebar / Sidebar / Content', 'generatepress' ),
-					'both-right' => __( 'Content / Sidebar / Sidebar', 'generatepress' ),
+					'left-sidebar' => __( 'Sidebar / Content', 've-theme' ),
+					'right-sidebar' => __( 'Content / Sidebar', 've-theme' ),
+					'no-sidebar' => __( 'Content (no sidebars)', 've-theme' ),
+					'both-sidebars' => __( 'Sidebar / Content / Sidebar', 've-theme' ),
+					'both-left' => __( 'Sidebar / Sidebar / Content', 've-theme' ),
+					'both-right' => __( 'Content / Sidebar / Sidebar', 've-theme' ),
 				),
 				'settings' => 'generate_settings[layout_setting]',
 				'priority' => 30,
@@ -1136,15 +1136,15 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[blog_layout_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Blog Sidebar Layout', 'generatepress' ),
+				'label' => __( 'Blog Sidebar Layout', 've-theme' ),
 				'section' => 'generate_layout_sidebars',
 				'choices' => array(
-					'left-sidebar' => __( 'Sidebar / Content', 'generatepress' ),
-					'right-sidebar' => __( 'Content / Sidebar', 'generatepress' ),
-					'no-sidebar' => __( 'Content (no sidebars)', 'generatepress' ),
-					'both-sidebars' => __( 'Sidebar / Content / Sidebar', 'generatepress' ),
-					'both-left' => __( 'Sidebar / Sidebar / Content', 'generatepress' ),
-					'both-right' => __( 'Content / Sidebar / Sidebar', 'generatepress' ),
+					'left-sidebar' => __( 'Sidebar / Content', 've-theme' ),
+					'right-sidebar' => __( 'Content / Sidebar', 've-theme' ),
+					'no-sidebar' => __( 'Content (no sidebars)', 've-theme' ),
+					'both-sidebars' => __( 'Sidebar / Content / Sidebar', 've-theme' ),
+					'both-left' => __( 'Sidebar / Sidebar / Content', 've-theme' ),
+					'both-right' => __( 'Content / Sidebar / Sidebar', 've-theme' ),
 				),
 				'settings' => 'generate_settings[blog_layout_setting]',
 				'priority' => 35,
@@ -1164,15 +1164,15 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[single_layout_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Single Post Sidebar Layout', 'generatepress' ),
+				'label' => __( 'Single Post Sidebar Layout', 've-theme' ),
 				'section' => 'generate_layout_sidebars',
 				'choices' => array(
-					'left-sidebar' => __( 'Sidebar / Content', 'generatepress' ),
-					'right-sidebar' => __( 'Content / Sidebar', 'generatepress' ),
-					'no-sidebar' => __( 'Content (no sidebars)', 'generatepress' ),
-					'both-sidebars' => __( 'Sidebar / Content / Sidebar', 'generatepress' ),
-					'both-left' => __( 'Sidebar / Sidebar / Content', 'generatepress' ),
-					'both-right' => __( 'Content / Sidebar / Sidebar', 'generatepress' ),
+					'left-sidebar' => __( 'Sidebar / Content', 've-theme' ),
+					'right-sidebar' => __( 'Content / Sidebar', 've-theme' ),
+					'no-sidebar' => __( 'Content (no sidebars)', 've-theme' ),
+					'both-sidebars' => __( 'Sidebar / Content / Sidebar', 've-theme' ),
+					'both-left' => __( 'Sidebar / Sidebar / Content', 've-theme' ),
+					'both-right' => __( 'Content / Sidebar / Sidebar', 've-theme' ),
 				),
 				'settings' => 'generate_settings[single_layout_setting]',
 				'priority' => 36,
@@ -1182,7 +1182,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_layout_footer',
 			array(
-				'title' => __( 'Footer', 'generatepress' ),
+				'title' => __( 'Footer', 've-theme' ),
 				'priority' => 50,
 				'panel' => 'generate_layout_panel',
 			)
@@ -1202,11 +1202,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[footer_layout_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Footer Width', 'generatepress' ),
+				'label' => __( 'Footer Width', 've-theme' ),
 				'section' => 'generate_layout_footer',
 				'choices' => array(
-					'fluid-footer' => __( 'Full', 'generatepress' ),
-					'contained-footer' => __( 'Contained', 'generatepress' ),
+					'fluid-footer' => __( 'Full', 've-theme' ),
+					'contained-footer' => __( 'Contained', 've-theme' ),
 				),
 				'settings' => 'generate_settings[footer_layout_setting]',
 				'priority' => 40,
@@ -1227,11 +1227,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[footer_inner_width]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Inner Footer Width', 'generatepress' ),
+				'label' => __( 'Inner Footer Width', 've-theme' ),
 				'section' => 'generate_layout_footer',
 				'choices' => array(
-					'contained' => __( 'Contained', 'generatepress' ),
-					'full-width' => __( 'Full', 'generatepress' ),
+					'contained' => __( 'Contained', 've-theme' ),
+					'full-width' => __( 'Full', 've-theme' ),
 				),
 				'settings' => 'generate_settings[footer_inner_width]',
 				'priority' => 41,
@@ -1251,7 +1251,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[footer_widget_setting]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Footer Widgets', 'generatepress' ),
+				'label' => __( 'Footer Widgets', 've-theme' ),
 				'section' => 'generate_layout_footer',
 				'choices' => array(
 					'0' => '0',
@@ -1280,12 +1280,12 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[footer_bar_alignment]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Footer Bar Alignment', 'generatepress' ),
+				'label' => __( 'Footer Bar Alignment', 've-theme' ),
 				'section' => 'generate_layout_footer',
 				'choices' => array(
-					'left' => __( 'Left', 'generatepress' ),
-					'center' => __( 'Center', 'generatepress' ),
-					'right' => __( 'Right', 'generatepress' ),
+					'left' => __( 'Left', 've-theme' ),
+					'center' => __( 'Center', 've-theme' ),
+					'right' => __( 'Right', 've-theme' ),
 				),
 				'settings' => 'generate_settings[footer_bar_alignment]',
 				'priority' => 47,
@@ -1306,11 +1306,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[back_to_top]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Back to Top Button', 'generatepress' ),
+				'label' => __( 'Back to Top Button', 've-theme' ),
 				'section' => 'generate_layout_footer',
 				'choices' => array(
-					'enable' => __( 'Enable', 'generatepress' ),
-					'' => __( 'Disable', 'generatepress' ),
+					'enable' => __( 'Enable', 've-theme' ),
+					'' => __( 'Disable', 've-theme' ),
 				),
 				'settings' => 'generate_settings[back_to_top]',
 				'priority' => 50,
@@ -1320,7 +1320,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_blog_section',
 			array(
-				'title' => __( 'Blog', 'generatepress' ),
+				'title' => __( 'Blog', 've-theme' ),
 				'priority' => 55,
 				'panel' => 'generate_layout_panel',
 			)
@@ -1339,11 +1339,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'blog_content_control',
 			array(
 				'type' => 'select',
-				'label' => __( 'Content Type', 'generatepress' ),
+				'label' => __( 'Content Type', 've-theme' ),
 				'section' => 'generate_blog_section',
 				'choices' => array(
-					'full' => __( 'Full Content', 'generatepress' ),
-					'excerpt' => __( 'Excerpt', 'generatepress' ),
+					'full' => __( 'Full Content', 've-theme' ),
+					'excerpt' => __( 'Excerpt', 've-theme' ),
 				),
 				'settings' => 'generate_settings[post_content]',
 				'priority' => 10,
@@ -1358,8 +1358,8 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 					array(
 						'section' => 'generate_blog_section',
 						'type' => 'addon',
-						'label' => __( 'Learn more', 'generatepress' ),
-						'description' => __( 'More options are available for this section in our premium version.', 'generatepress' ),
+						'label' => __( 'Learn more', 've-theme' ),
+						'description' => __( 'More options are available for this section in our premium version.', 've-theme' ),
 						'url' => generate_get_premium_url( 'https://generatepress.com/premium/#blog', false ),
 						'priority' => 30,
 						'settings' => ( isset( $wp_customize->selective_refresh ) ) ? array() : 'blogname',
@@ -1371,7 +1371,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 		$wp_customize->add_section(
 			'generate_general_section',
 			array(
-				'title' => __( 'General', 'generatepress' ),
+				'title' => __( 'General', 've-theme' ),
 				'priority' => 99,
 			)
 		);
@@ -1390,8 +1390,8 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 				'generate_settings[font_awesome_essentials]',
 				array(
 					'type' => 'checkbox',
-					'label' => __( 'Load essential icons only', 'generatepress' ),
-					'description' => __( 'Load essential Font Awesome icons instead of the full library.', 'generatepress' ),
+					'label' => __( 'Load essential icons only', 've-theme' ),
+					'description' => __( 'Load essential Font Awesome icons instead of the full library.', 've-theme' ),
 					'section' => 'generate_general_section',
 					'settings' => 'generate_settings[font_awesome_essentials]',
 				)
@@ -1424,19 +1424,19 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 				'generate_settings[structure]',
 				array(
 					'type' => 'select',
-					'label' => __( 'Structure', 'generatepress' ),
+					'label' => __( 'Structure', 've-theme' ),
 					'section' => 'generate_general_section',
 					'choices' => array(
-						'flexbox' => __( 'Flexbox', 'generatepress' ),
-						'floats' => __( 'Floats', 'generatepress' ),
+						'flexbox' => __( 'Flexbox', 've-theme' ),
+						'floats' => __( 'Floats', 've-theme' ),
 					),
 					'description' => sprintf(
 						'<strong>%1$s</strong> %2$s',
-						__( 'Caution:', 'generatepress' ),
+						__( 'Caution:', 've-theme' ),
 						sprintf(
 							/* translators: Learn more here */
-							__( 'Switching your structure can change how your website displays. Review your website thoroughly before publishing this change, or use a staging site to review the potential changes. Learn more %s.', 'generatepress' ),
-							'<a href="https://docs.generatepress.com/article/switching-from-floats-to-flexbox/" target="_blank" rel="noopener noreferrer">' . __( 'here', 'generatepress' ) . '</a>'
+							__( 'Switching your structure can change how your website displays. Review your website thoroughly before publishing this change, or use a staging site to review the potential changes. Learn more %s.', 've-theme' ),
+							'<a href="https://docs.generatepress.com/article/switching-from-floats-to-flexbox/" target="_blank" rel="noopener noreferrer">' . __( 'here', 've-theme' ) . '</a>'
 						)
 					),
 					'settings' => 'generate_settings[structure]',
@@ -1457,11 +1457,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[icons]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Icon Type', 'generatepress' ),
+				'label' => __( 'Icon Type', 've-theme' ),
 				'section' => 'generate_general_section',
 				'choices' => array(
-					'svg' => __( 'SVG', 'generatepress' ),
-					'font' => __( 'Font', 'generatepress' ),
+					'svg' => __( 'SVG', 've-theme' ),
+					'font' => __( 'Font', 've-theme' ),
 				),
 				'settings' => 'generate_settings[icons]',
 			)
@@ -1480,14 +1480,14 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[underline_links]',
 			array(
 				'type' => 'select',
-				'label' => __( 'Underline Links', 'generatepress' ),
-				'description' => __( 'Add underlines to your links in your main content areas.', 'generatepress' ),
+				'label' => __( 'Underline Links', 've-theme' ),
+				'description' => __( 'Add underlines to your links in your main content areas.', 've-theme' ),
 				'section' => 'generate_general_section',
 				'choices' => array(
-					'always' => __( 'Always', 'generatepress' ),
-					'hover' => __( 'On hover', 'generatepress' ),
-					'not-hover' => __( 'Not on hover', 'generatepress' ),
-					'never' => __( 'Never', 'generatepress' ),
+					'always' => __( 'Always', 've-theme' ),
+					'hover' => __( 'On hover', 've-theme' ),
+					'not-hover' => __( 'Not on hover', 've-theme' ),
+					'never' => __( 'Never', 've-theme' ),
 				),
 				'settings' => 'generate_settings[underline_links]',
 			)
@@ -1506,8 +1506,8 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[combine_css]',
 			array(
 				'type' => 'checkbox',
-				'label' => __( 'Combine CSS', 'generatepress' ),
-				'description' => __( 'Reduce the number of CSS file requests and use a lite version of our grid system.', 'generatepress' ),
+				'label' => __( 'Combine CSS', 've-theme' ),
+				'description' => __( 'Reduce the number of CSS file requests and use a lite version of our grid system.', 've-theme' ),
 				'section' => 'generate_general_section',
 				'active_callback' => 'generate_is_using_floats_callback',
 			)
@@ -1526,8 +1526,8 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 			'generate_settings[dynamic_css_cache]',
 			array(
 				'type' => 'checkbox',
-				'label' => __( 'Cache dynamic CSS', 'generatepress' ),
-				'description' => __( 'Cache CSS generated by your options to boost performance.', 'generatepress' ),
+				'label' => __( 'Cache dynamic CSS', 've-theme' ),
+				'description' => __( 'Cache CSS generated by your options to boost performance.', 've-theme' ),
 				'section' => 'generate_general_section',
 			)
 		);
@@ -1558,11 +1558,11 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 				'generate_settings[use_dynamic_typography]',
 				array(
 					'type' => 'checkbox',
-					'label' => __( 'Use dynamic typography system', 'generatepress' ),
+					'label' => __( 'Use dynamic typography system', 've-theme' ),
 					'description' => sprintf(
 						/* translators: Learn more here */
-						__( 'Switching to our dynamic typography system can change how your fonts display. Review your website thoroughly before publishing this change. Learn more %s.', 'generatepress' ),
-						'<a href="https://docs.generatepress.com/article/switching-to-dynamic-typography/" target="_blank" rel="noopener noreferrer">' . __( 'here', 'generatepress' ) . '</a>'
+						__( 'Switching to our dynamic typography system can change how your fonts display. Review your website thoroughly before publishing this change. Learn more %s.', 've-theme' ),
+						'<a href="https://docs.generatepress.com/article/switching-to-dynamic-typography/" target="_blank" rel="noopener noreferrer">' . __( 'here', 've-theme' ) . '</a>'
 					),
 					'section' => 'generate_general_section',
 					'settings' => 'generate_settings[use_dynamic_typography]',

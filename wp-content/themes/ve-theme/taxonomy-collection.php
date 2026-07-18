@@ -43,7 +43,7 @@ get_header();
                       </div>
                       <h3 class="bc-series-card-title"><?php echo esc_html($s->name); ?></h3>
                       <p class="bc-series-card-count">
-                        <?php printf(_n('%d artículo', '%d artículos', $count, 'generatepress'), $count); ?>
+                        <?php printf(_n('%d artículo', '%d artículos', $count, 've-theme'), $count); ?>
                       </p>
                     </div>
                   </a>

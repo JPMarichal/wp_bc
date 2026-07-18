@@ -168,7 +168,7 @@ class GeneratePress_HTML_Attributes {
 	 */
 	public function site_header( $attributes ) {
 		$attributes['id'] = 'masthead';
-		$attributes['aria-label'] = esc_attr__( 'Site', 'generatepress' );
+		$attributes['aria-label'] = esc_attr__( 'Site', 've-theme' );
 
 		return $attributes;
 	}
@@ -211,7 +211,7 @@ class GeneratePress_HTML_Attributes {
 	 */
 	public function primary_navigation( $attributes ) {
 		$attributes['id'] = 'site-navigation';
-		$attributes['aria-label'] = esc_attr__( 'Primary', 'generatepress' );
+		$attributes['aria-label'] = esc_attr__( 'Primary', 've-theme' );
 
 		return $attributes;
 	}
@@ -241,7 +241,7 @@ class GeneratePress_HTML_Attributes {
 	public function mobile_menu_control_wrapper( $attributes ) {
 		$attributes['id'] = 'mobile-menu-control-wrapper';
 		$attributes['class'] .= ' main-navigation mobile-menu-control-wrapper';
-		$attributes['aria-label'] = esc_attr__( 'Mobile Toggle', 'generatepress' );
+		$attributes['aria-label'] = esc_attr__( 'Mobile Toggle', 've-theme' );
 
 		return $attributes;
 	}
@@ -254,7 +254,7 @@ class GeneratePress_HTML_Attributes {
 	 */
 	public function site_info( $attributes ) {
 		$attributes['class'] .= ' site-info';
-		$attributes['aria-label'] = esc_attr__( 'Site', 'generatepress' );
+		$attributes['aria-label'] = esc_attr__( 'Site', 've-theme' );
 
 		return $attributes;
 	}
@@ -299,7 +299,7 @@ class GeneratePress_HTML_Attributes {
 	 */
 	public function page_header( $attributes ) {
 		$attributes['class'] .= ' page-header';
-		$attributes['aria-label'] = esc_attr__( 'Page', 'generatepress' );
+		$attributes['aria-label'] = esc_attr__( 'Page', 've-theme' );
 
 		return $attributes;
 	}
@@ -313,10 +313,10 @@ class GeneratePress_HTML_Attributes {
 	public function post_navigation( $attributes ) {
 		if ( is_single() ) {
 			$attributes['class'] .= ' post-navigation';
-			$attributes['aria-label'] = esc_attr__( 'Posts', 'generatepress' );
+			$attributes['aria-label'] = esc_attr__( 'Posts', 've-theme' );
 		} else {
 			$attributes['class'] .= ' paging-navigation';
-			$attributes['aria-label'] = esc_attr__( 'Archive Page', 'generatepress' );
+			$attributes['aria-label'] = esc_attr__( 'Archive Page', 've-theme' );
 		}
 
 		return $attributes;
@@ -445,7 +445,7 @@ class GeneratePress_HTML_Attributes {
 	 */
 	public function comment_meta( $attributes ) {
 		$attributes['class'] .= ' comment-meta';
-		$attributes['aria-label'] = esc_attr__( 'Comment meta', 'generatepress' );
+		$attributes['aria-label'] = esc_attr__( 'Comment meta', 've-theme' );
 
 		return $attributes;
 	}
@@ -458,7 +458,7 @@ class GeneratePress_HTML_Attributes {
 	 */
 	public function footer_entry_meta( $attributes ) {
 		$attributes['class'] .= ' entry-meta';
-		$attributes['aria-label'] = esc_attr__( 'Entry meta', 'generatepress' );
+		$attributes['aria-label'] = esc_attr__( 'Entry meta', 've-theme' );
 
 		return $attributes;
 	}

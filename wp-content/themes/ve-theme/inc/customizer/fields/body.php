@@ -13,7 +13,7 @@ GeneratePress_Customize_Field::add_title(
 	'generate_body_colors_title',
 	array(
 		'section' => 'generate_colors_section',
-		'title' => __( 'Body', 'generatepress' ),
+		'title' => __( 'Body', 've-theme' ),
 		'choices' => array(
 			'toggleId' => 'base-colors',
 		),
@@ -29,7 +29,7 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Background', 'generatepress' ),
+		'label' => __( 'Background', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'base-colors',
@@ -52,7 +52,7 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Text', 'generatepress' ),
+		'label' => __( 'Text', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'base-colors',
@@ -91,11 +91,11 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Link', 'generatepress' ),
+		'label' => __( 'Link', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'wrapper' => 'link_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 			'toggleId' => 'base-colors',
 		),
 		'output' => array(
@@ -116,11 +116,11 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Link Hover', 'generatepress' ),
+		'label' => __( 'Link Hover', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'wrapper' => 'link_color_hover',
-			'tooltip' => __( 'Choose Hover Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Hover Color', 've-theme' ),
 			'toggleId' => 'base-colors',
 			'hideLabel' => true,
 		),
@@ -143,11 +143,11 @@ if ( '' !== generate_get_option( 'link_color_visited' ) ) {
 			'transport' => 'refresh',
 		),
 		array(
-			'label' => __( 'Link Color Visited', 'generatepress' ),
+			'label' => __( 'Link Color Visited', 've-theme' ),
 			'section' => 'generate_colors_section',
 			'choices' => array(
 				'wrapper' => 'link_color_visited',
-				'tooltip' => __( 'Choose Visited Color', 'generatepress' ),
+				'tooltip' => __( 'Choose Visited Color', 've-theme' ),
 				'toggleId' => 'base-colors',
 				'hideLabel' => true,
 			),

@@ -20,7 +20,7 @@ GeneratePress_Customize_Field::add_title(
 	'generate_primary_navigation_colors_title',
 	array(
 		'section' => 'generate_colors_section',
-		'title' => __( 'Primary Navigation', 'generatepress' ),
+		'title' => __( 'Primary Navigation', 've-theme' ),
 		'choices' => array(
 			'toggleId' => 'primary-navigation-colors',
 		),
@@ -35,24 +35,24 @@ GeneratePress_Customize_Field::add_color_field_group(
 	array(
 		'generate_settings[navigation_background_color]' => array(
 			'default_value' => $color_defaults['navigation_background_color'],
-			'label' => __( 'Navigation Background', 'generatepress' ),
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'label' => __( 'Navigation Background', 've-theme' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 			'element' => '.main-navigation',
 			'property' => 'background-color',
 			'hide_label' => false,
 		),
 		'generate_settings[navigation_background_hover_color]' => array(
 			'default_value' => $color_defaults['navigation_background_hover_color'],
-			'label' => __( 'Navigation Background Hover', 'generatepress' ),
-			'tooltip' => __( 'Choose Hover Color', 'generatepress' ),
+			'label' => __( 'Navigation Background Hover', 've-theme' ),
+			'tooltip' => __( 'Choose Hover Color', 've-theme' ),
 			'element' => $menu_hover_selectors,
 			'property' => 'background-color',
 			'hide_label' => true,
 		),
 		'generate_settings[navigation_background_current_color]' => array(
 			'default_value' => $color_defaults['navigation_background_current_color'],
-			'label' => __( 'Navigation Background Current', 'generatepress' ),
-			'tooltip' => __( 'Choose Current Color', 'generatepress' ),
+			'label' => __( 'Navigation Background Current', 've-theme' ),
+			'tooltip' => __( 'Choose Current Color', 've-theme' ),
 			'element' => $menu_current_selectors,
 			'property' => 'background-color',
 			'hide_label' => true,
@@ -68,24 +68,24 @@ GeneratePress_Customize_Field::add_color_field_group(
 	array(
 		'generate_settings[navigation_text_color]' => array(
 			'default_value' => $color_defaults['navigation_text_color'],
-			'label' => __( 'Navigation Text', 'generatepress' ),
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'label' => __( 'Navigation Text', 've-theme' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 			'element' => '.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation button.menu-toggle:hover, .main-navigation button.menu-toggle:focus, .main-navigation .mobile-bar-items a, .main-navigation .mobile-bar-items a:hover, .main-navigation .mobile-bar-items a:focus, .main-navigation .menu-bar-items',
 			'property' => 'color',
 			'hide_label' => false,
 		),
 		'generate_settings[navigation_text_hover_color]' => array(
 			'default_value' => $color_defaults['navigation_text_hover_color'],
-			'label' => __( 'Navigation Text Hover', 'generatepress' ),
-			'tooltip' => __( 'Choose Hover Color', 'generatepress' ),
+			'label' => __( 'Navigation Text Hover', 've-theme' ),
+			'tooltip' => __( 'Choose Hover Color', 've-theme' ),
 			'element' => $menu_hover_selectors,
 			'property' => 'color',
 			'hide_label' => true,
 		),
 		'generate_settings[navigation_text_current_color]' => array(
 			'default_value' => $color_defaults['navigation_text_current_color'],
-			'label' => __( 'Navigation Text Current', 'generatepress' ),
-			'tooltip' => __( 'Choose Current Color', 'generatepress' ),
+			'label' => __( 'Navigation Text Current', 've-theme' ),
+			'tooltip' => __( 'Choose Current Color', 've-theme' ),
 			'element' => $menu_current_selectors,
 			'property' => 'color',
 			'hide_label' => true,
@@ -101,24 +101,24 @@ GeneratePress_Customize_Field::add_color_field_group(
 	array(
 		'generate_settings[subnavigation_background_color]' => array(
 			'default_value' => $color_defaults['subnavigation_background_color'],
-			'label' => __( 'Sub-Menu Background', 'generatepress' ),
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'label' => __( 'Sub-Menu Background', 've-theme' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 			'element' => '.main-navigation ul ul',
 			'property' => 'background-color',
 			'hide_label' => false,
 		),
 		'generate_settings[subnavigation_background_hover_color]' => array(
 			'default_value' => $color_defaults['subnavigation_background_hover_color'],
-			'label' => __( 'Sub-Menu Background Hover', 'generatepress' ),
-			'tooltip' => __( 'Choose Hover Color', 'generatepress' ),
+			'label' => __( 'Sub-Menu Background Hover', 've-theme' ),
+			'tooltip' => __( 'Choose Hover Color', 've-theme' ),
 			'element' => $submenu_hover_selectors,
 			'property' => 'background-color',
 			'hide_label' => true,
 		),
 		'generate_settings[subnavigation_background_current_color]' => array(
 			'default_value' => $color_defaults['subnavigation_background_current_color'],
-			'label' => __( 'Sub-Menu Background Current', 'generatepress' ),
-			'tooltip' => __( 'Choose Current Color', 'generatepress' ),
+			'label' => __( 'Sub-Menu Background Current', 've-theme' ),
+			'tooltip' => __( 'Choose Current Color', 've-theme' ),
 			'element' => $submenu_current_selectors,
 			'property' => 'background-color',
 			'hide_label' => true,
@@ -134,24 +134,24 @@ GeneratePress_Customize_Field::add_color_field_group(
 	array(
 		'generate_settings[subnavigation_text_color]' => array(
 			'default_value' => $color_defaults['subnavigation_text_color'],
-			'label' => __( 'Sub-Menu Text', 'generatepress' ),
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'label' => __( 'Sub-Menu Text', 've-theme' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 			'element' => '.main-navigation .main-nav ul ul li a',
 			'property' => 'color',
 			'hide_label' => false,
 		),
 		'generate_settings[subnavigation_text_hover_color]' => array(
 			'default_value' => $color_defaults['subnavigation_text_hover_color'],
-			'label' => __( 'Sub-Menu Text Hover', 'generatepress' ),
-			'tooltip' => __( 'Choose Hover Color', 'generatepress' ),
+			'label' => __( 'Sub-Menu Text Hover', 've-theme' ),
+			'tooltip' => __( 'Choose Hover Color', 've-theme' ),
 			'element' => $submenu_hover_selectors,
 			'property' => 'color',
 			'hide_label' => true,
 		),
 		'generate_settings[subnavigation_text_current_color]' => array(
 			'default_value' => $color_defaults['subnavigation_text_current_color'],
-			'label' => __( 'Sub-Menu Text Current', 'generatepress' ),
-			'tooltip' => __( 'Choose Current Color', 'generatepress' ),
+			'label' => __( 'Sub-Menu Text Current', 've-theme' ),
+			'tooltip' => __( 'Choose Current Color', 've-theme' ),
 			'element' => $submenu_current_selectors,
 			'property' => 'color',
 			'hide_label' => true,
@@ -163,7 +163,7 @@ GeneratePress_Customize_Field::add_title(
 	'generate_navigation_search_colors_title',
 	array(
 		'section' => 'generate_colors_section',
-		'title' => __( 'Navigation Search', 'generatepress' ),
+		'title' => __( 'Navigation Search', 've-theme' ),
 		'choices' => array(
 			'toggleId' => 'primary-navigation-search-colors',
 		),
@@ -186,7 +186,7 @@ GeneratePress_Customize_Field::add_field(
 		'sanitize_callback' => 'generate_sanitize_rgba_color',
 	),
 	array(
-		'label' => __( 'Background', 'generatepress' ),
+		'label' => __( 'Background', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'alpha' => true,
@@ -204,7 +204,7 @@ GeneratePress_Customize_Field::add_field(
 		'sanitize_callback' => 'generate_sanitize_rgba_color',
 	),
 	array(
-		'label' => __( 'Text', 'generatepress' ),
+		'label' => __( 'Text', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'alpha' => true,

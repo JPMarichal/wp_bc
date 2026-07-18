@@ -13,7 +13,7 @@ GeneratePress_Customize_Field::add_title(
 	'generate_buttons_colors_title',
 	array(
 		'section' => 'generate_colors_section',
-		'title' => __( 'Buttons', 'generatepress' ),
+		'title' => __( 'Buttons', 've-theme' ),
 		'choices' => array(
 			'toggleId' => 'button-colors',
 		),
@@ -52,13 +52,13 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Background', 'generatepress' ),
+		'label' => __( 'Background', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'alpha' => true,
 			'toggleId' => 'button-colors',
 			'wrapper' => 'form_button_background_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 		),
 		'output' => array(
 			array(
@@ -78,13 +78,13 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Background Hover', 'generatepress' ),
+		'label' => __( 'Background Hover', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'alpha' => true,
 			'toggleId' => 'button-colors',
 			'wrapper' => 'form_button_background_color_hover',
-			'tooltip' => __( 'Choose Hover Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Hover Color', 've-theme' ),
 			'hideLabel' => true,
 		),
 		'output' => array(
@@ -120,12 +120,12 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Text', 'generatepress' ),
+		'label' => __( 'Text', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'button-colors',
 			'wrapper' => 'form_button_text_color',
-			'tooltip' => __( 'Choose Initial Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Initial Color', 've-theme' ),
 		),
 		'output' => array(
 			array(
@@ -145,12 +145,12 @@ GeneratePress_Customize_Field::add_field(
 		'transport' => 'postMessage',
 	),
 	array(
-		'label' => __( 'Text Hover', 'generatepress' ),
+		'label' => __( 'Text Hover', 've-theme' ),
 		'section' => 'generate_colors_section',
 		'choices' => array(
 			'toggleId' => 'button-colors',
 			'wrapper' => 'form_button_text_color_hover',
-			'tooltip' => __( 'Choose Hover Color', 'generatepress' ),
+			'tooltip' => __( 'Choose Hover Color', 've-theme' ),
 			'hideLabel' => true,
 		),
 		'output' => array(

@@ -145,7 +145,7 @@ get_header(); ?>
 			</script>
 
 		<?php else : ?>
-			<p><?php esc_html_e( 'No se encontraron personas.', 'generatepress' ); ?></p>
+			<p><?php esc_html_e( 'No se encontraron personas.', 've-theme' ); ?></p>
 		<?php endif; ?>
 	</div>
 </main>

@@ -376,7 +376,7 @@ add_action( 'generate_before_header', 'generate_do_skip_to_content_link', 2 );
 function generate_do_skip_to_content_link() {
 	printf(
 		'<a class="screen-reader-text skip-link" href="#content" title="%1$s">%2$s</a>',
-		esc_attr__( 'Skip to content', 'generatepress' ),
-		esc_html__( 'Skip to content', 'generatepress' )
+		esc_attr__( 'Skip to content', 've-theme' ),
+		esc_html__( 'Skip to content', 've-theme' )
 	);
 }

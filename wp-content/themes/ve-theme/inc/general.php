@@ -74,8 +74,8 @@ if ( ! function_exists( 'generate_scripts' ) ) {
 				'generate_localize_js_args',
 				array(
 					'toggleOpenedSubMenus' => true,
-					'openSubMenuLabel'     => esc_attr__( 'Open Sub-Menu', 'generatepress' ),
-					'closeSubMenuLabel'    => esc_attr__( 'Close Sub-Menu', 'generatepress' ),
+					'openSubMenuLabel'     => esc_attr__( 'Open Sub-Menu', 've-theme' ),
+					'closeSubMenuLabel'    => esc_attr__( 'Close Sub-Menu', 've-theme' ),
 				)
 			);
 
@@ -90,8 +90,8 @@ if ( ! function_exists( 'generate_scripts' ) ) {
 			wp_enqueue_script( 'generate-dropdown-click', $dir_uri . "/assets/js/dropdown-click{$suffix}.js", array(), GENERATE_VERSION, true );
 
 			$dropdown_click_args = array(
-				'openSubMenuLabel'  => esc_attr__( 'Open Sub-Menu', 'generatepress' ),
-				'closeSubMenuLabel' => esc_attr__( 'Close Sub-Menu', 'generatepress' ),
+				'openSubMenuLabel'  => esc_attr__( 'Open Sub-Menu', 've-theme' ),
+				'closeSubMenuLabel' => esc_attr__( 'Close Sub-Menu', 've-theme' ),
 			);
 
 			generate_add_inline_script(
@@ -109,8 +109,8 @@ if ( ! function_exists( 'generate_scripts' ) ) {
 			wp_enqueue_script( 'generate-navigation-search', $dir_uri . "/assets/js/navigation-search{$suffix}.js", array(), GENERATE_VERSION, true );
 
 			$nav_search_args = array(
-				'open'  => esc_attr__( 'Open Search Bar', 'generatepress' ),
-				'close' => esc_attr__( 'Close Search Bar', 'generatepress' ),
+				'open'  => esc_attr__( 'Open Search Bar', 've-theme' ),
+				'close' => esc_attr__( 'Close Search Bar', 've-theme' ),
 			);
 
 			generate_add_inline_script(
@@ -150,16 +150,16 @@ if ( ! function_exists( 'generate_widgets_init' ) ) {
 	 */
 	function generate_widgets_init() {
 		$widgets = array(
-			'sidebar-1' => __( 'Right Sidebar', 'generatepress' ),
-			'sidebar-2' => __( 'Left Sidebar', 'generatepress' ),
-			'header' => __( 'Header', 'generatepress' ),
-			'footer-1' => __( 'Footer Widget 1', 'generatepress' ),
-			'footer-2' => __( 'Footer Widget 2', 'generatepress' ),
-			'footer-3' => __( 'Footer Widget 3', 'generatepress' ),
-			'footer-4' => __( 'Footer Widget 4', 'generatepress' ),
-			'footer-5' => __( 'Footer Widget 5', 'generatepress' ),
-			'footer-bar' => __( 'Footer Bar', 'generatepress' ),
-			'top-bar' => __( 'Top Bar', 'generatepress' ),
+			'sidebar-1' => __( 'Right Sidebar', 've-theme' ),
+			'sidebar-2' => __( 'Left Sidebar', 've-theme' ),
+			'header' => __( 'Header', 've-theme' ),
+			'footer-1' => __( 'Footer Widget 1', 've-theme' ),
+			'footer-2' => __( 'Footer Widget 2', 've-theme' ),
+			'footer-3' => __( 'Footer Widget 3', 've-theme' ),
+			'footer-4' => __( 'Footer Widget 4', 've-theme' ),
+			'footer-5' => __( 'Footer Widget 5', 've-theme' ),
+			'footer-bar' => __( 'Footer Bar', 've-theme' ),
+			'top-bar' => __( 'Top Bar', 've-theme' ),
 		);
 
 		foreach ( $widgets as $id => $name ) {

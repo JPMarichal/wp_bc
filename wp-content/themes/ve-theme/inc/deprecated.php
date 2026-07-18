@@ -27,8 +27,8 @@ if ( ! function_exists( 'generate_paging_nav' ) ) {
 			the_posts_pagination(
 				array(
 					'mid_size' => apply_filters( 'generate_pagination_mid_size', 1 ),
-					'prev_text' => __( '&larr; Previous', 'generatepress' ),
-					'next_text' => __( 'Next &rarr;', 'generatepress' ),
+					'prev_text' => __( '&larr; Previous', 've-theme' ),
+					'next_text' => __( 'Next &rarr;', 've-theme' ),
 				)
 			);
 		}

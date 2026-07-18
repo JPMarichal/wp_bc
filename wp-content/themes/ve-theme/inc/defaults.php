@@ -69,41 +69,41 @@ if ( ! function_exists( 'generate_get_defaults' ) ) {
 				'use_dynamic_typography' => true,
 				'global_colors' => array(
 					array(
-						'name' => __( 'Contrast', 'generatepress' ),
+						'name' => __( 'Contrast', 've-theme' ),
 						'slug' => 'contrast',
 						'color' => '#222222',
 					),
 					array(
 						/* translators: Contrast number */
-						'name' => sprintf( __( 'Contrast %s', 'generatepress' ), '2' ),
+						'name' => sprintf( __( 'Contrast %s', 've-theme' ), '2' ),
 						'slug' => 'contrast-2',
 						'color' => '#575760',
 					),
 					array(
 						/* translators: Contrast number */
-						'name' => sprintf( __( 'Contrast %s', 'generatepress' ), '3' ),
+						'name' => sprintf( __( 'Contrast %s', 've-theme' ), '3' ),
 						'slug' => 'contrast-3',
 						'color' => '#b2b2be',
 					),
 					array(
-						'name' => __( 'Base', 'generatepress' ),
+						'name' => __( 'Base', 've-theme' ),
 						'slug' => 'base',
 						'color' => '#f0f0f0',
 					),
 					array(
 						/* translators: Base number */
-						'name' => sprintf( __( 'Base %s', 'generatepress' ), '2' ),
+						'name' => sprintf( __( 'Base %s', 've-theme' ), '2' ),
 						'slug' => 'base-2',
 						'color' => '#f7f8f9',
 					),
 					array(
 						/* translators: Base number */
-						'name' => sprintf( __( 'Base %s', 'generatepress' ), '3' ),
+						'name' => sprintf( __( 'Base %s', 've-theme' ), '3' ),
 						'slug' => 'base-3',
 						'color' => '#ffffff',
 					),
 					array(
-						'name' => __( 'Accent', 'generatepress' ),
+						'name' => __( 'Accent', 've-theme' ),
 						'slug' => 'accent',
 						'color' => '#1e73be',
 					),

@@ -93,7 +93,7 @@ class GeneratePress_Rest extends WP_REST_Controller {
 		delete_option( 'generate_dynamic_css_output' );
 		delete_option( 'generate_dynamic_css_cached_version' );
 
-		return $this->success( __( 'Settings reset.', 'generatepress' ) );
+		return $this->success( __( 'Settings reset.', 've-theme' ) );
 	}
 
 	/**
