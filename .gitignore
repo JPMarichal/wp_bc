@@ -33,6 +33,7 @@ current_*.html
 raw_content.txt
 fixed_content*
 tmp_*.txt
+tmp_*.html
 post*.json
 _wd_*.json
 _debug_*.json

@@ -25,7 +25,7 @@
     "wordpress": {
       "type": "local",
       "command": [
-        "docker", "run", "--rm", "-i",
+        "podman", "run", "--rm", "-i",
         "--network=wp_bc_default",
         "-e", "WORDPRESS_SITE_URL=http://wordpress",
         "-e", "WORDPRESS_USERNAME=JPMarichal",

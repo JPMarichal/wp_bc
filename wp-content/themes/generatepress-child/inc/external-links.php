@@ -84,6 +84,32 @@ function bc_external_links_new_window( $content ) {
             $a->setAttribute( 'rel', implode( ' ', array_unique( $rel_values ) ) );
         }
 
+        foreach ( $doc->getElementsByTagName( 'a' ) as $a ) {
+            if ( ! $a instanceof DOMElement ) {
+                continue;
+            }
+
+            if ( $a->getAttribute( 'target' ) !== '_blank' ) {
+                continue;
+            }
+
+            $has_icon = false;
+            foreach ( $a->childNodes as $child ) {
+                if ( $child instanceof DOMElement && strpos( ' ' . $child->getAttribute( 'class' ) . ' ', ' fa-external-link-alt ' ) !== false ) {
+                    $has_icon = true;
+                    break;
+                }
+            }
+
+            if ( ! $has_icon ) {
+                $a->appendChild( $doc->createTextNode( ' ' ) );
+                $icon = $doc->createElement( 'i' );
+                $icon->setAttribute( 'class', 'fas fa-external-link-alt' );
+                $icon->setAttribute( 'aria-hidden', 'true' );
+                $a->appendChild( $icon );
+            }
+        }
+
         $body = $doc->saveHTML( $doc->documentElement );
         if ( $body !== false ) {
             $content = preg_replace( '/^<\?xml.*?\?>\s*/', '', $body );
@@ -92,7 +118,7 @@ function bc_external_links_new_window( $content ) {
         libxml_use_internal_errors( false );
     } else {
         $content = preg_replace_callback(
-            '/<a\s+([^>]*?)href\s*=\s*(["\'])([^"\']+)\2([^>]*)>/i',
+            '/<a\s+([^>]*?)href\s*=\s*(["\'])([^"\']+)\2([^>]*)>([\s\S]*?)<\/a>/i',
             function ( $matches ) use ( $site_host ) {
                 $href = trim( $matches[3] );
 
@@ -118,6 +144,7 @@ function bc_external_links_new_window( $content ) {
 
                 $before = $matches[1];
                 $after  = $matches[4];
+                $inner  = $matches[5];
 
                 if ( ! preg_match( '/\btarget\s*=\s*["\'][^"\']*["\']/i', $before . $after ) ) {
                     $before .= ' target="_blank"';
@@ -139,7 +166,11 @@ function bc_external_links_new_window( $content ) {
                 $before = preg_replace( '/\s*\btarget\s*=\s*["\'][^"\']*["\']/i', '', $before );
                 $before = preg_replace( '/\s*\brel\s*=\s*["\'][^"\']*["\']/i', '', $before );
 
-                return '<a ' . trim( $before ) . $rel_attr . ' href="' . $href . '"' . $after . '>';
+                if ( strpos( $inner, 'fa-external-link-alt' ) === false ) {
+                    $inner .= ' <i class="fas fa-external-link-alt" aria-hidden="true"></i>';
+                }
+
+                return '<a ' . trim( $before ) . $rel_attr . ' href="' . $href . '"' . $after . '>' . $inner . '</a>';
             },
             $content
         );

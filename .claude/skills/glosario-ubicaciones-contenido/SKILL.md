@@ -396,11 +396,11 @@ perdurable de la ubicación o conecta con el plan de salvación.
 
 - Formato: `<ul>` con `<li>` por fuente
 - **Verídico**: solo obras realmente consultadas. Nada inventado
-- **Online**: enlaces funcionales (sin 404, sin redirecciones rotas)
+- **Online SIEMPRE enlazadas**: toda fuente online debe ser un `<a href="URL">Título</a>` funcional. URLs planas sin enlace HTML son inválidas para SEO.
+- **SEO**: Google valora los enlaces salientes a sitios autoritativos (BibleHub, ISBE, Easton, Wikipedia, etc.). Sin enlaces, el artículo pierde credibilidad.
+- **Sin URLs rotas**: verificar que el enlace cargue antes de publicar.
 - **Offline**: autor, título, editorial, año
-- **Sin referencias internas**: usar títulos reales de obras, no
-  "corpus" ni "Alejandría"
-- **SEO**: Google valida la calidad de los enlaces salientes
+- **Sin referencias internas**: usar títulos reales de obras, no "corpus" ni "Alejandría"
 
 ---
 

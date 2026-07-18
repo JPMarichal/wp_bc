@@ -4,7 +4,7 @@
       "url": "http://localhost:4300/mcp/"
     },
     "wordpress": {
-      "command": "docker",
+      "command": "podman",
       "args": [
         "run", "--rm", "-i",
         "--network=wp_bc_default",
