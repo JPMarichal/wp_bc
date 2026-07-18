@@ -87,7 +87,7 @@ instrucciones. Si los contenedores ya corren bien, **no tocarlos**.
 │        │                       └────────────────────────┘                    │
 │        │                                                                      │
 │        ▼                                                                      │
-│   Tema hijo generatepress-child  +  Plugins bc-*  (frontend + CPTs)          │
+│   Tema fork ve-theme  +  Plugins bc-*  (frontend + CPTs)                    │
 └──────────────────────────────────────────────────────────────────────────┘
          │                                   │
          ▼                                   ▼
@@ -99,16 +99,17 @@ instrucciones. Si los contenedores ya corren bien, **no tocarlos**.
 Capas:
 
 1. **Infraestructura** — Podman Compose (WordPress + MySQL + WP-CLI) + BunnyCDN para media.
-2. **Frontend** — Tema hijo `generatepress-child` (PHP modular + pipeline SCSS).
+2. **Frontend** — Tema fork `ve-theme` (PHP modular + pipeline SCSS, fork de GeneratePress 3.6.1).
 3. **Dominio/contenido** — Plugins propios `bc-*` que registran CPTs, taxonomías y bloques.
 4. **Pipeline IA** — Skills (`.claude/skills/`), scripts (`scripts/`) y corpus RAG (`corpus/`
    + MCP Alejandría) para producir contenido a escala.
 
 ---
 
-## 4. Frontend — tema hijo `generatepress-child`
+## 4. Frontend — tema fork `ve-theme`
 
-Basado en **GeneratePress** + **Bootstrap 5** + **Font Awesome**, con un pipeline SCSS
+Fork de **GeneratePress 3.6.1** fusionado con el anterior child theme `generatepress-child`.
++ **Bootstrap 5** + **Font Awesome**, con un pipeline SCSS
 propio. Principios (ver `CLAUDE.md` y `docs/sistema-layouts.md`):
 
 - **Responsabilidad única**: un partial SCSS por componente; un archivo PHP por concern.
@@ -262,7 +263,9 @@ Los tres MCPs deben estar accesibles para la operación normal. Antes de una ses
 | `docker-compose.yml`, `Dockerfile`, `config/` | Infraestructura Podman + config WP/PHP/MySQL |
 | `.env`, `wp-config.php` (montado) | Variables de entorno y config de WordPress |
 | `justfile` | Recetas de mantenimiento (asumen contenedores `wp_bc*`) |
-| `wp-content/themes/generatepress-child/` | Tema hijo (frontend, `inc/`, `src/`, templates) |
+| `wp-content/themes/ve-theme/` | Tema fork independiente (frontend, `inc/`, `src/`, templates) |
+| `wp-content/themes/generatepress/` | GeneratePress 3.6.1 original (respaldo, sin tocar) |
+| `wp-content/themes/generatepress-child/` | Child original (respaldo, sin tocar) |
 | `wp-content/plugins/bc-*` | Plugins de dominio propios |
 | `wp-content/uploads/` | **Debe estar vacío/efímero** — media vive en BunnyCDN |
 | `.claude/skills/` | Skills del pipeline de contenido IA |
@@ -279,6 +282,7 @@ Los tres MCPs deben estar accesibles para la operación normal. Antes de una ses
 ## 10. Documentos relacionados
 
 - `CLAUDE.md` — Filosofía de build, reglas de oro (DB y media/CDN).
+- `docs/fork-ve-theme.md` — Documentación del fork de GeneratePress a ve-theme.
 - `docs/sistema-layouts.md` — Sistema de diseño, tokens, tipografía, layouts, plan de fases.
 - `docs/normas-editoriales.md` — Normas obligatorias de redacción.
 - `docs/restore-db.md` — Procedimiento de restauración de base de datos.
