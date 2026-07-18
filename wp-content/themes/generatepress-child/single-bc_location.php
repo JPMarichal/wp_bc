@@ -643,7 +643,7 @@ get_header(); ?>
                 <i class="fas fa-map-pin"></i>
                 <span class="bc-infobox-coords"><?php echo esc_html( $lat ); ?>, <?php echo esc_html( $lng ); ?>
                   <br>
-                  <a href="https://www.google.com/maps?q=<?php echo esc_attr( $lat ); ?>,<?php echo esc_attr( $lng ); ?>" target="_blank" rel="noopener">Ver en Google Maps →</a>
+                   <a href="https://www.google.com/maps?q=<?php echo esc_attr( $lat ); ?>,<?php echo esc_attr( $lng ); ?>" target="_blank" rel="noopener noreferrer">Ver en Google Maps →</a>
                 </span>
               </li>
             <?php endif; ?>

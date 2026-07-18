@@ -31,3 +31,4 @@ require_once __DIR__ . '/inc/archive-layout.php';
 require_once __DIR__ . '/inc/location-redirect.php';
 require_once __DIR__ . '/inc/header.php';
 require_once __DIR__ . '/inc/block-patterns.php';
+require_once __DIR__ . '/inc/external-links.php';
