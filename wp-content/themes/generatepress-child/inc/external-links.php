@@ -28,7 +28,7 @@ function bc_external_links_new_window( $content ) {
         libxml_use_internal_errors( true );
 
         $doc = new DOMDocument();
-        $html = '<div id="bc-external-links-wrap">' . $content . '</div>';
+        $html = '<?xml encoding="UTF-8"><div id="bc-external-links-wrap">' . $content . '</div>';
         $doc->loadHTML( $html, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD );
 
         libxml_clear_errors();
