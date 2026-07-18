@@ -1,7 +1,7 @@
 <?php
 
 function bc_compiled_css_handle() {
-  return 'generatepress-child';
+  return 've-theme';
 }
 
 function bc_enqueue_compiled_styles() {
@@ -12,7 +12,7 @@ function bc_enqueue_compiled_styles() {
   wp_enqueue_style(
     bc_compiled_css_handle(),
     $compiled_uri,
-    ['generate-style'],
+    [],
     $version
   );
 
@@ -69,7 +69,7 @@ function bc_enqueue_bootstrap_js() {
 add_action('wp_enqueue_scripts', 'bc_enqueue_bootstrap_js');
 
 add_filter('style_loader_tag', function ($html, $handle) {
-  if (in_array($handle, ['fontawesome', 'bootstrap', 'generate-style', 'generate-child', 'bc-fonts', 'bcco-widget', 'generate-comments'], true)) {
+  if (in_array($handle, ['fontawesome', 'bootstrap', 'generate-style', 'bc-fonts', 'bcco-widget', 'generate-comments'], true)) {
     $html = str_replace(
       "media='all'",
       "media='print' onload=\"this.media='all'\"",
@@ -80,7 +80,7 @@ add_filter('style_loader_tag', function ($html, $handle) {
 }, 11, 2);
 
 add_filter('script_loader_tag', function ($tag, $handle) {
-  if (in_array($handle, ['bootstrap-bundle', 'bc-header', 'generate-menu'], true)) {
+  if (in_array($handle, ['bootstrap-bundle', 'bc-header'], true)) {
     $tag = str_replace(' src=', ' defer src=', $tag);
   }
   return $tag;

@@ -1,0 +1,72 @@
+#bc-chapter-metabox {
+  margin-top: 2px;
+}
+
+#bc-chapter-metabox .bc-chapter-metabox-hint {
+  font-size: 12px;
+  color: #787c82;
+  margin: 0 0 8px;
+  font-style: italic;
+}
+
+#bc-chapter-metabox .bc-chapter-metabox-hint i {
+  margin-right: 4px;
+}
+
+
+
+#bc-chapter-search {
+  box-sizing: border-box;
+}
+
+#bc-chapter-selected {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.bc-chapter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: #f0f0f1;
+  border: 1px solid #c3c4c7;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.bc-chapter-remove {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 2px;
+  color: #787c82;
+}
+
+.bc-chapter-remove:hover {
+  color: #d63638;
+}
+
+.ui-autocomplete {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 100100;
+}
+
+.ui-autocomplete .ui-menu-item {
+  padding: 6px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.ui-autocomplete .ui-menu-item .ui-state-active {
+  background: #2271b1;
+  color: #fff;
+  border: none;
+}

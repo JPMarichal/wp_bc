@@ -1,0 +1,331 @@
+// Brand bar
+.bc-header {
+  background: $arena-100;
+  border-bottom: 1px solid $arena-300;
+}
+
+.bc-header-brand {
+  padding: 12px 0;
+}
+
+.bc-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-md;
+}
+
+.bc-logo {
+  font-family: $font-family-headings;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: $jardin-500;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover { color: $jardin-400; }
+}
+
+.bc-header-tools {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+// Inline search
+.bc-search-inline {
+  flex: 0 1 480px;
+  min-width: 160px;
+
+  .search-form {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid $arena-300;
+    border-radius: $radius-lg;
+    overflow: hidden;
+    transition: border-color 0.2s;
+
+    &:focus-within {
+      border-color: $jardin-500;
+      box-shadow: 0 0 0 3px rgba($jardin-500, 0.12);
+    }
+  }
+
+  label {
+    flex: 1;
+    display: flex;
+    min-width: 0;
+  }
+
+  .search-field {
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    color: $tierra-400;
+    outline: none;
+    box-shadow: none;
+
+    &::placeholder {
+      color: $tierra-200;
+    }
+  }
+
+  .search-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border: none;
+    background: $jardin-500;
+    color: #fff;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.15s;
+
+    &:hover {
+      background: $jardin-600;
+    }
+
+    span,
+    svg {
+      display: block;
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+      line-height: 1;
+    }
+  }
+}
+
+// User dropdown
+.bc-user-dropdown {
+  position: relative;
+}
+
+.bc-user-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: $radius-sm;
+  transition: background 0.15s;
+
+  &:hover { background: $arena-200; }
+}
+
+.bc-user-avatar {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.bc-user-submenu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid $arena-300;
+  border-radius: $radius-md;
+  box-shadow: $shadow-md;
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  min-width: 160px;
+  z-index: 100;
+
+  li { margin: 0; }
+
+  a {
+    display: block;
+    padding: 8px 16px;
+    font-size: 0.88rem;
+    color: $tierra-300;
+    text-decoration: none;
+    transition: background 0.15s;
+
+    &:hover {
+      background: $arena-200;
+      color: $jardin-500;
+    }
+  }
+}
+
+// Nav bar
+.bc-header-nav {
+  background: $jardin-500;
+  border-top: 1px solid $jardin-600;
+
+  .grid-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.bc-nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+
+  li { margin: 0; position: relative; }
+
+  a {
+    display: block;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+  }
+
+  // Submenús
+  .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: $tierra-500;
+    border-radius: 0 0 $radius-sm $radius-sm;
+    box-shadow: $shadow-md;
+    list-style: none;
+    margin: 0;
+    padding: 2px 0;
+    min-width: 200px;
+    z-index: 200;
+
+    a {
+      padding: 5px 9px;
+      white-space: nowrap;
+    }
+  }
+
+  li:hover > .sub-menu,
+  li.focus > .sub-menu { display: block; }
+
+  .current-menu-item > a,
+  .current_page_item > a {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+  }
+}
+
+// Mobile
+@media (max-width: 767.98px) {
+  .bc-nav-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 12px 0;
+
+    span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 1px;
+      transition: transform 0.2s;
+    }
+
+    &.is-open {
+      span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+      span:nth-child(2) { opacity: 0; }
+      span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .bc-nav-toggle { display: none; }
+  .bc-offcanvas-close { display: none; }
+  .bc-offcanvas-overlay { display: none !important; }
+
+  .bc-offcanvas {
+    position: static;
+    transform: none;
+    width: auto;
+    max-width: none;
+    height: auto;
+    background: transparent;
+    box-shadow: none;
+    overflow: visible;
+  }
+
+  .bc-offcanvas .bc-nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin: 0;
+      border: none;
+    }
+
+    a {
+      display: block;
+      padding: 6px 10px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.9);
+      text-decoration: none;
+      transition: background 0.15s, color 0.15s;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+      }
+    }
+
+    .sub-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: $tierra-500;
+      border-radius: 0 0 $radius-sm $radius-sm;
+      box-shadow: $shadow-md;
+      list-style: none;
+      margin: 0;
+      padding: 2px 0;
+      min-width: 200px;
+      z-index: 200;
+
+      a {
+        padding: 5px 9px;
+        white-space: nowrap;
+      }
+    }
+
+    li:hover > .sub-menu,
+    li.focus > .sub-menu { display: block; }
+
+    .current-menu-item > a,
+    .current_page_item > a {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "arena-100", "name": "Arena claro", "color": "#faf8f5" },
+        { "slug": "arena-200", "name": "Arena medio", "color": "#f5f2ec" },
+        { "slug": "arena-300", "name": "Arena borde", "color": "#ede7db" },
+        { "slug": "tierra-300", "name": "Tierra texto", "color": "#4a3728" },
+        { "slug": "tierra-500", "name": "Tierra oscuro", "color": "#1a110a" },
+        { "slug": "jardin-300", "name": "Jard\u00edn acento", "color": "#7eb376" },
+        { "slug": "jardin-500", "name": "Jard\u00edn primario", "color": "#2d5a27" },
+        { "slug": "rojo-jardin", "name": "Rojo jard\u00edn", "color": "#c0392b" },
+        { "slug": "azul-cielo", "name": "Azul cielo", "color": "#1e73be" },
+        { "slug": "naranja", "name": "Naranja", "color": "#e65100" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        { "slug": "base", "name": "Base", "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif" },
+        { "slug": "headings", "name": "Headings", "fontFamily": "'Merriweather', Georgia, 'Times New Roman', serif" },
+        { "slug": "mono", "name": "Mono", "fontFamily": "'Cascadia Code', 'SF Mono', 'Fira Code', 'Consolas', 'Liberation Mono', monospace" }
+      ],
+      "fontSizes": [
+        { "slug": "xs", "name": "XS", "size": "0.75rem" },
+        { "slug": "sm", "name": "Small", "size": "0.875rem" },
+        { "slug": "base", "name": "Base", "size": "1rem" },
+        { "slug": "lg", "name": "Large", "size": "1.125rem" },
+        { "slug": "xl", "name": "XL", "size": "1.25rem" },
+        { "slug": "2xl", "name": "2XL", "size": "1.5rem" },
+        { "slug": "3xl", "name": "3XL", "size": "2rem" }
+      ],
+      "lineHeight": true
+    },
+    "spacing": {
+      "units": ["px", "em", "rem"]
+    }
+  }
+}

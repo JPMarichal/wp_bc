@@ -1,0 +1,52 @@
+.bc-author-box {
+  display: flex;
+  gap: 20px;
+  margin-top: 32px;
+  padding: 24px;
+  background: $color-bg-alt;
+  border: 1px solid $color-border;
+  border-radius: 6px;
+  align-items: flex-start;
+}
+
+.bc-author-box-avatar {
+  flex-shrink: 0;
+}
+
+.bc-author-box-img {
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border: 3px solid $color-bg;
+}
+
+.bc-author-box-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.bc-author-box-name {
+  font-family: $font-family-headings;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0 0 8px;
+
+  a {
+    color: $heading-green-base;
+    text-decoration: none;
+    transition: color 0.15s;
+
+    &:hover {
+      color: $heading-green-h3;
+      text-decoration: underline;
+    }
+  }
+}
+
+.bc-author-box-desc {
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: $color-text;
+  margin: 0;
+}
