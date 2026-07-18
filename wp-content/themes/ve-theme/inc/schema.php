@@ -247,3 +247,31 @@ add_action( 'wp_head', 'bc_json_ld_breadcrumbs' );
 function bc_social_profiles() {
   return apply_filters( 'bc_social_profiles', [] );
 }
+
+function bc_canonical_url() {
+  if ( is_singular() ) {
+    return;
+  }
+  if ( is_front_page() || is_home() ) {
+    echo '<link rel="canonical" href="' . esc_url( home_url( '/' ) ) . '" />' . "\n";
+    return;
+  }
+  if ( is_category() || is_tag() || is_tax() ) {
+    $term = get_queried_object();
+    echo '<link rel="canonical" href="' . esc_url( get_term_link( $term ) ) . '" />' . "\n";
+    return;
+  }
+  if ( is_search() ) {
+    echo '<link rel="canonical" href="' . esc_url( home_url( '/?s=' . get_search_query( false ) ) ) . '" />' . "\n";
+    return;
+  }
+  if ( is_post_type_archive() ) {
+    echo '<link rel="canonical" href="' . esc_url( get_post_type_archive_link( get_query_var( 'post_type' ) ) ) . '" />' . "\n";
+    return;
+  }
+  if ( is_404() ) {
+    echo '<link rel="canonical" href="' . esc_url( home_url( add_query_arg( [] ) ) ) . '" />' . "\n";
+    return;
+  }
+}
+add_action( 'wp_head', 'bc_canonical_url', 2 );
