@@ -130,3 +130,9 @@ require_once __DIR__ . '/inc/location-redirect.php';
 require_once __DIR__ . '/inc/header.php';
 require_once __DIR__ . '/inc/block-patterns.php';
 require_once __DIR__ . '/inc/external-links.php';
+
+add_filter( 'image_editor_output_format', function( $mappings ) {
+	$mappings['image/jpeg'] = 'image/webp';
+	$mappings['image/png']  = 'image/webp';
+	return $mappings;
+} );

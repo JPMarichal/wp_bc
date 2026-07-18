@@ -57,12 +57,17 @@ function bc_preload_hero_image() {
   }
 
   $post      = get_queried_object();
-  $image_url = get_the_post_thumbnail_url( $post, 'bc-hero' );
+  $thumb_id  = get_post_thumbnail_id( $post );
+  $image_url = wp_get_attachment_image_url( $thumb_id, 'bc-hero' );
+  $srcset    = wp_get_attachment_image_srcset( $thumb_id, 'bc-hero' );
+  $sizes     = '(max-width: 768px) 100vw, (max-width: 1200px) 70vw, 800px';
 
   if ( ! $image_url ) {
     return;
   }
 
-  echo '<link rel="preload" as="image" href="' . esc_url( $image_url ) . '">' . "\n";
+  echo '<link rel="preload" as="image" href="' . esc_url( $image_url ) . '"'
+    . ( $srcset ? ' imagesrcset="' . esc_attr( $srcset ) . '"' : '' )
+    . ' imagesizes="' . esc_attr( $sizes ) . '">' . "\n";
 }
 add_action( 'wp_head', 'bc_preload_hero_image', 2 );
