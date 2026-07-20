@@ -1,0 +1,134 @@
+Section	Verses	Exact	Jaccard	Len	Title	Official	Slug	Notes
+1	1–7	True	1	46	La voz de amonestación se dirige a todo pueblo	La voz de amonestación se dirige a todo pueblo	 `dyc-1-voz-amonestacion` 	
+1	24–33	False	0.625	47	Sale a luz el Libro de Mormón y nace la Iglesia	Sale a luz el Libro de Mormón y se establece la Iglesia verdadera	 `dyc-1-libro-mormon-iglesia-verdadera` 	
+1	34–36	True	1	32	La paz será quitada de la tierra	La paz será quitada de la tierra	 `dyc-1-paz-quitada` 	
+1	37–39	True	1	29	Escudriñad estos mandamientos	Escudriñad estos mandamientos	 `dyc-1-escudrinad-mandamientos` 	
+1	8–16	False	1	47	Apostasía y maldad preceden a la Segunda Venida	La apostasía y la maldad preceden a la Segunda Venida	 `dyc-1-apostasia-maldad-segunda-venida` 	
+2	2–3	False	0.556	61	Promesas a los padres echarán raíz en el corazón de los hijos	En el corazón de los hijos se plantan las promesas hechas a los padres	 `dyc-2-promesas-padres-corazon-hijos` 	
+3	1–4	True	1	34	La vía del Señor es un giro eterno	La vía del Señor es un giro eterno	 `dyc-3-via-senor-giro-eterno` 	
+3	5–15	False	0.857	51	José debe arrepentirse o perderá el don de traducir	José Smith debe arrepentirse o perderá el don de traducir	 `dyc-3-jose-arrepentirse-perdera-don` 	
+4	5–6	False	1	46	Atributos divinos califican para el ministerio	Los atributos divinos los califican para el ministerio	 `dyc-4-atributos-divinos-ministerio` 	
+5	11–18	True	1	50	Tres testigos darán testimonio del Libro de Mormón	Tres testigos darán testimonio del Libro de Mormón	 `dyc-5-tres-testigos-testimonio` 	
+5	21–28	False	0	38	Martin Harris debe humillarse para ver		 `dyc-5-martin-harris-humillarse` 	Encabezado oficial unifica 21-35; se divide en v. 29 por cambio de tema
+6	1–6	False	0.8	41	Los obreros del Señor logran la salvación	Los obreros del campo del Señor logran la salvación	 `dyc-6-obreros-senor-salvacion` 	
+6	14–18	False	0	51	Oliver Cowdery ha recibido instrucción del Espíritu		 `dyc-6-oliver-instruccion-espiritu` 	Encabezado oficial unifica 14-27; se divide en tres
+7	1–3	False	0.714	46	Juan el Amado vivirá hasta la venida del Señor	Juan el Amado vivirá hasta que venga el Señor	 `dyc-7-juan-amado-vivira` 	Jn 21:20-24
+7	4–8	False	0.714	55	Pedro, Santiago y Juan poseen las llaves del ministerio	Pedro, Santiago y Juan poseen las llaves del Evangelio	 `dyc-7-pedro-santiago-juan-llaves` 	
+8	1–5	False	0.8	41	La revelación viene por el Espíritu Santo	La revelación viene por el poder del Espíritu Santo	 `dyc-8-revelacion-espiritu-santo` 	
+9	7–14	False	0.091	68	Cómo recibir revelación: estudiar y sentir confirmación del Espíritu	El Libro de Mormón se traduce por el estudio y por la confirmación espiritual	 `dyc-9-estudio-confirmacion-espiritual` 	
+10	1–5	False	0	32	El don de traducir es restaurado		 `dyc-10-don-traducir-restaurado` 	Encabezado oficial unifica 1-26; se divide en tres
+10	34–42	False	0	41	José Smith traducirá las planchas de Nefi		 `dyc-10-traduce-planchas-nefi` 	Encabezado oficial unifica 34-52; se divide en dos
+11	15–22	False	0.8	44	Guarda los mandamientos y estudia la palabra	Guarda los mandamientos y estudia la palabra del Señor	 `dyc-11-guarda-mandamientos-palabra` 	
+11	23–27	False	0.667	39	No niegues la revelación ni la profecía	No niegues el espíritu de revelación y de profecía	 `dyc-11-no-niegues-revelacion-profecia` 	
+11	7–14	False	0.182	58	Hyrum debe buscar sabiduría y proclamar el arrepentimiento	Busca sabiduría, proclama el arrepentimiento, confía en el Espíritu	 `dyc-11-busca-sabiduria-arrepentimiento` 	
+13	1–1	False	0	58	Se restauran las llaves y el poder del Sacerdocio Aarónico		 `dyc-13-restauran-llaves-sacerdocio-aaronico` 	JS—H 1:68-72
+14	7–8	False	0.8	39	La vida eterna es el mayor de los dones	La vida eterna es el mayor de los dones de Dios	 `dyc-14-vida-eterna-mayor-don` 	
+14	9–11	True	1	34	Cristo creó los cielos y la tierra	Cristo creó los cielos y la tierra	 `dyc-14-cristo-creo-cielos-tierra` 	
+18	37–39	False	0.714	50	Oliver Cowdery y David Whitmer buscarán a los Doce	Oliver Cowdery y David Whitmer han de buscar a los Doce	 `dyc-18-oliver-david-buscan-doce` 	
+18	9–16	False	0.75	41	El valor de las almas es grande ante Dios	El valor de las almas es grande	 `dyc-18-valor-almas-grande` 	
+19	4–5	False	0.8	34	Todos deben arrepentirse o padecer	Todos los hombres deben arrepentirse o padecer	 `dyc-19-arrepentirse-padecer` 	
+19	6–12	False	1.333	39	El castigo eterno es el castigo de Dios	Castigo eterno es castigo de Dios	 `dyc-19-castigo-eterno-dios` 	
+20	38–44	False	0	34	Deberes de los élderes y apóstoles		 `dyc-20-deberes-elderes-apostoles` 	Encabezado oficial unifica 38-67; se divide en tres
+20	72–74	False	0.75	35	La forma del bautismo por inmersión	Se describe la forma del bautismo por inmersión	 `dyc-20-forma-bautismo` 	
+21	1–3	True	1	75	José Smith es llamado para ser vidente, traductor, profeta, apóstol y élder	José Smith es llamado para ser vidente, traductor, profeta, apóstol y élder	 `dyc-21-jose-smith-es-llamado-ser-vidente-traductor-profeta-a` 	
+21	4–8	True	1	36	Su palabra dirigirá la causa de Sion	Su palabra dirigirá la causa de Sion	 `dyc-21-palabra-dirigira-causa-sion` 	
+21	9–12	True	1	81	Los santos creerán en sus palabras al hablar él por la inspiración del Consolador	Los santos creerán en sus palabras al hablar él por la inspiración del Consolador	 `dyc-21-santos-creeran-palabras-hablar-inspi` 	
+22	1–1	True	1	45	El bautismo es un convenio nuevo y sempiterno	El bautismo es un convenio nuevo y sempiterno	 `dyc-22-bautismo-es-convenio-nuevo-sempiterno` 	
+22	2–4	False	0.667	22	El bautismo autorizado	Se requiere el bautismo autorizado	 `dyc-22-requiere-bautismo-autorizado` 	
+23	1–7	False	0.875	76	A estos primeros discípulos a predicar, a exhortar y a fortalecer la Iglesia	Se llama a estos primeros discípulos a predicar, a exhortar y a fortalecer la Iglesia	 `dyc-23-llama-estos-primeros-discipulos-predicar-exhortar` 	
+24	1–9	True	1	68	José Smith es llamado a traducir, predicar y explicar las Escrituras	José Smith es llamado a traducir, predicar y explicar las Escrituras	 `dyc-24-jose-smith-es-llamado-traducir-predicar-explicar-esc` 	
+24	10–12	True	1	49	Oliver Cowdery es llamado a predicar el Evangelio	Oliver Cowdery es llamado a predicar el Evangelio	 `dyc-24-oliver-cowdery-es-llamado-predicar-evangelio` 	
+25	1–6	True	1	70	Emma Smith, dama elegida, es llamada a ayudar y a consolar a su esposo	Emma Smith, dama elegida, es llamada a ayudar y a consolar a su esposo	 `dyc-25-emma-smith-dama-elegida-es-llamada-ayudar-consolar-s` 	
+25	12–14	True	1	48	La canción de los justos es una oración al Señor	La canción de los justos es una oración al Señor	 `dyc-25-cancion-justos-es-oracion-senor` 	
+26	2–2	False	0.75	24	La ley del común acuerdo	Se confirma la ley del común acuerdo	 `dyc-26-confirma-ley-comun-acuerdo` 	
+27	1–4	False	0.667	59	Los emblemas que se deben usar al participar del sacramento	Se indican los emblemas que se han de usar al participar del sacramento	 `dyc-27-indican-emblemas-han-usar-participar` 	evento: elias-promesa
+27	15–18	True	1	45	Tomad sobre vosotros toda la armadura de Dios	Tomad sobre vosotros toda la armadura de Dios	 `dyc-27-tomad-vosotros-toda-armadura-dios` 	evento: elias-promesa
+27	5–14	False	0.875	85	Cristo y Sus siervos de todas las dispensaciones deben participar de dicho sacramento	Cristo y Sus siervos de todas las dispensaciones han de participar de dicho sacramento	 `dyc-27-cristo-siervos-todas-dispensaciones-han-part` 	evento: elias-promesa
+28	11–16	True	1	61	Satanás engañó a Hiram Page y le comunicó revelaciones falsas	Satanás engañó a Hiram Page y le comunicó revelaciones falsas	 `dyc-28-satanas-engano-hiram-page-comunico-revelaciones-falsa` 	
+28	8–10	True	1	45	Oliver Cowdery ha de predicar a los lamanitas	Oliver Cowdery ha de predicar a los lamanitas	 `dyc-28-oliver-cowdery-ha-predicar-lamanitas` 	
+29	1–8	True	1	29	Cristo recoge a Sus escogidos	Cristo recoge a Sus escogidos	 `dyc-29-cristo-recoge-escogidos` 	
+29	12–13	True	1	31	Los Doce juzgarán a todo Israel	Los Doce juzgarán a todo Israel	 `dyc-29-doce-juzgaran-todo-israel` 	
+29	14–21	True	1	61	Señales, plagas y desolaciones precederán a la Segunda Venida	Señales, plagas y desolaciones precederán a la Segunda Venida	 `dyc-29-senales-plagas-desolaciones-precederan-segunda-venida` 	
+29	22–28	True	1	75	La última resurrección y el juicio final se verificarán después del Milenio	La última resurrección y el juicio final se verificarán después del Milenio	 `dyc-29-ultima-resurreccion-juicio-final-verificaran-desp` 	
+29	29–35	True	1	46	Para el Señor todas las cosas son espirituales	Para el Señor todas las cosas son espirituales	 `dyc-29-senor-todas-cosas-son-espirituales` 	
+29	36–39	True	1	73	El diablo y sus huestes fueron expulsados del cielo para tentar al hombre	El diablo y sus huestes fueron expulsados del cielo para tentar al hombre	 `dyc-29-diablo-huestes-fueron-expulsados-cielo-ten` 	
+29	40–45	True	1	42	La Caída y la Expiación traen la salvación	La Caída y la Expiación traen la salvación	 `dyc-29-caida-expiacion-traen-salvacion` 	
+29	46–50	True	1	58	Los niños pequeños son redimidos por medio de la Expiación	Los niños pequeños son redimidos por medio de la Expiación	 `dyc-29-ninos-pequenos-son-redimidos-medio-expiacion` 	
+29	9–11	True	1	29	Su venida iniciará el Milenio	Su venida iniciará el Milenio	 `dyc-29-venida-iniciara-milenio` 	
+30	1–4	False	0.75	63	David Whitmer es reprendido por no haber servido diligentemente	Se reprende a David Whitmer por no haber servido diligentemente	 `dyc-30-reprende-david-whitmer-no-haber-servido-diligenteme` 	
+30	5–8	True	1	83	Peter Whitmer, hijo, ha de acompañar a Oliver Cowdery en una misión a los lamanitas	Peter Whitmer, hijo, ha de acompañar a Oliver Cowdery en una misión a los lamanitas	 `dyc-30-peter-whitmer-hijo-ha-acompanar-oliver-cowdery-m` 	
+30	9–11	True	1	47	John Whitmer es llamado a predicar el Evangelio	John Whitmer es llamado a predicar el Evangelio	 `dyc-30-john-whitmer-es-llamado-predicar-evangelio` 	
+31	7–13	False	0.667	45	Se le aconseja que sea paciente y ore siempre	Se le aconseja que sea paciente, que ore siempre y que siga lo que le indique el Consolador	 `dyc-31-aconseja-sea-paciente-ore-siempre-siga-l` 	
+32	1–3	True	1	132	Parley P. Pratt y Ziba Peterson son llamados para predicar a los lamanitas y para acompañar a Oliver Cowdery y a Peter Whitmer, hijo	Parley P. Pratt y Ziba Peterson son llamados para predicar a los lamanitas y para acompañar a Oliver Cowdery y a Peter Whitmer, hijo	 `dyc-32-parley-p-pratt-ziba-peterson-son-llamados-predicar` 	
+32	4–5	True	1	39	Deben orar para entender las Escrituras	Deben orar para entender las Escrituras	 `dyc-32-deben-orar-entender-escrituras` 	
+33	1–4	False	0.857	54	Obreros para declarar el Evangelio en la hora undécima	Se llaman obreros para declarar el Evangelio en la hora undécima	 `dyc-33-llaman-obreros-declarar-evangelio-hora-unde` 	
+33	11–15	True	1	53	La Iglesia está edificada sobre la roca del Evangelio	La Iglesia está edificada sobre la roca del Evangelio	 `dyc-33-iglesia-esta-edificada-roca-evangelio` 	
+33	16–18	True	1	35	Preparaos para la venida del Esposo	Preparaos para la venida del Esposo	 `dyc-33-preparaos-venida-esposo` 	
+33	5–6	False	0.857	64	La Iglesia está establecida, y los escogidos deben ser recogidos	La Iglesia está establecida, y los escogidos han de ser recogidos	 `dyc-33-iglesia-esta-establecida-escogidos-han-ser-recog` 	
+33	7–10	True	1	53	Arrepentíos, porque el reino de los cielos está cerca	Arrepentíos, porque el reino de los cielos está cerca	 `dyc-33-arrepentios-porque-reino-cielos-esta-cerca` 	
+34	1–4	True	1	63	Los fieles llegan a ser hijos de Dios por medio de la Expiación	Los fieles llegan a ser hijos de Dios por medio de la Expiación	 `dyc-34-fieles-llegan-ser-hijos-dios-medio-expiac` 	
+34	10–12	True	1	49	La profecía viene por el poder del Espíritu Santo	La profecía viene por el poder del Espíritu Santo	 `dyc-34-profecia-viene-poder-espiritu-santo` 	
+34	5–9	True	1	69	La predicación del Evangelio prepara el camino para la Segunda Venida	La predicación del Evangelio prepara el camino para la Segunda Venida	 `dyc-34-predicacion-evangelio-prepara-camino-segun` 	
+35	1–2	True	1	62	El modo como pueden los hombres llegar a ser los hijos de Dios	El modo como pueden los hombres llegar a ser los hijos de Dios	 `dyc-35-modo-pueden-hombres-llegar-ser-hijos-di` 	
+35	13–16	True	1	72	Los siervos del Señor trillarán a las naciones por el poder del Espíritu	Los siervos del Señor trillarán a las naciones por el poder del Espíritu	 `dyc-35-siervos-senor-trillaran-naciones-poder` 	
+35	17–19	True	1	44	José Smith posee las llaves de los misterios	José Smith posee las llaves de los misterios	 `dyc-35-jose-smith-posee-llaves-misterios` 	
+35	20–21	True	1	53	Los elegidos soportarán el día de la venida del Señor	Los elegidos soportarán el día de la venida del Señor	 `dyc-35-elegidos-soportaran-dia-venida-senor` 	
+35	22–27	True	1	17	Israel será salvo	Israel será salvo	 `dyc-35-israel-sera-salvo` 	
+35	3–7	True	1	67	Sidney Rigdon es llamado para bautizar y conferir el Espíritu Santo	Sidney Rigdon es llamado para bautizar y conferir el Espíritu Santo	 `dyc-35-sidney-rigdon-es-llamado-bautizar-conferir-espirit` 	
+35	8–12	True	1	48	Las señales y los milagros se efectúan por la fe	Las señales y los milagros se efectúan por la fe	 `dyc-35-senales-milagros-efectuan-fe` 	
+36	1–3	True	1	87	El Señor pone Su mano sobre Edward Partridge por conducto de las manos de Sidney Rigdon	El Señor pone Su mano sobre Edward Partridge por conducto de las manos de Sidney Rigdon	 `dyc-36-senor-pone-mano-edward-partridge-conducto` 	
+36	4–8	False	0.667	71	Quien recibe el Evangelio y el sacerdocio es llamado a salir a predicar	Todo hombre que recibe el Evangelio y el sacerdocio es llamado a salir a predicar	 `dyc-36-todo-hombre-recibe-evangelio-sacerdocio-es-llama` 	
+37	1–4	False	0.667	39	Santos convocados a congregarse en Ohio	Se convoca a los santos a congregarse en Ohio	 `dyc-37-convoca-santos-congregarse-ohio` 	
+38	1–6	True	1	27	Cristo creó todas las cosas	Cristo creó todas las cosas	 `dyc-38-cristo-creo-todas-cosas` 	
+38	13–22	True	1	85	Él ha reservado una tierra prometida para Sus santos por el tiempo y por la eternidad	Él ha reservado una tierra prometida para Sus santos por el tiempo y por la eternidad	 `dyc-38-ha-reservado-tierra-prometida-santos` 	
+38	23–27	False	0.75	59	Santos ser uno y deben estimarse unos a otros como hermanos	Se manda a los santos ser uno y estimarse unos a otros como hermanos	 `dyc-38-manda-santos-ser-uno-estimarse-unos-otros` 	
+38	28–29	False	1	7	Guerras	Se predicen guerras	 `dyc-38-predicen-guerras` 	
+38	34–42	False	0.5	71	Miembros de la iglesia deben velar por los pobres y por los necesitados	Se manda a los miembros de la Iglesia velar por los pobres y por los necesitados, y buscar las riquezas de la eternidad	 `dyc-38-manda-miembros-iglesia-velar-pobres` 	
+38	7–8	True	1	55	Él se halla en medio de Sus santos, que pronto lo verán	Él se halla en medio de Sus santos, que pronto lo verán	 `dyc-38-halla-medio-santos-pronto-veran` 	
+38	9–12	True	1	41	Toda carne se ha corrompido delante de Él	Toda carne se ha corrompido delante de Él	 `dyc-38-toda-carne-ha-corrompido-delante` 	
+39	1–4	True	1	63	Los santos fieles tienen el poder de llegar a ser hijos de Dios	Los santos fieles tienen el poder de llegar a ser hijos de Dios	 `dyc-39-santos-fieles-tienen-poder-llegar-ser-hijos-d` 	
+39	15–21	False	0.875	76	Los siervos del Señor deben predicar el Evangelio antes de la Segunda Venida	Los siervos del Señor han de predicar el Evangelio antes de la Segunda Venida	 `dyc-39-siervos-senor-han-predicar-evangelio-antes` 	
+39	22–24	False	0.75	77	Quienes reciban el Evangelio serán recogidos por el tiempo y por la eternidad	Aquellos que reciban el Evangelio serán recogidos por el tiempo y por la eternidad	 `dyc-39-aquellos-reciban-evangelio-seran-recogidos-tie` 	
+39	5–6	True	1.333	40	Recibir el Evangelio es recibir a Cristo	Recibir el Evangelio es recibir a Cristo	 `dyc-39-recibir-evangelio-es-recibir-cristo` 	
+39	7–14	False	0.7	56	James covel bautizarse y debe obrar en la viña del Señor	Se le manda a James Covel bautizarse y obrar en la viña del Señor	 `dyc-39-manda-james-covel-bautizarse-obrar-vina` 	
+41	1–3	True	1	63	Los élderes gobernarán la Iglesia por el espíritu de revelación	Los élderes gobernarán la Iglesia por el espíritu de revelación	 `dyc-41-elderes-gobernaran-iglesia-espiritu-revelac` 	
+41	4–6	True	1	65	Los discípulos verdaderos recibirán y obedecerán la ley del Señor	Los discípulos verdaderos recibirán y obedecerán la ley del Señor	 `dyc-41-discipulos-verdaderos-recibiran-obedeceran-ley` 	
+41	7–12	True	1	49	Edward Partridge es nombrado obispo de la Iglesia	Edward Partridge es nombrado obispo de la Iglesia	 `dyc-41-edward-partridge-es-nombrado-obispo-iglesia` 	
+42	11–12	False	1.1	111	Deben ser llamados y ordenados y deben enseñar los principios del Evangelio que se encuentran en las Escrituras	Deben ser llamados y ordenados y han de enseñar los principios del Evangelio que se encuentran en las Escrituras	 `dyc-42-deben-ser-llamados-ordenados-han-ensenar-principi` 	
+42	13–17	False	1	46	Enseñar y profetizar por el poder del Espíritu	Han de enseñar y profetizar por el poder del Espíritu	 `dyc-42-han-ensenar-profetizar-poder-espiritu` 	
+42	30–39	False	0.8	45	Las leyes que rigen la consagración de bienes	Se indican las leyes que rigen la consagración de bienes	 `dyc-42-indican-leyes-rigen-consagracion-bienes` 	
+42	40–42	False	0.667	25	El orgullo y la ociosidad	Se condenan el orgullo y la ociosidad	 `dyc-42-condenan-orgullo-ociosidad` 	
+42	43–52	False	0.75	70	Los enfermos deben ser sanados por medio de bendiciones del sacerdocio	Los enfermos han de ser sanados por medio de bendiciones del sacerdocio y por la fe	 `dyc-42-enfermos-han-ser-sanados-medio-bendiciones` 	
+42	53–60	False	0.833	63	Las Escrituras rigen a la Iglesia y se deben proclamar al mundo	Las Escrituras rigen a la Iglesia y se han de proclamar al mundo	 `dyc-42-escrituras-rigen-iglesia-han-proclamar-m` 	
+42	61–69	False	0.875	76	El sitio de la Nueva Jerusalén y los misterios del reino deben ser revelados	El sitio de la Nueva Jerusalén y los misterios del reino han de ser revelados	 `dyc-42-sitio-nueva-jerusalen-misterios-reino-han` 	
+42	70–73	False	0.857	78	Los bienes consagrados se deben usar para apoyar a los oficiales de la Iglesia	Los bienes consagrados se han de usar para apoyar a los oficiales de la Iglesia	 `dyc-42-bienes-consagrados-han-usar-apoyar-ofic` 	
+43	1–7	True	1	83	Las revelaciones y los mandamientos vienen únicamente por medio del que es nombrado	Las revelaciones y los mandamientos vienen únicamente por medio del que es nombrado	 `dyc-43-revelaciones-mandamientos-vienen-unicamente-me` 	
+43	23–28	False	0.625	46	El Señor llama a los hombres por Su propia voz	El Señor llama a los hombres por Su propia voz y por medio de las fuerzas de la naturaleza	 `dyc-43-senor-llama-hombres-propia-voz-medio-d` 	
+43	8–14	True	1	68	Los santos son santificados al obrar con toda santidad ante el Señor	Los santos son santificados al obrar con toda santidad ante el Señor	 `dyc-43-santos-son-santificados-obrar-toda-santidad-ante` 	
+44	1–3	True	1	41	Los élderes deben reunirse en conferencia	Los élderes deben reunirse en conferencia	 `dyc-44-elderes-deben-reunirse-conferencia` 	
+44	4–6	False	1	68	Organizarse de acuerdo con las leyes del país y cuidar de los pobres	Han de organizarse de acuerdo con las leyes del país y cuidar de los pobres	 `dyc-44-han-organizarse-acuerdo-leyes-pais-cuida` 	
+45	1–5	True	1	42	Cristo es nuestro intercesor ante el Padre	Cristo es nuestro intercesor ante el Padre	 `dyc-45-cristo-es-nuestro-intercesor-ante-padre` 	
+45	11–15	True	1	49	Enoc y sus hermanos fueron recibidos por el Señor	Enoc y sus hermanos fueron recibidos por el Señor	 `dyc-45-enoc-hermanos-fueron-recibidos-senor` 	
+45	16–23	True	1	82	Cristo reveló las señales de Su venida cual se dieron sobre el monte de los Olivos	Cristo reveló las señales de Su venida cual se dieron sobre el monte de los Olivos	 `dyc-45-cristo-revelo-senales-venida-cual-dieron` 	
+45	39–47	True	1	67	Señales, maravillas y la Resurrección acompañarán la Segunda Venida	Señales, maravillas y la Resurrección acompañarán la Segunda Venida	 `dyc-45-senales-maravillas-resurreccion-acompanaran-segunda` 	
+45	54–59	True	1	35	El Señor reinará durante el Milenio	El Señor reinará durante el Milenio	 `dyc-45-senor-reinara-durante-milenio` 	
+45	6–10	True	1	70	El Evangelio es un mensajero para preparar el camino delante del Señor	El Evangelio es un mensajero para preparar el camino delante del Señor	 `dyc-45-evangelio-es-mensajero-preparar-camino-delante` 	
+45	60–62	False	0.188	59	José Smith debe comenzar la traducción del Nuevo Testamento	Se manda al Profeta que comience la traducción del Nuevo Testamento, mediante lo cual se daría a conocer información importante	 `dyc-45-manda-profeta-comience-traduccion-nuevo-tes` 	
+46	1–2	False	0.875	75	Los élderes deben dirigir las reuniones conforme los guíe el Santo Espíritu	Los élderes han de dirigir las reuniones conforme los guíe el Santo Espíritu	 `dyc-46-elderes-han-dirigir-reuniones-conforme-guie` 	
+46	27–33	False	0.875	82	Poder a los oficiales que dirigen la Iglesia para discernir los dones del Espíritu	Se da poder a los oficiales que dirigen la Iglesia para discernir los dones del Espíritu	 `dyc-46-da-poder-oficiales-dirigen-iglesia-disc` 	
+46	3–6	False	0.889	78	Quienes buscan la verdad no deben ser excluidos de los servicios sacramentales	Los que buscan la verdad no deben ser excluidos de los servicios sacramentales	 `dyc-46-buscan-verdad-no-deben-ser-excluidos-servi` 	
+46	7–12	True	1	44	Pedid a Dios y buscad los dones del Espíritu	Pedid a Dios y buscad los dones del Espíritu	 `dyc-46-pedid-dios-buscad-dones-espiritu` 	
+47	1–4	False	0.667	66	Se designa a John Whitmer para que lleve la historia de la Iglesia	Se designa a John Whitmer para que lleve la historia de la Iglesia y sea escribiente del Profeta	 `dyc-47-designa-john-whitmer-lleve-historia-i` 	
+48	1–3	True	1	74	Los santos radicados en Ohio deben compartir sus terrenos con sus hermanos	Los santos radicados en Ohio deben compartir sus terrenos con sus hermanos	 `dyc-48-santos-radicados-ohio-deben-compartir-terrenos-co` 	
+49	1–7	True	1	82	El día y la hora de la venida de Cristo permanecerán incógnitos hasta que Él venga	El día y la hora de la venida de Cristo permanecerán incógnitos hasta que Él venga	 `dyc-49-dia-hora-venida-cristo-permaneceran-incogni` 	
+49	15–16	True	1	35	El matrimonio es decretado por Dios	El matrimonio es decretado por Dios	 `dyc-49-matrimonio-es-decretado-dios` 	
+49	17–21	False	0.667	14	El comer carne	Se aprueba el comer carne	 `dyc-49-aprueba-comer-carne` 	
+49	22–28	True	1	82	Sion prosperará y los lamanitas florecerán como la rosa antes de la Segunda Venida	Sion prosperará y los lamanitas florecerán como la rosa antes de la Segunda Venida	 `dyc-49-sion-prosperara-lamanitas-floreceran-rosa-ante` 	
+50	1–5	True	1	51	Hay muchos espíritus falsos que andan por la tierra	Hay muchos espíritus falsos que andan por la tierra	 `dyc-50-hay-muchos-espiritus-falsos-andan-tierra` 	
+50	10–14	True	1	55	Los élderes deben predicar el Evangelio por el Espíritu	Los élderes deben predicar el Evangelio por el Espíritu	 `dyc-50-elderes-deben-predicar-evangelio-espiritu` 	
+50	15–22	True	1	86	Es preciso que tanto los predicadores como los oyentes sean iluminados por el Espíritu	Es preciso que tanto los predicadores como los oyentes sean iluminados por el Espíritu	 `dyc-50-es-preciso-tanto-predicadores-oyentes-sean` 	
+50	23–25	True	1.333	31	Lo que no edifica no es de Dios	Lo que no edifica no es de Dios	 `dyc-50-no-edifica-no-es-dios` 	
+50	26–28	True	1	44	Los fieles son poseedores de todas las cosas	Los fieles son poseedores de todas las cosas	 `dyc-50-fieles-son-poseedores-todas-cosas` 	
+50	29–36	True	1	56	Las oraciones de los que son purificados son contestadas	Las oraciones de los que son purificados son contestadas	 `dyc-50-oraciones-son-purificados-son-contestadas` 	
+50	37–46	True	1	44	Cristo es el Buen Pastor y la Roca de Israel	Cristo es el Buen Pastor y la Roca de Israel	 `dyc-50-cristo-es-buen-pastor-roca-israel` 	
+50	6–9	True	1	66	Ay de los hipócritas y de aquellos que son separados de la Iglesia	Ay de los hipócritas y de aquellos que son separados de la Iglesia	 `dyc-50-ay-hipocritas-aquellos-son-separados-i` 	

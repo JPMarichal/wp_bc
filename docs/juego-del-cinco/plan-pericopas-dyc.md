@@ -324,9 +324,9 @@ Revelación sobre la organización y el gobierno de la Iglesia, dada por medio d
 | 1 | El Libro de Mormón prueba la divinidad de la obra | `dyc-20-libro-mormon-prueba-divinidad` | 1–16 | — |  |
 | 2 | La Creación, la Caída y la Expiación | `dyc-20-creacion-caida-expiacion` | 17–28 | — |  |
 | 3 | Arrepentimiento, justificación y bautismo | `dyc-20-arrepentimiento-justificacion-bautismo` | 29–37 | — |  |
-| 4 | Ministerio de élderes y apóstoles | `dyc-20-ministerio-elderes-apostoles` | 38–44 | — | Encabezado oficial unifica 38-67; se divide en tres |
-| 5 | Ministerio de los presbíteros | `dyc-20-ministerio-presbiteros` | 45–52 | — |  |
-| 6 | Ministerio de maestros y diáconos | `dyc-20-ministerio-maestros-diaconos` | 53–60 | — |  |
+| 4 | Deberes de élderes y apóstoles | `dyc-20-deberes-elderes-apostoles` | 38–44 | — | Encabezado oficial unifica 38-67; se divide en tres |
+| 5 | Deberes de los presbíteros | `dyc-20-deberes-presbiteros` | 45–52 | — |  |
+| 6 | Deberes de maestros y diáconos | `dyc-20-deberes-maestros-diaconos` | 53–60 | — |  |
 | 7 | Conferencias, ordenaciones y registros | `dyc-20-conferencias-ordenaciones-registros` | 61–67 | — |  |
 | 8 | Vida digna y enseñanza en el hogar | `dyc-20-vida-digna-ensenanza-hogar` | 68–70 | — |  |
 | 9 | Los niños son inocentes hasta la edad de responsabilidad | `dyc-20-ninos-inocentes-responsabilidad` | 71–71 | — |  |
