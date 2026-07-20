@@ -43,11 +43,11 @@ Revelación dada por medio de José Smith el Profeta, el 1º de noviembre de 183
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | La voz de amonestación se dirige a todo pueblo | `dyc-1-voz-amonestacion` | 1–7 | — |  |
+| 1 | Voz de amonestación para todo pueblo | `dyc-1-voz-amonestacion-todo-pueblo` | 1–7 | — |  |
 | 2 | Apostasía y maldad preceden a la Segunda Venida | `dyc-1-apostasia-maldad-segunda-venida` | 8–16 | — |  |
 | 3 | José Smith es llamado a restaurar el Evangelio | `dyc-1-jose-smith-restaurar-evangelio` | 17–23 | — |  |
 | 4 | Sale a luz el Libro de Mormón y nace la Iglesia | `dyc-1-libro-mormon-iglesia-verdadera` | 24–33 | — |  |
-| 5 | La paz será quitada de la tierra | `dyc-1-paz-quitada` | 34–36 | — |  |
+| 5 | La paz desaparecerá de la tierra | `dyc-1-paz-desaparecera-tierra` | 34–36 | — |  |
 | 6 | Escudriñad estos mandamientos | `dyc-1-escudrinad-mandamientos` | 37–39 | — |  |
 
 ---
@@ -73,7 +73,7 @@ Revelación dada a José Smith el Profeta en Harmony, Pensilvania, en julio de 1
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | La vía del Señor es un giro eterno | `dyc-3-via-senor-giro-eterno` | 1–4 | — |  |
+| 1 | La obra del Señor sigue un curso eterno | `dyc-3-obra-senor-curso-eterno` | 1–4 | — |  |
 | 2 | José debe arrepentirse o perderá el don de traducir | `dyc-3-jose-arrepentirse-perdera-don` | 5–15 | — |  |
 | 3 | El Libro de Mormón salvará a la posteridad de Lehi | `dyc-3-libro-mormon-salvara-lehi` | 16–20 | — |  |
 
@@ -118,7 +118,7 @@ Revelación dada a José Smith el Profeta y a Oliver Cowdery en Harmony, Pensilv
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Los obreros del Señor logran la salvación | `dyc-6-obreros-senor-salvacion` | 1–6 | — |  |
-| 2 | No hay don más grande que la salvación | `dyc-6-don-mas-grande-salvacion` | 7–13 | — |  |
+| 2 | No hay don mayor que la salvación | `dyc-6-no-hay-don-mayor-salvacion` | 7–13 | — |  |
 | 3 | Oliver Cowdery ha recibido instrucción del Espíritu | `dyc-6-oliver-instruccion-espiritu` | 14–18 | — | Encabezado oficial unifica 14-27; se divide en tres |
 | 4 | Oliver tiene un testimonio de Cristo | `dyc-6-oliver-testimonio-cristo` | 19–24 | — |  |
 | 5 | Oliver recibirá el don de traducir | `dyc-6-oliver-don-traducir` | 25–27 | — |  |
@@ -274,7 +274,7 @@ Revelación dada por medio de José Smith el Profeta a Oliver Cowdery, a David W
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Los Tres Testigos verán las planchas y el ángel | `dyc-17-tres-testigos-veran-planchas` | 1–4 | `testigos-del-libro-de-mormon` | Éter 5:2-4 |
-| 2 | Cristo mismo testifica del Libro de Mormón | `dyc-17-cristo-testifica-libro-mormon` | 5–9 | `testigos-del-libro-de-mormon` |  |
+| 2 | Cristo da testimonio del Libro de Mormón | `dyc-17-cristo-testimonio-libro-mormon` | 5–9 | `testigos-del-libro-de-mormon` |  |
 
 ---
 
