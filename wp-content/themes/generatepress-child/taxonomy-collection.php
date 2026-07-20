@@ -24,7 +24,7 @@ get_header();
           'taxonomy'   => 'collection',
           'hide_empty' => true,
           'parent'     => $current_term->term_id,
-          'orderby'    => 'name',
+          'orderby'    => 'term_id',
           'order'      => 'ASC',
         ]);
 

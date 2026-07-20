@@ -175,37 +175,39 @@ Todo artículo nuevo debe asignarse a las taxonomías disponibles del sitio. No 
 
 | Taxonomía | Slug | Cardinalidad | Regla |
 |-----------|------|-------------|-------|
-| **Categoría** | `category` | 1 | Elegir la que mejor describa el dominio+formato del artículo |
-| **Temas** | `post_tag` | 2–6 | Temas específicos que abarca el artículo |
+| **Categoría** | `category` | 1 (fija) | Solo existe la categoría 1 ("Sin categoría"). Asignar siempre `[1]`. |
+| **Temas** | `post_tag` | 2–6 | Temas específicos que abarca el artículo (nunca decir "tags", decir "temas") |
 | **Capítulos** | `bc_chapter` | 1–10 | Capítulos escriturales referenciados |
-| **Colección/Serie** | `collection` | 0–1 | Solo si el artículo pertenece a una serie editorial existente |
+| **Serie (colección)** | `collection` | 0–1 | Solo si el artículo pertenece a una **serie** (término HIJO), nunca a una colección (término padre). |
 
 #### Asignación vía MCP de WordPress
-Para categorías y temas, usar el MCP `wordpress_wp_update_post`:
+Para categoría y temas, usar el MCP `wordpress_wp_update_post`:
 
 ```
-# Categoría y Temas — vía update_post
-wordpress_wp_update_post(id: <ID>, categories: [<cat_id>], tags: [<tag_id1>, <tag_id2>])
+# Categoría (siempre [1]) y Temas — vía update_post
+wordpress_wp_update_post(id: <ID>, categories: [1], tags: [<tag_id1>, <tag_id2>])
 ```
 
 Nota: el MCP no soporta taxonomías personalizadas (`bc_chapter`, `collection`). Esas requieren wp-cli.
 
-#### Asignación vía wp-cli
+#### Asignación vía wp-cli (usar SIEMPRE podman, NUNCA docker)
 ```bash
-# Categoría (1)
-docker exec wp_bc_cli wp post term set <ID> category "<nombre>"
+# Categoría (siempre la 1)
+podman exec wp_bc_cli wp post term set <ID> category 1
 
 # Temas (varios)
-docker exec wp_bc_cli wp post term set <ID> post_tag "<tema1>" "<tema2>" "<tema3>"
+podman exec wp_bc_cli wp post term set <ID> post_tag "<tema1>" "<tema2>" "<tema3>"
 
 # Capítulos (varios) — solo wp-cli
-docker exec wp_bc_cli wp post term set <ID> bc_chapter "<capítulo1>" "<capítulo2>"
+podman exec wp_bc_cli wp post term set <ID> bc_chapter "<capítulo1>" "<capítulo2>"
 
-# Colección/Serie (0–1, el slug de la serie incluye el padre) — solo wp-cli
-docker exec wp_bc_cli wp post term set <ID> collection "<slug-de-la-serie>"
+# Serie (solo HIJO de collection, nunca el padre)
+podman exec wp_bc_cli wp post term set <ID> collection "<slug-de-la-serie>"
 ```
 
 **Nota:** `wp post term set` reemplaza todos los términos de esa taxonomía. Para agregar sin reemplazar, usar `wp post term add` por cada uno. Preferir `set` para categoría (1 sola) y `add` para temas y capítulos cuando se concatenan.
+
+**Cuidado con IDs numéricos en `collection`:** `wp post term add 3637 collection 3767` NO usa el ID, sino que CREA un nuevo término con nombre "3767". Usar siempre el slug textual (ej. `"el-origen-del-libro-de-mormon"`).
 
 #### Asignación vía MySQL directo (alternativa)
 Si se necesita asignación massiva o precisa:
@@ -227,21 +229,60 @@ La GEE (churchofjesuschrist.org/study/scriptures/gs) y las Ayudas para las Escri
 #### Terminología de la interfaz
 - `post_tag` aparece en el admin como **"Temas"**
 - `bc_chapter` aparece en el admin como **"Capítulos"** (metabox personalizado)
-- `collection` aparece en el admin como **"Colecciones"**
-- `category` aparece en el admin como **"Categorías"**
+- `collection` aparece en el admin como **"Colecciones y Series"**
+- `category` aparece en el admin como **"Categorías"** (usar siempre la única: "Sin categoría")
 
-## Pipeline de creación
+### 14. Tabla de referencias escriturarias — OBLIGATORIO
+Todo artículo que cite o aluda a 2 o más pasajes de las Escrituras debe incluir, inmediatamente después de la Conclusión y antes de «Fuentes consultadas», una sección titulada **«Referencias de las Escrituras»** con una tabla `<table class="bc-forma-t">` que correlacione cada concepto con su referencia escrituraria.
+
+Formato correcto:
+```html
+<h2 class="wp-block-heading">Referencias de las Escrituras</h2>
+<table class="bc-forma-t"><thead><tr><th>Concepto</th><th>Referencia</th></tr></thead><tbody>
+<tr><td>Descripción del concepto</td><td>Libro Capítulo:Versículo</td></tr>
+<tr><td>Otro concepto</td><td>Libro Capítulo:Versículo</td></tr>
+</tbody></table>
+```
+
+Reglas de la tabla:
+- La primera columna (Concepto) describe el tema en 2–8 palabras.
+- La segunda columna (Referencia) contiene la cita escrituraria abreviada (ej. «1 Nefi 8:2», «Alma 12:31», «Mosíah 1–3»).
+- No incluir tablas con una sola fila. Si solo hay una referencia relevante, mencionarla inline en el texto.
+- Si el artículo no tiene referencias escriturarias directas o solo tiene una, omitir esta sección.
+
+### 13. Verificación de enlaces externos — OBLIGATORIO
+Cada enlace externo incluido en las "Fuentes consultadas" (o en cualquier parte del artículo) **DEBE** ser verificado con una solicitud HTTP real ANTES de publicar el artículo. Los enlaces rotos (404, dominio caído, página movida) dañan la credibilidad del sitio y la experiencia del lector.
+
+#### Pipeline de verificación
+1. **Probar cada URL con `webfetch`** o con `curl -I` (HEAD request). Si la URL responde 200, es válida.
+2. **Si la URL responde 404**, buscar la página correcta:
+   - Usar `websearch` con `site:` para encontrar la página en el mismo dominio
+   - Ejemplo: si `https://rsc.byu.edu/book-chapter/lehis-wilderness-journey` da 404, buscar `site:rsc.byu.edu Lehi wilderness journey`
+3. **Actualizar la URL** en el HTML del artículo antes de publicar.
+4. **Enlaces conocidos que cambian frecuentemente:**
+   - RSC/BYU: las URLs de capítulos de libros usan el patrón `rsc.byu.edu/{book-slug}/{chapter-slug}`, NO `book-chapter/`
+   - Church manuals: usar el patrón `churchofjesuschrist.org/study/manual/{manual-name}/chapter-{n}-{slug}?lang=es`
+5. **No incluir enlaces no verificados.** Un enlace roto es peor que ninguna fuente.
 
 1. Definir título y ángulo del artículo
 2. Determinar qué taxonomías aplican (categoría, temas, capítulos, colección/serie)
 3. Escribir contenido con la estructura arriba indicada
 4. **Verificar cada cita y referencia contra fuentes confiables** (usar Alejandría primero)
-5. Preparar bloques como bloques Gutenberg (con marcadores `<!-- wp:... -->`)
-6. Insertar/actualizar via `$wpdb` para preservar marcadores
-7. Asignar taxonomías vía `wp post term set/add`
-8. Verificar con `has_blocks()` y `parse_blocks()` que no haya bloques classic no intencionales
-9. **Verificar integridad de bloques después de ediciones** — cuando se usa `$wpdb->update()` para modificar un artículo existente, el contenido PUEDE colapsarse en un solo bloque classic aunque los marcadores `<!-- wp: -->` estén presentes. Después de cada actualización:
-   - Ejecutar `has_blocks()` — debe devolver `YES`
-   - Ejecutar `parse_blocks()` y contar los bloques con `blockName === null` — deben ser 0
-   - Si hay bloques nulos, el contenido se ha aplanado a classic. Solución: reemplazar `$wpdb->update()` con una consulta SQL que preserve los marcadores exactos, o corregir manualmente en el editor de WordPress.
-10. Verificar visualmente en el editor de WordPress que cada bloque se renderice individualmente (no todo en un solo bloque Classic)
+5. **Verificar cada enlace externo con una solicitud HTTP real** (usar `webfetch` o `curl -I`). No publicar enlaces rotos (404).
+6. Preparar bloques como bloques Gutenberg (con marcadores `<!-- wp:... -->`)
+7. Insertar via podman con `wp post create` (artículos nuevos). Para actualizaciones, usar SQL directo:
+   ```php
+   global $wpdb;
+   $wpdb->query($wpdb->prepare(
+       "UPDATE {$wpdb->posts} SET post_content = %s WHERE ID = %d",
+       $new_content,
+       $post_id
+   ));
+   ```
+   **No** usar `$wpdb->update()` porque colapsa los marcadores Gutenberg.
+8. Asignar taxonomías vía `wp post term set/add`
+9. Verificar con `has_blocks()` y `parse_blocks()` que no haya bloques classic no intencionales
+10. **Verificar integridad de bloques después de ediciones** — después de modificar el contenido de un artículo existente, verificar que los bloques Gutenberg no se hayan colapsado:
+    - Ejecutar `has_blocks()` — debe devolver `YES`
+    - Si devuelve `NO`, el contenido se aplanó a classic. Solución: restaurar desde el archivo HTML original usando consulta SQL directa (`$wpdb->query()` con `$wpdb->prepare()`, no `$wpdb->update()`)
+11. Verificar visualmente en el editor de WordPress que cada bloque se renderice individualmente

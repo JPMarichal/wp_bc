@@ -440,9 +440,7 @@ get_header(); ?>
   }
   ?>
 
-  <nav class="bc-glossary-back-nav">
-    <a href="<?php echo esc_url( get_post_type_archive_link( 'bc_location' ) ); ?>">&larr; Volver al glosario</a>
-  </nav>
+  <?php bc_render_breadcrumbs( [ 'class' => 'bc-glossary-back-nav' ] ); ?>
 
   <?php if ( $alias_of ) :
     $alias_title = get_the_title( $alias_of );

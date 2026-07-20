@@ -172,9 +172,14 @@ Documentar en `Fuentes consultadas`:
 4. Si relevancia Alta/Media: al menos una fuente adicional (BYU, Maxwell, FAIR, etc.)
 
 **Regla de búsqueda en Alejandría:**
-- Queries **ESTRECHAS**: un solo concepto o nombre exacto por búsqueda.
+- Queries **ESTRECHAS ABSOLUTAS**: un solo concepto, entidad o nombre exacto por búsqueda. Nunca combinar conceptos distintos en una misma query.
+  - Correcto: `alejandria_search_text(query: "Tres Testigos")`
+  - Correcto: `alejandria_search_text(query: "Ocho Testigos")`
+  - Incorrecto: `alejandria_search_text(query: "Tres Testigos Ocho Testigos")`
+  - Incorrecto: `alejandria_search_text(query: "testigos ley testigos")`
+- Cada concepto identificado en el artículo merece su propia búsqueda independiente.
 - Resultados **EXHAUSTIVOS**: usar `limit` alto o sin límite. No truncar la investigación.
-- No combinar múltiples conceptos en una sola query (ej: no buscar "Magdala Mary Magdalene Sea of Galilee").
+- El operador AND está prohibido en queries de Alejandría: si el motor lo aplica internamente, una query compuesta reduce resultados y viola la exhaustividad.
 
 Scoring de calidad de fuentes (no es fallback, es scoring):
 1. Escrituras + conocimiento revelado (DyC, JST, PGP, Libro de Mormón)
@@ -469,6 +474,11 @@ Los niveles A/B/C se derivan de la columna `relevancia` pre-llenada en
 | **Sin polémica** | No entretenerse en debates. Datos últimos y certeros. Responder preguntas potenciales sin polemizar |
 | **Conocimiento revelado integrado** | Perla de Gran Precio, Libro de Mormón, DyC, JST se integran donde es oportuno, no en sección aparte |
 | **Sin copy-paste** | Redacción original, voz propia. Citas textuales con referencia verificable |
+| **Verificación estricta de citas** | Toda cita atribuida a una persona (líder SUD, autor, erudito) debe ser textual verificable en fuente primaria accesible. Prohibido atribuir frases por "general sentiment" o memoria del modelo. Si no se confirma la cita exacta, eliminar la atribución o el párrafo entero. |
+| **Fuentes primarias primero** | Para citas de líderes SUD, buscar en churchofjesuschrist.org, lds.org o discurso oficial. Si la búsqueda no confirma la cita textual, descartarla. |
+| **Prohibido inventar citas** | Si una idea se conoce como "enseñanza de la Iglesia" pero no se encuentra una cita textual verificable, NO ponerla entre comillas ni atribuirla a persona alguna. En su lugar, reescribir como narrativa doctrinal general, sin formato de cita y sin nombre propio. |
+| **Prohibido atribuir a colectivos sin fuente** | Está prohibido atribuir ideas a "los líderes de la Iglesia", "la Iglesia enseña", "las autoridades generales han dicho" o cualquier fórmula genérica sin fuente primaria accesible. Si no hay cita textual verificable de una persona específica, eliminar la atribución colectiva y dejar solo la idea como narrativa del autor, respaldada por escritura cuando sea posible. |
+| **Registrar falsas atribuciones** | Toda falsa atribución detectada y eliminada debe registrarse en `tracking/locations.db` tabla `activity_log` con action=`falsa_atribucion_corregida` y detalle del post, cita eliminada y motivo. |
 | **Traducir referencias** | Toda referencia escritural en español usando `$en_to_es` |
 | **No repetir sidebar** | No incluir coordenadas, tipo, confianza ni fuente |
 | **SEO** | Palabras clave de cola larga, `<strong>` para énfasis en nombres de otros lugares, `<h2>/<h3>` semántico, enlaces salientes verificados, metadata description desde el intro |

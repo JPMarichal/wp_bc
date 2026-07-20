@@ -1,3 +1,14 @@
+---
+name: asignar-series
+description: |
+  Organizar artículos (`post`) en colecciones y series usando el plugin
+  `bc-content-organization`. Usar cuando se necesite: (1) crear series
+  dentro de una colección, (2) asignar artículos a series, (3) establecer
+  el orden de publicación dentro de una serie, (4) verificar la estructura
+  jerárquica de colecciones y series. Complementa a asignar-tags y
+  asignar-capitulos.
+---
+
 # Skill: Asignar Series a Artículos
 
 ## Cuándo usar

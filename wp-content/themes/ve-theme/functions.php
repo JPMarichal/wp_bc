@@ -130,6 +130,18 @@ require_once __DIR__ . '/inc/location-redirect.php';
 require_once __DIR__ . '/inc/header.php';
 require_once __DIR__ . '/inc/block-patterns.php';
 require_once __DIR__ . '/inc/external-links.php';
+require_once __DIR__ . '/inc/sitemap.php';
+require_once __DIR__ . '/inc/seo-metabox.php';
+
+add_filter( 'bc_social_profiles', function () {
+  return [
+    'https://www.facebook.com/evidencesofbible',
+    'https://twitter.com/evidencesbible',
+    'https://www.instagram.com/evidencesofbible',
+    'https://www.youtube.com/@EvidencesofBible',
+    'https://www.pinterest.com/evidencesofbible',
+  ];
+} );
 
 add_filter( 'image_editor_output_format', function( $mappings ) {
 	$mappings['image/jpeg'] = 'image/webp';

@@ -3,6 +3,10 @@
 function bc_og_meta_title() {
   if ( is_singular() ) {
     $post = get_queried_object();
+    $meta_title = bc_get_meta_title( $post->ID );
+    if ( $meta_title ) {
+      return esc_attr( $meta_title );
+    }
     return esc_attr( is_singular( 'bc_quote_author' ) ? bc_persona_biography_title( $post->ID ) : get_the_title( $post ) );
   }
   return esc_attr( wp_get_document_title() );
@@ -20,7 +24,11 @@ function bc_og_meta_url() {
 
 function bc_og_meta_description() {
   if ( is_singular() ) {
-    $post    = get_queried_object();
+    $post = get_queried_object();
+    $meta_desc = bc_get_meta_description( $post->ID );
+    if ( $meta_desc ) {
+      return esc_attr( $meta_desc );
+    }
     $excerpt = get_the_excerpt( $post );
     if ( empty( $excerpt ) ) {
       $excerpt = wp_trim_words( strip_shortcodes( get_the_content( $post ) ), 30, '…' );

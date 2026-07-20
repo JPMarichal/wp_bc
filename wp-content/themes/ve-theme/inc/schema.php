@@ -248,8 +248,49 @@ function bc_social_profiles() {
   return apply_filters( 'bc_social_profiles', [] );
 }
 
+function bc_json_ld_place() {
+  if ( ! is_singular( 'bc_location' ) ) {
+    return;
+  }
+
+  $post = get_queried_object();
+  $lat  = get_post_meta( $post->ID, '_bc_loc_lat', true );
+  $lng  = get_post_meta( $post->ID, '_bc_loc_lng', true );
+
+  $schema = [
+    '@context' => 'https://schema.org',
+    '@type'    => 'Place',
+    'name'     => get_the_title( $post ),
+    'url'      => get_permalink( $post ),
+  ];
+
+  if ( $lat && $lng ) {
+    $schema['geo'] = [
+      '@type'    => 'GeoCoordinates',
+      'latitude' => $lat,
+      'longitude'=> $lng,
+    ];
+  }
+
+  $desc = get_post_meta( $post->ID, '_bc_loc_description', true );
+  if ( $desc ) {
+    $schema['description'] = $desc;
+  }
+
+  if ( has_post_thumbnail( $post ) ) {
+    $schema['image'] = get_the_post_thumbnail_url( $post, 'full' );
+  }
+
+  echo '<script type="application/ld+json">' . "\n";
+  echo wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT ) . "\n";
+  echo '</script>' . "\n";
+}
+add_action( 'wp_head', 'bc_json_ld_place' );
+
 function bc_canonical_url() {
   if ( is_singular() ) {
+    $post = get_queried_object();
+    echo '<link rel="canonical" href="' . esc_url( get_permalink( $post ) ) . '" />' . "\n";
     return;
   }
   if ( is_front_page() || is_home() ) {

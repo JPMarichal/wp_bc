@@ -6,6 +6,7 @@ remove_action( 'wp_head', 'wp_shortlink_wp_head' );
 remove_action( 'wp_head', 'rest_output_link_wp_head' );
 remove_action( 'wp_head', 'wp_oembed_add_discovery' );
 remove_action( 'wp_head', 'wp_generator' );
+remove_action( 'wp_head', 'rel_canonical' );
 
 remove_action( 'wp_head', 'wp_oembed_add_discovery' );
 remove_action( 'wp_head', 'wp_oembed_add_host_js' );
@@ -25,7 +26,7 @@ add_action( 'wp_enqueue_scripts', function () {
 add_filter( 'wp_robots', function ( $robots ) {
   $robots['max-image-preview'] = 'large';
 
-  if ( is_date() || is_tag() || is_attachment() ) {
+  if ( is_date() || is_tag() || is_attachment() || is_paged() ) {
     $robots['noindex'] = true;
   }
 

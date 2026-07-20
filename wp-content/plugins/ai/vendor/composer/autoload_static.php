@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d
+class ComposerStaticInit62ff27823a94f74072d1e3eeeb5c46f3
 {
     public static $files = array (
         '901a0fcb8c5137115199739c3d628fd4' => __DIR__ . '/../..' . '/includes/helpers.php',
@@ -27,6 +27,7 @@ class ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'WordPress\\AI\\Abilities\\Comment_Moderation\\Comment_Analysis' => __DIR__ . '/../..' . '/includes/Abilities/Comment_Moderation/Comment_Analysis.php',
+        'WordPress\\AI\\Abilities\\Content\\Content' => __DIR__ . '/../..' . '/includes/Abilities/Content/Content.php',
         'WordPress\\AI\\Abilities\\Content_Classification\\Content_Classification' => __DIR__ . '/../..' . '/includes/Abilities/Content_Classification/Content_Classification.php',
         'WordPress\\AI\\Abilities\\Content_Resizing\\Content_Resizing' => __DIR__ . '/../..' . '/includes/Abilities/Content_Resizing/Content_Resizing.php',
         'WordPress\\AI\\Abilities\\Editorial_Notes\\Editorial_Notes' => __DIR__ . '/../..' . '/includes/Abilities/Editorial_Notes/Editorial_Notes.php',
@@ -40,9 +41,11 @@ class ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d
         'WordPress\\AI\\Abilities\\Meta_Description\\SEO_Integration' => __DIR__ . '/../..' . '/includes/Abilities/Meta_Description/SEO_Integration.php',
         'WordPress\\AI\\Abilities\\Settings\\Settings' => __DIR__ . '/../..' . '/includes/Abilities/Settings/Settings.php',
         'WordPress\\AI\\Abilities\\Show_In_Abilities' => __DIR__ . '/../..' . '/includes/Abilities/Show_In_Abilities.php',
+        'WordPress\\AI\\Abilities\\Suggest_Reply\\Suggest_Reply' => __DIR__ . '/../..' . '/includes/Abilities/Suggest_Reply/Suggest_Reply.php',
         'WordPress\\AI\\Abilities\\Summarization\\Summarization' => __DIR__ . '/../..' . '/includes/Abilities/Summarization/Summarization.php',
         'WordPress\\AI\\Abilities\\Title_Generation\\Title_Generation' => __DIR__ . '/../..' . '/includes/Abilities/Title_Generation/Title_Generation.php',
         'WordPress\\AI\\Abilities\\Type_Ahead\\Type_Ahead' => __DIR__ . '/../..' . '/includes/Abilities/Type_Ahead/Type_Ahead.php',
+        'WordPress\\AI\\Abilities\\Users\\Users' => __DIR__ . '/../..' . '/includes/Abilities/Users/Users.php',
         'WordPress\\AI\\Abilities\\Utilities\\Posts' => __DIR__ . '/../..' . '/includes/Abilities/Utilities/Posts.php',
         'WordPress\\AI\\Abstracts\\Abstract_Ability' => __DIR__ . '/../..' . '/includes/Abstracts/Abstract_Ability.php',
         'WordPress\\AI\\Abstracts\\Abstract_Feature' => __DIR__ . '/../..' . '/includes/Abstracts/Abstract_Feature.php',
@@ -86,6 +89,7 @@ class ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d
         'WordPress\\AI\\Experiments\\Key_Encryption\\Key_Encryption' => __DIR__ . '/../..' . '/includes/Experiments/Key_Encryption/Key_Encryption.php',
         'WordPress\\AI\\Experiments\\Key_Encryption\\Secrets_Bridge' => __DIR__ . '/../..' . '/includes/Experiments/Key_Encryption/Secrets_Bridge.php',
         'WordPress\\AI\\Experiments\\Meta_Description\\Meta_Description' => __DIR__ . '/../..' . '/includes/Experiments/Meta_Description/Meta_Description.php',
+        'WordPress\\AI\\Experiments\\Suggest_Reply\\Suggest_Reply' => __DIR__ . '/../..' . '/includes/Experiments/Suggest_Reply/Suggest_Reply.php',
         'WordPress\\AI\\Experiments\\Summarization\\Summarization' => __DIR__ . '/../..' . '/includes/Experiments/Summarization/Summarization.php',
         'WordPress\\AI\\Experiments\\Title_Generation\\Title_Generation' => __DIR__ . '/../..' . '/includes/Experiments/Title_Generation/Title_Generation.php',
         'WordPress\\AI\\Experiments\\Type_Ahead\\Type_Ahead' => __DIR__ . '/../..' . '/includes/Experiments/Type_Ahead/Type_Ahead.php',
@@ -120,9 +124,9 @@ class ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit6057b2a7a391776ecf19a0c3c38ae82d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit62ff27823a94f74072d1e3eeeb5c46f3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit62ff27823a94f74072d1e3eeeb5c46f3::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit62ff27823a94f74072d1e3eeeb5c46f3::$classMap;
 
         }, null, ClassLoader::class);
     }

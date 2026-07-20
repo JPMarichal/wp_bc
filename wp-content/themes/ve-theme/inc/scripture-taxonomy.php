@@ -15,7 +15,7 @@ add_action('init', function () {
     'menu_name'         => __('Capítulos', 'bc'),
   ];
 
-  register_taxonomy('bc_chapter', ['post', 'bc_quote_author'], [
+  register_taxonomy('bc_chapter', ['post', 'bc_quote_author', 'bc_location'], [
     'labels'            => $labels,
     'hierarchical'      => true,
     'public'            => true,

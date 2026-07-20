@@ -1,3 +1,13 @@
+---
+name: asignar-capitulos
+description: |
+  Asignar capítulos de las Escrituras (taxonomía bc_chapter) a artículos
+  de wp_bc. Usar cuando un artículo mencione, cite o haga referencia a
+  pasajes de las Escrituras y necesite los términos bc_chapter
+  correspondientes. Aplica a posts del CPT Historia del Libro de Mormón
+  y cualquier otro artículo con referencias escriturarias.
+---
+
 # Skill: Asignar Capítulos de las Escrituras a Artículos
 
 ## Cuándo usar

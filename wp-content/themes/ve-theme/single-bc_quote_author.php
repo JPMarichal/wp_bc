@@ -3,9 +3,7 @@
 <main id="main" class="bc-glossary-single">
 	<?php while ( have_posts() ) : the_post(); ?>
 
-		<nav class="bc-glossary-back-nav">
-			<a href="<?php echo esc_url( get_post_type_archive_link( 'bc_quote_author' ) ); ?>">&larr; Volver al glosario</a>
-		</nav>
+		<?php bc_render_breadcrumbs( [ 'class' => 'bc-glossary-back-nav' ] ); ?>
 
 		<div class="bc-persona-container">
 			<div class="bc-persona-content-area">

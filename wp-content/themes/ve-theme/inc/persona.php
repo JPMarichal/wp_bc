@@ -9,12 +9,23 @@ function bc_persona_biography_title( $post_id = 0 ) {
 }
 
 function bc_persona_document_title( $parts ) {
+	$post_id = get_the_ID();
+	if ( ! $post_id ) {
+		return $parts;
+	}
+
+	$meta_title = bc_get_meta_title( $post_id );
+	if ( $meta_title ) {
+		$parts['title'] = $meta_title;
+		return $parts;
+	}
+
 	if ( is_singular( 'bc_quote_author' ) ) {
-		$parts['title'] = bc_persona_biography_title();
+		$parts['title'] = bc_persona_biography_title( $post_id );
 	}
 	return $parts;
 }
-add_filter( 'document_title_parts', 'bc_persona_document_title' );
+add_filter( 'document_title_parts', 'bc_persona_document_title', 20 );
 
 add_action( 'widgets_init', function () {
 	register_sidebar( array(
