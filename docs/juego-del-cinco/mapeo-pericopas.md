@@ -1,6 +1,6 @@
 # Mapeo de Perícopas (bc_pericopa)
 
-> **Estado**: EN EJECUCIÓN — subfase DyC curada; se inicia el cierre operativo de Fase A con la creación de la taxonomía `bc_pericopa`.
+> **Estado**: COMPLETADO — Se finalizó la Fase A con el diseño completo del mapa de pericopas de Doctrina y Convenios, la optimización y validación estricta de sus slugs para SEO de manera unívoca, la creación de la taxonomía `bc_pericopa` en código y base de datos con campos REST de metadatos, y el poblamiento exitoso de las 644 perícopas correspondientes. listo para iniciar la Fase B (Construcción del Frontend, Carga Condicional y Visualización).
 
 ## Definición
 
