@@ -438,9 +438,9 @@ Revelación dada por medio de José Smith el Profeta a Oliver Cowdery en Fayette
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | José Smith posee las llaves de los misterios | `dyc-28-jose-smith-posee-llaves-misterios-solamente` | 1–7 | — |  |
-| 2 | Oliver Cowdery ha de predicar a los lamanitas | `dyc-28-oliver-cowdery-ha-predicar-lamanitas` | 8–10 | — |  |
-| 3 | Satanás engañó a Hiram Page y le comunicó revelaciones falsas | `dyc-28-satanas-engano-hiram-page-comunico-revelaciones-falsa` | 11–16 | — |  |
+| 1 | Solo José Smith recibe revelación para toda la Iglesia | `dyc-28-solo-jose-smith-revelacion-iglesia` | 1–7 | — |  |
+| 2 | Oliver debe predicar a los lamanitas | `dyc-28-oliver-predicar-lamanitas` | 8–10 | — |  |
+| 3 | Hiram Page fue engañado por revelaciones falsas | `dyc-28-hiram-page-enganado-revelaciones-falsas` | 11–16 | — |  |
 
 ---
 
@@ -453,12 +453,12 @@ Revelación dada por medio de José Smith el Profeta, en presencia de seis élde
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Cristo recoge a Sus escogidos | `dyc-29-cristo-recoge-escogidos` | 1–8 | — |  |
-| 2 | Su venida iniciará el Milenio | `dyc-29-venida-iniciara-milenio` | 9–11 | — |  |
+| 2 | Su venida abrirá el Milenio | `dyc-29-venida-abrira-milenio` | 9–11 | — |  |
 | 3 | Los Doce juzgarán a todo Israel | `dyc-29-doce-juzgaran-todo-israel` | 12–13 | — |  |
-| 4 | Señales, plagas y desolaciones precederán a la Segunda Venida | `dyc-29-senales-plagas-desolaciones-precederan-segunda-venida` | 14–21 | — |  |
-| 5 | La última resurrección y el juicio final se verificarán después del Milenio | `dyc-29-ultima-resurreccion-juicio-final-verificaran-desp` | 22–28 | — |  |
+| 4 | Señales y plagas anunciarán la Segunda Venida | `dyc-29-senales-plagas-anunciaran-segunda-venida` | 14–21 | — |  |
+| 5 | La última resurrección y el juicio final vendrán después del Milenio | `dyc-29-juicio-final-despues-milenio` | 22–28 | — |  |
 | 6 | Para el Señor todas las cosas son espirituales | `dyc-29-senor-todas-cosas-son-espirituales` | 29–35 | — |  |
-| 7 | El diablo y sus huestes fueron expulsados del cielo para tentar al hombre | `dyc-29-diablo-huestes-fueron-expulsados-cielo-ten` | 36–39 | — |  |
+| 7 | Satanás y sus huestes fueron arrojados del cielo | `dyc-29-satanas-huestes-arrojados-cielo` | 36–39 | — |  |
 | 8 | La Caída y la Expiación traen la salvación | `dyc-29-caida-expiacion-traen-salvacion` | 40–45 | — |  |
 | 9 | Los niños pequeños son redimidos por medio de la Expiación | `dyc-29-ninos-pequenos-son-redimidos-medio-expiacion` | 46–50 | — |  |
 
@@ -472,9 +472,9 @@ Revelación dada por medio de José Smith el Profeta a David Whitmer, a Peter Wh
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | David Whitmer es reprendido por no haber servido diligentemente | `dyc-30-reprende-david-whitmer-no-haber-servido-diligenteme` | 1–4 | — |  |
-| 2 | Peter Whitmer, hijo, ha de acompañar a Oliver Cowdery en una misión a los lamanitas | `dyc-30-peter-whitmer-hijo-ha-acompanar-oliver-cowdery-m` | 5–8 | — |  |
-| 3 | John Whitmer es llamado a predicar el Evangelio | `dyc-30-john-whitmer-es-llamado-predicar-evangelio` | 9–11 | — |  |
+| 1 | David Whitmer es reprendido por su descuido | `dyc-30-david-whitmer-reprendido-descuido` | 1–4 | — |  |
+| 2 | Peter Whitmer acompañará a Oliver entre los lamanitas | `dyc-30-peter-whitmer-acompanara-oliver-lamanitas` | 5–8 | — |  |
+| 3 | John Whitmer sale a predicar el Evangelio | `dyc-30-john-whitmer-sale-predicar-evangelio` | 9–11 | — |  |
 
 ---
 
@@ -486,8 +486,8 @@ Revelación dada por medio de José Smith el Profeta a Thomas B. Marsh en septi
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Thomas B. Marsh es llamado a predicar el Evangelio | `dyc-31-thomas-b-marsh-es-llamado-predicar-evangelio-as` | 1–6 | — |  |
-| 2 | Se le aconseja que sea paciente y ore siempre | `dyc-31-aconseja-sea-paciente-ore-siempre-siga-l` | 7–13 | — |  |
+| 1 | Thomas B. Marsh es llamado a predicar y no temer por su familia | `dyc-31-thomas-b-marsh-predicar-no-temer-familia` | 1–6 | — |  |
+| 2 | Sé paciente, ora siempre y sigue al Consolador | `dyc-31-paciente-ora-siempre-sigue-consolador` | 7–13 | — |  |
 
 ---
 
@@ -499,8 +499,8 @@ Revelación dada por medio de José Smith el Profeta a Parley P. Pratt y a Ziba
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Parley P. Pratt y Ziba Peterson son llamados para predicar a los lamanitas y para acompañar a Oliver Cowdery y a Peter Whitmer, hijo | `dyc-32-parley-p-pratt-ziba-peterson-son-llamados-predicar` | 1–3 | — |  |
-| 2 | Deben orar para entender las Escrituras | `dyc-32-deben-orar-entender-escrituras` | 4–5 | — |  |
+| 1 | Parley Pratt y Ziba Peterson son enviados a los lamanitas | `dyc-32-parley-pratt-ziba-peterson-enviados-lamanitas` | 1–3 | — |  |
+| 2 | Orad para entender las Escrituras | `dyc-32-orad-entender-escrituras` | 4–5 | — |  |
 
 ---
 
@@ -512,9 +512,9 @@ Revelación dada por medio de José Smith el Profeta a Ezra Thayre y a Northrop 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Obreros para declarar el Evangelio en la hora undécima | `dyc-33-llaman-obreros-declarar-evangelio-hora-unde` | 1–4 | — |  |
-| 2 | La Iglesia está establecida, y los escogidos deben ser recogidos | `dyc-33-iglesia-esta-establecida-escogidos-han-ser-recog` | 5–6 | — |  |
-| 3 | Arrepentíos, porque el reino de los cielos está cerca | `dyc-33-arrepentios-porque-reino-cielos-esta-cerca` | 7–10 | — |  |
+| 1 | Obreros de última hora salen a proclamar el Evangelio | `dyc-33-obreros-ultima-hora-proclamar-evangelio` | 1–4 | — |  |
+| 2 | La Iglesia ya está establecida y debe recoger a los escogidos | `dyc-33-iglesia-establecida-recoger-escogidos` | 5–6 | — |  |
+| 3 | Arrepentíos: el reino está cerca | `dyc-33-arrepentios-reino-cerca` | 7–10 | — |  |
 | 4 | La Iglesia está edificada sobre la roca del Evangelio | `dyc-33-iglesia-esta-edificada-roca-evangelio` | 11–15 | — |  |
 | 5 | Preparaos para la venida del Esposo | `dyc-33-preparaos-venida-esposo` | 16–18 | — |  |
 
@@ -528,8 +528,8 @@ Revelación dada por medio de José Smith el Profeta a Orson Pratt en Fayette, N
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los fieles llegan a ser hijos de Dios por medio de la Expiación | `dyc-34-fieles-llegan-ser-hijos-dios-medio-expiac` | 1–4 | — |  |
-| 2 | La predicación del Evangelio prepara el camino para la Segunda Venida | `dyc-34-predicacion-evangelio-prepara-camino-segun` | 5–9 | — |  |
+| 1 | La Expiación hace hijos de Dios a los fieles | `dyc-34-expiacion-hace-hijos-dios-fieles` | 1–4 | — |  |
+| 2 | Predicar el Evangelio prepara la Segunda Venida | `dyc-34-predicar-evangelio-prepara-segunda-venida` | 5–9 | — |  |
 | 3 | La profecía viene por el poder del Espíritu Santo | `dyc-34-profecia-viene-poder-espiritu-santo` | 10–12 | — |  |
 
 ---
@@ -543,9 +543,9 @@ Revelación dada a José Smith el Profeta y a Sidney Rigdon en Fayette, Nueva Yo
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Cómo llegar a ser hijos de Dios | `dyc-35-como-llegar-hijos-dios` | 1–2 | — |  |
-| 2 | Sidney Rigdon es llamado para bautizar y conferir el Espíritu Santo | `dyc-35-sidney-rigdon-es-llamado-bautizar-conferir-espirit` | 3–7 | — |  |
-| 3 | Las señales y los milagros se efectúan por la fe | `dyc-35-senales-milagros-efectuan-fe` | 8–12 | — |  |
-| 4 | Los siervos del Señor trillarán a las naciones por el poder del Espíritu | `dyc-35-siervos-senor-trillaran-naciones-poder` | 13–16 | — |  |
+| 2 | Sidney Rigdon es llamado a bautizar y conferir el Espíritu | `dyc-35-sidney-rigdon-bautizar-conferir-espiritu` | 3–7 | — |  |
+| 3 | Señales y milagros siguen a la fe | `dyc-35-senales-milagros-siguen-fe` | 8–12 | — |  |
+| 4 | Los siervos del Señor trillarán a las naciones | `dyc-35-siervos-senor-trillaran-naciones` | 13–16 | — |  |
 | 5 | José Smith posee las llaves de los misterios | `dyc-35-jose-smith-posee-llaves-misterios` | 17–19 | — |  |
 | 6 | Los elegidos soportarán el día de la venida del Señor | `dyc-35-elegidos-soportaran-dia-venida-senor` | 20–21 | — |  |
 | 7 | Israel será salvo | `dyc-35-israel-sera-salvo` | 22–27 | — |  |
@@ -586,12 +586,12 @@ Revelación dada por medio de José Smith el Profeta en Fayette, Nueva York, el 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Cristo creó todas las cosas | `dyc-38-cristo-creo-todas-cosas` | 1–6 | — |  |
-| 2 | Él se halla en medio de Sus santos, que pronto lo verán | `dyc-38-halla-medio-santos-pronto-veran` | 7–8 | — |  |
-| 3 | Toda carne se ha corrompido delante de Él | `dyc-38-toda-carne-ha-corrompido-delante` | 9–12 | — |  |
-| 4 | Él ha reservado una tierra prometida para Sus santos por el tiempo y por la eternidad | `dyc-38-ha-reservado-tierra-prometida-santos` | 13–22 | — |  |
+| 2 | El Señor está en medio de sus santos | `dyc-38-senor-medio-santos` | 7–8 | — |  |
+| 3 | Toda carne se ha corrompido ante Dios | `dyc-38-toda-carne-corrompido-ante-dios` | 9–12 | — |  |
+| 4 | El Señor reservó una tierra prometida para sus santos | `dyc-38-tierra-prometida-santos` | 13–22 | — |  |
 | 5 | Sed uno y trataos como hermanos | `dyc-38-sed-uno-trataos-hermanos` | 23–27 | — |  |
-| 6 | Guerras | `dyc-38-predicen-guerras` | 28–29 | — |  |
-| 7 | Se dará a los santos poder de lo alto | `dyc-38-dara-santos-poder-alto-iran-todas-nac` | 30–33 | — |  |
+| 6 | Se avecinan guerras | `dyc-38-se-avecinan-guerras` | 28–29 | — |  |
+| 7 | El Señor dará poder de lo alto a sus santos | `dyc-38-poder-alto-santos` | 30–33 | — |  |
 | 8 | Cuidad de los pobres y buscad riquezas eternas | `dyc-38-cuidar-pobres-buscar-riquezas-eternas` | 34–42 | — |  |
 
 ---
@@ -604,11 +604,11 @@ Revelación dada por medio de José Smith el Profeta a James Covel en Fayette, N
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los santos fieles tienen el poder de llegar a ser hijos de Dios | `dyc-39-santos-fieles-tienen-poder-llegar-ser-hijos-d` | 1–4 | — |  |
+| 1 | Los fieles pueden llegar a ser hijos de Dios | `dyc-39-fieles-llegar-hijos-dios` | 1–4 | — |  |
 | 2 | Recibir el Evangelio es recibir a Cristo | `dyc-39-recibir-evangelio-es-recibir-cristo` | 5–6 | — |  |
 | 3 | James Covel debe bautizarse y trabajar en la viña del Señor | `dyc-39-james-covel-bautizarse-trabajar-vina-senor` | 7–14 | — |  |
-| 4 | Los siervos del Señor deben predicar el Evangelio antes de la Segunda Venida | `dyc-39-siervos-senor-han-predicar-evangelio-antes` | 15–21 | — |  |
-| 5 | Quienes reciban el Evangelio serán recogidos por el tiempo y por la eternidad | `dyc-39-aquellos-reciban-evangelio-seran-recogidos-tie` | 22–24 | — |  |
+| 4 | Los siervos del Señor deben predicar antes de la Segunda Venida | `dyc-39-siervos-senor-predicar-antes-segunda-venida` | 15–21 | — |  |
+| 5 | Quienes reciban el Evangelio serán recogidos ahora y por la eternidad | `dyc-39-reciban-evangelio-recogidos-ahora-eternidad` | 22–24 | — |  |
 
 ---
 
@@ -620,7 +620,7 @@ Revelación dada a José Smith el Profeta y a Sidney Rigdon en Fayette, Nueva Yo
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | El temor de la persecución | `dyc-40-temor-persecucion-afanes-mundo-hacen` | 1–3 | — |  |
+| 1 | El temor y los afanes del mundo ahogan la obediencia | `dyc-40-temor-afanes-mundo-ahogan-obediencia` | 1–3 | — |  |
 
 ---
 
@@ -632,8 +632,8 @@ Revelación dada a la Iglesia por medio de José Smith el Profeta, en Kirtland, 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los élderes gobernarán la Iglesia por el espíritu de revelación | `dyc-41-elderes-gobernaran-iglesia-espiritu-revelac` | 1–3 | — |  |
-| 2 | Los discípulos verdaderos recibirán y obedecerán la ley del Señor | `dyc-41-discipulos-verdaderos-recibiran-obedeceran-ley` | 4–6 | — |  |
+| 1 | Los élderes gobiernan por revelación | `dyc-41-elderes-gobiernan-revelacion` | 1–3 | — |  |
+| 2 | Los verdaderos discípulos reciben y obedecen la ley | `dyc-41-discipulos-reciben-obedecen-ley` | 4–6 | — |  |
 | 3 | Edward Partridge es nombrado obispo de la Iglesia | `dyc-41-edward-partridge-es-nombrado-obispo-iglesia` | 7–12 | — |  |
 
 ---
@@ -646,16 +646,16 @@ Revelación dada en dos partes por medio de José Smith el Profeta en Kirtland, 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los élderes son llamados a predicar el Evangelio | `dyc-42-elderes-son-llamados-predicar-evangelio-bautizar` | 1–10 | — |  |
+| 1 | Los élderes predican, bautizan y edifican la Iglesia | `dyc-42-elderes-predican-bautizan-edifican-iglesia` | 1–10 | — |  |
 | 2 | Los llamados y ordenados deben enseñar el Evangelio | `dyc-42-llamados-ordenados-deben-ensenar-evangelio` | 11–12 | — |  |
 | 3 | Enseñar y profetizar por el poder del Espíritu | `dyc-42-han-ensenar-profetizar-poder-espiritu` | 13–17 | — |  |
-| 4 | Santos no deben matar | `dyc-42-manda-santos-no-matar-ni-robar-ni-mentir-ni-codicia` | 18–29 | — |  |
-| 5 | Las leyes que rigen la consagración de bienes | `dyc-42-indican-leyes-rigen-consagracion-bienes` | 30–39 | — |  |
+| 4 | La ley prohíbe matar, robar, mentir, adulterar y codiciar | `dyc-42-ley-prohibe-matar-robar-mentir-adulterar-codiciar` | 18–29 | — |  |
+| 5 | La consagración regula el uso de los bienes | `dyc-42-consagracion-uso-bienes` | 30–39 | — |  |
 | 6 | El orgullo y la ociosidad | `dyc-42-condenan-orgullo-ociosidad` | 40–42 | — |  |
-| 7 | Los enfermos deben ser sanados por medio de bendiciones del sacerdocio | `dyc-42-enfermos-han-ser-sanados-medio-bendiciones` | 43–52 | — |  |
-| 8 | Las Escrituras rigen a la Iglesia y se deben proclamar al mundo | `dyc-42-escrituras-rigen-iglesia-han-proclamar-m` | 53–60 | — |  |
-| 9 | El sitio de la Nueva Jerusalén y los misterios del reino deben ser revelados | `dyc-42-sitio-nueva-jerusalen-misterios-reino-han` | 61–69 | — |  |
-| 10 | Los bienes consagrados se deben usar para apoyar a los oficiales de la Iglesia | `dyc-42-bienes-consagrados-han-usar-apoyar-ofic` | 70–73 | — |  |
+| 7 | Los enfermos sanan por bendición y fe | `dyc-42-enfermos-sanan-bendicion-fe` | 43–52 | — |  |
+| 8 | Las Escrituras rigen la Iglesia y deben proclamarse | `dyc-42-escrituras-rigen-iglesia-proclamarse` | 53–60 | — |  |
+| 9 | El sitio de la Nueva Jerusalén será revelado | `dyc-42-sitio-nueva-jerusalen-sera-revelado` | 61–69 | — |  |
+| 10 | Los bienes consagrados sostienen a los oficiales | `dyc-42-bienes-consagrados-sostienen-oficiales` | 70–73 | — |  |
 | 11 | Leyes sobre la moralidad y el matrimonio | `dyc-42-leyes-moralidad-matrimonio` | 74–84 | — |  |
 | 12 | Disciplina de la Iglesia y confesión de pecados | `dyc-42-disciplina-iglesia-confesion-pecados` | 85–93 | — |  |
 
@@ -669,11 +669,11 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, en febre
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Las revelaciones y los mandamientos vienen únicamente por medio del que es nombrado | `dyc-43-revelaciones-mandamientos-vienen-unicamente-me` | 1–7 | — |  |
-| 2 | Los santos son santificados al obrar con toda santidad ante el Señor | `dyc-43-santos-son-santificados-obrar-toda-santidad-ante` | 8–14 | — |  |
-| 3 | Élderes son enviados a proclamar el arrepentimiento | `dyc-43-elderes-son-enviados-proclamar-arrepentimiento-prep` | 15–22 | — |  |
-| 4 | El Señor llama a los hombres por Su propia voz | `dyc-43-senor-llama-hombres-propia-voz-medio-d` | 23–28 | — |  |
-| 5 | El Milenio y el atamiento de Satanás | `dyc-43-han-llegar-milenio-momento-satanas-sera-at` | 29–35 | — |  |
+| 1 | Solo el siervo nombrado recibe mandamientos para la Iglesia | `dyc-43-solo-siervo-nombrado-recibe-mandamientos-iglesia` | 1–7 | — |  |
+| 2 | Los santos se santifican al vivir en santidad | `dyc-43-santos-santifican-vivir-santidad` | 8–14 | — |  |
+| 3 | Los élderes llaman al arrepentimiento y preparan para el día del Señor | `dyc-43-elderes-llaman-arrepentimiento-preparan-dia-senor` | 15–22 | — |  |
+| 4 | El Señor habla por su voz y por la naturaleza | `dyc-43-senor-habla-voz-naturaleza` | 23–28 | — |  |
+| 5 | Vendrán el Milenio y el atamiento de Satanás | `dyc-43-vendran-milenio-atamiento-satanas` | 29–35 | — |  |
 
 ---
 
@@ -686,7 +686,7 @@ Revelación dada a José Smith el Profeta y a Sidney Rigdon en Kirtland, Ohio, e
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Los élderes deben reunirse en conferencia | `dyc-44-elderes-deben-reunirse-conferencia` | 1–3 | — |  |
-| 2 | Organizarse de acuerdo con las leyes del país y cuidar de los pobres | `dyc-44-han-organizarse-acuerdo-leyes-pais-cuida` | 4–6 | — |  |
+| 2 | Deben organizarse legalmente y cuidar a los pobres | `dyc-44-organizarse-legalmente-cuidar-pobres` | 4–6 | — |  |
 
 ---
 
@@ -699,15 +699,15 @@ Revelación dada a la Iglesia por medio de José Smith el Profeta en Kirtland, O
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Cristo es nuestro intercesor ante el Padre | `dyc-45-cristo-es-nuestro-intercesor-ante-padre` | 1–5 | — |  |
-| 2 | El Evangelio es un mensajero para preparar el camino delante del Señor | `dyc-45-evangelio-es-mensajero-preparar-camino-delante` | 6–10 | — |  |
+| 2 | El Evangelio prepara el camino del Señor | `dyc-45-evangelio-prepara-camino-senor` | 6–10 | — |  |
 | 3 | Enoc y sus hermanos fueron recibidos por el Señor | `dyc-45-enoc-hermanos-fueron-recibidos-senor` | 11–15 | — |  |
-| 4 | Cristo reveló las señales de Su venida cual se dieron sobre el monte de los Olivos | `dyc-45-cristo-revelo-senales-venida-cual-dieron` | 16–23 | — |  |
-| 5 | Restauración del Evangelio en los últimos días | `dyc-45-restauracion-evangelio-ultimos-dias` | 24–31 | — |  |
-| 6 | Señales de los tiempos de los gentiles | `dyc-45-senales-tiempos-gentiles` | 32–38 | — |  |
-| 7 | Señales, maravillas y la Resurrección acompañarán la Segunda Venida | `dyc-45-senales-maravillas-resurreccion-acompanaran-segunda` | 39–47 | — |  |
-| 8 | Cristo asentará el pie sobre el monte de los Olivos | `dyc-45-cristo-asentara-pie-monte-olivos-ju` | 48–53 | — |  |
+| 4 | Cristo anunció en el monte de los Olivos las señales de su venida | `dyc-45-senales-venida-monte-olivos` | 16–23 | — |  |
+| 5 | El Evangelio será restaurado en los últimos días | `dyc-45-evangelio-restaurado-ultimos-dias` | 24–31 | — |  |
+| 6 | Señales del fin de los tiempos de los gentiles | `dyc-45-fin-tiempos-gentiles` | 32–38 | — |  |
+| 7 | Señales y resurrección marcarán la Segunda Venida | `dyc-45-senales-resurreccion-segunda-venida` | 39–47 | — |  |
+| 8 | Cristo pondrá sus pies sobre el monte de los Olivos | `dyc-45-cristo-pies-monte-olivos` | 48–53 | — |  |
 | 9 | El Señor reinará durante el Milenio | `dyc-45-senor-reinara-durante-milenio` | 54–59 | — |  |
-| 10 | José Smith debe comenzar la traducción del Nuevo Testamento | `dyc-45-manda-profeta-comience-traduccion-nuevo-tes` | 60–62 | — |  |
+| 10 | José debe comenzar la traducción del Nuevo Testamento | `dyc-45-jose-comenzar-traduccion-nuevo-testamento` | 60–62 | — |  |
 | 11 | Los santos deben congregarse en Sion | `dyc-45-santos-congregarse-sion` | 63–69 | — |  |
 | 12 | La Nueva Jerusalén recibirá a las naciones | `dyc-45-nueva-jerusalen-recibira-naciones` | 70–75 | — |  |
 
@@ -721,12 +721,12 @@ Revelación dada a la Iglesia por medio de José Smith el Profeta en Kirtland, O
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los élderes deben dirigir las reuniones conforme los guíe el Santo Espíritu | `dyc-46-elderes-han-dirigir-reuniones-conforme-guie` | 1–2 | — |  |
-| 2 | Quienes buscan la verdad no deben ser excluidos de los servicios sacramentales | `dyc-46-buscan-verdad-no-deben-ser-excluidos-servi` | 3–6 | — |  |
+| 1 | Los élderes dirigen las reuniones por el Espíritu | `dyc-46-elderes-dirigen-reuniones-espiritu` | 1–2 | — |  |
+| 2 | Nadie que busque la verdad debe ser excluido | `dyc-46-nadie-busque-verdad-excluido` | 3–6 | — |  |
 | 3 | Pedid a Dios y buscad los dones del Espíritu | `dyc-46-pedid-dios-buscad-dones-espiritu` | 7–12 | — |  |
 | 4 | Dones de revelación y discernimiento espiritual | `dyc-46-dones-revelacion-discernimiento-espiritual` | 13–19 | — |  |
 | 5 | Dones de sanidades, milagros y testimonio | `dyc-46-dones-sanidades-milagros-testimonio` | 20–26 | — |  |
-| 6 | Poder a los oficiales que dirigen la Iglesia para discernir los dones del Espíritu | `dyc-46-da-poder-oficiales-dirigen-iglesia-disc` | 27–33 | — |  |
+| 6 | Los oficiales deben discernir los dones del Espíritu | `dyc-46-oficiales-discernir-dones-espiritu` | 27–33 | — |  |
 
 ---
 
@@ -738,7 +738,7 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, el 8 de 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Se designa a John Whitmer para que lleve la historia de la Iglesia | `dyc-47-designa-john-whitmer-lleve-historia-i` | 1–4 | — |  |
+| 1 | John Whitmer debe llevar la historia de la Iglesia | `dyc-47-john-whitmer-llevar-historia-iglesia` | 1–4 | — |  |
 
 ---
 
