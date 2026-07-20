@@ -5,69 +5,85 @@
  * Or local if wp is available.
  */
 
-// We will parse docs/juego-del-cinco/plan-pericopas-dyc.md line by line.
+// We will parse docs/juego-del-cinco/plan-pericopas-dyc.md and plan-pericopas-pgp.md line by line.
 // We need to find:
-// 1. "### Sección {num}" to know the current chapter context.
+// 1. "### {Name}" to know the current chapter context.
 // 2. "| {index} | {title} | `{slug}` | {range} | {event} | {notes} |" to parse terms.
 
-$filePath = '/tmp/plan-pericopas-dyc.md';
-if (!file_exists($filePath)) {
-    // Fallback to local workspace structure
-    $filePath = __DIR__ . '/../docs/juego-del-cinco/plan-pericopas-dyc.md';
-}
-if (!file_exists($filePath)) {
-    echo "ERROR: File not found at {$filePath}\n";
-    exit(1);
-}
+$plans = [
+    [
+        'file' => '/tmp/plan-pericopas-dyc.md',
+        'fallback' => __DIR__ . '/../docs/juego-del-cinco/plan-pericopas-dyc.md',
+        'pattern' => '/^###\s+Sección\s+(\d+)/i',
+        'prefix' => 'DyC '
+    ],
+    [
+        'file' => '/tmp/plan-pericopas-pgp.md',
+        'fallback' => __DIR__ . '/../docs/juego-del-cinco/plan-pericopas-pgp.md',
+        'pattern' => '/^###\s+([a-zA-ZáéíóúÁÉÍÓÚ\s—]+?\s+\d+)/u',
+        'prefix' => ''
+    ]
+];
 
-$lines = file($filePath);
-$current_section = null;
 $terms_parsed = [];
 
-foreach ($lines as $line) {
-    if (preg_match('/^###\s+Sección\s+(\d+)/i', $line, $matches)) {
-        $current_section = "DyC " . $matches[1];
+foreach ($plans as $plan) {
+    $filePath = file_exists($plan['file']) ? $plan['file'] : $plan['fallback'];
+    if (!file_exists($filePath)) {
+        echo "ERROR: File not found at {$filePath}\n";
         continue;
     }
 
-    // Match rows like:
-    // | 1 | Voz de amonestación para todo pueblo | `dyc-1-voz-amonestacion-todo-pueblo` | 1–7 | — |  |
-    if ($current_section && preg_match('/^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|\s*`([^`]+)`\s*\|\s*([^|]+?)\s*\|\s*([^|]*?)\s*\|/', $line, $matches)) {
-        $index = intval($matches[1]);
-        $title = trim($matches[2]);
-        $slug = trim($matches[3]);
-        $v_range = trim($matches[4]);
-        $evento = trim($matches[5]);
+    $lines = file($filePath);
+    $current_section = null;
 
-        if ($evento === '—') {
-            $evento = '';
+    foreach ($lines as $line) {
+        if (preg_match($plan['pattern'], $line, $matches)) {
+            $current_section = $plan['prefix'] . trim($matches[1]);
+            // Clean up em-dash variant in chapter names if present in matches
+            $current_section = str_replace(['—', '--'], '—', $current_section); 
+            continue;
         }
 
-        // Clean range representation to find start and end
-        // e.g. "1–7", "50–50", "30"
-        $v_inicio = 0;
-        $v_fin = 0;
-        $clean_range = str_replace(['–', '-'], '-', $v_range); // Standardize dash
-        if (preg_match('/^(\d+)-(\d+)$/', $clean_range, $r_matches)) {
-            $v_inicio = intval($r_matches[1]);
-            $v_fin = intval($r_matches[2]);
-        } elseif (preg_match('/^(\d+)$/', $clean_range, $r_matches)) {
-            $v_inicio = intval($r_matches[1]);
-            $v_fin = intval($r_matches[1]);
-        }
+        // Match rows like:
+        // | 1 | Voz de amonestación para todo pueblo | `dyc-1-voz-amonestacion-todo-pueblo` | 1–7 | — |  |
+        if ($current_section && preg_match('/^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|\s*`([^`]+)`\s*\|\s*([^|]+?)\s*\|\s*([^|]*?)\s*\|/', $line, $matches)) {
+            $index = intval($matches[1]);
+            $title = trim($matches[2]);
+            $slug = trim($matches[3]);
+            $v_range = trim($matches[4]);
+            $evento = trim($matches[5]);
 
-        $terms_parsed[] = [
-            'chapter_name' => $current_section,
-            'title' => $title,
-            'slug' => $slug,
-            'v_inicio' => $v_inicio,
-            'v_fin' => $v_fin,
-            '_evento_canonico' => $evento,
-        ];
+            if ($evento === '—') {
+                $evento = '';
+            }
+
+            // Clean range representation to find start and end
+            // e.g. "1–7", "50–50", "30"
+            $v_inicio = 0;
+            $v_fin = 0;
+            $clean_range = str_replace(['–', '-'], '-', $v_range); // Standardize dash
+            if (preg_match('/^(\d+)-(\d+)$/', $clean_range, $r_matches)) {
+                $v_inicio = intval($r_matches[1]);
+                $v_fin = intval($r_matches[2]);
+            } elseif (preg_match('/^(\d+)$/', $clean_range, $r_matches)) {
+                $v_inicio = intval($r_matches[1]);
+                $v_fin = intval($r_matches[1]);
+            }
+
+            $terms_parsed[] = [
+                'chapter_name' => $current_section,
+                'title' => $title,
+                'slug' => $slug,
+                'v_inicio' => $v_inicio,
+                'v_fin' => $v_fin,
+                '_evento_canonico' => $evento,
+            ];
+        }
     }
 }
 
-echo "Parsed " . count($terms_parsed) . " pericope terms from plan.\n";
+echo "Parsed " . count($terms_parsed) . " pericope terms from plans.\n";
 
 $inserted = 0;
 $skipped = 0;
