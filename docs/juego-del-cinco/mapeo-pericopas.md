@@ -1,6 +1,6 @@
 # Mapeo de Perícopas (bc_pericopa)
 
-> **Estado**: COMPLETADO — Se finalizó la Fase A con el diseño completo del mapa de pericopas de Doctrina y Convenios, la optimización y validación estricta de sus slugs para SEO de manera unívoca, la creación de la taxonomía `bc_pericopa` en código y base de datos con campos REST de metadatos, y el poblamiento exitoso de las 644 perícopas correspondientes. listo para iniciar la Fase B (Construcción del Frontend, Carga Condicional y Visualización).
+> **Estado**: COMPLETADO — Se finalizaron con éxito absoluto las Fases A (Doctrina y Convenios) y B (Perla de Gran Precio), completando el diseño y curaduría minuciosa de sus perícopas unívocas, registrando la nueva taxonomía `bc_pericopa` nativa en código y poblando la base de datos de WordPress con las 760 pericopas iniciales con todos sus metadatos asociados.
 
 ## Definición
 
