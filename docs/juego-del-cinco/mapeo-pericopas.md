@@ -1249,6 +1249,53 @@ Nota de aplicación:
 
 Resultado esperado: mejor mapa narrativo de DyC con estabilidad en la segmentación textual.
 
+### 9) Bloque operativo de seguimiento: correlación recíproca y casos cross-canónicos
+
+Este bloque convierte en seguimiento operativo dos marcos metodológicos ya definidos en este documento:
+
+1. `División guiada por correlación: criterio recíproco`.
+2. `Mapeo de casos cross-canónicos reales`.
+
+Objetivo operativo:
+
+- Verificar que la segmentación actual permita concordancia precisa (referencias que caen en perícopas completas, no en fracciones ambiguas).
+- Confirmar que los metadatos definidos (`_evento_canonico`, `_relacion_paralela`, `_cita_de`) sean suficientes para el tipo de relación esperado.
+
+Estado de cumplimiento (2026-07-20):
+
+| Bloque | Cobertura en perícopas actuales | Evidencia local | Estado | ¿Suficiente para concordancia esperada? | Brecha principal |
+|:-------|:--------------------------------|:----------------|:-------|:-----------------------------------------|:-----------------|
+| DyC 77 ↔ Apocalipsis (criterio recíproco) | DyC segmentado y etiquetado; contraparte Apocalipsis documentada como criterio | `plan-pericopas-dyc.md` (sección 77) + este mapeo | Parcial | Parcial | Falta plan pericopal operativo del lado Apocalipsis en este workspace |
+| DyC 84 / DyC 107 ↔ AT (Gn, Éx, Sal) | DyC segmentado y con evento temático; AT definido como destino de correlación | `plan-pericopas-dyc.md` (secciones 84 y 107) + este mapeo | Parcial | Parcial | Falta verificación pericopal ejecutada en los libros AT referenciados |
+| Mapeo de casos cross-canónicos reales | Tipos y qualifiers definidos (historico, expansion, comentario, tematico, tipo) | sección `Mapeo de casos cross-canónicos reales` | Definido (no ejecutado) | No aún | Falta ejecución en términos reales (`bc_pericopa`) y validación de consultas de concordancia |
+
+Auditoría crítica de división (lectura manual de secciones DyC):
+
+| Sección | División revisada | Cuestionamiento aplicado | Resultado |
+|:--------|:------------------|:-------------------------|:----------|
+| DyC 77 | 1–4 / 5–7 / 8–10 / 11 / 12–14 / 15 | Se verificó si los cortes eran solo por encabezado o por unidad real de pregunta-respuesta y referencia a Apocalipsis | **Se conserva**. Cada bloque mantiene unidad temática y referencia apocalíptica coherente |
+| DyC 84 | tramo 62–76 | Se cuestionó el corte previo 62–68 / 69–76 por romper a mitad la lista de señales (65–73) | **Se ajustó** en el plan a 62–64 / 65–73 / 74–76 para respetar función literaria |
+| DyC 107 | 22–32 / 33–38 y 39–57 | Se evaluó si la transición interna de cuórumes y luego orden patriarcal justificaba corte adicional | **Se conserva**. 22–32 -> estructura/validez; 33–38 -> función viajante; 39–57 -> bloque genealógico-histórico consistente |
+
+Conclusión de suficiencia tras auditoría:
+
+1. Para DyC interno, la división queda metodológicamente consistente tras el ajuste de DyC 84:62–76.
+2. Para concordancia recíproca completa, aún falta ejecución del lado no-DyC (Apocalipsis y bloques AT referenciados).
+3. Por tanto, el bloque sigue en estado `Parcialmente cumplido` a nivel cross-canónico, aunque ya está `Cumplido` en curaduría DyC.
+
+Criterios de aceptación de este bloque:
+
+1. Cada referencia recíproca crítica (DyC 77/84/107) apunta a una perícopa destino completa y estable.
+2. Los casos del mapeo cross-canónico se materializan con metadatos reales (no solo ejemplo documental).
+3. Una consulta por `_evento_canonico` y qualifiers devuelve rutas de concordancia sin ambigüedad de límites.
+4. El resultado puede auditarse con una matriz fuente -> destino -> tipo de relación -> estado.
+
+Veredicto operativo actual:
+
+- El marco metodológico sí se cumple de forma suficiente para la curaduría interna ya aplicada en DyC.
+- Aún no es suficiente para declarar satisfecha la concordancia cross-canónica objetivo de punta a punta.
+- Se considera `Parcialmente cumplido` hasta ejecutar y validar las contrapartes fuera de DyC y su materialización en taxonomía/termmeta.
+
 ## Estado actual
 
 | Aspecto | Estado |

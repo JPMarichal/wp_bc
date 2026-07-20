@@ -328,10 +328,10 @@ Revelación sobre la organización y el gobierno de la Iglesia, dada por medio d
 | 5 | Deberes de los presbíteros | `dyc-20-deberes-presbiteros` | 45–52 | — |  |
 | 6 | Deberes de los maestros y diáconos | `dyc-20-deberes-maestros-diaconos` | 53–60 | — |  |
 | 7 | Conferencias y ordenaciones | `dyc-20-conferencias-ordenaciones` | 61–67 | — |  |
-| 8 | Deberes de los miembros | `dyc-20-deberes-miembros` | 68–70 | — |  |
+| 8 | Vida digna y enseñanza en el hogar | `dyc-20-vida-digna-ensenanza-hogar` | 68–70 | — |  |
 | 9 | Los niños son inocentes hasta la edad de responsabilidad | `dyc-20-ninos-inocentes-responsabilidad` | 71–71 | — |  |
 | 10 | La forma del bautismo por inmersión | `dyc-20-forma-bautismo` | 72–74 | — |  |
-| 11 | Oraciones de la Santa Cena | `dyc-20-oraciones-santa-cena` | 75–84 | — |  |
+| 11 | Santa Cena y registros de la Iglesia | `dyc-20-santa-cena-registros-iglesia` | 75–84 | — |  |
 
 ---
 
@@ -343,9 +343,9 @@ Revelación dada a José Smith el Profeta en Fayette, Nueva York, el 6 de abril 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | José Smith es llamado para ser vidente, traductor, profeta, apóstol y élder | `dyc-21-jose-smith-es-llamado-ser-vidente-traductor-profeta-a` | 1–3 | — |  |
-| 2 | Su palabra dirigirá la causa de Sion | `dyc-21-palabra-dirigira-causa-sion` | 4–8 | — |  |
-| 3 | Los santos creerán en sus palabras al hablar él por la inspiración del Consolador | `dyc-21-santos-creeran-palabras-hablar-inspi` | 9–12 | — |  |
+| 1 | José Smith recibe su llamamiento profético | `dyc-21-jose-smith-llamamiento-profetico` | 1–3 | — |  |
+| 2 | La palabra del Profeta guiará a Sion | `dyc-21-palabra-profeta-guiara-sion` | 4–8 | — |  |
+| 3 | Los santos recibirán sus palabras por el Consolador | `dyc-21-santos-recibiran-palabras-consolador` | 9–12 | — |  |
 
 ---
 
@@ -357,7 +357,7 @@ Revelación dada por medio de José Smith el Profeta en Manchester, Nueva York, 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | El bautismo es un convenio nuevo y sempiterno | `dyc-22-bautismo-es-convenio-nuevo-sempiterno` | 1–1 | — |  |
+| 1 | El bautismo entra en el nuevo convenio | `dyc-22-bautismo-entra-nuevo-convenio` | 1–1 | — |  |
 | 2 | El bautismo autorizado | `dyc-22-requiere-bautismo-autorizado` | 2–4 | — |  |
 
 ---
@@ -370,7 +370,7 @@ Una serie de cinco revelaciones dadas por medio de José Smith el Profeta en Man
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | A estos primeros discípulos a predicar, a exhortar y a fortalecer la Iglesia | `dyc-23-llama-estos-primeros-discipulos-predicar-exhortar` | 1–7 | — |  |
+| 1 | Primeros discípulos llamados a predicar y fortalecer la Iglesia | `dyc-23-primeros-discipulos-llamados-predicar-fortalecer-iglesia` | 1–7 | — |  |
 
 ---
 
@@ -382,9 +382,9 @@ Revelación dada a José Smith el Profeta y a Oliver Cowdery en Harmony, Pensilv
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | José Smith es llamado a traducir, predicar y explicar las Escrituras | `dyc-24-jose-smith-es-llamado-traducir-predicar-explicar-esc` | 1–9 | — |  |
-| 2 | Oliver Cowdery es llamado a predicar el Evangelio | `dyc-24-oliver-cowdery-es-llamado-predicar-evangelio` | 10–12 | — |  |
-| 3 | La ley concerniente a los milagros | `dyc-24-revela-ley-concerniente-milagros-maldicion` | 13–19 | — |  |
+| 1 | José Smith debe traducir, predicar y exponer las Escrituras | `dyc-24-jose-smith-traducir-predicar-exponer-escrituras` | 1–9 | — |  |
+| 2 | Oliver Cowdery sale a predicar el Evangelio | `dyc-24-oliver-cowdery-sale-predicar-evangelio` | 10–12 | — |  |
+| 3 | Milagros, juicios y provisión para los siervos | `dyc-24-milagros-juicios-provision-siervos` | 13–19 | — |  |
 
 ---
 
@@ -396,10 +396,10 @@ Revelación dada por medio de José Smith el Profeta en Harmony, Pensilvania, en
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Emma Smith, dama elegida, es llamada a ayudar y a consolar a su esposo | `dyc-25-emma-smith-dama-elegida-es-llamada-ayudar-consolar-s` | 1–6 | — |  |
-| 2 | Es llamada a servir de escribiente | `dyc-25-tambien-es-llamada-servir-escribiente-explicar-es` | 7–11 | — |  |
-| 3 | La canción de los justos es una oración al Señor | `dyc-25-cancion-justos-es-oracion-senor` | 12–14 | — |  |
-| 4 | Los principios de la obediencia se aplican a todos | `dyc-25-principios-obediencia-mencionan-esta-rev` | 15–16 | — |  |
+| 1 | Emma Smith es llamada a sostener y consolar a José | `dyc-25-emma-smith-sostener-consolar-jose` | 1–6 | — |  |
+| 2 | Emma servirá como escribiente y escogerá himnos | `dyc-25-emma-escribiente-escogera-himnos` | 7–11 | — |  |
+| 3 | La canción de los justos es oración al Señor | `dyc-25-cancion-justos-oracion-senor` | 12–14 | — |  |
+| 4 | La obediencia de esta revelación se aplica a todos | `dyc-25-obediencia-revelacion-aplica-todos` | 15–16 | — |  |
 
 ---
 
@@ -424,8 +424,8 @@ Revelación dada a José Smith el Profeta en Harmony, Pensilvania, en agosto de 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los emblemas que se deben usar al participar del sacramento | `dyc-27-indican-emblemas-han-usar-participar` | 1–4 | `elias-promesa` | evento: elias-promesa |
-| 2 | Cristo y Sus siervos de todas las dispensaciones deben participar de dicho sacramento | `dyc-27-cristo-siervos-todas-dispensaciones-han-part` | 5–14 | `elias-promesa` | evento: elias-promesa |
+| 1 | Qué emblemas usar en el sacramento | `dyc-27-emblemas-sacramento` | 1–4 | `elias-promesa` | evento: elias-promesa |
+| 2 | Cristo compartirá el sacramento con Sus siervos | `dyc-27-cristo-compartira-sacramento-siervos` | 5–14 | `elias-promesa` | evento: elias-promesa |
 | 3 | Tomad sobre vosotros toda la armadura de Dios | `dyc-27-tomad-vosotros-toda-armadura-dios` | 15–18 | `elias-promesa` | evento: elias-promesa |
 
 ---
@@ -542,7 +542,7 @@ Revelación dada a José Smith el Profeta y a Sidney Rigdon en Fayette, Nueva Yo
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | El modo como pueden los hombres llegar a ser los hijos de Dios | `dyc-35-modo-pueden-hombres-llegar-ser-hijos-di` | 1–2 | — |  |
+| 1 | Cómo llegar a ser hijos de Dios | `dyc-35-como-llegar-hijos-dios` | 1–2 | — |  |
 | 2 | Sidney Rigdon es llamado para bautizar y conferir el Espíritu Santo | `dyc-35-sidney-rigdon-es-llamado-bautizar-conferir-espirit` | 3–7 | — |  |
 | 3 | Las señales y los milagros se efectúan por la fe | `dyc-35-senales-milagros-efectuan-fe` | 8–12 | — |  |
 | 4 | Los siervos del Señor trillarán a las naciones por el poder del Espíritu | `dyc-35-siervos-senor-trillaran-naciones-poder` | 13–16 | — |  |
@@ -589,10 +589,10 @@ Revelación dada por medio de José Smith el Profeta en Fayette, Nueva York, el 
 | 2 | Él se halla en medio de Sus santos, que pronto lo verán | `dyc-38-halla-medio-santos-pronto-veran` | 7–8 | — |  |
 | 3 | Toda carne se ha corrompido delante de Él | `dyc-38-toda-carne-ha-corrompido-delante` | 9–12 | — |  |
 | 4 | Él ha reservado una tierra prometida para Sus santos por el tiempo y por la eternidad | `dyc-38-ha-reservado-tierra-prometida-santos` | 13–22 | — |  |
-| 5 | Santos ser uno y deben estimarse unos a otros como hermanos | `dyc-38-manda-santos-ser-uno-estimarse-unos-otros` | 23–27 | — |  |
+| 5 | Sed uno y trataos como hermanos | `dyc-38-sed-uno-trataos-hermanos` | 23–27 | — |  |
 | 6 | Guerras | `dyc-38-predicen-guerras` | 28–29 | — |  |
 | 7 | Se dará a los santos poder de lo alto | `dyc-38-dara-santos-poder-alto-iran-todas-nac` | 30–33 | — |  |
-| 8 | Miembros de la iglesia deben velar por los pobres y por los necesitados | `dyc-38-manda-miembros-iglesia-velar-pobres` | 34–42 | — |  |
+| 8 | Cuidad de los pobres y buscad riquezas eternas | `dyc-38-cuidar-pobres-buscar-riquezas-eternas` | 34–42 | — |  |
 
 ---
 
@@ -606,7 +606,7 @@ Revelación dada por medio de José Smith el Profeta a James Covel en Fayette, N
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Los santos fieles tienen el poder de llegar a ser hijos de Dios | `dyc-39-santos-fieles-tienen-poder-llegar-ser-hijos-d` | 1–4 | — |  |
 | 2 | Recibir el Evangelio es recibir a Cristo | `dyc-39-recibir-evangelio-es-recibir-cristo` | 5–6 | — |  |
-| 3 | James covel bautizarse y debe obrar en la viña del Señor | `dyc-39-manda-james-covel-bautizarse-obrar-vina` | 7–14 | — |  |
+| 3 | James Covel debe bautizarse y trabajar en la viña del Señor | `dyc-39-james-covel-bautizarse-trabajar-vina-senor` | 7–14 | — |  |
 | 4 | Los siervos del Señor deben predicar el Evangelio antes de la Segunda Venida | `dyc-39-siervos-senor-han-predicar-evangelio-antes` | 15–21 | — |  |
 | 5 | Quienes reciban el Evangelio serán recogidos por el tiempo y por la eternidad | `dyc-39-aquellos-reciban-evangelio-seran-recogidos-tie` | 22–24 | — |  |
 
@@ -647,7 +647,7 @@ Revelación dada en dos partes por medio de José Smith el Profeta en Kirtland, 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Los élderes son llamados a predicar el Evangelio | `dyc-42-elderes-son-llamados-predicar-evangelio-bautizar` | 1–10 | — |  |
-| 2 | Deben ser llamados y ordenados y deben enseñar los principios del Evangelio que se encuentran en las Escrituras | `dyc-42-deben-ser-llamados-ordenados-han-ensenar-principi` | 11–12 | — |  |
+| 2 | Los llamados y ordenados deben enseñar el Evangelio | `dyc-42-llamados-ordenados-deben-ensenar-evangelio` | 11–12 | — |  |
 | 3 | Enseñar y profetizar por el poder del Espíritu | `dyc-42-han-ensenar-profetizar-poder-espiritu` | 13–17 | — |  |
 | 4 | Santos no deben matar | `dyc-42-manda-santos-no-matar-ni-robar-ni-mentir-ni-codicia` | 18–29 | — |  |
 | 5 | Las leyes que rigen la consagración de bienes | `dyc-42-indican-leyes-rigen-consagracion-bienes` | 30–39 | — |  |
@@ -1217,11 +1217,11 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, el 1º d
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los santos deben organizarse y establecer un almacén | `dyc-78-santos-deben-organizarse-establecer-almacen` | 1–4 | — |  |
+| 1 | Los santos deben organizarse y levantar un almacén | `dyc-78-santos-organizarse-levantar-almacen` | 1–4 | — |  |
 | 2 | El uso prudente de sus bienes conducirá a los miembros a la salvación | `dyc-78-uso-prudente-bienes-conducira-miembros` | 5–12 | — |  |
 | 3 | La Iglesia debe ser independiente de los poderes terrenales | `dyc-78-iglesia-debe-ser-independiente-poderes-terrenales` | 13–14 | — |  |
-| 4 | Miguel (Adán) sirve bajo la dirección del Muy Santo (Cristo) | `dyc-78-miguel-adan-sirve-bajo-direccion-muy-santo-cristo` | 15–16 | — |  |
-| 5 | Benditos son los fieles, porque ellos heredarán todas las cosas | `dyc-78-benditos-son-fieles-porque-ellos-heredaran-todas-cos` | 17–22 | — |  |
+| 4 | Miguel sirve bajo la dirección de Cristo | `dyc-78-miguel-sirve-bajo-direccion-cristo` | 15–16 | — |  |
+| 5 | Los fieles heredarán todas las cosas | `dyc-78-fieles-heredaran-todas-cosas` | 17–22 | — |  |
 
 ---
 
@@ -1233,7 +1233,7 @@ Revelación dada por medio de José Smith el Profeta en Hiram, Ohio, el 12 de ma
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Jared Carter es llamado a predicar el evangelio por medio del Consolador | `dyc-79-jared-carter-es-llamado-predicar-evangelio-medio` | 1–4 | — |  |
+| 1 | Jared Carter es llamado a predicar por el Consolador | `dyc-79-jared-carter-predicar-consolador` | 1–4 | — |  |
 
 ---
 
@@ -1245,7 +1245,7 @@ Revelación dada por medio de José Smith el Profeta a Stephen Burnett, en Hiram
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Stephen Burnett y Eden Smith son llamados a predicar en cualquier lugar que ellos escojan | `dyc-80-stephen-burnett-eden-smith-son-llamados-predicar-cual` | 1–5 | — |  |
+| 1 | Burnett y Smith son llamados a predicar donde elijan | `dyc-80-burnett-smith-llamados-predicar-donde-elijan` | 1–5 | — |  |
 
 ---
 
@@ -1257,8 +1257,8 @@ Revelación dada por medio de José Smith el Profeta en Hiram, Ohio, el 15 de ma
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | La Primera Presidencia siempre posee las llaves del reino | `dyc-81-primera-presidencia-siempre-posee-llaves-reino` | 1–2 | — |  |
-| 2 | Si Frederick G. Williams es fiel en su ministerio, logrará la vida eterna | `dyc-81-si-frederick-g-williams-es-fiel-ministerio-lograra` | 3–7 | — |  |
+| 1 | La Primera Presidencia conserva las llaves del reino | `dyc-81-primera-presidencia-conserva-llaves-reino` | 1–2 | — |  |
+| 2 | Frederick G. Williams alcanzará vida eterna si es fiel | `dyc-81-frederick-g-williams-vida-eterna-si-es-fiel` | 3–7 | — |  |
 
 ---
 
@@ -1270,11 +1270,11 @@ Revelación dada a José Smith el Profeta en Independence, condado de Jackson, M
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Donde mucho se da, mucho se requiere | `dyc-82-donde-mucho-da-mucho-requiere` | 1–4 | — |  |
+| 1 | A quien mucho recibe, mucho se le exige | `dyc-82-mucho-recibe-mucho-se-exige` | 1–4 | — |  |
 | 2 | Las tinieblas reinan en el mundo | `dyc-82-tinieblas-reinan-mundo` | 5–7 | — |  |
 | 3 | El Señor está obligado cuando hacemos lo que Él dice | `dyc-82-senor-esta-obligado-cuando-hacemos-dice` | 8–13 | — |  |
-| 4 | Sion debe aumentar en belleza y santidad | `dyc-82-sion-debe-aumentar-belleza-santidad` | 14–18 | — |  |
-| 5 | Todo hombre debe procurar el bienestar de su prójimo | `dyc-82-todo-hombre-debe-procurar-bienestar-projimo` | 19–24 | — |  |
+| 4 | Sion crecerá en belleza y santidad | `dyc-82-sion-crecera-belleza-santidad` | 14–18 | — |  |
+| 5 | Buscar el bien del prójimo | `dyc-82-buscar-bien-projimo` | 19–24 | — |  |
 
 ---
 
@@ -1286,8 +1286,8 @@ Revelación dada por medio de José Smith el Profeta en Independence, Misuri, el
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Las mujeres y los niños tienen el derecho de recibir sostén de sus esposos y padres respectivamente | `dyc-83-mujeres-ninos-tienen-derecho-recibir-sosten` | 1–4 | — |  |
-| 2 | Las viudas y los huérfanos tienen el derecho de recurrir a la Iglesia para su sostén | `dyc-83-viudas-huerfanos-tienen-derecho-recurrir-l` | 5–6 | — |  |
+| 1 | Esposas e hijos tienen derecho a sostén | `dyc-83-esposas-hijos-derecho-sosten` | 1–4 | — |  |
+| 2 | La Iglesia debe sostener a viudas y huérfanos | `dyc-83-iglesia-debe-sostener-viudas-huerfanos` | 5–6 | — |  |
 
 ---
 
@@ -1305,15 +1305,16 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, los día
 | 4 | El sacerdocio menor prepara el camino | `dyc-84-sacerdocio-menor-prepara` | 26–32 | `sacerdocio` |  |
 | 5 | El juramento y convenio del sacerdocio | `dyc-84-juramento-convenio-sacerdocio` | 33–44 | `sacerdocio` |  |
 | 6 | El Espíritu de Cristo ilumina a todo hombre | `dyc-84-espiritu-cristo-ilumina` | 45–53 | `sacerdocio` |  |
-| 7 | Los santos deben testificar de la verdad recibida | `dyc-84-santos-testificar` | 54–61 | `sacerdocio` |  |
-| 8 | Predicad el arrepentimiento y bautizad con autoridad | `dyc-84-predicad-arrepentimiento-bautizad-autoridad` | 62–68 | `sacerdocio` |  |
-| 9 | Las señales acompañarán a quienes crean | `dyc-84-senales-acompanaran-quienes-crean` | 69–76 | `sacerdocio` |  |
-| 10 | Salid sin bolsa ni alforja confiando en el Señor | `dyc-84-salid-sin-bolsa-confiando-senor` | 77–84 | `sacerdocio` |  |
-| 11 | Promesas de sustento y protección para los misioneros | `dyc-84-promesas-sustento-proteccion-misioneros` | 85–91 | `sacerdocio` |  |
-| 12 | Plagas para quienes rechacen el Evangelio | `dyc-84-plagas-rechazan-evangelio` | 92–97 | `sacerdocio` |  |
-| 13 | El nuevo cántico de Sion | `dyc-84-cantico-sion` | 98–102 | `sacerdocio` |  |
-| 14 | Cada cual en su propio oficio | `dyc-84-cada-cual-oficio` | 103–110 | `sacerdocio` |  |
-| 15 | Proclamad la abominación desoladora | `dyc-84-abominacion-desoladora` | 111–120 | `sacerdocio` |  |
+| 7 | Los santos deben dar testimonio de lo recibido | `dyc-84-santos-dar-testimonio-recibido` | 54–61 | `sacerdocio` |  |
+| 8 | Predicad el arrepentimiento y bautizad con autoridad | `dyc-84-predicad-arrepentimiento-bautizad-autoridad` | 62–64 | `sacerdocio` |  |
+| 9 | Las señales acompañarán a quienes crean y no deben usarse para jactancia | `dyc-84-senales-acompanaran-quienes-crean-no-deben-usarse-jactancia` | 65–73 | `sacerdocio` |  |
+| 10 | Quienes rechacen el testimonio serán condenados | `dyc-84-quienes-rechacen-testimonio-seran-condenados` | 74–76 | `sacerdocio` |  |
+| 11 | Salid sin bolsa ni alforja y confiad en el Señor | `dyc-84-salid-sin-bolsa-alforja-confiad-senor` | 77–84 | `sacerdocio` |  |
+| 12 | Promesas de sustento y protección para los misioneros | `dyc-84-promesas-sustento-proteccion-misioneros` | 85–91 | `sacerdocio` |  |
+| 13 | Plagas para quienes rechacen el Evangelio | `dyc-84-plagas-rechazan-evangelio` | 92–97 | `sacerdocio` |  |
+| 14 | El nuevo cántico de Sion | `dyc-84-cantico-sion` | 98–102 | `sacerdocio` |  |
+| 15 | Cada cual en su propio oficio | `dyc-84-cada-cual-oficio` | 103–110 | `sacerdocio` |  |
+| 16 | Proclamad la abominación desoladora | `dyc-84-abominacion-desoladora` | 111–120 | `sacerdocio` |  |
 
 ---
 
@@ -1326,7 +1327,7 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, el 27 de
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | En Sion, las heredades deben recibirse por medio de la consagración | `dyc-85-sion-heredades-han-recibirse-medio-consa` | 1–5 | — |  |
-| 2 | Uno poderoso y fuerte dará a los santos sus heredades respectivas en Sion | `dyc-85-uno-poderoso-fuerte-dara-santos-heredades-respec` | 6–12 | — |  |
+| 2 | Uno poderoso y fuerte repartirá las heredades en Sion | `dyc-85-uno-poderoso-fuerte-repartira-heredades-sion` | 6–12 | — |  |
 
 ---
 
@@ -1338,8 +1339,8 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, el 6 de 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | El Señor explica el significado de la parábola del trigo y la cizaña | `dyc-86-senor-explica-significado-parabola-trigo-l` | 1–7 | — |  |
-| 2 | Explica las bendiciones del sacerdocio para aquellos que son herederos legítimos según la carne | `dyc-86-tambien-explica-bendiciones-sacerdocio-aquellos` | 8–11 | — |  |
+| 1 | El Señor aclara la parábola del trigo y la cizaña | `dyc-86-senor-aclara-parabola-trigo-cizana` | 1–7 | — |  |
+| 2 | El sacerdocio bendice a los herederos legítimos | `dyc-86-sacerdocio-bendice-herederos-legitimos` | 8–11 | — |  |
 
 ---
 
@@ -1352,7 +1353,7 @@ Revelación y profecía sobre la guerra, dada por medio de José Smith el Profet
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | La guerra entre los estados del norte y los estados del sur | `dyc-87-predice-guerra-estados-norte-estad` | 1–4 | — |  |
-| 2 | Grandes calamidades descenderán sobre todos los habitantes de la tierra | `dyc-87-grandes-calamidades-descenderan-todos-habitantes-d` | 5–8 | — |  |
+| 2 | Grandes calamidades vendrán sobre la tierra | `dyc-87-grandes-calamidades-vendran-tierra` | 5–8 | — |  |
 
 ---
 
@@ -1409,12 +1410,12 @@ Revelación dada a José Smith el Profeta en Kirtland, Ohio, el 8 de marzo de 18
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Las llaves del reino se han entregado a José Smith y a la Iglesia | `dyc-90-llaves-reino-han-entregado-jose-smith-med` | 1–5 | — |  |
-| 2 | Sidney Rigdon y Frederick G. Williams deben servir en la Primera Presidencia | `dyc-90-sidney-rigdon-frederick-g-williams-han-servir-pri` | 6–7 | — |  |
-| 3 | El Evangelio debe predicarse a las naciones de Israel | `dyc-90-evangelio-debe-predicarse-naciones-israel` | 8–11 | — |  |
+| 1 | Las llaves del reino pasan a José Smith y a la Iglesia | `dyc-90-llaves-reino-pasan-jose-smith-iglesia` | 1–5 | — |  |
+| 2 | Sidney Rigdon y Frederick G. Williams sirven en la Primera Presidencia | `dyc-90-sidney-rigdon-frederick-g-williams-primera-presidencia` | 6–7 | — |  |
+| 3 | El Evangelio se predicará a Israel, a los gentiles y a los judíos | `dyc-90-evangelio-predicara-israel-gentiles-judios` | 8–11 | — |  |
 | 4 | José Smith y sus consejeros deben poner en orden los asuntos de la Iglesia | `dyc-90-jose-smith-consejeros-deben-poner-orden-asuntos` | 12–18 | — |  |
-| 5 | Exhortación a la fidelidad de los líderes de la Iglesia | `dyc-90-exhortacion-fidelidad-lideres-iglesia` | 19–26 | — |  |
-| 6 | Amonestaciones personales a los hermanos llamados | `dyc-90-amonestaciones-personales-hermanos-llamados` | 27–37 | — |  |
+| 5 | Fidelidad exigida a los líderes de la Iglesia | `dyc-90-fidelidad-exigida-lideres-iglesia` | 19–26 | — |  |
+| 6 | Amonestaciones a los hermanos llamados | `dyc-90-amonestaciones-hermanos-llamados` | 27–37 | — |  |
 
 ---
 
@@ -1426,7 +1427,7 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, el 9 de 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los libros apócrifos, en su mayoría, se han traducido correctamente | `dyc-91-libros-apocrifos-mayoria-han-traducido-correcta` | 1–3 | — |  |
+| 1 | Los apócrifos mezclan verdad con añadidos humanos | `dyc-91-apocrifos-mezclan-verdad-anadidos-humanos` | 1–3 | — |  |
 | 2 | Beneficiarán a los que sean iluminados por el Espíritu | `dyc-91-beneficiaran-sean-iluminados-espiritu` | 4–6 | — |  |
 
 ---
@@ -1439,7 +1440,7 @@ Revelación dada a José Smith el Profeta en Kirtland, Ohio, el 15 de marzo de 1
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Un mandamiento concerniente a la admisión en la orden unida | `dyc-92-mandamiento-concerniente-admision-orden-unida` | 1–2 | — |  |
+| 1 | Frederick G. Williams entra en la orden unida | `dyc-92-frederick-g-williams-entra-orden-unida` | 1–2 | — |  |
 
 ---
 
@@ -1492,9 +1493,9 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, el 1º d
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Se reprende a los santos por no haber construido la casa del Señor | `dyc-95-reprende-santos-no-haber-construido-casa` | 1–6 | — |  |
-| 2 | El Señor desea usar Su casa para investir a los de Su pueblo con poder de lo alto | `dyc-95-senor-desea-usar-casa-investir-pueblo` | 7–10 | — |  |
-| 3 | La casa se ha de dedicar como sitio de adoración | `dyc-95-casa-ha-dedicar-sitio-adoracion` | 11–17 | — |  |
+| 1 | Los santos son reprendidos por no edificar la casa del Señor | `dyc-95-santos-reprendidos-no-edificar-casa-senor` | 1–6 | — |  |
+| 2 | El Señor investirá a Su pueblo en Su casa | `dyc-95-senor-investira-pueblo-casa` | 7–10 | — |  |
+| 3 | La casa será lugar de adoración y escuela de los Apóstoles | `dyc-95-casa-lugar-adoracion-escuela-apostoles` | 11–17 | — |  |
 
 ---
 
@@ -1507,8 +1508,8 @@ Revelación dada a José Smith el Profeta el 4 de junio de 1833. La ocasión fue
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | La Estaca de Sion de Kirtland debe fortalecerse | `dyc-96-estaca-sion-kirtland-debe-fortalecerse` | 1–1 | — |  |
-| 2 | El obispo es el que ha de dividir las heredades de los santos | `dyc-96-obispo-es-ha-dividir-heredades-santo` | 2–5 | — |  |
-| 3 | John Johnson ha de ser miembro de la orden unida | `dyc-96-john-johnson-ha-ser-miembro-orden-unida` | 6–9 | — |  |
+| 2 | El obispo dividirá las heredades de los santos | `dyc-96-obispo-dividira-heredades-santos` | 2–5 | — |  |
+| 3 | John Johnson entra en la orden unida | `dyc-96-john-johnson-entra-orden-unida` | 6–9 | — |  |
 
 ---
 
@@ -1520,7 +1521,7 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, el 2 de 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Muchos de los santos radicados en Sion (condado de Jackson, Misuri) son bendecidos por su fidelidad | `dyc-97-muchos-santos-radicados-sion-condado-jackson-mi` | 1–2 | — |  |
+| 1 | Muchos santos de Sion son bendecidos por su fidelidad | `dyc-97-muchos-santos-sion-bendecidos-fidelidad` | 1–2 | — |  |
 | 2 | Se encomia a Parley P. Pratt por sus tareas en la escuela de Sion | `dyc-97-encomia-parley-p-pratt-tareas-escuela` | 3–5 | — |  |
 | 3 | Quienes cumplen sus convenios son aceptados por el Señor | `dyc-97-aquellos-cumplen-convenios-son-aceptados-seno` | 6–9 | — |  |
 | 4 | De construir en Sion una casa en donde los puros de corazón verán a Dios | `dyc-97-ha-construir-sion-casa-donde-puros-co` | 10–17 | — |  |
@@ -1606,10 +1607,10 @@ Acta de la organización del primer sumo consejo de la Iglesia en Kirtland, Ohio
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Un sumo consejo para allanar las dificultades serias que surjan en la Iglesia | `dyc-102-nombra-sumo-consejo-allanar-dificultades-seri` | 1–8 | — |  |
-| 2 | La manera de proceder para examinar los casos | `dyc-102-explica-manera-proceder-examinar-casos` | 9–18 | — |  |
+| 1 | Se organiza un sumo consejo para casos graves | `dyc-102-organiza-sumo-consejo-casos-graves` | 1–8 | — |  |
+| 2 | Cómo deben examinarse los casos | `dyc-102-como-deben-examinarse-casos` | 9–18 | — |  |
 | 3 | El presidente del consejo dará el fallo | `dyc-102-presidente-consejo-dara-fallo` | 19–23 | — |  |
-| 4 | La manera de apelar | `dyc-102-explica-manera-apelar` | 24–34 | — |  |
+| 4 | Cómo apelar una decisión | `dyc-102-como-apelar-decision` | 24–34 | — |  |
 
 ---
 
@@ -1621,14 +1622,14 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, el 24 de
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | La razón por la que el Señor permitió que los santos del condado de Jackson fueran perseguidos | `dyc-103-razon-senor-permitio-santos` | 1–4 | — |  |
+| 1 | Por qué el Señor permitió la persecución en Jackson | `dyc-103-por-que-senor-permitio-persecucion-jackson` | 1–4 | — |  |
 | 2 | Los santos prevalecerán si guardan los mandamientos | `dyc-103-santos-prevaleceran-si-guardan-mandamientos` | 5–10 | — |  |
-| 3 | La redención de Sion vendrá por poder, y el Señor irá al frente de Su pueblo | `dyc-103-redencion-sion-vendra-poder-senor-ira-fren` | 11–20 | — |  |
-| 4 | Los santos deben congregarse en Sion y los que den su vida la hallarán de nuevo | `dyc-103-santos-deben-congregarse-sion-den-vida-l` | 21–28 | — |  |
-| 5 | Sidney Rigdon debe preparar a las iglesias del este para la redención de Sion | `dyc-103-sidney-rigdon-debe-preparar-iglesias-este-redencion-sion` | 29–29 | — |  |
-| 6 | Parley P. Pratt y Lyman Wight deben reunir la fuerza para subir a Sion | `dyc-103-parley-pratt-lyman-wight-deben-reunir-fuerza-subir-sion` | 30–34 | — |  |
-| 7 | José Smith puede presidir en Sion y la victoria viene por fidelidad | `dyc-103-jose-smith-puede-presidir-sion-victoria-viene-fidelidad` | 35–36 | — |  |
-| 8 | Compañeros de misión son asignados para cumplir los mandamientos | `dyc-103-companeros-mision-son-asignados-cumplir-mandamientos` | 37–40 | — |  |
+| 3 | La redención de Sion vendrá con poder | `dyc-103-redencion-sion-vendra-con-poder` | 11–20 | — |  |
+| 4 | Reunirse en Sion vale más que preservar la vida | `dyc-103-reunirse-sion-vale-mas-preservar-vida` | 21–28 | — |  |
+| 5 | Sidney Rigdon preparará a las iglesias del este | `dyc-103-sidney-rigdon-preparara-iglesias-este` | 29–29 | — |  |
+| 6 | Pratt y Wight reunirán hombres para subir a Sion | `dyc-103-pratt-wight-reuniran-hombres-subir-sion` | 30–34 | — |  |
+| 7 | José Smith presidirá en Sion si el pueblo es fiel | `dyc-103-jose-smith-presidira-sion-si-pueblo-es-fiel` | 35–36 | — |  |
+| 8 | Se asignan compañeros para cumplir el mandamiento | `dyc-103-asignan-companeros-cumplir-mandamiento` | 37–40 | — |  |
 
 ---
 
@@ -1640,16 +1641,16 @@ Revelación dada a José Smith el Profeta, en Kirtland, Ohio, o cerca de allí, 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los santos serán maldecidos por sus transgresiones en contra de la orden unida | `dyc-104-santos-seran-maldecidos-transgresiones-contra` | 1–10 | — |  |
-| 2 | El Señor abastece a Sus santos según Su propia manera | `dyc-104-senor-abastece-santos-segun-propia-manera` | 11–16 | — |  |
+| 1 | La orden unida no tolera la transgresión | `dyc-104-orden-unida-no-tolera-transgresion` | 1–10 | — |  |
+| 2 | El Señor provee a Sus santos a Su manera | `dyc-104-senor-provee-santos-su-manera` | 11–16 | — |  |
 | 3 | La ley del Evangelio rige el cuidado de los pobres | `dyc-104-ley-evangelio-rige-cuidado-pobres` | 17–18 | — |  |
 | 4 | Mayordomías asignadas para administrar bienes de la Iglesia | `dyc-104-mayordomias-asignadas-administrar-bienes` | 19–30 | — |  |
 | 5 | Bendiciones prometidas a los mayordomos fieles | `dyc-104-bendiciones-mayordomos-fieles` | 31–39 | — |  |
 | 6 | Responsabilidad y rendición de cuentas de los mayordomos | `dyc-104-responsabilidad-rendicion-cuentas-mayordomos` | 40–46 | — |  |
-| 7 | La orden unida de Kirtland y la de Sion deben funcionar separadamente | `dyc-104-orden-unida-kirtland-sion-deben-funcionar-sepa` | 47–53 | — |  |
-| 8 | La tesorería sagrada del Señor para la impresión de las Escrituras | `dyc-104-establece-tesoreria-sagrada-senor-impresio` | 54–66 | — | 13 v. — se mantiene por unidad temática |
-| 9 | La tesorería general de la orden unida debe funcionar sobre la base del común acuerdo | `dyc-104-tesoreria-general-orden-unida-debe-funcionar` | 67–77 | — |  |
-| 10 | Los miembros de la orden unida deben pagar todas sus deudas | `dyc-104-miembros-orden-unida-deben-pagar-todas-deudas` | 78–86 | — |  |
+| 7 | Kirtland y Sion administrarán por separado la orden unida | `dyc-104-kirtland-sion-administraran-separado-orden-unida` | 47–53 | — |  |
+| 8 | La tesorería sagrada sostendrá la impresión de las Escrituras | `dyc-104-tesoreria-sagrada-sostendra-impresion-escrituras` | 54–66 | — | 13 v. — se mantiene por unidad temática |
+| 9 | La tesorería general funcionará por común acuerdo | `dyc-104-tesoreria-general-funcionara-comun-acuerdo` | 67–77 | — |  |
+| 10 | La orden unida debe saldar sus deudas | `dyc-104-orden-unida-debe-saldar-deudas` | 78–86 | — |  |
 
 ---
 
@@ -1664,10 +1665,10 @@ Revelación dada por medio de José Smith el Profeta alrededor de 6,5 kilómetro
 | 1 | Sion se edificará de acuerdo con la ley celestial | `dyc-105-sion-edificara-acuerdo-ley-celestial` | 1–5 | — |  |
 | 2 | La redención de Sion se posterga un corto tiempo | `dyc-105-redencion-sion-posterga-corto-tiempo` | 6–13 | — |  |
 | 3 | El Señor peleará las batallas de Sion | `dyc-105-senor-peleara-batallas-sion` | 14–19 | — |  |
-| 4 | Al congregarse, los santos deben ser prudentes | `dyc-105-congregarse-santos-deben-ser-prudentes-no-deben-jac` | 20–26 | — |  |
-| 5 | Deben comprarse terrenos en el condado de Jackson y en los contiguos | `dyc-105-deben-comprarse-terrenos-condado-jackson-c` | 27–30 | — |  |
-| 6 | Los élderes deben recibir una investidura en la casa del Señor que se encuentra en Kirtland | `dyc-105-elderes-han-recibir-investidura-casa` | 31–34 | — |  |
-| 7 | Los santos que sean llamados y también escogidos serán santificados | `dyc-105-santos-sean-llamados-tambien-escogidos-seran-santi` | 35–37 | — |  |
+| 4 | Al congregarse, los santos deben actuar con prudencia | `dyc-105-santos-deben-actuar-prudencia-congregarse` | 20–26 | — |  |
+| 5 | Se comprarán tierras en Jackson y los condados vecinos | `dyc-105-compraran-tierras-jackson-condados-vecinos` | 27–30 | — |  |
+| 6 | Los élderes recibirán investidura en la casa del Señor en Kirtland | `dyc-105-elderes-recibiran-investidura-casa-senor-kirtland` | 31–34 | — |  |
+| 7 | Los llamados y escogidos serán santificados | `dyc-105-llamados-escogidos-seran-santificados` | 35–37 | — |  |
 | 8 | Los santos izarán un estandarte de paz al mundo | `dyc-105-santos-izaran-estandarte-paz-mundo` | 38–41 | — |  |
 
 ---
@@ -1694,19 +1695,19 @@ Revelación sobre el sacerdocio, dada por medio de José Smith el Profeta en Kir
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Hay dos sacerdocios: el de Melquisedec y el Aarónico | `dyc-107-hay-dos-sacerdocios-melquisedec-aaronico` | 1–6 | `orden-patriarcal` | evento: orden-patriarcal |
-| 2 | Quienes poseen el Sacerdocio de Melquisedec tienen poder para oficiar en todos los oficios de la Iglesia | `dyc-107-poseen-sacerdocio-melquisedec-tienen-poder-par` | 7–12 | `orden-patriarcal` | evento: orden-patriarcal |
-| 3 | El obispado preside el Sacerdocio Aarónico | `dyc-107-obispado-preside-sacerdocio-aaronico-cual-administr` | 13–17 | `orden-patriarcal` | evento: orden-patriarcal |
+| 1 | La Iglesia tiene dos sacerdocios | `dyc-107-iglesia-tiene-dos-sacerdocios` | 1–6 | `orden-patriarcal` | evento: orden-patriarcal |
+| 2 | El Sacerdocio de Melquisedec oficia en toda la Iglesia | `dyc-107-sacerdocio-melquisedec-oficia-toda-iglesia` | 7–12 | `orden-patriarcal` | evento: orden-patriarcal |
+| 3 | El obispado preside el Sacerdocio Aarónico y sus ordenanzas | `dyc-107-obispado-preside-sacerdocio-aaronico-ordenanzas` | 13–17 | `orden-patriarcal` | evento: orden-patriarcal |
 | 4 | El Sacerdocio de Melquisedec posee las llaves de todas las bendiciones espirituales | `dyc-107-sacerdocio-melquisedec-posee-llaves-todas-b` | 18–20 | `orden-patriarcal` | evento: orden-patriarcal |
 | 5 | El Sacerdocio Aarónico posee las llaves del ministerio de ángeles | `dyc-107-sacerdocio-aaronico-posee-llaves-ministerio` | 21–21 | `orden-patriarcal` | evento: orden-patriarcal |
 | 6 | Composición, autoridad y decisiones de los cuórumes presidentes | `dyc-107-composicion-autoridad-decisiones-cuorumes-presidentes` | 22–32 | `orden-patriarcal` | evento: orden-patriarcal |
 | 7 | Funciones del sumo consejo viajante, los Doce y los Setenta | `dyc-107-funciones-sumo-consejo-viajante-doce-setenta` | 33–38 | `orden-patriarcal` | evento: orden-patriarcal |
 | 8 | La línea patriarcal desde Adán hasta Jared | `dyc-107-linea-patriarcal-adan-jared` | 39–43 | `orden-patriarcal` | evento: orden-patriarcal |
 | 9 | Enoc, Matusalén y Noé en el orden patriarcal | `dyc-107-enoc-matusalen-noe-orden-patriarcal` | 44–52 | `orden-patriarcal` | evento: orden-patriarcal |
-| 10 | Los santos de la antigüedad se reunieron en Adán-ondi-Ahmán | `dyc-107-santos-antiguedad-reunieron-adan-ondi-ahman` | 53–57 | `orden-patriarcal` | evento: orden-patriarcal |
-| 11 | Los Doce deben organizar a los oficiales de la Iglesia | `dyc-107-doce-deben-organizar-oficiales-iglesia` | 58–67 | `orden-patriarcal` | evento: orden-patriarcal |
-| 12 | Los obispos son jueces comunes en Israel | `dyc-107-obispos-son-jueces-comunes-israel` | 68–76 | `orden-patriarcal` | evento: orden-patriarcal |
-| 13 | La Primera Presidencia y los Doce constituyen los consejos más altos de la Iglesia | `dyc-107-primera-presidencia-doce-constituyen-consejos-m` | 77–84 | `orden-patriarcal` | evento: orden-patriarcal |
+| 10 | Adán bendice a su posteridad en Adán-ondi-Ahmán | `dyc-107-adan-bendice-posteridad-adan-ondi-ahman` | 53–57 | `orden-patriarcal` | evento: orden-patriarcal |
+| 11 | Los Doce organizan a los oficiales de la Iglesia | `dyc-107-doce-organizan-oficiales-iglesia` | 58–67 | `orden-patriarcal` | evento: orden-patriarcal |
+| 12 | Los obispos actúan como jueces comunes en Israel | `dyc-107-obispos-actuan-jueces-comunes-israel` | 68–76 | `orden-patriarcal` | evento: orden-patriarcal |
+| 13 | La Primera Presidencia y los Doce forman los consejos más altos | `dyc-107-primera-presidencia-doce-forman-consejos-mas-altos` | 77–84 | `orden-patriarcal` | evento: orden-patriarcal |
 | 14 | Presidencias del sacerdocio y orden de gobierno | `dyc-107-presidencias-sacerdocio-orden-gobierno` | 85–92 | `orden-patriarcal` | evento: orden-patriarcal |
 | 15 | Deberes de los presidentes de cuórum | `dyc-107-deberes-presidentes-cuorum` | 93–100 | `orden-patriarcal` | evento: orden-patriarcal |
 
@@ -1721,7 +1722,7 @@ Revelación dada por medio de José Smith el Profeta en Kirtland, Ohio, el 26 de
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | A Lyman Sherman se le perdonan sus pecados | `dyc-108-lyman-sherman-perdonan-pecados` | 1–3 | — |  |
-| 2 | Ha de ser contado entre los principales élderes de la Iglesia | `dyc-108-ha-ser-contado-principales-elderes-iglesi` | 4–5 | — |  |
+| 2 | Será contado entre los principales élderes de la Iglesia | `dyc-108-sera-contado-principales-elderes-iglesia` | 4–5 | — |  |
 | 3 | Es llamado a predicar el Evangelio y a fortalecer a sus hermanos | `dyc-108-es-llamado-predicar-evangelio-fortalecer-herm` | 6–8 | — |  |
 
 ---
@@ -1838,7 +1839,7 @@ Extracto de la historia de José Smith que contiene una revelación dada a José
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | (texto completo) | `dyc-116-texto-completo` | 1–1 | — | Sin encabezado oficial de perícopas |
+| 1 | Spring Hill recibe el nombre de Adán-ondi-Ahmán | `dyc-116-spring-hill-recibe-nombre-adan-ondi-ahman` | 1–1 | — | Sin encabezado oficial de perícopas |
 
 ---
 
@@ -1864,7 +1865,7 @@ Revelación dada por medio de José Smith el Profeta en Far West, Misuri, el 8 d
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | El Señor abastecerá a las familias de los Doce | `dyc-118-senor-abastecera-familias-doce` | 1–3 | — |  |
-| 2 | Las vacantes que había en el Cuórum de los Doce | `dyc-118-llenan-vacantes-habia-cuorum-doce` | 4–6 | — |  |
+| 2 | Se cubren las vacantes del Cuórum de los Doce | `dyc-118-cubren-vacantes-cuorum-doce` | 4–6 | — |  |
 
 ---
 
@@ -1889,7 +1890,7 @@ Revelación dada por medio de José Smith el Profeta en Far West, Misuri, el 8 d
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | (texto completo) | `dyc-120-texto-completo` | 1–1 | — | Sin encabezado oficial de perícopas |
+| 1 | El diezmo será administrado por un consejo de la Iglesia | `dyc-120-diezmo-sera-administrado-consejo-iglesia` | 1–1 | — | Sin encabezado oficial de perícopas |
 
 ---
 
@@ -2016,7 +2017,7 @@ Epístola de José Smith el Profeta a La Iglesia de Jesucristo de los Santos de 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | Los registradores locales | `dyc-128-registradores-locales-generales-deben-dar-fe-ba` | 1–5 | `bautismo-por-los-muertos` | evento: bautismo-por-los-muertos |
+| 1 | Los registradores darán fe de los bautismos por los muertos | `dyc-128-registradores-daran-fe-bautismos-muertos` | 1–5 | `bautismo-por-los-muertos` | evento: bautismo-por-los-muertos |
 | 2 | Sus registros tendrán validez y se llevan tanto en la tierra como en los cielos | `dyc-128-registros-tendran-validez-llevan-tanto-tierra` | 6–9 | `bautismo-por-los-muertos` | evento: bautismo-por-los-muertos |
 | 3 | La pila bautismal es una semejanza del sepulcro | `dyc-128-pila-bautismal-es-semejanza-sepulcro` | 10–14 | `bautismo-por-los-muertos` | evento: bautismo-por-los-muertos |
 | 4 | Elías el Profeta restauró el poder referente al bautismo por los muertos | `dyc-128-elias-profeta-restauro-poder-referente-bautismo` | 15–17 | `bautismo-por-los-muertos` | evento: bautismo-por-los-muertos |
@@ -2034,7 +2035,7 @@ Instrucciones dadas por José Smith el Profeta en Nauvoo, Illinois, el 9 de febr
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | En el cielo hay seres resucitados y seres espirituales | `dyc-129-cielo-hay-seres-resucitados-seres-espirituales` | 1–3 | — |  |
-| 2 | Las claves mediante las cuales se puede reconocer a los mensajeros procedentes de allende el velo | `dyc-129-dan-claves-mediante-cuales-puede-reconocer-l` | 4–9 | — |  |
+| 2 | Claves para reconocer a los mensajeros de allende el velo | `dyc-129-claves-reconocer-mensajeros-allende-velo` | 4–9 | — |  |
 
 ---
 
@@ -2049,7 +2050,7 @@ Puntos de instrucción dados por José Smith el Profeta en Ramus, Illinois, el 2
 | 1 | El Padre y el Hijo pueden aparecerse personalmente a los hombres | `dyc-130-padre-hijo-pueden-aparecerse-personalmente-hom` | 1–3 | — |  |
 | 2 | Los ángeles moran en una esfera celestial | `dyc-130-angeles-moran-esfera-celestial` | 4–7 | — |  |
 | 3 | La tierra celestial será un gran Urim y Tumim | `dyc-130-tierra-celestial-sera-gran-urim-tumim` | 8–9 | — |  |
-| 4 | Una piedrecita blanca a todos los que entran en el mundo celestial | `dyc-130-da-piedrecita-blanca-todos-entran-mun` | 10–11 | — |  |
+| 4 | La piedrecita blanca del mundo celestial | `dyc-130-piedrecita-blanca-mundo-celestial` | 10–11 | — |  |
 | 5 | No se le comunica al Profeta la hora de la Segunda Venida | `dyc-130-no-comunica-profeta-hora-segunda-venida` | 12–17 | — |  |
 | 6 | La inteligencia que logremos en esta vida se levantará con nosotros en la Resurrección | `dyc-130-inteligencia-logremos-esta-vida-levantara-n` | 18–19 | — |  |
 | 7 | Todas las bendiciones se reciben por motivo de la obediencia a la ley | `dyc-130-todas-bendiciones-reciben-motivo-obediencia` | 20–21 | — |  |
@@ -2065,8 +2066,8 @@ Instrucciones dadas por José Smith el Profeta en Ramus, Illinois, los días 16 
 
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
-| 1 | El matrimonio celestial es esencial para recibir la exaltación en el cielo más alto | `dyc-131-matrimonio-celestial-es-esencial-recibir-exaltaci` | 1–4 | — |  |
-| 2 | La forma en que los hombres son sellados para vida eterna | `dyc-131-explica-forma-hombres-son-sellados-vid` | 5–6 | — |  |
+| 1 | El matrimonio celestial abre la exaltación más alta | `dyc-131-matrimonio-celestial-abre-exaltacion-mas-alta` | 1–4 | — |  |
+| 2 | Sellados para vida eterna | `dyc-131-sellados-vida-eterna` | 5–6 | — |  |
 | 3 | Todo espíritu es materia | `dyc-131-todo-espiritu-es-materia` | 7–8 | — |  |
 
 ---
@@ -2124,7 +2125,7 @@ Una declaración de la creencia concerniente a los gobiernos y a las leyes en ge
 | # | Título | Slug | v | `_evento_canonico` | Notas |
 |:-:|:-------|:-----|:-:|:-------------------|:------|
 | 1 | Los gobiernos deben preservar la libertad de conciencia y de adoración | `dyc-134-gobiernos-deben-preservar-libertad-conciencia` | 1–4 | — |  |
-| 2 | Todos los hombres deben sostener | `dyc-134-todos-hombres-deben-sostener-apoyar-respectivo-go` | 5–8 | — |  |
+| 2 | Sostener al gobierno y respetar la ley | `dyc-134-sostener-gobierno-respetar-ley` | 5–8 | — |  |
 | 3 | Las sociedades religiosas no deben ejercer poderes civiles | `dyc-134-sociedades-religiosas-no-deben-ejercer-poderes-civil` | 9–10 | — |  |
 | 4 | Los hombres quedan justificados si se defienden a sí mismos | `dyc-134-hombres-quedan-justificados-si-defienden-si-mismos` | 11–12 | — |  |
 
