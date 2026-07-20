@@ -34,6 +34,142 @@ add_action('init', function () {
       'assign_terms' => 'edit_posts',
     ],
   ]);
+
+  $pericopa_labels = [
+    'name'              => __('Perícopas', 'bc'),
+    'singular_name'     => __('Perícopa', 'bc'),
+    'search_items'      => __('Buscar perícopas', 'bc'),
+    'all_items'         => __('Todas las perícopas', 'bc'),
+    'edit_item'         => __('Editar perícopa', 'bc'),
+    'update_item'       => __('Actualizar perícopa', 'bc'),
+    'add_new_item'      => __('Añadir nueva perícopa', 'bc'),
+    'new_item_name'     => __('Nueva perícopa', 'bc'),
+    'menu_name'         => __('Perícopas', 'bc'),
+  ];
+
+  register_taxonomy('bc_pericopa', ['post', 'bc_quote_author', 'bc_location'], [
+    'labels'            => $pericopa_labels,
+    'hierarchical'      => false,
+    'public'            => true,
+    'show_ui'           => true,
+    'show_admin_column' => false,
+    'show_in_menu'      => true,
+    'show_in_nav_menus' => false,
+    'show_in_rest'      => true,
+    'rest_base'         => 'bc-pericopas',
+    'rewrite'           => false,
+    'query_var'         => 'bc_pericopa',
+    'capabilities'      => [
+      'manage_terms' => 'manage_categories',
+      'edit_terms'   => 'manage_categories',
+      'delete_terms' => 'manage_categories',
+      'assign_terms' => 'edit_posts',
+    ],
+  ]);
+});
+
+add_action('created_bc_pericopa', 'bc_pericopa_sanitize_meta_fields');
+add_action('edited_bc_pericopa', 'bc_pericopa_sanitize_meta_fields');
+function bc_pericopa_sanitize_meta_fields($term_id) {
+  foreach (['v_inicio', 'v_fin'] as $key) {
+    $value = isset($_POST[$key]) ? intval($_POST[$key]) : null;
+    if ($value !== null && $value > 0) {
+      update_term_meta($term_id, $key, $value);
+    }
+  }
+
+  foreach (['_evento_canonico', '_relacion_paralela', '_cita_de'] as $key) {
+    if (isset($_POST[$key])) {
+      update_term_meta($term_id, $key, sanitize_text_field(wp_unslash($_POST[$key])));
+    }
+  }
+}
+
+add_action('bc_pericopa_add_form_fields', function () {
+  ?>
+  <div class="form-field term-v-inicio-wrap">
+    <label for="v_inicio"><?php esc_html_e('Versículo inicial', 'bc'); ?></label>
+    <input type="number" min="1" name="v_inicio" id="v_inicio" value="">
+  </div>
+  <div class="form-field term-v-fin-wrap">
+    <label for="v_fin"><?php esc_html_e('Versículo final', 'bc'); ?></label>
+    <input type="number" min="1" name="v_fin" id="v_fin" value="">
+  </div>
+  <div class="form-field term-evento-canonico-wrap">
+    <label for="_evento_canonico"><?php esc_html_e('Evento canónico', 'bc'); ?></label>
+    <input type="text" name="_evento_canonico" id="_evento_canonico" value="">
+  </div>
+  <div class="form-field term-relacion-paralela-wrap">
+    <label for="_relacion_paralela"><?php esc_html_e('Relación paralela', 'bc'); ?></label>
+    <input type="text" name="_relacion_paralela" id="_relacion_paralela" value="">
+  </div>
+  <div class="form-field term-cita-de-wrap">
+    <label for="_cita_de"><?php esc_html_e('Cita de', 'bc'); ?></label>
+    <input type="text" name="_cita_de" id="_cita_de" value="">
+  </div>
+  <?php
+});
+
+add_action('bc_pericopa_edit_form_fields', function ($term) {
+  $v_inicio = get_term_meta($term->term_id, 'v_inicio', true);
+  $v_fin = get_term_meta($term->term_id, 'v_fin', true);
+  $evento = get_term_meta($term->term_id, '_evento_canonico', true);
+  $relacion = get_term_meta($term->term_id, '_relacion_paralela', true);
+  $cita = get_term_meta($term->term_id, '_cita_de', true);
+  ?>
+  <tr class="form-field term-v-inicio-wrap">
+    <th scope="row"><label for="v_inicio"><?php esc_html_e('Versículo inicial', 'bc'); ?></label></th>
+    <td><input type="number" min="1" name="v_inicio" id="v_inicio" value="<?php echo esc_attr($v_inicio); ?>"></td>
+  </tr>
+  <tr class="form-field term-v-fin-wrap">
+    <th scope="row"><label for="v_fin"><?php esc_html_e('Versículo final', 'bc'); ?></label></th>
+    <td><input type="number" min="1" name="v_fin" id="v_fin" value="<?php echo esc_attr($v_fin); ?>"></td>
+  </tr>
+  <tr class="form-field term-evento-canonico-wrap">
+    <th scope="row"><label for="_evento_canonico"><?php esc_html_e('Evento canónico', 'bc'); ?></label></th>
+    <td><input type="text" name="_evento_canonico" id="_evento_canonico" value="<?php echo esc_attr($evento); ?>"></td>
+  </tr>
+  <tr class="form-field term-relacion-paralela-wrap">
+    <th scope="row"><label for="_relacion_paralela"><?php esc_html_e('Relación paralela', 'bc'); ?></label></th>
+    <td><input type="text" name="_relacion_paralela" id="_relacion_paralela" value="<?php echo esc_attr($relacion); ?>"></td>
+  </tr>
+  <tr class="form-field term-cita-de-wrap">
+    <th scope="row"><label for="_cita_de"><?php esc_html_e('Cita de', 'bc'); ?></label></th>
+    <td><input type="text" name="_cita_de" id="_cita_de" value="<?php echo esc_attr($cita); ?>"></td>
+  </tr>
+  <?php
+});
+
+add_action('rest_api_init', function () {
+  register_rest_field(['post', 'bc_quote_author', 'bc_location'], 'bc_pericopa_terms', [
+    'get_callback' => function ($post) {
+      $terms = wp_get_post_terms($post['id'], 'bc_pericopa');
+      if (empty($terms) || is_wp_error($terms)) return [];
+
+      $data = [];
+      foreach ($terms as $t) {
+        $data[] = [
+          'id'               => $t->term_id,
+          'name'             => $t->name,
+          'slug'             => $t->slug,
+          'link'             => get_term_link($t),
+          'v_inicio'         => intval(get_term_meta($t->term_id, 'v_inicio', true)),
+          'v_fin'            => intval(get_term_meta($t->term_id, 'v_fin', true)),
+          '_evento_canonico' => get_term_meta($t->term_id, '_evento_canonico', true),
+          '_relacion_paralela' => get_term_meta($t->term_id, '_relacion_paralela', true),
+          '_cita_de'         => get_term_meta($t->term_id, '_cita_de', true),
+        ];
+      }
+
+      return $data;
+    },
+    'schema' => [
+      'type'  => 'array',
+      'items' => [
+        'type' => 'object',
+      ],
+    ],
+  ]);
 });
 
 add_action('add_meta_boxes', function () {

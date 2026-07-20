@@ -1,6 +1,6 @@
 # Mapeo de Perícopas (bc_pericopa)
 
-> **Estado**: PLANIFICADO — fuentes identificadas (incluyendo Alejandría e investigación web), criterios expandidos, plan de fases definido. Pendiente de aprobación para comenzar Fase A.
+> **Estado**: EN EJECUCIÓN — subfase DyC curada; se inicia el cierre operativo de Fase A con la creación de la taxonomía `bc_pericopa`.
 
 ## Definición
 
@@ -1300,18 +1300,18 @@ Veredicto operativo actual:
 
 | Aspecto | Estado |
 |:--------|:-------|
-| Taxonomía `bc_pericopa` en WP | No creada |
+| Taxonomía `bc_pericopa` en WP | ✅ Creada |
 | Términos definidos | ❌ Ninguno |
 | Fuentes identificadas | ✅ 5 volúmenes cubiertos |
 | Criterios de nombrado | ✅ Definidos |
 | Criterios expandidos (distingo, atomicidad, edge cases, cruces) | ✅ 6 ejes, 5 casos edge documentados |
 | Validación desde Alejandría | ✅ Concordancia entre los Evangelios + Jesús el Cristo + Manuales disponibles en corpus |
 | Plan de fases | ✅ 6 fases definidas |
-| Seed ejecutable | ❌ No existe — Fase A es la primera en ejecutarse |
+| Seed ejecutable | ⏳ Pendiente — siguiente paso tras crear la taxonomía |
 
 ## Próximo paso
 
-Con la resolución de DyC 132, 133 y 136, todos los casos frontera de esta fase quedaron cerrados. El siguiente paso es mantener este criterio consolidado como referencia editorial para futuras revisiones de DyC sin pasar a fase de seed.
+Con la resolución de DyC 132, 133 y 136, la subfase de curaduría DyC queda cerrada. El siguiente paso para cerrar Fase A es poblar `bc_pericopa` con el seed de DyC y validar cobertura completa sin solapes ni huecos.
 
 ## Resumen consolidado de criterios aplicados (DyC)
 
