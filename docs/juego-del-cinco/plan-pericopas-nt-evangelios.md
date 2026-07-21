@@ -48,14 +48,17 @@ Cada evento compartido entre Mateo, Marcos, Lucas y/o Juan usa el mismo `_evento
 ### Mateo 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | La estrella y los magos de oriente | mateo-2-la-estrella-y-los-magos-de-oriente | 1–12 | Narrativa | magos-oriente |
-| 2 | La huida a Egipto y el regreso | mateo-2-la-huida-a-egipto-y-el-regreso | 13–23 | Narrativa | huida-egipto |
+| 1 | Los magos de oriente | mateo-2-los-magos-de-oriente | 1–12 | Narrativa | magos-oriente |
+| 2 | La huida a Egipto | mateo-2-la-huida-a-egipto | 13–15 | Narrativa | huida-egipto |
+| 3 | La matanza de los inocentes | mateo-2-la-matanza-de-los-inocentes | 16–18 | Narrativa | matanza-inocentes |
+| 4 | El regreso de Egipto y Nazaret | mateo-2-el-regreso-de-egipto-y-nazaret | 19–23 | Narrativa | regreso-egipto-nazaret |
 
 ### Mateo 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Predicación de Juan el Bautista | mateo-3-predicacion-de-juan-el-bautista | 1–6 | Discurso | juan-bautista-predica |
-| 2 | Juan bautiza a Jesús | mateo-3-juan-bautiza-a-jesus | 13–17 | Narrativa | bautismo-jesus |
+| 1 | Juan bautiza en el desierto | mateo-3-juan-bautiza-en-el-desierto | 1–6 | Narrativa | juan-bautista-predica |
+| 2 | Juan predica arrepentimiento | mateo-3-juan-predica-arrepentimiento | 7–12 | Discurso | juan-bautista-predica |
+| 3 | Juan bautiza a Jesús | mateo-3-juan-bautiza-a-jesus | 13–17 | Narrativa | bautismo-jesus |
 
 ### Mateo 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -126,9 +129,10 @@ Cada evento compartido entre Mateo, Marcos, Lucas y/o Juan usa el mismo `_evento
 ### Mateo 11
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Pregunta de Juan el Bautista | mateo-11-pregunta-de-juan-el-bautista | 1–15 | Narrativa | pregunta-juan-bautista |
-| 2 | Ay de las ciudades impenitentes | mateo-11-ay-de-las-ciudades-impenitentes | 16–24 | Discurso | ciudades-impenitentes |
-| 3 | Venid a mí todos los cansados | mateo-11-venid-a-mi-todos-los-cansados | 25–30 | Discurso | venid-a-mi |
+| 1 | Pregunta de Juan el Bautista | mateo-11-pregunta-de-juan-el-bautista | 1–6 | Narrativa | pregunta-juan-bautista |
+| 2 | Jesús elogia a Juan el Bautista | mateo-11-jesus-elogia-a-juan-el-bautista | 7–15 | Discurso | elogio-juan-bautista |
+| 3 | Ay de las ciudades impenitentes | mateo-11-ay-de-las-ciudades-impenitentes | 16–24 | Discurso | ciudades-impenitentes |
+| 4 | Venid a mí todos los cansados | mateo-11-venid-a-mi-todos-los-cansados | 25–30 | Discurso | venid-a-mi |
 
 ### Mateo 12
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -279,7 +283,7 @@ Cada evento compartido entre Mateo, Marcos, Lucas y/o Juan usa el mismo `_evento
 | 3 | Jesús azotado y entregado | mateo-27-jesus-azotado-y-entregado | 27–32 | Narrativa | jesus-azotado |
 | 4 | La crucifixión | mateo-27-la-crucifixion | 33–44 | Narrativa | crucifixion-jesus |
 | 5 | La muerte de Jesús | mateo-27-la-muerte-de-jesus | 45–56 | Narrativa | muerte-jesus |
-| 6 | La sepultura de Jesús | mateo-27-la-sepultura-de-jesus | 57–66 | Narrativa | sepultura-jesus |
+| 6 | La sepultura de Jesús | mateo-27-la-sepultura-de-jesus | 57–61 | Narrativa | sepultura-jesus |
 | 7 | El sello y la guardia | mateo-27-el-sello-y-la-guardia | 62–66 | Narrativa | sello-tumba |
 
 ### Mateo 28
@@ -423,7 +427,8 @@ Cada evento compartido entre Mateo, Marcos, Lucas y/o Juan usa el mismo `_evento
 ### Marcos 14
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | La conspiración y la unción en Betania | marcos-14-la-conspiracion-y-la-uncion-en-betania | 1–11 | Narrativa | uncion-betania |
+| 1 | La conspiración para matar a Jesús | marcos-14-la-conspiracion-para-matar-a-jesus | 1–2 | Narrativa | conspiracion-pascua |
+| 2 | La unción en Betania | marcos-14-la-uncion-en-betania | 3–11 | Narrativa | uncion-betania |
 | 2 | La Última Cena | marcos-14-la-ultima-cena | 12–26 | Narrativa | pascua-redencion |
 | 3 | Jesús predice la negación de Pedro | marcos-14-jesus-predice-la-negacion-de-pedro | 27–31 | Narrativa | predice-negacion-pedro |
 | 4 | Getsemaní | marcos-14-getsemani | 32–42 | Narrativa | Getsemaní |
@@ -635,7 +640,7 @@ Cada evento compartido entre Mateo, Marcos, Lucas y/o Juan usa el mismo `_evento
 | 4 | Pregunta sobre la resurrección | lucas-20-pregunta-sobre-la-resurreccion | 27–40 | Controversia | pregunta-resurreccion |
 | 5 | ¿De quién es hijo el Cristo? | lucas-20-de-quien-es-hijo-el-cristo | 41–44 | Controversia | hijo-david |
 | 6 | Denuncia a los escribas | lucas-20-denuncia-a-los-escribas | 45–47 | Discurso | ay-fariseos |
-| 7 | La ofrenda de la viuda | lucas-21-la-ofrenda-de-la-viuda | 1–4 | Narrativa | ofrenda-viuda |
+| 7 | La ofrenda de la viuda | lucas-20-la-ofrenda-de-la-viuda | 45–47 | Narrativa | ofrenda-viuda |
 
 ### Lucas 21
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -842,11 +847,11 @@ Cada evento compartido entre Mateo, Marcos, Lucas y/o Juan usa el mismo `_evento
 
 | Libro | Capítulos | Perícopas |
 |:------|:---------:|:---------:|
-| Mateo | 28 | 119 |
+| Mateo | 28 | 121 |
 | Marcos | 16 | 87 |
 | Lucas | 24 | 101 |
 | Juan | 21 | 78 |
-| **Total** | **89** | **385** |
+| **Total** | **89** | **387** |
 
 **Discurso del Aposento Alto (Juan 13–17)**: 10 perícopas con granularidad fina, `_evento_canonico = discurso-del-aposento-alto`.
 **Sermón del Monte (Mateo 5–7)**: 20 perícopas con granularidad fina, `_evento_canonico = sermon-del-monte`.
