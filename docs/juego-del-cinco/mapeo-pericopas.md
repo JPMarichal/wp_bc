@@ -1,6 +1,6 @@
 # Mapeo de Perícopas (bc_pericopa)
 
-> **Estado**: COMPLETADO — Se finalizaron con éxito absoluto las Fases A (Doctrina y Convenios), B (Perla de Gran Precio) y C (Epístolas del Nuevo Testamento), completando el diseño y curaduría minuciosa de sus perícopas unívocas, registrando la nueva taxonomía `bc_pericopa` nativa en código y poblando la base de datos de WordPress con las 1111 perícopas iniciales con todos sus metadatos asociados.
+> **Estado**: COMPLETADO — Se finalizaron con éxito absoluto las Fases A (Doctrina y Convenios), B (Perla de Gran Precio) y C (Epístolas del Nuevo Testamento), completando el diseño y curaduría minuciosa de sus perícopas unívocas, registrando la nueva taxonomía `bc_pericopa` nativa en código y poblando la base de datos de WordPress con las 1111 perícopas iniciales con todos sus metadatos asociados. Plan de las Fases D (Evangelios) y E (Hechos + Apocalipsis) en elaboración.
 
 ## Definición
 
@@ -1032,11 +1032,12 @@ Todas comparten `_evento_canonico = discurso-del-aposento-alto`, y cada una llev
 | **A** | Doctrina y Convenios | ~140 | ~350 | Encabezados oficiales del DyC (base) + StoryGuide 1–40 + Manual del Instituto (refinamiento). Cada sección larga dividida por estructura literaria (encabezado, cuerpo visionario, promesa/cierre). | ★ Baja — estructura ya dividida en secciones. Refinar: dividir secciones largas por tema. |
 | **B** | Perla de Gran Precio | ~30 | ~100 | Manual del Instituto + Smoot Study Ed. + Bradshaw (estructura de pacto en Moisés). | ★ Baja — volumen pequeño pero alta densidad de correlación con AT y LdM. |
 | **C** | Nuevo Testamento — Epístolas | ~200 | ~600 | BYU Charting NT + análisis de estructura retórica (salutación, acción de gracias, cuerpo, exhortación, despedida). Filemón (~4 perícopas) es el caso mínimo. | ★★ Media — requiere identificar estructura literaria de cada epístola. |
-| **D** | Nuevo Testamento — Evangelios | ~90 | ~700 | Concordancia entre los Evangelios (harmony table) + Jesús el Cristo (Talmage) + análisis de intercalaciones. Cada evangelio incluye sus perícopas introductorias (prólogo de Lucas, genealogía de Mateo, etc.). | ★★ Media — perícopas ya traducidas, organizadas y validadas en Alejandría. |
-| **E** | Antiguo Testamento | ~929 | ~2500 | Nelson's + divisiones litúrgicas judías (Pentateuco) + estructura retórica de profetas (oráculos, juicios, promesas) + colecciones de sabiduría. | ★★★ Alta — volumen grande, mezcla de géneros: narrativa, ley, poesía, profecía. |
-| **F** | Libro de Mormón | ~240 | ~800 | StoryGuide + BYU Charting BoM + cambios de autor/narrador (Nefi, Jacob, Mormón, Moroni). Discursos largos (Benjamín, Abinadí, Alma a Coriantón, Samuel) divididos por unidad temática. | ★★★ Alta — requiere extracción manual y verificación de cambios de voz narrativa. |
+| **D** | Nuevo Testamento — Evangelios | ~89 | ~900 | Concordancia entre los Evangelios (harmony table) + Jesús el Cristo (Talmage) + análisis de intercalaciones. Cada evangelio incluye sus perícopas introductorias (prólogo de Lucas, genealogía de Mateo, etc.). Discurso del Aposento Alto (Jn 13–17) y Sermón del Monte (Mt 5–7) con granularidad fina por unidad temática. | ★★ Media — perícopas ya traducidas, organizadas y validadas en Alejandría. |
+| **E** | Nuevo Testamento — Hechos y Apocalipsis | ~50 | ~500 | Hechos: estructura misionera (3 viajes de Pablo, concilio de Jerusalén, viajes a Roma). Apocalipsis: estructura apocalíptica (cartas, 7 sellos, 7 trompetas, 7 copas, caída de Babilonia, nueva Jerusalén). **DyC 77** como guía de corte para Apocalipsis 4–14 (cada pregunta de DyC 77 define un punto de referencia). | ★★★ Alta — Hechos tiene intercalaciones tipo «Marcan sandwich»; Apocalipsis tiene simbolismo denso y estructura profética. |
+| **F** | Antiguo Testamento | ~929 | ~2500 | Nelson's + divisiones litúrgicas judías (Pentateuco) + estructura retórica de profetas (oráculos, juicios, promesas) + colecciones de sabiduría. | ★★★ Alta — volumen grande, mezcla de géneros: narrativa, ley, poesía, profecía. |
+| **G** | Libro de Mormón | ~240 | ~800 | StoryGuide + BYU Charting BoM + cambios de autor/narrador (Nefi, Jacob, Mormón, Moroni). Discursos largos (Benjamín, Abinadí, Alma a Coriantón, Samuel) divididos por unidad temática. | ★★★ Alta — requiere extracción manual y verificación de cambios de voz narrativa. |
 
-**Total**: ~5050 perícopas en 6 fases.
+**Total**: ~5750 perícopas en 7 fases.
 
 ### Estrategia de seed por fase
 
