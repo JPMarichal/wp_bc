@@ -1,6 +1,6 @@
 # Mapeo de Perícopas (bc_pericopa)
 
-> **Estado**: COMPLETADO — Se finalizaron con éxito absoluto las Fases A (Doctrina y Convenios) y B (Perla de Gran Precio), completando el diseño y curaduría minuciosa de sus perícopas unívocas, registrando la nueva taxonomía `bc_pericopa` nativa en código y poblando la base de datos de WordPress con las 760 pericopas iniciales con todos sus metadatos asociados.
+> **Estado**: COMPLETADO — Se finalizaron con éxito absoluto las Fases A (Doctrina y Convenios), B (Perla de Gran Precio) y C (Epístolas del Nuevo Testamento), completando el diseño y curaduría minuciosa de sus perícopas unívocas, registrando la nueva taxonomía `bc_pericopa` nativa en código y poblando la base de datos de WordPress con las 1111 perícopas iniciales con todos sus metadatos asociados.
 
 ## Definición
 

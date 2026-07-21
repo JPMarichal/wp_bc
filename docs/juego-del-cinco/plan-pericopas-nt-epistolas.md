@@ -10,11 +10,12 @@
 | Columna | Significado |
 |:--------|:------------|
 | # | Número de orden de la perícopa dentro de la sección o capítulo |
-| Título | Título en español natural activo (libre de pronombres/preposiciones sobrantes en slugs) |
+| Título | Título breve en español, sin referencia a libro, capítulo ni rango |
 | Slug | Slug SEO-friendly unívoco para la taxonomía bc_pericopa (formato {epistola}-{capitulo}-{slug-tematico}) |
 | v | Rango de versículos que abarca (cobertura física estricta, disjunta y sin solapamiento) |
 | Estilo | Estilo epistolar / Unidad retórica identificada |
 | _evento_canonico | Identificador de evento canónico maestro para agrupar concordancias entre libros |
+| _cita_de | (Opcional) Slug de la perícopa citada cuando hay dependencia textual intra-canónica |
 
 ---
 
@@ -95,8 +96,9 @@
 ### Romanos 12
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Culto racional del creyente | romanos-12-culto-racional-del-creyente | 1–8 | Exhortación parenética | culto-racional-servicio |
-| 2 | Deberes del amor fraterno | romanos-12-deberes-del-amor-fraterno | 9–21 | Exhortación parenética | etica-cristiana-amor |
+| 1 | Sacrificio vivo y renovación | romanos-12-sacrificio-vivo-y-renovacion | 1–2 | Exhortación parenética | culto-racional-servicio |
+| 2 | Dones según la gracia | romanos-12-dones-segun-la-gracia | 3–8 | Exhortación parenética | dones-gracia-iglesia |
+| 3 | Deberes del amor fraterno | romanos-12-deberes-del-amor-fraterno | 9–21 | Exhortación parenética | etica-cristiana-amor |
 
 ### Romanos 13
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -126,7 +128,6 @@
 | 3 | Doxología final de Pablo | romanos-16-doxologia-final-de-pablo | 25–27 | Despedida/saludos | doxologia-pablo |
 
 ---
-
 ## 2. Primera Epístola a los Corintios (16 capítulos)
 
 ### 1 Corintios 1
@@ -186,7 +187,7 @@
 ### 1 Corintios 9
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Derechos del apóstol | 1-corintios-9-derechos-del-apostol | 1–14 | Cuerpo doctrinal | derecho-apóstol-sostenimiento |
+| 1 | Derechos del apóstol | 1-corintios-9-derechos-del-apostol | 1–14 | Cuerpo doctrinal | derecho-apostol-sostenimiento |
 | 2 | Hacerse todo para todos | 1-corintios-9-hacerse-todo-para-todos | 15–23 | Cuerpo doctrinal | predicacion-gratuita-pablo |
 | 3 | La carrera del creyente | 1-corintios-9-la-carrera-del-creyente | 24–27 | Exhortación parenética | carrera-espiritual-atleta |
 
@@ -202,13 +203,15 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Orden y decoro público | 1-corintios-11-orden-y-decoro-publico | 1–16 | Exhortación parenética | velo-orden-creyentes |
 | 2 | Abusos en la mesa | 1-corintios-11-abusos-en-la-mesa | 17–22 | Exhortación parenética | desordenes-cena-senor |
-| 3 | Institución de la Cena | 1-corintios-11-institucion-de-la-cena | 23–34 | Cuerpo doctrinal | institucion-sacremento |
+| 3 | Institución de la Cena | 1-corintios-11-institucion-de-la-cena | 23–34 | Cuerpo doctrinal | institucion-sacramento |
 
 ### 1 Corintios 12
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Dones del mismo Espíritu | 1-corintios-12-dones-del-mismo-espiritu | 1–11 | Cuerpo doctrinal | dones-espirituales-iglesia |
-| 2 | Un solo cuerpo, muchos miembros | 1-corintios-12-un-solo-cuerpo-muchos-miembros | 12–31 | Cuerpo doctrinal | unidad-cuerpo-cristo |
+| 2 | Un solo cuerpo, muchos miembros | 1-corintios-12-un-solo-cuerpo-muchos-miembros | 12–14 | Cuerpo doctrinal | unidad-cuerpo-cristo |
+| 3 | Diversidad necesaria de miembros | 1-corintios-12-diversidad-necesaria-de-miembros | 15–26 | Cuerpo doctrinal | diversidad-miembros-cuerpo |
+| 4 | Vosotros sois cuerpo de Cristo | 1-corintios-12-vosotros-sois-cuerpo-de-cristo | 27–31 | Cuerpo doctrinal | miembros-cuerpo-cristo |
 
 ### 1 Corintios 13
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -220,17 +223,20 @@
 ### 1 Corintios 14
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Don de profecía | 1-corintios-14-don-de-profecia | 1–19 | Exhortación parenética | profecia-frente-lenguas |
-| 2 | Orden en la adoración | 1-corintios-14-orden-en-la-adoracion | 20–25 | Exhortación parenética | uso-lenguas-asamblea |
-| 3 | Decoro en la asamblea | 1-corintios-14-decoro-en-la-asamblea | 26–40 | Exhortación parenética | culto-ordenado-paz |
+| 1 | Preferir profecía sobre lenguas | 1-corintios-14-preferir-profecia-sobre-lenguas | 1–5 | Exhortación parenética | profecia-frente-lenguas |
+| 2 | Lenguas sin interpretación | 1-corintios-14-lenguas-sin-interpretacion | 6–19 | Exhortación parenética | edificacion-con-la-iglesia |
+| 3 | Orden en la adoración | 1-corintios-14-orden-en-la-adoracion | 20–25 | Exhortación parenética | uso-lenguas-asamblea |
+| 4 | Decoro en la asamblea | 1-corintios-14-decoro-en-la-asamblea | 26–40 | Exhortación parenética | culto-ordenado-paz |
 
 ### 1 Corintios 15
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Testimonio de la resurrección | 1-corintios-15-testimonio-de-la-resurreccion | 1–11 | Cuerpo doctrinal | testigos-resurreccion |
-| 2 | Garantía de la resurrección | 1-corintios-15-garantia-de-la-resurreccion | 12–34 | Cuerpo doctrinal | dogma-resurreccion-fe |
-| 3 | Naturaleza del cuerpo resucitado | 1-corintios-15-naturaleza-del-cuerpo-resucitado | 35–49 | Cuerpo doctrinal | tipos-cuerpos-resurreccion |
-| 4 | Victoria sobre la muerte | 1-corintios-15-victoria-sobre-la-muerte | 50–58 | Cuerpo doctrinal | victoria-sorbida-muerte |
+| 2 | Si no hay resurrección | 1-corintios-15-si-no-hay-resurreccion | 12–19 | Cuerpo doctrinal | vana-fe-sin-resurreccion |
+| 3 | Cristo primicias de los muertos | 1-corintios-15-cristo-primicias-de-los-muertos | 20–28 | Cuerpo doctrinal | primicias-resurreccion-cristo |
+| 4 | Bautismo por los muertos | 1-corintios-15-bautismo-por-los-muertos | 29–34 | Cuerpo doctrinal | bautismo-muertos-aparente |
+| 5 | Naturaleza del cuerpo resucitado | 1-corintios-15-naturaleza-del-cuerpo-resucitado | 35–49 | Cuerpo doctrinal | tipos-cuerpos-resurreccion |
+| 6 | Victoria sobre la muerte | 1-corintios-15-victoria-sobre-la-muerte | 50–58 | Cuerpo doctrinal | victoria-sorbida-muerte |
 
 ### 1 Corintios 16
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -240,7 +246,6 @@
 | 3 | Exhortación y bendición final | 1-corintios-16-exhortacion-y-bendicion-final | 13–24 | Despedida/saludos | despedida-corintios-pablo |
 
 ---
-
 ## 3. Segunda Epístola a los Corintios (13 capítulos)
 
 ### 2 Corintios 1
@@ -300,28 +305,29 @@
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Armas de nuestra milicia | 2-corintios-10-armas-de-nuestra-milicia | 1–6 | Cuerpo doctrinal | guerra-armas-fe-razon |
-| 2 | Área de nuestra misión | 2-corintios-10-area-de-nuestra-mision | 7–18 | Cuerpo doctrinal | gloriarse-en-el-senor |
+| 2 | Medirse por la vara de Dios | 2-corintios-10-medirse-por-la-vara-de-dios | 7–12 | Cuerpo doctrinal | medida-regla-dios |
+| 3 | Predicar en regiones más allá | 2-corintios-10-predicar-en-regiones-mas-alla | 13–18 | Cuerpo doctrinal | gloriarse-en-el-senor |
 
 ### 2 Corintios 11
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Peligro de falsos apóstoles | 2-corintios-11-peligro-de-falsos-apostoles | 1–15 | Cuerpo doctrinal | satanas-disfraza-angel-luz |
-| 2 | Sufrimientos y desvelos de Pablo | 2-corintios-11-sufrimientos-y-desvelos-de-pablo | 16–33 | Cuerpo doctrinal | gloria-flaqueza-persecucion |
+| 2 | Pablo responde a los jactanciosos | 2-corintios-11-pablo-responde-a-los-jactanciosos | 16–21 | Cuerpo doctrinal | locura-gloriarse-pablo |
+| 3 | Sufrimientos y glorias de Pablo | 2-corintios-11-sufrimientos-y-glorias-de-pablo | 22–33 | Cuerpo doctrinal | gloria-flaqueza-persecucion |
 
 ### 2 Corintios 12
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Visiones y aguijón en carne | 2-corintios-12-visiones-y-aguijon-en-carne | 1–10 | Cuerpo doctrinal | mi-gracia-te-basta |
-| 2 | Afecto desinteresado por amada grey | 2-corintios-12-afecto-desinteresado-por-amada-grey | 11–21 | Exhortación parenética | pablo-no-busca-vuestro |
+| 2 | Afecto desinteresado por la grey | 2-corintios-12-afecto-desinteresado-por-la-grey | 11–21 | Exhortación parenética | pablo-no-busca-vuestro |
 
 ### 2 Corintios 13
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Autoexamen exigido antes de visita | 2-corintios-13-autoexamen-exigido-antes-de-visita | 1–10 | Exhortación parenética | examinaos-fe-justicia |
-| 2 | Bendición trinitaria y despedida gozosa | 2-corintios-13-bendicion-trinitaria-y-despedida-gozosa | 11–14 | Despedida/saludos | bendicion-trinitaria |
+| 1 | Autoexamen antes de la visita | 2-corintios-13-autoexamen-antes-de-la-visita | 1–10 | Exhortación parenética | examinaos-fe-justicia |
+| 2 | Bendición trinitaria y despedida | 2-corintios-13-bendicion-trinitaria-y-despedida | 11–14 | Despedida/saludos | bendicion-trinitaria |
 
 ---
-
 ## 4. Epístola a los Gálatas (6 capítulos)
 
 ### Gálatas 1
@@ -333,81 +339,82 @@
 ### Gálatas 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Aprobación apostólica de misión gentiles | galatas-2-aprobacion-apostolica-de-mision-gentiles | 1–10 | Cuerpo doctrinal | comunion-pilar-iglesia |
-| 2 | Reprensión pública a disimulo de | galatas-2-reprension-publica-a-disimulo-de | 11–14 | Cuerpo doctrinal | confrontacion-pedro-antioquia |
+| 1 | Aprobación apostólica de la misión a gentiles | galatas-2-aprobacion-apostolica-de-la-mision-a-gentiles | 1–10 | Cuerpo doctrinal | comunion-pilar-iglesia |
+| 2 | Reprensión pública a Pedro en Antioquía | galatas-2-reprension-publica-a-pedro-en-antioquia | 11–14 | Cuerpo doctrinal | confrontacion-pedro-antioquia |
 | 3 | Justificación por la gracia salvadora | galatas-2-justificacion-por-la-gracia-salvadora | 15–21 | Cuerpo doctrinal | justificados-fe-muerte-ley |
 
 ### Gálatas 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | La insensatez de abandonar fe | galatas-3-la-insensatez-de-abandonar-fe | 1–5 | Cuerpo doctrinal | espiritu-por-fe |
-| 2 | La herencia prometida antes de | galatas-3-la-herencia-prometida-antes-de | 6–14 | Cuerpo doctrinal | abraham-justificado-fe-gentiles |
-| 3 | Pedagogía de ley guiando a | galatas-3-pedagogia-de-ley-guiando-a | 15–25 | Cuerpo doctrinal | ley-pedagogo-cristo |
-| 4 | La promesa es por la | galatas-3-la-promesa-es-por-la | 26–29 | Cuerpo doctrinal | unidad-revestidos-cristo |
+| 1 | La insensatez de abandonar la fe | galatas-3-la-insensatez-de-abandonar-la-fe | 1–5 | Cuerpo doctrinal | espiritu-por-fe |
+| 2 | La herencia prometida antes de la ley | galatas-3-la-herencia-prometida-antes-de-la-ley | 6–14 | Cuerpo doctrinal | abraham-justificado-fe-gentiles |
+| 3 | Pedagogía de la ley guiando a Cristo | galatas-3-pedagogia-de-la-ley-guiando-a-cristo | 15–25 | Cuerpo doctrinal | ley-pedagogo-cristo |
+| 4 | La promesa es por la fe | galatas-3-la-promesa-es-por-la-fe | 26–29 | Cuerpo doctrinal | unidad-revestidos-cristo |
 
 ### Gálatas 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Hijos y herederos de Dios | galatas-4-hijos-y-herederos-de-dios | 1–11 | Cuerpo doctrinal | adopcion-hijos-herederos |
 | 2 | Angustia pastoral ante la apostasía | galatas-4-angustia-pastoral-ante-la-apostasia | 12–20 | Exhortación parenética | paternal-pablo-galatas |
-| 3 | Alegoría liberadora de las dos | galatas-4-alegoria-liberadora-de-las-dos | 21–31 | Cuerpo doctrinal | hijos-promesa-libertad |
+| 3 | Alegoría liberadora de las dos mujeres | galatas-4-alegoria-liberadora-de-las-dos-mujeres | 21–31 | Cuerpo doctrinal | hijos-promesa-libertad |
 
 ### Gálatas 5
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Mantenerse firmes en santa libertad | galatas-5-mantenerse-firmes-en-santa-libertad | 1–12 | Exhortación parenética | firmeza-libertad-gracia |
-| 2 | Obras de carne frente a | galatas-5-obras-de-carne-frente-a | 13–26 | Exhortación parenética | frutos-espiritu-obras-carne |
+| 2 | Obras de carne frente a frutos del Espíritu | galatas-5-obras-de-carne-frente-a-frutos-del-espiritu | 13–26 | Exhortación parenética | frutos-espiritu-obras-carne |
 
 ### Gálatas 6
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Ayuda solidaria y ley de | galatas-6-ayuda-solidaria-y-ley-de | 1–10 | Exhortación parenética | ley-cristo-galatas |
-| 2 | Jactarse únicamente en cruz crística | galatas-6-jactarse-unicamente-en-cruz-cristica | 11–18 | Despedida/saludos | pablo-marcas-jesucristo |
+| 1 | Ayuda solidaria y ley de Cristo | galatas-6-ayuda-solidaria-y-ley-de-cristo | 1–10 | Exhortación parenética | ley-cristo-galatas |
+| 2 | Jactarse únicamente en la cruz de Cristo | galatas-6-jactarse-unicamente-en-la-cruz-de-cristo | 11–18 | Despedida/saludos | pablo-marcas-jesucristo |
 
 ---
-
 ## 5. Epístola a los Efesios (6 capítulos)
 
 ### Efesios 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Bendición doxológica de salvación efesia | efesios-1-bendicion-doxologica-de-salvacion-efesia | 1–14 | Salutación | eleccion-antes-creacion |
+| 1 | Bendición doxológica de salvación | efesios-1-bendicion-doxologica-de-salvacion | 1–14 | Salutación | eleccion-antes-creacion |
 | 2 | Soberanos designios del divino plan | efesios-1-soberanos-designios-del-divino-plan | 15–23 | Acción de gracias | conocimiento-supremacia-cristo |
 
 ### Efesios 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Salvos únicamente por amor divino | efesios-2-salvos-unicamente-por-amor-divino | 1–10 | Cuerpo doctrinal | salvos-gracia-no-obras-efeso |
-| 2 | Hombres unificados en divina paz | efesios-2-hombres-unificados-en-divina-paz | 11–22 | Cuerpo doctrinal | paz-medio-iglesia-edificacion |
+| 1 | Salvos por gracia mediante la fe | efesios-2-salvos-por-gracia-mediante-la-fe | 1–10 | Cuerpo doctrinal | salvos-gracia-no-obras-efeso |
+| 2 | Unificados en Cristo por la paz | efesios-2-unificados-en-cristo-por-la-paz | 11–22 | Cuerpo doctrinal | paz-medio-iglesia-edificacion |
 
 ### Efesios 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Misterio salvífico oculto por generaciones | efesios-3-misterio-salvifico-oculto-por-generaciones | 1–13 | Cuerpo doctrinal | misterio-revelado-pablo-efeso |
+| 1 | Misterio salvífico revelado a Pablo | efesios-3-misterio-salvifico-revelado-a-pablo | 1–13 | Cuerpo doctrinal | misterio-revelado-pablo-efeso |
 | 2 | Ruego por arraigo en amor | efesios-3-ruego-por-arraigo-en-amor | 14–21 | Acción de gracias | arraigados-cimentados-amor |
 
 ### Efesios 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Comunión orgánica y pluralidad de | efesios-4-comunion-organica-y-pluralidad-de | 1–6 | Exhortación parenética | un-senor-una-fe |
-| 2 | Renovación mental del hombre nuevo | efesios-4-renovacion-mental-del-hombre-nuevo | 7–16 | Cuerpo doctrinal | apostoles-profetas-perfeccionar |
-| 3 | Exhortación solemne a renovar nuestra | efesios-4-exhortacion-solemne-a-renovar-nuestra | 17–32 | Exhortación parenética | andar-nueva-vida-santo |
+| 1 | Unidad del Espíritu y pluralidad de dones | efesios-4-unidad-del-espiritu-y-pluralidad-de-dones | 1–6 | Exhortación parenética | un-senor-una-fe |
+| 2 | Ascensión de Cristo y dones a la iglesia | efesios-4-ascension-de-cristo-y-dones-a-la-iglesia | 7–16 | Cuerpo doctrinal | apostoles-profetas-perfeccionar |
+| 3 | Dejar el viejo hombre | efesios-4-dejar-el-viejo-hombre | 17–24 | Exhortación parenética | andar-nueva-vida-santo |
+| 4 | Prácticas del hombre nuevo | efesios-4-practicas-del-hombre-nuevo | 25–32 | Exhortación parenética | etica-comunidad-cristiana |
 
 ### Efesios 5
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Caminar santamente como hijos de | efesios-5-caminar-santamente-como-hijos-de | 1–20 | Exhortación parenética | hijos-luz-discernimiento |
-| 2 | Misterio nupcial de Cristo e | efesios-5-misterio-nupcial-de-cristo-e | 21–33 | Exhortación parenética | gran-misterio-matrimonio |
+| 1 | Imitadores de Dios en amor | efesios-5-imitadores-de-dios-en-amor | 1–7 | Exhortación parenética | imitar-dios-amor |
+| 2 | Hijos de luz y frutos de luz | efesios-5-hijos-de-luz-y-frutos-de-luz | 8–14 | Exhortación parenética | hijos-luz-discernimiento |
+| 3 | Andar sabiamente en el tiempo | efesios-5-andar-sabiamente-en-el-tiempo | 15–20 | Exhortación parenética | tiempo-llenar-de-espiritu |
+| 4 | Misterio nupcial de Cristo y la iglesia | efesios-5-misterio-nupcial-de-cristo-y-la-iglesia | 21–33 | Exhortación parenética | gran-misterio-matrimonio |
 
 ### Efesios 6
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Deberes filiales de padres y | efesios-6-deberes-filiales-de-padres-y | 1–9 | Exhortación parenética | etica-hogar-cristiano |
-| 2 | Lucha encarnizada y armadura divina | efesios-6-lucha-encarnizada-y-armadura-divina | 10–20 | Exhortación parenética | toda-la-armadura-dios |
-| 3 | Últimas exhortaciones piadosas de despedida | efesios-6-ultimas-exhortaciones-piadosas-de-despedida | 21–24 | Despedida/saludos | despedida-efeso-pablo |
+| 1 | Deberes de hijos y padres | efesios-6-deberes-de-hijos-y-padres | 1–9 | Exhortación parenética | etica-hogar-cristiano |
+| 2 | Armadura divina contra el mal | efesios-6-armadura-divina-contra-el-mal | 10–20 | Exhortación parenética | toda-la-armadura-dios |
+| 3 | Exhortaciones finales y despedida | efesios-6-exhortaciones-finales-y-despedida | 21–24 | Despedida/saludos | despedida-efeso-pablo |
 
 ---
-
 ## 6. Epístola a los Filipenses (4 capítulos)
 
 ### Filipenses 1
@@ -415,7 +422,7 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Oración de gratitud y afecto | filipenses-1-oracion-de-gratitud-y-afecto | 1–2 | Salutación | abertura-filipenses |
 | 2 | Cadenas apostólicas propagadoras de fe | filipenses-1-cadenas-apostolicas-propagadoras-de-fe | 3–20 | Acción de gracias | vivir-cristo-morir-ganancia |
-| 3 | Vivir es Cristo morir es | filipenses-1-vivir-es-cristo-morir-es | 21–30 | Exhortación parenética | combatiendo-fieles-unianimes |
+| 3 | Vivir es Cristo, morir es ganancia | filipenses-1-vivir-es-cristo-morir-es-ganancia | 21–30 | Exhortación parenética | combatiendo-fieles-unianimes |
 
 ### Filipenses 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -423,57 +430,56 @@
 | 1 | Humillación crística y gloria posterior | filipenses-2-humillacion-cristica-y-gloria-posterior | 1–4 | Exhortación parenética | humildad-comunion |
 | 2 | Luminarias limpias en generación perversa | filipenses-2-luminarias-limpias-en-generacion-perversa | 5–11 | Cuerpo doctrinal | kenosis-exaltacion-cristo |
 | 3 | Elogio a servidores de confianza | filipenses-2-elogio-a-servidores-de-confianza | 12–18 | Exhortación parenética | luminarias-en-mundo |
-| 4 | Guía pastoral fiel Filipenses 2 | filipenses-2-guia-pastoral-fiel-filipenses-2 | 19–30 | Despedida/saludos | colaboradores-filipos-pablo |
+| 4 | Guía pastoral fiel y colaboradores | filipenses-2-guia-pastoral-fiel-y-colaboradores | 19–30 | Despedida/saludos | colaboradores-filipos-pablo |
 
 ### Filipenses 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Excelencia de conocer a Jesucristo | filipenses-3-excelencia-de-conocer-a-jesucristo | 1–11 | Cuerpo doctrinal | justicia-obra-vs-fe |
-| 2 | Ciudadanos patrios apuntando a meta | filipenses-3-ciudadanos-patrios-apuntando-a-meta | 12–16 | Exhortación parenética | proseguir-al-blanco-pablo |
+| 2 | Ciudadanos patrios apuntando a la meta | filipenses-3-ciudadanos-patrios-apuntando-a-la-meta | 12–16 | Exhortación parenética | proseguir-al-blanco-pablo |
 | 3 | Adán y Cristo en Filipenses | filipenses-3-adan-y-cristo-en-filipenses | 17–21 | Cuerpo doctrinal | ciudadanos-del-cielo |
 
 ### Filipenses 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Gozarse en el Señor y | filipenses-4-gozarse-en-el-senor-y | 1–7 | Exhortación parenética | regocijaos-senor-siempre |
+| 1 | Gozarse en el Señor y paz | filipenses-4-gozarse-en-el-senor-y-paz | 1–7 | Exhortación parenética | regocijaos-senor-siempre |
 | 2 | Gratitud por el auxilio filipense | filipenses-4-gratitud-por-el-auxilio-filipense | 8–9 | Exhortación parenética | pensamientos-virtud-belleza |
 | 3 | Despedida triunfal y saludos finales | filipenses-4-despedida-triunfal-y-saludos-finales | 10–20 | Acción de gracias | todo-puedo-cristo-fortalece |
 | 4 | Afecto fraternal y gozo filipense | filipenses-4-afecto-fraternal-y-gozo-filipense | 21–23 | Despedida/saludos | saludos-vuestra-casa-cesar |
 
 ---
-
 ## 7. Epístola a los Colosenses (4 capítulos)
 
 ### Colosenses 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Gratitud por fe de santos | colosenses-1-gratitud-por-fe-de-santos | 1–8 | Salutación | saludo-colosas-pablo |
+| 1 | Gratitud por fe de los santos | colosenses-1-gratitud-por-fe-de-los-santos | 1–8 | Salutación | saludo-colosas-pablo |
 | 2 | Supremacía absoluta del Hijo soberano | colosenses-1-supremacia-absoluta-del-hijo-soberano | 9–14 | Acción de gracias | gracias-comunion-luz |
 | 3 | Sufrimiento gozoso de heraldo divino | colosenses-1-sufrimiento-gozoso-de-heraldo-divino | 15–23 | Cuerpo doctrinal | supremacia-reconciliacion-cristo |
-| 4 | Luz espiritual y discernimiento en | colosenses-1-luz-espiritual-y-discernimiento-en | 24–29 | Cuerpo doctrinal | cristo-en-vosotros-esperanza |
+| 4 | Luz espiritual y discernimiento | colosenses-1-luz-espiritual-y-discernimiento | 24–29 | Cuerpo doctrinal | cristo-en-vosotros-esperanza |
 
 ### Colosenses 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Fe firme desestimando filosofías huecas | colosenses-2-fe-firme-desestimando-filosofias-huecas | 1–7 | Exhortación parenética | tesoros-sabiduría-ciencia-ocultos |
-| 2 | Triunfo absoluto de cruz sobre | colosenses-2-triunfo-absoluto-de-cruz-sobre | 8–15 | Cuerpo doctrinal | despojo-principados-triunfo |
+| 1 | Fe firme desestimando filosofías huecas | colosenses-2-fe-firme-desestimando-filosofias-huecas | 1–7 | Exhortación parenética | tesoros-sabiduria-ciencia-ocultos |
+| 2 | Triunfo absoluto de la cruz sobre potestades | colosenses-2-triunfo-absoluto-de-la-cruz-sobre-potestades | 8–15 | Cuerpo doctrinal | despojo-principados-triunfo |
 | 3 | Abominación de ascetismos normativos vanos | colosenses-2-abominacion-de-ascetismos-normativos-vanos | 16–23 | Exhortación parenética | sombras-de-lo-por-venir |
 
 ### Colosenses 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Buscar cosas de arriba celestial | colosenses-3-buscar-cosas-de-arriba-celestial | 1–4 | Exhortación parenética | resucitados-buscar-arriba |
-| 2 | La vida nueva en Cristo | colosenses-3-la-vida-nueva-en-cristo | 5–17 | Exhortación parenética | paz-cristo-gobierne-corazon |
-| 3 | Instrucciones domésticas inspiradas en Colosenses | colosenses-3-instrucciones-domesticas-inspiradas-en-colosenses | 18–25 | Exhortación parenética | etica-familiar-colosas |
+| 2 | Mortificar lo terrenal | colosenses-3-mortificar-lo-terrenal | 5–11 | Exhortación parenética | muerte-vida-vestir-nuevo |
+| 3 | Vestirse del hombre nuevo | colosenses-3-vestirse-del-hombre-nuevo | 12–17 | Exhortación parenética | paz-cristo-gobierne-corazon |
+| 4 | Instrucciones domésticas inspiradas | colosenses-3-instrucciones-domesticas-inspiradas | 18–25 | Exhortación parenética | etica-familiar-colosas |
 
 ### Colosenses 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Perseverar piadosamente en oración ferviente | colosenses-4-perseverar-piadosamente-en-oracion-ferviente | 1–6 | Exhortación parenética | palabra-con-gracia-sal |
-| 2 | Saludos y comendaciones afectuosas finales | colosenses-4-saludos-y-comendaciones-afectuosas-finales | 7–18 | Despedida/saludos | despedida-colosas-pablo |
+| 2 | Saludos y recomendaciones afectuosas finales | colosenses-4-saludos-y-recomendaciones-afectuosas-finales | 7–18 | Despedida/saludos | despedida-colosas-pablo |
 
 ---
-
 ## 8. Primera Epístola a los Tesalonicenses (5 capítulos)
 
 ### 1 Tesalonicenses 1
@@ -485,31 +491,31 @@
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Pastoreo tierno del heraldo apostólico | 1-tesalonicenses-2-pastoreo-tierno-del-heraldo-apostolico | 1–12 | Cuerpo doctrinal | trabajar-noche-y-dia |
-| 2 | Gozar paciencia en persecution tesalonicense | 1-tesalonicenses-2-gozar-paciencia-en-persecution-tesalonicense | 13–16 | Cuerpo doctrinal | palabra-recibida-corazón |
-| 3 | Deseo ardiente por verlos de | 1-tesalonicenses-2-deseo-ardiente-por-verlos-de | 17–20 | Despedida/saludos | corona-de-gloria-pablo |
+| 2 | Gozar paciencia en persecución tesalonicense | 1-tesalonicenses-2-gozar-paciencia-en-persecucion-tesalonicense | 13–16 | Cuerpo doctrinal | palabra-recibida-corazon |
+| 3 | Deseo ardiente por verlos de nuevo | 1-tesalonicenses-2-deseo-ardiente-por-verlos-de-nuevo | 17–20 | Despedida/saludos | corona-de-gloria-pablo |
 
 ### 1 Tesalonicenses 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Arraigo de fe y reporte | 1-tesalonicenses-3-arraigo-de-fe-y-reporte | 1–10 | Despedida/saludos | alivio-tribulacion-pablo |
+| 1 | Arraigo de fe y reporte de Timoteo | 1-tesalonicenses-3-arraigo-de-fe-y-reporte-de-timoteo | 1–10 | Despedida/saludos | alivio-tribulacion-pablo |
 | 2 | Santidad en la venida celestial | 1-tesalonicenses-3-santidad-en-la-venida-celestial | 11–13 | Acción de gracias | santidad-venida-senor |
 
 ### 1 Tesalonicenses 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Santificación sexual y amor comunitario | 1-tesalonicenses-4-santificacion-sexual-y-amor-comunitario | 1–8 | Exhortación parenética | santidad-sexual-cristiana |
-| 2 | Parusía venidera y resurrección de | 1-tesalonicenses-4-parusia-venidera-y-resurreccion-de | 9–12 | Exhortación parenética | vivir-tranquilos-manos |
-| 3 | Luz espiritual y discernimiento Colosenses | 1-tesalonicenses-4-luz-espiritual-y-discernimiento-colosenses | 13–18 | Cuerpo doctrinal | arrepentimiento-rapimiento-nubes |
+| 2 | Amor fraternal y vida tranquila | 1-tesalonicenses-4-amor-fraternal-y-vida-tranquila | 9–12 | Exhortación parenética | vivir-tranquilos-manos |
+| 3 | Resurrección de los muertos y arrebatamiento | 1-tesalonicenses-4-resurreccion-de-los-muertos-y-arrebatamiento | 13–18 | Cuerpo doctrinal | arrepentimiento-rapimiento-nubes |
 
 ### 1 Tesalonicenses 5
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Vigilar piadosamente como hijos del | 1-tesalonicenses-5-vigilar-piadosamente-como-hijos-del | 1–11 | Cuerpo doctrinal | dia-del-senor-ladron |
-| 2 | Pautas litúrgicas y paz trinitaria | 1-tesalonicenses-5-pautas-liturgicas-y-paz-trinitaria | 12–22 | Exhortación parenética | orad-sin-cesar |
-| 3 | Saludo a santos fieles colosenses | 1-tesalonicenses-5-saludo-a-santos-fieles-colosenses | 23–28 | Despedida/saludos | santo-os-santifique |
+| 1 | El día del Señor como ladrón | 1-tesalonicenses-5-el-dia-del-senor-como-ladron | 1–3 | Cuerpo doctrinal | dia-del-senor-ladron |
+| 2 | Hijos del día y del alba | 1-tesalonicenses-5-hijos-del-dia-y-del-alba | 4–11 | Exhortación parenética | hijos-luz-vigilar |
+| 3 | Pautas litúrgicas y paz trinitaria | 1-tesalonicenses-5-pautas-liturgicas-y-paz-trinitaria | 12–22 | Exhortación parenética | orad-sin-cesar |
+| 4 | Saludo final a los santos fieles | 1-tesalonicenses-5-saludo-final-a-los-santos-fieles | 23–28 | Despedida/saludos | santo-os-santifique |
 
 ---
-
 ## 9. Segunda Epístola a los Tesalonicenses (3 capítulos)
 
 ### 2 Tesalonicenses 1
@@ -521,33 +527,32 @@
 ### 2 Tesalonicenses 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Apostasía profetizada e hijo de | 2-tesalonicenses-2-apostasia-profetizada-e-hijo-de | 1–12 | Cuerpo doctrinal | apostasia-hombre-pecado |
-| 2 | Elegidos para salvacion por fe | 2-tesalonicenses-2-elegidos-para-salvacion-por-fe | 13–17 | Exhortación parenética | mantened-tradiciones-ensenadas |
+| 1 | Apostasía profetizada e hijo de perdición | 2-tesalonicenses-2-apostasia-profetizada-e-hijo-de-perdicion | 1–12 | Cuerpo doctrinal | apostasia-hombre-pecado |
+| 2 | Elegidos para salvación por fe | 2-tesalonicenses-2-elegidos-para-salvacion-por-fe | 13–17 | Exhortación parenética | mantened-tradiciones-ensenadas |
 
 ### 2 Tesalonicenses 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Amor de Dios y pautas | 2-tesalonicenses-3-amor-de-dios-y-pautas | 1–5 | Acción de gracias | senor-es-fiel |
+| 1 | Amor de Dios y oración por la Palabra | 2-tesalonicenses-3-amor-de-dios-y-oracion-por-la-palabra | 1–5 | Acción de gracias | senor-es-fiel |
 | 2 | Deber ético del trabajo honrado | 2-tesalonicenses-3-deber-etico-del-trabajo-honrado | 6–15 | Exhortación parenética | no-quiere-trabajar-no-coma |
-| 3 | La auténtica firma en 2 | 2-tesalonicenses-3-la-autentica-firma-en-2 | 16–18 | Despedida/saludos | firma-saludo-pablo |
+| 3 | La auténtica firma apostólica | 2-tesalonicenses-3-la-autentica-firma-apostolica | 16–18 | Despedida/saludos | firma-saludo-pablo |
 
 ---
-
 ## 10. Primera Epístola a Timoteo (6 capítulos)
 
 ### 1 Timoteo 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Combatir firmemente doctrinas engañosas impías | 1-timoteo-1-combatir-firmemente-doctrinas-enganosas-impias | 1–7 | Salutación | apostasia-mitos-genealogias |
-| 2 | Abundante misericordia de Dios con | 1-timoteo-1-abundante-misericordia-de-dios-con | 8–11 | Cuerpo doctrinal | ley-hecha-para-transgresores |
+| 1 | Combatir firmemente doctrinas engañosas | 1-timoteo-1-combatir-firmemente-doctrinas-enganosas | 1–7 | Salutación | apostasia-mitos-genealogias |
+| 2 | La ley santa para los transgresores | 1-timoteo-1-la-ley-santa-para-los-transgresores | 8–11 | Cuerpo doctrinal | ley-hecha-para-transgresores |
 | 3 | Milicia espiritual de buena conciencia | 1-timoteo-1-milicia-espiritual-de-buena-conciencia | 12–17 | Acción de gracias | rey-eterno-invisible-honra |
-| 4 | Guía pastoral fiel en 1 | 1-timoteo-1-guia-pastoral-fiel-en-1 | 18–20 | Exhortación parenética | milicia-fe-naufragio |
+| 4 | Encargo pastoral a Timoteo | 1-timoteo-1-encargo-pastoral-a-timoteo | 18–20 | Exhortación parenética | milicia-fe-naufragio |
 
 ### 1 Timoteo 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Oración por los hombres | 1-timoteo-2-oracion-por-los-hombres | 1–7 | Exhortación parenética | mediador-dios-hombres |
-| 2 | La asamblea del Señor | 1-timoteo-2-la-asamblea-del-senor | 8–15 | Exhortación parenética | conducta-sobriedad-asamblea |
+| 1 | Oración por todos los hombres | 1-timoteo-2-oracion-por-todos-los-hombres | 1–7 | Exhortación parenética | mediador-dios-hombres |
+| 2 | Conducta sobria en la asamblea | 1-timoteo-2-conducta-sobria-en-la-asamblea | 8–15 | Exhortación parenética | conducta-sobriedad-asamblea |
 
 ### 1 Timoteo 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -559,42 +564,41 @@
 ### 1 Timoteo 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Advertencia de apostasía de fines | 1-timoteo-4-advertencia-de-apostasia-de-fines | 1–5 | Cuerpo doctrinal | falsos-espiritus-apostasia |
-| 2 | Ministro de piedad ejercitado en | 1-timoteo-4-ministro-de-piedad-ejercitado-en | 6–10 | Exhortación parenética | ejercicio-corporal-vs-piedad |
-| 3 | Guía pastoral fiel Colosenses 4 | 1-timoteo-4-guia-pastoral-fiel-colosenses-4 | 11–16 | Exhortación parenética | nadie-tenga-poca-juventud |
+| 1 | Advertencia de apostasía de los últimos tiempos | 1-timoteo-4-advertencia-de-apostasia-de-los-ultimos-tiempos | 1–5 | Cuerpo doctrinal | falsos-espiritus-apostasia |
+| 2 | Ministro de piedad ejercitado | 1-timoteo-4-ministro-de-piedad-ejercitado | 6–10 | Exhortación parenética | ejercicio-corporal-vs-piedad |
+| 3 | Ejemplo en palabra y conducta | 1-timoteo-4-ejemplo-en-palabra-y-conducta | 11–16 | Exhortación parenética | nadie-tenga-poca-juventud |
 
 ### 1 Timoteo 5
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Atención pastoral justa de viudas | 1-timoteo-5-atencion-pastoral-justa-de-viudas | 1–16 | Exhortación parenética | viudas-verdaderas-asistencia |
-| 2 | Honra a presbíteros y pautas | 1-timoteo-5-honra-a-presbiteros-y-pautas | 17–25 | Exhortación parenética | doble-honor-presbiteros |
+| 2 | Honra a presbíteros y pautas de justicia | 1-timoteo-5-honra-a-presbiteros-y-pautas-de-justicia | 17–25 | Exhortación parenética | doble-honor-presbiteros |
 
 ### 1 Timoteo 6
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Siervos fieles y males de | 1-timoteo-6-siervos-fieles-y-males-de | 1–2 | Exhortación parenética | siervos-doctrina-honra |
-| 2 | Custodiar sagrado depósito de fe | 1-timoteo-6-custodiar-sagrado-deposito-de-fe | 3–10 | Exhortación parenética | raíz-males-avaricia |
-| 3 | Guía pastoral fiel Colosenses 6 | 1-timoteo-6-guia-pastoral-fiel-colosenses-6 | 11–16 | Exhortación parenética | pelea-buena-batalla-fe |
-| 4 | El encargo apostólico para reprender | 1-timoteo-6-el-encargo-apostolico-para-reprender | 17–21 | Despedida/saludos | tesoro-futuro-deposito-gracia |
+| 1 | Siervos fieles y honra a sus amos | 1-timoteo-6-siervos-fieles-y-honra-a-sus-amos | 1–2 | Exhortación parenética | siervos-doctrina-honra |
+| 2 | Raíz de males: la avaricia | 1-timoteo-6-raiz-de-males-la-avaricia | 3–10 | Exhortación parenética | raiz-males-avaricia |
+| 3 | Pelea la buena batalla de la fe | 1-timoteo-6-pelea-la-buena-batalla-de-la-fe | 11–16 | Exhortación parenética | pelea-buena-batalla-fe |
+| 4 | Encargo apostólico a los ricos | 1-timoteo-6-encargo-apostolico-a-los-ricos | 17–21 | Despedida/saludos | tesoro-futuro-deposito-gracia |
 
 ---
-
 ## 11. Segunda Epístola a Timoteo (4 capítulos)
 
 ### 2 Timoteo 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Herencia familiar de devoción sincera | 2-timoteo-1-herencia-familiar-de-devocion-sincera | 1–5 | Salutación | abuela-loida-madre-eunice |
-| 2 | Fuerza espiritual libre de cobardía | 2-timoteo-1-fuerza-espiritual-libre-de-cobardia | 6–12 | Cuerpo doctrinal | espíritu-poder-amor-dominio |
-| 3 | Fidelidad de Onesíforo confortador íntimo | 2-timoteo-1-fidelidad-de-onesiforo-confortador-intimo | 13–18 | Exhortación parenética | fidelidad-onesiforo-consuelo |
+| 2 | Fuerza espiritual libre de cobardía | 2-timoteo-1-fuerza-espiritual-libre-de-cobardia | 6–12 | Cuerpo doctrinal | espiritu-poder-amor-dominio |
+| 3 | Fidelidad de Onesíforo confortador | 2-timoteo-1-fidelidad-de-onesiforo-confortador | 13–18 | Exhortación parenética | fidelidad-onesiforo-consuelo |
 
 ### 2 Timoteo 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Soldados sufridos de disciplina militar | 2-timoteo-2-soldados-sufridos-de-disciplina-militar | 1–7 | Exhortación parenética | ejemplos-perseverancia-pablo |
-| 2 | Obrero fiel trazando rectamente verdad | 2-timoteo-2-obrero-fiel-trazando-rectamente-verdad | 8–13 | Cuerpo doctrinal | si-morimos-reinaremos |
-| 3 | Vivir santamente huyendo de pasiones | 2-timoteo-2-vivir-santamente-huyendo-de-pasiones | 14–21 | Exhortación parenética | palabras-vacias-himeneo-fileto |
-| 4 | Exhortación seria a huir en | 2-timoteo-2-exhortacion-seria-a-huir-en | 22–26 | Exhortación parenética | mansedumbre-correccion-error |
+| 1 | Símiles de soldado, atleta y labrador | 2-timoteo-2-similes-de-soldado-atleta-y-labrador | 1–7 | Exhortación parenética | ejemplos-perseverancia-pablo |
+| 2 | Obrero fiel trazando rectamente la verdad | 2-timoteo-2-obrero-fiel-trazando-rectamente-la-verdad | 8–13 | Cuerpo doctrinal | si-morimos-reinaremos |
+| 3 | Vivir santamente huyendo de pasiones juveniles | 2-timoteo-2-vivir-santamente-huyendo-de-pasiones-juveniles | 14–21 | Exhortación parenética | palabras-vacias-himeneo-fileto |
+| 4 | Mansedumbre en la corrección del error | 2-timoteo-2-mansedumbre-en-la-correccion-del-error | 22–26 | Exhortación parenética | mansedumbre-correccion-error |
 
 ### 2 Timoteo 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -605,12 +609,11 @@
 ### 2 Timoteo 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Solemnidad de predicar palabra oportuna | 2-timoteo-4-solemnidad-de-predicar-palabra-oportuna | 1–5 | Exhortación parenética | oidos-comezon-fabulas |
-| 2 | Combate acabado esperando corona de | 2-timoteo-4-combate-acabado-esperando-corona-de | 6–8 | Cuerpo doctrinal | corona-justicia-guardado-fe |
+| 1 | Solemnidad de predicar la palabra | 2-timoteo-4-solemnidad-de-predicar-la-palabra | 1–5 | Exhortación parenética | oidos-comezon-fabulas |
+| 2 | Combate acabado esperando corona | 2-timoteo-4-combate-acabado-esperando-corona | 6–8 | Cuerpo doctrinal | corona-justicia-guardado-fe |
 | 3 | Últimos encargos y saludos íntimos | 2-timoteo-4-ultimos-encargos-y-saludos-intimos | 9–22 | Despedida/saludos | demas-abandono-libros-pergaminos |
 
 ---
-
 ## 12. Epístola a Tito (3 capítulos)
 
 ### Tito 1
@@ -618,85 +621,83 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Criterios para ordenar presbíteros cretenses | tito-1-criterios-para-ordenar-presbiteros-cretenses | 1–4 | Salutación | declaracion-verdad-pablo |
 | 2 | Censurar habladores de vanidades falsas | tito-1-censurar-habladores-de-vanidades-falsas | 5–9 | Exhortación parenética | obispos-creta-administracion |
-| 3 | La firme instrucción apostólica para | tito-1-la-firme-instruccion-apostolica-para | 10–16 | Cuerpo doctrinal | cretenses-mentirosos-malas-bestias |
+| 3 | Firme instrucción apostólica para callar | tito-1-firme-instruccion-apostolica-para-callar | 10–16 | Cuerpo doctrinal | cretenses-mentirosos-malas-bestias |
 
 ### Tito 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Ética provechosa para diversas clases | tito-2-etica-provechosa-para-diversas-clases | 1–10 | Exhortación parenética | sobriedad-buen-ejemplo-tito |
+| 1 | Ética provechosa para diversas clases sociales | tito-2-etica-provechosa-para-diversas-clases-sociales | 1–10 | Exhortación parenética | sobriedad-buen-ejemplo-tito |
 | 2 | Gracia divina inspiradora de santidad | tito-2-gracia-divina-inspiradora-de-santidad | 11–15 | Cuerpo doctrinal | manifestacion-gloriosa-senor |
 
 ### Tito 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Conducta virtuosa y bautismo de | tito-3-conducta-virtuosa-y-bautismo-de | 1–7 | Cuerpo doctrinal | lavamiento-regeneracion-espiritu |
-| 2 | Evitar disputas estériles sobre genealogías | tito-3-evitar-disputas-esteriles-sobre-genealogias | 8–11 | Exhortación parenética | evitar-necedades-hereje |
+| 1 | Conducta virtuosa y bautismo de regeneración | tito-3-conducta-virtuosa-y-bautismo-de-regeneracion | 1–7 | Cuerpo doctrinal | lavamiento-regeneracion-espiritu |
+| 2 | Evitar disputas estériles sobre la ley | tito-3-evitar-disputas-esteriles-sobre-la-ley | 8–11 | Exhortación parenética | evitar-necedades-hereje |
 | 3 | Comisión pastoral para establecer orden | tito-3-comision-pastoral-para-establecer-orden | 12–15 | Despedida/saludos | saludos-colaboradores-tito |
 
 ---
-
 ## 13. Epístola a Filemón (1 capítulo, 25 versículos)
 
 ### Filemón 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Fidelidad y gozo apostólico por | filemon-1-fidelidad-y-gozo-apostolico-por | 1–7 | Salutación | oracion-amor-filemon |
-| 2 | Intercesión tierna por el esclavo | filemon-1-intercesion-tierna-por-el-esclavo | 8–20 | Exhortación parenética | onesimo-hermano-amado |
-| 3 | Solemne compromiso de hospedar al | filemon-1-solemne-compromiso-de-hospedar-al | 21–25 | Despedida/saludos | saludos-epafras-lucas-fe |
+| 1 | Fidelidad y amor de Filemón | filemon-1-fidelidad-y-amor-de-filemon | 1–7 | Salutación | oracion-amor-filemon |
+| 2 | Intercesión tierna por el esclavo Onésimo | filemon-1-intercesion-tierna-por-el-esclavo-onesimo | 8–20 | Exhortación parenética | onesimo-hermano-amado |
+| 3 | Solemne compromiso de hospedar al apóstol | filemon-1-solemne-compromiso-de-hospedar-al-apostol | 21–25 | Despedida/saludos | saludos-epafras-lucas-fe |
 
 ---
-
 ## 14. Epístola a los Hebreos (13 capítulos)
 
 ### Hebreos 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Soberanía resplandeciente del Hijo creador | hebreos-1-soberania-resplandeciente-del-hijo-creador | 1–4 | Cuerpo doctrinal | revelacion-final-hijo |
-| 2 | El maravilloso argumento teológico que | hebreos-1-el-maravilloso-argumento-teologico-que | 5–14 | Cuerpo doctrinal | cristo-gloria-sobre-angeles |
+| 1 | Revelación final por el Hijo creador | hebreos-1-revelacion-final-por-el-hijo-creador | 1–4 | Cuerpo doctrinal | revelacion-final-hijo |
+| 2 | Superioridad del Hijo sobre los ángeles | hebreos-1-superioridad-del-hijo-sobre-los-angeles | 5–14 | Cuerpo doctrinal | cristo-gloria-sobre-angeles |
 
 ### Hebreos 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Desatención peligrosa del gran anuncio | hebreos-2-desatencion-peligrosa-del-gran-anuncio | 1–4 | Exhortación parenética | no-descuidar-salvacion |
 | 2 | Solidaridad de Cristo asumiendo carne | hebreos-2-solidaridad-de-cristo-asumiendo-carne | 5–9 | Cuerpo doctrinal | recorrido-humillacion-gloria |
-| 3 | El Salvador perfecto que se | hebreos-2-el-salvador-perfecto-que-se | 10–18 | Cuerpo doctrinal | hermanidad-creyente-cristo |
+| 3 | El Salvador perfecto hecho hermano | hebreos-2-el-salvador-perfecto-hecho-hermano | 10–18 | Cuerpo doctrinal | hermanidad-creyente-cristo |
 
 ### Hebreos 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Jesucristo de gloria superior a | hebreos-3-jesucristo-de-gloria-superior-a | 1–6 | Cuerpo doctrinal | fidelidad-hijo-vs-siervo |
+| 1 | Jesucristo de gloria superior a Moisés | hebreos-3-jesucristo-de-gloria-superior-a-moises | 1–6 | Cuerpo doctrinal | fidelidad-hijo-vs-siervo |
 | 2 | Evitar endurecimiento e incredulidad rebelde | hebreos-3-evitar-endurecimiento-e-incredulidad-rebelde | 7–19 | Exhortación parenética | no-endurecer-corazon-desierto |
 
 ### Hebreos 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Descanso sabático celestial prometido a | hebreos-4-descanso-sabatico-celestial-prometido-a | 1–11 | Cuerpo doctrinal | reposo-dios-creencia |
-| 2 | Escrutinio vivo de espada de | hebreos-4-escrutinio-vivo-de-espada-de | 12–13 | Cuerpo doctrinal | palabra-viva-penetrante |
+| 1 | Descanso sabático celestial prometido | hebreos-4-descanso-sabatico-celestial-prometido | 1–11 | Cuerpo doctrinal | reposo-dios-creencia |
+| 2 | Escrutinio vivo de la espada del Espíritu | hebreos-4-escrutinio-vivo-de-la-espada-del-espiritu | 12–13 | Cuerpo doctrinal | palabra-viva-penetrante |
 | 3 | Pontífice supremo compasivo de flaquezas | hebreos-4-pontifice-supremo-compasivo-de-flaquezas | 14–16 | Cuerpo doctrinal | trono-gracia-oportuno-socorro |
 
 ### Hebreos 5
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Señor ungido según orden Melquisedec | hebreos-5-senor-ungido-segun-orden-melquisedec | 1–10 | Cuerpo doctrinal | rango-melquisedec-cristo |
+| 1 | Señor ungido según el orden de Melquisedec | hebreos-5-senor-ungido-segun-el-orden-de-melquisedec | 1–10 | Cuerpo doctrinal | rango-melquisedec-cristo |
 | 2 | Madurez rezagada y reclamo pastoral | hebreos-5-madurez-rezagada-y-reclamo-pastoral | 11–14 | Exhortación parenética | leche-infancia-madurez-vianda |
 
 ### Hebreos 6
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Desvarío infructuoso de apostasía irreversible | hebreos-6-desvario-infructuoso-de-apostasia-irreversible | 1–8 | Exhortación parenética | imposible-renovar-arrepentimiento |
-| 2 | Seguridad inamovible de promesa y | hebreos-6-seguridad-inamovible-de-promesa-y | 9–20 | Cuerpo doctrinal | promesa-abraham-juramento |
+| 2 | Seguridad inamovible de la promesa divina | hebreos-6-seguridad-inamovible-de-la-promesa-divina | 9–20 | Cuerpo doctrinal | promesa-abraham-juramento |
 
 ### Hebreos 7
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Rey misterioso de justicia y | hebreos-7-rey-misterioso-de-justicia-y | 1–10 | Cuerpo doctrinal | melquisedec-encuentro-abraham |
-| 2 | Invalidez levítica y nuevo régimen | hebreos-7-invalidez-levitica-y-nuevo-regimen | 11–28 | Cuerpo doctrinal | sacerdote-para-siempre-poder |
+| 1 | Rey misterioso de justicia y paz | hebreos-7-rey-misterioso-de-justicia-y-paz | 1–10 | Cuerpo doctrinal | melquisedec-encuentro-abraham |
+| 2 | Invalidez levítica y nuevo régimen sacerdotal | hebreos-7-invalidez-levitica-y-nuevo-regimen-sacerdotal | 11–28 | Cuerpo doctrinal | sacerdote-para-siempre-poder |
 
 ### Hebreos 8
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Sacerdocio en celestial tabernáculo real | hebreos-8-sacerdocio-en-celestial-tabernaculo-real | 1–6 | Cuerpo doctrinal | santuario-celestial-modelo |
-| 2 | Nuevo pacto supremo aboliente del | hebreos-8-nuevo-pacto-supremo-aboliente-del | 7–13 | Cuerpo doctrinal | nuevo-pacto-ley-corazón |
+| 2 | Nuevo pacto supremo aboliente del antiguo | hebreos-8-nuevo-pacto-supremo-aboliente-del-antiguo | 7–13 | Cuerpo doctrinal | nuevo-pacto-ley-corazon |
 
 ### Hebreos 9
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -707,10 +708,11 @@
 ### Hebreos 10
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Obediencia perfecta superando sacrificios ineficaces | hebreos-10-obediencia-perfecta-superando-sacrificios-ineficaces | 1–18 | Cuerpo doctrinal | ofrenda-cuerpo-cristo-perfecta |
-| 2 | Acceso glorioso al lugar de | hebreos-10-acceso-glorioso-al-lugar-de | 19–25 | Exhortación parenética | camino-nuevo-y-vivo |
-| 3 | Perseveras frente a tribulaciones y | hebreos-10-perseveras-frente-a-tribulaciones-y | 26–31 | Exhortación parenética | horrenda-cosa-caer-manos |
-| 4 | La consoladora exhortación a mantener | hebreos-10-la-consoladora-exhortacion-a-mantener | 32–39 | Exhortación parenética | justo-vivira-por-fe |
+| 1 | Obediencia perfecta superando sacrificios | hebreos-10-obediencia-perfecta-superando-sacrificios | 1–18 | Cuerpo doctrinal | ofrenda-cuerpo-cristo-perfecta |
+| 2 | Acceso glorioso al lugar santísimo | hebreos-10-acceso-glorioso-al-lugar-santisimo | 19–25 | Exhortación parenética | camino-nuevo-y-vivo |
+| 3 | Pecar voluntariamente sin arrepentimiento | hebreos-10-pecar-voluntariamente-sin-arrepentimiento | 26–29 | Exhortación parenética | horrenda-cosa-caer-manos |
+| 4 | Venganza de Dios terrible | hebreos-10-venganza-de-dios-terrible | 30–31 | Exhortación parenética | juicio-fuego-devorara |
+| 5 | Consoladora exhortación a mantener la fe | hebreos-10-consoladora-exhortacion-a-mantener-la-fe | 32–39 | Exhortación parenética | justo-vivira-por-fe |
 
 ### Hebreos 11
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -718,45 +720,47 @@
 | 1 | Heroicos ejemplos antiguos de fe | hebreos-11-heroicos-ejemplos-antiguos-de-fe | 1–7 | Cuerpo doctrinal | fe-sustancia-invisible |
 | 2 | Patria celestial anhelada por patriarcas | hebreos-11-patria-celestial-anhelada-por-patriarcas | 8–22 | Cuerpo doctrinal | fe-patriarcas-tierras-lejanas |
 | 3 | Soportar penalidades gozosos por fe | hebreos-11-soportar-penalidades-gozosos-por-fe | 23–31 | Cuerpo doctrinal | fe-lideres-israel-conquista |
-| 4 | El conmovedor memorial que relata | hebreos-11-el-conmovedor-memorial-que-relata | 32–40 | Cuerpo doctrinal | heroes-fe-persecuciones |
+| 4 | Conmovedora galería de héroes de la fe | hebreos-11-conmovedora-galeria-de-heroes-de-la-fe | 32–40 | Cuerpo doctrinal | heroes-fe-persecuciones |
 
 ### Hebreos 12
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Correr carrera mirando al consumador | hebreos-12-correr-carrera-mirando-al-consumador | 1–3 | Exhortación parenética | autor-consumador-fe-cristo |
 | 2 | Amor paternal educador con paciencia | hebreos-12-amor-paternal-educador-con-paciencia | 4–13 | Exhortación parenética | dios-disciplina-hijo-ama |
-| 3 | Asamblea celestial frente a temores | hebreos-12-asamblea-celestial-frente-a-temores | 14–17 | Exhortación parenética | profanacion-primogenitura-esau |
-| 4 | El asombroso contraste teológico entre | hebreos-12-el-asombroso-contraste-teologico-entre | 18–29 | Cuerpo doctrinal | ciudad-dios-vivo-reino |
+| 3 | Asamblea celestial frente a Esaú profano | hebreos-12-asamblea-celestial-frente-a-esau-profano | 14–17 | Exhortación parenética | profanacion-primogenitura-esau |
+| 4 | Asombroso contraste entre Sinaí y Sion | hebreos-12-asombroso-contraste-entre-sinai-y-sion | 18–29 | Cuerpo doctrinal | ciudad-dios-vivo-reino |
 
 ### Hebreos 13
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Amor hospitalidad y pureza de | hebreos-13-amor-hospitalidad-y-pureza-de | 1–6 | Exhortación parenética | amor-fraternal-contentamiento |
-| 2 | Pautas jerárquicas y bendición celestial | hebreos-13-pautas-jerarquicas-y-bendicion-celestial | 7–16 | Exhortación parenética | cristo-ayer-hoy-siglos |
-| 3 | Instrucciones para obedecer cordialmente a | hebreos-13-instrucciones-para-obedecer-cordialmente-a | 17–25 | Despedida/saludos | dios-paz-rebaño-equipamiento |
+| 1 | Amor fraternal, hospitalidad y contentment | hebreos-13-amor-fraternal-hospitalidad-y-contentment | 1–6 | Exhortación parenética | amor-fraternal-contentamiento |
+| 2 | Pautas cristianas y sacrificio de alabanza | hebreos-13-pautas-cristianas-y-sacrificio-de-alabanza | 7–16 | Exhortación parenética | cristo-ayer-hoy-siglos |
+| 3 | Obediencia a guías y bendición final | hebreos-13-obediencia-a-guias-y-bendicion-final | 17–25 | Despedida/saludos | dios-paz-rebaño-equipamiento |
 
 ---
-
 ## 15. Epístola Universal de Santiago (5 capítulos)
 
 ### Santiago 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Gozo maduro en duraderas pruebas | santiago-1-gozo-maduro-en-duraderas-pruebas | 1–8 | Salutación | pedir-sabiduria-fe |
-| 2 | Pedir fe sin dudar de | santiago-1-pedir-fe-sin-dudar-de | 9–18 | Cuerpo doctrinal | dios-no-tienta-nadie |
-| 3 | Naturaleza de tentaciones y bondad | santiago-1-naturaleza-de-tentaciones-y-bondad | 19–27 | Exhortación parenética | religion-pura-sin-mancha |
+| 2 | Pedir fe sin dudar ante la prueba | santiago-1-pedir-fe-sin-dudar-ante-la-prueba | 9–18 | Cuerpo doctrinal | dios-no-tienta-nadie |
+| 3 | Prontos para oír tardos para hablar | santiago-1-prontos-para-oir-tardos-para-hablar | 19–21 | Exhortación parenética | oir-tardios-hablar-airarse |
+| 4 | Hacedores de la palabra | santiago-1-hacedores-de-la-palabra | 22–25 | Exhortación parenética | hacedores-no-oidores |
+| 5 | Religión pura y sin mácula | santiago-1-religion-pura-y-sin-macula | 26–27 | Exhortación parenética | religion-pura-sin-mancha |
 
 ### Santiago 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Misericordia superior contra distinción social | santiago-2-misericordia-superior-contra-distincion-social | 1–13 | Exhortación parenética | ley-real-es-amor |
-| 2 | Fe inactiva desprovista de vida | santiago-2-fe-inactiva-desprovista-de-vida | 14–26 | Cuerpo doctrinal | fe-sin-obras-esta-muerta |
+| 1 | No acepción de personas | santiago-2-no-acepcion-de-personas | 1–7 | Exhortación parenética | ley-real-es-amor |
+| 2 | Ley de libertad y misericordia | santiago-2-ley-de-libertad-y-misericordia | 8–13 | Exhortación parenética | misericordia-triunfa-juicio |
+| 3 | Fe inactiva desprovista de vida | santiago-2-fe-inactiva-desprovista-de-vida | 14–26 | Cuerpo doctrinal | fe-sin-obras-esta-muerta |
 
 ### Santiago 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Gobernar palabra con sabiduría celestial | santiago-3-gobernar-palabra-con-sabiduria-celestial | 1–12 | Exhortación parenética | fuego-destructor-lengua |
-| 2 | El claro discernimiento para diferenciar | santiago-3-el-claro-discernimiento-para-diferenciar | 13–18 | Cuerpo doctrinal | sabiduria-de-lo-alto |
+| 1 | Gobernar la palabra con sabiduría celestial | santiago-3-gobernar-la-palabra-con-sabiduria-celestial | 1–12 | Exhortación parenética | fuego-destructor-lengua |
+| 2 | Claro discernimiento para diferenciar sabiduría | santiago-3-claro-discernimiento-para-diferenciar-sabiduria | 13–18 | Cuerpo doctrinal | sabiduria-de-lo-alto |
 
 ### Santiago 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -769,120 +773,125 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Advertencia a ricos opresores avaros | santiago-5-advertencia-a-ricos-opresores-avaros | 1–6 | Exhortación parenética | clamor-segadores-oidos |
 | 2 | Firmeza paciente de santa oración | santiago-5-firmeza-paciente-de-santa-oracion | 7–11 | Exhortación parenética | paciencia-profetas-job |
-| 3 | Instrucciones sobre la veracidad en | santiago-5-instrucciones-sobre-la-veracidad-en | 12–18 | Exhortación parenética | oracion-fe-salvara-enfermo |
-| 4 | El Hermoso y tierno llamado | santiago-5-el-hermoso-y-tierno-llamado | 19–20 | Despedida/saludos | salvar-alma-muerte |
+| 3 | Verdad y oración por los enfermos | santiago-5-verdad-y-oracion-por-los-enfermos | 12–18 | Exhortación parenética | oracion-fe-salvara-enfermo |
+| 4 | Hermoso y tierno llamado al hermano errante | santiago-5-hermoso-y-tierno-llamado-al-hermano-errante | 19–20 | Despedida/saludos | salvar-alma-muerte |
 
 ---
-
 ## 16. Primera Epístola Universal de Pedro (5 capítulos)
 
 ### 1 Pedro 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Expatriados amados elegidos por presapiencia | 1-pedro-1-expatriados-amados-elegidos-por-presapiencia | 1–12 | Salutación | salvacion-profetizada-antiguos |
-| 2 | Gozosa herencia celestial inmarcesible fiel | 1-pedro-1-gozosa-herencia-celestial-inmarcesible-fiel | 13–21 | Exhortación parenética | sed-santos-porque-santo |
-| 3 | Palabra que permanece siempre | 1-pedro-1-palabra-que-permanece-siempre | 22–25 | Exhortación parenética | palabra-permanece-siempre |
+| 1 | Expatriados amados elegidos por presciencia | 1-pedro-1-expatriados-amados-elegidos-por-presciencia | 1–12 | Salutación | salvacion-profetizada-antiguos |
+| 2 | Sed santos en toda conducta | 1-pedro-1-sed-santos-en-toda-conducta | 13–16 | Exhortación parenética | sed-santos-porque-santo |
+| 3 | Conducíos en temor filial | 1-pedro-1-conducíos-en-temor-filial | 17–21 | Exhortación parenética | temor-juzgar-padre |
+| 4 | Palabra que permanece para siempre | 1-pedro-1-palabra-que-permanece-para-siempre | 22–25 | Exhortación parenética | palabra-permanece-siempre |
 
 ### 1 Pedro 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Piedras vivas y sacerdocio | 1-pedro-2-piedras-vivas-y-sacerdocio | 1–10 | Cuerpo doctrinal | pueblo-adquirido-nacion-santa |
-| 2 | Linaje escogido por Dios | 1-pedro-2-linaje-escogido-por-dios | 11–17 | Exhortación parenética | honrad-emperador-libertad |
-| 3 | Conducta ejemplar ante gobernantes | 1-pedro-2-conducta-ejemplar-ante-gobernantes | 18–25 | Exhortación parenética | heridas-fuimos-curados |
+| 1 | Piedras vivas y sacerdocio santo | 1-pedro-2-piedras-vivas-y-sacerdocio-santo | 1–10 | Cuerpo doctrinal | pueblo-adquirido-nacion-santa |
+| 2 | Abstenerse de deseos carnales | 1-pedro-2-abstenerse-de-deseos-carnales | 11–12 | Exhortación parenética | deseos-carnales-combaten |
+| 3 | Sujeción a toda ordenanza humana | 1-pedro-2-sujecion-a-toda-ordenanza-humana | 13–17 | Exhortación parenética | honrad-emperador-libertad |
+| 4 | Conducta ejemplar ante los gobernadores | 1-pedro-2-conducta-ejemplar-ante-los-gobernantes | 18–25 | Exhortación parenética | heridas-fuimos-curados |
 
 ### 1 Pedro 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Matrimonio y armonía familiar | 1-pedro-3-matrimonio-y-armonia-familiar | 1–7 | Exhortación parenética | esposas-esposos-herederos |
-| 2 | Mansedumbre ante el sufrimiento | 1-pedro-3-mansedumbre-ante-el-sufrimiento | 8–17 | Exhortación parenética | defensa-esperanza-mansedumbre |
-| 3 | El bautismo y victoria de | 1-pedro-3-el-bautismo-y-victoria-de | 18–22 | Cuerpo doctrinal | predicacion-espiritus-carcel |
+| 2 | Un mismo sentir y compasión | 1-pedro-3-un-mismo-sentir-y-compasion | 8–12 | Exhortación parenética | amar-fraternal-compasion |
+| 3 | Bienaventurados si padecéis | 1-pedro-3-bienaventurados-si-padeceis | 13–17 | Exhortación parenética | defensa-esperanza-mansedumbre |
+| 4 | Bautismo y victoria de Cristo sobre la muerte | 1-pedro-3-bautismo-y-victoria-de-cristo-sobre-la-muerte | 18–22 | Cuerpo doctrinal | predicacion-espiritus-carcel |
 
 ### 1 Pedro 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Vivir para la voluntad divina | 1-pedro-4-vivir-para-la-voluntad-divina | 1–6 | Cuerpo doctrinal | predica-evangelio-muertos |
-| 2 | Amor caritativo y dones | 1-pedro-4-amor-caritativo-y-dones | 7–11 | Exhortación parenética | amor-cubre-multitud-pecados |
-| 3 | Participar de sufrimientos de Cristo | 1-pedro-4-participar-de-sufrimientos-de-cristo | 12–19 | Exhortación parenética | juicio-comience-casa-dios |
+| 2 | Amor caritativo y dones ministeriales | 1-pedro-4-amor-caritativo-y-dones-ministeriales | 7–11 | Exhortación parenética | amor-cubre-multitud-pecados |
+| 3 | Participar de los sufrimientos de Cristo | 1-pedro-4-participar-de-los-sufrimientos-de-cristo | 12–19 | Exhortación parenética | juicio-comience-casa-dios |
 
 ### 1 Pedro 5
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Pastoreo ejemplar voluntario y humilde | 1-pedro-5-pastoreo-ejemplar-voluntario-y-humilde | 1–7 | Exhortación parenética | corona-incorruptible-gloria |
-| 2 | Resistencia en fe vigilando al | 1-pedro-5-resistencia-en-fe-vigilando-al | 8–11 | Exhortación parenética | león-rugiente-resistencia |
+| 2 | Resistencia en fe vigilando al adversario | 1-pedro-5-resistencia-en-fe-vigilando-al-adversario | 8–11 | Exhortación parenética | leon-rugiente-resistencia |
 | 3 | Despedida apostólica y santa bendición | 1-pedro-5-despedida-apostolica-y-santa-bendicion | 12–14 | Despedida/saludos | despedida-pedro-santos |
 
 ---
-
 ## 17. Segunda Epístola Universal de Pedro (3 capítulos)
 
 ### 2 Pedro 1
-| # | Título | Slug | v | Estilo | _evento_canonico |
-|:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Promesas excelentes y progreso espiritual | 2-pedro-1-promesas-excelentes-y-progreso-espiritual | 1–11 | Salutación | escala-virtudes-fe |
-| 2 | Previsión de partida corporal eminente | 2-pedro-1-prevision-de-partida-corporal-eminente | 12–18 | Cuerpo doctrinal | pablo-testigo-monte-gloria |
-| 3 | Glorias de transfiguración y profecía | 2-pedro-1-glorias-de-transfiguracion-y-profecia | 19–21 | Cuerpo doctrinal | profecia-escritura-espiritu |
+| # | Título | Slug | v | Estilo | _evento_canonico | _cita_de |
+|:-:|:-------|:-----|:-:|:-------|:------------------|:--------|
+| 1 | Promesas excelentes y progreso espiritual | 2-pedro-1-promesas-excelentes-y-progreso-espiritual | 1–11 | Salutación | escala-virtudes-fe | — |
+| 2 | Previsión de partida corporal eminente | 2-pedro-1-prevision-de-partida-corporal-eminente | 12–18 | Cuerpo doctrinal | pablo-testigo-monte-gloria | — |
+| 3 | Glorias de transfiguración y profecía segura | 2-pedro-1-glorias-de-transfiguracion-y-profecia-segura | 19–21 | Cuerpo doctrinal | profecia-escritura-espiritu | — |
 
 ### 2 Pedro 2
-| # | Título | Slug | v | Estilo | _evento_canonico |
-|:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Destrucción traída por herejes encubiertos | 2-pedro-2-destruccion-traida-por-herejes-encubiertos | 1–10 | Cuerpo doctrinal | castigo-angeles-caidos-sodoma |
-| 2 | Juicio severo de Dios preservando | 2-pedro-2-juicio-severo-de-dios-preservando | 11–22 | Cuerpo doctrinal | herejes-pozo-seco-perro-vomito |
+| # | Título | Slug | v | Estilo | _evento_canonico | _cita_de |
+|:-:|:-------|:-----|:-:|:-------|:------------------|:--------|
+| 1 | Destrucción traída por herejes encubiertos | 2-pedro-2-destruccion-traida-por-herejes-encubiertos | 1–10 | Cuerpo doctrinal | advertencia-falsos-maestros | judas-1-advertencia-contra-los-apostatas |
+| 2 | Juicio severo de Dios preservando al justo | 2-pedro-2-juicio-severo-de-dios-preservando-al-justo | 11–22 | Cuerpo doctrinal | herejes-pozo-seco-perro-vomito | judas-1-advertencia-contra-los-apostatas |
 
 ### 2 Pedro 3
-| # | Título | Slug | v | Estilo | _evento_canonico |
-|:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Burla de impíos negando parusía | 2-pedro-3-burla-de-impios-negando-parusia | 1–7 | Cuerpo doctrinal | destruccion-agua-fuego |
-| 2 | Arrepentimiento providencial esperando día celestial | 2-pedro-3-arrepentimiento-providencial-esperando-dia-celestial | 8–13 | Cuerpo doctrinal | mil-anos-como-un-dia |
-| 3 | Crecimiento perseverante en santidad fe | 2-pedro-3-crecimiento-perseverante-en-santidad-fe | 14–18 | Despedida/saludos | dificiles-entender-pablo |
+| # | Título | Slug | v | Estilo | _evento_canonico | _cita_de |
+|:-:|:-------|:-----|:-:|:-------|:------------------|:--------|
+| 1 | Burla de impíos negando la parusía | 2-pedro-3-burla-de-impios-negando-la-parusia | 1–7 | Cuerpo doctrinal | burla-impios-parusia | — |
+| 2 | Arrepentimiento providencial esperando el día celestial | 2-pedro-3-arrepentimiento-providencial-esperando-el-dia-celestial | 8–13 | Cuerpo doctrinal | mil-anos-como-un-dia | — |
+| 3 | Crecimiento perseverante en la santidad | 2-pedro-3-crecimiento-perseverante-en-la-santidad | 14–18 | Despedida/saludos | dificiles-entender-pablo | — |
 
 ---
-
 ## 18. Primera Epístola Universal de Juan (5 capítulos)
 
 ### 1 Juan 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Manifestación ocular de Vida encarnada | 1-juan-1-manifestacion-ocular-de-vida-encarnada | 1–4 | Salutación | palabra-vida-experiencia |
-| 2 | Andar transparentes en divina luz | 1-juan-1-andar-transparentes-en-divina-luz | 5–10 | Cuerpo doctrinal | sangre-cristo-limpia-pecado |
+| 1 | Manifestación ocular de la Vida encarnada | 1-juan-1-manifestacion-ocular-de-la-vida-encarnada | 1–4 | Salutación | palabra-vida-experiencia |
+| 2 | Dios es luz y no hay tinieblas | 1-juan-1-dios-es-luz-y-no-hay-tinieblas | 5–7 | Cuerpo doctrinal | comunion-luz-padre |
+| 3 | Confesión de pecados | 1-juan-1-confesion-de-pecados | 8–10 | Cuerpo doctrinal | sangre-cristo-limpia-pecado |
 
 ### 1 Juan 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Defensor justo ante trono celestial | 1-juan-2-defensor-justo-ante-trono-celestial | 1–6 | Cuerpo doctrinal | abogado-es-jesucristo |
-| 2 | Precepto santo de caridad fraterna | 1-juan-2-precepto-santo-de-caridad-fraterna | 7–11 | Exhortación parenética | amar-hermano-andar-luz |
-| 3 | Fugacidad de placeres de este | 1-juan-2-fugacidad-de-placeres-de-este | 12–17 | Exhortación parenética | mundo-codicias-pasan |
-| 4 | Unción santa preservando de anticristos | 1-juan-2-uncion-santa-preservando-de-anticristos | 18–29 | Cuerpo doctrinal | negacion-del-hijo-anticristo |
+| 1 | Defensor justo ante el trono celestial | 1-juan-2-defensor-justo-ante-el-trono-celestial | 1–6 | Cuerpo doctrinal | abogado-es-jesucristo |
+| 2 | Mandamiento viejo y nuevo | 1-juan-2-mandamiento-viejo-y-nuevo | 7–8 | Exhortación parenética | mandamiento-viejo-nuevo |
+| 3 | Luz y tinieblas en el amor | 1-juan-2-luz-y-tinieblas-en-el-amor | 9–11 | Exhortación parenética | amar-hermano-andar-luz |
+| 4 | Os escribo a vosotros hijos | 1-juan-2-os-escribo-a-vosotros-hijos | 12–14 | Exhortación parenética | escribo-a-hijos-padres |
+| 5 | No améis al mundo | 1-juan-2-no-ameis-al-mundo | 15–17 | Exhortación parenética | mundo-codicias-pasan |
+| 6 | Han venido muchos anticristos | 1-juan-2-han-venido-muchos-anticristos | 18–19 | Cuerpo doctrinal | negacion-del-hijo-anticristo |
+| 7 | Unción del Espíritu que enseña | 1-juan-2-uncion-del-espiritu-que-ensena | 20–25 | Cuerpo doctrinal | uncion-santo-ensena-todas-cosas |
+| 8 | Permaneced en él y no os dejéis engañar | 1-juan-2-permaneced-en-el-y-no-os-dejeis-enganar | 26–29 | Exhortación parenética | permanecer-hijo-justicia |
 
 ### 1 Juan 3
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Adopción dilecta como hijos elegidos | 1-juan-3-adopcion-dilecta-como-hijos-elegidos | 1–3 | Cuerpo doctrinal | seremos-semejantes-cristo |
-| 2 | Amor de hecho y verdad | 1-juan-3-amor-de-hecho-y-verdad | 4–12 | Cuerpo doctrinal | justos- vs-hijos-diablo |
+| 2 | Amor de hecho y verdad | 1-juan-3-amor-de-hecho-y-verdad | 4–12 | Cuerpo doctrinal | justos-vs-hijos-diablo |
 | 3 | Corazón reconciliado libre ante Dios | 1-juan-3-corazon-reconciliado-libre-ante-dios | 13–24 | Exhortación parenética | amar-hechos-verdad-corazon |
 
 ### 1 Juan 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Discernir espíritus de fuente verídica | 1-juan-4-discernir-espiritus-de-fuente-veridica | 1–6 | Cuerpo doctrinal | reconocer-espiritu-verdad |
-| 2 | Amor absoluto desterrando todo temor | 1-juan-4-amor-absoluto-desterrando-todo-temor | 7–21 | Cuerpo doctrinal | conocer-amor-divino-miedo |
+| 2 | El amor es de Dios | 1-juan-4-el-amor-es-de-dios | 7–12 | Cuerpo doctrinal | amor-nacido-de-dios |
+| 3 | Permanecer en Dios por el Espíritu | 1-juan-4-permanecer-en-dios-por-el-espiritu | 13–21 | Cuerpo doctrinal | conocer-amor-divino-miedo |
 
 ### 1 Juan 5
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Fe victoriosa triunfante del mundo | 1-juan-5-fe-victoriosa-triunfante-del-mundo | 1–5 | Exhortación parenética | vencer-mundo-por-fe |
-| 2 | Tragedia del pecado y tres | 1-juan-5-tragedia-del-pecado-y-tres | 6–12 | Cuerpo doctrinal | tres-dan-testimonio |
+| 2 | Tres testigos celestiales de la fe | 1-juan-5-tres-testigos-celestiales-de-la-fe | 6–12 | Cuerpo doctrinal | tres-dan-testimonio |
 | 3 | Seguridad bendita de comunión real | 1-juan-5-seguridad-bendita-de-comunion-real | 13–21 | Despedida/saludos | vida-eterna-guardar-idolos |
 
 ---
-
 ## 19. Segunda Epístola Universal de Juan (1 capítulo, 13 versículos)
 
 ### 2 Juan 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Fidelidad de elegida andando en | 2-juan-1-fidelidad-de-elegida-andando-en | 1–3 | Salutación | anciano-elegida-verdad |
+| 1 | Fidelidad de la elegida andando en verdad | 2-juan-1-fidelidad-de-la-elegida-andando-en-verdad | 1–3 | Salutación | anciano-elegida-verdad |
 | 2 | Guardarse de impostores herejes vagabundos | 2-juan-1-guardarse-de-impostores-herejes-vagabundos | 4–11 | Exhortación parenética | anticristos-falsas-doctrinas |
-| 3 | Naturaleza en 2 Juan 1 | 2-juan-1-naturaleza-en-2-juan-1 | 12–13 | Despedida/saludos | saludos-hijos-hermana |
+| 3 | Esperanza de visita fraternal personal | 2-juan-1-esperanza-de-visita-fraternal-personal | 12–13 | Despedida/saludos | saludos-hijos-hermana |
 
 ---
 
@@ -893,7 +902,7 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Hospitalidad benévola a fieles ministros | 3-juan-1-hospitalidad-benevola-a-fieles-ministros | 1–4 | Salutación | prosperidad-alma-verdad |
 | 2 | Altivez cismática de Diótrefes reprendida | 3-juan-1-altivez-cismatica-de-diotrefes-reprendida | 5–8 | Exhortación parenética | cooperadores-con-la-verdad |
-| 3 | Naturaleza en 3 Juan 1 | 3-juan-1-naturaleza-en-3-juan-1 | 9–12 | Cuerpo doctrinal | diotrefes-amador-primacía |
+| 3 | Testimonio favorable a Demetrio | 3-juan-1-testimonio-favorable-a-demetrio | 9–12 | Cuerpo doctrinal | diotrefes-amador-primacia |
 | 4 | Oidores autoengañosos contra hacedores activos | 3-juan-1-oidores-autoenganosos-contra-hacedores-activos | 13–14 | Despedida/saludos | paz-saludo-amigos-nombre |
 
 ---
@@ -903,7 +912,10 @@
 ### Judas 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Contender infatigablemente por fe apostólica | judas-1-contender-infatigablemente-por-fe-apostolica | 1–4 | Salutación | luchar-fervientemente-fe |
+| 1 | Contender infatigablemente por la fe apostólica | judas-1-contender-infatigablemente-por-la-fe-apostolica | 1–4 | Salutación | advertencia-falsos-maestros |
 | 2 | Destrucción decretada contra impíos burladores | judas-1-destruccion-decretada-contra-impios-burladores | 5–7 | Cuerpo doctrinal | destruccion-incredulos-angeles |
-| 3 | Consejos piadosos de consoladora perseverancia | judas-1-consejos-piadosos-de-consoladora-perseverancia | 8–16 | Cuerpo doctrinal | miguel-cuerpo-moises-profecia |
-| 4 | Solemne doxología a Salvador único | judas-1-solemne-doxologia-a-salvador-unico | 17–25 | Exhortación parenética | doxologia-preservar-caida |
+| 3 | Caracterización de los falsos maestros | judas-1-caracterizacion-de-los-falsos-maestros | 8–16 | Cuerpo doctrinal | burla-impios-parusia |
+| 4 | Consejos piadosos de perseverancia esperanzada | judas-1-consejos-piadosos-de-perseverancia-esperanzada | 17–23 | Exhortación parenética | miguel-cuerpo-moises-profecia |
+| 5 | Solemne doxología al Salvador único | judas-1-solemne-doxologia-al-salvador-unico | 24–25 | Despedida/saludos | doxologia-preservar-caida |
+
+---
