@@ -1,0 +1,106 @@
+{
+  "title": "Estilo y lenguaje de la traducción",
+  "slug": "estilo-y-lenguaje-de-la-traduccion",
+  "excerpt": "El lenguaje del Libro de Mormón en inglés comparte similitudes estilísticas con la Biblia del rey Jacobo (KJV), reflejando los patrones de lenguaje bíblico accesibles en el siglo XIX.",
+  "series": "el-lenguaje-del-libro-de-mormon",
+  "position": 5,
+  "tags": ["libro-de-mormon", "king-james", "traduccion-libro-mormon", "antiguo-testamento"],
+  "chapters": ["1-nefi-20", "2-nefi-12", "mosiah-2", "alma-7", "helaman-5", "3-nefi-12", "mormon-9", "eter-12", "moroni-10", "isaias-48"],
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Un lector contemporáneo que abre por primera vez la edición en inglés del Libro de Mormón advierte de inmediato una familiaridad lingüística inconfundible: el texto está escrito en un registro elevado que recuerda poderosamente al estilo de la <em>King James Version</em> (KJV), la Biblia del rey Jacobo publicada en 1611. Frases como <em>«And it came to pass»</em> (Y aconteció que), el uso constante de los pronombres arcaicos <em>thou</em>, <em>thee</em> y <em>thy</em> (tú, ti, tuyo), y los verbos terminados en <em>-eth</em> configuran un ropaje lingüístico profundamente bíblico."
+    },
+    {
+      "type": "heading",
+      "content": "La elección del lenguaje bíblico"
+    },
+    {
+      "type": "paragraph",
+      "content": "Durante el proceso de traducción en 1828 y 1829, José Smith y sus escribas emplearon el vocabulario y la sintaxis propios de la tradición bíblica en inglés. En la cultura de la frontera estadounidense del siglo XIX, la KJV no era simplemente un libro religioso entre muchos; era la principal fuente de instrucción literaria, moral y espiritual. La adopción de este registro lingüístico para verter un registro sagrado antiguo se alinea con la práctica habitual de los traductores de la época, quienes utilizaban el lenguaje elevado de las Escrituras para conferir la solemnidad apropiada a un texto revelado."
+    },
+    {
+      "type": "heading",
+      "content": "Citas bíblicas y paralelismos textuales"
+    },
+    {
+      "type": "paragraph",
+      "content": "La presencia de largos pasajes del libro de Isaías (como los capítulos 2 a 14 de 2 Nefi) y del Sermón del Monte (en 3 Nefi 12–14) que coinciden casi palabra por palabra con la KJV —incluyendo en ocasiones errores tipográficos o peculiaridades de la traducción de 1611— ha sido objeto de análisis minucioso. La postura académica y doctrinal sugiere que cuando los profetas nefitas citaban textos de las planchas de bronce que coincidían con el profeta Isaías, el proceso de traducción en inglés recurría de manera natural al equivalente ya establecido y consagrado en la versión inglesa tradicional."
+    },
+    {
+      "type": "heading",
+      "content": "La perspectiva de la Restauración"
+    },
+    {
+      "type": "paragraph",
+      "content": "Desde la perspectiva de la doctrina de la Restauración, el estilo isabelino del Libro de Mormón refleja la sabiduría divina de revestir la revelación moderna con el ropaje del lenguaje sagrado ya familiar para los buscadores de la verdad, facilitando así la recepción y el estudio de sus enseñanzas."
+    },
+    {
+      "type": "heading",
+      "content": "Conclusión"
+    },
+    {
+      "type": "paragraph",
+      "content": "El estilo y el lenguaje del Libro de Mormón en inglés no son una prueba de invención humana, sino la manifestación de cómo la revelación eterna se comunica utilizando los vehículos lingüísticos y culturales consagrados para elevar el espíritu humano."
+    }
+  ],
+  "references": [
+    {
+      "concept": "Citas extensas del profeta Isaías en los escritos nefitas",
+      "ref": "2 Nefi 12:1–16"
+    },
+    {
+      "concept": "El Sermón en el Monte dado a los nefitas",
+      "ref": "3 Nefi 12:1–16"
+    },
+    {
+      "concept": "El discurso del rey Benjamín sobre la fe y el servicio",
+      "ref": "Mosíah 2:9–25"
+    },
+    {
+      "concept": "El testimonio de Mormón sobre el lenguaje del registro",
+      "ref": "Mormón 9:32–34"
+    },
+    {
+      "concept": "La exhortación final de Moroni a buscar la verdad",
+      "ref": "Moroni 10:3–5"
+    },
+    {
+      "concept": "Toda la Escritura es inspirada por Dios",
+      "ref": "2 Timoteo 3:16–17"
+    },
+    {
+      "concept": "La palabra del Señor como lámpara",
+      "ref": "Salmos 119:105"
+    },
+    {
+      "concept": "El testimonio unificado de la palabra divina",
+      "ref": "2 Nefi 29:8"
+    },
+    {
+      "concept": "La predicación apostólica basada en las Escrituras",
+      "ref": "Hechos 17:2–3"
+    },
+    {
+      "concept": "La palabra de Dios como semilla incorruptible",
+      "ref": "1 Pedro 1:23–25"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Biblia del rey Jacobo",
+      "url": "https://es.wikipedia.org/wiki/Biblia_del_rey_Jacobo",
+      "desc": "Wikipedia en español"
+    },
+    {
+      "title": "King James Version",
+      "url": "https://en.wikipedia.org/wiki/King_James_Version",
+      "desc": "Wikipedia en inglés"
+    },
+    {
+      "title": "Book of Mormon Language",
+      "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/book-of-mormon-translation?lang=spa",
+      "desc": "ChurchofJesusChrist.org"
+    }
+  ]
+}

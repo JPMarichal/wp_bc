@@ -1,0 +1,114 @@
+{
+  "title": "El proceso de traducción de José Smith",
+  "slug": "proceso-de-traduccion-jose-smith",
+  "excerpt": "El proceso mediante el cual José Smith tradujo el Libro de Mormón involucró el uso de piedras videntes, el Urim y Tumim y la asistencia divina, constituyendo uno de los hitos más documentados de la Restauración.",
+  "series": "el-lenguaje-del-libro-de-mormon",
+  "position": 4,
+  "tags": ["libro-de-mormon", "jose-smith", "traduccion-libro-mormon", "planchas-de-oro", "testigos"],
+  "chapters": ["mosiah-28", "alma-37", "mormon-9", "eter-3", "eter-4", "2-nefi-27", "isaias-29", "jose-historia-1", "doctrina-y-convenios-17", "doctrina-y-convenios-20"],
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "El proceso mediante el cual el profeta José Smith tradujo el Libro de Mormón entre 1827 y 1829 es uno de los acontecimientos mejor documentados de la historia religiosa moderna. Lejos de ser un proceso intelectual o académico convencional, la traducción se llevó a cabo por el «don y el poder de Dios», utilizando instrumentos sagrados preparados desde la antigüedad, tales como el Urim y Tumim (o los intérpretes nefitas) y piedras videntes."
+    },
+    {
+      "type": "heading",
+      "content": "Los instrumentos de traducción: intérpretes y piedras videntes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Los testimonios de los testigos presenciales —incluyendo a Emma Smith, Oliver Cowdery y David Whitmer— detallan que José Smith empleó diferentes objetos físicos durante las sesiones de traducción. En primer lugar, los anales nefitas venían acompañados de los «intérpretes», descritos como dos piedras encajadas en un arco de plata semejantes a unos anteojos antiguos, entregados por Moroni junto con las planchas de oro."
+    },
+    {
+      "type": "paragraph",
+      "content": "Además de los intérpretes nefitas, José utilizó en varios momentos una piedra vidente (<em>seer stone</em>) de color marrón que había encontrado años antes mientras excavaba un pozo. En el contexto cultural y religioso del norte de Nueva York en el siglo XIX, el uso de piedras videntes para recibir revelación no era ajeno al entendimiento de los primeros colaboradores de José, quienes veían en ello un paralelo moderno con los profetas bíblicos que utilizaban visiones y objetos sagrados para discernir la voluntad divina."
+    },
+    {
+      "type": "heading",
+      "content": "La mecánica espiritual de la traducción"
+    },
+    {
+      "type": "paragraph",
+      "content": "Los relatos de quienes presenciaron o participaron en la transcripción —como Oliver Cowdery en calidad de escriba principal— describen que José dictaba el texto palabra por palabra mientras observaba los instrumentos o colocaba la piedra en un sombrero para excluir la luz exterior. El texto aparecía reflejado o iluminado mediante revelación directa, y José lo pronunciaba en voz alta sin poseer los manuscritos originales a la vista ni consultar libros de referencia."
+    },
+    {
+      "type": "paragraph",
+      "content": "El profeta jamás ofreció una explicación técnica o detallada sobre el funcionamiento exacto de estos instrumentos, insistiendo siempre en que los objetos materiales eran simplemente el medio físico que Dios dispuso para enfocar su fe y recibir la inspiración necesaria."
+    },
+    {
+      "type": "heading",
+      "content": "La perspectiva de la Restauración"
+    },
+    {
+      "type": "paragraph",
+      "content": "Desde la perspectiva de la doctrina de la Restauración, la traducción del Libro de Mormón es un milagro tangible que demuestra el poder de Dios para obrar a través de instrumentos humildes. La revelación divina en Doctrina y Convenios confirma que José recibió la autoridad y el poder para traducir los anales antiguos y sacar a luz la plenitud del evangelio."
+    },
+    {
+      "type": "heading",
+      "content": "Conclusión"
+    },
+    {
+      "type": "paragraph",
+      "content": "El proceso de traducción del Libro de Mormón, con su combinación de planchas metálicas, intérpretes nefitas y piedras videntes, refleja la forma en que el Señor interviene en la historia humana, utilizando medios tangibles para transmitir verdades eternas a Sus hijos."
+    }
+  ],
+  "references": [
+    {
+      "concept": "Mosíah preparado con los instrumentos para traducir anales",
+      "ref": "Mosíah 28:11–17"
+    },
+    {
+      "concept": "El vidente que traducirá el libro sellado",
+      "ref": "2 Nefi 27:6–12"
+    },
+    {
+      "concept": "El profeta que no sabe leer y el libro sellado",
+      "ref": "Isaías 29:11–12"
+    },
+    {
+      "concept": "El hermano de Jared prepara piedras tocadas por el dedo del Señor",
+      "ref": "Éter 3:1–6"
+    },
+    {
+      "concept": "La promesa de dar a conocer las palabras del libro",
+      "ref": "Éter 4:4–8"
+    },
+    {
+      "concept": "La entrega de las planchas y los intérpretes a José Smith",
+      "ref": "José Smith—Historia 1:34–59"
+    },
+    {
+      "concept": "El poder dado a José Smith para traducir por el don de Dios",
+      "ref": "Doctrina y Convenios 20:8–12"
+    },
+    {
+      "concept": "Toda la Escritura es inspirada por Dios",
+      "ref": "2 Timoteo 3:16–17"
+    },
+    {
+      "concept": "La palabra del Señor como lámpara",
+      "ref": "Salmos 119:105"
+    },
+    {
+      "concept": "El testimonio unificado de la palabra divina",
+      "ref": "2 Nefi 29:8"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Urim y Tumim",
+      "url": "https://es.wikipedia.org/wiki/Urim_y_Tumim",
+      "desc": "Wikipedia en español"
+    },
+    {
+      "title": "Book of Mormon Translation",
+      "url": "https://www.britannica.com/topic/Book-of-Mormon",
+      "desc": "Encyclopaedia Britannica"
+    },
+    {
+      "title": "Book of Mormon Translation",
+      "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/book-of-mormon-translation?lang=spa",
+      "desc": "ChurchofJesusChrist.org"
+    }
+  ]
+}

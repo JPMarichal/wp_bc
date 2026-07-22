@@ -25,7 +25,7 @@
     },
     {
       "type": "paragraph",
-      "content": "El ejemplo más célebre y perfecto en el Libro de Mormón se encuentra en Alma 36, donde el profeta Alma relata a su hijo Helaman su profunda conversión tras tres días de amarga agonía espiritual. Todo el capítulo está estructurado como un quiasmo simétrico perfecto de más de treinta líneas, cuyo punto central (el ápice A') gira en torno a Jesucristo y Su expiación: <em>«¡Oh, qué gozo, y qué luz tan maravillosa vi! Sí, mi alma se llenó de un gozo tan grande como lo fue mi dolor... y no hay cosa tan amarga como lo fueron mis dolores... Y por otra parte, no puede haber cosa tan exquisita y dulce como lo fue mi gozo»</em>."
+      "content": "El ejemplo más célebre y perfecto en el Libro de Mormón se encuentra en Alma 36, donde el profeta Alma relata a su hijo Helaman su profunda conversión tras tres días de amarga agonía espiritual. Todo el capítulo está estructurado como un quiasmo simétrico perfecto de más de treinta líneas, cuyo punto central (el ápice) gira en torno a Jesucristo y Su expiación: <em>«¡Oh, qué gozo, y qué luz tan maravillosa vi! Sí, mi alma se llenó de un gozo tan grande como lo fue mi dolor... y no hay cosa tan amarga como lo fueron mis dolores... Y por otra parte, no puede haber cosa tan exquisita y dulce como lo fue mi gozo»</em>."
     },
     {
       "type": "heading",
@@ -41,7 +41,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Para los santos de los últimos días, el descubrimiento de quiasmos complejos en el Libro de Mormón (anunciado por el investigador John W. Welch en 1967) supuso una confirmación literaria contundente de la autenticidad antigua del libro. Era imposible que un joven de la frontera estadounidense en 1829 hubiera compuesto de manera improvisada estructuras poéticas que sólo fueron redescubiertas plenamente por la erudición bíblica moderna en el siglo XX."
+      "content": "Para los santos de los últimos días, el descubrimiento de quiasmos complejos en el Libro de Mormón supuso una confirmación literaria contundente de la autenticidad antigua del libro. Era imposible que un joven de la frontera estadounidense en 1829 hubiera compuesto de manera improvisada estructuras poéticas que sólo fueron redescubiertas plenamente por la erudición bíblica moderna en el siglo XX."
     },
     {
       "type": "heading",
@@ -101,17 +101,12 @@
       "desc": "Wikipedia en español"
     },
     {
-      "title": "Chiasmus in the Book of Mormon",
-      "url": "https://rsc.byu.edu/book-mormon-authorship-new-evidential-analyses/chiasmus-book-mormon",
-      "desc": "BYU Religious Studies Center"
-    },
-    {
       "title": "Chiasmus",
-      "url": "https://eom.byu.edu/index.php/Chiasmus_in_the_Book_of_Mormon",
-      "desc": "Encyclopedia of Mormonism"
+      "url": "https://en.wikipedia.org/wiki/Chiasmus",
+      "desc": "Wikipedia en inglés"
     },
     {
-      "title": "Chiasmus in the Book of Mormon",
+      "title": "Book of Mormon Language",
       "url": "https://www.churchofjesuschrist.org/study/ensign/1972/02/chiasmus-in-the-book-of-mormon?lang=spa",
       "desc": "ChurchofJesusChrist.org"
     }
