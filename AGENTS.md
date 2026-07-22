@@ -160,3 +160,23 @@ Versículos disponibles (`volume` → `book`):
 - No comprimir/optimizar imágenes localmente.
 - El plugin `indigetal-media-offload-for-bunny-net` offloadea automáticamente.
 - Para batches de thumbnails de personas, usar el skill `imagenes-bc`.
+
+## ⚠️ Estándar de Calidad (Colección «Idiomas de las Escrituras»)
+
+Obligatorio para cada artículo:
+
+### Investigación
+1. **Alejandría**: Mínimo 3 consultas híbridas en `localhost:4300` antes de escribir.
+2. **Verificar URLs**: Cada URL en «Fuentes consultadas» debe probarse con `webfetch` y devolver HTTP 200. No raíces genéricas ni rutas inventadas.
+3. **Fuentes**: Wikipedia (es/en), Britannica, EOM (eom.byu.edu), ChurchofJesusChrist.org, Interpreter Foundation, BYU RSC, JosephSmithPapers.org.
+4. **Profundidad**: 2-3 párrafos densos por sección con autores citados por nombre, fechas, datos específicos.
+
+### Redacción
+1. **Extensión mínima**: 15,000 bytes `post_content`.
+2. **Tabla referencias**: `Concepto | Referencia`. 12+ pasajes.
+3. **Fuentes consultadas**: 6-10 enlaces verificados.
+4. **Nombrar académicos**: Rappleye, Stubbs, Reynolds, Gee, Nibley, Tvedtnes con publicaciones.
+
+### Prohibiciones
+- No inventar URLs ni rutas. No sustituir enlaces rotos por raíces genéricas.
+- No escribir desde conocimiento común sin verificar. No publicar bajo 15KB.
