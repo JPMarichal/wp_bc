@@ -1,0 +1,119 @@
+{
+  "title": "El quiasmo y otras figuras literarias en el Libro de Mormón",
+  "slug": "el-quiasmo-y-otras-figuras-literarias",
+  "excerpt": "El descubrimiento de quiasmos complejos y otras estructuras poéticas orientales en el Libro de Mormón revela la sofisticación literaria y el trasfondo hebraico antiguo de sus textos.",
+  "series": "el-lenguaje-del-libro-de-mormon",
+  "position": 3,
+  "tags": ["libro-de-mormon", "hebreo", "antiguo-testamento", "escritura", "quiasmo"],
+  "chapters": ["mosiah-5", "alma-36", "alma-41", "helaman-6", "3-nefi-11", "mormon-9", "eter-12", "moroni-10", "isaias-40", "salmos-119"],
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "A primera vista, un lector moderno que se adentra en el Libro de Mormón puede percibir una narrativa aparentemente sencilla. Sin embargo, un análisis retórico y literario más profundo revela la presencia de complejas estructuras poéticas y retóricas propias de la literatura semítica antigua, siendo el <em>quiasmo</em> la más asombrosa y celebrada de todas ellas."
+    },
+    {
+      "type": "heading",
+      "content": "¿Qué es el quiasmo?"
+    },
+    {
+      "type": "paragraph",
+      "content": "El quiasmo (del griego <em>chi</em>, letra Χ) es una figura literaria en la cual una serie de ideas o palabras se presentan en un orden determinado y luego se repiten en orden inverso (es decir, en patrón A-B-C-D-D'-C'-B'-A'). El punto central o ápice del quiasmo suele contener el mensaje teológico o la enseñanza principal del pasaje. Aunque es común en la poesía hebrea clásica (como en varios Salmos e Isaías), era prácticamente desconocido en la literatura occidental del siglo XIX."
+    },
+    {
+      "type": "heading",
+      "content": "El quiasmo de Alma 36"
+    },
+    {
+      "type": "paragraph",
+      "content": "El ejemplo más célebre y perfecto en el Libro de Mormón se encuentra en Alma 36, donde el profeta Alma relata a su hijo Helaman su profunda conversión tras tres días de amarga agonía espiritual. Todo el capítulo está estructurado como un quiasmo simétrico perfecto de más de treinta líneas, cuyo punto central (el ápice A') gira en torno a Jesucristo y Su expiación: <em>«¡Oh, qué gozo, y qué luz tan maravillosa vi! Sí, mi alma se llenó de un gozo tan grande como lo fue mi dolor... y no hay cosa tan amarga como lo fueron mis dolores... Y por otra parte, no puede haber cosa tan exquisita y dulce como lo fue mi gozo»</em>."
+    },
+    {
+      "type": "heading",
+      "content": "Otras figuras literarias"
+    },
+    {
+      "type": "paragraph",
+      "content": "Además del quiasmo, el Libro de Mormón contiene abundantes ejemplos de paralelismo antitético, sinonímico y sintético, así como inclusios (marcos literarios al comienzo y al final de un discurso o sección). Estas estructuras demuestran un dominio magistral de la retórica del antiguo Cercano Oriente."
+    },
+    {
+      "type": "heading",
+      "content": "La perspectiva de la Restauración"
+    },
+    {
+      "type": "paragraph",
+      "content": "Para los santos de los últimos días, el descubrimiento de quiasmos complejos en el Libro de Mormón (anunciado por el investigador John W. Welch en 1967) supuso una confirmación literaria contundente de la autenticidad antigua del libro. Era imposible que un joven de la frontera estadounidense en 1829 hubiera compuesto de manera improvisada estructuras poéticas que sólo fueron redescubiertas plenamente por la erudición bíblica moderna en el siglo XX."
+    },
+    {
+      "type": "heading",
+      "content": "Conclusión"
+    },
+    {
+      "type": "paragraph",
+      "content": "El quiasmo y las figuras literarias del Libro de Mormón son testigos elocuentes de su herencia hebraica. Elevan el valor estético del texto y reafirman su condición como un registro antiguo sagrado entregado mediante la inspiración divina."
+    }
+  ],
+  "references": [
+    {
+      "concept": "El quiasmo perfecto de la conversión de Alma",
+      "ref": "Alma 36:1–30"
+    },
+    {
+      "concept": "Estructuras poéticas en el discurso del rey Benjamín",
+      "ref": "Mosíah 5:1–15"
+    },
+    {
+      "concept": "Paralelismos sobre la justicia y la misericordia",
+      "ref": "Alma 41:13–15"
+    },
+    {
+      "concept": "El testimonio de las planchas y su valor",
+      "ref": "Mormón 9:32–34"
+    },
+    {
+      "concept": "La exhortación de Moroni basada en principios eternos",
+      "ref": "Moroni 10:3–5"
+    },
+    {
+      "concept": "Toda la Escritura es inspirada por Dios",
+      "ref": "2 Timoteo 3:16–17"
+    },
+    {
+      "concept": "La palabra del Señor como lámpara",
+      "ref": "Salmos 119:105"
+    },
+    {
+      "concept": "El testimonio unificado de la palabra divina",
+      "ref": "2 Nefi 29:8"
+    },
+    {
+      "concept": "La predicación apostólica basada en las Escrituras",
+      "ref": "Hechos 17:2–3"
+    },
+    {
+      "concept": "La palabra de Dios como semilla incorruptible",
+      "ref": "1 Pedro 1:23–25"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Quiasmo",
+      "url": "https://es.wikipedia.org/wiki/Quiasmo",
+      "desc": "Wikipedia en español"
+    },
+    {
+      "title": "Chiasmus in the Book of Mormon",
+      "url": "https://rsc.byu.edu/book-mormon-authorship-new-evidential-analyses/chiasmus-book-mormon",
+      "desc": "BYU Religious Studies Center"
+    },
+    {
+      "title": "Chiasmus",
+      "url": "https://eom.byu.edu/index.php/Chiasmus_in_the_Book_of_Mormon",
+      "desc": "Encyclopedia of Mormonism"
+    },
+    {
+      "title": "Chiasmus in the Book of Mormon",
+      "url": "https://www.churchofjesuschrist.org/study/ensign/1972/02/chiasmus-in-the-book-of-mormon?lang=spa",
+      "desc": "ChurchofJesusChrist.org"
+    }
+  ]
+}

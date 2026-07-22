@@ -1,0 +1,120 @@
+{
+  "title": "Hebraísmos en el Libro de Mormón",
+  "slug": "hebraismos-en-el-libro-de-mormon",
+  "excerpt": "El texto del Libro de Mormón está impregnado de estructuras sintácticas, modismos y construcciones gramaticales típicas del hebreo antiguo, reflejando su origen semítico a través de una traducción literal.",
+  "series": "el-lenguaje-del-libro-de-mormon",
+  "position": 2,
+  "tags": ["libro-de-mormon", "hebreo", "antiguo-testamento", "escritura", "lenguas-semiticas"],
+  "chapters": ["1-nefi-3", "1-nefi-4", "2-nefi-1", "mosiah-2", "alma-36", "helaman-5", "3-nefi-11", "mormon-9", "eter-12", "moroni-10", "genesis-1", "isaias-40"],
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Cuando José Smith tradujo el Libro de Mormón a principios de la década de 1830, era un joven de veinticuatro años sin educación universitaria formal, sin conocimientos previos de lenguas antiguas y con una experiencia literaria sumamente limitada en inglés. Por consiguiente, resulta uno de los fenómenos lingüísticos más notables de la historia literaria moderna que sus páginas contengan decenas de hebraísmos —estructuras sintácticas, modismos y construcciones gramaticales exclusivos de la lengua hebrea clásica— que un hablante nativo de inglés del siglo XIX jamás habría podido inventar de manera natural."
+    },
+    {
+      "heading": "Principales categorías de hebraísmos en el Libro de Mormón",
+      "type": "heading"
+    },
+    {
+      "type": "paragraph",
+      "content": "Los eruditos y lingüistas que han analizado el texto del Libro de Mormón han catalogado múltiples categorías de influencia hebraica subyacente. Entre las más destacadas se encuentran:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>El conectivo hebreo <em>wayyiqtol</em> (Y aconteció que)</strong>: En hebreo bíblico, la narrativa se encadena constantemente mediante la conjunción consecutiva <em>waw</em> unida a formas verbales (traducida tradicionalmente como «Y sucedió que» o «Y aconteció que»). En el Libro de Mormón, la expresión «Y aconteció que» (<em>And it came to pass</em>) aparece cientos de veces, reproduciendo exactamente el ritmo narrativo de los libros históricos del Antiguo Testamento.",
+        "<strong>El constructo cognado (ej. «con gran gozo me gocé»)</strong>: En hebreo es frecuente intensificar una acción combinando un verbo con un sustantivo de la misma raíz (por ejemplo, <em>moth tamuth</em>, muriendo morirás). En el Libro de Mormón encontramos expresiones idénticas traducidas literalmente, como en 1 Nefi 1:15: «con gran gozo me gocé» (en hebreo <em>gāyl gīlti</em>).",
+        "<strong>El uso constructo hebreo (posesivos mediante preposiciones)</strong>: En lugar de usar pronombres posesivos modernos, el hebreo vincula sustantivos mediante la construcción constructa (por ejemplo, «altar de piedras» en lugar de «altar hecho de piedras»). El Libro de Mormón abunda en estas construcciones directas.",
+        "<strong>Preposiciones con sufijos pronominales</strong>: Giros idiomáticos como «vino sobre mí» o «habló conmigo» reflejan de forma sistemática la morfología preposicional semítica."
+      ]
+    },
+    {
+      "heading": "La perspectiva de la Restauración",
+      "type": "heading"
+    },
+    {
+      "type": "paragraph",
+      "content": "Desde la perspectiva de la doctrina de la Restauración, la presencia masiva de hebraísmos en el Libro de Mormón es una confirmación palpable de su naturaleza como traducción de un registro antiguo redactado por descendientes de profetas hebreos. José Smith no compuso la obra literariamente; actuó como el instrumento a través del cual el poder divino tradujo un texto concebido originalmente en el molde mental y lingüístico del hebreo antiguo."
+    },
+    {
+      "heading": "Conclusión",
+      "type": "heading"
+    },
+    {
+      "type": "paragraph",
+      "content": "Los hebraísmos del Libro de Mormón constituyen una huella digital lingüística innegable. Demuestran que detrás de la traducción al inglés se esconde un sustrato semítico profundo y coherente, validando el origen antiguo del registro y su conexión directa con la tradición profética del Antiguo Testamento."
+    }
+  ],
+  "references": [
+    {
+      "concept": "El uso constante de la fórmula narrativa hebrea",
+      "ref": "1 Nefi 3:1–5"
+    },
+    {
+      "concept": "Con gran gozo me gocé (constructo cognado)",
+      "ref": "1 Nefi 1:15"
+    },
+    {
+      "concept": "Las planchas de bronce en lengua egipcia y hebrea",
+      "ref": "1 Nefi 5:10–14"
+    },
+    {
+      "concept": "Instrucción de Lehi a sus hijos con modismos semíticos",
+      "ref": "2 Nefi 1:1–4"
+    },
+    {
+      "concept": "Discurso de Benjamín impregnado de estilo profético antiguo",
+      "ref": "Mosíah 2:9–15"
+    },
+    {
+      "concept": "El relato de la conversión de Alma con intensificación verbal",
+      "ref": "Alma 36:17–20"
+    },
+    {
+      "concept": "La visita de Cristo a los nefitas y su enseñanza",
+      "ref": "3 Nefi 11:1–11"
+    },
+    {
+      "concept": "El testimonio de Mormón sobre el origen del registro",
+      "ref": "Mormón 9:32–34"
+    },
+    {
+      "concept": "La exhortación final de Moroni",
+      "ref": "Moroni 10:3–5"
+    },
+    {
+      "concept": "Toda la Escritura es inspirada por Dios",
+      "ref": "2 Timoteo 3:16–17"
+    },
+    {
+      "concept": "La palabra del Señor como lámpara",
+      "ref": "Salmos 119:105"
+    },
+    {
+      "concept": "El testimonio unificado de la palabra divina",
+      "ref": "2 Nefi 29:8"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hebraísmos en el Libro de Mormón",
+      "url": "https://es.wikipedia.org/wiki/Libro_de_Morm%C3%B3n#Linguistic_features",
+      "desc": "Wikipedia en español"
+    },
+    {
+      "title": "Hebraisms in the Book of Mormon",
+      "url": "https://rsc.byu.edu/book-mormon-authorship-new-evidential-analyses/hebraisms-book-mormon",
+      "desc": "BYU Religious Studies Center"
+    },
+    {
+      "title": "Hebræisms",
+      "url": "https://eom.byu.edu/index.php/Hebraisms_in_the_Book_of_Mormon",
+      "desc": "Encyclopedia of Mormonism"
+    },
+    {
+      "title": "Book of Mormon Language",
+      "url": "https://www.churchofjesuschrist.org/study/ensign/1984/10/hebraisms-in-the-book-of-mormon?lang=spa",
+      "desc": "ChurchofJesusChrist.org"
+    }
+  ]
+}

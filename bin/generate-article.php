@@ -46,7 +46,7 @@ $parts = [];
 foreach ($sections as $sec) {
     switch ($sec['type']) {
         case 'heading':
-            $parts[] = '<!-- wp:heading --><h2 class="wp-block-heading">' . esc_html($sec['content']) . '</h2><!-- /wp:heading -->';
+            $parts[] = '<!-- wp:heading --><h2 class="wp-block-heading">' . esc_html($sec['content'] ?? $sec['title'] ?? '') . '</h2><!-- /wp:heading -->';
             break;
         case 'paragraph':
             $parts[] = '<!-- wp:paragraph --><p>' . $sec['content'] . '</p><!-- /wp:paragraph -->';
