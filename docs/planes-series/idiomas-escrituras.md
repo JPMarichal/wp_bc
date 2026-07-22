@@ -4,7 +4,7 @@
 > Estado: ✅ Plan aprobado
 > Slug: `los-idiomas-de-las-escrituras`
 > Collection term_id: `4966`
-> Series term_ids: 1=`4967`, 2=`4980`
+> Series term_ids: 1=`4967`, 2=`4980`, 3=`4995`
 > Articles: 1=`3770`, 2=`3773`, 3=`3779`, 4=`3781`, 5=`3783`, 6=`3785`, 7=`3795`
 
 ---
@@ -58,7 +58,7 @@ Los idiomas de las Escrituras
 
 | # | Artículo | Enfoque | Estado |
 |:-:|:---------|:--------|:------:|
-| 1 | La Septuaginta: la primera traducción | Traducción del AT al griego, su importancia para el NT y la Iglesia primitiva | 🔲 Pendiente |
+| 1 | La Septuaginta: la primera traducción | Traducción del AT al griego, su importancia para el NT y la Iglesia primitiva | ✅ Publicado (ID 3813) |
 | 2 | La Vulgata: la Biblia de Occidente | Jerónimo, la Vulgata latina, su legado de 1000 años | 🔲 Pendiente |
 | 3 | Las traducciones vernáculas medievales | Wiclif, Hus, y el deseo de llevar la Biblia al pueblo | 🔲 Pendiente |
 | 4 | Lutero y la Reforma | La Biblia alemana, el principio de traducción al idioma del pueblo | 🔲 Pendiente |
@@ -113,11 +113,11 @@ Los idiomas de las Escrituras
 |:------|----------:|:-----------:|:-:|
 | 1. El origen de los idiomas | 6 | 6 | 100% |
 | 2. Los idiomas originales de la Biblia | 5 | 5 | 100% |
-| 3. La historia de la traducción bíblica | 7 | 0 | 0% |
+| 3. La historia de la traducción bíblica | 7 | 1 | 14% |
 | 4. El lenguaje del Libro de Mormón | 5 | 0 | 0% |
 | 5. Lenguaje de la revelación moderna | 4 | 0 | 0% |
 | 6. Las Escrituras en todos los idiomas | 3 | 0 | 0% |
-| **Total** | **30** | **11** | **37%** |
+| **Total** | **30** | **12** | **40%** |
 
 ---
 
