@@ -7,8 +7,12 @@
       <?php the_archive_description('<div class="bc-cat-archive-desc">', '</div>'); ?>
     </header>
 
+    <div class="bc-cat-filter">
+      <input type="text" class="bc-cat-filter-input" id="bcCatFilter" placeholder="Filtrar artículos por título…" aria-label="Filtrar artículos">
+    </div>
+
     <?php if (have_posts()) : ?>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4" id="bcCatGrid">
         <?php while (have_posts()) : the_post(); ?>
           <div class="col">
             <article class="bc-cat-card">

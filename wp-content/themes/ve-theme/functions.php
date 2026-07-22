@@ -148,3 +148,15 @@ add_filter( 'image_editor_output_format', function( $mappings ) {
 	$mappings['image/png']  = 'image/webp';
 	return $mappings;
 } );
+
+add_action( 'pre_get_posts', function ( $query ) {
+	if ( ! is_admin() && $query->is_main_query() && $query->is_tax( 'collection' ) ) {
+		$term = $query->get_queried_object();
+		if ( $term && (int) $term->parent === 0 ) {
+			$query->set( 'posts_per_page', -1 );
+			$query->set( 'meta_key', '_series_position' );
+			$query->set( 'orderby', 'meta_value_num' );
+			$query->set( 'order', 'ASC' );
+		}
+	}
+} );

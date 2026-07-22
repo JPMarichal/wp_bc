@@ -35,6 +35,8 @@ Cada skill define reglas vinculantes para su dominio:
 | `gutenbergize` | Bloques Gutenberg |
 | `imagenes-bc` | Imágenes destacadas |
 | `traducir-ubicaciones` | Traducción de nombres de ubicaciones |
+| `aplicar-citaciones` | Formato de citas bibliográficas (FCD) |
+| `crear-editar-posts` | Creación y edición de artículos con todas las normas editoriales |
 
 ### 2. Documentos base del proyecto
 | Documento | Ruta | Contenido |
@@ -49,8 +51,10 @@ Cada skill define reglas vinculantes para su dominio:
 |-----------|------|-----------|
 | Correcciones | `corrections.md` | Reglas estrictas surgidas de errores previos |
 
-### 4. Memoria del proyecto
-Usar `kilo_memory_recall` para buscar decisiones, convenciones y correcciones guardadas.
+### 4. Correcciones acumuladas
+| Documento | Ruta | Contenido |
+|-----------|------|-----------|
+| Correcciones | `corrections.md` | Reglas estrictas surgidas de errores previos |
 
 ## Pipeline de consulta
 

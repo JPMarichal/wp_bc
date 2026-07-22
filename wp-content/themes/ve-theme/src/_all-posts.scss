@@ -165,3 +165,60 @@
   padding: 2em 0;
   text-align: center;
 }
+
+// ── Filter ──────────────────────────────────
+.bc-all-posts-filter {
+  position: relative;
+  margin-bottom: 1.4em;
+  max-width: 420px;
+}
+
+.bc-all-posts-filter-input {
+  display: block;
+  width: 100%;
+  padding: 10px 36px 10px 14px;
+  font-size: 0.95em;
+  color: $color-text;
+  background: #fff;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:focus {
+    border-color: $heading-green-h3;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba($heading-green-base, 0.1);
+  }
+
+  &::placeholder {
+    color: $tierra-100;
+  }
+}
+
+.bc-all-posts-filter-clear {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 1.3em;
+  line-height: 1;
+  color: $tierra-100;
+  cursor: pointer;
+  user-select: none;
+  display: none;
+
+  &:hover {
+    color: $tierra-300;
+  }
+}
+
+.bc-all-posts-filter-input:not(:placeholder-shown) + .bc-all-posts-filter-clear {
+  display: block;
+}
+
+.bc-all-posts-filter-empty {
+  color: $tierra-100;
+  font-style: italic;
+  padding: 2em 0;
+  text-align: center;
+}

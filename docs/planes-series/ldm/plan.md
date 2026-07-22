@@ -70,7 +70,7 @@
 **Series**:
 1. El origen del Libro de Mormón (ID 3767, artículos 1–5)
 2. El texto del Libro de Mormón (ID 3768, artículos 6–8)
-3. El Libro de Mormón en la Iglesia Restaurada (ID 3769, artículos 9–12)
+3. El Libro de Mormón en la Iglesia de Jesucristo (ID 3769, artículos 9–12)
 4. Doctrinas clave del Libro de Mormón (ID 3770, artículos 13–16)
 
 **Tipo de contenido**: `post` (Entradas)
@@ -98,23 +98,23 @@
 | 7 | La división en capítulos y versículos del Libro de Mormón | 3682 | ~1500 | ✅ | Capítulos largos de 1830, división de Orson Pratt (1879), edición 2013 |
 | 8 | El lenguaje del Libro de Mormón | 3683 | ~1500 | ✅ | Hebraísmos, egipcio reformado, estilo isabelino, erudición lingüística |
 
-### Serie 3: El Libro de Mormón en la Iglesia Restaurada — PENDIENTE ⏳ (0/4)
+### Serie 3: El Libro de Mormón en la Iglesia de Jesucristo — COMPLETO ✅ (4/4)
 
 | # | Título | ID | Palabras | Estado | Enfoque |
 |:-:|:-------|:--:|:--------:|:------:|:--------|
-| 9 | Las traducciones del Libro de Mormón | — | ~1500 | ⏳ | Primera traducción al español (Melitón Trejo, 1886), 115+ lenguas, proceso |
-| 10 | Las ediciones modernas: 1981 y 2013 | — | ~1500 | ⏳ | Nuevas introducciones, notas al pie, ayudas de estudio, cambios de capítulos |
-| 11 | El Libro de Mormón en el plan de estudios | — | ~1500 | ⏳ | Come, Follow Me, seminario, instituto, ciclo de 4 años |
-| 12 | El Libro de Mormón en la erudición moderna | — | ~1500 | ⏳ | FARMS, BYU Studies, Book of Mormon Central, evidencias |
+| 9 | Las traducciones del Libro de Mormón | 3723 | ~1650 | ✅ | Primera traducción al español (Melitón Trejo, 1886), 115+ lenguas, proceso |
+| 10 | Las ediciones modernas del Libro de Mormón: 1981 y 2013 | 3726 | ~1650 | ✅ | Nuevas introducciones, notas al pie, ayudas de estudio, edición de 2013 |
+| 11 | El Libro de Mormón en el plan de estudios de la Iglesia | 3728 | ~1700 | ✅ | Ven, sígueme, seminario, instituto, ciclo de 4 años |
+| 12 | El Libro de Mormón en la erudición moderna | 3734 | ~1800 | ✅ | FARMS, BYU Studies, Book of Mormon Central, evidencias |
 
-### Serie 4: Doctrinas clave del Libro de Mormón — PENDIENTE ⏳ (0/4)
+### Serie 4: Doctrinas clave del Libro de Mormón — COMPLETO ✅ (4/4)
 
 | # | Título | ID | Palabras | Estado | Enfoque |
 |:-:|:-------|:--:|:--------:|:------:|:--------|
-| 13 | La doctrina de Cristo en el Libro de Mormón | — | ~1500 | ⏳ | 2 Nefi 31, 3 Nefi 11–28, la Expiación, la Fe, el Bautismo, el Don del Espíritu Santo |
-| 14 | El convenio abrahámico en el Libro de Mormón | — | ~1500 | ⏳ | Promesa a Lehi, tierra prometida, recolección de Israel, convenio con la casa de José |
-| 15 | Profecías bíblicas sobre el Libro de Mormón | — | ~1500 | ⏳ | Isaías 29, Ezequiel 37, Juan 10:16, Salmo 85, José de Egipto |
-| 16 | El testimonio del Libro de Mormón | — | ~1500 | ⏳ | Moroni 10:3–5, la promesa, conversiones, testimonios de presidentes |
+| 13 | La doctrina de Cristo en el Libro de Mormón | 3735 | ~1500 | ✅ | 2 Nefi 31, 3 Nefi 11–28, la Expiación, la Fe, el Bautismo, el Don del Espíritu Santo |
+| 14 | El convenio abrahámico en el Libro de Mormón | 3738 | ~1800 | ✅ | Promesa a Lehi, tierra prometida, recolección de Israel, convenio con la casa de José |
+| 15 | Profecías bíblicas sobre el Libro de Mormón | 3739 | ~1900 | ✅ | Isaías 29, Ezequiel 37, Juan 10:16, Salmo 85, José de Egipto |
+| 16 | El testimonio del Libro de Mormón | 3742 | ~1800 | ✅ | Moroni 10:3–5, la promesa, conversiones, testimonios de presidentes |
 
 ---
 
@@ -135,12 +135,12 @@
 | Serie | Artículos | Completados | % |
 |:------|:---------:|:-----------:|:-:|
 | El origen del Libro de Mormón | 5 | 5 | 100% |
-| El texto del Libro de Mormón | 3 | 2 | 67% |
-| El Libro de Mormón en la Iglesia Restaurada | 4 | 0 | 0% |
-| Doctrinas clave del Libro de Mormón | 4 | 0 | 0% |
-| **Total** | **16** | **8** | **50%** |
+| El texto del Libro de Mormón | 3 | 3 | 100% |
+| El Libro de Mormón en la Iglesia de Jesucristo | 4 | 4 | 100% |
+| Doctrinas clave del Libro de Mormón | 4 | 4 | 100% |
+| **Total** | **16** | **16** | **100%** |
 ...
-**Global**: 26 de 34 artículos publicados (76%)
+**Global**: 34 de 34 artículos publicados (100%) 🎉
 
 
 ---

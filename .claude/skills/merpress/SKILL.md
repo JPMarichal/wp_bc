@@ -63,28 +63,282 @@ B -->|S-N| C[Placa Arabiga]
 
 ## Tipos de diagrama disponibles
 
-### Flowchart (graph) — el más usado
+MerPress (Mermaid.js v11) soporta 20+ tipos de diagramas. Todos se crean con el mismo bloque:
 
 ```
-graph TD
-A[Inicio] --> B{Decision}
-B -->|Si| C[Accion]
-B -->|No| D[Alternativa]
+<!-- wp:merpress/mermaidjs -->
+<div class="wp-block-merpress-mermaidjs diagram-source-mermaid"><pre class="mermaid">TIPO_DIAGRAMA
+...sintaxis...</pre></div>
+<!-- /wp:merpress/mermaidjs -->
 ```
 
-### Sequence diagram
+### Diagramas para wp_bc
 
+#### 1. Flowchart — procesos, rutas, flujos de decisión
+```
+flowchart TD
+    A[Inicio] --> B{¿Decisión?}
+    B -->|Sí| C[Acción]
+    B -->|No| D[Alternativa]
+```
+**Casos de uso wp_bc:**
+- Rutas de migración o viajes (Éxodo, viajes de Lehi, travesías misionales)
+- Procesos: cómo se tradujo el Libro de Mormón, cómo se organizó la Iglesia
+- Decisiones: el proceso de revelación, pasos para el arrepentimiento
+- Secuencias de acontecimientos históricos
+
+#### 2. Timeline — eventos cronológicos
+```
+timeline
+    title Historia de Israel
+    1800 a.C. : Abraham : Isaac : Jacob
+    1400 a.C. : Éxodo : Sinaí
+    1000 a.C. : David : Salomón
+```
+**Casos de uso wp_bc:**
+- Líneas de vida de profetas y personajes bíblicos
+- Cronología de la Restauración
+- Sucesión de imperios o reinos
+- Evolución de un concepto doctrinal a través del tiempo
+
+#### 3. Sequence — interacciones entre actores
 ```
 sequenceDiagram
-A->>B: Mensaje
-B-->>A: Respuesta
+    participant Dios
+    participant Profeta
+    participant Pueblo
+    Dios->>Profeta: Revelación
+    Profeta->>Pueblo: Enseñanza
+    Pueblo-->>Profeta: Pregunta
+    Profeta-->>Dios: Súplica
 ```
+**Casos de uso wp_bc:**
+- Diálogos entre personajes bíblicos
+- Secuencia de visiones (Lehi, Nefi, Juan)
+- Interacciones profeta-pueblo-Dios
+- Ciclo de apostasía-arrepentimiento-restauración
 
-### Otros disponibles en MerPress
-- `classDiagram` — diagramas de clases UML
-- `stateDiagram-v2` — diagramas de estado
-- `gantt` — diagramas de Gantt
-- `pie` — gráficos de pastel
+#### 4. Mindmap — jerarquías y mapas conceptuales
+```
+mindmap
+  root((Escrituras))
+    Antiguo Testamento
+      Pentateuco
+      Profetas
+      Escritos
+    Nuevo Testamento
+      Evangelios
+      Epístolas
+    Libro de Mormón
+      Placa menor
+      Placa mayor
+```
+**Casos de uso wp_bc:**
+- Estructura de libros canónicos
+- Jerarquías conceptuales: dones del Espíritu, atributos divinos
+- Organización de temas doctrinales
+- Desglose de genealogías extensas (árboles conceptuales)
+- Estratos sociales: desde rey hasta siervo
+
+#### 5. Quadrant — comparación bidimensional
+```
+quadrantChart
+    title Énfasis doctrinal
+    x-axis "Doctrina" --> "Práctica"
+    y-axis "Antiguo" --> "Nuevo"
+    quadrant-1 "Profetas mayores"
+    quadrant-2 "Evangelios"
+    quadrant-3 "Epístolas"
+    quadrant-4 "Apocalipsis"
+```
+**Casos de uso wp_bc:**
+- Comparar énfasis entre libros o autores
+- Mapear enseñanzas: doctrina vs. práctica, antiguo vs. moderno
+- Categorizar personajes por dos ejes (fidelidad, influencia)
+
+#### 6. Gantt — cronogramas con duración
+```
+gantt
+    title Ministerios proféticos
+    dateFormat YYYY
+    section Israel
+    Oseas           :750, 715
+    Isaías          :740, 680
+    section Judá
+    Jeremías        :627, 580
+    Ezequiel        :593, 570
+```
+**Casos de uso wp_bc:**
+- Duración de ministerios proféticos
+- Cronograma de construcción del templo
+- Períodos de reinado de reyes
+- Etapas de la vida de personajes históricos
+
+#### 7. State — estados y transiciones
+```
+stateDiagram-v2
+    [*] --> Fiel
+    Fiel --> Apostasía: Olvido
+    Apostasía --> Arrepentimiento: Profeta
+    Arrepentimiento --> Restauración: Pacto
+    Restauración --> Fiel
+```
+**Casos de uso wp_bc:**
+- Ciclo de apostasía y restauración
+- Etapas del progreso espiritual
+- Proceso de conversión
+- Transformación de organizaciones o reinos
+- Cambios en la cadena de mando
+
+#### 8. Entity Relationship — relaciones entre entidades
+```
+erDiagram
+    PROFETA ||--o{ REVELACION : recibe
+    REVELACION ||--o{ LIBRO : produce
+    LIBRO ||--o{ CAPITULO : contiene
+    CAPITULO ||--o{ VERSICULO : contiene
+```
+**Casos de uso wp_bc:**
+- Genealogías familiares (quién es hijo de quién, quién se casó con quién)
+- Relaciones entre personas, lugares y eventos bíblicos
+- Cadenas de mando: quién llamó a quién, quién presidió a quién
+- Conexiones entre conceptos teológicos
+- Organización de la Iglesia: estructura jerárquica
+
+#### 9. Pie — proporciones y distribución
+```
+pie
+    title Distribución del Libro de Mormón
+    "1 Nefi" : 22
+    "2 Nefi" : 33
+    "Jacob" : 7
+    "Enós" : 1
+    "Mosíah" : 29
+    "Alma" : 63
+```
+**Casos de uso wp_bc:**
+- Distribución de contenido por libro o sección
+- Proporción de temas en un conjunto de escrituras
+- Porcentaje de cobertura geográfica
+
+#### 10. XY Chart — barras, líneas, dispersión
+```
+xychart-beta
+    title "Menciones de 'pacto' por libro"
+    x-axis ["Génesis", "Éxodo", "Deuteronomio", "Salmos"]
+    y-axis "Menciones" 0 --> 20
+    bar [15, 18, 10, 14]
+```
+**Casos de uso wp_bc:**
+- Frecuencia de palabras o conceptos por libro
+- Comparaciones cuantitativas entre textos
+- Distribución de datos estadísticos
+
+#### 11. Sankey — flujos y migraciones
+```
+sankey-beta
+    Ur, 100
+    Harán, 60
+    Canaán, 40
+    Ur Harán, 40
+    Harán Canaán, 50
+    Ur Egipto, 10
+```
+**Casos de uso wp_bc:**
+- Migraciones de pueblos (Abraham, Israel, pueblo de Lehi)
+- Difusión del cristianismo primitivo
+- Flujo de linajes genealógicos
+- Propagación del Evangelio en la Restauración
+
+#### 12. Architecture — estructura de sistemas y jerarquías
+```
+architecture-beta
+    group Iglesia(cloud)[Iglesia de Jesucristo]
+    service Profeta(server)[Profeta] in Iglesia
+    service Doce(database)[Cuórum de los Doce] in Iglesia
+    service Setenta(disk)[Setenta] in Iglesia
+    Profeta:R --> L Doce:L
+    Doce:R --> L Setenta:L
+```
+**Casos de uso wp_bc:**
+- Estructura de la Iglesia: cadenas de mando y presidencia
+- Organización del sacerdocio
+- Jerarquía de llamamientos eclesiásticos
+- Estratos sociales en la antigüedad
+- Estructura de reinos, provincias y ciudades
+- Organización del templo y sus ordenanzas
+
+#### 13. Block — diagramas de bloques y sistemas
+```
+block-beta
+    columns 3
+    Dios["Dios"] space Cristo["Jesucristo"]
+    space Espiritu["Espíritu Santo"] space
+    Profeta["Profeta"]:3
+    Doce["Apóstoles"]:3
+```
+**Casos de uso wp_bc:**
+- Organigrama de la Iglesia
+- Relaciones entre miembros de la Trinidad
+- Cadena de transmisión de la revelación
+- Jerarquía administrativa
+
+#### 14. Git Graph — ramificaciones y bifurcaciones
+```
+gitGraph
+    commit id: "Abraham"
+    branch Isaac
+    commit id: "Jacob"
+    branch Jose
+    commit id: "Efraín"
+    checkout main
+    commit id: "Ismael"
+```
+**Casos de uso wp_bc:**
+- Linajes familiares con ramas y divergencias
+- Bifurcaciones textuales en manuscritos
+- Separación de reinos (Israel y Judá)
+- Divergencias doctrinales o cismas
+- Genealogías complejas con múltiples ramas
+
+#### 15. User Journey — viaje o trayectoria
+```
+journey
+    title Viaje de Abraham
+    section Ur de los Caldeos
+      Vida en Ur: 3: Abraham
+      Llamamiento: 5: Abraham
+    section Harán
+      Estancia en Harán: 4: Abraham
+    section Canaán
+      Llegada: 5: Abraham
+      Altar: 4: Abraham
+```
+**Casos de uso wp_bc:**
+- Trayectoria de personajes bíblicos (viajes, peregrinaciones)
+- Experiencia espiritual del creyente
+- Progresión en la vida de un profeta
+- Viajes misionales
+
+### Resumen rápido
+
+| Keyword | Diagrama | Mejor para |
+|:--------|:---------|:-----------|
+| `flowchart` | Flowchart | Procesos, decisiones, rutas |
+| `timeline` | Timeline | Cronología de eventos |
+| `sequenceDiagram` | Secuencia | Interacciones, diálogos |
+| `mindmap` | Mindmap | Jerarquías conceptuales |
+| `quadrantChart` | Cuadrante | Comparación 2D |
+| `gantt` | Gantt | Cronogramas con duración |
+| `stateDiagram-v2` | Estado | Ciclos, transformaciones |
+| `erDiagram` | ER | Relaciones, genealogías |
+| `pie` | Pastel | Proporciones |
+| `xychart-beta` | XY | Barras, líneas |
+| `sankey-beta` | Sankey | Flujos, migraciones |
+| `architecture-beta` | Arquitectura | Jerarquías, cadenas de mando |
+| `block-beta` | Bloques | Organigramas |
+| `gitGraph` | Git Graph | Ramas genealógicas |
+| `journey` | Journey | Trayectorias vitales |
 
 ## Diagnóstico de errores
 

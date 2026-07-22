@@ -246,14 +246,19 @@ Cada evento compartido entre Mateo, Marcos, Lucas y/o Juan usa el mismo `_evento
 | 2 | Lamento sobre Jerusalén | mateo-23-lamento-sobre-jerusalen | 37–39 | Discurso | lamento-jerusalen |
 
 ### Mateo 24
+
+> **Nota de concordancia JS-M**: La traducción inspirada separa el discurso olivar en dos épocas (siglo I vs. últimos días). Versículos reordenados y repetidos según JS-M 1 no reflejados en esta tabla canónica sinóptica.
+
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Profecía de la destrucción del templo | mateo-24-profecia-de-la-destruccion-del-templo | 1–2 | Profecía | destruccion-templo |
-| 2 | Señales del fin de los tiempos | mateo-24-senales-del-fin-de-los-tiempos | 3–14 | Profecía | discurso-olio |
-| 3 | La gran tribulación | mateo-24-la-gran-tribulacion | 15–28 | Profecía | discurso-olio |
-| 4 | La venida del Hijo del Hombre | mateo-24-la-venida-del-hijo-del-hombre | 29–35 | Profecía | discurso-olio |
-| 5 | Parábola del ladrón nocturno | mateo-24-parabola-del-ladron-nocturno | 36–44 | Parábola | parabola-ladron-nocturno |
-| 6 | El siervo fiel y el siervo malo | mateo-24-el-siervo-fiel-y-el-siervo-malo | 45–51 | Parábola | siervo-fiel-malo |
+| 1 | Profecía de la destrucción del templo | mateo-24-profecia-destruccion-templo | 1–2 | Profecía | destruccion-templo |
+| 2 | Amonestación contra engaños del siglo I | mateo-24-amonestacion-enganos-siglo-i | 3–13 | Profecía | discurso-olivo-antiguo |
+| 3 | Abominación desoladora en Jerusalén | mateo-24-abominacion-desoladora-jerusalen | 14–21 | Profecía | abominacion-desoladora-jerusalen-antigua |
+| 4 | Pivote de transición espiritual | mateo-24-pivote-transicion | 22 | Profecía | pivote-olivar-transicion |
+| 5 | Segunda abominación desoladora | mateo-24-segunda-abominacion-desoladora | 23–31 | Profecía | abominacion-desoladora-moderna |
+| 6 | Parábola de la higuera floreciente | mateo-24-parabola-higuera-floreciente | 32–35 | Parábola | parabola-higuera |
+| 7 | Nadie sabe el día ni la hora | mateo-24-nadie-sabe-dia-hora | 36–42 | Profecía | segunda-venida-fecha |
+| 8 | Siervos vigilantes y prudentes | mateo-24-siervos-vigilantes-prudentes | 43–51 | Parábola | parabola-siervo-fiel |
 
 ### Mateo 25
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -640,7 +645,7 @@ Cada evento compartido entre Mateo, Marcos, Lucas y/o Juan usa el mismo `_evento
 | 4 | Pregunta sobre la resurrección | lucas-20-pregunta-sobre-la-resurreccion | 27–40 | Controversia | pregunta-resurreccion |
 | 5 | ¿De quién es hijo el Cristo? | lucas-20-de-quien-es-hijo-el-cristo | 41–44 | Controversia | hijo-david |
 | 6 | Denuncia a los escribas | lucas-20-denuncia-a-los-escribas | 45–47 | Discurso | ay-fariseos |
-| 7 | La ofrenda de la viuda | lucas-20-la-ofrenda-de-la-viuda | 45–47 | Narrativa | ofrenda-viuda |
+| 7 | La ofrenda de la viuda | lucas-21-la-ofrenda-de-la-viuda | 1–4 | Narrativa | ofrenda-viuda |
 
 ### Lucas 21
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -864,3 +869,22 @@ Cada evento compartido entre Mateo, Marcos, Lucas y/o Juan usa el mismo `_evento
 - **Eventos propios de Juan** (sin sinóptico): bodas de Caná, Nicodemo, mujer samaritana, Lázaro, Discursos del Aposento Alto, "Yo soy" declaraciones.
 - **Eventos propios de Mateo**: predicciones del fin, parábolas escatológicas (10 vírgenes, talentos).
 - **Eventos propios de Lucas**: parábolas únicas (hijo pródigo, buen samaritano, rico y Lázaro), visitas a Betania y Marta/María.
+
+## Referencias cruzadas
+
+Ver `plan-armonia-evangelios.md` para la armonía completa con correlaciones AT/BdM/DyC/PGP.
+Ver `catalogo-eventos-canonicos.md` para el catálogo maestro de todos los eventos canónicos.
+
+### Correlaciones clave documentadas
+
+| Perícopa | _evento_canonico | Correlaciones |
+|:---------|:-----------------|:-------------|
+| Mt 3:13-17 | bautismo-jesus | AT: —; BdM: 1 Ne 10:7-10; 2 Ne 31:4-21; DyC: —; PGP: — |
+| Mt 5-7 | sermon-del-monte | AT: —; BdM: 3 Ne 12-14; DyC: —; PGP: — |
+| Mt 24 | discurso-olio | AT: —; BdM: —; DyC: DyC 45:16-60; PGP: JS-M 1 |
+| Mc 1-10 | — | — (ver notas en armonía) |
+| Jn 13-17 | discurso-del-aposento-alto | AT: —; BdM: Moroni 7:25-48; DyC: —; PGP: — |
+
+### Notas JST
+
+Las divergencias de la Joseph Smith Translation están documento en `plan-armonia-evangelios.md` y consolidadas en `catalogo-eventos-canonicos.md`.

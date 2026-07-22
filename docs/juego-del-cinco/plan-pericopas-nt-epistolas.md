@@ -21,6 +21,8 @@
 
 ## 1. Epístola a los Romanos (16 capítulos)
 
+> **Notas de concordancia activas**: Las filas adicionales bajo la tabla indican referencias a fuentes canónicas externas (Libro de Mormón, Doctrina y Convenios, PGP) donde el tema se correlaciona doctrinalmente. Estas notas facilitan la concordancia temática aunque no se trata del mismo evento histórico.
+
 ### Romanos 1
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
@@ -41,11 +43,13 @@
 | 1 | Fidelidad de Dios | romanos-3-fidelidad-de-dios | 1–8 | Cuerpo doctrinal | fidelidad-divina |
 | 2 | Universalidad del pecado | romanos-3-universalidad-del-pecado | 9–20 | Cuerpo doctrinal | pecado-universal |
 | 3 | Justificación por gracia | romanos-3-justificacion-por-gracia | 21–31 | Cuerpo doctrinal | justificacion-gracia |
+| | | | | | *Concorda: Alma 13 (Abinadí), Moisés 6 (bautismo), DyC 84:33-39* |
 
 ### Romanos 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Herencia por fe de Abraham | romanos-4-herencia-por-fe-de-abraham | 1–12 | Cuerpo doctrinal | justificacion-abraham |
+| | | | | | *Concorda: Abraham 2:7-11 (bautismo), DyC 93:1-8* |
 | 2 | Promesa y herencia por fe | romanos-4-promesa-y-herencia-por-fe | 13–25 | Cuerpo doctrinal | herencia-fe |
 
 ### Romanos 5
@@ -53,6 +57,7 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Paz y gozo con Dios | romanos-5-paz-y-gozo-con-dios | 1–11 | Cuerpo doctrinal | paz-dios-reconciliacion |
 | 2 | Contraste de Adán y Cristo | romanos-5-contraste-de-adan-y-cristo | 12–21 | Cuerpo doctrinal | adan-cristo-expiacion |
+| | | | | | *Concorda: Moisés 4 (la caída), Abraham 3:27-28 (Cristo elegido), 2 Nefi 2 (redención), DyC 183:48* |
 
 ### Romanos 6
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -91,7 +96,8 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Remanente escogido por gracia | romanos-11-remanente-escogido-por-gracia | 1–10 | Cuerpo doctrinal | remanente-israel-gracia |
 | 2 | Advertencia a los gentiles | romanos-11-advertencia-a-los-gentiles | 11–24 | Cuerpo doctrinal | gentiles-ingerto-olivo |
-| 3 | Restauración de todo Israel | romanos-11-restauracion-de-todo-israel | 25–36 | Cuerpo doctrinal | misericordia-todo-israel |
+| 3 | Restauración de todo Israel | romanos-11-restauracion-de-todo-israel | 25–36 | Cuerpo doctrinal | restauracion-israel-gracia |
+| | | | | | *Concorda: 3 Nefi 21 (restauración), DyC 103:10-16 (Jerusalén), JS-M 1:27 (águilas)* |
 
 ### Romanos 12
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -237,6 +243,7 @@
 | 4 | Bautismo por los muertos | 1-corintios-15-bautismo-por-los-muertos | 29–34 | Cuerpo doctrinal | bautismo-muertos-aparente |
 | 5 | Naturaleza del cuerpo resucitado | 1-corintios-15-naturaleza-del-cuerpo-resucitado | 35–49 | Cuerpo doctrinal | tipos-cuerpos-resurreccion |
 | 6 | Victoria sobre la muerte | 1-corintios-15-victoria-sobre-la-muerte | 50–58 | Cuerpo doctrinal | victoria-sorbida-muerte |
+| | | | | | *Concorda: Alma 11:43-45, 3 Nefi 11:13-17, DyC 129-130* |
 
 ### 1 Corintios 16
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -347,7 +354,8 @@
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | La insensatez de abandonar la fe | galatas-3-la-insensatez-de-abandonar-la-fe | 1–5 | Cuerpo doctrinal | espiritu-por-fe |
-| 2 | La herencia prometida antes de la ley | galatas-3-la-herencia-prometida-antes-de-la-ley | 6–14 | Cuerpo doctrinal | abraham-justificado-fe-gentiles |
+| 2 | La herencia prometida antes de la ley | galatas-3-la-herencia-prometida-antes-de-la-ley | 6–14 | Cuerpo doctrinal | justificacion-abraham |
+| | | | | | *Concorda: Abraham 2:7-11, DyC 93:1-8 (bendición de Abraham)* |
 | 3 | Pedagogía de la ley guiando a Cristo | galatas-3-pedagogia-de-la-ley-guiando-a-cristo | 15–25 | Cuerpo doctrinal | ley-pedagogo-cristo |
 | 4 | La promesa es por la fe | galatas-3-la-promesa-es-por-la-fe | 26–29 | Cuerpo doctrinal | unidad-revestidos-cristo |
 
@@ -429,6 +437,7 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Humillación crística y gloria posterior | filipenses-2-humillacion-cristica-y-gloria-posterior | 1–4 | Exhortación parenética | humildad-comunion |
 | 2 | Luminarias limpias en generación perversa | filipenses-2-luminarias-limpias-en-generacion-perversa | 5–11 | Cuerpo doctrinal | kenosis-exaltacion-cristo |
+| | | | | | *Concorda: Mosíah 2:17, DyC 76:50-70 (exaltación)* |
 | 3 | Elogio a servidores de confianza | filipenses-2-elogio-a-servidores-de-confianza | 12–18 | Exhortación parenética | luminarias-en-mundo |
 | 4 | Guía pastoral fiel y colaboradores | filipenses-2-guia-pastoral-fiel-y-colaboradores | 19–30 | Despedida/saludos | colaboradores-filipos-pablo |
 
@@ -505,7 +514,8 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Santificación sexual y amor comunitario | 1-tesalonicenses-4-santificacion-sexual-y-amor-comunitario | 1–8 | Exhortación parenética | santidad-sexual-cristiana |
 | 2 | Amor fraternal y vida tranquila | 1-tesalonicenses-4-amor-fraternal-y-vida-tranquila | 9–12 | Exhortación parenética | vivir-tranquilos-manos |
-| 3 | Resurrección de los muertos y arrebatamiento | 1-tesalonicenses-4-resurreccion-de-los-muertos-y-arrebatamiento | 13–18 | Cuerpo doctrinal | arrepentimiento-rapimiento-nubes |
+| 3 | Resurrección de los muertos y arrebatamiento | 1-tesalonicenses-4-resurreccion-de-los-muertos-y-arrebatamiento | 13–18 | Cuerpo doctrinal | arrebatimiento-resurreccion |
+| | | | | | *Concorda: Alma 11:43-45, Apocalipsis 20, DyC 129-130* |
 
 ### 1 Tesalonicenses 5
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -527,7 +537,8 @@
 ### 2 Tesalonicenses 2
 | # | Título | Slug | v | Estilo | _evento_canonico |
 |:-:|:-------|:-----|:-:|:-------|:------------------|
-| 1 | Apostasía profetizada e hijo de perdición | 2-tesalonicenses-2-apostasia-profetizada-e-hijo-de-perdicion | 1–12 | Cuerpo doctrinal | apostasia-hombre-pecado |
+| 1 | Apostasía profetizada e hijo de perdición | 2-tesalonicenses-2-apostasia-profetizada-e-hijo-de-perdicion | 1–12 | Cuerpo doctrinal | apostasia-revelacion |
+| | | | | | *Concorda: 2 Tesalonicenses 2:3-4, DyC 112:24-26 (mano de abominación)* |
 | 2 | Elegidos para salvación por fe | 2-tesalonicenses-2-elegidos-para-salvacion-por-fe | 13–17 | Exhortación parenética | mantened-tradiciones-ensenadas |
 
 ### 2 Tesalonicenses 3
@@ -560,6 +571,7 @@
 | 1 | Requisitos éticos para obispos fieles | 1-timoteo-3-requisitos-eticos-para-obispos-fieles | 1–7 | Exhortación parenética | atributos-obispo |
 | 2 | Idoneidad moral exigible a diáconos | 1-timoteo-3-idoneidad-moral-exigible-a-diaconos | 8–13 | Exhortación parenética | atributos-diacono |
 | 3 | Gran misterio de piedad revelada | 1-timoteo-3-gran-misterio-de-piedad-revelada | 14–16 | Cuerpo doctrinal | misterio-piedad-encarnado |
+| | | | | | *Concorda: Moroni 8:10-20, DyC 20:38-46 (bautismo por imersion)* |
 
 ### 1 Timoteo 4
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -692,6 +704,7 @@
 |:-:|:-------|:-----|:-:|:-------|:------------------|
 | 1 | Rey misterioso de justicia y paz | hebreos-7-rey-misterioso-de-justicia-y-paz | 1–10 | Cuerpo doctrinal | melquisedec-encuentro-abraham |
 | 2 | Invalidez levítica y nuevo régimen sacerdotal | hebreos-7-invalidez-levitica-y-nuevo-regimen-sacerdotal | 11–28 | Cuerpo doctrinal | sacerdote-para-siempre-poder |
+| | | | | | *Concorda: Abraham 1:2, Abraham 2:7-11, DyC 76:54-70 (sacerdocio de Melquisedec)* |
 
 ### Hebreos 8
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -721,6 +734,7 @@
 | 2 | Patria celestial anhelada por patriarcas | hebreos-11-patria-celestial-anhelada-por-patriarcas | 8–22 | Cuerpo doctrinal | fe-patriarcas-tierras-lejanas |
 | 3 | Soportar penalidades gozosos por fe | hebreos-11-soportar-penalidades-gozosos-por-fe | 23–31 | Cuerpo doctrinal | fe-lideres-israel-conquista |
 | 4 | Conmovedora galería de héroes de la fe | hebreos-11-conmovedora-galeria-de-heroes-de-la-fe | 32–40 | Cuerpo doctrinal | heroes-fe-persecuciones |
+| | | | | | *Concorda: 1 Nefi 11:17, Alma 14:12 (persecuciones por la fe)* |
 
 ### Hebreos 12
 | # | Título | Slug | v | Estilo | _evento_canonico |
@@ -919,3 +933,22 @@
 | 5 | Solemne doxología al Salvador único | judas-1-solemne-doxologia-al-salvador-unico | 24–25 | Despedida/saludos | doxologia-preservar-caida |
 
 ---
+
+## Referencias de concordancia inter-canónica
+
+Las siguientes concordancias temáticas han sido agregadas como notas para facilitar el estudio comparado:
+
+| Perícopa | Referencias canónicas adicionales |
+|----------|---------------------------------|
+| Rm 3:21-31 (justificación por gracia) | Alma 13 (Abinadí), Moisés 6 (bautismo), DyC 84:33-39 |
+| Rm 4:1-12 (herencia de Abraham) | Abraham 2:7-11, DyC 93:1-8 |
+| Rm 5:12-21 (Adán-Cristo) | Moisés 4, Abraham 3:27-28, 2 Nefi 2, DyC 183:48 |
+| Rm 11:25-36 (restauración de Israel) | 3 Nefi 21, DyC 103:10-16, JS-M 1:27 |
+| 1 Cor 15:50-58 (victoria sobre muerte) | Alma 11:43-45, 3 Nefi 11, DyC 129-130 |
+| Gál 3:6-14 (herencia de Abraham) | Abraham 2:7-11, DyC 93:1-8 |
+| Flm 2:5-11 (humildad/exaltación) | Mosíah 2:17, DyC 76:50-70 |
+| 1 Tes 4:13-18 (arrebatamiento) | Alma 11:43-45, Apocalipsis 20, DyC 129-130 |
+| 2 Tes 2:1-12 (apostasía) | DyC 112:24-26, JS-M 1:31-32 |
+| 1 Tim 3:14-16 (misterio de la piedad) | Moroni 8:10-20, DyC 20:38-46 |
+| Hb 7:11-28 (sacerdocio de Melquisedec) | Abraham 1:2, Abraham 2:7-11, DyC 76:54-70 |
+| Hb 11:32-40 (héroes de la fe) | 1 Nefi 11:17, Alma 14:12 (persecuciones) |

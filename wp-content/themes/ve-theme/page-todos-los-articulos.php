@@ -22,8 +22,13 @@ get_header(); ?>
 
     <h1 class="bc-all-posts-title">Todos los artículos</h1>
 
+    <div class="bc-all-posts-filter">
+      <input type="text" class="bc-all-posts-filter-input" id="bcPostsFilter" placeholder="Filtrar artículos por título…" aria-label="Filtrar artículos">
+      <span class="bc-all-posts-filter-clear" id="bcPostsFilterClear" aria-hidden="true">&times;</span>
+    </div>
+
     <?php if ($query->have_posts()) : ?>
-      <div class="bc-all-posts-list">
+      <div class="bc-all-posts-list" id="bcPostsList">
         <?php while ($query->have_posts()) : $query->the_post(); ?>
           <article <?php post_class('bc-all-posts-item'); ?>>
             <?php if (has_post_thumbnail()) : ?>
@@ -82,6 +87,59 @@ get_header(); ?>
   </main>
 </div>
 
+<script>
+(function() {
+  var input = document.getElementById('bcPostsFilter');
+  var clear = document.getElementById('bcPostsFilterClear');
+  var list = document.getElementById('bcPostsList');
+  var items = list ? Array.from(list.querySelectorAll('.bc-all-posts-item')) : [];
+  var pagination = document.querySelector('.bc-all-posts-pagination');
+  var emptyMsg = document.querySelector('.bc-all-posts-empty');
+
+  function filterPosts() {
+    var q = input.value.trim().toLowerCase();
+    var visible = 0;
+
+    items.forEach(function(item) {
+      var title = item.querySelector('.bc-all-posts-item-title a');
+      var match = !q || (title && title.textContent.toLowerCase().indexOf(q) !== -1);
+      item.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+
+    if (pagination) pagination.style.display = q ? 'none' : '';
+    if (emptyMsg) emptyMsg.style.display = 'none';
+
+    var existing = document.getElementById('bcPostsFilterEmpty');
+    if (!q) {
+      if (existing) existing.remove();
+      return;
+    }
+    if (visible === 0) {
+      if (!existing) {
+        var msg = document.createElement('p');
+        msg.id = 'bcPostsFilterEmpty';
+        msg.className = 'bc-all-posts-filter-empty';
+        msg.textContent = 'No se encontraron artículos con ese título.';
+        list.parentNode.insertBefore(msg, list.nextSibling);
+      }
+    } else {
+      if (existing) existing.remove();
+    }
+  }
+
+  if (input) {
+    input.addEventListener('input', filterPosts);
+  }
+  if (clear) {
+    clear.addEventListener('click', function() {
+      input.value = '';
+      input.focus();
+      filterPosts();
+    });
+  }
+})();
+</script>
 <?php
 generate_construct_sidebars();
 get_footer();

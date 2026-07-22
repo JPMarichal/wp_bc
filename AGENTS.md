@@ -102,9 +102,36 @@ Estructura actual:
 |:-------|:--------|
 | `bc-content-organization` | Registra `collection`, meta boxes en editor, página "Organizar series" en admin, widget de navegación de serie en frontend |
 
-## 📝 Estilo Editorial: Nombre de la Iglesia
+## 📝 Estilo Editorial
+
+### Formato de pasajes de Escrituras en bloque
+
+**Regla**: Los pasajes de las Escrituras que se citen en bloque deben usar el bloque dinámico self-closing `lds-passage-block/passage`, no `core/quote` ni HTML manual.
+
+Estructura del bloque:
+```html
+<!-- wp:lds-passage-block/passage {"volume":"VOLUMEN","book":"LIBRO","chapter":N,"startVerse":N,"endVerse":N} /-->
+```
+
+Versículos disponibles (`volume` → `book`):
+| Volumen | `volume` | Ejemplos de `book` |
+|:--------|:---------|:-------------------|
+| Antiguo Testamento | `ot` | `genesis`, `exodo`, `levitico`, `numeros`, `deuteronomio`, `isaias`, `jeremias`, `ezequiel`, `daniel`, `salmos`, `proverbios` |
+| Nuevo Testamento | `nt` | `mateo`, `marcos`, `lucas`, `juan`, `hechos`, `romanos`, `1-corintios`, `2-corintios`, `galatas`, `efesios`, `hebreos`, `apocalipsis` |
+| Libro de Mormón | `bom` | `1-nefi`, `2-nefi`, `jacob`, `mosiah`, `alma`, `helaman`, `3-nefi`, `4-nefi`, `mormon`, `etern`, `moroni` |
+| Doctrina y Convenios | `dc` | `dc-1`, `dc-2` ... `dc-138`, `od-1`, `od-2` |
+| Perla de Gran Precio | `pgp` | `moises`, `abraham`, `js-mateo`, `js-historia`, `articulos-de-fe` |
+
+- `startVerse` es obligatorio si se cita un versículo específico. Si se omite (o se pone `1`), comienza desde el versículo 1.
+- `endVerse` opcional — si se omite, muestra un solo versículo.
+- Ejemplo: `{"volume":"bom","book":"3-nefi","chapter":11,"startVerse":31,"endVerse":35}` muestra 3 Nefi 11:31—35.
+- `wp-block-quote` (`core/quote`) se reserva para citas de autores modernos o líderes de la Iglesia, NO para Escrituras.
+
+### Nombre de la Iglesia
 
 **Regla**: Cada vez que se mencione La Iglesia de Jesucristo de los Santos de los Últimos Días, el nombre de Jesucristo debe estar presente explícitamente.
+
+**Regla extendida**: Nunca usar "SUD", "mormón" ni "mormona" como adjetivo o gentilicio. Aplican las mismas reglas a cualquier uso descriptivo, no solo referido a «Iglesia»: «doctrina SUD», «creencia mormona», «autor SUD», «historia mormona» son igualmente incorrectos.
 
 | Uso | Ejemplo | ¿Aceptable? |
 |:----|:--------|:-----------:|
@@ -115,6 +142,8 @@ Estructura actual:
 | «la Iglesia Restaurada» sola | ❌ **No** — omite el nombre de Cristo |
 | «la Iglesia SUD» | ❌ **No** — omite el nombre de Cristo |
 | «la Iglesia Mormona» | ❌ **No** — término desaconsejado por la Primera Presidencia |
+| «doctrina SUD» / «autor SUD» | ❌ **No** — "SUD" como adjetivo omite a Cristo |
+| «creencias mormonas» / «historia mormona» | ❌ **No** — "mormón" como adjetivo desaconsejado |
 
 ## 🖼️ Arquitectura de Media (BunnyCDN)
 

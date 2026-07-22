@@ -1,6 +1,6 @@
 # Mapeo de Perícopas (bc_pericopa)
 
-> **Estado**: COMPLETADO — Se finalizaron con éxito absoluto las Fases A (Doctrina y Convenios), B (Perla de Gran Precio) y C (Epístolas del Nuevo Testamento), completando el diseño y curaduría minuciosa de sus perícopas unívocas, registrando la nueva taxonomía `bc_pericopa` nativa en código y poblando la base de datos de WordPress con las 1111 perícopas iniciales con todos sus metadatos asociados. Plan de las Fases D (Evangelios) y E (Hechos + Apocalipsis) en elaboración.
+> **Estado**: COMPLETADO — Fases A (Doctrina y Convenios), B (Perla de Gran Precio), C (Epístolas del Nuevo Testamento) y D (Evangelios del Nuevo Testamento) completadas. La armonización de los evangelios está implementada en `plan-armonia-evangelios.md` (387 perícopas). `catalogo-eventos-canonicos.md` poblado con eventos clave. Fase E (Hechos + Apocalipsis) en preparación.
 
 ## Definición
 
