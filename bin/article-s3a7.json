@@ -1,0 +1,110 @@
+{
+  "title": "Traducciones modernas y principios de traducción",
+  "slug": "traducciones-modernas-y-principios-de-traduccion",
+  "excerpt": "La ciencia de la traducción bíblica moderna se debate entre la equivalencia formal y la equivalencia dinámica. Un análisis de cómo las versiones contemporáneas buscan acercar el mensaje original al lector actual sin perder rigor.",
+  "series": "la-historia-de-la-traduccion-biblica",
+  "position": 7,
+  "tags": ["traduccion-biblica", "antiguo-testamento", "nuevo-testamento", "historia-de-la-biblia"],
+  "chapters": ["timoteo-3", "salmos-119", "hechos-17", "isaias-40", "mateo-28", "romanos-15", "1-pedro-1", "apocalipsis-22", "esdras-7", "2-nefi-29"],
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "El estudio de los manuscritos antiguos en hebreo, arameo y griego, junto con los avances extraordinarios en la lingüística y la arqueología durante los siglos XIX y XX, transformaron radicalmente la ciencia de la traducción bíblica. Los traductores modernos ya no dependen exclusivamente de una sola tradición textual (como el Textus Receptus o la Vulgata), sino que disponen de miles de papiros y códices recuperados, permitiendo el desarrollo de versiones contemporáneas de gran precisión."
+    },
+    {
+      "type": "heading",
+      "content": "Los dos grandes polos: equivalencia formal vs. equivalencia dinámica"
+    },
+    {
+      "type": "paragraph",
+      "content": "En el corazón de la teoría de la traducción bíblica moderna se encuentran dos enfoques principales que buscan resolver el dilema entre fidelidad a la forma y claridad en el significado:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Equivalencia formal (o traducción literal)</strong>: prioriza la correspondencia palabra por palabra y la preservación de la estructura gramatical y sintáctica de los idiomas originales (hebreo, arameo, griego). Ejemplos clásicos son la <em>King James Version</em>, la <em>Reina-Valera 1960</em> y la <em>Biblia de las Américas</em>. Es ideal para el estudio detallado y el análisis exegético.",
+        "<strong>Equivalencia dinámica (o funcional)</strong>: prioriza el significado pretendido por el autor original para que el impacto en el lector moderno sea equivalente al que experimentó el oyente antiguo. Se enfoca en la claridad conceptual antes que en la estructura rígida. Ejemplos incluyen la <em>Nueva Versión Internacional (NVI)</em> y la <em>Dios Habla Hoy</em>."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "La perspectiva de la Restauración"
+    },
+    {
+      "type": "paragraph",
+      "content": "Desde la perspectiva de la doctrina de la Restauración, la existencia de múltiples traducciones modernas cumple un propósito providencial: al comparar diferentes versiones y apoyarse en la revelación moderna, los santos de los últimos días pueden examinar los matices de los textos originales y profundizar su comprensión doctrinal. La combinación del estudio erudito y la guía espiritual permite discernir con mayor claridad el mensaje restaurado de los profetas."
+    },
+    {
+      "type": "heading",
+      "content": "Conclusión"
+    },
+    {
+      "type": "paragraph",
+      "content": "Las traducciones modernas y los principios científicos de traducción reflejan el esfuerzo constante de la erudición por hacer que la palabra eterna de Dios resuene con claridad en cada nueva generación y en cada rincón de la tierra."
+    }
+  ],
+  "references": [
+    {
+      "concept": "Toda la Escritura es inspirada por Dios",
+      "ref": "2 Timoteo 3:16–17"
+    },
+    {
+      "concept": "La palabra del Señor es lámpara",
+      "ref": "Salmos 119:105"
+    },
+    {
+      "concept": "La palabra de Dios permanece para siempre",
+      "ref": "1 Pedro 1:23–25"
+    },
+    {
+      "concept": "El evangelio eterno proclamado a toda nación",
+      "ref": "Apocalipsis 14:6"
+    },
+    {
+      "concept": "La predicación del evangelio a todo el mundo",
+      "ref": "Mateo 28:19–20"
+    },
+    {
+      "concept": "El poder de las Escrituras para dar esperanza",
+      "ref": "Romanos 15:4"
+    },
+    {
+      "concept": "Esdras leyó en el libro de la ley",
+      "ref": "Esdras 8:1–3"
+    },
+    {
+      "concept": "El testimonio unificado de la palabra divina",
+      "ref": "2 Nefi 29:8"
+    },
+    {
+      "concept": "La predicación apostólica",
+      "ref": "Hechos 17:2–3"
+    },
+    {
+      "concept": "La palabra de Dios como semilla incorruptible",
+      "ref": "1 Pedro 1:23–25"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Traducción de la Biblia",
+      "url": "https://es.wikipedia.org/wiki/Traducci%C3%B3n_de_la_Biblia",
+      "desc": "Wikipedia en español"
+    },
+    {
+      "title": "Bible Translation",
+      "url": "https://www.britannica.com/topic/biblical-literature/Translation",
+      "desc": "Encyclopaedia Britannica"
+    },
+    {
+      "title": "Modern Bible Translation Principles",
+      "url": "https://rsc.byu.edu/archaeological-discoveries-and-scripture/modern-translation",
+      "desc": "BYU Religious Studies Center"
+    },
+    {
+      "title": "Bible Manuscripts and Translations",
+      "url": "https://eom.byu.edu/index.php/Bible_Manuscripts_and_Translations",
+      "desc": "Encyclopedia of Mormonism"
+    }
+  ]
+}

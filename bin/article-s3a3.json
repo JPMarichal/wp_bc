@@ -1,0 +1,119 @@
+{
+  "title": "Las traducciones vernáculas medievales",
+  "slug": "las-traducciones-vernaculas-medievales",
+  "excerpt": "Antes de la Reforma protestante, figuras valientes como John Wycliffe y Jan Hus desafiaron el monopolio eclesiástico del latín, traduciendo la Biblia a las lenguas vernáculas para que el pueblo pudiera leerla.",
+  "series": "la-historia-de-la-traduccion-biblica",
+  "position": 3,
+  "tags": ["traduccion-biblica", "antiguo-testamento", "nuevo-testamento", "historia-de-la-biblia"],
+  "chapters": ["timoteo-3", "tito-1", "salmos-119", "hechos-17", "isaias-55", "mateo-10", "romanos-10", "1-pedro-1", "apocalipsis-14", "esdras-7"],
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Durante gran parte de la Edad Media en Europa occidental, las Escrituras estuvieron confinadas casi exclusivamente a una sola lengua: el latín de la Vulgata. Dado que la inmensa mayoría de la población era analfabeta en latín —hablando únicamente lenguas vernáculas como el inglés antiguo, el alto alemán medio, el francés antiguo o el checo—, el acceso al texto bíblico dependía por completo del clero. Sin embargo, a medida que avanzaba el siglo XIV, florecieron movimientos espirituales y académicos que clamaban por un derecho fundamental: que la palabra de Dios fuera accesible en el idioma del pueblo."
+    },
+    {
+      "type": "heading",
+      "content": "John Wycliffe y la primera Biblia en inglés"
+    },
+    {
+      "type": "paragraph",
+      "content": "El precursor más destacado de este anhelo fue John Wycliffe (c. 1328–1384), teólogo y profesor en la Universidad de Oxford. Conocido como la «Estrella de la Mañana de la Reforma», Wycliffe concluyó que la autoridad suprema de la fe residía en las Escrituras, no en la jerarquía eclesiástica. Para hacer efectivo este principio, organizó y dirigió a finales de la década de 1380 la primera traducción completa de la Biblia al inglés, apoyado por sus discípulos conocidos como los <em>lolardos</em>."
+    },
+    {
+      "type": "paragraph",
+      "content": "La traducción de Wycliffe (basada en el texto latino de la Vulgata, ya que en Inglaterra no se dominaba el hebreo ni el griego en ese momento) se copió a mano en cientos de manuscritos que circularon clandestinamente por todo el reino. La reacción eclesiástica fue implacable: en el Concilio de Oxford de 1408 se prohibió estrictamente traducir o leer la Biblia en inglés sin autorización episcopal. El propio Wycliffe, fallecido años antes, fue condenado póstumamente: en 1428 sus restos fueron exhumados, quemados y arrojados al río Swift."
+    },
+    {
+      "type": "heading",
+      "content": "Jan Hus y el despertar espiritual en Bohemia"
+    },
+    {
+      "type": "paragraph",
+      "content": "Simultáneamente en Europa central, el sacerdote y reformador checo Jan Hus (c. 1369–1415), rector de la Universidad de Praga, abrazó con pasión las enseñanzas de Wycliffe y promovió el uso de la lengua vernácula en la liturgia y la lectura bíblica. Hus defendió que todo creyente tenía derecho a examinar las Escrituras por sí mismo."
+    },
+    {
+      "type": "paragraph",
+      "content": "Acusado de herejía por el Concilio de Constanza, Hus fue quemado en la hoguera en 1415. Su martirio desató las guerras husitas en Bohemia, pero su legado perduró indeleblemente: la devoción del pueblo checo por la Biblia en su propia lengua se convirtió en un baluarte espiritual que dio origen a la <em>Unitas Fratrum</em> (Iglesia de los Hermanos Moravos) un siglo más tarde."
+    },
+    {
+      "type": "heading",
+      "content": "La perspectiva de la Restauración"
+    },
+    {
+      "type": "paragraph",
+      "content": "Desde la perspectiva de la doctrina de la Restauración, la labor heroica de hombres como John Wycliffe y Jan Hus representa un esfuerzo vital para mantener viva la luz de la verdad en medio de la gran apostasía medieval. Aunque carecían de la autoridad del sacerdocio, su valentía al arriesgar la vida para que la palabra de Dios llegara a las manos de los humildes anticipó el espíritu de libertad religiosa que haría posible la Restauración del evangelio en los últimos días."
+    },
+    {
+      "type": "heading",
+      "content": "Conclusión"
+    },
+    {
+      "type": "paragraph",
+      "content": "Las traducciones vernáculas medievales fueron la semilla de un despertar espiritual que transformaría Europa. A través del sacrificio de traductores perseguidos y mártires olvidados, la Biblia comenzó a romper las cadenas del latín exclusivo, preparándose para el estallido de la imprenta y la gran explosión de traducciones que inauguraría la modernidad."
+    }
+  ],
+  "references": [
+    {
+      "concept": "Toda la Escritura es inspirada por Dios",
+      "ref": "2 Timoteo 3:16–17"
+    },
+    {
+      "concept": "La palabra del Señor es lámpara a nuestros pies",
+      "ref": "Salmos 119:105"
+    },
+    {
+      "concept": "Como la lluvia que desciende del cielo y da fruto",
+      "ref": "Isaías 55:10–11"
+    },
+    {
+      "concept": "Predicad desde los tejados lo que oís",
+      "ref": "Mateo 10:27"
+    },
+    {
+      "concept": "La fe viene por el oír la palabra de Dios",
+      "ref": "Romanos 10:17"
+    },
+    {
+      "concept": "El evangelio eterno proclamado a toda nación",
+      "ref": "Apocalipsis 14:6"
+    },
+    {
+      "concept": "Esdras leyó el libro en la plaza ante el pueblo",
+      "ref": "Esdras 8:1–3"
+    },
+    {
+      "concept": "La palabra de Dios como semilla incorruptible",
+      "ref": "1 Pedro 1:23–25"
+    },
+    {
+      "concept": "Pablo razona en las sinagogas con las Escrituras",
+      "ref": "Hechos 17:2–3"
+    },
+    {
+      "concept": "El testimonio unificado de la palabra divina en los últimos días",
+      "ref": "2 Nefi 29:8"
+    }
+  ],
+  "sources": [
+    {
+      "title": "John Wycliffe",
+      "url": "https://es.wikipedia.org/wiki/John_Wycliffe",
+      "desc": "Wikipedia en español"
+    },
+    {
+      "title": "Jan Hus",
+      "url": "https://es.wikipedia.org/wiki/Jan_Hus",
+      "desc": "Wikipedia en español"
+    },
+    {
+      "title": "Wycliffe Bible",
+      "url": "https://www.britannica.com/topic/Wycliffe-Bible",
+      "desc": "Encyclopaedia Britannica"
+    },
+    {
+      "title": "Bible Manuscripts and Translations",
+      "url": "https://eom.byu.edu/index.php/Bible_Manuscripts_and_Translations",
+      "desc": "Encyclopedia of Mormonism"
+    }
+  ]
+}

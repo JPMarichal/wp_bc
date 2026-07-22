@@ -59,12 +59,12 @@ Los idiomas de las Escrituras
 | # | Artículo | Enfoque | Estado |
 |:-:|:---------|:--------|:------:|
 | 1 | La Septuaginta: la primera traducción | Traducción del AT al griego, su importancia para el NT y la Iglesia primitiva | ✅ Publicado (ID 3813) |
-| 2 | La Vulgata: la Biblia de Occidente | Jerónimo, la Vulgata latina, su legado de 1000 años | 🔲 Pendiente |
-| 3 | Las traducciones vernáculas medievales | Wiclif, Hus, y el deseo de llevar la Biblia al pueblo | 🔲 Pendiente |
-| 4 | Lutero y la Reforma | La Biblia alemana, el principio de traducción al idioma del pueblo | 🔲 Pendiente |
-| 5 | La King James y su legado | La KJV y su influencia en el mundo de habla inglesa | 🔲 Pendiente |
-| 6 | Reina-Valera: historia de la Biblia en español | De Casiodoro de Reina (1569) a la RV1960 y revisiones | 🔲 Pendiente |
-| 7 | Traducciones modernas y principios de traducción | Equivalencia formal vs. dinámica, NVI, DHH, etc. | 🔲 Pendiente |
+| 2 | La Vulgata: la Biblia de Occidente | Jerónimo, la Vulgata latina, su legado de 1000 años | ✅ Publicado (ID 3816) |
+| 3 | Las traducciones vernáculas medievales | Wiclif, Hus, y el deseo de llevar la Biblia al pueblo | ✅ Publicado (ID 3817) |
+| 4 | Lutero y la Reforma | La Biblia alemana, el principio de traducción al idioma del pueblo | ✅ Publicado (ID 3818) |
+| 5 | La King James y su legado | La KJV y su influencia en el mundo de habla inglesa | ✅ Publicado (ID 3819) |
+| 6 | Reina-Valera: historia de la Biblia en español | De Casiodoro de Reina (1569) a la RV1960 y revisiones | ✅ Publicado (ID 3820) |
+| 7 | Traducciones modernas y principios de traducción | Equivalencia formal vs. dinámica, NVI, DHH, etc. | ✅ Publicado (ID 3821) |
 
 ---
 
@@ -113,11 +113,11 @@ Los idiomas de las Escrituras
 |:------|----------:|:-----------:|:-:|
 | 1. El origen de los idiomas | 6 | 6 | 100% |
 | 2. Los idiomas originales de la Biblia | 5 | 5 | 100% |
-| 3. La historia de la traducción bíblica | 7 | 1 | 14% |
+| 3. La historia de la traducción bíblica | 7 | 7 | 100% |
 | 4. El lenguaje del Libro de Mormón | 5 | 0 | 0% |
 | 5. Lenguaje de la revelación moderna | 4 | 0 | 0% |
 | 6. Las Escrituras en todos los idiomas | 3 | 0 | 0% |
-| **Total** | **30** | **12** | **40%** |
+| **Total** | **30** | **18** | **60%** |
 
 ---
 

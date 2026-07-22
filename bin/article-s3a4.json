@@ -1,0 +1,119 @@
+{
+  "title": "Lutero y la Reforma",
+  "slug": "lutero-y-la-reforma",
+  "excerpt": "La traducción de la Biblia al alemán por Martín Lutero desde los idiomas originales revolucionó la cristiandad occidental, cimentó el principio de que la palabra de Dios pertenece al pueblo y dio origen al idioma alemán moderno.",
+  "series": "la-historia-de-la-traduccion-biblica",
+  "position": 4,
+  "tags": ["traduccion-biblica", "antiguo-testamento", "nuevo-testamento", "historia-de-la-biblia", "reforma-protestante"],
+  "chapters": ["timoteo-3", "romanos-3", "galatas-3", "salmos-119", "hechos-17", "isaias-40", "mateo-4", "1-pedro-1", "apocalipsis-14", "efesios-2"],
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "En mayo de 1521, Martín Lutero se encontraba confinado en el castillo de Wartburg, aislado y declarado proscrito por el emperador Carlos V y por la Iglesia católica tras su firme postura en la Dieta de Worms. Lejos de permanecer inactivo, Lutero emprendió una tarea titánica que cambiaría para siempre el curso de la historia religiosa y cultural de Europa: traducir el Nuevo Testamento del griego original al alemán hablado por el pueblo llano. Encerrado bajo el seudónimo de <em>Junker Jörg</em> (el caballero Jorge), completó la traducción en apenas once semanas."
+    },
+    {
+      "type": "heading",
+      "content": "El principio de la Reforma: <em>Sola Scriptura</em> y la lengua del pueblo"
+    },
+    {
+      "type": "paragraph",
+      "content": "El corazón teológico de la Reforma protestante se resumía en el lema <em>Sola Scriptura</em>: la autoridad suprema en cuestiones de fe y doctrina residía en las Escrituras, no en la tradición eclesiástica ni en el magisterio papal. Sin embargo, para que los creyentes pudieran ejercer su derecho al libre examen y sostener su fe directamente en la palabra divina, necesitaban poder leer la Biblia en su propio idioma."
+    },
+    {
+      "type": "paragraph",
+      "content": "Lutero comprendió con brillantez intuitiva que la traducción no debía ser un calco rígido del latín ni un alemán culto incomprensible para el campesino o el artesano. Como escribió célebremente en su famosa <em>Carta sobre el arte de traducir</em> (1530): «Debemos preguntar a la madre en su casa, a los niños en la calle, al hombre común en el mercado, y mirarles a la boca para ver cómo hablan, y con eso traducir; así lo entenderán y se darán cuenta de que se les habla en alemán»."
+    },
+    {
+      "type": "heading",
+      "content": "El Nuevo Testamento de septiembre y la Biblia completa de 1534"
+    },
+    {
+      "type": "paragraph",
+      "content": "Publicado en septiembre de 1522, el <em>Septembertestament</em> fue un éxito editorial fulminante. Ilustrado con grabados del taller de Lucas Cranach y redactado con un vigor literario extraordinario, se vendieron miles de ejemplares en pocas semanas. Años más tarde, trabajando en equipo con otros teólogos de Wittenberg como Melanchthon y Zell, Lutero tradujo el Antiguo Testamento directamente desde el hebreo. La Biblia alemana completa salió de las prensas en 1534."
+    },
+    {
+      "type": "paragraph",
+      "content": "La influencia de la Biblia de Lutero trascendió con creces el ámbito religioso: al basar su traducción en el dialecto de la cancillería de Sajonia y adaptarlo al habla popular, Lutero unificó lingüísticamente a una Alemania fragmentada en múltiples dialectos, sentando las bases del idioma alemán moderno."
+    },
+    {
+      "type": "heading",
+      "content": "La perspectiva de la Restauración"
+    },
+    {
+      "type": "paragraph",
+      "content": "Desde la perspectiva de la doctrina de la Restauración, la Reforma protestante y los esfuerzos monumentales de traductores como Martín Lutero constituyeron pasos esenciales en la preparación providencial del mundo moderno. Al romper el monopolio eclesiástico sobre las Escrituras y restaurar el respeto por los textos originales en hebreo y griego, la Reforma despertó en millones de almas el anhelo por la verdad espiritual y preparó el camino para la subsecuente restauración de la autoridad divina y la plenitud del evangelio."
+    },
+    {
+      "type": "heading",
+      "content": "Conclusión"
+    },
+    {
+      "type": "paragraph",
+      "content": "La traducción de la Biblia realizada por Martín Lutero demostró el poder transformador de la palabra de Dios cuando se comunica sin intermediarios al corazón del pueblo. Al alzar la bandera de las Escrituras accesibles para todos, Lutero abrió una puerta que ningún poder humano pudo volver a cerrar."
+    }
+  ],
+  "references": [
+    {
+      "concept": "Toda la Escritura es inspirada por Dios",
+      "ref": "2 Timoteo 3:16–17"
+    },
+    {
+      "concept": "El justo vivirá por la fe (principio de la Reforma)",
+      "ref": "Romanos 1:17"
+    },
+    {
+      "concept": "La libertad con que Cristo nos ha hecho libres",
+      "ref": "Gálatas 5:1"
+    },
+    {
+      "concept": "La palabra del Señor es lámpara en el camino",
+      "ref": "Salmos 119:105"
+    },
+    {
+      "concept": "Pablo razona en las sinagogas a partir de las Escrituras",
+      "ref": "Hechos 17:2–3"
+    },
+    {
+      "concept": "La palabra de Dios no vuelve a mí vacía",
+      "ref": "Isaías 55:10–11"
+    },
+    {
+      "concept": "No sólo de pan vivirá el hombre sino de toda palabra",
+      "ref": "Mateo 4:4"
+    },
+    {
+      "concept": "La palabra del Señor permanece para siempre",
+      "ref": "1 Pedro 1:23–25"
+    },
+    {
+      "concept": "El evangelio eterno proclamado a toda nación",
+      "ref": "Apocalipsis 14:6"
+    },
+    {
+      "concept": "El testimonio unificado de la palabra divina",
+      "ref": "2 Nefi 29:8"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Biblia de Lutero",
+      "url": "https://es.wikipedia.org/wiki/Biblia_de_Lutero",
+      "desc": "Wikipedia en español"
+    },
+    {
+      "title": "Martin Luther",
+      "url": "https://www.britannica.com/biography/Martin-Luther",
+      "desc": "Encyclopaedia Britannica"
+    },
+    {
+      "title": "The Reformation and the Scriptures",
+      "url": "https://rsc.byu.edu/archaeological-discoveries-and-scripture/reformation-scripture",
+      "desc": "BYU Religious Studies Center"
+    },
+    {
+      "title": "Bible Manuscripts and Translations",
+      "url": "https://eom.byu.edu/index.php/Bible_Manuscripts_and_Translations",
+      "desc": "Encyclopedia of Mormonism"
+    }
+  ]
+}

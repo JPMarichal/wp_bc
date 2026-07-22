@@ -1,0 +1,107 @@
+{
+  "title": "La King James y su legado",
+  "slug": "la-king-james-y-su-legado",
+  "excerpt": "Autorizada en 1611 por el rey Jacobo I de Inglaterra, la Versión Autorizada (King James Version) se convirtió en el monumento literario y espiritual del mundo de habla inglesa, ejerciendo una influencia decisiva en la Restauración.",
+  "series": "la-historia-de-la-traduccion-biblica",
+  "position": 5,
+  "tags": ["traduccion-biblica", "antiguo-testamento", "nuevo-testamento", "historia-de-la-biblia", "king-james"],
+  "chapters": ["timoteo-3", "salmos-119", "hechos-17", "isaias-40", "mateo-28", "romanos-15", "1-pedro-1", "apocalipsis-22", "esdras-7", "2-nefi-29"],
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "A finales del siglo XVI, Inglaterra se encontraba dividida por tensiones religiosas entre católicos y puritanos, con múltiples traducciones de la Biblia compitiendo por la lealtad de los fieles (como la Gran Biblia, la Biblia de los Obispos y la influyente Biblia de Ginebra). En 1604, recién ascendido al trono inglés, el rey Jacobo I (King James I) convocó la Conferencia de Hampton Court con el propósito de unificar el reino bajo una sola traducción autorizada de las Escrituras que eliminara los sesgos sectarios de versiones anteriores."
+    },
+    {
+      "type": "heading",
+      "content": "El método de trabajo y la belleza literaria"
+    },
+    {
+      "type": "paragraph",
+      "content": "La tarea fue encomendada a seis comités de traductores —cincuenta y cuatro de los mejores eruditos, lingüistas y teólogos de la época— distribuidos entre Oxford, Cambridge y Westminster. Utilizando los mejores textos hebreos y griegos disponibles, pero basándose fuertemente en las traducciones precedentes (especialmente la obra de William Tyndale), los comités aplicaron un rigor metodológico excepcional."
+    },
+    {
+      "type": "paragraph",
+      "content": "Publicada en 1611 bajo el título oficial de <em>The Authorized Version</em> (conocida universalmente como la <em>King James Version</em> o KJV), la obra destacó por su ritmo cadencioso, su solemnidad litúrgica y una prosa inglesa de una belleza inigualable. Aunque en sus primeros años compitió con la Biblia de Ginebra, la KJV se consolidó gradualmente como el texto bíblico definitivo del mundo protestante de habla inglesa."
+    },
+    {
+      "type": "heading",
+      "content": "Importancia para la Restauración"
+    },
+    {
+      "type": "paragraph",
+      "content": "La Versión Autorizada de 1611 ocupa un lugar providencial en la historia de la Restauración. Fue exactamente la KJV la Biblia que el joven José Smith estudiaba en el hogar familiar en Palmyra en 1820, y cuyas palabras sobre Santiago 1:5 encendieron la chispa de la Primera Visión. Asimismo, el Libro de Mormón y los primeros escritos de la Iglesia reflejan profundamente el lenguaje, el vocabulario y la cadencia de la King James."
+    },
+    {
+      "type": "heading",
+      "content": "Conclusión"
+    },
+    {
+      "type": "paragraph",
+      "content": "La King James Version trascendió su función estrictamente religiosa para convertirse en el monumento fundacional de la literatura y la cultura en lengua inglesa. Su lenguaje majestuoso ha inspirado a generaciones y ha servido como vehículo para la revelación moderna en los últimos días."
+    }
+  ],
+  "references": [
+    {
+      "concept": "Toda la Escritura es inspirada por Dios",
+      "ref": "2 Timoteo 3:16–17"
+    },
+    {
+      "concept": "La palabra del Señor es lámpara y lumbrera",
+      "ref": "Salmos 119:105"
+    },
+    {
+      "concept": "Si alguno tiene falta de sabiduría, pídala a Dios (Santiago 1)",
+      "ref": "Santiago 1:5"
+    },
+    {
+      "concept": "La palabra de Dios permanece para siempre",
+      "ref": "1 Pedro 1:23–25"
+    },
+    {
+      "concept": "El evangelio eterno proclamado a toda nación",
+      "ref": "Apocalipsis 14:6"
+    },
+    {
+      "concept": "La predicación del evangelio a todo el mundo",
+      "ref": "Mateo 28:19–20"
+    },
+    {
+      "concept": "El poder de las Escrituras para dar esperanza",
+      "ref": "Romanos 15:4"
+    },
+    {
+      "concept": "Esdras leyó en el libro de la ley de Dios",
+      "ref": "Esdras 8:1–3"
+    },
+    {
+      "concept": "El testimonio unificado de la palabra divina",
+      "ref": "2 Nefi 29:8"
+    },
+    {
+      "concept": "La predicación apostólica basada en las Escrituras",
+      "ref": "Hechos 17:2–3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "King James Version",
+      "url": "https://es.wikipedia.org/wiki/Versi%C3%B3n_King_James",
+      "desc": "Wikipedia en español"
+    },
+    {
+      "title": "King James Version",
+      "url": "https://www.britannica.com/topic/King-James-Version",
+      "desc": "Encyclopaedia Britannica"
+    },
+    {
+      "title": "The King James Bible and the Restoration",
+      "url": "https://rsc.byu.edu/archaeological-discoveries-and-scripture/king-james-bible",
+      "desc": "BYU Religious Studies Center"
+    },
+    {
+      "title": "Bible Manuscripts and Translations",
+      "url": "https://eom.byu.edu/index.php/Bible_Manuscripts_and_Translations",
+      "desc": "Encyclopedia of Mormonism"
+    }
+  ]
+}
