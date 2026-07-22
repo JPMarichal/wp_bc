@@ -4,8 +4,8 @@
 > Estado: ✅ Plan aprobado
 > Slug: `los-idiomas-de-las-escrituras`
 > Collection term_id: `4966`
-> Series term_ids: 1=`4967`
-> Articles: 1=`3770`, 2=`3773`, 3=`3779`, 4=`3781`, 5=`3783`, 6=`3785`
+> Series term_ids: 1=`4967`, 2=`4980`
+> Articles: 1=`3770`, 2=`3773`, 3=`3779`, 4=`3781`, 5=`3783`, 6=`3785`, 7=`3795`
 
 ---
 
@@ -44,11 +44,11 @@ Los idiomas de las Escrituras
 
 | # | Artículo | Enfoque | Estado |
 |:-:|:---------|:--------|:------:|
-| 1 | El hebreo bíblico: lengua del Antiguo Pacto | Poesía, narrativa, profecía — recursos del hebreo | 🔲 Pendiente |
-| 2 | El arameo bíblico: secciones y contexto | Pasajes en arameo (Dn 2–7, Esd 4–7), por qué y para qué | 🔲 Pendiente |
-| 3 | El griego del Nuevo Testamento | Koiné vs. griego clásico, características del griego neotestamentario | 🔲 Pendiente |
-| 4 | Manuscritos y transmisión textual | Manuscritos clave del AT (LXX, Qumrán) y NT (Papiros, Vaticanus, Sinaiticus) | 🔲 Pendiente |
-| 5 | Interrelación e influencias entre los tres idiomas | Préstamos léxicos, influencia del hebreo en el griego del NT, la Septuaginta como puente | 🔲 Pendiente |
+| 1 | El hebreo bíblico: lengua del Antiguo Pacto | Poesía, narrativa, profecía — recursos del hebreo | ✅ Publicado (ID 3795) |
+| 2 | El arameo bíblico: secciones y contexto | Pasajes en arameo (Dn 2–7, Esd 4–7), por qué y para qué | ✅ Publicado (ID 3798) |
+| 3 | El griego del Nuevo Testamento | Koiné vs. griego clásico, características del griego neotestamentario | ✅ Publicado (ID 3803) |
+| 4 | Manuscritos y transmisión textual | Manuscritos clave del AT (LXX, Qumrán) y NT (Papiros, Vaticanus, Sinaiticus) | ✅ Publicado (ID 3805) |
+| 5 | Interrelación e influencias entre los tres idiomas | Préstamos léxicos, influencia del hebreo en el griego del NT, la Septuaginta como puente | ✅ Publicado (ID 3806) |
 
 ---
 
@@ -112,12 +112,12 @@ Los idiomas de las Escrituras
 | Serie | Artículos | Completados | % |
 |:------|----------:|:-----------:|:-:|
 | 1. El origen de los idiomas | 6 | 6 | 100% |
-| 2. Los idiomas originales de la Biblia | 5 | 0 | 0% |
+| 2. Los idiomas originales de la Biblia | 5 | 5 | 100% |
 | 3. La historia de la traducción bíblica | 7 | 0 | 0% |
 | 4. El lenguaje del Libro de Mormón | 5 | 0 | 0% |
 | 5. Lenguaje de la revelación moderna | 4 | 0 | 0% |
 | 6. Las Escrituras en todos los idiomas | 3 | 0 | 0% |
-| **Total** | **30** | **2** | **7%** |
+| **Total** | **30** | **11** | **37%** |
 
 ---
 
