@@ -76,8 +76,8 @@ Los idiomas de las Escrituras
 |:-:|:---------|:--------|:------:|
 | 1 | El egipcio reformado: ¿qué sabemos? | Mormón 9:32–33, evidencias, debates académicos | ✅ Publicado (ID 3857) |
 | 2 | Hebraísmos en el Libro de Mormón | Paralelismo, constructo, uso de "y" | ✅ Publicado (ID 3862) |
-| 3 | El quiasmo y otras figuras literarias | Quiasmo, inclusio, y otras estructuras | ✅ Publicado (ID 3866) |
-| 4 | El proceso de traducción de José Smith | Urí y Tumim, testigos, el don de traducción | 🔲 Pendiente |
+| 3 | El quiasmo y otras figuras literarias | Quiasmo, inclusio, y otras estructuras | ✅ Publicado (ID 3869) |
+| 4 | El proceso de traducción de José Smith | Urí y Tumim, testigos, el don de traducción | ✅ Publicado (ID 3871) |
 | 5 | Estilo y lenguaje de la traducción | Inglés isabelino, frases características, comparación con la KJV | 🔲 Pendiente |
 
 ---
@@ -114,10 +114,10 @@ Los idiomas de las Escrituras
 | 1. El origen de los idiomas | 6 | 6 | 100% |
 | 2. Los idiomas originales de la Biblia | 5 | 5 | 100% |
 | 3. La historia de la traducción bíblica | 7 | 7 | 100% |
-| 4. El lenguaje del Libro de Mormón | 5 | 3 | 60% |
+| 4. El lenguaje del Libro de Mormón | 5 | 4 | 80% |
 | 5. Lenguaje de la revelación moderna | 4 | 0 | 0% |
 | 6. Las Escrituras en todos los idiomas | 3 | 0 | 0% |
-| **Total** | **30** | **21** | **70%** |
+| **Total** | **30** | **22** | **73%** |
 
 ---
 
